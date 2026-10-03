@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+const load=async n=>import('data:text/javascript;base64,'+Buffer.from(await readFile(new URL('../static/js/'+n,import.meta.url),'utf8')).toString('base64'));
+const {adaptIntelligence,mapArticles,visibleArticles}=await load('news_model.js');
+const {markerPresentation}=await load('news_presentation.js');
+const record={article_id:'form144',headline:'Form 144 APPLE INC For: 27 September By Investing',content_type:'event',display_type:'event',gate:{is_event:false},ticker_analysis:[{ticker:'AAPL',qualification:'candidate_requires_review'}],feed:{state:'surface'},geography:{latitude:37,longitude:-122},severity:{level:'Unknown'}};
+const [a]=adaptIntelligence({schema_version:'news_ui_v3',articles:[record],queue:[]});
+assert.equal(a.display_type,'research');assert.equal(a.analyses[0].qualification,'candidate_requires_review');
+assert.deepEqual(mapArticles([a]),[]);assert.equal(visibleArticles([a]).length,1);assert.equal(visibleArticles([a],'events').length,0);
+assert.equal(markerPresentation(a).severity,'N/A — Not confirmed event');
+const [e]=adaptIntelligence({schema_version:'news_ui_v3',articles:[{...record,gate:{is_event:true},display_type:'event'}],queue:[]});assert.equal(e.display_type,'event');assert.equal(mapArticles([e]).length,1);
+const ui=await readFile(new URL('../static/js/news_ui.js',import.meta.url),'utf8');
+assert.ok(ui.includes("e.display_type==='research'?'RESEARCH'"));assert.ok(ui.includes("['EVENT STATUS','Not confirmed as discrete event']"));
+console.log('PASS gate-authoritative display, Form 144, qualification retention, event filter and map safety');

@@ -1,0 +1,9 @@
+{
+  "modified_existing_files": [
+    "tests/news_model_test.mjs",
+    "static/css/news.css",
+    "static/js/news_ui.js"
+  ],
+  "unchanged_original_files": 550,
+  "protected_backend_templates_globe_and_data_unchanged": true
+}

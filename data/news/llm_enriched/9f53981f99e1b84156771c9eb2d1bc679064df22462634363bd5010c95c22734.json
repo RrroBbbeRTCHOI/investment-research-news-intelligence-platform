@@ -1,0 +1,115 @@
+{
+  "status": "available",
+  "schema_version": "news_semantic_v3_1",
+  "prompt_version": "news_semantics_v3_1_sentence_grounding",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "content_hash": "9f53981f99e1b84156771c9eb2d1bc679064df22462634363bd5010c95c22734",
+  "article_content_hash": "46821d797316245f6476e4234b379d5256c14e12640464bfbbabaaa3a3ab6ade",
+  "generated_at": "2026-09-25T14:46:50.880273+00:00",
+  "semantic": {
+    "article_class": "macro_event",
+    "is_relevant_candidate": true,
+    "summary_short": "The Federal Reserve on Wednesday released its latest interest rate decision.",
+    "summary_full": "The Federal Reserve on Wednesday released its latest interest rate decision. The Federal Reserve voted to keep its key interest rate steady despite opposition from three regional presidents, Beth Hammack of Cleveland, Neel Kashkari of Minneapolis, and Lorie Logan of Dallas, who had expressed a desire for higher rates.",
+    "primary_country": "United States",
+    "event_type": "Monetary Policy",
+    "event_subtype": "Interest Rate Decision",
+    "countries": [
+      "United States"
+    ],
+    "entities": [
+      "Federal Reserve",
+      "Federal Open Market Committee",
+      "Beth Hammack",
+      "Neel Kashkari",
+      "Lorie Logan",
+      "Kevin Warsh"
+    ],
+    "companies_mentioned": [],
+    "direct_ticker_candidates": [],
+    "economic_channels": [
+      "Monetary Policy",
+      "Interest Rates"
+    ],
+    "candidate_indirect_tickers": [],
+    "missing_information": [],
+    "research_questions": [
+      "Will future Federal Open Market Committee meetings see further dissenting votes regarding interest rate targets?"
+    ],
+    "severity_candidate": "Medium",
+    "severity_reason": "An interest rate decision with three dissenting votes creates an unusually high level of uncertainty for monetary policy.",
+    "severity_confidence": 0.8,
+    "operational_event": false,
+    "fundamental_change_detected": false,
+    "llm_confidence": 0.95,
+    "citations": [
+      {
+        "field": "summary_short",
+        "quote": "The Federal Reserve on Wednesday released its latest interest rate decision.",
+        "source_field": "summary"
+      },
+      {
+        "field": "summary_full",
+        "quote": "The Federal Reserve on Wednesday released its latest interest rate decision.",
+        "source_field": "summary"
+      },
+      {
+        "field": "summary_full",
+        "quote": "The Federal Reserve voted to keep its key interest rate steady despite opposition from three regional presidents, Beth Hammack of Cleveland, Neel Kashkari of Minneapolis, and Lorie Logan of Dallas, who had expressed a desire for higher rates.",
+        "source_field": "body"
+      },
+      {
+        "field": "primary_country",
+        "quote": "Federal Reserve",
+        "source_field": "headline"
+      },
+      {
+        "field": "event_type",
+        "quote": "interest rates",
+        "source_field": "headline"
+      },
+      {
+        "field": "event_subtype",
+        "quote": "interest rate decision",
+        "source_field": "summary"
+      },
+      {
+        "field": "article_class",
+        "quote": "Fed holds interest rates steady",
+        "source_field": "headline"
+      },
+      {
+        "field": "economic_channels",
+        "quote": "interest rate",
+        "source_field": "summary"
+      },
+      {
+        "field": "severity_candidate",
+        "quote": "an unusually high level of uncertainty for the meeting",
+        "source_field": "body"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "total_tokens": 1190,
+    "estimated_cost_usd": null,
+    "scope": "successful response only; failed-attempt usage unavailable"
+  },
+  "cache_hit": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "success"
+    }
+  ],
+  "attempt_audit_scope": "original enrichment generation; cache reuse makes no new requests",
+  "attempt_count": 1,
+  "retry_count": 0,
+  "fallback_used": false
+}

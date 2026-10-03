@@ -1,0 +1,990 @@
+{
+  "articles": [
+    {
+      "article_id": "historical_H61",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H61",
+      "headline": "EU fines Apple 500 million euros for Digital Markets Act breach",
+      "summary": "The European Commission fined Apple 500 million euros after finding its App Store steering restrictions breached the Digital Markets Act.",
+      "body": "The European Commission fined Apple 500 million euros after finding its App Store steering restrictions breached the Digital Markets Act. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/sustainability/boards-policy-regulation/apple-fined-570-million-meta-228-million-breaching-eu-law-2025-04-23/",
+      "topics": [
+        "Apple",
+        "Digital Markets Act",
+        "App Store",
+        "fine"
+      ],
+      "countries": [
+        "European Union"
+      ],
+      "published_at": "2025-04-23",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H62",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H62",
+      "headline": "EU orders Apple to improve interoperability with rival devices and apps",
+      "summary": "The European Commission issued two Digital Markets Act orders requiring Apple to improve interoperability with rival devices and app developers.",
+      "body": "The European Commission issued two Digital Markets Act orders requiring Apple to improve interoperability with rival devices and app developers. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/google-hit-with-2-charges-under-landmark-eu-rules-risks-fines-2025-03-19/",
+      "topics": [
+        "Apple",
+        "Digital Markets Act",
+        "interoperability",
+        "regulation"
+      ],
+      "countries": [
+        "European Union"
+      ],
+      "published_at": "2025-03-19",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H63",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H63",
+      "headline": "EU top court confirms Apple must pay Ireland 13 billion euros in back taxes",
+      "summary": "The EU's top court issued a final judgment confirming the European Commission's decision that Ireland had granted Apple unlawful state aid and must recover about 13 billion euros.",
+      "body": "The EU's top court issued a final judgment confirming the European Commission's decision that Ireland had granted Apple unlawful state aid and must recover about 13 billion euros. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/apple-loses-fight-against-13-billion-euro-eu-tax-order-ireland-2024-09-10/",
+      "topics": [
+        "Apple",
+        "court ruling",
+        "tax"
+      ],
+      "countries": [
+        "Ireland",
+        "European Union"
+      ],
+      "published_at": "2024-09-10",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H64",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H64",
+      "headline": "US trade tribunal blocks imports of certain Apple Watch models",
+      "summary": "A U.S. trade tribunal's patent ruling resulted in an import ban on certain Apple Watch Series 9 and Ultra 2 models over blood-oxygen technology.",
+      "body": "A U.S. trade tribunal's patent ruling resulted in an import ban on certain Apple Watch Series 9 and Ultra 2 models over blood-oxygen technology. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/legal/apple-asks-us-appeals-court-reverse-apple-watch-import-ban-2024-04-05/",
+      "topics": [
+        "Apple",
+        "Apple Watch",
+        "ITC",
+        "import ban"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2023-12-26",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H65",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H65",
+      "headline": "Microsoft announces about 10,000 job cuts",
+      "summary": "Microsoft announced plans to eliminate about 10,000 jobs as part of a broad restructuring and cost-reduction effort.",
+      "body": "Microsoft announced plans to eliminate about 10,000 jobs as part of a broad restructuring and cost-reduction effort. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/microsoft-corp-lay-off-thousands-jobs-sky-news-2023-01-17/",
+      "topics": [
+        "Microsoft",
+        "layoffs",
+        "workforce reduction"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2023-01-18",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H66",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H66",
+      "headline": "FTC sues to block Microsoft's acquisition of Activision Blizzard",
+      "summary": "The U.S. Federal Trade Commission filed an antitrust complaint seeking to block Microsoft's proposed acquisition of Activision Blizzard.",
+      "body": "The U.S. Federal Trade Commission filed an antitrust complaint seeking to block Microsoft's proposed acquisition of Activision Blizzard. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Federal Trade Commission",
+      "article_url": "https://www.ftc.gov/news-events/news/press-releases/2022/12/ftc-seeks-block-microsoft-corps-acquisition-activision-blizzard-inc",
+      "topics": [
+        "Microsoft",
+        "Activision Blizzard",
+        "FTC",
+        "antitrust"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2022-12-08",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H67",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H67",
+      "headline": "US judge rejects FTC request to block Microsoft Activision deal",
+      "summary": "A U.S. federal judge denied the FTC's request for a preliminary injunction against Microsoft's acquisition of Activision Blizzard.",
+      "body": "A U.S. federal judge denied the FTC's request for a preliminary injunction against Microsoft's acquisition of Activision Blizzard. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/legal/us-judge-rules-microsoft-activision-deal-can-go-forward-2023-07-11/",
+      "topics": [
+        "Microsoft",
+        "Activision Blizzard",
+        "FTC",
+        "ruling"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2023-07-11",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H68",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H68",
+      "headline": "UK launches formal probe into Microsoft's Inflection AI hiring deal",
+      "summary": "Britain's competition regulator opened a formal investigation into Microsoft's hiring of former Inflection AI staff and its partnership with the startup.",
+      "body": "Britain's competition regulator opened a formal investigation into Microsoft's hiring of former Inflection AI staff and its partnership with the startup. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/uk-watchdog-starts-probe-into-microsoft-hiring-former-inflection-ai-staff-2024-07-16/",
+      "topics": [
+        "Microsoft",
+        "Inflection AI",
+        "CMA",
+        "investigation"
+      ],
+      "countries": [
+        "United Kingdom"
+      ],
+      "published_at": "2024-07-16",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H69",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H69",
+      "headline": "Alphabet announces about 12,000 job cuts",
+      "summary": "Alphabet announced plans to eliminate about 12,000 jobs, roughly 6% of its workforce.",
+      "body": "Alphabet announced plans to eliminate about 12,000 jobs, roughly 6% of its workforce. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/google-parent-lay-off-12000-workers-memo-2023-01-20/",
+      "topics": [
+        "Alphabet",
+        "Google",
+        "layoffs",
+        "workforce reduction"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2023-01-20",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H70",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H70",
+      "headline": "French competition watchdog fines Google 250 million euros",
+      "summary": "France's competition authority fined Google 250 million euros for breaches of commitments involving media publishers and its AI service.",
+      "body": "France's competition authority fined Google 250 million euros for breaches of commitments involving media publishers and its AI service. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/french-competition-watchdog-hits-google-with-250-mln-euro-fine-2024-03-20/",
+      "topics": [
+        "Google",
+        "fine",
+        "publishers",
+        "AI"
+      ],
+      "countries": [
+        "France"
+      ],
+      "published_at": "2024-03-20",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H71",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H71",
+      "headline": "US Justice Department outlines remedies in Google search monopoly case",
+      "summary": "The U.S. Justice Department outlined potential remedies in the Google search antitrust case, including limits on exclusive agreements and possible structural measures.",
+      "body": "The U.S. Justice Department outlined potential remedies in the Google search antitrust case, including limits on exclusive agreements and possible structural measures. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/us-outlines-potential-remedies-google-search-case-2024-10-09/",
+      "topics": [
+        "Google",
+        "search",
+        "DOJ",
+        "remedy proposal"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2024-10-09",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H72",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H72",
+      "headline": "EU charges Google with two Digital Markets Act breaches",
+      "summary": "The European Commission issued preliminary findings charging Google with violations involving Google Play steering rules and search self-preferencing.",
+      "body": "The European Commission issued preliminary findings charging Google with violations involving Google Play steering rules and search self-preferencing. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/google-hit-with-2-charges-under-landmark-eu-rules-risks-fines-2025-03-19/",
+      "topics": [
+        "Google",
+        "Digital Markets Act",
+        "Google Play",
+        "charge"
+      ],
+      "countries": [
+        "European Union"
+      ],
+      "published_at": "2025-03-19",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H73",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H73",
+      "headline": "Amazon expands layoffs to more than 18,000 roles",
+      "summary": "Amazon said its workforce reduction would affect more than 18,000 roles, concentrated largely in its stores and people organizations.",
+      "body": "Amazon said its workforce reduction would affect more than 18,000 roles, concentrated largely in its stores and people organizations. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.investing.com/news/stock-market-news/amazon-to-lay-off-over-17000-workers--wsj-2973469",
+      "topics": [
+        "Amazon",
+        "layoffs",
+        "workforce reduction"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2023-01-04",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H74",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H74",
+      "headline": "Amazon completes acquisition of One Medical",
+      "summary": "Amazon completed its $3.5 billion acquisition of primary-care provider One Medical.",
+      "body": "Amazon completed its $3.5 billion acquisition of primary-care provider One Medical. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://finance.yahoo.com/news/amazon-completes-one-medical-takeover-141324797.html",
+      "topics": [
+        "Amazon",
+        "One Medical",
+        "acquisition",
+        "healthcare"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2023-02-22",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H75",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H75",
+      "headline": "Amazon announces another 9,000 job cuts",
+      "summary": "Amazon announced an additional workforce reduction of about 9,000 roles, affecting areas including AWS, advertising and Twitch.",
+      "body": "Amazon announced an additional workforce reduction of about 9,000 roles, affecting areas including AWS, advertising and Twitch. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.investing.com/news/world-news/amazon-to-lay-off-9000-more-workers-3034851",
+      "topics": [
+        "Amazon",
+        "AWS",
+        "layoffs",
+        "workforce reduction"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2023-03-20",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H76",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H76",
+      "headline": "FTC charges Amazon Ring over privacy and security failures",
+      "summary": "The FTC charged Amazon's Ring unit with privacy and security failures and announced a proposed settlement with monetary relief and required safeguards.",
+      "body": "The FTC charged Amazon's Ring unit with privacy and security failures and announced a proposed settlement with monetary relief and required safeguards. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Federal Trade Commission",
+      "article_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/2023113-ring-llc",
+      "topics": [
+        "Amazon",
+        "Ring",
+        "FTC",
+        "privacy",
+        "settlement"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2023-05-31",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H77",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H77",
+      "headline": "Meta announces more than 11,000 job cuts",
+      "summary": "Meta announced it would eliminate more than 11,000 jobs, about 13% of its workforce.",
+      "body": "Meta announced it would eliminate more than 11,000 jobs, about 13% of its workforce. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.investing.com/news/economy/meta-to-cut-more-than-11000-jobs-in-one-of-biggest-us-layoffs-this-year-2937533",
+      "topics": [
+        "Meta",
+        "layoffs",
+        "workforce reduction"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2022-11-09",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H78",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H78",
+      "headline": "Meta announces another 10,000 job cuts",
+      "summary": "Meta announced a second major workforce reduction covering about 10,000 jobs and thousands of open positions.",
+      "body": "Meta announced a second major workforce reduction covering about 10,000 jobs and thousands of open positions. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.investing.com/news/economy/facebookparent-meta-to-lay-off-10000-employees-in-second-round-of-job-cuts-3030104",
+      "topics": [
+        "Meta",
+        "layoffs",
+        "workforce reduction"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2023-03-14",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H79",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H79",
+      "headline": "Dozens of US states sue Meta over alleged harm to children",
+      "summary": "A bipartisan coalition of U.S. states sued Meta and Instagram, alleging addictive design features and harm to children and teens.",
+      "body": "A bipartisan coalition of U.S. states sued Meta and Instagram, alleging addictive design features and harm to children and teens. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.investing.com/news/stock-market-news/dozens-of-us-states-sue-meta-platforms-for-harming-mental-health-of-young-people-3207211",
+      "topics": [
+        "Meta",
+        "Instagram",
+        "lawsuit",
+        "children"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2023-10-24",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H80",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H80",
+      "headline": "EU opens Digital Services Act investigation into Meta over election disinformation",
+      "summary": "The European Commission opened formal proceedings into Facebook and Instagram over suspected Digital Services Act breaches involving disinformation and political content.",
+      "body": "The European Commission opened formal proceedings into Facebook and Instagram over suspected Digital Services Act breaches involving disinformation and political content. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/facebook-instagram-eu-crosshairs-suspected-tech-rule-breaches-2024-04-30/",
+      "topics": [
+        "Meta",
+        "Digital Services Act",
+        "investigation",
+        "disinformation"
+      ],
+      "countries": [
+        "European Union"
+      ],
+      "published_at": "2024-04-30",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H81",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H81",
+      "headline": "EU opens investigation into Meta over child safety risks",
+      "summary": "The European Commission opened an in-depth Digital Services Act investigation into Facebook and Instagram over risks to children.",
+      "body": "The European Commission opened an in-depth Digital Services Act investigation into Facebook and Instagram over risks to children. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/meta-faces-eu-investigation-over-child-safety-risks-2024-05-16/",
+      "topics": [
+        "Meta",
+        "Digital Services Act",
+        "child safety",
+        "investigation"
+      ],
+      "countries": [
+        "European Union"
+      ],
+      "published_at": "2024-05-16",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H82",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H82",
+      "headline": "US imposes license requirement on Nvidia A100 and H100 chip exports to China",
+      "summary": "Nvidia disclosed that the U.S. government imposed a new license requirement on exports of its A100 and H100 chips to China and Russia.",
+      "body": "Nvidia disclosed that the U.S. government imposed a new license requirement on exports of its A100 and H100 chips to China and Russia. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/nvidia-says-us-government-allows-ai-chip-development-china-2022-09-01/",
+      "topics": [
+        "Nvidia",
+        "A100",
+        "H100",
+        "export controls"
+      ],
+      "countries": [
+        "United States",
+        "China"
+      ],
+      "published_at": "2022-08-31",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H83",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H83",
+      "headline": "EU scrutinizes Nvidia bundling practices during Run:ai review",
+      "summary": "EU antitrust regulators questioned Nvidia customers about software-hardware bundling while reviewing the company's Run:ai acquisition.",
+      "body": "EU antitrust regulators questioned Nvidia customers about software-hardware bundling while reviewing the company's Run:ai acquisition. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/eu-watchdog-probes-nvidia-hardware-bundling-it-scrutinises-runai-deal-2024-12-04/",
+      "topics": [
+        "Nvidia",
+        "Run:ai",
+        "antitrust scrutiny",
+        "bundling"
+      ],
+      "countries": [
+        "European Union"
+      ],
+      "published_at": "2024-12-04",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H84",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H84",
+      "headline": "China opens antitrust investigation into Nvidia",
+      "summary": "China's market regulator opened an investigation into Nvidia over suspected anti-monopoly violations and possible breaches of Mellanox acquisition commitments.",
+      "body": "China's market regulator opened an investigation into Nvidia over suspected anti-monopoly violations and possible breaches of Mellanox acquisition commitments. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/china-investigates-nvidia-over-suspected-violation-antimonopoly-law-2024-12-09/",
+      "topics": [
+        "Nvidia",
+        "China",
+        "antitrust",
+        "investigation"
+      ],
+      "countries": [
+        "China"
+      ],
+      "published_at": "2024-12-09",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H85",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H85",
+      "headline": "Nvidia completes acquisition of Run:ai after regulatory reviews",
+      "summary": "Nvidia completed its roughly $700 million acquisition of AI infrastructure software company Run:ai after receiving EU clearance.",
+      "body": "Nvidia completed its roughly $700 million acquisition of AI infrastructure software company Run:ai after receiving EU clearance. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/markets/deals/nvidia-closes-700-mln-runai-acquisition-after-regulatory-hurdles-2024-12-30/",
+      "topics": [
+        "Nvidia",
+        "Run:ai",
+        "acquisition"
+      ],
+      "countries": [
+        "United States",
+        "Israel",
+        "European Union"
+      ],
+      "published_at": "2024-12-30",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H86",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H86",
+      "headline": "Tesla recalls more than 362,000 US vehicles over Full Self-Driving software",
+      "summary": "Tesla recalled more than 362,000 U.S. vehicles because Full Self-Driving Beta could allow unsafe behavior around intersections and speed limits.",
+      "body": "Tesla recalled more than 362,000 U.S. vehicles because Full Self-Driving Beta could allow unsafe behavior around intersections and speed limits. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/business/autos-transportation/tesla-recalls-362000-us-vehicles-over-full-self-driving-software-2023-02-16/",
+      "topics": [
+        "Tesla",
+        "Full Self-Driving",
+        "recall"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2023-02-16",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H87",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H87",
+      "headline": "Tesla recalls more than 1.1 million vehicles in China",
+      "summary": "Tesla initiated a recall covering more than 1.1 million vehicles in China over acceleration and braking risks.",
+      "body": "Tesla initiated a recall covering more than 1.1 million vehicles in China over acceleration and braking risks. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/business/autos-transportation/tesla-recalls-11-mln-cars-china-over-braking-defect-regulator-2023-05-12/",
+      "topics": [
+        "Tesla",
+        "China",
+        "recall"
+      ],
+      "countries": [
+        "China"
+      ],
+      "published_at": "2023-05-12",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H88",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H88",
+      "headline": "Tesla recalls about 2.2 million US vehicles over warning-light font size",
+      "summary": "Tesla recalled about 2.2 million U.S. vehicles because some dashboard warning-light fonts were smaller than federal safety standards.",
+      "body": "Tesla recalled about 2.2 million U.S. vehicles because some dashboard warning-light fonts were smaller than federal safety standards. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/business/autos-transportation/tesla-recall-nearly-22-million-us-vehicles-over-warning-lights-2024-02-02/",
+      "topics": [
+        "Tesla",
+        "recall",
+        "vehicle safety"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2024-02-02",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H89",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H89",
+      "headline": "Reuters reports Tesla cancelled low-cost car project; Musk disputes report",
+      "summary": "Reuters reported that Tesla had cancelled its long-promised lower-cost vehicle project and shifted focus toward robotaxis; Elon Musk publicly disputed the report.",
+      "body": "Reuters reported that Tesla had cancelled its long-promised lower-cost vehicle project and shifted focus toward robotaxis; Elon Musk publicly disputed the report. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/business/autos-transportation/tesla-scraps-low-cost-car-plans-amid-fierce-chinese-ev-competition-2024-04-05/",
+      "topics": [
+        "Tesla",
+        "product strategy",
+        "low-cost vehicle",
+        "robotaxi"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2024-04-05",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H90",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H90",
+      "headline": "US opens investigation into Tesla Full Self-Driving after crashes",
+      "summary": "NHTSA opened a preliminary investigation into about 2.4 million Tesla vehicles equipped with Full Self-Driving software after crashes in reduced-visibility conditions.",
+      "body": "NHTSA opened a preliminary investigation into about 2.4 million Tesla vehicles equipped with Full Self-Driving software after crashes in reduced-visibility conditions. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/business/autos-transportation/nhtsa-opens-probe-into-24-mln-tesla-vehicles-over-full-self-driving-collisions-2024-10-18/",
+      "topics": [
+        "Tesla",
+        "Full Self-Driving",
+        "NHTSA",
+        "investigation"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2024-10-18",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    }
+  ]
+}

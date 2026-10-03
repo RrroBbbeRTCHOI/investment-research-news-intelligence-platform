@@ -1,0 +1,141 @@
+{
+  "status": "available",
+  "schema_version": "news_semantic_v3_1",
+  "prompt_version": "news_semantics_v3_1_sentence_grounding",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "content_hash": "498e3c3abca459329eb0d9f57aec87f124ebaf8a1f45da079e82416978811b25",
+  "article_content_hash": "96079ade351e7a098586f07434fd3bd80ca0b743efea29099d3c88b7b138e3e9",
+  "generated_at": "2026-09-25T14:47:09.307427+00:00",
+  "semantic": {
+    "article_class": "regulatory_event",
+    "is_relevant_candidate": true,
+    "summary_short": "The US government is investigating Singapore-based Apex Logistics for its suspected role in smuggling Nvidia Corp. AI chips to China, people familiar with the matter said, in what may result in the first action against a transportation company for allegedly participating in the illegal semiconductor trade.",
+    "summary_full": "The US government is investigating Singapore-based Apex Logistics for its suspected role in smuggling Nvidia Corp. AI chips to China, people familiar with the matter said, in what may result in the first action against a transportation company for allegedly participating in the illegal semiconductor trade. Authorities are investigating whether Apex may have transported AI systems made by Super Micro Computer Inc. in violation of US export restrictions.",
+    "primary_country": "United States",
+    "event_type": "Regulatory and Legal",
+    "event_subtype": "Investigation",
+    "countries": [
+      "United States",
+      "Singapore",
+      "China"
+    ],
+    "entities": [
+      "Apex Logistics",
+      "Nvidia Corp.",
+      "Super Micro Computer Inc.",
+      "US government"
+    ],
+    "companies_mentioned": [
+      "Apex Logistics",
+      "Nvidia",
+      "Super Micro Computer Inc."
+    ],
+    "direct_ticker_candidates": [
+      "NVDA",
+      "SMCI"
+    ],
+    "economic_channels": [
+      "supply_chain",
+      "regulatory_compliance"
+    ],
+    "candidate_indirect_tickers": [],
+    "missing_information": [
+      "Confirmation of whether Apex Logistics actually transported the chips in violation of US export controls",
+      "Specific penalties or enforcement actions that may be taken"
+    ],
+    "research_questions": [
+      "What are the final findings of the US government investigation into Apex Logistics?",
+      "Will formal enforcement actions or penalties be issued against Apex Logistics?"
+    ],
+    "severity_candidate": "Medium",
+    "severity_reason": "The US government is investigating a logistics firm for allegedly smuggling restricted AI chips to China, which could lead to enforcement actions against transportation intermediaries involved in semiconductor trade restrictions.",
+    "severity_confidence": 0.8,
+    "operational_event": true,
+    "fundamental_change_detected": false,
+    "llm_confidence": 0.95,
+    "citations": [
+      {
+        "field": "summary_short",
+        "quote": "The US government is investigating Singapore-based Apex Logistics for its suspected role in smuggling Nvidia Corp. AI chips to China, people familiar with the matter said, in what may result in the first action against a transportation company for allegedly participating in the illegal semiconductor trade.",
+        "source_field": "summary"
+      },
+      {
+        "field": "summary_full",
+        "quote": "The US government is investigating Singapore-based Apex Logistics for its suspected role in smuggling Nvidia Corp. AI chips to China, people familiar with the matter said, in what may result in the first action against a transportation company for allegedly participating in the illegal semiconductor trade.",
+        "source_field": "summary"
+      },
+      {
+        "field": "summary_full",
+        "quote": "Authorities are investigating whether Apex may have transported AI systems made by Super Micro Computer Inc. in violation of US export restrictions.",
+        "source_field": "body"
+      },
+      {
+        "field": "primary_country",
+        "quote": "US",
+        "source_field": "headline"
+      },
+      {
+        "field": "event_type",
+        "quote": "investigating",
+        "source_field": "summary"
+      },
+      {
+        "field": "event_subtype",
+        "quote": "investigating",
+        "source_field": "summary"
+      },
+      {
+        "field": "article_class",
+        "quote": "investigating",
+        "source_field": "summary"
+      },
+      {
+        "field": "economic_channels",
+        "quote": "illegal semiconductor trade",
+        "source_field": "summary"
+      },
+      {
+        "field": "severity_candidate",
+        "quote": "investigating",
+        "source_field": "summary"
+      },
+      {
+        "field": "operational_event",
+        "quote": "investigating",
+        "source_field": "summary"
+      },
+      {
+        "field": "fundamental_change_detected",
+        "quote": "investigating",
+        "source_field": "summary"
+      },
+      {
+        "field": "direct_ticker_candidates",
+        "quote": "Nvidia Corp.",
+        "source_field": "summary"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "total_tokens": 1487,
+    "estimated_cost_usd": null,
+    "scope": "successful response only; failed-attempt usage unavailable"
+  },
+  "cache_hit": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "success"
+    }
+  ],
+  "attempt_audit_scope": "original enrichment generation; cache reuse makes no new requests",
+  "attempt_count": 1,
+  "retry_count": 0,
+  "fallback_used": false
+}

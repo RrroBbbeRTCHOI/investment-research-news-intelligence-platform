@@ -1,0 +1,40 @@
+{
+  "version": "MOAT3-2026-09-11-v1",
+  "currency": "USD",
+  "horizon": 5,
+  "horizon_method": "Platform standardized expectation window, not a CFA requirement",
+  "erp": {
+    "value": 0.0414,
+    "observation_date": "2026-09-01",
+    "source": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/home.htm",
+    "method": "Damodaran US implied ERP, trailing 12-month adjusted payout; nominal Treasury convention",
+    "version": "Damodaran-2026-09-01",
+    "kind": "External Assumption",
+    "max_age_days": 62
+  },
+  "risk_free_fallback": {
+    "value": 0.0475,
+    "observation_date": "2026-09-01",
+    "source": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/home.htm",
+    "method": "Treasury rate accompanying September 1 ERP release; dated fallback, not a live quote",
+    "version": "Damodaran-2026-09-01-Treasury",
+    "kind": "Fallback",
+    "max_age_days": 30
+  },
+  "terminal_growth": {
+    "value": 0.02,
+    "observation_date": "2026-06-17",
+    "source": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm",
+    "method": "Platform mature-business anchor at FOMC longer-run PCE inflation (2%); zero real perpetual expansion convention, not a company forecast",
+    "version": "FOMC-2026-06-inflation-anchor-v1",
+    "kind": "External Macro Assumption",
+    "max_age_days": 365
+  },
+  "statutory_tax_fallback": null,
+  "allow_beta_one_fallback": true,
+  "tax_rate_bounds": [0.0, 0.6],
+  "solver_growth_bounds": [-0.95, 3.0],
+  "reconciliation_gap_pp": 10.0,
+  "discount_rate_offsets": [-0.01, -0.005, 0.0, 0.005, 0.01],
+  "terminal_growth_offsets": [-0.005, 0.0, 0.005]
+}

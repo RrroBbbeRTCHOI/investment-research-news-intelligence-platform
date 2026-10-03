@@ -1,0 +1,1667 @@
+{
+  "_metadata": {
+    "schema_version": "event_v1",
+    "article_count": 30,
+    "accepted_event_count": 7,
+    "rejected_article_count": 23,
+    "generated_at": "2026-09-20T05:06:32.530246+00:00"
+  },
+  "events": [
+    {
+      "event_id": "evt_ea5ea1c5fdce3f6ddd9fd52e",
+      "canonical_event_id": "evt_ea5ea1c5fdce3f6ddd9fd52e",
+      "article_ids": [
+        "historical_H91"
+      ],
+      "source_count": 1,
+      "independent_source_count": 1,
+      "first_seen_at": null,
+      "last_seen_at": null,
+      "published_at_first": "2025-01-02",
+      "event_start_at": null,
+      "event_end_at": null,
+      "time_precision": "unknown",
+      "event_status": "developing",
+      "primary_country": null,
+      "affected_countries": [],
+      "primary_region": null,
+      "affected_regions": [],
+      "city": null,
+      "location_name": null,
+      "latitude": null,
+      "longitude": null,
+      "location_confidence": null,
+      "event_type": "legal_antitrust",
+      "event_subtype": "settlement",
+      "severity_score": null,
+      "severity_confidence": null,
+      "scope": null,
+      "duration_class": "unknown",
+      "event_novelty": null,
+      "physical_damage": null,
+      "production_disruption": null,
+      "capacity_disruption": null,
+      "logistics_disruption": null,
+      "port_disruption": null,
+      "power_disruption": null,
+      "network_disruption": null,
+      "cloud_service_disruption": null,
+      "labor_disruption": null,
+      "supply_shortage": null,
+      "regulatory_change": null,
+      "export_restriction": null,
+      "import_restriction": null,
+      "price_change_explicit": null,
+      "demand_change_explicit": null,
+      "companies_mentioned": [
+        "Apple"
+      ],
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "suppliers_mentioned": [],
+      "customers_mentioned": [],
+      "industries_mentioned": [],
+      "products_mentioned": [],
+      "technologies_mentioned": [],
+      "commodities_mentioned": [],
+      "government_entities": [],
+      "regulators": [],
+      "people_mentioned": [],
+      "supply_channel": null,
+      "demand_channel": null,
+      "cost_channel": null,
+      "revenue_channel": null,
+      "margin_channel": null,
+      "capex_channel": null,
+      "financing_channel": null,
+      "interest_rate_channel": null,
+      "fx_channel": null,
+      "commodity_channel": null,
+      "logistics_channel": null,
+      "energy_channel": null,
+      "regulatory_channel": null,
+      "legal_channel": true,
+      "technology_channel": null,
+      "competition_channel": null,
+      "source_quality": null,
+      "extraction_confidence": 0.7,
+      "confirmation_level": "single_source",
+      "evidence_fields": {
+        "event_type": {
+          "value": "legal_antitrust",
+          "evidence": "Apple agrees to pay $95 million to settle Siri privacy lawsuit",
+          "source_field": "headline",
+          "basis": "article_text"
+        },
+        "event_subtype": {
+          "value": "settlement",
+          "evidence": "Apple agrees to pay $95 million to settle Siri privacy lawsuit",
+          "source_field": "headline",
+          "basis": "article_text"
+        },
+        "event_summary": {
+          "value": "Apple agrees to pay $95 million to settle Siri privacy lawsuit",
+          "evidence": "Apple agrees to pay $95 million to settle Siri privacy lawsuit",
+          "source_field": "headline",
+          "basis": "article_text"
+        },
+        "keywords": {
+          "value": [
+            "settlement"
+          ],
+          "evidence": "Apple agrees to pay $95 million to settle Siri privacy lawsuit",
+          "source_field": "headline",
+          "basis": "article_text",
+          "supporting_snippets": [
+            {
+              "evidence": "Apple agrees to pay $95 million to settle Siri privacy lawsuit",
+              "source_field": "headline"
+            }
+          ]
+        },
+        "canonical_headline": {
+          "value": "Apple agrees to pay $95 million to settle Siri privacy lawsuit",
+          "evidence": "Apple agrees to pay $95 million to settle Siri privacy lawsuit",
+          "source_field": "headline",
+          "basis": "article_text"
+        },
+        "source_count": {
+          "value": 1,
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "independent_source_count": {
+          "value": 1,
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "event_status": {
+          "value": "developing",
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "confirmation_level": {
+          "value": "single_source",
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "extraction_confidence": {
+          "value": 0.7,
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "published_at_first": {
+          "value": "2025-01-02",
+          "evidence": "2025-01-02",
+          "source_field": "published_at",
+          "basis": "provider_metadata"
+        },
+        "legal_channel": {
+          "value": true,
+          "evidence": "Apple agrees to pay $95 million to settle Siri privacy lawsuit",
+          "source_field": "headline",
+          "basis": "article_text",
+          "assertion": "affirmed"
+        },
+        "companies_mentioned": {
+          "value": [
+            "Apple"
+          ],
+          "evidence": "Apple agrees to pay $95 million to settle Siri privacy lawsuit",
+          "source_field": "headline",
+          "basis": "article_text",
+          "supporting_snippets": [
+            {
+              "evidence": "Apple agrees to pay $95 million to settle Siri privacy lawsuit",
+              "source_field": "headline"
+            }
+          ]
+        },
+        "tickers_mentioned": {
+          "value": [
+            "AAPL"
+          ],
+          "evidence": "Apple agrees to pay $95 million to settle Siri privacy lawsuit",
+          "source_field": "headline",
+          "basis": "article_text",
+          "supporting_snippets": [
+            {
+              "evidence": "Apple agrees to pay $95 million to settle Siri privacy lawsuit",
+              "source_field": "headline"
+            }
+          ]
+        }
+      },
+      "canonical_headline": "Apple agrees to pay $95 million to settle Siri privacy lawsuit",
+      "event_summary": "Apple agrees to pay $95 million to settle Siri privacy lawsuit",
+      "keywords": [
+        "settlement"
+      ],
+      "created_at": "2026-09-20T05:06:32.530246+00:00",
+      "updated_at": "2026-09-20T05:06:32.530246+00:00",
+      "schema_version": "event_v1"
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "canonical_event_id": "evt_d58bc38e43e97491998b975b",
+      "article_ids": [
+        "historical_H95"
+      ],
+      "source_count": 1,
+      "independent_source_count": 1,
+      "first_seen_at": null,
+      "last_seen_at": null,
+      "published_at_first": "2023-05-15",
+      "event_start_at": null,
+      "event_end_at": null,
+      "time_precision": "unknown",
+      "event_status": "developing",
+      "primary_country": null,
+      "affected_countries": [],
+      "primary_region": null,
+      "affected_regions": [],
+      "city": null,
+      "location_name": null,
+      "latitude": null,
+      "longitude": null,
+      "location_confidence": null,
+      "event_type": "legal_antitrust",
+      "event_subtype": "remedy_proposal",
+      "severity_score": null,
+      "severity_confidence": null,
+      "scope": null,
+      "duration_class": "unknown",
+      "event_novelty": null,
+      "physical_damage": null,
+      "production_disruption": null,
+      "capacity_disruption": null,
+      "logistics_disruption": null,
+      "port_disruption": null,
+      "power_disruption": null,
+      "network_disruption": null,
+      "cloud_service_disruption": null,
+      "labor_disruption": null,
+      "supply_shortage": null,
+      "regulatory_change": null,
+      "export_restriction": null,
+      "import_restriction": null,
+      "price_change_explicit": null,
+      "demand_change_explicit": null,
+      "companies_mentioned": [
+        "Microsoft"
+      ],
+      "tickers_mentioned": [
+        "MSFT"
+      ],
+      "suppliers_mentioned": [],
+      "customers_mentioned": [],
+      "industries_mentioned": [],
+      "products_mentioned": [],
+      "technologies_mentioned": [],
+      "commodities_mentioned": [],
+      "government_entities": [
+        "European Commission"
+      ],
+      "regulators": [],
+      "people_mentioned": [],
+      "supply_channel": null,
+      "demand_channel": null,
+      "cost_channel": null,
+      "revenue_channel": null,
+      "margin_channel": null,
+      "capex_channel": null,
+      "financing_channel": null,
+      "interest_rate_channel": null,
+      "fx_channel": null,
+      "commodity_channel": null,
+      "logistics_channel": null,
+      "energy_channel": null,
+      "regulatory_channel": null,
+      "legal_channel": true,
+      "technology_channel": null,
+      "competition_channel": true,
+      "source_quality": null,
+      "extraction_confidence": 0.7,
+      "confirmation_level": "single_source",
+      "evidence_fields": {
+        "event_type": {
+          "value": "legal_antitrust",
+          "evidence": "The European Commission approved Microsoft's proposed acquisition of Activision Blizzard subject to commitments addressing cloud-gaming competition concerns.",
+          "source_field": "body",
+          "basis": "article_text"
+        },
+        "event_subtype": {
+          "value": "remedy_proposal",
+          "evidence": "The European Commission approved Microsoft's proposed acquisition of Activision Blizzard subject to commitments addressing cloud-gaming competition concerns.",
+          "source_field": "body",
+          "basis": "article_text"
+        },
+        "event_summary": {
+          "value": "The European Commission approved Microsoft's proposed acquisition of Activision Blizzard subject to commitments addressing cloud-gaming competition concerns.",
+          "evidence": "The European Commission approved Microsoft's proposed acquisition of Activision Blizzard subject to commitments addressing cloud-gaming competition concerns.",
+          "source_field": "body",
+          "basis": "article_text"
+        },
+        "keywords": {
+          "value": [
+            "remedy_proposal"
+          ],
+          "evidence": "The European Commission approved Microsoft's proposed acquisition of Activision Blizzard subject to commitments addressing cloud-gaming competition concerns.",
+          "source_field": "body",
+          "basis": "article_text",
+          "supporting_snippets": [
+            {
+              "evidence": "The European Commission approved Microsoft's proposed acquisition of Activision Blizzard subject to commitments addressing cloud-gaming competition concerns.",
+              "source_field": "body"
+            }
+          ]
+        },
+        "canonical_headline": {
+          "value": "EU clears Microsoft's Activision Blizzard acquisition with remedies",
+          "evidence": "EU clears Microsoft's Activision Blizzard acquisition with remedies",
+          "source_field": "headline",
+          "basis": "article_text"
+        },
+        "source_count": {
+          "value": 1,
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "independent_source_count": {
+          "value": 1,
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "event_status": {
+          "value": "developing",
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "confirmation_level": {
+          "value": "single_source",
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "extraction_confidence": {
+          "value": 0.7,
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "published_at_first": {
+          "value": "2023-05-15",
+          "evidence": "2023-05-15",
+          "source_field": "published_at",
+          "basis": "provider_metadata"
+        },
+        "competition_channel": {
+          "value": true,
+          "evidence": "The European Commission approved Microsoft's proposed acquisition of Activision Blizzard subject to commitments addressing cloud-gaming competition concerns.",
+          "source_field": "body",
+          "basis": "article_text",
+          "assertion": "affirmed"
+        },
+        "legal_channel": {
+          "value": true,
+          "evidence": "The European Commission approved Microsoft's proposed acquisition of Activision Blizzard subject to commitments addressing cloud-gaming competition concerns.",
+          "source_field": "body",
+          "basis": "article_text",
+          "assertion": "affirmed"
+        },
+        "companies_mentioned": {
+          "value": [
+            "Microsoft"
+          ],
+          "evidence": "EU clears Microsoft's Activision Blizzard acquisition with remedies",
+          "source_field": "headline",
+          "basis": "article_text",
+          "supporting_snippets": [
+            {
+              "evidence": "EU clears Microsoft's Activision Blizzard acquisition with remedies",
+              "source_field": "headline"
+            }
+          ]
+        },
+        "tickers_mentioned": {
+          "value": [
+            "MSFT"
+          ],
+          "evidence": "EU clears Microsoft's Activision Blizzard acquisition with remedies",
+          "source_field": "headline",
+          "basis": "article_text",
+          "supporting_snippets": [
+            {
+              "evidence": "EU clears Microsoft's Activision Blizzard acquisition with remedies",
+              "source_field": "headline"
+            }
+          ]
+        },
+        "government_entities": {
+          "value": [
+            "European Commission"
+          ],
+          "evidence": "The European Commission approved Microsoft's proposed acquisition of Activision Blizzard subj",
+          "source_field": "summary",
+          "basis": "article_text",
+          "supporting_snippets": [
+            {
+              "evidence": "The European Commission approved Microsoft's proposed acquisition of Activision Blizzard subj",
+              "source_field": "summary"
+            }
+          ]
+        }
+      },
+      "canonical_headline": "EU clears Microsoft's Activision Blizzard acquisition with remedies",
+      "event_summary": "The European Commission approved Microsoft's proposed acquisition of Activision Blizzard subject to commitments addressing cloud-gaming competition concerns.",
+      "keywords": [
+        "remedy_proposal"
+      ],
+      "created_at": "2026-09-20T05:06:32.530246+00:00",
+      "updated_at": "2026-09-20T05:06:32.530246+00:00",
+      "schema_version": "event_v1"
+    },
+    {
+      "event_id": "evt_d2391214f5982d9740a8ac9f",
+      "canonical_event_id": "evt_d2391214f5982d9740a8ac9f",
+      "article_ids": [
+        "historical_H97"
+      ],
+      "source_count": 1,
+      "independent_source_count": 1,
+      "first_seen_at": null,
+      "last_seen_at": null,
+      "published_at_first": "2025-05-13",
+      "event_start_at": null,
+      "event_end_at": null,
+      "time_precision": "unknown",
+      "event_status": "developing",
+      "primary_country": null,
+      "affected_countries": [],
+      "primary_region": null,
+      "affected_regions": [],
+      "city": null,
+      "location_name": null,
+      "latitude": null,
+      "longitude": null,
+      "location_confidence": null,
+      "event_type": "corporate_action",
+      "event_subtype": "workforce_reduction",
+      "severity_score": null,
+      "severity_confidence": null,
+      "scope": null,
+      "duration_class": "unknown",
+      "event_novelty": null,
+      "physical_damage": null,
+      "production_disruption": null,
+      "capacity_disruption": null,
+      "logistics_disruption": null,
+      "port_disruption": null,
+      "power_disruption": null,
+      "network_disruption": null,
+      "cloud_service_disruption": null,
+      "labor_disruption": null,
+      "supply_shortage": null,
+      "regulatory_change": null,
+      "export_restriction": null,
+      "import_restriction": null,
+      "price_change_explicit": null,
+      "demand_change_explicit": null,
+      "companies_mentioned": [
+        "Microsoft"
+      ],
+      "tickers_mentioned": [
+        "MSFT"
+      ],
+      "suppliers_mentioned": [],
+      "customers_mentioned": [],
+      "industries_mentioned": [],
+      "products_mentioned": [],
+      "technologies_mentioned": [],
+      "commodities_mentioned": [],
+      "government_entities": [],
+      "regulators": [],
+      "people_mentioned": [],
+      "supply_channel": null,
+      "demand_channel": null,
+      "cost_channel": null,
+      "revenue_channel": null,
+      "margin_channel": null,
+      "capex_channel": null,
+      "financing_channel": null,
+      "interest_rate_channel": null,
+      "fx_channel": null,
+      "commodity_channel": null,
+      "logistics_channel": null,
+      "energy_channel": null,
+      "regulatory_channel": null,
+      "legal_channel": null,
+      "technology_channel": null,
+      "competition_channel": null,
+      "source_quality": null,
+      "extraction_confidence": 0.7,
+      "confirmation_level": "single_source",
+      "evidence_fields": {
+        "event_type": {
+          "value": "corporate_action",
+          "evidence": "Microsoft announces layoffs affecting about 6,000 employees",
+          "source_field": "headline",
+          "basis": "article_text"
+        },
+        "event_subtype": {
+          "value": "workforce_reduction",
+          "evidence": "Microsoft announces layoffs affecting about 6,000 employees",
+          "source_field": "headline",
+          "basis": "article_text"
+        },
+        "event_summary": {
+          "value": "Microsoft announces layoffs affecting about 6,000 employees",
+          "evidence": "Microsoft announces layoffs affecting about 6,000 employees",
+          "source_field": "headline",
+          "basis": "article_text"
+        },
+        "keywords": {
+          "value": [
+            "workforce_reduction"
+          ],
+          "evidence": "Microsoft announces layoffs affecting about 6,000 employees",
+          "source_field": "headline",
+          "basis": "article_text",
+          "supporting_snippets": [
+            {
+              "evidence": "Microsoft announces layoffs affecting about 6,000 employees",
+              "source_field": "headline"
+            }
+          ]
+        },
+        "canonical_headline": {
+          "value": "Microsoft announces layoffs affecting about 6,000 employees",
+          "evidence": "Microsoft announces layoffs affecting about 6,000 employees",
+          "source_field": "headline",
+          "basis": "article_text"
+        },
+        "source_count": {
+          "value": 1,
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "independent_source_count": {
+          "value": 1,
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "event_status": {
+          "value": "developing",
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "confirmation_level": {
+          "value": "single_source",
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "extraction_confidence": {
+          "value": 0.7,
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "published_at_first": {
+          "value": "2025-05-13",
+          "evidence": "2025-05-13",
+          "source_field": "published_at",
+          "basis": "provider_metadata"
+        },
+        "companies_mentioned": {
+          "value": [
+            "Microsoft"
+          ],
+          "evidence": "Microsoft announces layoffs affecting about 6,000 employees",
+          "source_field": "headline",
+          "basis": "article_text",
+          "supporting_snippets": [
+            {
+              "evidence": "Microsoft announces layoffs affecting about 6,000 employees",
+              "source_field": "headline"
+            }
+          ]
+        },
+        "tickers_mentioned": {
+          "value": [
+            "MSFT"
+          ],
+          "evidence": "Microsoft announces layoffs affecting about 6,000 employees",
+          "source_field": "headline",
+          "basis": "article_text",
+          "supporting_snippets": [
+            {
+              "evidence": "Microsoft announces layoffs affecting about 6,000 employees",
+              "source_field": "headline"
+            }
+          ]
+        }
+      },
+      "canonical_headline": "Microsoft announces layoffs affecting about 6,000 employees",
+      "event_summary": "Microsoft announces layoffs affecting about 6,000 employees",
+      "keywords": [
+        "workforce_reduction"
+      ],
+      "created_at": "2026-09-20T05:06:32.530246+00:00",
+      "updated_at": "2026-09-20T05:06:32.530246+00:00",
+      "schema_version": "event_v1"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "canonical_event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "article_ids": [
+        "historical_H104"
+      ],
+      "source_count": 1,
+      "independent_source_count": 1,
+      "first_seen_at": null,
+      "last_seen_at": null,
+      "published_at_first": "2022-03-17",
+      "event_start_at": null,
+      "event_end_at": null,
+      "time_precision": "unknown",
+      "event_status": "developing",
+      "primary_country": null,
+      "affected_countries": [],
+      "primary_region": null,
+      "affected_regions": [],
+      "city": null,
+      "location_name": null,
+      "latitude": null,
+      "longitude": null,
+      "location_confidence": null,
+      "event_type": "corporate_transaction",
+      "event_subtype": "acquisition",
+      "severity_score": null,
+      "severity_confidence": null,
+      "scope": null,
+      "duration_class": "unknown",
+      "event_novelty": null,
+      "physical_damage": null,
+      "production_disruption": null,
+      "capacity_disruption": null,
+      "logistics_disruption": null,
+      "port_disruption": null,
+      "power_disruption": null,
+      "network_disruption": null,
+      "cloud_service_disruption": null,
+      "labor_disruption": null,
+      "supply_shortage": null,
+      "regulatory_change": null,
+      "export_restriction": null,
+      "import_restriction": null,
+      "price_change_explicit": null,
+      "demand_change_explicit": null,
+      "companies_mentioned": [
+        "Amazon"
+      ],
+      "tickers_mentioned": [
+        "AMZN"
+      ],
+      "suppliers_mentioned": [],
+      "customers_mentioned": [],
+      "industries_mentioned": [],
+      "products_mentioned": [],
+      "technologies_mentioned": [],
+      "commodities_mentioned": [],
+      "government_entities": [],
+      "regulators": [],
+      "people_mentioned": [],
+      "supply_channel": null,
+      "demand_channel": null,
+      "cost_channel": null,
+      "revenue_channel": null,
+      "margin_channel": null,
+      "capex_channel": null,
+      "financing_channel": null,
+      "interest_rate_channel": null,
+      "fx_channel": null,
+      "commodity_channel": null,
+      "logistics_channel": null,
+      "energy_channel": null,
+      "regulatory_channel": null,
+      "legal_channel": null,
+      "technology_channel": null,
+      "competition_channel": true,
+      "source_quality": null,
+      "extraction_confidence": 0.7,
+      "confirmation_level": "single_source",
+      "evidence_fields": {
+        "event_type": {
+          "value": "corporate_transaction",
+          "evidence": "Amazon completed its acquisition of MGM, bringing the film and television studio into its entertainment business",
+          "source_field": "body",
+          "basis": "article_text"
+        },
+        "event_subtype": {
+          "value": "acquisition",
+          "evidence": "Amazon completed its acquisition of MGM, bringing the film and television studio into its entertainment business",
+          "source_field": "body",
+          "basis": "article_text"
+        },
+        "event_summary": {
+          "value": "Amazon completed its acquisition of MGM, bringing the film and television studio into its entertainment business",
+          "evidence": "Amazon completed its acquisition of MGM, bringing the film and television studio into its entertainment business",
+          "source_field": "body",
+          "basis": "article_text"
+        },
+        "keywords": {
+          "value": [
+            "acquisition"
+          ],
+          "evidence": "Amazon completed its acquisition of MGM, bringing the film and television studio into its entertainment business",
+          "source_field": "body",
+          "basis": "article_text",
+          "supporting_snippets": [
+            {
+              "evidence": "Amazon completed its acquisition of MGM, bringing the film and television studio into its entertainment business",
+              "source_field": "body"
+            }
+          ]
+        },
+        "canonical_headline": {
+          "value": "Amazon completes MGM acquisition",
+          "evidence": "Amazon completes MGM acquisition",
+          "source_field": "headline",
+          "basis": "article_text"
+        },
+        "source_count": {
+          "value": 1,
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "independent_source_count": {
+          "value": 1,
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "event_status": {
+          "value": "developing",
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "confirmation_level": {
+          "value": "single_source",
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "extraction_confidence": {
+          "value": 0.7,
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "published_at_first": {
+          "value": "2022-03-17",
+          "evidence": "2022-03-17",
+          "source_field": "published_at",
+          "basis": "provider_metadata"
+        },
+        "competition_channel": {
+          "value": true,
+          "evidence": "Amazon completed its acquisition of MGM, bringing the film and television studio into its entertainment business",
+          "source_field": "body",
+          "basis": "article_text",
+          "assertion": "affirmed"
+        },
+        "companies_mentioned": {
+          "value": [
+            "Amazon"
+          ],
+          "evidence": "Amazon completes MGM acquisition",
+          "source_field": "headline",
+          "basis": "article_text",
+          "supporting_snippets": [
+            {
+              "evidence": "Amazon completes MGM acquisition",
+              "source_field": "headline"
+            }
+          ]
+        },
+        "tickers_mentioned": {
+          "value": [
+            "AMZN"
+          ],
+          "evidence": "Amazon completes MGM acquisition",
+          "source_field": "headline",
+          "basis": "article_text",
+          "supporting_snippets": [
+            {
+              "evidence": "Amazon completes MGM acquisition",
+              "source_field": "headline"
+            }
+          ]
+        }
+      },
+      "canonical_headline": "Amazon completes MGM acquisition",
+      "event_summary": "Amazon completed its acquisition of MGM, bringing the film and television studio into its entertainment business",
+      "keywords": [
+        "acquisition"
+      ],
+      "created_at": "2026-09-20T05:06:32.530246+00:00",
+      "updated_at": "2026-09-20T05:06:32.530246+00:00",
+      "schema_version": "event_v1"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "canonical_event_id": "evt_337f2aea6e55990e897612e5",
+      "article_ids": [
+        "historical_H111"
+      ],
+      "source_count": 1,
+      "independent_source_count": 1,
+      "first_seen_at": null,
+      "last_seen_at": null,
+      "published_at_first": "2022-02-07",
+      "event_start_at": null,
+      "event_end_at": null,
+      "time_precision": "unknown",
+      "event_status": "developing",
+      "primary_country": null,
+      "affected_countries": [],
+      "primary_region": null,
+      "affected_regions": [],
+      "city": null,
+      "location_name": null,
+      "latitude": null,
+      "longitude": null,
+      "location_confidence": null,
+      "event_type": "corporate_transaction",
+      "event_subtype": "acquisition_terminated",
+      "severity_score": null,
+      "severity_confidence": null,
+      "scope": null,
+      "duration_class": "unknown",
+      "event_novelty": null,
+      "physical_damage": null,
+      "production_disruption": null,
+      "capacity_disruption": null,
+      "logistics_disruption": null,
+      "port_disruption": null,
+      "power_disruption": null,
+      "network_disruption": null,
+      "cloud_service_disruption": null,
+      "labor_disruption": null,
+      "supply_shortage": null,
+      "regulatory_change": null,
+      "export_restriction": null,
+      "import_restriction": null,
+      "price_change_explicit": null,
+      "demand_change_explicit": null,
+      "companies_mentioned": [
+        "NVIDIA"
+      ],
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "suppliers_mentioned": [],
+      "customers_mentioned": [],
+      "industries_mentioned": [],
+      "products_mentioned": [],
+      "technologies_mentioned": [],
+      "commodities_mentioned": [],
+      "government_entities": [],
+      "regulators": [],
+      "people_mentioned": [],
+      "supply_channel": null,
+      "demand_channel": null,
+      "cost_channel": null,
+      "revenue_channel": null,
+      "margin_channel": null,
+      "capex_channel": null,
+      "financing_channel": null,
+      "interest_rate_channel": null,
+      "fx_channel": null,
+      "commodity_channel": null,
+      "logistics_channel": null,
+      "energy_channel": null,
+      "regulatory_channel": null,
+      "legal_channel": null,
+      "technology_channel": null,
+      "competition_channel": true,
+      "source_quality": null,
+      "extraction_confidence": 0.7,
+      "confirmation_level": "single_source",
+      "evidence_fields": {
+        "event_type": {
+          "value": "corporate_transaction",
+          "evidence": "Nvidia and SoftBank terminate Arm acquisition",
+          "source_field": "headline",
+          "basis": "article_text"
+        },
+        "event_subtype": {
+          "value": "acquisition_terminated",
+          "evidence": "Nvidia and SoftBank terminate Arm acquisition",
+          "source_field": "headline",
+          "basis": "article_text"
+        },
+        "event_summary": {
+          "value": "Nvidia and SoftBank terminate Arm acquisition",
+          "evidence": "Nvidia and SoftBank terminate Arm acquisition",
+          "source_field": "headline",
+          "basis": "article_text"
+        },
+        "keywords": {
+          "value": [
+            "acquisition_terminated"
+          ],
+          "evidence": "Nvidia and SoftBank terminate Arm acquisition",
+          "source_field": "headline",
+          "basis": "article_text",
+          "supporting_snippets": [
+            {
+              "evidence": "Nvidia and SoftBank terminate Arm acquisition",
+              "source_field": "headline"
+            }
+          ]
+        },
+        "canonical_headline": {
+          "value": "Nvidia and SoftBank terminate Arm acquisition",
+          "evidence": "Nvidia and SoftBank terminate Arm acquisition",
+          "source_field": "headline",
+          "basis": "article_text"
+        },
+        "source_count": {
+          "value": 1,
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "independent_source_count": {
+          "value": 1,
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "event_status": {
+          "value": "developing",
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "confirmation_level": {
+          "value": "single_source",
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "extraction_confidence": {
+          "value": 0.7,
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "published_at_first": {
+          "value": "2022-02-07",
+          "evidence": "2022-02-07",
+          "source_field": "published_at",
+          "basis": "provider_metadata"
+        },
+        "competition_channel": {
+          "value": true,
+          "evidence": "Nvidia and SoftBank terminate Arm acquisition",
+          "source_field": "headline",
+          "basis": "article_text",
+          "assertion": "affirmed"
+        },
+        "companies_mentioned": {
+          "value": [
+            "NVIDIA"
+          ],
+          "evidence": "Nvidia and SoftBank terminate Arm acquisition",
+          "source_field": "headline",
+          "basis": "article_text",
+          "supporting_snippets": [
+            {
+              "evidence": "Nvidia and SoftBank terminate Arm acquisition",
+              "source_field": "headline"
+            }
+          ]
+        },
+        "tickers_mentioned": {
+          "value": [
+            "NVDA"
+          ],
+          "evidence": "Nvidia and SoftBank terminate Arm acquisition",
+          "source_field": "headline",
+          "basis": "article_text",
+          "supporting_snippets": [
+            {
+              "evidence": "Nvidia and SoftBank terminate Arm acquisition",
+              "source_field": "headline"
+            }
+          ]
+        }
+      },
+      "canonical_headline": "Nvidia and SoftBank terminate Arm acquisition",
+      "event_summary": "Nvidia and SoftBank terminate Arm acquisition",
+      "keywords": [
+        "acquisition_terminated"
+      ],
+      "created_at": "2026-09-20T05:06:32.530246+00:00",
+      "updated_at": "2026-09-20T05:06:32.530246+00:00",
+      "schema_version": "event_v1"
+    },
+    {
+      "event_id": "evt_08d0e536072a05d7069cd513",
+      "canonical_event_id": "evt_08d0e536072a05d7069cd513",
+      "article_ids": [
+        "historical_H115"
+      ],
+      "source_count": 1,
+      "independent_source_count": 1,
+      "first_seen_at": null,
+      "last_seen_at": null,
+      "published_at_first": "2024-07-30",
+      "event_start_at": null,
+      "event_end_at": null,
+      "time_precision": "unknown",
+      "event_status": "developing",
+      "primary_country": "United States",
+      "affected_countries": [
+        "United States"
+      ],
+      "primary_region": null,
+      "affected_regions": [],
+      "city": null,
+      "location_name": null,
+      "latitude": null,
+      "longitude": null,
+      "location_confidence": 0.65,
+      "event_type": "corporate_action",
+      "event_subtype": "recall",
+      "severity_score": null,
+      "severity_confidence": null,
+      "scope": null,
+      "duration_class": "unknown",
+      "event_novelty": null,
+      "physical_damage": null,
+      "production_disruption": null,
+      "capacity_disruption": null,
+      "logistics_disruption": null,
+      "port_disruption": null,
+      "power_disruption": null,
+      "network_disruption": null,
+      "cloud_service_disruption": null,
+      "labor_disruption": null,
+      "supply_shortage": null,
+      "regulatory_change": null,
+      "export_restriction": null,
+      "import_restriction": null,
+      "price_change_explicit": null,
+      "demand_change_explicit": null,
+      "companies_mentioned": [
+        "Tesla"
+      ],
+      "tickers_mentioned": [
+        "TSLA"
+      ],
+      "suppliers_mentioned": [],
+      "customers_mentioned": [],
+      "industries_mentioned": [],
+      "products_mentioned": [
+        "vehicles"
+      ],
+      "technologies_mentioned": [],
+      "commodities_mentioned": [],
+      "government_entities": [],
+      "regulators": [],
+      "people_mentioned": [],
+      "supply_channel": null,
+      "demand_channel": null,
+      "cost_channel": null,
+      "revenue_channel": null,
+      "margin_channel": null,
+      "capex_channel": null,
+      "financing_channel": null,
+      "interest_rate_channel": null,
+      "fx_channel": null,
+      "commodity_channel": null,
+      "logistics_channel": null,
+      "energy_channel": null,
+      "regulatory_channel": null,
+      "legal_channel": null,
+      "technology_channel": true,
+      "competition_channel": null,
+      "source_quality": null,
+      "extraction_confidence": 0.7,
+      "confirmation_level": "single_source",
+      "evidence_fields": {
+        "event_type": {
+          "value": "corporate_action",
+          "evidence": "Tesla recalled about 1.8 million U.S. vehicles because a software issue could fail to detect an unlatched hood.",
+          "source_field": "body",
+          "basis": "article_text"
+        },
+        "event_subtype": {
+          "value": "recall",
+          "evidence": "Tesla recalled about 1.8 million U.S. vehicles because a software issue could fail to detect an unlatched hood.",
+          "source_field": "body",
+          "basis": "article_text"
+        },
+        "event_summary": {
+          "value": "Tesla recalled about 1.8 million U.S. vehicles because a software issue could fail to detect an unlatched hood.",
+          "evidence": "Tesla recalled about 1.8 million U.S. vehicles because a software issue could fail to detect an unlatched hood.",
+          "source_field": "body",
+          "basis": "article_text"
+        },
+        "keywords": {
+          "value": [
+            "recall"
+          ],
+          "evidence": "Tesla recalled about 1.8 million U.S. vehicles because a software issue could fail to detect an unlatched hood.",
+          "source_field": "body",
+          "basis": "article_text",
+          "supporting_snippets": [
+            {
+              "evidence": "Tesla recalled about 1.8 million U.S. vehicles because a software issue could fail to detect an unlatched hood.",
+              "source_field": "body"
+            }
+          ]
+        },
+        "canonical_headline": {
+          "value": "Tesla recalls about 1.8 million US vehicles over hood-latch issue",
+          "evidence": "Tesla recalls about 1.8 million US vehicles over hood-latch issue",
+          "source_field": "headline",
+          "basis": "article_text"
+        },
+        "source_count": {
+          "value": 1,
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "independent_source_count": {
+          "value": 1,
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "event_status": {
+          "value": "developing",
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "confirmation_level": {
+          "value": "single_source",
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "extraction_confidence": {
+          "value": 0.7,
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "published_at_first": {
+          "value": "2024-07-30",
+          "evidence": "2024-07-30",
+          "source_field": "published_at",
+          "basis": "provider_metadata"
+        },
+        "affected_countries": {
+          "value": [
+            "United States"
+          ],
+          "evidence": "Tesla recalled about 1.8 million U.S. vehicles because a software issue could fail to detect an unlatched hood.",
+          "source_field": "body",
+          "basis": "article_text",
+          "supporting_snippets": [
+            {
+              "evidence": "Tesla recalled about 1.8 million U.S. vehicles because a software issue could fail to detect an unlatched hood.",
+              "source_field": "body"
+            }
+          ],
+          "mapping_basis": [
+            {
+              "stated": "U.S.",
+              "country": "United States"
+            }
+          ]
+        },
+        "primary_country": {
+          "value": "United States",
+          "evidence": "Tesla recalled about 1.8 million U.S. vehicles because a software issue could fail to detect an unlatched hood.",
+          "source_field": "body",
+          "basis": "article_location_or_policy_actor"
+        },
+        "location_confidence": {
+          "value": 0.65,
+          "evidence": "Tesla recalled about 1.8 million U.S. vehicles because a software issue could fail to detect an unlatched hood.",
+          "source_field": "body",
+          "basis": "heuristic_from_article"
+        },
+        "technology_channel": {
+          "value": true,
+          "evidence": "Tesla recalled about 1.8 million U.S. vehicles because a software issue could fail to detect an unlatched hood.",
+          "source_field": "body",
+          "basis": "article_text",
+          "assertion": "affirmed"
+        },
+        "companies_mentioned": {
+          "value": [
+            "Tesla"
+          ],
+          "evidence": "Tesla recalls about 1.8 million US vehicles over hood-latch issue",
+          "source_field": "headline",
+          "basis": "article_text",
+          "supporting_snippets": [
+            {
+              "evidence": "Tesla recalls about 1.8 million US vehicles over hood-latch issue",
+              "source_field": "headline"
+            }
+          ]
+        },
+        "tickers_mentioned": {
+          "value": [
+            "TSLA"
+          ],
+          "evidence": "Tesla recalls about 1.8 million US vehicles over hood-latch issue",
+          "source_field": "headline",
+          "basis": "article_text",
+          "supporting_snippets": [
+            {
+              "evidence": "Tesla recalls about 1.8 million US vehicles over hood-latch issue",
+              "source_field": "headline"
+            }
+          ]
+        },
+        "products_mentioned": {
+          "value": [
+            "vehicles"
+          ],
+          "evidence": " recalls about 1.8 million US vehicles over hood-latch issue",
+          "source_field": "headline",
+          "basis": "article_text",
+          "supporting_snippets": [
+            {
+              "evidence": " recalls about 1.8 million US vehicles over hood-latch issue",
+              "source_field": "headline"
+            }
+          ]
+        }
+      },
+      "canonical_headline": "Tesla recalls about 1.8 million US vehicles over hood-latch issue",
+      "event_summary": "Tesla recalled about 1.8 million U.S. vehicles because a software issue could fail to detect an unlatched hood.",
+      "keywords": [
+        "recall"
+      ],
+      "created_at": "2026-09-20T05:06:32.530246+00:00",
+      "updated_at": "2026-09-20T05:06:32.530246+00:00",
+      "schema_version": "event_v1"
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "canonical_event_id": "evt_f27962b82d111656b630a696",
+      "article_ids": [
+        "historical_H119"
+      ],
+      "source_count": 1,
+      "independent_source_count": 1,
+      "first_seen_at": null,
+      "last_seen_at": null,
+      "published_at_first": "2022-11-19",
+      "event_start_at": null,
+      "event_end_at": null,
+      "time_precision": "unknown",
+      "event_status": "developing",
+      "primary_country": "United States",
+      "affected_countries": [
+        "United States"
+      ],
+      "primary_region": null,
+      "affected_regions": [],
+      "city": null,
+      "location_name": null,
+      "latitude": null,
+      "longitude": null,
+      "location_confidence": 0.65,
+      "event_type": "corporate_action",
+      "event_subtype": "recall",
+      "severity_score": null,
+      "severity_confidence": null,
+      "scope": null,
+      "duration_class": "unknown",
+      "event_novelty": null,
+      "physical_damage": null,
+      "production_disruption": null,
+      "capacity_disruption": null,
+      "logistics_disruption": null,
+      "port_disruption": null,
+      "power_disruption": null,
+      "network_disruption": null,
+      "cloud_service_disruption": null,
+      "labor_disruption": null,
+      "supply_shortage": null,
+      "regulatory_change": null,
+      "export_restriction": null,
+      "import_restriction": null,
+      "price_change_explicit": null,
+      "demand_change_explicit": null,
+      "companies_mentioned": [
+        "Tesla"
+      ],
+      "tickers_mentioned": [
+        "TSLA"
+      ],
+      "suppliers_mentioned": [],
+      "customers_mentioned": [],
+      "industries_mentioned": [],
+      "products_mentioned": [
+        "vehicles"
+      ],
+      "technologies_mentioned": [],
+      "commodities_mentioned": [],
+      "government_entities": [],
+      "regulators": [],
+      "people_mentioned": [],
+      "supply_channel": null,
+      "demand_channel": null,
+      "cost_channel": null,
+      "revenue_channel": null,
+      "margin_channel": null,
+      "capex_channel": null,
+      "financing_channel": null,
+      "interest_rate_channel": null,
+      "fx_channel": null,
+      "commodity_channel": null,
+      "logistics_channel": null,
+      "energy_channel": null,
+      "regulatory_channel": null,
+      "legal_channel": null,
+      "technology_channel": true,
+      "competition_channel": null,
+      "source_quality": null,
+      "extraction_confidence": 0.7,
+      "confirmation_level": "single_source",
+      "evidence_fields": {
+        "event_type": {
+          "value": "corporate_action",
+          "evidence": "Tesla recalled more than 321,000 U.S. vehicles because a software anomaly could intermittently cause tail lights not to illuminate.",
+          "source_field": "body",
+          "basis": "article_text"
+        },
+        "event_subtype": {
+          "value": "recall",
+          "evidence": "Tesla recalled more than 321,000 U.S. vehicles because a software anomaly could intermittently cause tail lights not to illuminate.",
+          "source_field": "body",
+          "basis": "article_text"
+        },
+        "event_summary": {
+          "value": "Tesla recalled more than 321,000 U.S. vehicles because a software anomaly could intermittently cause tail lights not to illuminate.",
+          "evidence": "Tesla recalled more than 321,000 U.S. vehicles because a software anomaly could intermittently cause tail lights not to illuminate.",
+          "source_field": "body",
+          "basis": "article_text"
+        },
+        "keywords": {
+          "value": [
+            "recall"
+          ],
+          "evidence": "Tesla recalled more than 321,000 U.S. vehicles because a software anomaly could intermittently cause tail lights not to illuminate.",
+          "source_field": "body",
+          "basis": "article_text",
+          "supporting_snippets": [
+            {
+              "evidence": "Tesla recalled more than 321,000 U.S. vehicles because a software anomaly could intermittently cause tail lights not to illuminate.",
+              "source_field": "body"
+            }
+          ]
+        },
+        "canonical_headline": {
+          "value": "Tesla recalls more than 321,000 US vehicles over tail-light software issue",
+          "evidence": "Tesla recalls more than 321,000 US vehicles over tail-light software issue",
+          "source_field": "headline",
+          "basis": "article_text"
+        },
+        "source_count": {
+          "value": 1,
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "independent_source_count": {
+          "value": 1,
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "event_status": {
+          "value": "developing",
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "confirmation_level": {
+          "value": "single_source",
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "extraction_confidence": {
+          "value": 0.7,
+          "evidence": "V1 single-article extraction default; not independent verification.",
+          "source_field": "pipeline",
+          "basis": "administrative_default"
+        },
+        "published_at_first": {
+          "value": "2022-11-19",
+          "evidence": "2022-11-19",
+          "source_field": "published_at",
+          "basis": "provider_metadata"
+        },
+        "affected_countries": {
+          "value": [
+            "United States"
+          ],
+          "evidence": "Tesla recalled more than 321,000 U.S. vehicles because a software anomaly could intermittently cause tail lights not to illuminate.",
+          "source_field": "body",
+          "basis": "article_text",
+          "supporting_snippets": [
+            {
+              "evidence": "Tesla recalled more than 321,000 U.S. vehicles because a software anomaly could intermittently cause tail lights not to illuminate.",
+              "source_field": "body"
+            }
+          ],
+          "mapping_basis": [
+            {
+              "stated": "U.S.",
+              "country": "United States"
+            }
+          ]
+        },
+        "primary_country": {
+          "value": "United States",
+          "evidence": "Tesla recalled more than 321,000 U.S. vehicles because a software anomaly could intermittently cause tail lights not to illuminate.",
+          "source_field": "body",
+          "basis": "article_location_or_policy_actor"
+        },
+        "location_confidence": {
+          "value": 0.65,
+          "evidence": "Tesla recalled more than 321,000 U.S. vehicles because a software anomaly could intermittently cause tail lights not to illuminate.",
+          "source_field": "body",
+          "basis": "heuristic_from_article"
+        },
+        "technology_channel": {
+          "value": true,
+          "evidence": "Tesla recalled more than 321,000 U.S. vehicles because a software anomaly could intermittently cause tail lights not to illuminate.",
+          "source_field": "body",
+          "basis": "article_text",
+          "assertion": "affirmed"
+        },
+        "companies_mentioned": {
+          "value": [
+            "Tesla"
+          ],
+          "evidence": "Tesla recalls more than 321,000 US vehicles over tail-light software issue",
+          "source_field": "headline",
+          "basis": "article_text",
+          "supporting_snippets": [
+            {
+              "evidence": "Tesla recalls more than 321,000 US vehicles over tail-light software issue",
+              "source_field": "headline"
+            }
+          ]
+        },
+        "tickers_mentioned": {
+          "value": [
+            "TSLA"
+          ],
+          "evidence": "Tesla recalls more than 321,000 US vehicles over tail-light software issue",
+          "source_field": "headline",
+          "basis": "article_text",
+          "supporting_snippets": [
+            {
+              "evidence": "Tesla recalls more than 321,000 US vehicles over tail-light software issue",
+              "source_field": "headline"
+            }
+          ]
+        },
+        "products_mentioned": {
+          "value": [
+            "vehicles"
+          ],
+          "evidence": " recalls more than 321,000 US vehicles over tail-light software issue",
+          "source_field": "headline",
+          "basis": "article_text",
+          "supporting_snippets": [
+            {
+              "evidence": " recalls more than 321,000 US vehicles over tail-light software issue",
+              "source_field": "headline"
+            }
+          ]
+        }
+      },
+      "canonical_headline": "Tesla recalls more than 321,000 US vehicles over tail-light software issue",
+      "event_summary": "Tesla recalled more than 321,000 U.S. vehicles because a software anomaly could intermittently cause tail lights not to illuminate.",
+      "keywords": [
+        "recall"
+      ],
+      "created_at": "2026-09-20T05:06:32.530246+00:00",
+      "updated_at": "2026-09-20T05:06:32.530246+00:00",
+      "schema_version": "event_v1"
+    }
+  ],
+  "rejected": [
+    {
+      "article_id": "historical_H92",
+      "is_event": false,
+      "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+      "gate_confidence": 0.7
+    },
+    {
+      "article_id": "historical_H93",
+      "is_event": false,
+      "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+      "gate_confidence": 0.7
+    },
+    {
+      "article_id": "historical_H94",
+      "is_event": false,
+      "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+      "gate_confidence": 0.7
+    },
+    {
+      "article_id": "historical_H96",
+      "is_event": false,
+      "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+      "gate_confidence": 0.7
+    },
+    {
+      "article_id": "historical_H98",
+      "is_event": false,
+      "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+      "gate_confidence": 0.7
+    },
+    {
+      "article_id": "historical_H99",
+      "is_event": false,
+      "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+      "gate_confidence": 0.7
+    },
+    {
+      "article_id": "historical_H100",
+      "is_event": false,
+      "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+      "gate_confidence": 0.7
+    },
+    {
+      "article_id": "historical_H101",
+      "is_event": false,
+      "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+      "gate_confidence": 0.7
+    },
+    {
+      "article_id": "historical_H102",
+      "is_event": false,
+      "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+      "gate_confidence": 0.7
+    },
+    {
+      "article_id": "historical_H103",
+      "is_event": false,
+      "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+      "gate_confidence": 0.7
+    },
+    {
+      "article_id": "historical_H105",
+      "is_event": false,
+      "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+      "gate_confidence": 0.7
+    },
+    {
+      "article_id": "historical_H106",
+      "is_event": false,
+      "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+      "gate_confidence": 0.7
+    },
+    {
+      "article_id": "historical_H107",
+      "is_event": false,
+      "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+      "gate_confidence": 0.7
+    },
+    {
+      "article_id": "historical_H108",
+      "is_event": false,
+      "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+      "gate_confidence": 0.7
+    },
+    {
+      "article_id": "historical_H109",
+      "is_event": false,
+      "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+      "gate_confidence": 0.7
+    },
+    {
+      "article_id": "historical_H110",
+      "is_event": false,
+      "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+      "gate_confidence": 0.7
+    },
+    {
+      "article_id": "historical_H112",
+      "is_event": false,
+      "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+      "gate_confidence": 0.7
+    },
+    {
+      "article_id": "historical_H113",
+      "is_event": false,
+      "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+      "gate_confidence": 0.7
+    },
+    {
+      "article_id": "historical_H114",
+      "is_event": false,
+      "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+      "gate_confidence": 0.7
+    },
+    {
+      "article_id": "historical_H116",
+      "is_event": false,
+      "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+      "gate_confidence": 0.7
+    },
+    {
+      "article_id": "historical_H117",
+      "is_event": false,
+      "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+      "gate_confidence": 0.7
+    },
+    {
+      "article_id": "historical_H118",
+      "is_event": false,
+      "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+      "gate_confidence": 0.7
+    },
+    {
+      "article_id": "historical_H120",
+      "is_event": false,
+      "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+      "gate_confidence": 0.7
+    }
+  ]
+}

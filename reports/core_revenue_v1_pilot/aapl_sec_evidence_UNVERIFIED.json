@@ -1,0 +1,16 @@
+{
+  "AAPL": {
+    "analyst_verified": false,
+    "fiscal_year": 2025,
+    "disclosed_total_revenue": 416161000000,
+    "core_revenue": 416161000000,
+    "core_revenue_source": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm ; Apple FY2025 10-K, Item 7, Products and Services Performance, p.23 (PDF p.27)",
+    "prior_core_revenue": 391035000000,
+    "organic_core_revenue_increment": null,
+    "organic_growth_source": null,
+    "revenue_recognition_score": null,
+    "recognition_review_source": null,
+    "recognition_scoring_method": null,
+    "caveat": "SEC-reconciled operating-category classification only. Analyst must review before marking verified. Organic and recognition components not scored."
+  }
+}

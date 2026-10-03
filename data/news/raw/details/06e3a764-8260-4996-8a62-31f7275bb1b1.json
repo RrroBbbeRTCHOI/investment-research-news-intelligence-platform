@@ -1,0 +1,32 @@
+{
+  "_ingestion": {
+    "provider": "freenewsapi",
+    "endpoint": "details",
+    "article_uuid": "06e3a764-8260-4996-8a62-31f7275bb1b1",
+    "fetched_at": "2026-09-18T08:11:24.747698+00:00"
+  },
+  "raw_response": {
+    "data": {
+      "uuid": "06e3a764-8260-4996-8a62-31f7275bb1b1",
+      "title": "Tom Cruise was 'schooled' on football by Taylor Swift at NFL game - yahoo.com",
+      "thumbnail": "https://s.yimg.com/lo/mysterio/api/b9f00fbc6c52ce6e014ceb2e7b28559383f532d4f4595b845389f5829df018ad/lightyear_networkapi/resizefill_w1024_h576%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcover_media_us_articles_275%2F7359dbbbbbc09497d8003fd8769e4aeb.jpg",
+      "publisher": "yahoo.com",
+      "authors": [
+        "Cover Media"
+      ],
+      "topics": [
+        "custom_search"
+      ],
+      "countries": [
+        "US"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-09-18T07:28:33.000Z",
+      "original_url": "https://www.yahoo.com/entertainment/celebrity/articles/tom-cruise-schooled-football-taylor-072833981.html",
+      "incipit": "Tom Cruise has joked that Taylor Swift \"schooled\" him on American football at a recent National Football League (NFL) game.On Monday, the Top Gun: Maverick actor sat next to the music superstar in a box at...",
+      "body": "Tom Cruise has joked that Taylor Swift \"schooled\" him on American football at a recent National Football League (NFL) game. On Monday, the Top Gun: Maverick actor sat next to the music superstar in a box at Arrowhead Stadium in Kansas City, Missouri, to watch the Kansas City Chiefs play the Denver Broncos. During an appearance on The Tonight Show Starring Jimmy Fallon on Thursday night, host Jimmy asked Tom what it was like to sit next to Taylor. \"(Taylor) was schooling me on football. For real. She was bringing the football,\" he smiled. \"I hadn't been to a football game since pre-Covid. So, to get to hang out there and to have that moment, (it) was a lot of fun.\" In addition, Tom noted that it was great to see Taylor and her husband, Kansas City Chiefs player Travis Kelce. \"They're a beautiful couple and magical in their own right,\" the 64-year-old gushed. And the Mission: Impossible star also revealed that Taylor told him Travis was \"very patient\" with her when they first started dating and she was learning about the NFL. \"I'm sure he was,\" he teased. \"I think anybody would be very patient... She's funny, she's got such a great sense of humour, (is) a brilliant writer, brilliant musician, director, very skilled.\" Elsewhere in the interview, Tom promoted his new movie, Digger. Responding to rumours that the Alejandro G. Iñárritu-directed film is actually a musical, the action man insisted it isn't. \"No, but I think it's a very good idea. I think we should do Digger: The Musical,\" he added. Digger will open in cinemas on 2 October."
+    }
+  }
+}

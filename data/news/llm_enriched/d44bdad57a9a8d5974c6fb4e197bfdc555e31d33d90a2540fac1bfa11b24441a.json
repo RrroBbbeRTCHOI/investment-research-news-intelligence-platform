@@ -1,0 +1,128 @@
+{
+  "status": "available",
+  "schema_version": "news_semantic_v3_1",
+  "prompt_version": "news_semantics_v3_1_sentence_grounding",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "content_hash": "d44bdad57a9a8d5974c6fb4e197bfdc555e31d33d90a2540fac1bfa11b24441a",
+  "article_content_hash": "2c7c14c334ce9e7bfd77298301b3155c05fa1513bd814c73c709508befa4eaf5",
+  "generated_at": "2026-09-25T14:47:38.553143+00:00",
+  "semantic": {
+    "article_class": "geopolitical_event",
+    "is_relevant_candidate": true,
+    "summary_short": "The US military targeted an unladen oil tanker which it said was heading for the key Iranian oil terminal on Kharg island.",
+    "summary_full": "The US military targeted an unladen oil tanker which it said was heading for the key Iranian oil terminal on Kharg island.",
+    "primary_country": "Iran",
+    "event_type": "military_action",
+    "event_subtype": "naval_blockade",
+    "countries": [
+      "United States",
+      "Iran"
+    ],
+    "entities": [
+      "US military",
+      "Strait of Hormuz",
+      "Kharg island",
+      "Belma"
+    ],
+    "companies_mentioned": [],
+    "direct_ticker_candidates": [],
+    "economic_channels": [
+      "oil_transport",
+      "shipping_lanes",
+      "energy_exports"
+    ],
+    "candidate_indirect_tickers": [
+      "USO",
+      "BNO",
+      "XLE"
+    ],
+    "missing_information": [
+      "Whether the vessel Belma changed course after being warned",
+      "Exact extent of current shipping disruptions"
+    ],
+    "research_questions": [
+      "Did the tanker Belma change course after being warned by the US military?",
+      "How long will the reintroduced naval blockade remain in effect?"
+    ],
+    "severity_candidate": "High",
+    "severity_reason": "The US military has fired at a tanker amid a reintroduced naval blockade of Iranian ports in the Strait of Hormuz, posing significant potential disruption to global oil transport and shipping lanes.",
+    "severity_confidence": 0.9,
+    "operational_event": true,
+    "fundamental_change_detected": true,
+    "llm_confidence": 0.95,
+    "citations": [
+      {
+        "field": "summary_short",
+        "quote": "The US military targeted an unladen oil tanker which it said was heading for the key Iranian oil terminal on Kharg island.",
+        "source_field": "summary"
+      },
+      {
+        "field": "summary_full",
+        "quote": "The US military targeted an unladen oil tanker which it said was heading for the key Iranian oil terminal on Kharg island.",
+        "source_field": "summary"
+      },
+      {
+        "field": "primary_country",
+        "quote": "Iran",
+        "source_field": "headline"
+      },
+      {
+        "field": "event_type",
+        "quote": "fires at tanker",
+        "source_field": "headline"
+      },
+      {
+        "field": "event_subtype",
+        "quote": "naval blockade",
+        "source_field": "body"
+      },
+      {
+        "field": "article_class",
+        "quote": "Strait of Hormuz: US fires at tanker as new Iran blockade begins",
+        "source_field": "headline"
+      },
+      {
+        "field": "economic_channels",
+        "quote": "oil terminal",
+        "source_field": "summary"
+      },
+      {
+        "field": "severity_candidate",
+        "quote": "US fires at tanker as new Iran blockade begins",
+        "source_field": "headline"
+      },
+      {
+        "field": "operational_event",
+        "quote": "The US has reintroduced a naval blockade of Iranian ports, following allegations of Iranian attacks on commercial vessels in the Strait of Hormuz.",
+        "source_field": "body"
+      },
+      {
+        "field": "fundamental_change_detected",
+        "quote": "The US has reintroduced a naval blockade of Iranian ports, following allegations of Iranian attacks on commercial vessels in the Strait of Hormuz.",
+        "source_field": "body"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "total_tokens": 1314,
+    "estimated_cost_usd": null,
+    "scope": "successful response only; failed-attempt usage unavailable"
+  },
+  "cache_hit": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "success"
+    }
+  ],
+  "attempt_audit_scope": "original enrichment generation; cache reuse makes no new requests",
+  "attempt_count": 1,
+  "retry_count": 0,
+  "fallback_used": false
+}

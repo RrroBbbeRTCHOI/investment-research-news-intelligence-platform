@@ -1,0 +1,1639 @@
+{
+  "_metadata": {
+    "schema_version": "event_company_match_v1",
+    "generated_at": "2026-09-20T05:06:32.530246+00:00",
+    "exposure_knowledge": {
+      "status": "loaded",
+      "workbook": "MAG7_News_Intelligence_Exposure_Knowledge_Layer_V1.xlsx",
+      "edge_count": 27,
+      "message": "Loaded raw exposure rows; each match still requires evidence and temporal checks."
+    },
+    "score_interpretation": "Uncalibrated relevance prior, not probability, return or impact."
+  },
+  "matches": [
+    {
+      "event_id": "evt_ea5ea1c5fdce3f6ddd9fd52e",
+      "ticker": "AAPL",
+      "matched": false,
+      "relevance_score": 0.15,
+      "matched_edges": [],
+      "direct_mention": true,
+      "relevance_components": {
+        "direct_mention": 1.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2025-01-02T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_ea5ea1c5fdce3f6ddd9fd52e",
+      "ticker": "MSFT",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2025-01-02T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_ea5ea1c5fdce3f6ddd9fd52e",
+      "ticker": "GOOGL",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2025-01-02T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_ea5ea1c5fdce3f6ddd9fd52e",
+      "ticker": "AMZN",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2025-01-02T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_ea5ea1c5fdce3f6ddd9fd52e",
+      "ticker": "NVDA",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2025-01-02T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_ea5ea1c5fdce3f6ddd9fd52e",
+      "ticker": "META",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2025-01-02T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_ea5ea1c5fdce3f6ddd9fd52e",
+      "ticker": "TSLA",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2025-01-02T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "ticker": "AAPL",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2023-05-15T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "ticker": "MSFT",
+      "matched": false,
+      "relevance_score": 0.15,
+      "matched_edges": [],
+      "direct_mention": true,
+      "relevance_components": {
+        "direct_mention": 1.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2023-05-15T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "ticker": "GOOGL",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2023-05-15T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "ticker": "AMZN",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2023-05-15T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "ticker": "NVDA",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2023-05-15T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "ticker": "META",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2023-05-15T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "ticker": "TSLA",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2023-05-15T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_d2391214f5982d9740a8ac9f",
+      "ticker": "AAPL",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2025-05-13T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_d2391214f5982d9740a8ac9f",
+      "ticker": "MSFT",
+      "matched": false,
+      "relevance_score": 0.15,
+      "matched_edges": [],
+      "direct_mention": true,
+      "relevance_components": {
+        "direct_mention": 1.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2025-05-13T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_d2391214f5982d9740a8ac9f",
+      "ticker": "GOOGL",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2025-05-13T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_d2391214f5982d9740a8ac9f",
+      "ticker": "AMZN",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2025-05-13T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_d2391214f5982d9740a8ac9f",
+      "ticker": "NVDA",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2025-05-13T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_d2391214f5982d9740a8ac9f",
+      "ticker": "META",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2025-05-13T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_d2391214f5982d9740a8ac9f",
+      "ticker": "TSLA",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2025-05-13T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "ticker": "AAPL",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2022-03-17T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "ticker": "MSFT",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2022-03-17T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "ticker": "GOOGL",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2022-03-17T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "ticker": "AMZN",
+      "matched": false,
+      "relevance_score": 0.15,
+      "matched_edges": [],
+      "direct_mention": true,
+      "relevance_components": {
+        "direct_mention": 1.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2022-03-17T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "ticker": "NVDA",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2022-03-17T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "ticker": "META",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2022-03-17T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "ticker": "TSLA",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2022-03-17T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "ticker": "AAPL",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2022-02-07T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "ticker": "MSFT",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2022-02-07T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "ticker": "GOOGL",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2022-02-07T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "ticker": "AMZN",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2022-02-07T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "ticker": "NVDA",
+      "matched": false,
+      "relevance_score": 0.15,
+      "matched_edges": [],
+      "direct_mention": true,
+      "relevance_components": {
+        "direct_mention": 1.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2022-02-07T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "ticker": "META",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2022-02-07T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "ticker": "TSLA",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2022-02-07T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_08d0e536072a05d7069cd513",
+      "ticker": "AAPL",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2024-07-30T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_08d0e536072a05d7069cd513",
+      "ticker": "MSFT",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2024-07-30T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_08d0e536072a05d7069cd513",
+      "ticker": "GOOGL",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2024-07-30T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_08d0e536072a05d7069cd513",
+      "ticker": "AMZN",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2024-07-30T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_08d0e536072a05d7069cd513",
+      "ticker": "NVDA",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2024-07-30T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_08d0e536072a05d7069cd513",
+      "ticker": "META",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2024-07-30T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_08d0e536072a05d7069cd513",
+      "ticker": "TSLA",
+      "matched": false,
+      "relevance_score": 0.15,
+      "matched_edges": [],
+      "direct_mention": true,
+      "relevance_components": {
+        "direct_mention": 1.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2024-07-30T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "ticker": "AAPL",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2022-11-19T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "ticker": "MSFT",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2022-11-19T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "ticker": "GOOGL",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2022-11-19T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "ticker": "AMZN",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2022-11-19T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "ticker": "NVDA",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2022-11-19T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "ticker": "META",
+      "matched": false,
+      "relevance_score": 0.0,
+      "matched_edges": [],
+      "direct_mention": false,
+      "relevance_components": {
+        "direct_mention": 0.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2022-11-19T23:59:59.999999+00:00"
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "ticker": "TSLA",
+      "matched": false,
+      "relevance_score": 0.15,
+      "matched_edges": [],
+      "direct_mention": true,
+      "relevance_components": {
+        "direct_mention": 1.0,
+        "edge_match": 0.0,
+        "country_match": 0.0,
+        "channel_match": 0.0,
+        "evidence_quality": 0.0,
+        "event_severity": null
+      },
+      "model_status": "heuristic_v1",
+      "prediction_time": "2022-11-19T23:59:59.999999+00:00"
+    }
+  ],
+  "edge_exclusions": [
+    {
+      "event_id": "evt_ea5ea1c5fdce3f6ddd9fd52e",
+      "edge_id": "4",
+      "reason": "non_operating_capacity"
+    },
+    {
+      "event_id": "evt_ea5ea1c5fdce3f6ddd9fd52e",
+      "edge_id": "7",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_ea5ea1c5fdce3f6ddd9fd52e",
+      "edge_id": "10",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_ea5ea1c5fdce3f6ddd9fd52e",
+      "edge_id": "13",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_ea5ea1c5fdce3f6ddd9fd52e",
+      "edge_id": "14",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_ea5ea1c5fdce3f6ddd9fd52e",
+      "edge_id": "15",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_ea5ea1c5fdce3f6ddd9fd52e",
+      "edge_id": "16",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_ea5ea1c5fdce3f6ddd9fd52e",
+      "edge_id": "17",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_ea5ea1c5fdce3f6ddd9fd52e",
+      "edge_id": "18",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_ea5ea1c5fdce3f6ddd9fd52e",
+      "edge_id": "19",
+      "reason": "blocked_or_hypothesis_evidence"
+    },
+    {
+      "event_id": "evt_ea5ea1c5fdce3f6ddd9fd52e",
+      "edge_id": "21",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_ea5ea1c5fdce3f6ddd9fd52e",
+      "edge_id": "22",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_ea5ea1c5fdce3f6ddd9fd52e",
+      "edge_id": "24",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_ea5ea1c5fdce3f6ddd9fd52e",
+      "edge_id": "25",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_ea5ea1c5fdce3f6ddd9fd52e",
+      "edge_id": "26",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "edge_id": "1",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "edge_id": "2",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "edge_id": "3",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "edge_id": "4",
+      "reason": "non_operating_capacity"
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "edge_id": "5",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "edge_id": "6",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "edge_id": "7",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "edge_id": "8",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "edge_id": "9",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "edge_id": "10",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "edge_id": "12",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "edge_id": "13",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "edge_id": "14",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "edge_id": "15",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "edge_id": "16",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "edge_id": "17",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "edge_id": "18",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "edge_id": "19",
+      "reason": "blocked_or_hypothesis_evidence"
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "edge_id": "20",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "edge_id": "21",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "edge_id": "22",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "edge_id": "24",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "edge_id": "25",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "edge_id": "26",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "edge_id": "27",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d2391214f5982d9740a8ac9f",
+      "edge_id": "4",
+      "reason": "non_operating_capacity"
+    },
+    {
+      "event_id": "evt_d2391214f5982d9740a8ac9f",
+      "edge_id": "7",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d2391214f5982d9740a8ac9f",
+      "edge_id": "10",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d2391214f5982d9740a8ac9f",
+      "edge_id": "13",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d2391214f5982d9740a8ac9f",
+      "edge_id": "15",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d2391214f5982d9740a8ac9f",
+      "edge_id": "16",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d2391214f5982d9740a8ac9f",
+      "edge_id": "18",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d2391214f5982d9740a8ac9f",
+      "edge_id": "19",
+      "reason": "blocked_or_hypothesis_evidence"
+    },
+    {
+      "event_id": "evt_d2391214f5982d9740a8ac9f",
+      "edge_id": "21",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d2391214f5982d9740a8ac9f",
+      "edge_id": "22",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d2391214f5982d9740a8ac9f",
+      "edge_id": "24",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d2391214f5982d9740a8ac9f",
+      "edge_id": "25",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_d2391214f5982d9740a8ac9f",
+      "edge_id": "26",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "edge_id": "1",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "edge_id": "2",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "edge_id": "3",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "edge_id": "4",
+      "reason": "non_operating_capacity"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "edge_id": "5",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "edge_id": "6",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "edge_id": "7",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "edge_id": "8",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "edge_id": "9",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "edge_id": "10",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "edge_id": "11",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "edge_id": "12",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "edge_id": "13",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "edge_id": "14",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "edge_id": "15",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "edge_id": "16",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "edge_id": "17",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "edge_id": "18",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "edge_id": "19",
+      "reason": "blocked_or_hypothesis_evidence"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "edge_id": "20",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "edge_id": "21",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "edge_id": "22",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "edge_id": "24",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "edge_id": "25",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "edge_id": "26",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "edge_id": "27",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "edge_id": "1",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "edge_id": "2",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "edge_id": "3",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "edge_id": "4",
+      "reason": "non_operating_capacity"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "edge_id": "5",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "edge_id": "6",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "edge_id": "7",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "edge_id": "8",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "edge_id": "9",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "edge_id": "10",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "edge_id": "11",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "edge_id": "12",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "edge_id": "13",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "edge_id": "14",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "edge_id": "15",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "edge_id": "16",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "edge_id": "17",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "edge_id": "18",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "edge_id": "19",
+      "reason": "blocked_or_hypothesis_evidence"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "edge_id": "20",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "edge_id": "21",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "edge_id": "22",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "edge_id": "24",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "edge_id": "25",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "edge_id": "26",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "edge_id": "27",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_08d0e536072a05d7069cd513",
+      "edge_id": "2",
+      "reason": "future_valid_from"
+    },
+    {
+      "event_id": "evt_08d0e536072a05d7069cd513",
+      "edge_id": "4",
+      "reason": "non_operating_capacity"
+    },
+    {
+      "event_id": "evt_08d0e536072a05d7069cd513",
+      "edge_id": "7",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_08d0e536072a05d7069cd513",
+      "edge_id": "8",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_08d0e536072a05d7069cd513",
+      "edge_id": "10",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_08d0e536072a05d7069cd513",
+      "edge_id": "12",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_08d0e536072a05d7069cd513",
+      "edge_id": "13",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_08d0e536072a05d7069cd513",
+      "edge_id": "14",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_08d0e536072a05d7069cd513",
+      "edge_id": "15",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_08d0e536072a05d7069cd513",
+      "edge_id": "16",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_08d0e536072a05d7069cd513",
+      "edge_id": "17",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_08d0e536072a05d7069cd513",
+      "edge_id": "18",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_08d0e536072a05d7069cd513",
+      "edge_id": "19",
+      "reason": "blocked_or_hypothesis_evidence"
+    },
+    {
+      "event_id": "evt_08d0e536072a05d7069cd513",
+      "edge_id": "21",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_08d0e536072a05d7069cd513",
+      "edge_id": "22",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_08d0e536072a05d7069cd513",
+      "edge_id": "24",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_08d0e536072a05d7069cd513",
+      "edge_id": "25",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_08d0e536072a05d7069cd513",
+      "edge_id": "26",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "edge_id": "1",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "edge_id": "2",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "edge_id": "3",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "edge_id": "4",
+      "reason": "non_operating_capacity"
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "edge_id": "5",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "edge_id": "6",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "edge_id": "7",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "edge_id": "8",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "edge_id": "9",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "edge_id": "10",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "edge_id": "12",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "edge_id": "13",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "edge_id": "14",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "edge_id": "15",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "edge_id": "16",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "edge_id": "17",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "edge_id": "18",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "edge_id": "19",
+      "reason": "blocked_or_hypothesis_evidence"
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "edge_id": "20",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "edge_id": "21",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "edge_id": "22",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "edge_id": "24",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "edge_id": "25",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "edge_id": "26",
+      "reason": "future_known_at"
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "edge_id": "27",
+      "reason": "future_known_at"
+    }
+  ]
+}

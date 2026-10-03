@@ -1,0 +1,112 @@
+{
+  "status": "validated_constraints",
+  "accepted": {
+    "economic_channels": {
+      "value": [
+        "sentiment",
+        "regulatory_policy"
+      ],
+      "citations": [
+        {
+          "field": "economic_channels",
+          "quote": "They're actually not asking for more laws. They're asking to be relieved of the laws we do have",
+          "source_field": "body"
+        }
+      ],
+      "status": "source_grounded_candidate"
+    }
+  },
+  "summary_validation": {
+    "summary_short": {
+      "value": null,
+      "status": "rejected",
+      "sentence_validation": [
+        {
+          "sentence": "Nvidia CEO Jensen Huang rejected warnings that artificial intelligence could cause human extinction by 2030, labeling them as irresponsible doomsday narratives.",
+          "accepted": false,
+          "reason": "No sufficient exact source support for the complete sentence."
+        }
+      ],
+      "reason": "No summary sentences have sufficient exact source support."
+    },
+    "summary_full": {
+      "value": null,
+      "status": "rejected",
+      "sentence_validation": [
+        {
+          "sentence": "In an interview with CBS News, Nvidia CEO Jensen Huang dismissed warnings from researchers and industry executives that AI could lead to human extinction by the next decade, calling them \"doomsday narratives\" that are \"not grounded in science\" and \"irresponsible.\"",
+          "accepted": false,
+          "reason": "No sufficient exact source support for the complete sentence."
+        },
+        {
+          "sentence": "Huang suggested that executives calling for a slowdown in AI development, such as those from Anthropic and OpenAI, might actually be seeking relief from existing liability laws.",
+          "accepted": false,
+          "reason": "No sufficient exact source support for the complete sentence."
+        },
+        {
+          "sentence": "Furthermore, Huang noted that Nvidia's success depends on the safe deployment of its products.",
+          "accepted": false,
+          "reason": "No sufficient exact source support for the complete sentence."
+        },
+        {
+          "sentence": "The remarks follow comments by King Charles warning of existential dangers and a recent phone call from Donald Trump criticizing calls to slow AI development.",
+          "accepted": false,
+          "reason": "No sufficient exact source support for the complete sentence."
+        }
+      ],
+      "reason": "No summary sentences have sufficient exact source support."
+    }
+  },
+  "rejections": [
+    {
+      "field": "summary_short",
+      "reason": "Citation is not a substantive exact source span."
+    },
+    {
+      "field": "event_type",
+      "reason": "Citation is not a substantive exact source span."
+    },
+    {
+      "field": "event_subtype",
+      "reason": "Citation is not a substantive exact source span."
+    },
+    {
+      "field": "article_class",
+      "reason": "Citation is not a substantive exact source span."
+    },
+    {
+      "field": "severity_candidate",
+      "reason": "Citation is not a substantive exact source span."
+    },
+    {
+      "field": "operational_event",
+      "reason": "Citation is not a substantive exact source span."
+    },
+    {
+      "field": "fundamental_change_detected",
+      "reason": "Citation is not a substantive exact source span."
+    },
+    {
+      "field": "summary_short",
+      "reason": "No summary sentences have sufficient exact source support."
+    },
+    {
+      "field": "summary_full",
+      "reason": "No summary sentences have sufficient exact source support."
+    },
+    {
+      "field": "primary_country",
+      "reason": "Country failed deterministic event-geography validation; contextual location is not event location."
+    }
+  ],
+  "candidate_relationships": [
+    {
+      "ticker": "NVDA",
+      "kind": "direct_ticker_candidates",
+      "state": "qualified",
+      "reason": "Existing deterministic result supports relationship.",
+      "edge_ids": []
+    }
+  ],
+  "notice": "Source-grounded AI extraction is not independent fact verification. Candidate fields do not qualify ticker exposure."
+}

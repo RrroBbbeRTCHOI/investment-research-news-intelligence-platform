@@ -1,0 +1,2398 @@
+{
+  "schema_version": "news_research_v2",
+  "generated_at": "2026-09-21T08:38:46.846281+00:00",
+  "knowledge": {
+    "status": "loaded",
+    "workbook": "MAG7_News_Intelligence_Exposure_Knowledge_Layer_V1.xlsx",
+    "edge_count": 27,
+    "message": "Loaded raw exposure rows; each match still requires evidence and temporal checks."
+  },
+  "policies": {
+    "direction": "Analyst judgment required",
+    "severity": "article_severity_policy_v2",
+    "priority": "attention_policy_v2",
+    "historical_ml_role": "optional_retrospective_context_only"
+  },
+  "articles": [
+    {
+      "article_id": "freenewsapi_4e06cd53-e2df-4181-92f9-71b1b7fdc698",
+      "headline": "Missing Carnival Panorama passenger jumped overboard off Mexico's coast",
+      "source": "Fox News",
+      "article_url": "https://www.foxnews.com/travel/missing-carnival-panorama-passenger-jumped-overboard-mexicos-coast",
+      "gate": {
+        "article_id": "freenewsapi_4e06cd53-e2df-4181-92f9-71b1b7fdc698",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_47a367b6168a5a84f0c9",
+        "event_type": "general_news",
+        "event_subtype": "general_news",
+        "published_at_first": "2026-09-21T01:17:24.000Z",
+        "country": "Mexico",
+        "region": null,
+        "city": null,
+        "latitude": 23.919988,
+        "longitude": -102.289448,
+        "location_basis": "explicit_article_location",
+        "coordinate_precision": "country_approximation"
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "general_news",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "general_news",
+      "published_at": "2026-09-21T01:17:24.000Z",
+      "geography": {
+        "event_country": "Mexico",
+        "event_region": null,
+        "event_city": null,
+        "latitude": 23.919988,
+        "longitude": -102.289448,
+        "location_basis": "explicit_article_location",
+        "location_confidence": "Article-supported country; exact site unresolved",
+        "coordinate_basis": "Natural Earth country label point (existing map)",
+        "evidence": [
+          {
+            "country": "Mexico",
+            "city": null,
+            "region": null,
+            "source_field": "headline",
+            "evidence": "Missing Carnival Panorama passenger jumped overboard off Mexico's coast"
+          }
+        ],
+        "coordinate_precision": "country_approximation"
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Unknown; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      }
+    },
+    {
+      "article_id": "freenewsapi_88d78250-1732-48b3-9ffd-a7f1b9975163",
+      "headline": "Confirmed: PBOC leaves Loan Prime Rates unchanged in September",
+      "source": "FXStreet",
+      "article_url": "https://www.fxstreet.com/news/confirmed-pboc-leaves-loan-prime-rates-unchanged-in-september-202609210100",
+      "gate": {
+        "article_id": "freenewsapi_88d78250-1732-48b3-9ffd-a7f1b9975163",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_83ef50c1c9a21ee9e129",
+        "event_type": "general_news",
+        "event_subtype": "general_news",
+        "published_at_first": "2026-09-21T01:00:55.000Z",
+        "country": null,
+        "region": null,
+        "city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "coordinate_precision": null
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "general_news",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "general_news",
+      "published_at": "2026-09-21T01:00:55.000Z",
+      "geography": {
+        "event_country": null,
+        "event_region": null,
+        "event_city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "location_confidence": null,
+        "coordinate_basis": null,
+        "evidence": [],
+        "coordinate_precision": null
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Unknown; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      }
+    },
+    {
+      "article_id": "freenewsapi_f15bf067-b612-4338-8041-9e41218ba6f4",
+      "headline": "Nvidia boss rejects AI extinction fears as 'doomsday narratives'",
+      "source": "BBC",
+      "article_url": "https://www.bbc.com/news/articles/cr5ye7p13jg7o",
+      "gate": {
+        "article_id": "freenewsapi_f15bf067-b612-4338-8041-9e41218ba6f4",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_73ff4902cc61c5139b9c",
+        "event_type": "commentary",
+        "event_subtype": "commentary",
+        "published_at_first": "2026-09-21T00:34:53.000Z",
+        "country": null,
+        "region": null,
+        "city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "coordinate_precision": null
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [
+        {
+          "ticker": "NVDA",
+          "qualification": "qualified_direct_company_subject",
+          "relationship_type": "direct_company_subject",
+          "relevance_score": 0.15,
+          "relevance_level": "Mention only",
+          "evidence": [],
+          "economic_channels": [],
+          "relationship_paths": [],
+          "evidence_strength": {
+            "relationship_level": "Direct article evidence",
+            "basis": "Explicit company subject; no independent confirmation inferred."
+          },
+          "materiality": {
+            "level": "Unknown"
+          },
+          "historical_reaction": {
+            "status": "unavailable",
+            "reason": "No compatible archived event binding.",
+            "predictions": []
+          },
+          "explanation": "NVDA is the explicit company/action subject of the cited article clause.",
+          "next_questions": [
+            "Verify the original report and any company confirmation.",
+            "Determine event-specific scale and financial exposure."
+          ],
+          "direct_event_evidence": {
+            "relationship_type": "direct_company_subject",
+            "evidence": "Nvidia boss rejects AI extinction fears as 'doomsday narratives'",
+            "source_field": "headline",
+            "channel": null
+          },
+          "relevance": {
+            "level": "High",
+            "relationship_score": 0.15,
+            "reason": "NVDA is the explicit company/action subject of the cited article clause.",
+            "interpretation": "Uncalibrated relationship policy score; not probability or expected return."
+          },
+          "evidence_assessment": {
+            "level": "Moderate",
+            "reason": "Explicit company subject; no independent confirmation inferred."
+          },
+          "financial_materiality": {
+            "level": "Not yet quantified",
+            "reason": "No validated event-specific financial amount/denominator established.",
+            "legacy": {
+              "level": "Unknown"
+            }
+          },
+          "research_priority": {
+            "level": "Low",
+            "score": 0.2,
+            "method": "attention_policy_v2",
+            "reason": "Relationship High; severity Low; evidence Moderate.",
+            "interpretation": "Analyst attention only. No direction, expected return or ML input."
+          },
+          "historical_context": {
+            "available": false,
+            "disclosure": "Retrospective context only; not a live directional prediction.",
+            "details": {
+              "status": "unavailable",
+              "reason": "No compatible archived event binding.",
+              "predictions": []
+            }
+          },
+          "direction": "Analyst judgment required"
+        }
+      ],
+      "edge_exclusions": [],
+      "status": "commentary",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "commentary",
+      "published_at": "2026-09-21T00:34:53.000Z",
+      "geography": {
+        "event_country": null,
+        "event_region": null,
+        "event_city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "location_confidence": null,
+        "coordinate_basis": null,
+        "evidence": [],
+        "coordinate_precision": null
+      },
+      "severity": {
+        "level": "Low",
+        "score": 0.2,
+        "components": [],
+        "reason": "Company discussion/opinion with no supported operational or binding-action escalation.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Low",
+        "score": 0.2,
+        "method": "attention_policy_v2",
+        "reason": "Relationship High; severity Low; evidence Moderate.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      }
+    },
+    {
+      "article_id": "freenewsapi_ef76f840-4065-4052-82cf-60af67d7e099",
+      "headline": "Volatile yen draws intervention watch, other currencies subdued",
+      "source": "CNBC",
+      "article_url": "https://www.cnbc.com/2026/09/21/volatile-yen-draws-intervention-watch-other-currencies-subdued.html",
+      "gate": {
+        "article_id": "freenewsapi_ef76f840-4065-4052-82cf-60af67d7e099",
+        "is_event": true,
+        "gate_reason": "Asserted rate_decision event: nal with its unanimous decision to raise its policy rate.",
+        "gate_confidence": 0.8
+      },
+      "event": {
+        "event_id": "evt_9b792a7b551b72af10d5a752",
+        "canonical_event_id": "evt_9b792a7b551b72af10d5a752",
+        "article_ids": [
+          "freenewsapi_ef76f840-4065-4052-82cf-60af67d7e099"
+        ],
+        "source_count": 1,
+        "independent_source_count": 1,
+        "first_seen_at": "2026-09-21T02:54:20.647314+00:00",
+        "last_seen_at": "2026-09-21T02:54:20.647314+00:00",
+        "published_at_first": "2026-09-21T02:20:00.000Z",
+        "event_start_at": null,
+        "event_end_at": null,
+        "time_precision": "unknown",
+        "event_status": "developing",
+        "primary_country": null,
+        "affected_countries": [],
+        "primary_region": null,
+        "affected_regions": [],
+        "city": null,
+        "location_name": null,
+        "latitude": null,
+        "longitude": null,
+        "location_confidence": null,
+        "event_type": "macro_monetary",
+        "event_subtype": "rate_decision",
+        "severity_score": null,
+        "severity_confidence": null,
+        "scope": null,
+        "duration_class": "unknown",
+        "event_novelty": null,
+        "physical_damage": null,
+        "production_disruption": null,
+        "capacity_disruption": null,
+        "logistics_disruption": null,
+        "port_disruption": null,
+        "power_disruption": null,
+        "network_disruption": null,
+        "cloud_service_disruption": null,
+        "labor_disruption": null,
+        "supply_shortage": null,
+        "regulatory_change": null,
+        "export_restriction": null,
+        "import_restriction": null,
+        "price_change_explicit": null,
+        "demand_change_explicit": null,
+        "companies_mentioned": [],
+        "tickers_mentioned": [],
+        "suppliers_mentioned": [],
+        "customers_mentioned": [],
+        "industries_mentioned": [],
+        "products_mentioned": [],
+        "technologies_mentioned": [],
+        "commodities_mentioned": [],
+        "government_entities": [
+          "Federal Reserve"
+        ],
+        "regulators": [
+          "Federal Reserve"
+        ],
+        "people_mentioned": [],
+        "supply_channel": null,
+        "demand_channel": null,
+        "cost_channel": null,
+        "revenue_channel": null,
+        "margin_channel": null,
+        "capex_channel": null,
+        "financing_channel": null,
+        "interest_rate_channel": true,
+        "fx_channel": null,
+        "commodity_channel": null,
+        "logistics_channel": null,
+        "energy_channel": null,
+        "regulatory_channel": null,
+        "legal_channel": null,
+        "technology_channel": null,
+        "competition_channel": null,
+        "source_quality": null,
+        "extraction_confidence": 0.7,
+        "confirmation_level": "single_source",
+        "evidence_fields": {
+          "event_type": {
+            "value": "macro_monetary",
+            "evidence": "nal with its unanimous decision to raise its policy rate.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_subtype": {
+            "value": "rate_decision",
+            "evidence": "nal with its unanimous decision to raise its policy rate.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_summary": {
+            "value": "nal with its unanimous decision to raise its policy rate.",
+            "evidence": "nal with its unanimous decision to raise its policy rate.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "keywords": {
+            "value": [
+              "rate_decision"
+            ],
+            "evidence": "nal with its unanimous decision to raise its policy rate.",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "nal with its unanimous decision to raise its policy rate.",
+                "source_field": "body"
+              }
+            ]
+          },
+          "canonical_headline": {
+            "value": "Volatile yen draws intervention watch, other currencies subdued",
+            "evidence": "Volatile yen draws intervention watch, other currencies subdued",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "independent_source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "event_status": {
+            "value": "developing",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "confirmation_level": {
+            "value": "single_source",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "extraction_confidence": {
+            "value": 0.7,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "published_at_first": {
+            "value": "2026-09-21T02:20:00.000Z",
+            "evidence": "2026-09-21T02:20:00.000Z",
+            "source_field": "published_at",
+            "basis": "provider_metadata"
+          },
+          "first_seen_at": {
+            "value": "2026-09-21T02:54:20.647314+00:00",
+            "evidence": "2026-09-21T02:54:20.647314+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "last_seen_at": {
+            "value": "2026-09-21T02:54:20.647314+00:00",
+            "evidence": "2026-09-21T02:54:20.647314+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "interest_rate_channel": {
+            "value": true,
+            "evidence": "nal with its unanimous decision to raise its policy rate.",
+            "source_field": "body",
+            "basis": "article_text",
+            "assertion": "affirmed"
+          },
+          "government_entities": {
+            "value": [
+              "Federal Reserve"
+            ],
+            "evidence": "Apart from the BOJ, the Federal Reserve and the European Central Bank raised rates this month, with both warn",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "Apart from the BOJ, the Federal Reserve and the European Central Bank raised rates this month, with both warn",
+                "source_field": "body"
+              }
+            ]
+          },
+          "regulators": {
+            "value": [
+              "Federal Reserve"
+            ],
+            "evidence": "Apart from the BOJ, the Federal Reserve and the European Central Bank raised rates this month, with both warn",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "Apart from the BOJ, the Federal Reserve and the European Central Bank raised rates this month, with both warn",
+                "source_field": "body"
+              }
+            ]
+          }
+        },
+        "canonical_headline": "Volatile yen draws intervention watch, other currencies subdued",
+        "event_summary": "nal with its unanimous decision to raise its policy rate.",
+        "keywords": [
+          "rate_decision"
+        ],
+        "created_at": "2026-09-21T08:38:46.846281+00:00",
+        "updated_at": "2026-09-21T08:38:46.846281+00:00",
+        "schema_version": "event_v1",
+        "country": null,
+        "region": null,
+        "location_basis": "unresolved",
+        "coordinate_precision": null
+      },
+      "candidate_channels": [
+        {
+          "channel_family": "interest_rates",
+          "channel_subtype": "unspecified",
+          "confidence": 0.75,
+          "basis": [
+            "interest_rate_channel"
+          ],
+          "status": "candidate"
+        }
+      ],
+      "ticker_analysis": [],
+      "edge_exclusions": [
+        {
+          "event_id": "evt_9b792a7b551b72af10d5a752",
+          "edge_id": "4",
+          "reason": "non_operating_capacity"
+        },
+        {
+          "event_id": "evt_9b792a7b551b72af10d5a752",
+          "edge_id": "19",
+          "reason": "blocked_or_hypothesis_evidence"
+        }
+      ],
+      "status": "macro_event",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "macro_event",
+      "published_at": "2026-09-21T02:20:00.000Z",
+      "geography": {
+        "event_country": null,
+        "event_region": null,
+        "event_city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "location_confidence": null,
+        "coordinate_basis": null,
+        "evidence": [],
+        "coordinate_precision": null
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Unknown; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      }
+    },
+    {
+      "article_id": "freenewsapi_d42abbb8-ee3a-46db-ab9d-af134626ba21",
+      "headline": "New Zealand Dollar languishes near two-month low vs USD as bears await break below 0.5700",
+      "source": "FXStreet",
+      "article_url": "https://www.fxstreet.com/news/new-zealand-dollar-languishes-near-two-month-low-vs-usd-as-bears-await-break-below-05700-202609210142",
+      "gate": {
+        "article_id": "freenewsapi_d42abbb8-ee3a-46db-ab9d-af134626ba21",
+        "is_event": true,
+        "gate_reason": "Asserted rate_cut event: On the contrary, lower interest rates tend to weaken NZD.",
+        "gate_confidence": 0.8
+      },
+      "event": {
+        "event_id": "evt_0dfe27790ecc1e24941e24a6",
+        "canonical_event_id": "evt_0dfe27790ecc1e24941e24a6",
+        "article_ids": [
+          "freenewsapi_d42abbb8-ee3a-46db-ab9d-af134626ba21"
+        ],
+        "source_count": 1,
+        "independent_source_count": 1,
+        "first_seen_at": "2026-09-21T02:54:22.149837+00:00",
+        "last_seen_at": "2026-09-21T02:54:22.149837+00:00",
+        "published_at_first": "2026-09-21T01:42:14.000Z",
+        "event_start_at": null,
+        "event_end_at": null,
+        "time_precision": "unknown",
+        "event_status": "developing",
+        "primary_country": null,
+        "affected_countries": [],
+        "primary_region": null,
+        "affected_regions": [],
+        "city": null,
+        "location_name": null,
+        "latitude": -39.759,
+        "longitude": 172.787,
+        "location_confidence": null,
+        "event_type": "macro_monetary",
+        "event_subtype": "rate_cut",
+        "severity_score": null,
+        "severity_confidence": null,
+        "scope": null,
+        "duration_class": "unknown",
+        "event_novelty": null,
+        "physical_damage": null,
+        "production_disruption": null,
+        "capacity_disruption": null,
+        "logistics_disruption": null,
+        "port_disruption": null,
+        "power_disruption": null,
+        "network_disruption": null,
+        "cloud_service_disruption": null,
+        "labor_disruption": null,
+        "supply_shortage": null,
+        "regulatory_change": null,
+        "export_restriction": null,
+        "import_restriction": null,
+        "price_change_explicit": null,
+        "demand_change_explicit": null,
+        "companies_mentioned": [],
+        "tickers_mentioned": [],
+        "suppliers_mentioned": [],
+        "customers_mentioned": [],
+        "industries_mentioned": [],
+        "products_mentioned": [],
+        "technologies_mentioned": [
+          "AI"
+        ],
+        "commodities_mentioned": [
+          "oil"
+        ],
+        "government_entities": [
+          "Federal Reserve"
+        ],
+        "regulators": [
+          "Federal Reserve"
+        ],
+        "people_mentioned": [],
+        "supply_channel": null,
+        "demand_channel": null,
+        "cost_channel": null,
+        "revenue_channel": null,
+        "margin_channel": null,
+        "capex_channel": null,
+        "financing_channel": null,
+        "interest_rate_channel": true,
+        "fx_channel": null,
+        "commodity_channel": null,
+        "logistics_channel": null,
+        "energy_channel": null,
+        "regulatory_channel": null,
+        "legal_channel": null,
+        "technology_channel": null,
+        "competition_channel": null,
+        "source_quality": null,
+        "extraction_confidence": 0.7,
+        "confirmation_level": "single_source",
+        "evidence_fields": {
+          "event_type": {
+            "value": "macro_monetary",
+            "evidence": "On the contrary, lower interest rates tend to weaken NZD.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_subtype": {
+            "value": "rate_cut",
+            "evidence": "On the contrary, lower interest rates tend to weaken NZD.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_summary": {
+            "value": "On the contrary, lower interest rates tend to weaken NZD.",
+            "evidence": "On the contrary, lower interest rates tend to weaken NZD.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "keywords": {
+            "value": [
+              "rate_cut"
+            ],
+            "evidence": "On the contrary, lower interest rates tend to weaken NZD.",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "On the contrary, lower interest rates tend to weaken NZD.",
+                "source_field": "body"
+              }
+            ]
+          },
+          "canonical_headline": {
+            "value": "New Zealand Dollar languishes near two-month low vs USD as bears await break below 0.5700",
+            "evidence": "New Zealand Dollar languishes near two-month low vs USD as bears await break below 0.5700",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "independent_source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "event_status": {
+            "value": "developing",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "confirmation_level": {
+            "value": "single_source",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "extraction_confidence": {
+            "value": 0.7,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "published_at_first": {
+            "value": "2026-09-21T01:42:14.000Z",
+            "evidence": "2026-09-21T01:42:14.000Z",
+            "source_field": "published_at",
+            "basis": "provider_metadata"
+          },
+          "first_seen_at": {
+            "value": "2026-09-21T02:54:22.149837+00:00",
+            "evidence": "2026-09-21T02:54:22.149837+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "last_seen_at": {
+            "value": "2026-09-21T02:54:22.149837+00:00",
+            "evidence": "2026-09-21T02:54:22.149837+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "interest_rate_channel": {
+            "value": true,
+            "evidence": "On the contrary, lower interest rates tend to weaken NZD.",
+            "source_field": "body",
+            "basis": "article_text",
+            "assertion": "affirmed"
+          },
+          "government_entities": {
+            "value": [
+              "Federal Reserve"
+            ],
+            "evidence": "In contrast, the US Federal Reserve (Fed) maintained a relatively hawkish stance and signaled at least on",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "In contrast, the US Federal Reserve (Fed) maintained a relatively hawkish stance and signaled at least on",
+                "source_field": "body"
+              }
+            ]
+          },
+          "regulators": {
+            "value": [
+              "Federal Reserve"
+            ],
+            "evidence": "In contrast, the US Federal Reserve (Fed) maintained a relatively hawkish stance and signaled at least on",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "In contrast, the US Federal Reserve (Fed) maintained a relatively hawkish stance and signaled at least on",
+                "source_field": "body"
+              }
+            ]
+          },
+          "commodities_mentioned": {
+            "value": [
+              "oil"
+            ],
+            "evidence": "nts from Saudi Arabia dragged oil prices to an over one-week low, helping alleviate immediate fears of ",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "nts from Saudi Arabia dragged oil prices to an over one-week low, helping alleviate immediate fears of ",
+                "source_field": "body"
+              }
+            ]
+          },
+          "technologies_mentioned": {
+            "value": [
+              "AI"
+            ],
+            "evidence": "(The technical analysis of this story was written with the help of an AI tool.",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "(The technical analysis of this story was written with the help of an AI tool.",
+                "source_field": "body"
+              }
+            ]
+          }
+        },
+        "canonical_headline": "New Zealand Dollar languishes near two-month low vs USD as bears await break below 0.5700",
+        "event_summary": "On the contrary, lower interest rates tend to weaken NZD.",
+        "keywords": [
+          "rate_cut"
+        ],
+        "created_at": "2026-09-21T08:38:46.846281+00:00",
+        "updated_at": "2026-09-21T08:38:46.846281+00:00",
+        "schema_version": "event_v1",
+        "country": "New Zealand",
+        "region": null,
+        "location_basis": "explicit_article_location",
+        "coordinate_precision": "country_approximation"
+      },
+      "candidate_channels": [
+        {
+          "channel_family": "interest_rates",
+          "channel_subtype": "unspecified",
+          "confidence": 0.75,
+          "basis": [
+            "interest_rate_channel"
+          ],
+          "status": "candidate"
+        }
+      ],
+      "ticker_analysis": [],
+      "edge_exclusions": [
+        {
+          "event_id": "evt_0dfe27790ecc1e24941e24a6",
+          "edge_id": "4",
+          "reason": "non_operating_capacity"
+        },
+        {
+          "event_id": "evt_0dfe27790ecc1e24941e24a6",
+          "edge_id": "19",
+          "reason": "blocked_or_hypothesis_evidence"
+        }
+      ],
+      "status": "macro_event",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "macro_event",
+      "published_at": "2026-09-21T01:42:14.000Z",
+      "geography": {
+        "event_country": "New Zealand",
+        "event_region": null,
+        "event_city": null,
+        "latitude": -39.759,
+        "longitude": 172.787,
+        "location_basis": "explicit_article_location",
+        "location_confidence": "Article-supported country; exact site unresolved",
+        "coordinate_basis": "Natural Earth country label point (existing map)",
+        "evidence": [
+          {
+            "country": "New Zealand",
+            "city": null,
+            "region": null,
+            "source_field": "headline",
+            "evidence": "New Zealand Dollar languishes near two-month low vs USD as bears await break below 0.5700"
+          }
+        ],
+        "coordinate_precision": "country_approximation"
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Unknown; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      }
+    },
+    {
+      "article_id": "freenewsapi_c96075d5-089e-4218-9151-f7c4ca8b0bc2",
+      "headline": "Japanese Yen bulls seem hesitant amid BoJ's dovish rate hike as Fed bets support USD",
+      "source": "FXStreet",
+      "article_url": "https://www.fxstreet.com/news/japanese-yen-bulls-seem-hesitant-amid-bojs-dovish-rate-hike-as-fed-bets-support-usd-202609210112",
+      "gate": {
+        "article_id": "freenewsapi_c96075d5-089e-4218-9151-f7c4ca8b0bc2",
+        "is_event": true,
+        "gate_reason": "Asserted rate_decision event: xpected, the Japanese central bank raised the short-term interest rate to a 31-year high on Friday and reiterated that it will continue raising rates ",
+        "gate_confidence": 0.8
+      },
+      "event": {
+        "event_id": "evt_535a71a25cd34cc2ffde4e0f",
+        "canonical_event_id": "evt_535a71a25cd34cc2ffde4e0f",
+        "article_ids": [
+          "freenewsapi_c96075d5-089e-4218-9151-f7c4ca8b0bc2"
+        ],
+        "source_count": 1,
+        "independent_source_count": 1,
+        "first_seen_at": "2026-09-21T02:54:23.660114+00:00",
+        "last_seen_at": "2026-09-21T02:54:23.660114+00:00",
+        "published_at_first": "2026-09-21T01:12:12.000Z",
+        "event_start_at": null,
+        "event_end_at": null,
+        "time_precision": "unknown",
+        "event_status": "developing",
+        "primary_country": null,
+        "affected_countries": [],
+        "primary_region": null,
+        "affected_regions": [],
+        "city": null,
+        "location_name": null,
+        "latitude": null,
+        "longitude": null,
+        "location_confidence": null,
+        "event_type": "macro_monetary",
+        "event_subtype": "rate_decision",
+        "severity_score": null,
+        "severity_confidence": null,
+        "scope": null,
+        "duration_class": "unknown",
+        "event_novelty": null,
+        "physical_damage": null,
+        "production_disruption": null,
+        "capacity_disruption": null,
+        "logistics_disruption": null,
+        "port_disruption": null,
+        "power_disruption": null,
+        "network_disruption": null,
+        "cloud_service_disruption": null,
+        "labor_disruption": null,
+        "supply_shortage": null,
+        "regulatory_change": null,
+        "export_restriction": null,
+        "import_restriction": null,
+        "price_change_explicit": null,
+        "demand_change_explicit": null,
+        "companies_mentioned": [],
+        "tickers_mentioned": [],
+        "suppliers_mentioned": [],
+        "customers_mentioned": [],
+        "industries_mentioned": [],
+        "products_mentioned": [],
+        "technologies_mentioned": [
+          "AI"
+        ],
+        "commodities_mentioned": [],
+        "government_entities": [
+          "Federal Reserve"
+        ],
+        "regulators": [
+          "Federal Reserve"
+        ],
+        "people_mentioned": [],
+        "supply_channel": null,
+        "demand_channel": null,
+        "cost_channel": null,
+        "revenue_channel": null,
+        "margin_channel": null,
+        "capex_channel": null,
+        "financing_channel": null,
+        "interest_rate_channel": true,
+        "fx_channel": null,
+        "commodity_channel": null,
+        "logistics_channel": null,
+        "energy_channel": null,
+        "regulatory_channel": null,
+        "legal_channel": null,
+        "technology_channel": null,
+        "competition_channel": null,
+        "source_quality": null,
+        "extraction_confidence": 0.7,
+        "confirmation_level": "single_source",
+        "evidence_fields": {
+          "event_type": {
+            "value": "macro_monetary",
+            "evidence": "xpected, the Japanese central bank raised the short-term interest rate to a 31-year high on Friday and reiterated that it will continue raising rates ",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_subtype": {
+            "value": "rate_decision",
+            "evidence": "xpected, the Japanese central bank raised the short-term interest rate to a 31-year high on Friday and reiterated that it will continue raising rates ",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_summary": {
+            "value": "xpected, the Japanese central bank raised the short-term interest rate to a 31-year high on Friday and reiterated that it will continue raising rates ",
+            "evidence": "xpected, the Japanese central bank raised the short-term interest rate to a 31-year high on Friday and reiterated that it will continue raising rates ",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "keywords": {
+            "value": [
+              "rate_decision"
+            ],
+            "evidence": "xpected, the Japanese central bank raised the short-term interest rate to a 31-year high on Friday and reiterated that it will continue raising rates ",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "xpected, the Japanese central bank raised the short-term interest rate to a 31-year high on Friday and reiterated that it will continue raising rates ",
+                "source_field": "body"
+              }
+            ]
+          },
+          "canonical_headline": {
+            "value": "Japanese Yen bulls seem hesitant amid BoJ's dovish rate hike as Fed bets support USD",
+            "evidence": "Japanese Yen bulls seem hesitant amid BoJ's dovish rate hike as Fed bets support USD",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "independent_source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "event_status": {
+            "value": "developing",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "confirmation_level": {
+            "value": "single_source",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "extraction_confidence": {
+            "value": 0.7,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "published_at_first": {
+            "value": "2026-09-21T01:12:12.000Z",
+            "evidence": "2026-09-21T01:12:12.000Z",
+            "source_field": "published_at",
+            "basis": "provider_metadata"
+          },
+          "first_seen_at": {
+            "value": "2026-09-21T02:54:23.660114+00:00",
+            "evidence": "2026-09-21T02:54:23.660114+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "last_seen_at": {
+            "value": "2026-09-21T02:54:23.660114+00:00",
+            "evidence": "2026-09-21T02:54:23.660114+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "interest_rate_channel": {
+            "value": true,
+            "evidence": "xpected, the Japanese central bank raised the short-term interest rate to a 31-year high on Friday and reiterated that it will continue raising rates ",
+            "source_field": "body",
+            "basis": "article_text",
+            "assertion": "affirmed"
+          },
+          "government_entities": {
+            "value": [
+              "Federal Reserve"
+            ],
+            "evidence": "Adding to this, the US Federal Reserve's (Fed) hawkish outlook , signaling at least one more follow-up rate ",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "Adding to this, the US Federal Reserve's (Fed) hawkish outlook , signaling at least one more follow-up rate ",
+                "source_field": "body"
+              }
+            ]
+          },
+          "regulators": {
+            "value": [
+              "Federal Reserve"
+            ],
+            "evidence": "Adding to this, the US Federal Reserve's (Fed) hawkish outlook , signaling at least one more follow-up rate ",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "Adding to this, the US Federal Reserve's (Fed) hawkish outlook , signaling at least one more follow-up rate ",
+                "source_field": "body"
+              }
+            ]
+          },
+          "technologies_mentioned": {
+            "value": [
+              "AI"
+            ],
+            "evidence": "(The technical analysis of this story was written with the help of an AI tool.",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "(The technical analysis of this story was written with the help of an AI tool.",
+                "source_field": "body"
+              }
+            ]
+          }
+        },
+        "canonical_headline": "Japanese Yen bulls seem hesitant amid BoJ's dovish rate hike as Fed bets support USD",
+        "event_summary": "xpected, the Japanese central bank raised the short-term interest rate to a 31-year high on Friday and reiterated that it will continue raising rates ",
+        "keywords": [
+          "rate_decision"
+        ],
+        "created_at": "2026-09-21T08:38:46.846281+00:00",
+        "updated_at": "2026-09-21T08:38:46.846281+00:00",
+        "schema_version": "event_v1",
+        "country": null,
+        "region": null,
+        "location_basis": "unresolved",
+        "coordinate_precision": null
+      },
+      "candidate_channels": [
+        {
+          "channel_family": "interest_rates",
+          "channel_subtype": "unspecified",
+          "confidence": 0.75,
+          "basis": [
+            "interest_rate_channel"
+          ],
+          "status": "candidate"
+        }
+      ],
+      "ticker_analysis": [],
+      "edge_exclusions": [
+        {
+          "event_id": "evt_535a71a25cd34cc2ffde4e0f",
+          "edge_id": "4",
+          "reason": "non_operating_capacity"
+        },
+        {
+          "event_id": "evt_535a71a25cd34cc2ffde4e0f",
+          "edge_id": "19",
+          "reason": "blocked_or_hypothesis_evidence"
+        }
+      ],
+      "status": "macro_event",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "macro_event",
+      "published_at": "2026-09-21T01:12:12.000Z",
+      "geography": {
+        "event_country": null,
+        "event_region": null,
+        "event_city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "location_confidence": null,
+        "coordinate_basis": null,
+        "evidence": [
+          {
+            "country": "Japan",
+            "city": null,
+            "region": null,
+            "source_field": "body",
+            "evidence": ", the 7-2 vote split pointed to a divided board, which, along with data showing that inflation in Japan eased slightly in August, tempered bets for a more aggressive tightening cycle."
+          },
+          {
+            "country": "Yemen",
+            "city": null,
+            "region": null,
+            "source_field": "body",
+            "evidence": "In the latest development, Iran-backed Houthis in Yemen said that they attacked sensitive sites in the Saudi capital of Riyadh on Saturday with missiles and drones."
+          },
+          {
+            "country": "Saudi Arabia",
+            "city": null,
+            "region": null,
+            "source_field": "body",
+            "evidence": "In the latest development, Iran-backed Houthis in Yemen said that they attacked sensitive sites in the Saudi capital of Riyadh on Saturday with missiles and drones."
+          }
+        ],
+        "coordinate_precision": null
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Unknown; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      }
+    },
+    {
+      "article_id": "freenewsapi_da45790d-2c14-4b8c-9032-8853b60e78f9",
+      "headline": "Bessent: US proposes AI incident alert system in talks with China",
+      "source": "Yahoo",
+      "article_url": "https://www.yahoo.com/news/politics/articles/bessent-us-proposes-ai-incident-014924679.html",
+      "gate": {
+        "article_id": "freenewsapi_da45790d-2c14-4b8c-9032-8853b60e78f9",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_6c1096a3ab883a2acfb5",
+        "event_type": "general_news",
+        "event_subtype": "general_news",
+        "published_at_first": "2026-09-21T01:49:00.000Z",
+        "country": null,
+        "region": null,
+        "city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "coordinate_precision": null
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "general_news",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "general_news",
+      "published_at": "2026-09-21T01:49:00.000Z",
+      "geography": {
+        "event_country": null,
+        "event_region": null,
+        "event_city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "location_confidence": null,
+        "coordinate_basis": null,
+        "evidence": [],
+        "coordinate_precision": null
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Unknown; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      }
+    },
+    {
+      "article_id": "freenewsapi_454f4948-4b82-41d8-b018-d237061442f4",
+      "headline": "Newshour | The German chancellor describes the results of a state election as a \"disaster\"",
+      "source": "BBC",
+      "article_url": "https://www.bbc.com/audio/play/w1730bn6n9bwg4y",
+      "gate": {
+        "article_id": "freenewsapi_454f4948-4b82-41d8-b018-d237061442f4",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_15c1b13ef39f8396501f",
+        "event_type": "general_news",
+        "event_subtype": "general_news",
+        "published_at_first": "2026-09-21T01:31:18.000Z",
+        "country": null,
+        "region": null,
+        "city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "coordinate_precision": null
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "general_news",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "general_news",
+      "published_at": "2026-09-21T01:31:18.000Z",
+      "geography": {
+        "event_country": null,
+        "event_region": null,
+        "event_city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "location_confidence": null,
+        "coordinate_basis": null,
+        "evidence": [],
+        "coordinate_precision": null
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Unknown; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      }
+    },
+    {
+      "article_id": "freenewsapi_ca8d429a-a5d0-42db-879e-9c20a97d5f1c",
+      "headline": "IMF Says Global Public Debt at Record High, Governments Falling Short on Deficit Cuts",
+      "source": "bloomingbit",
+      "article_url": "https://en.bloomingbit.io/feed/news/120693",
+      "gate": {
+        "article_id": "freenewsapi_ca8d429a-a5d0-42db-879e-9c20a97d5f1c",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_7d6ae4c3f96a749bbd84",
+        "event_type": "general_news",
+        "event_subtype": "general_news",
+        "published_at_first": "2026-09-20T22:38:53.000Z",
+        "country": "Qatar",
+        "region": null,
+        "city": null,
+        "latitude": 25.237383,
+        "longitude": 51.143509,
+        "location_basis": "explicit_article_location",
+        "coordinate_precision": "country_approximation"
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "general_news",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "general_news",
+      "published_at": "2026-09-20T22:38:53.000Z",
+      "geography": {
+        "event_country": "Qatar",
+        "event_region": null,
+        "event_city": null,
+        "latitude": 25.237383,
+        "longitude": 51.143509,
+        "location_basis": "explicit_article_location",
+        "location_confidence": "Article-supported country; exact site unresolved",
+        "coordinate_basis": "Natural Earth country label point (existing map)",
+        "evidence": [
+          {
+            "country": "Qatar",
+            "city": null,
+            "region": null,
+            "source_field": "body",
+            "evidence": "Bloomberg reported on September 20 that IMF Managing Director Kristalina Georgieva, speaking at the Qatar Economic Forum in New York, said she had long warned that fiscal consolidation was essential."
+          }
+        ],
+        "coordinate_precision": "country_approximation"
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Unknown; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      }
+    },
+    {
+      "article_id": "freenewsapi_d1ce402a-1254-4f72-afc7-b4c86a9069d6",
+      "headline": "Stellar Blade \"Switch 2 vs. PS5\" graphics and framerate comparison",
+      "source": "GoNintendo",
+      "article_url": "https://gonintendo.com/contents/65255-stellar-blade-switch-2-vs-ps5-graphics-and-framerate-comparison",
+      "gate": {
+        "article_id": "freenewsapi_d1ce402a-1254-4f72-afc7-b4c86a9069d6",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_8164c49642ae479066be",
+        "event_type": "general_news",
+        "event_subtype": "general_news",
+        "published_at_first": "2026-09-21T02:21:27.000Z",
+        "country": null,
+        "region": null,
+        "city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "coordinate_precision": null
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "general_news",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "general_news",
+      "published_at": "2026-09-21T02:21:27.000Z",
+      "geography": {
+        "event_country": null,
+        "event_region": null,
+        "event_city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "location_confidence": null,
+        "coordinate_basis": null,
+        "evidence": [],
+        "coordinate_precision": null
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Unknown; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      }
+    },
+    {
+      "article_id": "freenewsapi_6e330833-6052-405e-bcba-8f57ff937692",
+      "headline": "Lufia is finally coming to PC for the first time ever",
+      "source": "well-played.com.au",
+      "article_url": "https://www.well-played.com.au/lufia-1-2-sinistrals-saga-announced-pc-switch-ps5/",
+      "gate": {
+        "article_id": "freenewsapi_6e330833-6052-405e-bcba-8f57ff937692",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_6f6dadd1be8eeb61c767",
+        "event_type": "general_news",
+        "event_subtype": "general_news",
+        "published_at_first": "2026-09-21T02:06:49.000Z",
+        "country": "Japan",
+        "region": null,
+        "city": null,
+        "latitude": 36.142538,
+        "longitude": 138.44217,
+        "location_basis": "explicit_article_location",
+        "coordinate_precision": "country_approximation"
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "general_news",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "general_news",
+      "published_at": "2026-09-21T02:06:49.000Z",
+      "geography": {
+        "event_country": "Japan",
+        "event_region": null,
+        "event_city": null,
+        "latitude": 36.142538,
+        "longitude": 138.44217,
+        "location_basis": "explicit_article_location",
+        "location_confidence": "Article-supported country; exact site unresolved",
+        "coordinate_basis": "Natural Earth country label point (existing map)",
+        "evidence": [
+          {
+            "country": "Japan",
+            "city": null,
+            "region": null,
+            "source_field": "body",
+            "evidence": "the Fortress of Doom released in Japan and North America in 1993 and skipped Europe entirely, and secondhand SNES cartridges of the game reportedly run into the hundreds of pounds."
+          }
+        ],
+        "coordinate_precision": "country_approximation"
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Unknown; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      }
+    },
+    {
+      "article_id": "freenewsapi_1ad64d53-2922-4e3f-8be0-61a78647e112",
+      "headline": "Good News: Trumpet player sings National Anthem after horn malfunction",
+      "source": "Yahoo",
+      "article_url": "https://www.yahoo.com/news/videos/good-news-trumpet-player-sings-230244752.html",
+      "gate": {
+        "article_id": "freenewsapi_1ad64d53-2922-4e3f-8be0-61a78647e112",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_e926520f44a4e1508a37",
+        "event_type": "general_news",
+        "event_subtype": "general_news",
+        "published_at_first": "2026-09-20T23:02:44.000Z",
+        "country": null,
+        "region": null,
+        "city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "coordinate_precision": null
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "general_news",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "general_news",
+      "published_at": "2026-09-20T23:02:44.000Z",
+      "geography": {
+        "event_country": null,
+        "event_region": null,
+        "event_city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "location_confidence": null,
+        "coordinate_basis": null,
+        "evidence": [],
+        "coordinate_precision": null
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Unknown; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      }
+    },
+    {
+      "article_id": "freenewsapi_f7b2ede4-bd84-4bf4-8225-a36e2898009c",
+      "headline": "Petrobras Backs New Diesel Subsidy as Fuel Payments Reach $1.9 Billion",
+      "source": "Crude Oil Prices Today | OilPrice.com",
+      "article_url": "https://oilprice.com/Company-News/Petrobras-Backs-New-Diesel-Subsidy-as-Fuel-Payments-Reach-19-Billion.html",
+      "gate": {
+        "article_id": "freenewsapi_f7b2ede4-bd84-4bf4-8225-a36e2898009c",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_9e89e0f4276b714f4eda",
+        "event_type": "general_news",
+        "event_subtype": "general_news",
+        "published_at_first": "2026-09-21T01:56:44.000Z",
+        "country": null,
+        "region": null,
+        "city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "coordinate_precision": null
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "general_news",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "general_news",
+      "published_at": "2026-09-21T01:56:44.000Z",
+      "geography": {
+        "event_country": null,
+        "event_region": null,
+        "event_city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "location_confidence": null,
+        "coordinate_basis": null,
+        "evidence": [],
+        "coordinate_precision": null
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Unknown; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      }
+    },
+    {
+      "article_id": "freenewsapi_becbd6f8-e884-465e-9381-3cd937f6c1d9",
+      "headline": "Discarded pool chemicals in garbage truck load cause vapor cloud, hours-long hazmat response in Gurnee",
+      "source": "Lake and McHenry County Scanner",
+      "article_url": "https://www.lakemchenryscanner.com/2026/09/20/discarded-pool-chemicals-in-garbage-truck-load-cause-vapor-cloud-hours-long-hazmat-response-in-gurnee/",
+      "gate": {
+        "article_id": "freenewsapi_becbd6f8-e884-465e-9381-3cd937f6c1d9",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_208a31965a9b05614710",
+        "event_type": "general_news",
+        "event_subtype": "general_news",
+        "published_at_first": "2026-09-21T00:43:12.000Z",
+        "country": "United States",
+        "region": null,
+        "city": "Gurnee",
+        "latitude": 39.538479,
+        "longitude": -97.482602,
+        "location_basis": "explicit_article_location",
+        "coordinate_precision": "country_approximation"
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "general_news",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "general_news",
+      "published_at": "2026-09-21T00:43:12.000Z",
+      "geography": {
+        "event_country": "United States",
+        "event_region": null,
+        "event_city": "Gurnee",
+        "latitude": 39.538479,
+        "longitude": -97.482602,
+        "location_basis": "explicit_article_location",
+        "location_confidence": "Article-supported country; exact site unresolved",
+        "coordinate_basis": "Natural Earth country label point (existing map)",
+        "evidence": [
+          {
+            "country": "United States",
+            "city": "Gurnee",
+            "region": null,
+            "source_field": "headline",
+            "evidence": "Discarded pool chemicals in garbage truck load cause vapor cloud, hours-long hazmat response in Gurnee"
+          }
+        ],
+        "coordinate_precision": "country_approximation"
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Unknown; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      }
+    },
+    {
+      "article_id": "freenewsapi_68363629-7144-4a39-aeac-731cc56e904e",
+      "headline": "The iron-air storage solution for solar",
+      "source": "BusinessLine",
+      "article_url": "https://www.thehindubusinessline.com/business-tech/the-iron-air-storage-solution-for-solar/article71488881.ece",
+      "gate": {
+        "article_id": "freenewsapi_68363629-7144-4a39-aeac-731cc56e904e",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_b0b7407095922614d840",
+        "event_type": "general_news",
+        "event_subtype": "general_news",
+        "published_at_first": "2026-09-21T00:36:00.000Z",
+        "country": "India",
+        "region": null,
+        "city": null,
+        "latitude": 22.686852,
+        "longitude": 79.358105,
+        "location_basis": "explicit_article_location",
+        "coordinate_precision": "country_approximation"
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "general_news",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "general_news",
+      "published_at": "2026-09-21T00:36:00.000Z",
+      "geography": {
+        "event_country": "India",
+        "event_region": null,
+        "event_city": null,
+        "latitude": 22.686852,
+        "longitude": 79.358105,
+        "location_basis": "explicit_article_location",
+        "location_confidence": "Article-supported country; exact site unresolved",
+        "coordinate_basis": "Natural Earth country label point (existing map)",
+        "evidence": [
+          {
+            "country": "India",
+            "city": null,
+            "region": null,
+            "source_field": "body",
+            "evidence": "According to Prof Aravind Kumar Chandiran, Faculty, Department of Chemical Engineering, IIT-Madras, “We see from our studies that electricity consumption is projected to triple in India from about 2,000 terawatt hour (TWh) today to about 6,000 TWh by 2047."
+          }
+        ],
+        "coordinate_precision": "country_approximation"
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Unknown; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      }
+    },
+    {
+      "article_id": "freenewsapi_bc9d07b3-a97d-4901-8e3a-f426a15d355a",
+      "headline": "COMMENT | Govt must reveal reasons for Najib's pardon",
+      "source": "malaysiakini.com",
+      "article_url": "https://www.malaysiakini.com/columns/885402-comment-govt-must-reveal-reasons-for-najibs-pardon",
+      "gate": {
+        "article_id": "freenewsapi_bc9d07b3-a97d-4901-8e3a-f426a15d355a",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_0634101563c1e5436475",
+        "event_type": "opinion",
+        "event_subtype": "opinion",
+        "published_at_first": "2026-09-21T02:10:00.000Z",
+        "country": "Malaysia",
+        "region": null,
+        "city": null,
+        "latitude": 2.528667,
+        "longitude": 113.83708,
+        "location_basis": "explicit_article_location",
+        "coordinate_precision": "country_approximation"
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "opinion",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "opinion",
+      "published_at": "2026-09-21T02:10:00.000Z",
+      "geography": {
+        "event_country": "Malaysia",
+        "event_region": null,
+        "event_city": null,
+        "latitude": 2.528667,
+        "longitude": 113.83708,
+        "location_basis": "explicit_article_location",
+        "location_confidence": "Article-supported country; exact site unresolved",
+        "coordinate_basis": "Natural Earth country label point (existing map)",
+        "evidence": [
+          {
+            "country": "Malaysia",
+            "city": null,
+            "region": null,
+            "source_field": "body",
+            "evidence": "Legal experts have also noted that this appears to be an unprecedented use of house arrest as a form of royal clemency in Malaysia."
+          },
+          {
+            "country": "Malaysia",
+            "city": null,
+            "region": null,
+            "source_field": "body",
+            "evidence": "G25 is a group of influential Malays advocating moderation, constitutional rights, justice, and good governance in Malaysia."
+          }
+        ],
+        "coordinate_precision": "country_approximation"
+      },
+      "severity": {
+        "level": "Low",
+        "score": 0.2,
+        "components": [],
+        "reason": "Company discussion/opinion with no supported operational or binding-action escalation.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Low",
+        "score": 0.2,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Low; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      }
+    },
+    {
+      "article_id": "freenewsapi_a990e6fb-b2e8-447b-a7fd-093f3baf9f48",
+      "headline": "In Washington, temples to Trump’s ego lie ruined. And another is on the way",
+      "source": "SMH.com.au",
+      "article_url": "https://www.smh.com.au/world/north-america/in-washington-temples-to-trump-s-ego-lie-ruined-and-another-is-on-the-way-20260921-p60yzq.html",
+      "gate": {
+        "article_id": "freenewsapi_a990e6fb-b2e8-447b-a7fd-093f3baf9f48",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_069de529f05aa9880bea",
+        "event_type": "general_news",
+        "event_subtype": "general_news",
+        "published_at_first": "2026-09-21T01:49:10.000Z",
+        "country": null,
+        "region": null,
+        "city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "coordinate_precision": null
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "general_news",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "general_news",
+      "published_at": "2026-09-21T01:49:10.000Z",
+      "geography": {
+        "event_country": null,
+        "event_region": null,
+        "event_city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "location_confidence": null,
+        "coordinate_basis": null,
+        "evidence": [],
+        "coordinate_precision": null
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Unknown; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      }
+    },
+    {
+      "article_id": "freenewsapi_4a78c634-4e8c-4016-9d40-292cc14bd2d8",
+      "headline": "SNAPSHOT | Anwar denies paving way for Najib's pardon; PM celebrates Malacca CM's birthday",
+      "source": "Malaysiakini",
+      "article_url": "https://www.malaysiakini.com/news/885415-snapshot-anwar-denies-paving-way-for-najibs-pardon-pm-celebrates-malacca-cms-birthday",
+      "gate": {
+        "article_id": "freenewsapi_4a78c634-4e8c-4016-9d40-292cc14bd2d8",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_69fcab64403032d022e1",
+        "event_type": "general_news",
+        "event_subtype": "general_news",
+        "published_at_first": "2026-09-21T01:10:00.000Z",
+        "country": null,
+        "region": null,
+        "city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "coordinate_precision": null
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "general_news",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "general_news",
+      "published_at": "2026-09-21T01:10:00.000Z",
+      "geography": {
+        "event_country": null,
+        "event_region": null,
+        "event_city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "location_confidence": null,
+        "coordinate_basis": null,
+        "evidence": [],
+        "coordinate_precision": null
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Unknown; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      }
+    },
+    {
+      "article_id": "freenewsapi_622f3b75-8c46-449e-ae1e-0aee34ead34e",
+      "headline": "Putin's United Russia wins tightly controlled wartime election",
+      "source": "yahoo.com",
+      "article_url": "https://www.yahoo.com/news/world/articles/putins-united-russia-wins-tightly-020337735.html",
+      "gate": {
+        "article_id": "freenewsapi_622f3b75-8c46-449e-ae1e-0aee34ead34e",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_f9dcec687324b7d95bf9",
+        "event_type": "general_news",
+        "event_subtype": "general_news",
+        "published_at_first": "2026-09-21T02:03:00.000Z",
+        "country": "Russia",
+        "region": null,
+        "city": null,
+        "latitude": 58.249357,
+        "longitude": 44.686469,
+        "location_basis": "explicit_article_location",
+        "coordinate_precision": "country_approximation"
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "general_news",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "general_news",
+      "published_at": "2026-09-21T02:03:00.000Z",
+      "geography": {
+        "event_country": "Russia",
+        "event_region": null,
+        "event_city": null,
+        "latitude": 58.249357,
+        "longitude": 44.686469,
+        "location_basis": "explicit_article_location",
+        "location_confidence": "Article-supported country; exact site unresolved",
+        "coordinate_basis": "Natural Earth country label point (existing map)",
+        "evidence": [
+          {
+            "country": "Russia",
+            "city": null,
+            "region": null,
+            "source_field": "summary",
+            "evidence": "The Kremlin-backed United Russia party has secured victory in Russia's parliamentary election, taking more than half of the vote, according to preliminary results reported by Russian news agencies."
+          },
+          {
+            "country": "Russia",
+            "city": null,
+            "region": null,
+            "source_field": "body",
+            "evidence": "The Kremlin-backed United Russia party has secured victory in Russia's parliamentary election, taking more than half of the vote, according to preliminary results reported by Russian news agencies."
+          },
+          {
+            "country": "Russia",
+            "city": null,
+            "region": null,
+            "source_field": "body",
+            "evidence": "Electronic voting in Russia has faced criticism over a lack of transparency and concerns about possible manipulation."
+          }
+        ],
+        "coordinate_precision": "country_approximation"
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Unknown; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      }
+    },
+    {
+      "article_id": "freenewsapi_cfaecb74-b4de-461d-932f-d26d1cc316ea",
+      "headline": "Princess Diana's brother says his bombshell claims against King Charles following her death will 'not be a surprise' to nephews William and Harry",
+      "source": "pagesix.com",
+      "article_url": "https://pagesix.com/2026/09/20/royal-family/princess-dianas-brother-says-his-bombshell-claims-against-king-charles-following-her-death-will-not-be-a-surprise-to-nephews-william-and-harry/",
+      "gate": {
+        "article_id": "freenewsapi_cfaecb74-b4de-461d-932f-d26d1cc316ea",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_101cf76b8b42a29ed9de",
+        "event_type": "general_news",
+        "event_subtype": "general_news",
+        "published_at_first": "2026-09-21T01:15:00.000Z",
+        "country": "United Kingdom",
+        "region": null,
+        "city": null,
+        "latitude": 54.402739,
+        "longitude": -2.116346,
+        "location_basis": "explicit_article_location",
+        "coordinate_precision": "country_approximation"
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "general_news",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "general_news",
+      "published_at": "2026-09-21T01:15:00.000Z",
+      "geography": {
+        "event_country": "United Kingdom",
+        "event_region": null,
+        "event_city": null,
+        "latitude": 54.402739,
+        "longitude": -2.116346,
+        "location_basis": "explicit_article_location",
+        "location_confidence": "Article-supported country; exact site unresolved",
+        "coordinate_basis": "Natural Earth country label point (existing map)",
+        "evidence": [
+          {
+            "country": "United Kingdom",
+            "city": null,
+            "region": null,
+            "source_field": "body",
+            "evidence": "spencer/instagram “Swan Song: Diana, My Sister” is out Tuesday in the UK and the US."
+          }
+        ],
+        "coordinate_precision": "country_approximation"
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Unknown; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      }
+    },
+    {
+      "article_id": "freenewsapi_17270f98-6ab2-4d50-9b25-e67a072a4041",
+      "headline": "Ukraine war briefing: Russia to ‘intensify’ attacks on Kyiv after Moscow hit with mass drone strikes",
+      "source": "The Guardian",
+      "article_url": "https://www.theguardian.com/world/2026/sep/21/ukraine-war-briefing-russia-intensify-attacks-kyiv",
+      "gate": {
+        "article_id": "freenewsapi_17270f98-6ab2-4d50-9b25-e67a072a4041",
+        "is_event": true,
+        "gate_reason": "Asserted conflict event: Moscow illegally annexed after the war began ,",
+        "gate_confidence": 0.8
+      },
+      "event": {
+        "event_id": "evt_a57a5890562059c85dc0c800",
+        "canonical_event_id": "evt_a57a5890562059c85dc0c800",
+        "article_ids": [
+          "freenewsapi_17270f98-6ab2-4d50-9b25-e67a072a4041"
+        ],
+        "source_count": 1,
+        "independent_source_count": 1,
+        "first_seen_at": "2026-09-21T02:54:46.753079+00:00",
+        "last_seen_at": "2026-09-21T02:54:46.753079+00:00",
+        "published_at_first": "2026-09-21T01:14:00.000Z",
+        "event_start_at": null,
+        "event_end_at": null,
+        "time_precision": "unknown",
+        "event_status": "developing",
+        "primary_country": null,
+        "affected_countries": [],
+        "primary_region": null,
+        "affected_regions": [],
+        "city": null,
+        "location_name": null,
+        "latitude": 49.724739,
+        "longitude": 32.140865,
+        "location_confidence": null,
+        "event_type": "geopolitical_conflict",
+        "event_subtype": "conflict",
+        "severity_score": null,
+        "severity_confidence": null,
+        "scope": null,
+        "duration_class": "unknown",
+        "event_novelty": null,
+        "physical_damage": null,
+        "production_disruption": null,
+        "capacity_disruption": null,
+        "logistics_disruption": null,
+        "port_disruption": null,
+        "power_disruption": null,
+        "network_disruption": null,
+        "cloud_service_disruption": null,
+        "labor_disruption": null,
+        "supply_shortage": null,
+        "regulatory_change": null,
+        "export_restriction": null,
+        "import_restriction": null,
+        "price_change_explicit": null,
+        "demand_change_explicit": null,
+        "companies_mentioned": [],
+        "tickers_mentioned": [],
+        "suppliers_mentioned": [],
+        "customers_mentioned": [],
+        "industries_mentioned": [],
+        "products_mentioned": [],
+        "technologies_mentioned": [],
+        "commodities_mentioned": [
+          "oil"
+        ],
+        "government_entities": [],
+        "regulators": [],
+        "people_mentioned": [],
+        "supply_channel": null,
+        "demand_channel": null,
+        "cost_channel": null,
+        "revenue_channel": null,
+        "margin_channel": null,
+        "capex_channel": null,
+        "financing_channel": null,
+        "interest_rate_channel": null,
+        "fx_channel": null,
+        "commodity_channel": null,
+        "logistics_channel": null,
+        "energy_channel": null,
+        "regulatory_channel": null,
+        "legal_channel": null,
+        "technology_channel": null,
+        "competition_channel": null,
+        "source_quality": null,
+        "extraction_confidence": 0.7,
+        "confirmation_level": "single_source",
+        "evidence_fields": {
+          "event_type": {
+            "value": "geopolitical_conflict",
+            "evidence": "Moscow illegally annexed after the war began ,",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_subtype": {
+            "value": "conflict",
+            "evidence": "Moscow illegally annexed after the war began ,",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_summary": {
+            "value": "Moscow illegally annexed after the war began ,",
+            "evidence": "Moscow illegally annexed after the war began ,",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "keywords": {
+            "value": [
+              "conflict"
+            ],
+            "evidence": "Moscow illegally annexed after the war began ,",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "Moscow illegally annexed after the war began ,",
+                "source_field": "body"
+              }
+            ]
+          },
+          "canonical_headline": {
+            "value": "Ukraine war briefing: Russia to ‘intensify’ attacks on Kyiv after Moscow hit with mass drone strikes",
+            "evidence": "Ukraine war briefing: Russia to ‘intensify’ attacks on Kyiv after Moscow hit with mass drone strikes",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "independent_source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "event_status": {
+            "value": "developing",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "confirmation_level": {
+            "value": "single_source",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "extraction_confidence": {
+            "value": 0.7,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "published_at_first": {
+            "value": "2026-09-21T01:14:00.000Z",
+            "evidence": "2026-09-21T01:14:00.000Z",
+            "source_field": "published_at",
+            "basis": "provider_metadata"
+          },
+          "first_seen_at": {
+            "value": "2026-09-21T02:54:46.753079+00:00",
+            "evidence": "2026-09-21T02:54:46.753079+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "last_seen_at": {
+            "value": "2026-09-21T02:54:46.753079+00:00",
+            "evidence": "2026-09-21T02:54:46.753079+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "commodities_mentioned": {
+            "value": [
+              "oil"
+            ],
+            "evidence": "g from what appeared to be an oil refinery.",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "g from what appeared to be an oil refinery.",
+                "source_field": "body"
+              }
+            ]
+          }
+        },
+        "canonical_headline": "Ukraine war briefing: Russia to ‘intensify’ attacks on Kyiv after Moscow hit with mass drone strikes",
+        "event_summary": "Moscow illegally annexed after the war began ,",
+        "keywords": [
+          "conflict"
+        ],
+        "created_at": "2026-09-21T08:38:46.846281+00:00",
+        "updated_at": "2026-09-21T08:38:46.846281+00:00",
+        "schema_version": "event_v1",
+        "country": "Ukraine",
+        "region": null,
+        "location_basis": "explicit_article_location",
+        "coordinate_precision": "country_approximation"
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [
+        {
+          "event_id": "evt_a57a5890562059c85dc0c800",
+          "edge_id": "4",
+          "reason": "non_operating_capacity"
+        },
+        {
+          "event_id": "evt_a57a5890562059c85dc0c800",
+          "edge_id": "19",
+          "reason": "blocked_or_hypothesis_evidence"
+        }
+      ],
+      "status": "geopolitical_event",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "geopolitical_event",
+      "published_at": "2026-09-21T01:14:00.000Z",
+      "geography": {
+        "event_country": "Ukraine",
+        "event_region": null,
+        "event_city": null,
+        "latitude": 49.724739,
+        "longitude": 32.140865,
+        "location_basis": "explicit_article_location",
+        "location_confidence": "Article-supported country; exact site unresolved",
+        "coordinate_basis": "Natural Earth country label point (existing map)",
+        "evidence": [
+          {
+            "country": "Ukraine",
+            "city": null,
+            "region": null,
+            "source_field": "headline",
+            "evidence": "Ukraine war briefing: Russia to ‘intensify’ attacks on Kyiv after Moscow hit with mass drone strikes"
+          }
+        ],
+        "coordinate_precision": "country_approximation"
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Unknown; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      }
+    }
+  ],
+  "research_queue": [
+    {
+      "article_id": "freenewsapi_f15bf067-b612-4338-8041-9e41218ba6f4",
+      "event_id": "article_73ff4902cc61c5139b9c",
+      "ticker": "NVDA",
+      "qualification": "qualified_direct_company_subject",
+      "priority": "Low",
+      "direction": "Analyst judgment required"
+    }
+  ],
+  "summary": {
+    "articles": 21,
+    "usable": 21,
+    "discrete_events": 4,
+    "rejected": 0,
+    "qualified_pairs": 1,
+    "review_candidates": 0
+  }
+}

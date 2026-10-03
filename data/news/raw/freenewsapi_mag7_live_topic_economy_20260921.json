@@ -1,0 +1,98 @@
+{
+  "_ingestion": {
+    "provider": "freenewsapi",
+    "query_name": "mag7_live_topic_economy_20260921",
+    "fetched_at": "2026-09-21T02:51:43.104839+00:00",
+    "request_params": {
+      "topic": "economy",
+      "language": "en",
+      "country": "us"
+    }
+  },
+  "raw_response": {
+    "data": [
+      {
+        "uuid": "ef76f840-4065-4052-82cf-60af67d7e099",
+        "title": "Volatile yen draws intervention watch, other currencies subdued",
+        "published_at": "2026-09-21T02:20:00.000Z",
+        "publisher": "CNBC"
+      },
+      {
+        "uuid": "da45790d-2c14-4b8c-9032-8853b60e78f9",
+        "title": "Bessent: US proposes AI incident alert system in talks with China",
+        "published_at": "2026-09-21T01:49:00.000Z",
+        "publisher": "Yahoo"
+      },
+      {
+        "uuid": "454f4948-4b82-41d8-b018-d237061442f4",
+        "title": "Newshour | The German chancellor describes the results of a state election as a \"disaster\"",
+        "published_at": "2026-09-21T01:31:18.000Z",
+        "publisher": "BBC"
+      },
+      {
+        "uuid": "88d78250-1732-48b3-9ffd-a7f1b9975163",
+        "title": "Confirmed: PBOC leaves Loan Prime Rates unchanged in September",
+        "published_at": "2026-09-21T01:00:55.000Z",
+        "publisher": "FXStreet"
+      },
+      {
+        "uuid": "f7c7fc0a-6592-4420-a8c6-f5520d838a3f",
+        "title": "PBOC holds benchmark rate at 3%, steady stance underpins yuan and equity derivatives outlook",
+        "published_at": "2026-09-21T00:32:16.000Z",
+        "publisher": "VT Markets"
+      },
+      {
+        "uuid": "56e31617-ed1c-4f61-b334-66ee7c251c6a",
+        "title": "In the US, shoppers earning $100,000 or more are looking for discounts — Fortune",
+        "published_at": "2026-09-20T23:26:41.000Z",
+        "publisher": "UA.NEWS"
+      },
+      {
+        "uuid": "7b4acd74-8931-43f9-a0dc-2a186826b80d",
+        "title": "Dollar General CEO says consumers making $100,000 a year don't feel high income anymore",
+        "published_at": "2026-09-20T23:03:00.000Z",
+        "publisher": "Fortune"
+      },
+      {
+        "uuid": "ca8d429a-a5d0-42db-879e-9c20a97d5f1c",
+        "title": "IMF Says Global Public Debt at Record High, Governments Falling Short on Deficit Cuts",
+        "published_at": "2026-09-20T22:38:53.000Z",
+        "publisher": "bloomingbit"
+      },
+      {
+        "uuid": "c35e9e22-c8cc-4b35-9f7f-fb34d164777b",
+        "title": "Far-right AfD poised to finish atop vote in another German state",
+        "published_at": "2026-09-20T22:03:43.000Z",
+        "publisher": "Yahoo"
+      },
+      {
+        "uuid": "220d77d0-cafd-4da3-9922-5e857b4be4b8",
+        "title": "Can Trump and Xi cooperate to guide humanity through the AI revolution? Humanity might depend on it | Alan Finkel",
+        "published_at": "2026-09-20T22:00:00.000Z",
+        "publisher": "The Guardian"
+      }
+    ],
+    "meta": {
+      "page_size": 10,
+      "returned": 10,
+      "has_more": true,
+      "order_by": "recent",
+      "filters": {
+        "published_after": null,
+        "published_before": null,
+        "language": "en",
+        "country": "US",
+        "topic": "economy",
+        "publisher_uuid": null,
+        "author_uuid": null,
+        "q": null,
+        "in_title": null,
+        "in_body": null,
+        "in_subtitle": null
+      },
+      "offset": 0,
+      "next_offset": 10,
+      "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6IjEyMzc0MmQ5MWU5ZGE3Y2FjMGNmMmRmMjQ2YjVkZTAzNTk2MjllZDcxYjRlYWRmOWVlNjE3MWY3ZDA5YmMxNDMiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDktMjBUMjI6MDA6MDAuMDAwWiIsImxhc3RfaWQiOjI5NDA3NTAzfQ"
+    }
+  }
+}

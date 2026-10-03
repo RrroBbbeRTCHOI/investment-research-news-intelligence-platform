@@ -1,0 +1,19 @@
+{
+  "schema_version": "news_benchmark_v3",
+  "review_status": [
+    "pending_human_review",
+    "human_verified"
+  ],
+  "expected_fields": [
+    "should_surface",
+    "article_class",
+    "country",
+    "event_type",
+    "direct_tickers",
+    "indirect_tickers",
+    "economic_channels",
+    "severity",
+    "expected_exposure_paths"
+  ],
+  "label_rule": "null = unlabelled; [] = explicitly no labels. Human verification requires reviewer and reviewed_at."
+}

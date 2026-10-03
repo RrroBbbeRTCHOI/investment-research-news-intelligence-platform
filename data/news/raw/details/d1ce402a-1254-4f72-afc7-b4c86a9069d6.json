@@ -1,0 +1,35 @@
+{
+  "_ingestion": {
+    "provider": "freenewsapi",
+    "endpoint": "details",
+    "article_uuid": "d1ce402a-1254-4f72-afc7-b4c86a9069d6",
+    "fetched_at": "2026-09-21T02:54:29.862450+00:00"
+  },
+  "raw_response": {
+    "data": {
+      "uuid": "d1ce402a-1254-4f72-afc7-b4c86a9069d6",
+      "title": "Stellar Blade \"Switch 2 vs. PS5\" graphics and framerate comparison",
+      "thumbnail": "https://gonintendo.com/attachments/image/86571/file/medium-8b951d13ffeeb99582c0f38c257b7a9a.png",
+      "publisher": "GoNintendo",
+      "authors": [
+        "rawmeatcowboy"
+      ],
+      "topics": [
+        "gaming",
+        "technology"
+      ],
+      "countries": [
+        "GB",
+        "SG",
+        "US"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-09-21T02:21:27.000Z",
+      "original_url": "https://gonintendo.com/contents/65255-stellar-blade-switch-2-vs-ps5-graphics-and-framerate-comparison",
+      "incipit": "A stellar comparison SHIFT UP Corp. is bringing Stellar Blade Complete Edition to Switch 2 on November 5th, 2026, but you don’t have to wait until then to give the game a go. A demo for...",
+      "body": "A stellar comparison SHIFT UP Corp. is bringing Stellar Blade Complete Edition to Switch 2 on November 5th, 2026, but you don’t have to wait until then to give the game a go. A demo for the title has just been added to the Nintendo eShop, so hop on your Switch 2 and snag it now! That demo has also paved the way for a comparison video between the PS5 and Switch 2 versions of the game, and you can check it out above. In Stellar Blade: Complete Edition, step into the role of EVE, an elite warrior sent to reclaim Earth from mysterious forces. Experience intense combat and a twisting plot as you unravel the mysteries of Earth’s downfall in an immersive sci-fi world. Featuring a blend of cinematic storytelling and gameplay, Stellar Blade offers deep character progression with customizable skills, gear, and combat builds – which you’ll need during epic boss encounters. Further, players can experience support for Joy-Con 2 motion controls for activities, adding in an extra layer of immersion to moments away from combat. Stellar Blade Complete Edition will also include four new couture outfits inspired by Bayonetta. All four will be available for free on Nintendo Switch 2 starting Nov. 5th, 2026 alongside the game’s launch. Pre-orders for Stellar Blade Complete Edition on Nintendo Switch 2 are live on the eShop and at participating retailers. Players who pre-order will receive an early unlock of the Planet Diving Suit (White Edition), Classic Round Glasses, and Ear Armor Earrings for EVE. A Limited Edition SteelBook, featuring exclusive new key art, is also available to pre-order today through participating retailers and Panax, in strictly limited quantities. The Complete Edition includes all previously released content, including the NieR:Automata and GODDESS OF VICTORY: NIKKE DLC, as well as additional Complete Edition bonuses (Stargazer outfit set for EVE, Adam, and Lily; Half-Rim Glasses, Quadruple Rectangle Earring, Planet Diving Suit (Captain), for EVE; Stargazer &amp; Fluffy Bear Packs for the Drone; 2,000 SP EXP; 5,000 Gold). The game will be available physically and digitally at $59.99 / £54.99 / €59.99 / ¥7,980 / ₩69,800 MSRP. The physical version of Stellar Blade Complete Edition on Nintendo Switch 2 ships with the entire game data on the cartridge: no game-key card, no additional download required to play."
+    }
+  }
+}

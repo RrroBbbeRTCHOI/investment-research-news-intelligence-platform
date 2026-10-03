@@ -1,0 +1,14 @@
+{
+  "modified_existing_files": [
+    "templates/news.html",
+    "src/news/ui_api.py",
+    "src/news/normalizer.py",
+    "static/css/news.css",
+    "static/js/news_model.js",
+    "static/js/news_ui.js"
+  ],
+  "unchanged_original_files": 574,
+  "research_financial_logic_unchanged": true,
+  "workbook_and_v2_engine_unchanged": true,
+  "globe_js_unchanged": true
+}

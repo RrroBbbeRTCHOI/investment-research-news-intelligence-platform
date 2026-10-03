@@ -1,0 +1,57 @@
+{
+  "schema_version": "news_research_v1",
+  "article_fields": {
+    "article_id": "str",
+    "headline": "str",
+    "source": "str",
+    "article_url": "NoneType",
+    "gate": "dict",
+    "event": "dict",
+    "candidate_channels": "list",
+    "ticker_analysis": "list",
+    "edge_exclusions": "list",
+    "status": "str",
+    "direction": "str"
+  },
+  "ticker_analysis_fields": {
+    "ticker": "str",
+    "qualification": "str",
+    "relationship_type": "str",
+    "direct_mention": "bool",
+    "relevance_score": "float",
+    "relevance_level": "str",
+    "relevance_components": "dict",
+    "score_method": "str",
+    "legacy_relevance_score": "float",
+    "score_interpretation": "str",
+    "economic_channels": "list",
+    "relationship_paths": "list",
+    "evidence": "list",
+    "evidence_strength": "dict",
+    "article_evidence": "dict",
+    "temporal_status": "dict",
+    "materiality": "dict",
+    "historical_reaction": "dict",
+    "research_priority": "dict",
+    "direction": "str",
+    "explanation": "str",
+    "next_questions": "list"
+  },
+  "nullable_fields": [
+    "event when gate rejected",
+    "article_url",
+    "source",
+    "event factual fields",
+    "evidence_strength.article_source_quality",
+    "materiality.factors.event_severity",
+    "historical_reaction.probability",
+    "temporal_status.as_of"
+  ],
+  "field_contract_notes": {
+    "candidate_channels": "Hypotheses only, not established company relationships",
+    "evidence": "Unmodified qualified workbook records with match_reasons",
+    "direction": "Always Analyst judgment required",
+    "materiality": "Unknown absent valid event-specific scale",
+    "historical_reaction.predictions": "All saved models and thresholds, only after explicit binding and validation"
+  }
+}

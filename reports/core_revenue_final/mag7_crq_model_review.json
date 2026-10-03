@@ -1,0 +1,532 @@
+{
+  "model_version": "MERIDIAN-CRQ-V1-EVIDENCE-GATED-2026-10",
+  "generated_at_utc": "2026-10-02T01:58:02.687995+00:00",
+  "inputs": [
+    "/Users/choisiuhang/Documents/ChatGPT/stock screener/Codex UI/Production/STOCK_SCREENER_NEWS_LIVE_PRODUCT_V3_2_3_1/reports/core_revenue_final/mag7_core_revenue_review.json",
+    "/Users/choisiuhang/Documents/ChatGPT/stock screener/Codex UI/Production/STOCK_SCREENER_NEWS_LIVE_PRODUCT_V3_2_3_1/reports/core_revenue_v1_pilot/aapl_stage4_recognition_review.json",
+    "/Users/choisiuhang/Documents/ChatGPT/stock screener/Codex UI/Production/STOCK_SCREENER_NEWS_LIVE_PRODUCT_V3_2_3_1/reports/core_revenue_v1_pilot/aapl_stage5_scoring_readiness.json"
+  ],
+  "scoring_weights_experimental": {
+    "purity": 0.4,
+    "recognition": 0.6
+  },
+  "production_approved": false,
+  "weights_calibrated": false,
+  "production_modified": false,
+  "companies": [
+    {
+      "ticker": "AAPL",
+      "fiscal_year": 2025,
+      "period_end": "2025-09-27",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_locator": "See original AAPL SEC evidence notes",
+      "revenue_usd": 416161000000.0,
+      "previous_revenue_usd": 391035000000.0,
+      "revenue_growth_pct": 6.4255,
+      "sec_disclosure_coverage_pct": 100.0,
+      "sec_reconciliation": "PASS_FY_AND_PRIOR_FY",
+      "revenue_mix": [
+        {
+          "name": "iPhone",
+          "current_revenue_usd": 209586000000.0,
+          "previous_revenue_usd": 201183000000.0,
+          "change_usd": 8403000000.0,
+          "share_of_gaap_revenue_pct": 50.3618,
+          "contribution_to_gaap_revenue_growth_pp": 2.1489
+        },
+        {
+          "name": "Mac",
+          "current_revenue_usd": 33708000000.0,
+          "previous_revenue_usd": 29984000000.0,
+          "change_usd": 3724000000.0,
+          "share_of_gaap_revenue_pct": 8.0997,
+          "contribution_to_gaap_revenue_growth_pp": 0.9523
+        },
+        {
+          "name": "iPad",
+          "current_revenue_usd": 28023000000.0,
+          "previous_revenue_usd": 26694000000.0,
+          "change_usd": 1329000000.0,
+          "share_of_gaap_revenue_pct": 6.7337,
+          "contribution_to_gaap_revenue_growth_pp": 0.3399
+        },
+        {
+          "name": "Wearables, Home and Accessories",
+          "current_revenue_usd": 35686000000.0,
+          "previous_revenue_usd": 37005000000.0,
+          "change_usd": -1319000000.0,
+          "share_of_gaap_revenue_pct": 8.575,
+          "contribution_to_gaap_revenue_growth_pp": -0.3373
+        },
+        {
+          "name": "Services",
+          "current_revenue_usd": 109158000000.0,
+          "previous_revenue_usd": 96169000000.0,
+          "change_usd": 12989000000.0,
+          "share_of_gaap_revenue_pct": 26.2298,
+          "contribution_to_gaap_revenue_growth_pp": 3.3217
+        }
+      ],
+      "adjustments_and_sensitive_revenue": {},
+      "provider_ar_growth_pct": 10.135410533943201,
+      "provider_ar_definition_sec_verified": true,
+      "provider_ar_comparison_warning": null,
+      "aapl_sec_trade_ar_diagnostic": {
+        "trade_ar_fy2024_usd_m": 33410.0,
+        "trade_ar_fy2025_usd_m": 39777.0,
+        "vendor_ar_fy2024_usd_m": 32833.0,
+        "vendor_ar_fy2025_usd_m": 33180.0,
+        "trade_ar_growth_pct": 19.0572,
+        "trade_ar_minus_revenue_growth_pp": 12.6317,
+        "trade_ar_investigation_open": true,
+        "year_end_trade_ar_revenue_proxy_days": {
+          "FY2024": 31.19,
+          "FY2025": 34.89
+        },
+        "from_opening_deferred_revenue_usd_m": 8229.0,
+        "note": "Trade AR only (SEC); proxy uses year-end balance, NOT standard average-balance DSO. Gap is a review flag, not proof of misstatement.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+        "source_locator": "AAPL FY2025 Form 10-K, Consolidated Balance Sheets, p.31 (PDF p.35)"
+      },
+      "organic_growth_pct": null,
+      "organic_growth_status": "NOT_VERIFIED_AND_NOT_IN_COMPOSITE",
+      "quality": {
+        "candidate_crq": null,
+        "candidate_purity": null,
+        "candidate_recognition": null,
+        "evidence_coverage_pct": 0,
+        "status": "NOT_SCORED",
+        "reasons": [
+          "No independently reviewed purity and recognition evidence supplied."
+        ],
+        "weights_empirically_validated": false,
+        "production_approved": false
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "fiscal_year": 2026,
+      "period_end": "2026-06-30",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+      "source_locator": "FY2026 10-K, Note 18, Segment Information and Geographic Data, printed p.84 (PDF p.93)",
+      "revenue_usd": 331839000000.0,
+      "previous_revenue_usd": 281724000000.0,
+      "revenue_growth_pct": 17.7887,
+      "sec_disclosure_coverage_pct": 100.0,
+      "sec_reconciliation": "PASS_FY_AND_PRIOR_FY",
+      "revenue_mix": [
+        {
+          "name": "Productivity and Business Processes",
+          "current_revenue_usd": 139996000000.0,
+          "previous_revenue_usd": 120810000000.0,
+          "change_usd": 19186000000.0,
+          "share_of_gaap_revenue_pct": 42.1879,
+          "contribution_to_gaap_revenue_growth_pp": 6.8102
+        },
+        {
+          "name": "Intelligent Cloud",
+          "current_revenue_usd": 137791000000.0,
+          "previous_revenue_usd": 106265000000.0,
+          "change_usd": 31526000000.0,
+          "share_of_gaap_revenue_pct": 41.5234,
+          "contribution_to_gaap_revenue_growth_pp": 11.1904
+        },
+        {
+          "name": "More Personal Computing",
+          "current_revenue_usd": 54052000000.0,
+          "previous_revenue_usd": 54649000000.0,
+          "change_usd": -597000000.0,
+          "share_of_gaap_revenue_pct": 16.2886,
+          "contribution_to_gaap_revenue_growth_pp": -0.2119
+        }
+      ],
+      "adjustments_and_sensitive_revenue": {},
+      "provider_ar_growth_pct": 15.694156355053291,
+      "provider_ar_definition_sec_verified": false,
+      "provider_ar_comparison_warning": "FMP netReceivables not mapped to SEC trade AR; no cross-company Trade AR comparison or numeric recognition score.",
+      "aapl_sec_trade_ar_diagnostic": null,
+      "organic_growth_pct": null,
+      "organic_growth_status": "NOT_VERIFIED_AND_NOT_IN_COMPOSITE",
+      "quality": {
+        "candidate_crq": null,
+        "candidate_purity": null,
+        "candidate_recognition": null,
+        "evidence_coverage_pct": 0,
+        "status": "NOT_SCORED",
+        "reasons": [
+          "No independently reviewed purity and recognition evidence supplied."
+        ],
+        "weights_empirically_validated": false,
+        "production_approved": false
+      }
+    },
+    {
+      "ticker": "GOOGL",
+      "fiscal_year": 2025,
+      "period_end": "2025-12-31",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "source_locator": "FY2025 10-K, Note 2, Revenues, Disaggregated Revenues, printed p.60 (PDF p.87)",
+      "revenue_usd": 402836000000.0,
+      "previous_revenue_usd": 350018000000.0,
+      "revenue_growth_pct": 15.0901,
+      "sec_disclosure_coverage_pct": 100.0,
+      "sec_reconciliation": "PASS_FY_AND_PRIOR_FY",
+      "revenue_mix": [
+        {
+          "name": "Google Search & other",
+          "current_revenue_usd": 224532000000.0,
+          "previous_revenue_usd": 198084000000.0,
+          "change_usd": 26448000000.0,
+          "share_of_gaap_revenue_pct": 55.7378,
+          "contribution_to_gaap_revenue_growth_pp": 7.5562
+        },
+        {
+          "name": "YouTube ads",
+          "current_revenue_usd": 40367000000.0,
+          "previous_revenue_usd": 36147000000.0,
+          "change_usd": 4220000000.0,
+          "share_of_gaap_revenue_pct": 10.0207,
+          "contribution_to_gaap_revenue_growth_pp": 1.2057
+        },
+        {
+          "name": "Google Network",
+          "current_revenue_usd": 29792000000.0,
+          "previous_revenue_usd": 30359000000.0,
+          "change_usd": -567000000.0,
+          "share_of_gaap_revenue_pct": 7.3956,
+          "contribution_to_gaap_revenue_growth_pp": -0.162
+        },
+        {
+          "name": "Google subscriptions, platforms, and devices",
+          "current_revenue_usd": 48030000000.0,
+          "previous_revenue_usd": 40340000000.0,
+          "change_usd": 7690000000.0,
+          "share_of_gaap_revenue_pct": 11.923,
+          "contribution_to_gaap_revenue_growth_pp": 2.197
+        },
+        {
+          "name": "Google Cloud",
+          "current_revenue_usd": 58705000000.0,
+          "previous_revenue_usd": 43229000000.0,
+          "change_usd": 15476000000.0,
+          "share_of_gaap_revenue_pct": 14.5729,
+          "contribution_to_gaap_revenue_growth_pp": 4.4215
+        },
+        {
+          "name": "Other Bets",
+          "current_revenue_usd": 1537000000.0,
+          "previous_revenue_usd": 1648000000.0,
+          "change_usd": -111000000.0,
+          "share_of_gaap_revenue_pct": 0.3815,
+          "contribution_to_gaap_revenue_growth_pp": -0.0317
+        },
+        {
+          "name": "Hedging gains (losses)",
+          "current_revenue_usd": -127000000.0,
+          "previous_revenue_usd": 211000000.0,
+          "change_usd": -338000000.0,
+          "share_of_gaap_revenue_pct": -0.0315,
+          "contribution_to_gaap_revenue_growth_pp": -0.0966
+        }
+      ],
+      "adjustments_and_sensitive_revenue": {
+        "hedging_adjustment_usd": -127000000.0,
+        "gross_operating_sales_before_hedging_usd": 402963000000.0,
+        "hedging_adjustment_as_pct_gaap_revenue": -0.0315,
+        "note": "Signed GAAP revenue bridge; a negative adjustment can make gross operating sales exceed reported revenue. NOT automatically a purity penalty."
+      },
+      "provider_ar_growth_pct": 20.149025601834158,
+      "provider_ar_definition_sec_verified": false,
+      "provider_ar_comparison_warning": "FMP netReceivables not mapped to SEC trade AR; no cross-company Trade AR comparison or numeric recognition score.",
+      "aapl_sec_trade_ar_diagnostic": null,
+      "organic_growth_pct": null,
+      "organic_growth_status": "NOT_VERIFIED_AND_NOT_IN_COMPOSITE",
+      "quality": {
+        "candidate_crq": null,
+        "candidate_purity": null,
+        "candidate_recognition": null,
+        "evidence_coverage_pct": 0,
+        "status": "NOT_SCORED",
+        "reasons": [
+          "No independently reviewed purity and recognition evidence supplied."
+        ],
+        "weights_empirically_validated": false,
+        "production_approved": false
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "fiscal_year": 2026,
+      "period_end": "2026-01-25",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "source_locator": "FY2026 10-K, MD&A, Revenue by Reportable Segments, printed p.40 (PDF p.42)",
+      "revenue_usd": 215938000000.0,
+      "previous_revenue_usd": 130497000000.0,
+      "revenue_growth_pct": 65.4735,
+      "sec_disclosure_coverage_pct": 100.0,
+      "sec_reconciliation": "PASS_FY_AND_PRIOR_FY",
+      "revenue_mix": [
+        {
+          "name": "Compute & Networking",
+          "current_revenue_usd": 193479000000.0,
+          "previous_revenue_usd": 116193000000.0,
+          "change_usd": 77286000000.0,
+          "share_of_gaap_revenue_pct": 89.5993,
+          "contribution_to_gaap_revenue_growth_pp": 59.2243
+        },
+        {
+          "name": "Graphics",
+          "current_revenue_usd": 22459000000.0,
+          "previous_revenue_usd": 14304000000.0,
+          "change_usd": 8155000000.0,
+          "share_of_gaap_revenue_pct": 10.4007,
+          "contribution_to_gaap_revenue_growth_pp": 6.2492
+        }
+      ],
+      "adjustments_and_sensitive_revenue": {},
+      "provider_ar_growth_pct": 66.77216561890309,
+      "provider_ar_definition_sec_verified": false,
+      "provider_ar_comparison_warning": "FMP netReceivables not mapped to SEC trade AR; no cross-company Trade AR comparison or numeric recognition score.",
+      "aapl_sec_trade_ar_diagnostic": null,
+      "organic_growth_pct": null,
+      "organic_growth_status": "NOT_VERIFIED_AND_NOT_IN_COMPOSITE",
+      "quality": {
+        "candidate_crq": null,
+        "candidate_purity": null,
+        "candidate_recognition": null,
+        "evidence_coverage_pct": 0,
+        "status": "NOT_SCORED",
+        "reasons": [
+          "No independently reviewed purity and recognition evidence supplied."
+        ],
+        "weights_empirically_validated": false,
+        "production_approved": false
+      }
+    },
+    {
+      "ticker": "AMZN",
+      "fiscal_year": 2025,
+      "period_end": "2025-12-31",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+      "source_locator": "FY2025 10-K, Note 10, Segment Information, product/service net-sales table, printed p.69 (PDF p.83)",
+      "revenue_usd": 716924000000.0,
+      "previous_revenue_usd": 637959000000.0,
+      "revenue_growth_pct": 12.3778,
+      "sec_disclosure_coverage_pct": 100.0,
+      "sec_reconciliation": "PASS_FY_AND_PRIOR_FY",
+      "revenue_mix": [
+        {
+          "name": "Online stores",
+          "current_revenue_usd": 269287000000.0,
+          "previous_revenue_usd": 247029000000.0,
+          "change_usd": 22258000000.0,
+          "share_of_gaap_revenue_pct": 37.5614,
+          "contribution_to_gaap_revenue_growth_pp": 3.4889
+        },
+        {
+          "name": "Physical stores",
+          "current_revenue_usd": 22561000000.0,
+          "previous_revenue_usd": 21215000000.0,
+          "change_usd": 1346000000.0,
+          "share_of_gaap_revenue_pct": 3.1469,
+          "contribution_to_gaap_revenue_growth_pp": 0.211
+        },
+        {
+          "name": "Third-party seller services",
+          "current_revenue_usd": 172162000000.0,
+          "previous_revenue_usd": 156146000000.0,
+          "change_usd": 16016000000.0,
+          "share_of_gaap_revenue_pct": 24.014,
+          "contribution_to_gaap_revenue_growth_pp": 2.5105
+        },
+        {
+          "name": "Advertising services",
+          "current_revenue_usd": 68635000000.0,
+          "previous_revenue_usd": 56214000000.0,
+          "change_usd": 12421000000.0,
+          "share_of_gaap_revenue_pct": 9.5735,
+          "contribution_to_gaap_revenue_growth_pp": 1.947
+        },
+        {
+          "name": "Subscription services",
+          "current_revenue_usd": 49619000000.0,
+          "previous_revenue_usd": 44374000000.0,
+          "change_usd": 5245000000.0,
+          "share_of_gaap_revenue_pct": 6.9211,
+          "contribution_to_gaap_revenue_growth_pp": 0.8222
+        },
+        {
+          "name": "AWS",
+          "current_revenue_usd": 128725000000.0,
+          "previous_revenue_usd": 107556000000.0,
+          "change_usd": 21169000000.0,
+          "share_of_gaap_revenue_pct": 17.9552,
+          "contribution_to_gaap_revenue_growth_pp": 3.3182
+        },
+        {
+          "name": "Other",
+          "current_revenue_usd": 5935000000.0,
+          "previous_revenue_usd": 5425000000.0,
+          "change_usd": 510000000.0,
+          "share_of_gaap_revenue_pct": 0.8278,
+          "contribution_to_gaap_revenue_growth_pp": 0.0799
+        }
+      ],
+      "adjustments_and_sensitive_revenue": {},
+      "provider_ar_growth_pct": 22.142071378334016,
+      "provider_ar_definition_sec_verified": false,
+      "provider_ar_comparison_warning": "FMP netReceivables not mapped to SEC trade AR; no cross-company Trade AR comparison or numeric recognition score.",
+      "aapl_sec_trade_ar_diagnostic": null,
+      "organic_growth_pct": null,
+      "organic_growth_status": "NOT_VERIFIED_AND_NOT_IN_COMPOSITE",
+      "quality": {
+        "candidate_crq": null,
+        "candidate_purity": null,
+        "candidate_recognition": null,
+        "evidence_coverage_pct": 0,
+        "status": "NOT_SCORED",
+        "reasons": [
+          "No independently reviewed purity and recognition evidence supplied."
+        ],
+        "weights_empirically_validated": false,
+        "production_approved": false
+      }
+    },
+    {
+      "ticker": "META",
+      "fiscal_year": 2025,
+      "period_end": "2025-12-31",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "source_locator": "FY2025 10-K, Consolidated and Segment Results, Revenue by Source/Segment",
+      "revenue_usd": 200966000000.0,
+      "previous_revenue_usd": 164501000000.0,
+      "revenue_growth_pct": 22.167,
+      "sec_disclosure_coverage_pct": 100.0,
+      "sec_reconciliation": "PASS_FY_AND_PRIOR_FY",
+      "revenue_mix": [
+        {
+          "name": "Family of Apps - Advertising",
+          "current_revenue_usd": 196175000000.0,
+          "previous_revenue_usd": 160633000000.0,
+          "change_usd": 35542000000.0,
+          "share_of_gaap_revenue_pct": 97.616,
+          "contribution_to_gaap_revenue_growth_pp": 21.6059
+        },
+        {
+          "name": "Family of Apps - Other",
+          "current_revenue_usd": 2584000000.0,
+          "previous_revenue_usd": 1722000000.0,
+          "change_usd": 862000000.0,
+          "share_of_gaap_revenue_pct": 1.2858,
+          "contribution_to_gaap_revenue_growth_pp": 0.524
+        },
+        {
+          "name": "Reality Labs",
+          "current_revenue_usd": 2207000000.0,
+          "previous_revenue_usd": 2146000000.0,
+          "change_usd": 61000000.0,
+          "share_of_gaap_revenue_pct": 1.0982,
+          "contribution_to_gaap_revenue_growth_pp": 0.0371
+        }
+      ],
+      "adjustments_and_sensitive_revenue": {},
+      "provider_ar_growth_pct": 16.3292926915382,
+      "provider_ar_definition_sec_verified": false,
+      "provider_ar_comparison_warning": "FMP netReceivables not mapped to SEC trade AR; no cross-company Trade AR comparison or numeric recognition score.",
+      "aapl_sec_trade_ar_diagnostic": null,
+      "organic_growth_pct": null,
+      "organic_growth_status": "NOT_VERIFIED_AND_NOT_IN_COMPOSITE",
+      "quality": {
+        "candidate_crq": null,
+        "candidate_purity": null,
+        "candidate_recognition": null,
+        "evidence_coverage_pct": 0,
+        "status": "NOT_SCORED",
+        "reasons": [
+          "No independently reviewed purity and recognition evidence supplied."
+        ],
+        "weights_empirically_validated": false,
+        "production_approved": false
+      }
+    },
+    {
+      "ticker": "TSLA",
+      "fiscal_year": 2025,
+      "period_end": "2025-12-31",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+      "source_locator": "FY2025 10-K, MD&A, Results of Operations, Revenues",
+      "revenue_usd": 94827000000.0,
+      "previous_revenue_usd": 97690000000.0,
+      "revenue_growth_pct": -2.9307,
+      "sec_disclosure_coverage_pct": 100.0,
+      "sec_reconciliation": "PASS_FY_AND_PRIOR_FY",
+      "revenue_mix": [
+        {
+          "name": "Automotive sales",
+          "current_revenue_usd": 65821000000.0,
+          "previous_revenue_usd": 72480000000.0,
+          "change_usd": -6659000000.0,
+          "share_of_gaap_revenue_pct": 69.4117,
+          "contribution_to_gaap_revenue_growth_pp": -6.8165
+        },
+        {
+          "name": "Automotive regulatory credits",
+          "current_revenue_usd": 1993000000.0,
+          "previous_revenue_usd": 2763000000.0,
+          "change_usd": -770000000.0,
+          "share_of_gaap_revenue_pct": 2.1017,
+          "contribution_to_gaap_revenue_growth_pp": -0.7882
+        },
+        {
+          "name": "Automotive leasing",
+          "current_revenue_usd": 1712000000.0,
+          "previous_revenue_usd": 1827000000.0,
+          "change_usd": -115000000.0,
+          "share_of_gaap_revenue_pct": 1.8054,
+          "contribution_to_gaap_revenue_growth_pp": -0.1177
+        },
+        {
+          "name": "Services and other",
+          "current_revenue_usd": 12530000000.0,
+          "previous_revenue_usd": 10534000000.0,
+          "change_usd": 1996000000.0,
+          "share_of_gaap_revenue_pct": 13.2135,
+          "contribution_to_gaap_revenue_growth_pp": 2.0432
+        },
+        {
+          "name": "Energy generation and storage",
+          "current_revenue_usd": 12771000000.0,
+          "previous_revenue_usd": 10086000000.0,
+          "change_usd": 2685000000.0,
+          "share_of_gaap_revenue_pct": 13.4677,
+          "contribution_to_gaap_revenue_growth_pp": 2.7485
+        }
+      ],
+      "adjustments_and_sensitive_revenue": {
+        "regulatory_credits_usd": 1993000000.0,
+        "revenue_excluding_credits_context_only_usd": 92834000000.0,
+        "regulatory_credits_as_pct_gaap_revenue": 2.1017,
+        "credit_contribution_to_gaap_growth_pp": -0.7882,
+        "note": "Legitimate disclosed operating revenue; excluding credits is a sensitivity analysis, NOT automatic non-core classification or allegation."
+      },
+      "provider_ar_growth_pct": 3.576278859212323,
+      "provider_ar_definition_sec_verified": false,
+      "provider_ar_comparison_warning": "FMP netReceivables not mapped to SEC trade AR; no cross-company Trade AR comparison or numeric recognition score.",
+      "aapl_sec_trade_ar_diagnostic": null,
+      "organic_growth_pct": null,
+      "organic_growth_status": "NOT_VERIFIED_AND_NOT_IN_COMPOSITE",
+      "quality": {
+        "candidate_crq": null,
+        "candidate_purity": null,
+        "candidate_recognition": null,
+        "evidence_coverage_pct": 0,
+        "status": "NOT_SCORED",
+        "reasons": [
+          "No independently reviewed purity and recognition evidence supplied."
+        ],
+        "weights_empirically_validated": false,
+        "production_approved": false
+      }
+    }
+  ]
+}

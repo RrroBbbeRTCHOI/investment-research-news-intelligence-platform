@@ -1,0 +1,4943 @@
+{
+  "_ingestion": {
+    "provider": "perigon",
+    "endpoint": "https://api.perigon.io/v1/articles/all",
+    "query_name": "macro_us_inflation",
+    "purpose": "Macro data-release classification and non-company event handling.",
+    "fetched_at": "2026-09-25T14:20:55.777815+00:00",
+    "request_params": {
+      "q": "(\"US CPI\" OR \"U.S. CPI\" OR \"consumer price index\" OR \"consumer prices\") AND inflation",
+      "language": "en",
+      "sourceGroup": [
+        "top25finance",
+        "top100"
+      ],
+      "excludeLabel": [
+        "Opinion",
+        "Paid News",
+        "Non-news",
+        "Press Release",
+        "Roundup",
+        "Low Content",
+        "Synthetic"
+      ],
+      "from": "2026-06-27",
+      "to": "2026-09-25",
+      "sortBy": "relevance",
+      "showReprints": "false",
+      "showNumResults": "true",
+      "page": 0,
+      "size": 25
+    }
+  },
+  "raw_response": {
+    "status": 200,
+    "numResults": 1785,
+    "articles": [
+      {
+        "url": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
+        "authorsByline": "Jeff Cox",
+        "articleId": "0b7de0537f3b48d6bcfdc39bd0da406d",
+        "clusterId": "94f27406dfda483f9c37ad03ba392c60",
+        "source": {
+          "domain": "cnbc.com",
+          "paywall": false,
+          "location": {
+            "country": "us",
+            "state": "NJ",
+            "county": "Bergen County",
+            "city": "Englewood Cliffs",
+            "coordinates": {
+              "lat": 40.8853773,
+              "lon": -73.9523597
+            }
+          }
+        },
+        "imageUrl": "https://image.cnbcfm.com/api/v1/image/108361506-1789075747878-gettyimages-2294572885-l1082562_copy_o5wqs065.jpeg?v=1789075971&w=1920&h=1080",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-09-11T12:32:19+00:00",
+        "addDate": "2026-09-11T12:38:41.018552+00:00",
+        "refreshDate": "2026-09-23T18:46:05.953349+00:00",
+        "score": 142.2941,
+        "title": "Consumer prices rose 0.4% in August, as expected; core inflation was higher than estimated",
+        "description": "The all-items consumer price index was expected to rise 0.4% in August, with core, excluding food and energy, showing a 0.2% gain, according to the Dow Jones consensus.",
+        "content": "Prices for a wide swath of goods and services continued to climb in August, according to a report Friday that could be the deciding factor on whether the Federal Reserve raises interest rates next wee... [849 symbols]",
+        "enContentWordCount": 163,
+        "medium": "Article",
+        "links": [],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": "d866acdb89754874b0c6b34a96066280",
+            "name": "Jeff Cox"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Consumer prices",
+            "weight": 0.1049783
+          },
+          {
+            "name": "core inflation",
+            "weight": 0.103030995
+          },
+          {
+            "name": "interest rates",
+            "weight": 0.09852697
+          },
+          {
+            "name": "next week",
+            "weight": 0.09738641
+          },
+          {
+            "name": "core CPI",
+            "weight": 0.092163265
+          },
+          {
+            "name": "Prices",
+            "weight": 0.09195393
+          },
+          {
+            "name": "breaking news",
+            "weight": 0.07856742
+          },
+          {
+            "name": "August",
+            "weight": 0.074201845
+          },
+          {
+            "name": "Dow Jones",
+            "weight": 0.07261394
+          },
+          {
+            "name": "Labor Statistics",
+            "weight": 0.07218216
+          }
+        ],
+        "topics": [
+          {
+            "name": "Inflation"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Finance"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Economy News",
+            "score": 0.9893474578857422
+          },
+          {
+            "name": "/People & Society/Social Sciences/Economics",
+            "score": 0.8221890926361084
+          },
+          {
+            "name": "/News/Business News/Other",
+            "score": 0.6901415586471558
+          }
+        ],
+        "entities": [
+          {
+            "data": "the Federal Reserve",
+            "type": "ORG",
+            "mentions": 3
+          },
+          {
+            "data": "Dow Jones",
+            "type": "ORG",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "64c8c8d7dec44420a7d080251c725f96",
+            "name": "Dow Jones & Company",
+            "domains": [
+              "dowjones.com"
+            ],
+            "symbols": []
+          }
+        ],
+        "sentiment": {
+          "positive": 0.61669016,
+          "negative": 0.14086533,
+          "neutral": 0.24244453
+        },
+        "summary": "Consumer prices rose by 0.4% in August, as expected, but core inflation was higher than estimated. This could determine whether the Federal Reserve will raise interest rates next week. The consumer price index rose by a seasonally adjusted 0.3%, putting the 12-month increase at 3.4%, according to the Bureau of Labor Statistics. However, stripping out volatile food and energy prices, core CPI posted a 0.2% monthly gain, 0.1 percentage point higher than forecast. The core annual rate came in at 2.4%. This is the final major inflation indicator the Fed will see before its policy meeting, which concludes with a vote on its key interest rate.",
+        "shortSummary": "In August, consumer prices rose 0.4% as expected, with core inflation higher than forecast, potentially influencing the Federal Reserve's interest rate decision next week.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "f6138a2ca7e144ebb2b4c4a12e6e0b17",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html",
+        "authorsByline": "Jeff Cox",
+        "articleId": "01eb0995108049d5a64e5acc4eea2714",
+        "clusterId": "c30a66ef422949fc8bffca5f2e1cd80c",
+        "source": {
+          "domain": "cnbc.com",
+          "paywall": false,
+          "location": {
+            "country": "us",
+            "state": "NJ",
+            "county": "Bergen County",
+            "city": "Englewood Cliffs",
+            "coordinates": {
+              "lat": 40.8853773,
+              "lon": -73.9523597
+            }
+          }
+        },
+        "imageUrl": "https://image.cnbcfm.com/api/v1/image/108319979-1781130823096-gettyimages-2280323913-US_CPI.jpeg?v=1781130984&w=1920&h=1080",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-07-14T12:32:49+00:00",
+        "addDate": "2026-07-14T13:34:26.574140+00:00",
+        "refreshDate": "2026-09-25T08:16:03.728042+00:00",
+        "score": 138.4197,
+        "title": "Consumer prices rose 3.5% annually in June, less than expected as energy prices eased",
+        "description": "The consumer price index in June was expected to increase 3.8% from a year ago.",
+        "content": "Consumer prices posted their biggest decline in more than six years during June as a sharp swoon in energy prices provided at least temporary relief from this year's inflation surge, the Bureau of Lab... [802 symbols]",
+        "enContentWordCount": 157,
+        "medium": "Article",
+        "links": [
+          "https://www.bls.gov/news.release/cpi.nr0.htm"
+        ],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": "d866acdb89754874b0c6b34a96066280",
+            "name": "Jeff Cox"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "energy prices",
+            "weight": 0.13368958
+          },
+          {
+            "name": "Consumer prices",
+            "weight": 0.12594147
+          },
+          {
+            "name": "Core inflation",
+            "weight": 0.0997918
+          },
+          {
+            "name": "energy",
+            "weight": 0.0916292
+          },
+          {
+            "name": "breaking news",
+            "weight": 0.08399211
+          },
+          {
+            "name": "Dow Jones",
+            "weight": 0.08173381
+          },
+          {
+            "name": "year",
+            "weight": 0.07826414
+          },
+          {
+            "name": "Labor Statistics",
+            "weight": 0.078136735
+          },
+          {
+            "name": "June",
+            "weight": 0.07729304
+          },
+          {
+            "name": "respective increases",
+            "weight": 0.0765632
+          }
+        ],
+        "topics": [],
+        "categories": [
+          {
+            "name": "Finance"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Economy News",
+            "score": 0.9851576089859009
+          },
+          {
+            "name": "/News/Business News/Other",
+            "score": 0.7110297679901123
+          },
+          {
+            "name": "/People & Society/Social Sciences/Economics",
+            "score": 0.6233768463134766
+          }
+        ],
+        "entities": [
+          {
+            "data": "the Bureau of Labor Statistics",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Dow Jones",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "U.S.",
+            "type": "GPE",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "64c8c8d7dec44420a7d080251c725f96",
+            "name": "Dow Jones & Company",
+            "domains": [
+              "dowjones.com"
+            ],
+            "symbols": []
+          }
+        ],
+        "sentiment": {
+          "positive": 0.025350386,
+          "negative": 0.91482383,
+          "neutral": 0.059825774
+        },
+        "summary": "Consumer prices rose by 3.5% annually in June, less than expected, largely due to a decrease in energy prices. The consumer price index, a broad measure of costs for goods and services across the U.S., fell by a seasonally adjusted 0.4% for the month, bringing the annual inflation rate down to 3.8%. However, core inflation, which excludes food and energy, remained steady at 2.6%.",
+        "shortSummary": "In June, US consumer prices rose by 0.4%, with annual growth of 3.5%, driven by energy costs, though overall they were lower than expected.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "802a05baeb3c4ceda5e47e21a6324b5d",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://www.breitbart.com/economy/2026/07/14/consumer-prices-fall-sharply-in-june-much-better-than-expected/",
+        "authorsByline": "John Carney",
+        "articleId": "f0bc5fc7a99d441c93dc751838bf7638",
+        "clusterId": "02f5c8315bd24b58883022add372f787",
+        "source": {
+          "domain": "breitbart.com",
+          "paywall": false,
+          "location": null
+        },
+        "imageUrl": "https://media.breitbart.com/media/2026/07/GettyImages-2243768425-1-640x335.jpg",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-07-14T05:34:20+00:00",
+        "addDate": "2026-07-14T13:36:13.171922+00:00",
+        "refreshDate": "2026-09-22T14:40:59.598421+00:00",
+        "score": 136.75098,
+        "title": "Inflation Crushed: Consumer Prices Fall Sharply in June, Much Better Than Expected, Biggest Decline in 26 Years",
+        "description": "Consumer prices fell sharply in June thanks to relief at the gas pump. The consumer price index fell 0.4 percent last month compared with May, the",
+        "content": "Consumer prices fell sharply in June thanks to relief at the gas pump.\n\nThe consumer price index fell 0.4 percent last month compared with May, the Department of Labor said Tuesday. Compared with a ye... [1240 symbols]",
+        "enContentWordCount": 242,
+        "medium": "Article",
+        "links": [],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": "ed6e29cdd79f4967877a25b0411ff8f9",
+            "name": "John Carney"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Energy prices",
+            "weight": 0.15485805
+          },
+          {
+            "name": "Consumer Prices",
+            "weight": 0.14546628
+          },
+          {
+            "name": "Consumer prices",
+            "weight": 0.14546628
+          },
+          {
+            "name": "Core prices",
+            "weight": 0.14028229
+          },
+          {
+            "name": "prices",
+            "weight": 0.13705456
+          },
+          {
+            "name": "Core goods prices",
+            "weight": 0.13572425
+          },
+          {
+            "name": "Grocery prices",
+            "weight": 0.13547233
+          },
+          {
+            "name": "core prices",
+            "weight": 0.13541962
+          },
+          {
+            "name": "Gasoline prices",
+            "weight": 0.13541117
+          },
+          {
+            "name": "year",
+            "weight": 0.10731661
+          }
+        ],
+        "topics": [
+          {
+            "name": "Inflation"
+          },
+          {
+            "name": "Economy"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Finance"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Economy News",
+            "score": 0.9795506000518799
+          },
+          {
+            "name": "/People & Society/Social Sciences/Economics",
+            "score": 0.8094266653060913
+          },
+          {
+            "name": "/News/Business News/Other",
+            "score": 0.5939626097679138
+          }
+        ],
+        "entities": [
+          {
+            "data": "the Department of Labor",
+            "type": "ORG",
+            "mentions": 1
+          }
+        ],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.108865984,
+          "negative": 0.7834838,
+          "neutral": 0.10765019
+        },
+        "summary": "Consumer prices fell sharply in June, with the consumer price index dropping 0.4 percent compared to May, and prices are now 3.5 percent compared with the previous year. Economists had predicted a 0.1 percent monthly decline. The inflation index was expected to climb 3.8 percent from the previous period, a slowdown from May's 4.2 percent. Core prices, excluding food and energy, were flat compared to the previous month.",
+        "shortSummary": "In June, consumer prices plummeted 0.4%, driven by falling fuel prices, with core prices rising 0.2% and others falling.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "e08251123b5142d2af755d8dc2a42cba",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html",
+        "authorsByline": "Jeff Cox",
+        "articleId": "9b753181cb0e40f3a2f5b0f355570998",
+        "clusterId": "510b5ed304d84139ae293bb97dc31ad1",
+        "source": {
+          "domain": "cnbc.com",
+          "paywall": false,
+          "location": {
+            "country": "us",
+            "state": "NJ",
+            "county": "Bergen County",
+            "city": "Englewood Cliffs",
+            "coordinates": {
+              "lat": 40.8853773,
+              "lon": -73.9523597
+            }
+          }
+        },
+        "imageUrl": "https://image.cnbcfm.com/api/v1/image/108347225-1786365054094-gettyimages-2289076137-FOOD_PRICES.jpeg?v=1786365114&w=1920&h=1080",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-08-12T12:31:31+00:00",
+        "addDate": "2026-08-12T12:39:49.558203+00:00",
+        "refreshDate": "2026-09-17T03:56:06.093683+00:00",
+        "score": 133.08551,
+        "title": "Consumer prices rose 0.1% in July, as expected, putting the annual rate at 3.4%",
+        "description": "The consumer price index was expected to increase 0.1% in July, with an annual rate of 3.4%.",
+        "content": "A shopper browses fresh fruit at a grocery store in Wilmington, North Carolina, US, on Saturday, Aug. 8, 2026.\n\nA key inflation reading Wednesday showed prices moderating across a range of goods and s... [994 symbols]",
+        "enContentWordCount": 189,
+        "medium": "Article",
+        "links": [],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": "d866acdb89754874b0c6b34a96066280",
+            "name": "Jeff Cox"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Consumer prices",
+            "weight": 0.09655201
+          },
+          {
+            "name": "prices",
+            "weight": 0.089125425
+          },
+          {
+            "name": "North Carolina",
+            "weight": 0.079053536
+          },
+          {
+            "name": "fresh fruit",
+            "weight": 0.076559104
+          },
+          {
+            "name": "breaking news",
+            "weight": 0.073176175
+          },
+          {
+            "name": "Dow Jones",
+            "weight": 0.0715935
+          },
+          {
+            "name": "energy",
+            "weight": 0.069781914
+          },
+          {
+            "name": "July",
+            "weight": 0.069376916
+          },
+          {
+            "name": "A key inflation reading",
+            "weight": 0.058986153
+          },
+          {
+            "name": "Wilmington",
+            "weight": 0.058739126
+          }
+        ],
+        "topics": [],
+        "categories": [
+          {
+            "name": "Finance"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Economy News",
+            "score": 0.9944451451301575
+          },
+          {
+            "name": "/People & Society/Social Sciences/Economics",
+            "score": 0.8529354929924011
+          },
+          {
+            "name": "/News/Business News/Other",
+            "score": 0.5836780667304993
+          },
+          {
+            "name": "/News/Business News/Financial Markets News",
+            "score": 0.5789243578910828
+          },
+          {
+            "name": "/News/Business News/Fiscal Policy News",
+            "score": 0.5164735317230225
+          }
+        ],
+        "entities": [
+          {
+            "data": "Wilmington",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "North Carolina",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "US",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "the Federal Reserve's",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "the Bureau of Labor Statistics",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Dow Jones",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "the Middle East",
+            "type": "LOC",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "64c8c8d7dec44420a7d080251c725f96",
+            "name": "Dow Jones & Company",
+            "domains": [
+              "dowjones.com"
+            ],
+            "symbols": []
+          }
+        ],
+        "sentiment": {
+          "positive": 0.640399,
+          "negative": 0.15571521,
+          "neutral": 0.20388582
+        },
+        "summary": "Consumer prices rose by 0.1% in July, according to the Bureau of Labor Statistics, putting the annual rate at 3.4%. Excluding food and energy, the core CPI rose by only 0.2%. On an annual basis, inflation rates were 3.3% and 2.5%. These readings were in line with Dow Jones consensus forecasts. The tame monthly readings indicate that the energy-fueled burst earlier in the year is easing, but prices remain volatile due to changing conditions in the Middle East.",
+        "shortSummary": "US consumer prices rose 0.1% in July, with annual inflation at 3.4%, easing slightly, possibly reducing the urgency for an interest rate hike.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "d47e511f278b44bf9a297e5aeb18df60",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://www.business-standard.com/world-news/us-cpi-to-show-inflationary-pressures-easing-after-recent-war-driven-rise-126080900042_1.html",
+        "authorsByline": "Bloomberg",
+        "articleId": "9187426606ed4a9fac723d5561b0820f",
+        "clusterId": "6cfd781ccadf4ab391c99955bd8fb1c1",
+        "source": {
+          "domain": "business-standard.com",
+          "location": {
+            "country": "in",
+            "city": "New Delhi",
+            "coordinates": {
+              "lat": 28.6138954,
+              "lon": 77.2090057
+            }
+          }
+        },
+        "imageUrl": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-08/09/thumb/fitandfill/1200X628/1786240968-8998.jpg",
+        "country": "in",
+        "language": "en",
+        "pubDate": "2026-08-09T07:34:31+05:30",
+        "addDate": "2026-08-09T02:12:34.079294+00:00",
+        "refreshDate": "2026-08-09T02:12:34.079296+00:00",
+        "score": 132.61494,
+        "title": "US CPI to show inflationary pressures easing after recent war-driven rise",
+        "description": "The closely watched consumer price index is seen rising 0.1% in July following a 0.4% decline in the prior month",
+        "content": "Prices paid by US consumers probably inched up marginally last month after falling for the first time in six years, a welcome tempering in recent war-driven inflationary pressures.\n\nThe closely watche... [6175 symbols]",
+        "enContentWordCount": 1148,
+        "medium": "Article",
+        "links": [
+          "https://www.business-standard.com/world-news/iea-chief-warns-prolonged-hormuz-disruption-could-hit-global-economy-126071600128_1.html",
+          "https://www.business-standard.com/economy/news/rural-income-gains-hit-two-year-low-informal-borrowing-rises-nabard-126072200615_1.html",
+          "https://www.business-standard.com/markets/news/us-fed-policy-preview-markets-brace-for-kevin-warsh-s-inflation-message-126072800925_1.html",
+          "https://www.business-standard.com/economy/news/ai-boom-fuels-k-shaped-growth-widens-global-divide-moody-s-analytics-126071600660_1.html",
+          "https://www.business-standard.com/economy/news/hfis-show-sustained-economic-activity-domestic-demand-in-q1-chaudhary-126080401356_1.html"
+        ],
+        "labels": [],
+        "matchedAuthors": [],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "July inflation data",
+            "weight": 0.086094305
+          },
+          {
+            "name": "price growth",
+            "weight": 0.07314047
+          },
+          {
+            "name": "Consumer inflation",
+            "weight": 0.070092246
+          },
+          {
+            "name": "early July",
+            "weight": 0.06987106
+          },
+          {
+            "name": "underlying price growth",
+            "weight": 0.06987066
+          },
+          {
+            "name": "regulated consumer prices",
+            "weight": 0.06707364
+          },
+          {
+            "name": "July",
+            "weight": 0.06619489
+          },
+          {
+            "name": "higher petroleum prices",
+            "weight": 0.06336602
+          },
+          {
+            "name": "Retail gasoline prices",
+            "weight": 0.061375335
+          },
+          {
+            "name": "steady retail sales growth",
+            "weight": 0.060575604
+          }
+        ],
+        "topics": [],
+        "categories": [
+          {
+            "name": "Finance"
+          },
+          {
+            "name": "World"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Economy News",
+            "score": 0.9930961728096008
+          },
+          {
+            "name": "/People & Society/Social Sciences/Economics",
+            "score": 0.872347354888916
+          },
+          {
+            "name": "/News/Business News/Other",
+            "score": 0.5751108527183533
+          },
+          {
+            "name": "/News/Business News/Fiscal Policy News",
+            "score": 0.31742629408836365
+          }
+        ],
+        "entities": [
+          {
+            "data": "US",
+            "type": "GPE",
+            "mentions": 3
+          },
+          {
+            "data": "Iran",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "China",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "India",
+            "type": "GPE",
+            "mentions": 2
+          },
+          {
+            "data": "Japan",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Australia",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "New Zealand’s",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Taiwan",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Hong Kong",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Malaysia",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Singapore",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "UK",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Oslo",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Israel",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Kenya",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Namibia",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Mauritius",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Uganda",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Brazil",
+            "type": "GPE",
+            "mentions": 2
+          },
+          {
+            "data": "Colombia",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Bloomberg",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Bureau of Labor Statistics",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "the Federal Reserve",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "FOMC",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "University of Michigan",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "the People’s Bank of China",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "the Reserve Bank’s",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "NAB",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "The Bank of Israel",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Asia",
+            "type": "LOC",
+            "mentions": 3
+          },
+          {
+            "data": "Eastern Europe",
+            "type": "LOC",
+            "mentions": 1
+          },
+          {
+            "data": "Africa",
+            "type": "LOC",
+            "mentions": 1
+          },
+          {
+            "data": "Norwegian",
+            "type": "NORP",
+            "mentions": 1
+          },
+          {
+            "data": "Romanian",
+            "type": "NORP",
+            "mentions": 1
+          },
+          {
+            "data": "Serbian",
+            "type": "NORP",
+            "mentions": 1
+          },
+          {
+            "data": "Egyptian",
+            "type": "NORP",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "c778b7b06a86433284c8abaf6f7d01c7",
+            "name": "People's Bank of China",
+            "domains": [
+              "pbc.gov.cn"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "94bb4910c57a4031a6734830ce2d64a9",
+            "name": "University of Michigan",
+            "domains": [
+              "umich.edu"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "3ba3514f74ef456d805759b8fd9217d6",
+            "name": "Bank of Israel",
+            "domains": [
+              "boi.org.il"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "367d9c2885e3478aab3df9c6fdf0314f",
+            "name": "National Australia Bank Limited",
+            "domains": [
+              "nab.com.au"
+            ],
+            "symbols": [
+              "NAB.AX",
+              "NABZY"
+            ]
+          },
+          {
+            "id": "111d76655b1f4ee3a402385ac9679797",
+            "name": "Norges Bank",
+            "domains": [
+              "norges-bank.no"
+            ],
+            "symbols": []
+          }
+        ],
+        "sentiment": {
+          "positive": 0.13738026,
+          "negative": 0.66963786,
+          "neutral": 0.1929819
+        },
+        "summary": "US consumer price index is expected to rise by 0.1% in July, following a 0.4% decline in the previous month, according to a Bloomberg survey. This is seen as a welcome sign of easing inflationary pressures following the recent war-driven rise. This comes after three Federal Reserve officials voted to raise interest rates despite a weak July jobs report. The report is likely to show a cooling of energy-related price pressures, which had intensified following the start of the US war with Iran. Retail gasoline prices dropped to a four-month low before climbing back above $4 a gallon late in the month, and airfares may also decrease as jet-fuel costs settle back. China's July inflation data will also be released, with consumer inflation expected to slow to 0.8%, while factory-gate price growth may ease to 3.8%. Other countries releasing revised data for second-quarter GDP include Hong Kong, Malaysia and Singapore. The UK is expectedly to publish growth numbers on Friday, showing resilience to the West Asia crisis.",
+        "shortSummary": "US CPI is expected to rise 0.1 per cent in July, easing inflationary pressures after a six-year low, while key economic data sets the stage for future interest rate hikes.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "2af670757aff4c07a5cdb862451d3dd8",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://qz.com/us-cpi-june-2026-inflation-gasoline-071426",
+        "authorsByline": "Cris Tolomia",
+        "articleId": "53c08a694bed41f0b002339a1e3e8d8d",
+        "clusterId": "c30a66ef422949fc8bffca5f2e1cd80c",
+        "source": {
+          "domain": "qz.com",
+          "paywall": true,
+          "location": {
+            "country": "us",
+            "state": "AZ",
+            "county": "Pima County",
+            "city": "Tucson",
+            "coordinates": {
+              "lat": 32.1988848,
+              "lon": -110.8218543
+            }
+          }
+        },
+        "imageUrl": "https://qz.com/cdn-cgi/image/width=1200,quality=85,format=auto/https://assets.qz.com/media/GettyImages-2284911511-300x200.jpg",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-07-14T12:39:28.276000+00:00",
+        "addDate": "2026-07-14T13:42:45.930619+00:00",
+        "refreshDate": "2026-09-20T08:35:57.662484+00:00",
+        "score": 131.45901,
+        "title": "U.S. CPI inflation dropped to 3.5% in June 2026",
+        "description": "The monthly all-items index fell 0.4% in June, the largest 1-month decrease since April 2020, driven by a sharp drop in energy costs",
+        "content": "The Bureau of Labor Statistics reported Tuesday that the Consumer Price Index for All Urban Consumers rose 3.5% over the 12 months ending in June, down from a 4.2% annual rate in May.\n\nOn a monthly ba... [2011 symbols]",
+        "enContentWordCount": 417,
+        "medium": "Article",
+        "links": [
+          "https://www.bls.gov/news.release/pdf/cpi.pdf"
+        ],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": null,
+            "name": "Cris Tolomia"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "June",
+            "weight": 0.09058786
+          },
+          {
+            "name": "Food prices",
+            "weight": 0.08187012
+          },
+          {
+            "name": "Motor vehicle insurance",
+            "weight": 0.08114322
+          },
+          {
+            "name": "price increases",
+            "weight": 0.08011441
+          },
+          {
+            "name": "Energy",
+            "weight": 0.07614122
+          },
+          {
+            "name": "energy",
+            "weight": 0.07614122
+          },
+          {
+            "name": "motor vehicle maintenance",
+            "weight": 0.07531739
+          },
+          {
+            "name": "Gasoline prices",
+            "weight": 0.07335747
+          },
+          {
+            "name": "year",
+            "weight": 0.07315863
+          },
+          {
+            "name": "May",
+            "weight": 0.07213126
+          }
+        ],
+        "topics": [
+          {
+            "name": "Inflation"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Finance"
+          },
+          {
+            "name": "Auto"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Economy News",
+            "score": 0.989591658115387
+          },
+          {
+            "name": "/People & Society/Social Sciences/Economics",
+            "score": 0.8822250962257385
+          },
+          {
+            "name": "/News/Business News/Fiscal Policy News",
+            "score": 0.6618136167526245
+          },
+          {
+            "name": "/Law & Government/Government/Other",
+            "score": 0.5954925417900085
+          }
+        ],
+        "entities": [
+          {
+            "data": "U.S.",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "The Bureau of Labor Statistics",
+            "type": "ORG",
+            "mentions": 1
+          }
+        ],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.049161308,
+          "negative": 0.8842637,
+          "neutral": 0.06657503
+        },
+        "summary": "The Bureau of Labor Statistics reported that the Consumer Price Index for All Urban Consumers rose by 3.5% over the 12 months ending in June, down from a 4.2% annual rate in May. The energy index dropped 5.7% in June to offsetting price increases in other categories such as shelter and food. Gasoline prices also contributed to this decline. The index for all items less food and energy was unchanged in June after rising 0.2%. Other notable year-over-year increases include airline fares, motor vehicle maintenance and repair, and medical care commodities.",
+        "shortSummary": "The Consumer Price Index (CPI) fell to 3.5% in June, driven by falling energy prices, though core categories like shelter and food rose.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "5ca40e7c3c0b48078af4d0852cfb950d",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://www.washingtonexaminer.com/news/4721752/inflation-held-at-3-4-in-august-in-consumer-price-index-creating-tough-choice-for-warsh-fed/",
+        "authorsByline": "Joseph Lawler",
+        "articleId": "bf72363122b54d0fb437679bb80c64f0",
+        "clusterId": "175b5311df6a4b88869f862398b71282",
+        "source": {
+          "domain": "washingtonexaminer.com",
+          "location": {
+            "country": "us",
+            "state": "DC",
+            "city": "Washington",
+            "coordinates": {
+              "lat": 38.8949924,
+              "lon": -77.0365581
+            }
+          }
+        },
+        "imageUrl": "https://www.washingtonexaminer.com/wp-content/uploads/2025/09/wex_yoast_1200_v4.png?resize=1200,683",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-09-11T12:31:42+00:00",
+        "addDate": "2026-09-11T12:39:22.396621+00:00",
+        "refreshDate": "2026-09-18T09:06:33.583830+00:00",
+        "score": 124.00513,
+        "title": "Inflation held at 3.4% in August in consumer price index, creating tough choice for Warsh Fed",
+        "description": "Inflation held at a 3.4% rate for the year ending in August, the Bureau of Labor Statistics reported Friday, adding to signs that price pressures may have",
+        "content": "Inflation held at a 3.4% rate for the year ending in August, the Bureau of Labor Statistics reported Friday, adding to signs that price pressures may have topped out over the summer.\n\nWhile it has imp... [2019 symbols]",
+        "enContentWordCount": 391,
+        "medium": "Article",
+        "links": [
+          "https://www.washingtonexaminer.com/news/4693249/first-round-september-social-security-payments-goes-out-three-days/?itm_source=parsely-api",
+          "https://www.washingtonexaminer.com/policy/finance-and-economy/4704071/kevin-warsh-inflation-federal-reserve-main-focus/",
+          "https://www.washingtonexaminer.com/news/4718794/pritzker-midterm-gop-convention-disqualified-2028/?itm_source=parsely-api",
+          "https://www.washingtonexaminer.com/news/4716250/us-forces-sink-refueling-vessel-linked-to-los-choneros/?itm_source=parsely-api",
+          "https://www.washingtonexaminer.com/tag/energy/",
+          "https://www.washingtonexaminer.com/tag/federal-reserve/",
+          "https://www.washingtonexaminer.com/policy/finance-and-economy/4721303/trump-5000-dividend-checks/",
+          "https://www.washingtonexaminer.com/tag/inflation/"
+        ],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": "d0381d7911584154b700b6e312d20980",
+            "name": "Joseph Lawler"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "consumer prices",
+            "weight": 0.09347374
+          },
+          {
+            "name": "high prices",
+            "weight": 0.09229144
+          },
+          {
+            "name": "consumer price index",
+            "weight": 0.09199522
+          },
+          {
+            "name": "price pressures",
+            "weight": 0.08877786
+          },
+          {
+            "name": "interest rates",
+            "weight": 0.08843982
+          },
+          {
+            "name": "Core inflation",
+            "weight": 0.085498154
+          },
+          {
+            "name": "Inflation",
+            "weight": 0.08535527
+          },
+          {
+            "name": "inflation",
+            "weight": 0.08535527
+          },
+          {
+            "name": "Persistent inflation",
+            "weight": 0.08509508
+          },
+          {
+            "name": "gas prices",
+            "weight": 0.08271574
+          }
+        ],
+        "topics": [
+          {
+            "name": "Inflation"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Politics"
+          },
+          {
+            "name": "Finance"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Economy News",
+            "score": 0.985042929649353
+          },
+          {
+            "name": "/News/Business News/Fiscal Policy News",
+            "score": 0.8976953029632568
+          },
+          {
+            "name": "/Law & Government/Government/Other",
+            "score": 0.8872045874595642
+          },
+          {
+            "name": "/People & Society/Social Sciences/Economics",
+            "score": 0.8187368512153625
+          },
+          {
+            "name": "/News/Business News/Financial Markets News",
+            "score": 0.6901415586471558
+          }
+        ],
+        "entities": [
+          {
+            "data": "Warsh Fed",
+            "type": "ORG",
+            "mentions": 4
+          },
+          {
+            "data": "the Bureau of Labor Statistics",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "GOP",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Congress",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Iran",
+            "type": "GPE",
+            "mentions": 2
+          },
+          {
+            "data": "Wyoming",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Donald Trump",
+            "type": "PERSON",
+            "mentions": 4
+          },
+          {
+            "data": "Joe Biden",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Kevin Warsh",
+            "type": "PERSON",
+            "mentions": 2
+          },
+          {
+            "data": "TRUMP",
+            "type": "PERSON",
+            "mentions": 1
+          }
+        ],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.049978495,
+          "negative": 0.85863405,
+          "neutral": 0.09138748
+        },
+        "summary": "Inflation held at a 3.4% rate for the year ending in August, according to the Bureau of Labor Statistics. This indicates signs that price pressures may have peaked over the summer. While inflation has improved in recent months, it remains too high for the Federal Reserve, which is expected to raise its interest rate target in an attempt to limit price pressures. This has led to a surge in inflation, which has also negatively impacted President Donald Trump's approval ratings and the GOP's control over Congress beyond the midterms. Fed Chairman Kevin Warsh has indicated that more must be done to bring inflation down to target. Investors expect a vote next week to raise short-term interest rates to limit borrowing and spending, which could bring Warsh into tension with President Donald",
+        "shortSummary": "Inflation held at 3.4% in August, forcing the Federal Reserve to raise interest rates amid concerns over consumer sentiment and the political fallout.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "9b21433920b843a79dbed4a70153086b",
+        "places": [],
+        "people": [
+          {
+            "wikidataId": "Q6397725",
+            "name": "Kevin Warsh"
+          },
+          {
+            "wikidataId": "Q22686",
+            "name": "Donald Trump"
+          },
+          {
+            "wikidataId": "Q6279",
+            "name": "Joe Biden"
+          }
+        ]
+      },
+      {
+        "url": "https://finance.yahoo.com/economy/articles/consumer-prices-continued-climb-august-131959430.html",
+        "authorsByline": "Steve Benen",
+        "articleId": "0a5ff9bfde90459ba42d5da7a399aa56",
+        "clusterId": "7246b9e103864e339396c585c23c4023",
+        "source": {
+          "domain": "finance.yahoo.com",
+          "location": {
+            "country": "us",
+            "state": "CA",
+            "county": "Santa Clara County",
+            "city": "Sunnyvale",
+            "coordinates": {
+              "lat": 37.3688301,
+              "lon": -122.036349
+            }
+          }
+        },
+        "imageUrl": "https://s.yimg.com/lo/mysterio/api/275a654fe86faa239e017b6b97deb57ac9a4c1aa8511ec2c293736f89f2a97d2/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmsnbc_articles_593%2Ffe869bda13e7544e9d8fe224e0b618df.jpg",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-09-11T13:19:59+00:00",
+        "addDate": "2026-09-11T13:40:43.613011+00:00",
+        "refreshDate": "2026-09-21T07:07:51.765438+00:00",
+        "score": 123.576965,
+        "title": "Consumer prices continued to climb in August, as inflation concerns persist",
+        "description": "Exactly one month ago, Donald Trump boasted, “Prices are dropping fast.” Reality continues to tell a very different story.",
+        "content": "Exactly one month ago, Donald Trump chatted briefly with reporters on a tarmac and boasted about inflation. \"Prices are dropping fast,\" the president said.\n\nThe rhetoric was wrong but familiar. In fac... [2370 symbols]",
+        "enContentWordCount": 457,
+        "medium": "Article",
+        "links": [
+          "https://www.nytimes.com/live/2026/09/11/business/inflation-cpi-report/1ba0953b-109b-584c-a92f-037d65294440?smid=url-share",
+          "https://www.ms.now/rachel-maddow-show/maddowblog/inflation-economy-consumer-price-index-federal-reserve-interest-rates",
+          "https://rollcall.com/factbase/trump/transcript/donald-trump-press-gaggle-after-air-force-one-arrival-august-11-2026/",
+          "https://www.cnbc.com/2026/08/26/feds-preferred-inflation-gauge-shows-core-prices-rose-3point3percent-annually-in-july.html",
+          "https://www.cnbc.com/2026/09/10/the-likelihood-of-a-fed-interest-rate-hike-next-week-just-got-a-lot-higher.html",
+          "https://www.ms.now",
+          "https://bsky.app/profile/atrupar.com/post/3mq5do7ihcn2c",
+          "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
+          "https://bsky.app/profile/justinwolfers.bsky.social/post/3mvam2rtddg2k"
+        ],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": "ba72d1cb3d7b40df979e77ec4700d047",
+            "name": "Steve Benen"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "higher prices",
+            "weight": 0.12051768
+          },
+          {
+            "name": "Consumer prices",
+            "weight": 0.11855296
+          },
+          {
+            "name": "oil prices",
+            "weight": 0.11517383
+          },
+          {
+            "name": "Prices",
+            "weight": 0.11374759
+          },
+          {
+            "name": "prices",
+            "weight": 0.11374759
+          },
+          {
+            "name": "Oil price changes",
+            "weight": 0.10998972
+          },
+          {
+            "name": "inflation concerns",
+            "weight": 0.08692951
+          },
+          {
+            "name": "Inflation",
+            "weight": 0.08028826
+          },
+          {
+            "name": "inflation",
+            "weight": 0.08028826
+          },
+          {
+            "name": "last month",
+            "weight": 0.07453061
+          }
+        ],
+        "topics": [
+          {
+            "name": "Economy"
+          },
+          {
+            "name": "Inflation"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Finance"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Economy News",
+            "score": 0.9840936064720154
+          },
+          {
+            "name": "/People & Society/Social Sciences/Economics",
+            "score": 0.8068526387214661
+          },
+          {
+            "name": "/News/Business News/Other",
+            "score": 0.555194079875946
+          },
+          {
+            "name": "/News/Politics/Other",
+            "score": 0.5515737533569336
+          },
+          {
+            "name": "/Law & Government/Government/Executive Branch",
+            "score": 0.45544078946113586
+          }
+        ],
+        "entities": [
+          {
+            "data": "Donald Trump",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Justin Wolfers",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Republican",
+            "type": "NORP",
+            "mentions": 1
+          },
+          {
+            "data": "Americans",
+            "type": "NORP",
+            "mentions": 1
+          },
+          {
+            "data": "CNBC",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Federal Reserve",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "the Bureau of Labor Statistics",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "The New York Times",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "the University of Michigan",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "MS NOW",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "ms.now",
+            "type": "ORG",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "94bb4910c57a4031a6734830ce2d64a9",
+            "name": "University of Michigan",
+            "domains": [
+              "umich.edu"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "4de51cf8472b4ce7a5aecdf52a1de4c0",
+            "name": "Microsoft Corporation",
+            "domains": [
+              "microsoft.com"
+            ],
+            "symbols": [
+              "MSF.DE",
+              "MSF.F",
+              "MSFT",
+              "MSFT.NE",
+              "MSF.BR",
+              "4338.HK"
+            ]
+          },
+          {
+            "id": "183889decab4433a809b653c2a0a9ec4",
+            "name": "The New York Times Company",
+            "domains": [
+              "nytco.com"
+            ],
+            "symbols": [
+              "NYT"
+            ]
+          }
+        ],
+        "sentiment": {
+          "positive": 0.046829607,
+          "negative": 0.8464464,
+          "neutral": 0.106724
+        },
+        "summary": "Consumer prices continued to climb in August, raising concerns about inflation. The consumer price index rose by 0.4% seasonally adjusted, bringing the 12-month increase to 3.4%, according to the Bureau of Labor Statistics. However, excluding food and energy, prices rose by only 0.3% last month, which was worse than expected. This is the fifth consecutive inflation rate has been higher than wages, exacerbating affordability issues for consumers. The rise in oil prices predate the recent sharp rise in crude prices, which led to higher energy costs and higher petroleum prices. The data suggests that September may be even worse.",
+        "shortSummary": "Inflation continued to rise in August, raising concerns about potential interest rate hikes, despite President Donald Trump's boasts of falling prices, raising affordability concerns.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "6c2bb632239540fa80c46c79ce297fbf",
+        "places": [],
+        "people": [
+          {
+            "wikidataId": "Q22686",
+            "name": "Donald Trump"
+          }
+        ]
+      },
+      {
+        "url": "https://www.breitbart.com/economy/2026/08/12/cpi-july-2026/",
+        "authorsByline": "John Carney",
+        "articleId": "c983f9500f3b42099c11ca2b0e71a336",
+        "clusterId": "3f48b752371f4dceb526d1a94074a8ba",
+        "source": {
+          "domain": "breitbart.com",
+          "paywall": false,
+          "location": null
+        },
+        "imageUrl": "https://media.breitbart.com/media/2026/08/GettyImages-2267458087-1-640x335.jpg",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-08-12T05:36:17+00:00",
+        "addDate": "2026-08-12T12:48:37.352126+00:00",
+        "refreshDate": "2026-09-21T09:01:15.844415+00:00",
+        "score": 122.89902,
+        "title": "Inflation Fell Further In July as Gasoline and Grocery Prices Decline",
+        "description": "Consumer prices inched up in July after declining in June. The consumer price index rose 0.1 percent compared with June, the Department of Labor said",
+        "content": "Consumer prices inched up in July after declining in June.\n\nThe consumer price index rose 0.1 percent compared with June, the Department of Labor said Wednesday. Compared with a year ago, prices are u... [1021 symbols]",
+        "enContentWordCount": 189,
+        "medium": "Article",
+        "links": [],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": "ed6e29cdd79f4967877a25b0411ff8f9",
+            "name": "John Carney"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Consumer prices",
+            "weight": 0.13699163
+          },
+          {
+            "name": "Gasoline prices",
+            "weight": 0.1368082
+          },
+          {
+            "name": "Core prices",
+            "weight": 0.13610496
+          },
+          {
+            "name": "core prices",
+            "weight": 0.13610496
+          },
+          {
+            "name": "Grocery prices",
+            "weight": 0.13520178
+          },
+          {
+            "name": "prices",
+            "weight": 0.12808564
+          },
+          {
+            "name": "July",
+            "weight": 0.098632164
+          },
+          {
+            "name": "year",
+            "weight": 0.09278173
+          },
+          {
+            "name": "volatile food and energy prices",
+            "weight": 0.09266733
+          },
+          {
+            "name": "The consumer price index",
+            "weight": 0.09006064
+          }
+        ],
+        "topics": [
+          {
+            "name": "Economy"
+          },
+          {
+            "name": "Inflation"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Finance"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Economy News",
+            "score": 0.9879462122917175
+          },
+          {
+            "name": "/News/Business News/Other",
+            "score": 0.788257360458374
+          },
+          {
+            "name": "/People & Society/Social Sciences/Economics",
+            "score": 0.6668223142623901
+          }
+        ],
+        "entities": [
+          {
+            "data": "the Department of Labor",
+            "type": "ORG",
+            "mentions": 1
+          }
+        ],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.2990569,
+          "negative": 0.5594284,
+          "neutral": 0.14151473
+        },
+        "summary": "Consumer prices increased in July, with the consumer price index rising 0.1 percent compared to June, matching the consensus forecast of 0.4 percent. Compared with the previous year, prices were up 3.4% and 3.5% from that year. Core prices, a measure that excludes volatile food and energy prices, rose 0.2% compared to the previous month. The Department of Labor reported that for the year, core prices are up 2.5%, a decline in year-over-year inflation from the previous 2.6%. The index for shelter rose by 0. 1%, accounting for roughly two-thirds of the monthly increase.",
+        "shortSummary": "In July, consumer prices rose 0.1% after declining in June, with core prices rising 0.2% and fuel prices falling, but year-over-year inflation rose 3.4%.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "2783d3e308f647af9c4f079a8015c8a4",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://finance.yahoo.com/economy/articles/u-cpi-rose-0-4-123718937.html",
+        "authorsByline": "Cris Tolomia",
+        "articleId": "81b32c25c7cd4cc8bbb4e45405807f2c",
+        "clusterId": "7246b9e103864e339396c585c23c4023",
+        "source": {
+          "domain": "finance.yahoo.com",
+          "location": {
+            "country": "us",
+            "state": "CA",
+            "county": "Santa Clara County",
+            "city": "Sunnyvale",
+            "coordinates": {
+              "lat": 37.3688301,
+              "lon": -122.036349
+            }
+          }
+        },
+        "imageUrl": "https://s.yimg.com/lo/mysterio/api/f9fe6ece8d02708ca516d20eb0ee723be624946fc28c5443d7fff4bb7e7d5a8c/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fquartz_855%2F854d7f2098fee4c2e4e15aa6626134d2.jpg",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-09-11T12:37:18+00:00",
+        "addDate": "2026-09-11T12:45:25.130314+00:00",
+        "refreshDate": "2026-09-15T23:28:12.718877+00:00",
+        "score": 118.57243,
+        "title": "U.S. CPI rose 0.4% in August 2026, annual rate holds at 3.4%",
+        "description": "Gasoline prices drove more than a third of the monthly increase, while core inflation ticked up to 0.3%",
+        "content": "The Consumer Price Index rose 0.4% in August on a seasonally adjusted basis, the Bureau of Labor Statistics reported Friday, up from a 0.1% increase in July. Over the past 12 months, the all-items ind... [2025 symbols]",
+        "enContentWordCount": 417,
+        "medium": "Article",
+        "links": [
+          "https://www.bls.gov/news.release/cpi.nr0.htm"
+        ],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": null,
+            "name": "Cris Tolomia"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "energy prices",
+            "weight": 0.09599694
+          },
+          {
+            "name": "Food prices",
+            "weight": 0.09501564
+          },
+          {
+            "name": "new vehicle prices",
+            "weight": 0.09030941
+          },
+          {
+            "name": "Gasoline prices",
+            "weight": 0.08636039
+          },
+          {
+            "name": "Medical care prices",
+            "weight": 0.08384936
+          },
+          {
+            "name": "Egg prices",
+            "weight": 0.08351021
+          },
+          {
+            "name": "August",
+            "weight": 0.07422594
+          },
+          {
+            "name": "July",
+            "weight": 0.07333626
+          },
+          {
+            "name": "0.1%",
+            "weight": 0.07298625
+          },
+          {
+            "name": "0.2%",
+            "weight": 0.07298625
+          }
+        ],
+        "topics": [
+          {
+            "name": "Economy"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Auto"
+          },
+          {
+            "name": "Finance"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Economy News",
+            "score": 0.9890130758285522
+          },
+          {
+            "name": "/People & Society/Social Sciences/Economics",
+            "score": 0.8509647250175476
+          },
+          {
+            "name": "/News/Business News/Other",
+            "score": 0.3849121630191803
+          },
+          {
+            "name": "/News/Business News/Fiscal Policy News",
+            "score": 0.35042139887809753
+          }
+        ],
+        "entities": [
+          {
+            "data": "U.S.",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "the Bureau of Labor Statistics",
+            "type": "ORG",
+            "mentions": 1
+          }
+        ],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.60598904,
+          "negative": 0.26063263,
+          "neutral": 0.13337839
+        },
+        "summary": "The Consumer Price Index rose by 0.4% in August 2026, matching the annual rate set at 3.4%, according to the Bureau of Labor Statistics. Gasoline prices led the monthly increase of 3.9% and accounted for over a third of the overall gain. The energy index increased 2.1% for the month after falling 1.5% in July. Food prices also rose, with egg prices rising 2.9%. The index for all items less food and energy rose 0.3% in the same period, marking a 2.4-year increase over the past 12 months. The Consumer Price index for Urban Wage Earners and Clerical Workers rose 3.5%. The next CPI report for September 2026 is scheduled for release on October 14, 2026.",
+        "shortSummary": "The US Consumer Price Index rose 0.4% in August, led by gasoline prices, with annual growth slowing to 3.4%, according to Bureau of Labor Statistics.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "7f567b27d1454a2bbb09436c4b19739b",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://qz.com/us-cpi-july-2026-consumer-prices-inflation-081226",
+        "authorsByline": "Cris Tolomia",
+        "articleId": "523eabf1f2144ec9be35bbb70acfdd10",
+        "clusterId": "510b5ed304d84139ae293bb97dc31ad1",
+        "source": {
+          "domain": "qz.com",
+          "paywall": true,
+          "location": {
+            "country": "us",
+            "state": "AZ",
+            "county": "Pima County",
+            "city": "Tucson",
+            "coordinates": {
+              "lat": 32.1988848,
+              "lon": -110.8218543
+            }
+          }
+        },
+        "imageUrl": "https://qz.com/cdn-cgi/image/width=1200,quality=85,format=auto/https://assets.qz.com/media/GettyImages-2236345627-300x200.jpg",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-08-12T12:37:47.446000+00:00",
+        "addDate": "2026-08-12T12:45:40.366874+00:00",
+        "refreshDate": "2026-09-21T07:30:18.478649+00:00",
+        "score": 116.41656,
+        "title": "U.S. CPI rose 0.1% in July 2026, annual inflation at 3.4%",
+        "description": "The all-items index is up 3.4% over the past year, a slight easing from the 3.5% annual rate recorded in June",
+        "content": "The Consumer Price Index for All Urban Consumers rose 0.1% on a seasonally adjusted basis in July, the Bureau of Labor Statistics reported Wednesday, rebounding from a 0.4% decline in June. Over the p... [294 symbols]",
+        "enContentWordCount": 61,
+        "medium": "Article",
+        "links": [
+          "https://www.bls.gov/news.release/cpi.nr0.htm"
+        ],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": null,
+            "name": "Cris Tolomia"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Labor Statistics",
+            "weight": 0.12378493
+          },
+          {
+            "name": "July",
+            "weight": 0.116556145
+          },
+          {
+            "name": "U.S. CPI",
+            "weight": 0.09873908
+          },
+          {
+            "name": "Wednesday",
+            "weight": 0.092970096
+          },
+          {
+            "name": "June",
+            "weight": 0.09212291
+          },
+          {
+            "name": "0.1%",
+            "weight": 0.08542656
+          },
+          {
+            "name": "0.4%",
+            "weight": 0.08542656
+          },
+          {
+            "name": "3.4%",
+            "weight": 0.08542656
+          },
+          {
+            "name": "3.5%",
+            "weight": 0.08542656
+          },
+          {
+            "name": "annual",
+            "weight": 0.07821683
+          }
+        ],
+        "topics": [
+          {
+            "name": "Inflation"
+          }
+        ],
+        "categories": [],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Economy News",
+            "score": 0.9831499457359314
+          },
+          {
+            "name": "/People & Society/Social Sciences/Economics",
+            "score": 0.8858291506767273
+          },
+          {
+            "name": "/News/Business News/Fiscal Policy News",
+            "score": 0.44999679923057556
+          },
+          {
+            "name": "/Law & Government/Government/Other",
+            "score": 0.3380771279335022
+          }
+        ],
+        "entities": [
+          {
+            "data": "U.S.",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "the Bureau of Labor Statistics",
+            "type": "ORG",
+            "mentions": 1
+          }
+        ],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.042414974,
+          "negative": 0.91980505,
+          "neutral": 0.03777996
+        },
+        "summary": "",
+        "shortSummary": "",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "7062dc3d555141f48199cf5a8160eceb",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://www.axios.com/2026/09/11/cpi-august-inflation-trump",
+        "authorsByline": "Courtenay Brown",
+        "articleId": "17a3e007db944e7c8898a3e25a7ed8cf",
+        "clusterId": "a4d833043ca445c0a76ff44f0cf70ea0",
+        "source": {
+          "domain": "axios.com",
+          "paywall": false,
+          "location": {
+            "country": "us",
+            "state": "VA",
+            "county": "Arlington County",
+            "city": "Arlington",
+            "coordinates": {
+              "lat": 38.8903961,
+              "lon": -77.0841585
+            }
+          }
+        },
+        "imageUrl": "https://images.axios.com/ssytRDFwo4IIHmc8ELThvVunL4E=/0x81:4000x2331/1366x768/2026/09/11/1789126812224.jpg",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-09-11T12:47:24.932005+00:00",
+        "addDate": "2026-09-11T12:49:02.005335+00:00",
+        "refreshDate": "2026-09-18T18:59:48.632616+00:00",
+        "score": 112.64366,
+        "title": "Inflation stays hot in August as Iran war drives energy costs higher",
+        "description": "The Consumer Price Index data could strengthen the case for the Federal Reserve to raise interest rates next week.",
+        "content": "Consumer prices remained elevated in August as the Iran war's energy shock fueled a fresh burst of inflation .\n\nWhy it matters: The renewed price pressures are squeezing household budgets, with signs ... [1690 symbols]",
+        "enContentWordCount": 314,
+        "medium": "Article",
+        "links": [],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": "7334bc3ba0554df29e2aef2c716d0ed4",
+            "name": "Courtenay Brown"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "August inflation",
+            "weight": 0.1274323
+          },
+          {
+            "name": "renewed inflation pressures",
+            "weight": 0.114987954
+          },
+          {
+            "name": "underlying inflation",
+            "weight": 0.110688046
+          },
+          {
+            "name": "Inflation",
+            "weight": 0.10867682
+          },
+          {
+            "name": "inflation",
+            "weight": 0.10867682
+          },
+          {
+            "name": "energy prices",
+            "weight": 0.10662814
+          },
+          {
+            "name": "Iran war",
+            "weight": 0.08718604
+          },
+          {
+            "name": "energy costs",
+            "weight": 0.08629909
+          },
+          {
+            "name": "Oil prices",
+            "weight": 0.084930345
+          },
+          {
+            "name": "Consumer prices",
+            "weight": 0.08462244
+          }
+        ],
+        "topics": [
+          {
+            "name": "Inflation"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Finance"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Economy News",
+            "score": 0.9886682629585266
+          },
+          {
+            "name": "/People & Society/Social Sciences/Economics",
+            "score": 0.7144288420677185
+          },
+          {
+            "name": "/News/Business News/Other",
+            "score": 0.49424004554748535
+          },
+          {
+            "name": "/News/World News",
+            "score": 0.45114514231681824
+          },
+          {
+            "name": "/News/Business News/Financial Markets News",
+            "score": 0.4051545262336731
+          },
+          {
+            "name": "/People & Society/Social Sciences/Political Science",
+            "score": 0.3797808289527893
+          },
+          {
+            "name": "/News/Politics/Other",
+            "score": 0.3648906946182251
+          },
+          {
+            "name": "/Law & Government/Government/Other",
+            "score": 0.32777589559555054
+          }
+        ],
+        "entities": [
+          {
+            "data": "Iran",
+            "type": "GPE",
+            "mentions": 3
+          },
+          {
+            "data": "the Labor Department",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Fed",
+            "type": "ORG",
+            "mentions": 3
+          },
+          {
+            "data": "AAA",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Christopher Waller",
+            "type": "PERSON",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "167abefa661640f595ba7944a27db6f1",
+            "name": "American Automobile Association",
+            "domains": [
+              "aaa.com"
+            ],
+            "symbols": []
+          }
+        ],
+        "sentiment": {
+          "positive": 0.74254787,
+          "negative": 0.14479539,
+          "neutral": 0.1126567
+        },
+        "summary": "Consumer prices remained high in August, rising by 0.4% from the previous month due to the Iran war's energy shock. The Labor Department reported that consumer prices rose by 3.4%, a year earlier, and excluding volatile food and energy costs, the core gauge climbed 0.3% during the month and 2.4%. This is seen as a significant increase for the Federal Reserve, which is expected to consider a rate hike if inflation continues to rise. This could complicate efforts by the Trump administration to convince voters that affordability is improving. Oil prices are currently hovering around $100 a barrel, up from about $80 in mid-August, and diesel prices hit a record $6 per gallon.",
+        "shortSummary": "Inflation rose in August as the Iran war's energy shock increased energy costs, squeezing household budgets, ahead of the Fed's interest rate decision next week.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "16c388fcad5e46699e66906c414cee87",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://qz.com/stock-futures-rise-july-cpi-inflation-oil-081226",
+        "authorsByline": "Cris Tolomia",
+        "articleId": "7118c2af7adc4fd98d1e1ee041a5faa8",
+        "clusterId": "dba6b2dd39c443a38bffd3abd0536c6b",
+        "source": {
+          "domain": "qz.com",
+          "paywall": true,
+          "location": {
+            "country": "us",
+            "state": "AZ",
+            "county": "Pima County",
+            "city": "Tucson",
+            "coordinates": {
+              "lat": 32.1988848,
+              "lon": -110.8218543
+            }
+          }
+        },
+        "imageUrl": "https://qz.com/cdn-cgi/image/width=1200,quality=85,format=auto/https://assets.qz.com/media/GettyImages-2288236740-300x198.jpg",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-08-12T11:34:03.023000+00:00",
+        "addDate": "2026-08-12T11:41:09.483467+00:00",
+        "refreshDate": "2026-09-16T00:54:35.868723+00:00",
+        "score": 111.05041,
+        "title": "Stock futures rise before July CPI inflation report",
+        "description": "S&P 500 futures climbed 0.3% and Nasdaq 100 futures rose 0.7% before the morning's consumer price index release",
+        "content": "U.S. stock futures edged higher on Wednesday as investors waited for July's consumer price index report, which is expected to shape what the Federal Reserve does at its September meeting.\n\nS&P 500 fut... [2317 symbols]",
+        "enContentWordCount": 452,
+        "medium": "Article",
+        "links": [
+          "https://qz.com/quote/NDAQ",
+          "https://www.cnbc.com/2026/08/11/stock-market-today-live-updates.html"
+        ],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": null,
+            "name": "Cris Tolomia"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "U.S. stock futures",
+            "weight": 0.08673295
+          },
+          {
+            "name": "Stock futures",
+            "weight": 0.08085989
+          },
+          {
+            "name": "Dow Jones Industrial Average futures",
+            "weight": 0.074265294
+          },
+          {
+            "name": "July CPI inflation report",
+            "weight": 0.06891814
+          },
+          {
+            "name": "Super Micro Computer stock",
+            "weight": 0.061365582
+          },
+          {
+            "name": "U.S. crude",
+            "weight": 0.060453717
+          },
+          {
+            "name": "U.S. exchanges",
+            "weight": 0.05963312
+          },
+          {
+            "name": "consumer prices",
+            "weight": 0.05835658
+          },
+          {
+            "name": "CoreWeave stock",
+            "weight": 0.05833079
+          },
+          {
+            "name": "FTSE MIB",
+            "weight": 0.05719641
+          }
+        ],
+        "topics": [
+          {
+            "name": "Inflation"
+          },
+          {
+            "name": "Markets"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Finance"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Financial Markets News",
+            "score": 0.9902915358543396
+          },
+          {
+            "name": "/Finance/Investing/Stocks & Bonds",
+            "score": 0.8365545868873596
+          },
+          {
+            "name": "/Finance/Investing/Other",
+            "score": 0.6397360563278198
+          },
+          {
+            "name": "/News/Business News/Economy News",
+            "score": 0.5259775519371033
+          },
+          {
+            "name": "/Finance/Investing/Commodities & Futures Trading",
+            "score": 0.41063815355300903
+          }
+        ],
+        "entities": [
+          {
+            "data": "U.S.",
+            "type": "GPE",
+            "mentions": 3
+          },
+          {
+            "data": "France",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "U.K.",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Germany",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Italy",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "South Korea's",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Japan",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "China",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Hong Kong's",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Australia",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "the Federal Reserve",
+            "type": "ORG",
+            "mentions": 3
+          },
+          {
+            "data": "Nasdaq",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Dow Jones",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "The Bureau of Labor Statistics",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "CNBC",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Super Micro Computer",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Nebius",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Treasury",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "FTSE MIB",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "8:30 a.m. ET",
+            "type": "TIME",
+            "mentions": 1
+          },
+          {
+            "data": "Dutch",
+            "type": "NORP",
+            "mentions": 1
+          },
+          {
+            "data": "Asian",
+            "type": "NORP",
+            "mentions": 1
+          },
+          {
+            "data": "the Strait of Hormuz",
+            "type": "LOC",
+            "mentions": 1
+          },
+          {
+            "data": "Europe",
+            "type": "LOC",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "de5dc68ed4bc4cd0aaa209e950b1ed34",
+            "name": "Nasdaq, Inc.",
+            "domains": [
+              "nasdaq.com"
+            ],
+            "symbols": [
+              "0K4T.L",
+              "NDAQ"
+            ]
+          },
+          {
+            "id": "64c8c8d7dec44420a7d080251c725f96",
+            "name": "Dow Jones & Company",
+            "domains": [
+              "dowjones.com"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "e7e32fc01ffd4df08ad05b7f49833334",
+            "name": "Super Micro Computer, Inc.",
+            "domains": [
+              "supermicro.com"
+            ],
+            "symbols": [
+              "SMCI"
+            ]
+          }
+        ],
+        "sentiment": {
+          "positive": 0.6434379,
+          "negative": 0.20010792,
+          "neutral": 0.15645415
+        },
+        "summary": "U.S. stock futures have risen ahead of the July consumer price index report, which is expected to influence the Federal Reserve's decision on future borrowing costs at its September meeting. The Bureau of Labor Statistics is set to release the CPI data at 8:30 a.m. ET. Economists expect consumer prices rose 3.4% from the year earlier, down from the 3.5% rate recorded in June. The core reading, excluding food and energy, is expected for a 2.5%, annual increase, both estimates above the Fed's 2% target. Other notable gains were due to results from two cloud and server companies, CoreWeave and Super Micro Computer.",
+        "shortSummary": "US stock futures rose as investors awaited July CPI data, potentially influencing the Federal Reserve's September interest rate decision, while Asian markets mixed.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "f3b642022c9d42acbd799e54e209c968",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://www.scmp.com/news/world/united-states-canada/article/3367254/us-consumer-prices-pick-august-bolstering-chances-interest-rate-increase",
+        "authorsByline": "Reuters",
+        "articleId": "2e51c7a8c6944550a9d192716746957c",
+        "clusterId": "7246b9e103864e339396c585c23c4023",
+        "source": {
+          "domain": "scmp.com",
+          "paywall": true,
+          "location": {
+            "country": "cn",
+            "city": "Hong Kong Island",
+            "coordinates": {
+              "lat": 22.2805108,
+              "lon": 114.1855595
+            }
+          }
+        },
+        "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/11/074943cf-190f-4ac1-9d53-6fca747a18ba_043d4779.jpg?itok=OypqIhrJ&v=1789135219",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-09-11T22:00:29+08:00",
+        "addDate": "2026-09-11T14:03:29.057938+00:00",
+        "refreshDate": "2026-09-20T22:22:26.421683+00:00",
+        "score": 108.1152,
+        "title": "US consumer prices pick up in August, boosting chances of rate increase",
+        "description": "In the 12 months through August, consumer inflation advanced 3.4 per cent after rising by the same margin in July.",
+        "content": "US consumer prices accelerated in August as the cost of petrol rebounded after two straight monthly declines, bolstering financial market expectations that the Federal Reserve could raise interest rat... [1666 symbols]",
+        "enContentWordCount": 299,
+        "medium": "Article",
+        "links": [],
+        "labels": [],
+        "matchedAuthors": [],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "rate increase",
+            "weight": 0.10128868
+          },
+          {
+            "name": "rate increase prospects",
+            "weight": 0.09850379
+          },
+          {
+            "name": "last week",
+            "weight": 0.092329755
+          },
+          {
+            "name": "PCE inflation",
+            "weight": 0.08699806
+          },
+          {
+            "name": "consumer inflation",
+            "weight": 0.08687054
+          },
+          {
+            "name": "US consumer prices",
+            "weight": 0.0863864
+          },
+          {
+            "name": "interest rates",
+            "weight": 0.08585905
+          },
+          {
+            "name": "last month",
+            "weight": 0.08403388
+          },
+          {
+            "name": "next week",
+            "weight": 0.081624575
+          },
+          {
+            "name": "rates",
+            "weight": 0.080707416
+          }
+        ],
+        "topics": [],
+        "categories": [
+          {
+            "name": "Finance"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Economy News",
+            "score": 0.9877113699913025
+          },
+          {
+            "name": "/News/Business News/Other",
+            "score": 0.7999116778373718
+          },
+          {
+            "name": "/People & Society/Social Sciences/Economics",
+            "score": 0.588297963142395
+          },
+          {
+            "name": "/News/Business News/Financial Markets News",
+            "score": 0.3159469962120056
+          }
+        ],
+        "entities": [
+          {
+            "data": "US",
+            "type": "GPE",
+            "mentions": 3
+          },
+          {
+            "data": "the Federal Reserve",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "the Labour Department’s",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Bureau of Labour Statistics",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Reuters",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Christopher Waller",
+            "type": "PERSON",
+            "mentions": 1
+          }
+        ],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.8450802,
+          "negative": 0.06497495,
+          "neutral": 0.08994489
+        },
+        "summary": "US consumer prices accelerated in August, with the Consumer Price Index (CPI) increasing by 0.4% after two monthly declines. This increase has boosted expectations that the Federal Reserve may raise interest rates next week. The cost of petrol rebounded after two consecutive declines. The CPI rose by 0.,1% in July, and in the 12 months through August, consumer inflation advanced by 3.4%. Economists had predicted the CPI would rise by 0,4% over the month and climb 3.5% year on year. The Fed tracks the Personal Consumption Expenditures (PCE) price indexes for its 2% inflation target. The rise in the Producer Price Index also boosted rate increase prospects.",
+        "shortSummary": "US consumer prices rose 0.4% in August, driven by a rebound in petrol prices, boosting potential interest rate hikes next week.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "2589255431ea4edab6a52da099717bcd",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://www.cnbc.com/2026/07/14/inflation-cpi-june-2026-in-one-chart.html",
+        "authorsByline": "Greg Iacurci",
+        "articleId": "da886af5a2d84370b3def209c09a0a72",
+        "clusterId": "5ae08ee40d354e40aa639592c2fa5c35",
+        "source": {
+          "domain": "cnbc.com",
+          "paywall": false,
+          "location": {
+            "country": "us",
+            "state": "NJ",
+            "county": "Bergen County",
+            "city": "Englewood Cliffs",
+            "coordinates": {
+              "lat": 40.8853773,
+              "lon": -73.9523597
+            }
+          }
+        },
+        "imageUrl": "https://image.cnbcfm.com/api/v1/image/108329956-1783002249998-gettyimages-2283750818-JULY_4_TRAVEL.jpeg?v=1783002295&w=1920&h=1080",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-07-14T15:52:52+00:00",
+        "addDate": "2026-07-14T16:05:31.363309+00:00",
+        "refreshDate": "2026-09-19T22:02:06.017523+00:00",
+        "score": 106.92372,
+        "title": "Here’s the inflation breakdown for June 2026 — in one chart",
+        "description": "The consumer price index rose 3.5% in June from a year earlier, a deceleration after several months of upward moves.",
+        "content": "Consumer prices pulled back in June on the heels of lower energy and gasoline prices, a reversal after moving sharply upward in recent months due to the Iran war. However, inflation risks re-igniting ... [3525 symbols]",
+        "enContentWordCount": 691,
+        "medium": "Article",
+        "links": [
+          "https://www.cnbc.com/2026/07/02/beef-prices-demand-for-steak-isnt-falling.html",
+          "https://www.cnbc.com/2026/07/01/trumps-limits-on-student-loan-forgiveness-program-blocked.html",
+          "https://www.google.com/preferences/source?q=https://www.cnbc.com/",
+          "https://www.cnbc.com/2026/07/07/ai-personal-finance-advice.html",
+          "https://www.cnbc.com/2026/07/14/shipping-industry-trump-hormuz-toll-backfire.html",
+          "https://www.cnbc.com/2026/06/17/trump-vance-iran-deal-nuclear-g7.html",
+          "https://www.cnbc.com/2026/07/14/us-iran-hormuz-strikes-oil-toll.html",
+          "https://www.cnbc.com/quotes/@LCO.1/",
+          "https://www.cnbc.com/quotes/@LCO.1",
+          "https://www.bls.gov/news.release/pdf/cpi.pdf",
+          "https://www.cnbc.com/2026/07/01/trump-accounts-launch-july-4.html",
+          "https://www.cnbc.com/2026/04/15/tomato-prices.html",
+          "https://www.cnbc.com/2026/07/08/fed-minutes-june-2026-.html",
+          "https://www.cnbc.com/2026/06/22/uhnw-wealth-management-list-cnbc-elite-advisors.html",
+          "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html",
+          "https://www.cnbc.com/2025/10/01/best-financial-advisors.html",
+          "https://www.cnbc.com/2026/06/10/heres-the-inflation-breakdown-for-may-2026-in-one-chart.html"
+        ],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": "7cb6fef167004043880d8d7fa90b7119",
+            "name": "Greg Iacurci"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Consumer prices",
+            "weight": 0.08903191
+          },
+          {
+            "name": "inflation",
+            "weight": 0.08679604
+          },
+          {
+            "name": "Gasoline prices",
+            "weight": 0.08288986
+          },
+          {
+            "name": "Global oil prices",
+            "weight": 0.08285595
+          },
+          {
+            "name": "Prices",
+            "weight": 0.079102494
+          },
+          {
+            "name": "prices",
+            "weight": 0.079102494
+          },
+          {
+            "name": "June",
+            "weight": 0.07757136
+          },
+          {
+            "name": "mid-June",
+            "weight": 0.07718933
+          },
+          {
+            "name": "interest rates",
+            "weight": 0.07124663
+          },
+          {
+            "name": "coming months",
+            "weight": 0.07073192
+          }
+        ],
+        "topics": [
+          {
+            "name": "Inflation"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Finance"
+          },
+          {
+            "name": "World"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Economy News",
+            "score": 0.9895108342170715
+          },
+          {
+            "name": "/People & Society/Social Sciences/Economics",
+            "score": 0.8940516710281372
+          },
+          {
+            "name": "/News/Business News/Fiscal Policy News",
+            "score": 0.6566582322120667
+          },
+          {
+            "name": "/Law & Government/Government/Other",
+            "score": 0.5264036059379578
+          },
+          {
+            "name": "/News/Business News/Financial Markets News",
+            "score": 0.3464307188987732
+          }
+        ],
+        "entities": [
+          {
+            "data": "Iran",
+            "type": "GPE",
+            "mentions": 5
+          },
+          {
+            "data": "U.S.",
+            "type": "GPE",
+            "mentions": 4
+          },
+          {
+            "data": "Hormuz",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Israel",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "the Bureau of Labor Statistics",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Moody's",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Fed",
+            "type": "ORG",
+            "mentions": 3
+          },
+          {
+            "data": "Wells Fargo",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Goldman Sachs Research",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "BLS",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Zandi",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Mark Zandi",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Tom Porcelli",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Strait",
+            "type": "LOC",
+            "mentions": 1
+          },
+          {
+            "data": "the Middle East",
+            "type": "LOC",
+            "mentions": 1
+          },
+          {
+            "data": "9:45 a.m. ET",
+            "type": "TIME",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "87d0d8623dde4ec181354cdbc10f9c80",
+            "name": "Wells Fargo & Company",
+            "domains": [
+              "wellsfargo.com"
+            ],
+            "symbols": [
+              "NWT.DE",
+              "WFC",
+              "WFC-PA",
+              "WFC-PC",
+              "WFC-PD",
+              "WFC-PL",
+              "WFC-PQ",
+              "WFC-PR",
+              "WFC-PY",
+              "WFC-PZ",
+              "WFC.SW"
+            ]
+          },
+          {
+            "id": "ba8d98fb00564458b5863d90a76917f8",
+            "name": "Moody's Corporation",
+            "domains": [
+              "moodys.com"
+            ],
+            "symbols": [
+              "0K36.L",
+              "MCO"
+            ]
+          },
+          {
+            "id": "8f46e4b2b847482ead057175e8920ec2",
+            "name": "BSL Limited",
+            "domains": [
+              "bslltd.com"
+            ],
+            "symbols": [
+              "BSL.NS"
+            ]
+          }
+        ],
+        "sentiment": {
+          "positive": 0.02791241,
+          "negative": 0.9055691,
+          "neutral": 0.06651847
+        },
+        "summary": "Consumer prices decreased in June due to lower energy and gasoline prices, but inflation risks re-igniting due to renewed hostilities between the U.S. and Iran. The Bureau of Labor Statistics reported that the consumer price index rose 3.5% in June from the previous year, down from 4.2% in May. This is the first decline in the annual inflation rate since January. Economists believe inflation should moderate, preventing the Federal Reserve from increasing borrowing costs. The inflation rate is one of the economic indicators the Fed uses to guide its interest rate decisions. However, the reprieve in June may be brief due to rising tensions in the Middle East.",
+        "shortSummary": "Consumer prices slowed in June due to lower energy and gasoline prices, but inflation risks re-igniting amid renewed tensions with Iran and potentially raising interest rates.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "00216bebbb2140f0816e330d06a04926",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://finance.yahoo.com/markets/crypto/articles/cooling-u-inflation-sparks-112-175510213.html",
+        "authorsByline": "Arjun Parashar",
+        "articleId": "0586f6674fb64ff789c5e676bf8e67fa",
+        "clusterId": "952ca2ad2c0b499d8a07b13e5f5776bd",
+        "source": {
+          "domain": "finance.yahoo.com",
+          "location": {
+            "country": "us",
+            "state": "CA",
+            "county": "Santa Clara County",
+            "city": "Sunnyvale",
+            "coordinates": {
+              "lat": 37.3688301,
+              "lon": -122.036349
+            }
+          }
+        },
+        "imageUrl": "https://s.yimg.com/lo/mysterio/api/D5E285B1D1398D474ED44CC2532DFBA82FB3C2A7D232611557C4D6D80BB39AB5/subgraphmysterio/resizefill_w1200_h800;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthestreet_881%2F7877502774acfd354135ace8e68f08d1",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-07-14T17:55:10+00:00",
+        "addDate": "2026-07-14T18:05:20.765476+00:00",
+        "refreshDate": "2026-09-17T19:44:48.890948+00:00",
+        "score": 105.35507,
+        "title": "Cooling U.S. inflation sparks $112 million crypto wipeout",
+        "description": "Cooling U.S. inflation gave crypto markets a boost on July 14, after consumer prices fell more than economists expected, easing immediate pressure on the Federal Reserve to tighten monetary policy further. The U.S. Consumer Price Index fell 0.4% in June, the largest monthly decline since April ...",
+        "content": "Cooling U.S. inflation gave crypto markets a boost on July 14, after consumer prices fell more than economists expected, easing immediate pressure on the Federal Reserve to tighten monetary policy fur... [2210 symbols]",
+        "enContentWordCount": 392,
+        "medium": "Article",
+        "links": [
+          "https://www.bls.gov/news.release/cpi.nr0.htm",
+          "https://twitter.com/x/status/2077020277532500361",
+          "https://apnews.com/article/warsh-federal-reserve-inflation-4a1da547d64ae3d54fba29161b213601",
+          "https://finance.yahoo.com/markets/crypto/articles/bitcoin-whale-makes-first-move-180102934.html",
+          "https://farside.co.uk/btc/",
+          "https://polymarket.com/event/fed-decision-in-july-181",
+          "https://finance.yahoo.com/markets/stocks/articles/microstrategy-sells-shares-boost-u-183813887.html",
+          "https://thestreet.com/crypto/ethereum",
+          "https://finance.yahoo.com/markets/crypto/articles/bitcoin-treasury-company-sells-48-213558524.html",
+          "https://www.coinglass.com/liquidations",
+          "https://s.yimg.com/lo/mysterio/api/16896FB0FB5752E73A060482AF2F7EE877EBE0693E7E8223D03BE71F31E899DF/subgraphmysterio/resizefit_w960;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthestreet_881%2Fdbcdbfb94c34679a97dc2378dac46bba",
+          "https://finance.yahoo.com/markets/crypto/articles/donald-trumps-unsigned-housing-bill-193844731.html",
+          "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html"
+        ],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": "74ccd4e0cf014343a518d4048be52327",
+            "name": "Arjun Parashar"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Cooling U.S. inflation",
+            "weight": 0.10055274
+          },
+          {
+            "name": "annual inflation",
+            "weight": 0.09074524
+          },
+          {
+            "name": "inflation",
+            "weight": 0.08613914
+          },
+          {
+            "name": "Core inflation",
+            "weight": 0.08579087
+          },
+          {
+            "name": "crypto markets",
+            "weight": 0.084060654
+          },
+          {
+            "name": "lower crypto prices",
+            "weight": 0.08344664
+          },
+          {
+            "name": "crypto positions",
+            "weight": 0.0821249
+          },
+          {
+            "name": "Federal Reserve",
+            "weight": 0.08030752
+          },
+          {
+            "name": "Federal Reserve Chair Kevin Warsh",
+            "weight": 0.07996269
+          },
+          {
+            "name": "Farside data",
+            "weight": 0.07910465
+          }
+        ],
+        "topics": [
+          {
+            "name": "Cryptocurrency"
+          },
+          {
+            "name": "Markets"
+          },
+          {
+            "name": "Inflation"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Finance"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Financial Markets News",
+            "score": 0.9640516638755798
+          },
+          {
+            "name": "/News/Business News/Economy News",
+            "score": 0.9448931217193604
+          },
+          {
+            "name": "/Finance/Investing/Currencies & Foreign Exchange",
+            "score": 0.8885655403137207
+          },
+          {
+            "name": "/News/Business News/Fiscal Policy News",
+            "score": 0.5413784980773926
+          },
+          {
+            "name": "/People & Society/Social Sciences/Economics",
+            "score": 0.40274444222450256
+          },
+          {
+            "name": "/Law & Government/Government/Other",
+            "score": 0.39460915327072144
+          }
+        ],
+        "entities": [
+          {
+            "data": "U.S.",
+            "type": "GPE",
+            "mentions": 4
+          },
+          {
+            "data": "the Federal Reserve",
+            "type": "ORG",
+            "mentions": 4
+          },
+          {
+            "data": "Dow Jones",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Polymarket",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "CoinGlass",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Kevin Warsh",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Donald Trump's",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "the first hour",
+            "type": "TIME",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "64c8c8d7dec44420a7d080251c725f96",
+            "name": "Dow Jones & Company",
+            "domains": [
+              "dowjones.com"
+            ],
+            "symbols": []
+          }
+        ],
+        "sentiment": {
+          "positive": 0.25280872,
+          "negative": 0.59031457,
+          "neutral": 0.15687671
+        },
+        "summary": "The cooling U.S. inflation gave crypto markets a boost after consumer prices fell more than economists expected, reducing pressure on the Federal Reserve to tighten monetary policy further. The Consumer Price Index fell by 0.4% in June, the largest monthly decline since April 2020, bringing annual inflation down to 3.5% from 4.2% in May. Core inflation, excluding food and energy, remained unchanged, contributing to the decline. The inflation also shifted expectations in prediction markets. Over $112 million worth of crypto positions were liquidated in the first hour after the release, with around $105.8 million coming from short positions betting on lower crypto prices.",
+        "shortSummary": "The unexpected drop in U.S consumer prices boosted crypto markets, prompting significant losses and a potential interest rate hike.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "918b759b60eb4965acad25ca5e4d892b",
+        "places": [],
+        "people": [
+          {
+            "wikidataId": "Q22686",
+            "name": "Donald Trump"
+          },
+          {
+            "wikidataId": "Q6397725",
+            "name": "Kevin Warsh"
+          }
+        ]
+      },
+      {
+        "url": "https://www.axios.com/2026/07/14/cpi-june-inflation-energy",
+        "authorsByline": "Emily Peck",
+        "articleId": "233ba2713b0948f092beca5e8b0999ab",
+        "clusterId": "d4c8d6f2a3c2441bb540c8413b2f7ef1",
+        "source": {
+          "domain": "axios.com",
+          "paywall": false,
+          "location": {
+            "country": "us",
+            "state": "VA",
+            "county": "Arlington County",
+            "city": "Arlington",
+            "coordinates": {
+              "lat": 38.8903961,
+              "lon": -77.0841585
+            }
+          }
+        },
+        "imageUrl": "https://images.axios.com/2J-KBu_D2DN_MuWolzZF0Czrh-4=/0x0:5838x3284/1366x768/2026/07/13/1783972734638.jpeg",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-07-14T12:50:10.732413+00:00",
+        "addDate": "2026-07-14T13:44:10.756049+00:00",
+        "refreshDate": "2026-09-18T19:49:29.618242+00:00",
+        "score": 105.33476,
+        "title": "Inflation has biggest drop since 2020",
+        "description": "Lower energy prices helped dampen the gain in the Consumer Price Index.",
+        "content": "Inflation fell in June, on the back of lower energy prices, the government said Tuesday.\n\nWhy it matters: It's the largest one-month decrease since April 2020, but it may be a short-lived reprieve — t... [2115 symbols]",
+        "enContentWordCount": 441,
+        "medium": "Article",
+        "links": [],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": "82f583788ecb449a9760027e32248b3d",
+            "name": "Emily Peck"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "lower energy prices",
+            "weight": 0.094303206
+          },
+          {
+            "name": "oil prices",
+            "weight": 0.09401859
+          },
+          {
+            "name": "Tariff price increases",
+            "weight": 0.08906417
+          },
+          {
+            "name": "prices",
+            "weight": 0.0855501
+          },
+          {
+            "name": "Federal Reserve",
+            "weight": 0.083103135
+          },
+          {
+            "name": "last month",
+            "weight": 0.076131575
+          },
+          {
+            "name": "June",
+            "weight": 0.067845315
+          },
+          {
+            "name": "Patrick De Haan",
+            "weight": 0.06665227
+          },
+          {
+            "name": "little cushion",
+            "weight": 0.0659083
+          },
+          {
+            "name": "President Trump",
+            "weight": 0.060573604
+          }
+        ],
+        "topics": [
+          {
+            "name": "Inflation"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Politics"
+          },
+          {
+            "name": "Finance"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Economy News",
+            "score": 0.9889705181121826
+          },
+          {
+            "name": "/Law & Government/Government/Other",
+            "score": 0.8079156875610352
+          },
+          {
+            "name": "/People & Society/Social Sciences/Economics",
+            "score": 0.6619228720664978
+          },
+          {
+            "name": "/News/Business News/Fiscal Policy News",
+            "score": 0.6396235227584839
+          },
+          {
+            "name": "/News/Business News/Financial Markets News",
+            "score": 0.6147987842559814
+          },
+          {
+            "name": "/Business & Industrial/Energy & Utilities/Oil & Gas",
+            "score": 0.4031555652618408
+          },
+          {
+            "name": "/News/Politics/Other",
+            "score": 0.39905035495758057
+          },
+          {
+            "name": "/News/Business News/Other",
+            "score": 0.33829572796821594
+          }
+        ],
+        "entities": [
+          {
+            "data": "Iran",
+            "type": "GPE",
+            "mentions": 3
+          },
+          {
+            "data": "U.S.",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Russia",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Ukraine",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "morning",
+            "type": "TIME",
+            "mentions": 2
+          },
+          {
+            "data": "Americans",
+            "type": "NORP",
+            "mentions": 1
+          },
+          {
+            "data": "Republicans",
+            "type": "NORP",
+            "mentions": 1
+          },
+          {
+            "data": "Trump",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Patrick De Haan",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Kevin Warsh",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "GasBuddy",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "the Federal Reserve's",
+            "type": "ORG",
+            "mentions": 4
+          },
+          {
+            "data": "the Senate Banking Committee",
+            "type": "ORG",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "e151ac2971e14751b7055440e0cda6c6",
+            "name": "GasBuddy",
+            "domains": [
+              "gasbuddy.com"
+            ],
+            "symbols": []
+          }
+        ],
+        "sentiment": {
+          "positive": 0.059957422,
+          "negative": 0.8378522,
+          "neutral": 0.102190405
+        },
+        "summary": "Inflation fell in June, largely due to lower energy prices, marking the largest one-month decrease since April 2020. However, this decrease may not be sustained due to the ongoing Iran-U.S. war and rising oil prices. The Consumer Price Index rose by 3.5% in the 12 months through June, down from 4.2% in May. The CPI for energy fell 5.7% in June after climbing 3.9%. This was the largest factor in the inflation fall. Despite this, analysts believe the decline could prevent the Federal Reserve from raising rates further this year.",
+        "shortSummary": "In June, inflation fell due to lower energy prices, but remains high amid ongoing political tensions and rising oil prices.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "eb8682c56a6048efa224dabc687ff0ab",
+        "places": [],
+        "people": [
+          {
+            "wikidataId": "Q6397725",
+            "name": "Kevin Warsh"
+          }
+        ]
+      },
+      {
+        "url": "https://www.bloomberg.com/news/articles/2026-08-08/us-cpi-to-show-inflationary-pressures-cooling-some",
+        "authorsByline": "Craig Stirling, Vince Golle",
+        "articleId": "f92dea1f80bb4b8fa65f4541de148230",
+        "clusterId": "6106ee97d65d4d079494b4d2ee24283a",
+        "source": {
+          "domain": "bloomberg.com",
+          "paywall": true,
+          "location": {
+            "country": "us",
+            "state": "NY",
+            "city": "New York",
+            "coordinates": {
+              "lat": 40.7127281,
+              "lon": -74.0060152
+            }
+          }
+        },
+        "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iLs3aUZV6ZEc/v1/1200x799.jpg",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-08-08T20:00:00+00:00",
+        "addDate": "2026-08-08T20:19:09.396714+00:00",
+        "refreshDate": "2026-09-18T22:16:36.967923+00:00",
+        "score": 103.90724,
+        "title": "US CPI to Show Inflationary Pressures Cooling Some",
+        "description": "Prices paid by US consumers probably inched up marginally last month after falling for the first time in six years, a welcome tempering in recent war-driven inflationary pressures.",
+        "content": "Prices paid by US consumers probably inched up marginally last month after falling for the first time in six years, a welcome tempering in recent war-driven inflationary pressures.\n\nThe closely watche... [419 symbols]",
+        "enContentWordCount": 75,
+        "medium": "Article",
+        "links": [],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": "5627ddd2d3764967885a9c9fe9d67426",
+            "name": "Craig Stirling"
+          },
+          {
+            "id": "daddbaad118e4a289e63f6c437ca8fe3",
+            "name": "Vince Golle"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Inflationary Pressures",
+            "weight": 0.12926055
+          },
+          {
+            "name": "US consumers",
+            "weight": 0.12254014
+          },
+          {
+            "name": "last month",
+            "weight": 0.1200738
+          },
+          {
+            "name": "US CPI",
+            "weight": 0.10069563
+          },
+          {
+            "name": "Labor Statistics",
+            "weight": 0.09810719
+          },
+          {
+            "name": "recent war-driven inflationary pressures",
+            "weight": 0.095497094
+          },
+          {
+            "name": "US",
+            "weight": 0.08566682
+          },
+          {
+            "name": "Prices",
+            "weight": 0.08505087
+          },
+          {
+            "name": "Wednesday",
+            "weight": 0.08132389
+          },
+          {
+            "name": "economists",
+            "weight": 0.080264166
+          }
+        ],
+        "topics": [],
+        "categories": [
+          {
+            "name": "Finance"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Economy News",
+            "score": 0.9890130758285522
+          },
+          {
+            "name": "/People & Society/Social Sciences/Economics",
+            "score": 0.8902942538261414
+          },
+          {
+            "name": "/News/Business News/Other",
+            "score": 0.5423785448074341
+          },
+          {
+            "name": "/News/Business News/Fiscal Policy News",
+            "score": 0.3593641221523285
+          },
+          {
+            "name": "/News/Business News/Financial Markets News",
+            "score": 0.30985841155052185
+          }
+        ],
+        "entities": [
+          {
+            "data": "US",
+            "type": "GPE",
+            "mentions": 2
+          },
+          {
+            "data": "Bloomberg",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Bureau of Labor Statistics",
+            "type": "ORG",
+            "mentions": 1
+          }
+        ],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.86318517,
+          "negative": 0.06814016,
+          "neutral": 0.06867459
+        },
+        "summary": "US consumer price index is expected to rise by 0.1% in July, following a 0.4% decline in the previous month, according to a Bloomberg survey of economists. This is seen as a welcome sign of a cooling trend in inflationary pressures. The median projection suggests that prices paid by US consumers decreased for the first time in six years, with the consumer price inflation rate expected to be at around 0.5%. This comes as war-driven inflationary pressure continues to lessen.",
+        "shortSummary": "US consumer prices are expected to rise 0.1% in July after a six-year low, reflecting a slight rise amid rising inflationary pressures from global conflicts.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "438f539a5cdd460ab39d831f5bce4fcb",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://www.axios.com/2026/09/11/the-feds-big-inflation-test",
+        "authorsByline": "Neil Irwin",
+        "articleId": "c49f019078584f9497b166f790d0c89e",
+        "clusterId": "c77e63b525514cd8bf74aa07e67853d5",
+        "source": {
+          "domain": "axios.com",
+          "paywall": false,
+          "location": {
+            "country": "us",
+            "state": "VA",
+            "county": "Arlington County",
+            "city": "Arlington",
+            "coordinates": {
+              "lat": 38.8903961,
+              "lon": -77.0841585
+            }
+          }
+        },
+        "imageUrl": "https://images.axios.com/M9NUZyK90yBIx818Qs9UuSiL5cg=/0x0:1920x1080/1366x768/2026/07/30/1785444118199.jpeg",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-09-11T16:07:17.938835+00:00",
+        "addDate": "2026-09-11T16:09:09.829905+00:00",
+        "refreshDate": "2026-09-11T16:09:09.829907+00:00",
+        "score": 103.784805,
+        "title": "The Fed's big inflation test",
+        "description": "A run of economic data has bolstered the case for a rate hike, including a rise in core consumer prices.",
+        "content": "The Fed looks boxed into raising interest rates next week after Friday morning's hot inflation report . Less certain is what comes after that.\n\nWhy it matters: August inflation was shaping up to be a ... [1571 symbols]",
+        "enContentWordCount": 306,
+        "medium": "Article",
+        "links": [],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": "3bc1412babe24b01a4875056d7279f76",
+            "name": "Neil Irwin"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "inflation risks",
+            "weight": 0.104916394
+          },
+          {
+            "name": "core inflation",
+            "weight": 0.104096614
+          },
+          {
+            "name": "underlying inflation",
+            "weight": 0.10318278
+          },
+          {
+            "name": "Underlying inflation",
+            "weight": 0.101811886
+          },
+          {
+            "name": "August inflation",
+            "weight": 0.10151816
+          },
+          {
+            "name": "multiple interest rate increases",
+            "weight": 0.10071886
+          },
+          {
+            "name": "Fed chairman Kevin Warsh",
+            "weight": 0.098064065
+          },
+          {
+            "name": "interest rates",
+            "weight": 0.09780682
+          },
+          {
+            "name": "next week",
+            "weight": 0.08549407
+          },
+          {
+            "name": "Fed",
+            "weight": 0.08374853
+          }
+        ],
+        "topics": [
+          {
+            "name": "Federal Reserve"
+          },
+          {
+            "name": "Inflation"
+          },
+          {
+            "name": "Markets"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Finance"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Economy News",
+            "score": 0.9835969805717468
+          },
+          {
+            "name": "/Law & Government/Government/Other",
+            "score": 0.9161096215248108
+          },
+          {
+            "name": "/News/Business News/Fiscal Policy News",
+            "score": 0.9136765599250793
+          },
+          {
+            "name": "/People & Society/Social Sciences/Economics",
+            "score": 0.6817267537117004
+          },
+          {
+            "name": "/News/Business News/Financial Markets News",
+            "score": 0.6233768463134766
+          },
+          {
+            "name": "/News/Business News/Other",
+            "score": 0.30074557662010193
+          }
+        ],
+        "entities": [
+          {
+            "data": "Fed",
+            "type": "ORG",
+            "mentions": 7
+          },
+          {
+            "data": "Edward Jones",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "CME",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "ING",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "morning",
+            "type": "TIME",
+            "mentions": 3
+          },
+          {
+            "data": "Kevin Warsh",
+            "type": "PERSON",
+            "mentions": 3
+          },
+          {
+            "data": "Angelo Kourkafas",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "James Knightley",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Jackson Hole",
+            "type": "GPE",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "8a3bb3cbad734d0a86a2499f792022f9",
+            "name": "CME Group Inc.",
+            "domains": [
+              "cmegroup.com"
+            ],
+            "symbols": [
+              "0HR2.L",
+              "CME"
+            ]
+          },
+          {
+            "id": "4260feb594b7462984f10d2a3d9a3cdb",
+            "name": "ING Groep N.V.",
+            "domains": [
+              "ing.com"
+            ],
+            "symbols": [
+              "INGA.AS",
+              "INN1.DE",
+              "ING",
+              "INGVF",
+              "INGA.SW"
+            ]
+          },
+          {
+            "id": "7dc2cb1c3e7a45e8aa5f24d43ab370b2",
+            "name": "Edward Jones",
+            "domains": [
+              "edwardjones.com"
+            ],
+            "symbols": []
+          }
+        ],
+        "sentiment": {
+          "positive": 0.49623695,
+          "negative": 0.1909431,
+          "neutral": 0.31281996
+        },
+        "summary": "The Federal Reserve (Fed) is expected to raise interest rates next week after a hot inflation report revealed a significant increase in August. The core Consumer Price Index, excluding volatile food and energy costs, showed more momentum than the headline figures indicated. This follows Fed chairman Kevin Warsh's warning that rising price pressures could warrant tighter policy. Investors now see an 85% chance of a rate increase at the Fed's meeting next Wednesday, up from 72% before the inflation data. This puts Warsh on a tightrope as bond markets currently price in multiple interest rate increases.",
+        "shortSummary": "The Fed faces a crucial inflation test with a potential interest rate hike next week, as underlying inflation shows more momentum and potential future rate hikes.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "b7de17eb6bca45ebaf7a32e5f70dd1c1",
+        "places": [],
+        "people": [
+          {
+            "wikidataId": "Q6397725",
+            "name": "Kevin Warsh"
+          }
+        ]
+      },
+      {
+        "url": "https://www.usnews.com/news/national-news/articles/2026-08-10/july-cpi-could-show-further-easing-in-inflation",
+        "authorsByline": "Tim Smart",
+        "articleId": "b9a7e646f5804f4cbc32ee30a0722db3",
+        "clusterId": "6cfd781ccadf4ab391c99955bd8fb1c1",
+        "source": {
+          "domain": "usnews.com",
+          "paywall": false,
+          "location": {
+            "country": "us",
+            "state": "DC",
+            "city": "Washington",
+            "coordinates": {
+              "lat": 38.8949924,
+              "lon": -77.0365581
+            }
+          }
+        },
+        "imageUrl": "https://www.usnews.com/dims4/USNEWS/1eea8b8/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2F11%2Fa1a7c22b56ce204dea52982324369a%2Fc083a88a2c844cfea0180dea3226729fUS_Gasoline_Prices_84663.jpg",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-08-10T09:01:00-04:00",
+        "addDate": "2026-08-10T13:22:26.809145+00:00",
+        "refreshDate": "2026-09-17T05:24:31.948534+00:00",
+        "score": 102.268684,
+        "title": "July CPI Could Show Further Easing in Inflation",
+        "description": "The consumer price index is the highlight of the week’s economic news.",
+        "content": "In the battle of the two major concerns in the U.S. economy, this week it is inflation’s turn.\n\nLast week provided a surprise with a loss of in July rather than the increase of around 83,000 that had ... [2256 symbols]",
+        "enContentWordCount": 441,
+        "medium": "Article",
+        "links": [
+          "https://www.usnews.com/news/national-news/articles/2026-08-07/economy-unexpectedly-sheds-23k-jobs-in-july",
+          "https://www.usnews.com/news/national-news/articles/2026-07-31/consumer-sentiment-strong-in-july-inflation-expectations-drop",
+          "https://money.usnews.com/money/personal-finance/articles/how-bad-is-inflation-tracking-the-price-of-eggs-housing-and-gas"
+        ],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": "50d6a3bca6214fe882207120d6aa232d",
+            "name": "Tim Smart"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "CPI report",
+            "weight": 0.092012234
+          },
+          {
+            "name": "July CPI",
+            "weight": 0.08436771
+          },
+          {
+            "name": "July",
+            "weight": 0.083192825
+          },
+          {
+            "name": "higher prices",
+            "weight": 0.082920104
+          },
+          {
+            "name": "gasoline prices",
+            "weight": 0.08236403
+          },
+          {
+            "name": "stable petroleum product prices",
+            "weight": 0.08223773
+          },
+          {
+            "name": "benign shelter inflation",
+            "weight": 0.06860891
+          },
+          {
+            "name": "job growth",
+            "weight": 0.068314336
+          },
+          {
+            "name": "Core CPI",
+            "weight": 0.0665818
+          },
+          {
+            "name": "other issues",
+            "weight": 0.06385674
+          }
+        ],
+        "topics": [
+          {
+            "name": "Inflation"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Finance"
+          },
+          {
+            "name": "World"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Economy News",
+            "score": 0.9835969805717468
+          },
+          {
+            "name": "/People & Society/Social Sciences/Economics",
+            "score": 0.8705973029136658
+          },
+          {
+            "name": "/News/Business News/Fiscal Policy News",
+            "score": 0.4373428225517273
+          },
+          {
+            "name": "/Law & Government/Government/Other",
+            "score": 0.3584653437137604
+          },
+          {
+            "name": "/News/Business News/Financial Markets News",
+            "score": 0.30074557662010193
+          }
+        ],
+        "entities": [
+          {
+            "data": "U.S.",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Iran",
+            "type": "GPE",
+            "mentions": 2
+          },
+          {
+            "data": "the Federal Reserve",
+            "type": "ORG",
+            "mentions": 5
+          },
+          {
+            "data": "Comerica Bank",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "the University of Michigan",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Party",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "GOP",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Bill Adams",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Donald Trump",
+            "type": "PERSON",
+            "mentions": 2
+          },
+          {
+            "data": "the Middle East",
+            "type": "LOC",
+            "mentions": 1
+          },
+          {
+            "data": "Republican",
+            "type": "NORP",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "94bb4910c57a4031a6734830ce2d64a9",
+            "name": "University of Michigan",
+            "domains": [
+              "umich.edu"
+            ],
+            "symbols": []
+          }
+        ],
+        "sentiment": {
+          "positive": 0.0598593,
+          "negative": 0.7823555,
+          "neutral": 0.15778527
+        },
+        "summary": "Inflation could increase in July, with the consumer price index for July expected to drop to a lower annual rate of 3.4%, from 3.5% in June and 4.2% in May. This could help the Federal Reserve avoid raising interest rates in September, but could raise concerns about job growth and the economy's underlying growth. Economists attribute this decrease to less volatility in gasoline prices. The August jobs data and CPI report will come out before the Fed meets, so the July reports are not the final word. However, there are also expected to be readings on Friday of July's retail sales and the University of Michigan's first estimate for August from both.",
+        "shortSummary": "Inflation could impact job growth and economic growth more significantly as key July CPI and producer price reports are expected to show signs of cooling down, potentially delaying interest rate hikes.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "4ca91c7d92994067bfe9f9378316eeba",
+        "places": [],
+        "people": [
+          {
+            "wikidataId": "Q22686",
+            "name": "Donald J. Trump"
+          }
+        ]
+      },
+      {
+        "url": "https://www.axios.com/2026/08/12/inflation-cpi-fed-middle-east",
+        "authorsByline": "Courtenay Brown",
+        "articleId": "1bc126e51b0a49bfa262839e4a22cd1d",
+        "clusterId": "d23d6d95e8bc4c79a25fb257839f8ed3",
+        "source": {
+          "domain": "axios.com",
+          "paywall": false,
+          "location": {
+            "country": "us",
+            "state": "VA",
+            "county": "Arlington County",
+            "city": "Arlington",
+            "coordinates": {
+              "lat": 38.8903961,
+              "lon": -77.0841585
+            }
+          }
+        },
+        "imageUrl": "https://images.axios.com/Xwn-t9WZng5oU6JEK1D0K7wNJI8=/0x0:1920x1080/1366x768/2026/08/12/1786550152436.jpg",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-08-12T15:58:38.342806+00:00",
+        "addDate": "2026-08-12T16:01:52.456052+00:00",
+        "refreshDate": "2026-09-24T15:26:44.408196+00:00",
+        "score": 102.19081,
+        "title": "Inflation relief's staying power is in question",
+        "description": "July brought plenty of heat, but very little of it showed up in consumer prices.",
+        "content": "Inflation was benign in July, a second month of relief for American consumers and economic policymakers contending with stubborn price pressures.\n\nWhy it matters: The tame reading might give the Feder... [3177 symbols]",
+        "enContentWordCount": 617,
+        "medium": "Article",
+        "links": [],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": "7334bc3ba0554df29e2aef2c716d0ed4",
+            "name": "Courtenay Brown"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Energy prices",
+            "weight": 0.11068761
+          },
+          {
+            "name": "energy prices",
+            "weight": 0.11068761
+          },
+          {
+            "name": "price pressures",
+            "weight": 0.101970494
+          },
+          {
+            "name": "oil prices",
+            "weight": 0.099666886
+          },
+          {
+            "name": "crude oil prices",
+            "weight": 0.098966844
+          },
+          {
+            "name": "stubborn price pressures",
+            "weight": 0.0970903
+          },
+          {
+            "name": "gasoline prices",
+            "weight": 0.094986744
+          },
+          {
+            "name": "Prices",
+            "weight": 0.09352336
+          },
+          {
+            "name": "computer prices",
+            "weight": 0.092501014
+          },
+          {
+            "name": "higher prices",
+            "weight": 0.09232453
+          }
+        ],
+        "topics": [
+          {
+            "name": "Inflation"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Finance"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Economy News",
+            "score": 0.9908034801483154
+          },
+          {
+            "name": "/Law & Government/Government/Other",
+            "score": 0.7626009583473206
+          },
+          {
+            "name": "/People & Society/Social Sciences/Economics",
+            "score": 0.658087968826294
+          },
+          {
+            "name": "/News/Business News/Other",
+            "score": 0.6384972333908081
+          },
+          {
+            "name": "/News/Business News/Fiscal Policy News",
+            "score": 0.6178585886955261
+          },
+          {
+            "name": "/News/Business News/Financial Markets News",
+            "score": 0.5438022017478943
+          },
+          {
+            "name": "/Business & Industrial/Energy & Utilities/Oil & Gas",
+            "score": 0.31626367568969727
+          }
+        ],
+        "entities": [
+          {
+            "data": "American",
+            "type": "NORP",
+            "mentions": 1
+          },
+          {
+            "data": "the Federal Reserve",
+            "type": "ORG",
+            "mentions": 5
+          },
+          {
+            "data": "Plante Moran Financial Advisors",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Apple",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "CME FedWatch",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Iran",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "U.S.",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Jim Baird",
+            "type": "PERSON",
+            "mentions": 2
+          },
+          {
+            "data": "West Texas Intermediate",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Middle East",
+            "type": "LOC",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "bd0125fb0c134529ab9e86179bd24edb",
+            "name": "Plante Moran",
+            "domains": [
+              "plantemoran.com"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "5985872d662c4a3f941a9c581a9fce71",
+            "name": "Apple Inc.",
+            "domains": [
+              "apple.com"
+            ],
+            "symbols": [
+              "AAPL",
+              "APC.DE",
+              "APC.F"
+            ]
+          }
+        ],
+        "sentiment": {
+          "positive": 0.18599862,
+          "negative": 0.7242338,
+          "neutral": 0.08976755
+        },
+        "summary": "Inflation was benign in July, giving the Federal Reserve some breathing room to hold off raising interest rates. However, the Iran war and fluctuating energy prices have raised questions about the staying power of this relief. The Consumer Price Index rose only 0.1% in July after falling 0.4% in June, while the year-over-year inflation rate dropped to 3.4%, from 3.5%. Core CPI, excluding food and energy, advanced 0.2% and was up 2.5% from a year earlier, down from 2.6%. However, there is little evidence of these price pressures expanding into the core inflation gauge the Fed watches most closely. Other potential inflationary factors like tariffs and the AI buildout remain risks. Financial markets now see the chance of an interest rate increase as less likely.",
+        "shortSummary": "Inflation eased in July, but sustainability concerns remain amid rising oil prices and potential inflationary factors, with the Federal Reserve potentially delaying interest rate hikes.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "9af83c4c71664b178c1fd45b370b6dfd",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://finance.yahoo.com/economy/articles/austrian-inflation-rises-higher-fuel-101837103.html",
+        "authorsByline": "DPA",
+        "articleId": "b0b551d7830d41b3af33f71211733245",
+        "clusterId": "5baf7eab21b845089264b63efd49cadf",
+        "source": {
+          "domain": "finance.yahoo.com",
+          "location": {
+            "country": "us",
+            "state": "CA",
+            "county": "Santa Clara County",
+            "city": "Sunnyvale",
+            "coordinates": {
+              "lat": 37.3688301,
+              "lon": -122.036349
+            }
+          }
+        },
+        "imageUrl": "",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-09-17T10:18:37+00:00",
+        "addDate": "2026-09-17T10:36:59.011478+00:00",
+        "refreshDate": "2026-09-17T10:36:59.011481+00:00",
+        "score": 101.19328,
+        "title": "Austrian inflation rises on higher fuel costs",
+        "description": "Austria's consumer price inflation accelerated as initially estimated in August amid higher fuel and heating oil prices, the latest data from Statistics Austria, the country's official statistics agency, showed on Thursday. The consumer price index climbed 3.",
+        "content": "Austria's consumer price inflation accelerated as initially estimated in August amid higher fuel and heating oil prices, the latest data from Statistics Austria, the country's official statistics agen... [1039 symbols]",
+        "enContentWordCount": 195,
+        "medium": "Article",
+        "links": [],
+        "labels": [],
+        "matchedAuthors": [],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "consumer prices",
+            "weight": 0.13224244
+          },
+          {
+            "name": "price pressures",
+            "weight": 0.117252044
+          },
+          {
+            "name": "Food prices",
+            "weight": 0.116970256
+          },
+          {
+            "name": "Annual price growth",
+            "weight": 0.11671256
+          },
+          {
+            "name": "higher fuel costs",
+            "weight": 0.10934444
+          },
+          {
+            "name": "Statistics Austria",
+            "weight": 0.106202334
+          },
+          {
+            "name": "Austrias consumer price inflation",
+            "weight": 0.09433272
+          },
+          {
+            "name": "fuel costs",
+            "weight": 0.093898565
+          },
+          {
+            "name": "Austrian inflation",
+            "weight": 0.09176188
+          },
+          {
+            "name": "higher fuel and heating oil prices",
+            "weight": 0.08925992
+          }
+        ],
+        "topics": [
+          {
+            "name": "Inflation"
+          },
+          {
+            "name": "Economy"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Finance"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Economy News",
+            "score": 0.9851003289222717
+          },
+          {
+            "name": "/News/Business News/Other",
+            "score": 0.7843190431594849
+          },
+          {
+            "name": "/Business & Industrial/Energy & Utilities/Oil & Gas",
+            "score": 0.5749318599700928
+          },
+          {
+            "name": "/People & Society/Social Sciences/Economics",
+            "score": 0.44984573125839233
+          }
+        ],
+        "entities": [
+          {
+            "data": "Austrian",
+            "type": "NORP",
+            "mentions": 1
+          },
+          {
+            "data": "Austria",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Statistics Austria",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "European Union",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Manuela Lenk",
+            "type": "PERSON",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "4afb790f172c46bd832bd785e17ca2ec",
+            "name": "European Union",
+            "domains": [
+              "european-union.europa.eu"
+            ],
+            "symbols": []
+          }
+        ],
+        "sentiment": {
+          "positive": 0.83114725,
+          "negative": 0.08751677,
+          "neutral": 0.08133596
+        },
+        "summary": "Austria's consumer price inflation accelerated in August due to higher fuel and heating oil prices, according to Statistics Austria. The consumer price index climbed 3.2% year-over-year in August, faster than the 2.8% increase in July. Inflation in transport rose to 7.8%, from 6.4%, due to a 26.3% surge in fuel costs. Annual price growth in housing and utilities also accelerated to 3.3%. Costs related to restaurants and accommodation services were 4.7% higher. The reduction in value-added tax on basic foodstuffs from 10% to 4.9% helped moderate price pressures. The European Union measure of inflation, the harmonized index of consumer prices, rose 2.9%.",
+        "shortSummary": "Austria's consumer price inflation accelerated to 3.2% in August due to higher fuel and heating oil costs, with transport costs rising sharply and housing costs falling.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "ffccd90fad63452aa17bb68df63258e8",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://www.aljazeera.com/economy/2026/7/14/us-consumer-prices-drop-in-june-as-energy-costs-tumble",
+        "authorsByline": "Andy Hirschfeld",
+        "articleId": "465d3bfe006844e8b09f61e47458abc4",
+        "clusterId": "c30a66ef422949fc8bffca5f2e1cd80c",
+        "source": {
+          "domain": "aljazeera.com",
+          "paywall": false,
+          "location": {
+            "country": "qa",
+            "city": "Doha",
+            "coordinates": {
+              "lat": 25.2856329,
+              "lon": 51.5264162
+            }
+          }
+        },
+        "imageUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/afp_6a565380ed8b-1784042368.jpg?resize=1920%2C1440",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-07-14T16:57:42+00:00",
+        "addDate": "2026-07-14T17:09:26.595241+00:00",
+        "refreshDate": "2026-09-18T12:13:25.666084+00:00",
+        "score": 100.70665,
+        "title": "US consumer prices drop in June as energy costs tumble",
+        "description": "Inflation eased due to cheaper energy, but experts warn price increases may return after renewed US-Iran tensions.",
+        "content": "Inflation eased due to cheaper energy, but experts warn price increases may return after renewed US-Iran tensions.\n\nConsumer prices in the United States tumbled in June as energy prices fell, led by c... [3349 symbols]",
+        "enContentWordCount": 656,
+        "medium": "Article",
+        "links": [
+          "https://www.aljazeera.com/economy/2026/7/14/piracy-will-trumps-20-percent-hormuz-toll-find-takers",
+          "https://www.aljazeera.com/economy/2026/7/14/how-new-yemen-tensions-could-complicate-the-global-energy-crisis",
+          "https://www.aljazeera.com/economy/2026/7/14/oil-hits-1-month-high-as-us-iran-fighting-clouds-strait-of-hormuz-outlook",
+          "https://www.aljazeera.com/economy/2026/6/17/us-federal-reserve-holds-rates-steady-under-new-chair-warsh",
+          "https://www.aljazeera.com/economy/2026/6/18/are-prices-really-dropping-as-trump-claims",
+          "https://www.aljazeera.com/video/money-works/2026/7/14/how-the-late-father-emir-transformed-qatars-economy"
+        ],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": "b0704b0e04e64cecb8f81e12fb7ac84e",
+            "name": "Andy Hirschfeld"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "petrol prices",
+            "weight": 0.1028438
+          },
+          {
+            "name": "Energy prices",
+            "weight": 0.102031566
+          },
+          {
+            "name": "energy prices",
+            "weight": 0.102031566
+          },
+          {
+            "name": "Oil prices",
+            "weight": 0.100850806
+          },
+          {
+            "name": "oil prices",
+            "weight": 0.100850806
+          },
+          {
+            "name": "price increases",
+            "weight": 0.10017618
+          },
+          {
+            "name": "daily petrol prices",
+            "weight": 0.09766208
+          },
+          {
+            "name": "US consumer prices",
+            "weight": 0.09748882
+          },
+          {
+            "name": "Consumer prices",
+            "weight": 0.09551079
+          },
+          {
+            "name": "Prices",
+            "weight": 0.09323333
+          }
+        ],
+        "topics": [
+          {
+            "name": "Economy"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Finance"
+          },
+          {
+            "name": "World"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Economy News",
+            "score": 0.9505029916763306
+          },
+          {
+            "name": "/Business & Industrial/Energy & Utilities/Oil & Gas",
+            "score": 0.8966140151023865
+          },
+          {
+            "name": "/News/Business News/Other",
+            "score": 0.6827852725982666
+          },
+          {
+            "name": "/Business & Industrial/Shipping & Logistics/Import & Export",
+            "score": 0.3303631544113159
+          }
+        ],
+        "entities": [
+          {
+            "data": "US",
+            "type": "GPE",
+            "mentions": 4
+          },
+          {
+            "data": "the United States",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Iran",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "the Strait of Hormuz",
+            "type": "LOC",
+            "mentions": 2
+          },
+          {
+            "data": "West Texas",
+            "type": "LOC",
+            "mentions": 1
+          },
+          {
+            "data": "the Department of Labor’s",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Bureau of Labor Statistics",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "the American Automobile Association",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "AAA",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "White House",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "nat",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "GasBuddy",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Al Jazeera",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Fed",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "[Donald] Trump",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Kush Desai",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Patrick De Haan",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Kevin Warsh",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Jerome Powell",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "midday",
+            "type": "TIME",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "e151ac2971e14751b7055440e0cda6c6",
+            "name": "GasBuddy",
+            "domains": [
+              "gasbuddy.com"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "167abefa661640f595ba7944a27db6f1",
+            "name": "American Automobile Association",
+            "domains": [
+              "aaa.com"
+            ],
+            "symbols": []
+          }
+        ],
+        "sentiment": {
+          "positive": 0.031985033,
+          "negative": 0.8858584,
+          "neutral": 0.08215662
+        },
+        "summary": "Consumer prices in the US fell in June, largely due to cheaper energy prices, but experts warn that further increases may return due to renewed US-Iran tensions. Energy prices fell by 5.7 percent, marking the biggest monthly decline since April 2020. Oil prices saw the biggest drop, with petrol prices dropping 9.5 percent. The average price for a gallon of petrol (3.85) is $3.05, down from $4.07 at this time last month. Other sectors saw declines in consumer prices including apparel, used car or truck, and electricity. The annual CPI rose by 3.5% after a 4.2 percent increase in May, the largest annual increase in over three years.",
+        "shortSummary": "US consumer prices fell in June due to cheaper energy, but experts warn price increases may return amid renewed US-Iran tensions.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "7593c327fc5545cdac7524c0d65c90dd",
+        "places": [],
+        "people": [
+          {
+            "wikidataId": "Q6397725",
+            "name": "Kevin Warsh"
+          },
+          {
+            "wikidataId": "Q6182718",
+            "name": "Jerome Powell"
+          },
+          {
+            "wikidataId": "Q22686",
+            "name": "Donald Trump"
+          }
+        ]
+      },
+      {
+        "url": "https://www.morningstar.com/news/marketwatch/2026071457/consumer-prices-fall-for-first-time-since-early-days-of-covid-pandemic-but-war-against-high-inflation-isnt-won",
+        "authorsByline": "",
+        "articleId": "70a0d162a4dc4c19b1263d9f4e27658b",
+        "clusterId": "d24171de6f9f450baa0a937aeee19734",
+        "source": {
+          "domain": "morningstar.com",
+          "location": {
+            "country": "us",
+            "state": "IL",
+            "county": "Cook County",
+            "city": "Chicago",
+            "coordinates": {
+              "lat": 41.8755616,
+              "lon": -87.6244212
+            }
+          }
+        },
+        "imageUrl": "",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-07-14T08:11:00-05:00",
+        "addDate": "2026-07-14T14:14:39.506318+00:00",
+        "refreshDate": "2026-07-14T14:14:39.506321+00:00",
+        "score": 99.429504,
+        "title": "Consumer prices fall for first time since early days of COVID pandemic, but war against high inflation isn't won",
+        "description": "",
+        "content": "Plunge in gas prices during recent Iran cease-fire brought some relief. Renewed conflict poses fresh threat.\n\nGasoline prices might start rising again due to renewed hostilities between the U.S. and I... [4240 symbols]",
+        "enContentWordCount": 836,
+        "medium": "Article",
+        "links": [],
+        "labels": [],
+        "matchedAuthors": [],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "U.S. inflation",
+            "weight": 0.09006124
+          },
+          {
+            "name": "high inflation",
+            "weight": 0.09002417
+          },
+          {
+            "name": "energy prices",
+            "weight": 0.086226605
+          },
+          {
+            "name": "Rising services prices",
+            "weight": 0.08547816
+          },
+          {
+            "name": "Gas prices",
+            "weight": 0.08374842
+          },
+          {
+            "name": "gas prices",
+            "weight": 0.08374842
+          },
+          {
+            "name": "Food prices",
+            "weight": 0.08246796
+          },
+          {
+            "name": "Consumer prices",
+            "weight": 0.08157512
+          },
+          {
+            "name": "consumer prices",
+            "weight": 0.08157512
+          },
+          {
+            "name": "inflation trends",
+            "weight": 0.08126395
+          }
+        ],
+        "topics": [
+          {
+            "name": "Coronavirus"
+          },
+          {
+            "name": "Inflation"
+          }
+        ],
+        "categories": [
+          {
+            "name": "World"
+          },
+          {
+            "name": "Finance"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Economy News",
+            "score": 0.9863104820251465
+          },
+          {
+            "name": "/Business & Industrial/Energy & Utilities/Oil & Gas",
+            "score": 0.6375951170921326
+          },
+          {
+            "name": "/News/Business News/Other",
+            "score": 0.5484619140625
+          },
+          {
+            "name": "/People & Society/Social Sciences/Economics",
+            "score": 0.49461767077445984
+          },
+          {
+            "name": "/Business & Industrial/Shipping & Logistics/Import & Export",
+            "score": 0.42417341470718384
+          },
+          {
+            "name": "/News/Other",
+            "score": 0.3366580903530121
+          }
+        ],
+        "entities": [
+          {
+            "data": "Iran",
+            "type": "GPE",
+            "mentions": 3
+          },
+          {
+            "data": "U.S.",
+            "type": "GPE",
+            "mentions": 5
+          },
+          {
+            "data": "Dallas",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "the Federal Reserve's",
+            "type": "ORG",
+            "mentions": 9
+          },
+          {
+            "data": "Congress",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Regan Capital",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Warsh",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "MarketWatch",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Dow Jones & Co.",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Dow Jones Newswires",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "The Wall Street Journal",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Chris Waller",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Kevin Warsh",
+            "type": "PERSON",
+            "mentions": 5
+          },
+          {
+            "data": "Donald Trump",
+            "type": "PERSON",
+            "mentions": 2
+          },
+          {
+            "data": "Skyler Weinard",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "this morning",
+            "type": "TIME",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "64c8c8d7dec44420a7d080251c725f96",
+            "name": "Dow Jones & Company",
+            "domains": [
+              "dowjones.com"
+            ],
+            "symbols": []
+          }
+        ],
+        "sentiment": {
+          "positive": 0.041586936,
+          "negative": 0.87452817,
+          "neutral": 0.083884954
+        },
+        "summary": "Consumer prices fell for the first time in six years in June, largely due to plunging gas prices, but the battle against high inflation is still not over. The consumer-price index dropped by 0.4% last month, marking the first drop since May 2020. This decline was twice as large as Wall Street had predicted. However, renewed conflict between the U.S. and Iran could lead to gasoline prices rising again due to renewed hostilities. The yearly inflation rate also slowed to 3.5% from a three-year high of 4.2%. Despite this, the June CPI showed progress, with the core rate that strips out food and energy being flat, coming in below the Wall Street forecast of a 0.2% increase. New Fed Chairman Kevin Warsh is testifying before Congress to outline his inflation-fighting strategy.",
+        "shortSummary": "Plunge in gas prices reduced US consumer prices in June, but high inflation remains a threat to economic stability amid renewed conflict with Iran, with potential rate hikes expected.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "90b50bcf47224cfa98eabcf305e19204",
+        "places": [],
+        "people": [
+          {
+            "wikidataId": "Q6397725",
+            "name": "Kevin Warsh"
+          },
+          {
+            "wikidataId": "Q22686",
+            "name": "Donald Trump"
+          }
+        ]
+      },
+      {
+        "url": "https://www.washingtonpost.com/business/2026/09/11/inflation-remained-stubbornly-higher-august-met-expectations/",
+        "authorsByline": "Steve Thompson",
+        "articleId": "58b3f960bfa74bf192c8ffb9a0b1f925",
+        "clusterId": "b6cceeaa51094b55bb7bb8a45deafe21",
+        "source": {
+          "domain": "washingtonpost.com",
+          "paywall": true,
+          "location": {
+            "country": "us",
+            "state": "DC",
+            "city": "Washington",
+            "coordinates": {
+              "lat": 38.8949924,
+              "lon": -77.0365581
+            }
+          }
+        },
+        "imageUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/QS6A27U2GAHA4TIFYMY33JZQVM.jpg&w=1440",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-09-11T12:35:46.143000+00:00",
+        "addDate": "2026-09-11T12:49:47.178910+00:00",
+        "refreshDate": "2026-09-11T12:49:47.178911+00:00",
+        "score": 99.33716,
+        "title": "Inflation remained stubbornly higher in August",
+        "description": "The Labor Department’s consumer price index held steady last month, rising as expected for the year ending in August.",
+        "content": "Inflation held steady in August, extending a stretch of high year-over-year price increases that have soured Americans on the economy heading into November’s midterm elections.\n\nThe Labor Department’s... [367 symbols]",
+        "enContentWordCount": 68,
+        "medium": "Article",
+        "links": [],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": "d680014f9c2344e69afe308cbac0c821",
+            "name": "Steve Thompson"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "energy prices",
+            "weight": 0.14552248
+          },
+          {
+            "name": "year",
+            "weight": 0.12741938
+          },
+          {
+            "name": "rent increases",
+            "weight": 0.12666541
+          },
+          {
+            "name": "August",
+            "weight": 0.1198781
+          },
+          {
+            "name": "November",
+            "weight": 0.083577216
+          },
+          {
+            "name": "Inflation",
+            "weight": 0.083229266
+          },
+          {
+            "name": "Americans",
+            "weight": 0.08183728
+          },
+          {
+            "name": "The Labor Department’s consumer price index",
+            "weight": 0.081702575
+          },
+          {
+            "name": "annual",
+            "weight": 0.08033326
+          },
+          {
+            "name": "July",
+            "weight": 0.08011044
+          }
+        ],
+        "topics": [
+          {
+            "name": "Inflation"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Finance"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Economy News",
+            "score": 0.9749168753623962
+          },
+          {
+            "name": "/People & Society/Social Sciences/Economics",
+            "score": 0.8413047790527344
+          },
+          {
+            "name": "/News/Business News/Other",
+            "score": 0.34587815403938293
+          }
+        ],
+        "entities": [
+          {
+            "data": "Americans",
+            "type": "NORP",
+            "mentions": 1
+          },
+          {
+            "data": "The Labor Department’s",
+            "type": "ORG",
+            "mentions": 1
+          }
+        ],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.7548916,
+          "negative": 0.16127598,
+          "neutral": 0.08383246
+        },
+        "summary": "Inflation remained steady in August, extending a period of high year-over-year price increases that have negatively impacted the economy ahead of the midterm elections. The Labor Department's consumer price index rose at a 3.4 percent annual pace for the year ending in August. Energy prices and rent increases also increased.",
+        "shortSummary": "Inflation held steady in August, with annual growth at 3.4%, raising concerns about economic stability ahead of the November elections.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "f76159e5030a44f2aea16e02ce86611d",
+        "places": [],
+        "people": []
+      }
+    ]
+  }
+}

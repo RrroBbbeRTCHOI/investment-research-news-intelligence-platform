@@ -1,0 +1,218 @@
+{
+  "article_id": "freenewsapi_f15bf067-b612-4338-8041-9e41218ba6f4",
+  "headline": "Nvidia boss rejects AI extinction fears as 'doomsday narratives'",
+  "source": "BBC",
+  "article_url": "https://www.bbc.com/news/articles/cr5ye7p13jg7o",
+  "gate": {
+    "article_id": "freenewsapi_f15bf067-b612-4338-8041-9e41218ba6f4",
+    "is_event": false,
+    "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+    "gate_confidence": 0.7
+  },
+  "event": {
+    "event_id": "article_73ff4902cc61c5139b9c",
+    "event_type": "commentary",
+    "event_subtype": "commentary",
+    "published_at_first": "2026-09-21T00:34:53.000Z",
+    "country": null,
+    "region": null,
+    "city": null,
+    "latitude": null,
+    "longitude": null,
+    "location_basis": "unresolved",
+    "coordinate_precision": null
+  },
+  "candidate_channels": [],
+  "ticker_analysis": [
+    {
+      "ticker": "NVDA",
+      "qualification": "qualified_direct_company_subject",
+      "relationship_type": "direct_company_subject",
+      "relevance_score": 0.15,
+      "relevance_level": "Mention only",
+      "evidence": [],
+      "economic_channels": [],
+      "relationship_paths": [],
+      "evidence_strength": {
+        "relationship_level": "Direct article evidence",
+        "basis": "Explicit company subject; no independent confirmation inferred."
+      },
+      "materiality": {
+        "level": "Unknown"
+      },
+      "historical_reaction": {
+        "status": "unavailable",
+        "reason": "No compatible archived event binding.",
+        "predictions": []
+      },
+      "explanation": "NVDA is the explicit company/action subject of the cited article clause.",
+      "next_questions": [
+        "Verify the original report and any company confirmation.",
+        "Determine event-specific scale and financial exposure."
+      ],
+      "direct_event_evidence": {
+        "relationship_type": "direct_company_subject",
+        "evidence": "Nvidia boss rejects AI extinction fears as 'doomsday narratives'",
+        "source_field": "headline",
+        "channel": null
+      },
+      "relevance": {
+        "level": "High",
+        "relationship_score": 0.15,
+        "reason": "NVDA is the explicit company/action subject of the cited article clause.",
+        "interpretation": "Uncalibrated relationship policy score; not probability or expected return."
+      },
+      "evidence_assessment": {
+        "level": "Moderate",
+        "reason": "Explicit company subject; no independent confirmation inferred."
+      },
+      "financial_materiality": {
+        "level": "Not yet quantified",
+        "reason": "No validated event-specific financial amount/denominator established.",
+        "legacy": {
+          "level": "Unknown"
+        }
+      },
+      "research_priority": {
+        "level": "Low",
+        "score": 0.2,
+        "method": "attention_policy_v2",
+        "reason": "Relationship High; severity Low; evidence Moderate.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      },
+      "historical_context": {
+        "available": false,
+        "disclosure": "Retrospective context only; not a live directional prediction.",
+        "details": {
+          "status": "unavailable",
+          "reason": "No compatible archived event binding.",
+          "predictions": []
+        }
+      },
+      "direction": "Analyst judgment required",
+      "quantitative": {
+        "relevance": {
+          "value": 0.45,
+          "kind": "normalized_heuristic",
+          "method": "weighted_supported_relationship_terms_v3",
+          "weights": {
+            "mention": 0.1,
+            "direct_subject": 0.35,
+            "eligible_edge": 0.35,
+            "channel": 0.1,
+            "country": 0.05,
+            "counterparty": 0.05
+          },
+          "inputs": {
+            "mention": 1.0,
+            "direct_subject": 1.0,
+            "eligible_edge": 0.0,
+            "channel": 0.0,
+            "country": 0.0,
+            "counterparty": 0.0
+          },
+          "contributions": {
+            "mention": 0.1,
+            "direct_subject": 0.35,
+            "eligible_edge": 0.0,
+            "channel": 0.0,
+            "country": 0.0,
+            "counterparty": 0.0
+          },
+          "interpretation": "Not P(relevant); not calibrated or a financial-impact estimate."
+        },
+        "confidence": {
+          "value": null,
+          "kind": "evidence_index",
+          "source_quality": null,
+          "extraction_self_assessment": null,
+          "relationship_evidence_quality": 0.7,
+          "interpretation": "Product of configured source rating, uncalibrated model self-assessment and evidence policy. Null if a factor is unavailable."
+        },
+        "time_decay": {
+          "value": 0.5692928837670196,
+          "age_hours": 58.518506081944444,
+          "half_life_hours": 72.0,
+          "lambda_per_hour": 0.009627044174443685,
+          "as_of": "2026-09-23T11:05:59.621895+00:00",
+          "interpretation": "Recency factor, not causal impact; future/invalid publication time gives null."
+        },
+        "impact": {
+          "value": null,
+          "magnitude": null,
+          "directional_exposure": null,
+          "surprise": null,
+          "reason": "Event-specific magnitude, direction and surprise not established."
+        }
+      },
+      "analyst_interpretation": "NVDA is the article's direct company subject. The current classification is management commentary; no confirmed operational, regulatory or financial change is established by the available validation. No measurable fundamental impact has been established."
+    }
+  ],
+  "edge_exclusions": [],
+  "status": "commentary",
+  "direction": "Analyst judgment required",
+  "usable": true,
+  "classification": "commentary",
+  "published_at": "2026-09-21T00:34:53.000Z",
+  "geography": {
+    "event_country": null,
+    "event_region": null,
+    "event_city": null,
+    "latitude": null,
+    "longitude": null,
+    "location_basis": "unresolved",
+    "location_confidence": null,
+    "coordinate_basis": null,
+    "evidence": [],
+    "coordinate_precision": null
+  },
+  "severity": {
+    "level": "Low",
+    "score": 0.2,
+    "components": [],
+    "reason": "Company discussion/opinion with no supported operational or binding-action escalation.",
+    "method": "article_severity_policy_v2",
+    "interpretation": "Internal ordinal policy score; not probability or financial impact."
+  },
+  "research_priority": {
+    "level": "Low",
+    "score": 0.2,
+    "method": "attention_policy_v2",
+    "reason": "Relationship High; severity Low; evidence Moderate.",
+    "interpretation": "Analyst attention only. No direction, expected return or ML input."
+  },
+  "enrichment": {
+    "status": "unavailable",
+    "reason": "provider_disabled",
+    "provider": "none",
+    "model": "",
+    "schema_version": "news_semantic_v3_1",
+    "semantic": null,
+    "point_in_time_note": "Generated at the recorded enrichment time; not evidence the AI output was available when the article was published. Exposure eligibility still uses the original article replay time."
+  },
+  "semantic_validation": {
+    "status": "unavailable",
+    "accepted": {},
+    "rejections": [],
+    "candidate_relationships": []
+  },
+  "article_summary": {
+    "summary_short": null,
+    "summary_full": null,
+    "source": "unavailable",
+    "notice": "AI summary of the supplied article; not independent verification."
+  },
+  "severity_assessment": {
+    "severity_candidate": null,
+    "severity_reason": null,
+    "severity_confidence": null,
+    "severity_final": "Low",
+    "severity_source": "rule",
+    "validation": "LLM candidate retained for audit; final severity requires the existing non-negated article rules.",
+    "rule_evidence": []
+  },
+  "feed": {
+    "state": "surface",
+    "reason": "Deterministically qualified watchlist relationship."
+  }
+}

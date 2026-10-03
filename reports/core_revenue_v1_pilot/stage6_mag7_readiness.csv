@@ -1,0 +1,8 @@
+ticker,fiscal_year,financial_data_available,periods_aligned,revenue_growth_pct,provider_receivables_growth_pct,provider_AR_definition_warning,SEC_category_reconciliation,classification_coverage_pct,purity_score,organic_score,recognition_score,overall_CRQ,scoring_status,unresolved_trade_AR_investigation
+AAPL,2025,True,True,6.425511782832749,10.135410533943201,Do not infer trade AR from FMP normalized receivables.,PASS,100.0,,,,,NOT_SCORED,True
+MSFT,2026,True,True,17.788686799846666,15.694156355053291,Do not infer trade AR from FMP normalized receivables.,NOT_YET_REVIEWED,,,,,,NOT_SCORED,
+GOOGL,2025,True,True,15.090081081544371,20.149025601834158,Do not infer trade AR from FMP normalized receivables.,NOT_YET_REVIEWED,,,,,,NOT_SCORED,
+NVDA,2026,True,True,65.47353579009479,66.77216561890309,Do not infer trade AR from FMP normalized receivables.,NOT_YET_REVIEWED,,,,,,NOT_SCORED,
+AMZN,2025,True,True,12.377754683294695,22.142071378334016,Do not infer trade AR from FMP normalized receivables.,NOT_YET_REVIEWED,,,,,,NOT_SCORED,
+META,2025,True,True,22.167038498246217,16.3292926915382,Do not infer trade AR from FMP normalized receivables.,NOT_YET_REVIEWED,,,,,,NOT_SCORED,
+TSLA,2025,True,True,-2.930699150373628,3.576278859212323,Do not infer trade AR from FMP normalized receivables.,NOT_YET_REVIEWED,,,,,,NOT_SCORED,

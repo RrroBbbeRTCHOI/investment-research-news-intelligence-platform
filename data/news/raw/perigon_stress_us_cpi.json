@@ -1,0 +1,1093 @@
+{
+  "_ingestion": {
+    "provider": "perigon",
+    "query_name": "stress_us_cpi",
+    "query": "(\"CPI\" OR \"consumer prices\") AND (\"inflation\" OR \"Federal Reserve\")",
+    "fetched_at": "2026-09-25T14:05:30.464036+00:00"
+  },
+  "raw_response": {
+    "status": 200,
+    "numResults": 10000,
+    "articles": [
+      {
+        "url": "https://cryptoslate.com/bitcoin-faces-a-new-inflation-test-after-diesel-hits-a-nominal-6-53-record/",
+        "authorsByline": "Liam 'Akiba' Wright",
+        "articleId": "62ad5890916a48fa8baad34c8f35c0de",
+        "clusterId": "8de6e321807b4ce5bed6aca4b14bdab1",
+        "source": {
+          "domain": "cryptoslate.com",
+          "location": {
+            "country": "us",
+            "state": "WA",
+            "county": "King County",
+            "city": "Seattle",
+            "coordinates": {
+              "lat": 47.6038321,
+              "lon": -122.3300624
+            }
+          }
+        },
+        "imageUrl": "https://cryptoslate.com/wp-content/uploads/2026/09/diesel-freight-bitcoin-risk.webp",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-09-25T14:00:08+00:00",
+        "addDate": "2026-09-25T14:03:27.439189+00:00",
+        "refreshDate": "2026-09-25T14:03:27.439191+00:00",
+        "score": 1.0,
+        "title": "Bitcoin faces a new inflation test after diesel hits a nominal $6.53 record",
+        "description": "Bitcoin faces an inflation test after diesel hits $6.53. September reports will test whether fuel costs spread into freight and prices.",
+        "content": "September price reports will test whether those costs spread beyond the pump.\n\nUS on-highway diesel climbed to $6.529 a gallon on Sept. 21, up 24.4 cents in a week, according to the Energy Information... [2793 symbols]",
+        "enContentWordCount": 499,
+        "medium": "Article",
+        "links": [
+          "https://www.bls.gov/news.release/archives/cpi_09112026.htm",
+          "https://www.bls.gov/schedule/2026/",
+          "https://www.bls.gov/news.release/archives/ppi_09102026.htm",
+          "https://www.eia.gov/petroleum/gasdiesel/",
+          "https://cryptoslate.com/bitcoin-holds-76000-after-fed-rate-hike-but-4-demand-signals-flash-warning/",
+          "https://www.bea.gov/news/schedule",
+          "https://www.eia.gov/dnav/pet/PET_STOC_WSTK_A_EPD0_SAE_MBBL_W.htm",
+          "https://cryptoslate.com/wp-content/uploads/2026/09/exec-40e89db1-6ca1-4813-a626-9b60f18100c3.png",
+          "https://www.eia.gov/TODAYINENERGY/detail.php?id=68164",
+          "https://cryptoslate.com/bitcoin-tests-critical-76000-support-cluster-during-macro-energy-shock/",
+          "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+          "https://cryptoslate.com/why-surging-us-real-yields-are-quietly-forcing-bitcoin-under-84000/",
+          "https://cryptoslate.substack.com/"
+        ],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": "b32d0c0e17fa4ebe86e237cb85464f96",
+            "name": "Liam Wright"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "diesel fuel producer prices",
+            "weight": 0.12166315
+          },
+          {
+            "name": "high prices",
+            "weight": 0.107441634
+          },
+          {
+            "name": "consumer prices",
+            "weight": 0.10405873
+          },
+          {
+            "name": "producer prices",
+            "weight": 0.10301768
+          },
+          {
+            "name": "elevated crude prices",
+            "weight": 0.10180379
+          },
+          {
+            "name": "September price reports",
+            "weight": 0.10120747
+          },
+          {
+            "name": "PCE price data",
+            "weight": 0.10050559
+          },
+          {
+            "name": "upstream price pressure",
+            "weight": 0.09232117
+          },
+          {
+            "name": "elevated inflation",
+            "weight": 0.090697706
+          },
+          {
+            "name": "Diesel",
+            "weight": 0.09012631
+          }
+        ],
+        "topics": [
+          {
+            "name": "Cryptocurrency"
+          },
+          {
+            "name": "Blockchain"
+          },
+          {
+            "name": "Inflation"
+          },
+          {
+            "name": "Bitcoin"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Finance"
+          },
+          {
+            "name": "Business"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Financial Markets News",
+            "score": 0.9664104580879211
+          },
+          {
+            "name": "/Finance/Investing/Currencies & Foreign Exchange",
+            "score": 0.9621075391769409
+          }
+        ],
+        "entities": [
+          {
+            "data": "US",
+            "type": "GPE",
+            "mentions": 2
+          },
+          {
+            "data": "the Energy Information Administration",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "EIA",
+            "type": "ORG",
+            "mentions": 4
+          },
+          {
+            "data": "BLS",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Fed",
+            "type": "ORG",
+            "mentions": 3
+          },
+          {
+            "data": "BEA",
+            "type": "ORG",
+            "mentions": 1
+          }
+        ],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.25049293,
+          "negative": 0.40342605,
+          "neutral": 0.34608102
+        },
+        "summary": "US diesel prices reached a record high of $6.53 per gallon on Sept. 21, according to the Energy Information Administration (EIA). This increase raises a freight-cost inflation risk for Bitcoin investors watching how long interest rates stay elevated. The EIA attributes the surge to tight global distillate supply and elevated crude prices. Diesel prices can contribute to higher road and rail shipping costs, depending on contracts, competition, and the duration of the fuel squeeze. A sustained rise across freight billing cycles would pose a larger inflation risk than one expensive week at the pump. If sustained fuel and freight costs keep inflation firm, the Federal Reserve could raise rates for longer, leading to a decrease in Bitcoin's value.",
+        "shortSummary": "Diesel prices hit a nominal $6.53/gallop high, raising inflation concerns and potential impacts on Bitcoin, especially if sustained fuel and freight costs continue to rise.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "54866df474f448f4b0f034ea1bc72297",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://www.financialexpress.com/money/your-parents-had-fds-and-pensions-you-have-sips-and-nps-who-has-the-safer-retirement-4347486/",
+        "authorsByline": "Vipul Das",
+        "articleId": "055bc92aad1d4c2cb9876168eacdf40a",
+        "clusterId": "102ec0b7c39447af8fdd01cdc1547ff1",
+        "source": {
+          "domain": "financialexpress.com",
+          "location": {
+            "country": "in",
+            "county": "Dadri",
+            "city": "Noida",
+            "coordinates": {
+              "lat": 28.5707841,
+              "lon": 77.3271074
+            }
+          }
+        },
+        "imageUrl": "https://images.financialexpressdigital.com/2026/09/retirementplanning.jpg",
+        "country": "in",
+        "language": "en",
+        "pubDate": "2026-09-25T19:18:12+05:30",
+        "addDate": "2026-09-25T13:51:25.255817+00:00",
+        "refreshDate": "2026-09-25T13:51:25.255818+00:00",
+        "score": 1.0,
+        "title": "Your parents had FDs and pensions. You have SIPs and NPS. Who has the safer retirement?",
+        "description": "Retirement planning in India has evolved from bank fixed deposits and pensions to market-linked products like mutual funds and NPS, raising questions about security amid market risks, inflation, and longevity concerns.",
+        "content": "Retirement planning in India has gone through a significant transformation across generations, since our parents’ retirement investments mostly relied on bank fixed deposits, pensions and savings acco... [18917 symbols]",
+        "enContentWordCount": 3344,
+        "medium": "Article",
+        "links": [
+          "https://forms.gle/3AunYCjMpsgQ47jP9?ref=articlehyperlinking",
+          "https://www.financialexpress.com/money/insights/5-smallcap-funds-to-consider-for-sip/4346385/?ref=articlehyperlinking",
+          "https://www.financialexpress.com/money/many-legal-heirs-one-demat-account-what-happens-to-shares-when-family-members-disagree-4347365/?ref=articlehyperlinking",
+          "https://www.financialexpress.com/money/switching-jobs-know-what-happens-to-your-employer-linked-nps-4339037/?ref=articlehyperlinking",
+          "https://www.financialexpress.com/money/bond-yields-are-rising-where-are-debt-fund-investors-putting-their-money-now-4344366/?ref=articlehyperlinking",
+          "https://www.financialexpress.com/money/us-bond-yields-surge-how-will-they-impact-your-nps-debt-returns-4345730/?ref=articlehyperlinking",
+          "https://www.financialexpress.com/money/new-pension-rules-for-railway-employees-what-is-changing-and-why-it-matters-4346375/?ref=articlehyperlinking",
+          "https://www.financialexpress.com/money/nps-swasthya-2026-up-to-rs-30-lakh-health-cover-25-withdrawal-limit-and-key-rules-4344694/?ref=articlehyperlinking",
+          "https://www.financialexpress.com/sponsored/the-retirement-number-nobody-tells-you-about/4347405/?ref=articlehyperlinking",
+          "https://www.financialexpress.com/money/sip-money-is-surging-small-caps-are-booming-is-this-a-warning-sign-for-investors-4344826/?ref=articlehyperlinking",
+          "https://www.financialexpress.com/money/7-on-government-bonds-up-to-7-5-on-fds-where-should-you-invest-4346915/?ref=articlehyperlinking"
+        ],
+        "labels": [
+          {
+            "name": "Non-news"
+          }
+        ],
+        "matchedAuthors": [
+          {
+            "id": "01b20bc62a9d4763a31a0ff2580141e2",
+            "name": "Vipul Das"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "retirement income",
+            "weight": 0.09166394
+          },
+          {
+            "name": "guaranteed retirement income",
+            "weight": 0.08906335
+          },
+          {
+            "name": "retirement corpus calculations",
+            "weight": 0.08355351
+          },
+          {
+            "name": "Retirement expenses",
+            "weight": 0.08077686
+          },
+          {
+            "name": "retirement portfolios",
+            "weight": 0.08002513
+          },
+          {
+            "name": "Retirement planning",
+            "weight": 0.07908801
+          },
+          {
+            "name": "retirement planning",
+            "weight": 0.07908801
+          },
+          {
+            "name": "safer retirement planning",
+            "weight": 0.07694723
+          },
+          {
+            "name": "expected retirement expenses",
+            "weight": 0.07637576
+          },
+          {
+            "name": "retirement",
+            "weight": 0.07620152
+          }
+        ],
+        "topics": [],
+        "categories": [
+          {
+            "name": "Finance"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/Finance/Financial Planning & Management/Retirement & Pension",
+            "score": 0.7986582517623901
+          },
+          {
+            "name": "/Finance/Investing/Other",
+            "score": 0.7489036321640015
+          },
+          {
+            "name": "/Finance/Financial Planning & Management/Other",
+            "score": 0.58486407995224
+          },
+          {
+            "name": "/News/Business News/Financial Markets News",
+            "score": 0.4658734202384949
+          },
+          {
+            "name": "/People & Society/Seniors & Retirement",
+            "score": 0.39665231108665466
+          }
+        ],
+        "entities": [
+          {
+            "data": "India",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "the National Pension System",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "SBI",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "EPF",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "PPF",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "RBI",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Pensionbazaar",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Dearness Relief",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "OPS",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "NPS",
+            "type": "ORG",
+            "mentions": 8
+          },
+          {
+            "data": "Central Government",
+            "type": "ORG",
+            "mentions": 3
+          },
+          {
+            "data": "Nifty",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Anand Rathi Wealth Ltd.",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Rathore",
+            "type": "ORG",
+            "mentions": 3
+          },
+          {
+            "data": "MF",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "FDs",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "PFRDA",
+            "type": "ORG",
+            "mentions": 4
+          },
+          {
+            "data": "Goel",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Financial Express",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Vishwajeet Goel",
+            "type": "PERSON",
+            "mentions": 2
+          },
+          {
+            "data": "Bharath Rathore",
+            "type": "PERSON",
+            "mentions": 3
+          }
+        ],
+        "companies": [
+          {
+            "id": "b012a1085af44e799ad8cd5c638144d2",
+            "name": "Pension Fund Regulatory and Development Authority",
+            "domains": [
+              "pfrda.org.in"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "c0d9b76a6f1f46d6b1a8d929c450498d",
+            "name": "Reserve Bank of India",
+            "domains": [
+              "website.rbi.org.in"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "ef8f71e1596d423b81e87aeae42b4a1c",
+            "name": "SBI Holdings, Inc.",
+            "domains": [
+              "sbigroup.co.jp"
+            ],
+            "symbols": [
+              "8473.T",
+              "SBHGF"
+            ]
+          },
+          {
+            "id": "ca337848a49c4deeae9735699be4ac83",
+            "name": "Nifty Corporation",
+            "domains": [
+              "nifty.co.jp"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "c8440d23e2e948cc9604770e4e75c2fd",
+            "name": "Anand Rathi Wealth Limited",
+            "domains": [
+              "anandrathiwealth.in"
+            ],
+            "symbols": [
+              "ANANDRATHI.NS"
+            ]
+          },
+          {
+            "id": "fc421ae4e5cd47cebe3d61b404070e67",
+            "name": "The Financial Express",
+            "domains": [
+              "financialexpress.com"
+            ],
+            "symbols": []
+          }
+        ],
+        "sentiment": {
+          "positive": 0.09262095,
+          "negative": 0.5966366,
+          "neutral": 0.31074247
+        },
+        "summary": "Retirement planning in India has undergone a significant transformation across generations, with parents' retirement investments largely relying on bank fixed deposits, pensions, and savings accounts. However, for the last two decades, investors have increasingly invested in market-linked products like mutual funds and the National Pension System (NPS). However, this does not necessarily guarantee a safe retirement due to concerns about market volatility, inflation, longevity, and whether the accumulated corpus will generate steady income when regular salary stops. The comparison includes comparing returns on FDs versus SIPs or pensions, as well as looking at which generation has safer retirement planning and what modern investors may learn from how their parents prepared for their golden years. For government employees covered under the Old Pension Scheme (OPS), the situation was more comfortable because they received a defined pension equal to 50% of their last drawn salary.",
+        "shortSummary": "Retirement planning in India has evolved significantly, with fewer defined-benefit pensions and fewer market-linked investments, but risks remain due to inflation and market volatility.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "39fad6d5da0b4f7da2374f7315fc0115",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://www.bitget.com/amp/news/detail/12560605873573",
+        "authorsByline": "汇通财经",
+        "articleId": "4de9cf14816b47ed85b447d884ec4c88",
+        "clusterId": "25a66091229f4d6a8d3fbd74ac13a92e",
+        "source": {
+          "domain": "bitget.com",
+          "location": {
+            "country": "sg",
+            "county": "Central",
+            "city": "Singapore",
+            "coordinates": {
+              "lat": 1.357107,
+              "lon": 103.8194992
+            }
+          }
+        },
+        "imageUrl": "https://img.bgstatic.com/spider-data/2016ae6f9f528c03bd17d3aad48a9bb71790342840978.png",
+        "country": "",
+        "language": "en",
+        "pubDate": "2026-09-25T13:29:16.517000+00:00",
+        "addDate": "2026-09-25T13:43:09.367522+00:00",
+        "refreshDate": "2026-09-25T13:43:09.367524+00:00",
+        "score": 1.0,
+        "title": "Multiple bearish factors have been fully priced in, upcoming data next week may trigger a gold rebound",
+        "description": "Huitong Network, September 25—— Yesterday, the crowded gold short positions caused by consensus expectations were highlighted, and a rebound was imminen",
+        "content": "Huitong Network, September 25—— Yesterday, the crowded gold short positions caused by consensus expectations were highlighted, and a rebound was imminent.\n\nOn Friday (during US and European trading ho... [4838 symbols]",
+        "enContentWordCount": 822,
+        "medium": "Article",
+        "links": [],
+        "labels": [],
+        "matchedAuthors": [],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Market expectations",
+            "weight": 0.09365668
+          },
+          {
+            "name": "market tightening expectations",
+            "weight": 0.088818096
+          },
+          {
+            "name": "inflation expectations",
+            "weight": 0.086279154
+          },
+          {
+            "name": "heightened rate hike expectations",
+            "weight": 0.08101139
+          },
+          {
+            "name": "US PCE inflation",
+            "weight": 0.080055065
+          },
+          {
+            "name": "bearish factors",
+            "weight": 0.078893214
+          },
+          {
+            "name": "spot gold",
+            "weight": 0.07884693
+          },
+          {
+            "name": "market pricing",
+            "weight": 0.078638814
+          },
+          {
+            "name": "exhausted bearish factors",
+            "weight": 0.07861541
+          },
+          {
+            "name": "further Fed rate hikes",
+            "weight": 0.07831238
+          }
+        ],
+        "topics": [],
+        "categories": [
+          {
+            "name": "Finance"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Financial Markets News",
+            "score": 0.9145963191986084
+          },
+          {
+            "name": "/Finance/Investing/Commodities & Futures Trading",
+            "score": 0.8000679016113281
+          },
+          {
+            "name": "/Business & Industrial/Metals & Mining/Precious Metals",
+            "score": 0.6671476364135742
+          }
+        ],
+        "entities": [
+          {
+            "data": "Huitong Network",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Fed",
+            "type": "ORG",
+            "mentions": 7
+          },
+          {
+            "data": "US Treasury",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Easy Huitong)21:19",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "US",
+            "type": "GPE",
+            "mentions": 6
+          },
+          {
+            "data": "European",
+            "type": "NORP",
+            "mentions": 1
+          },
+          {
+            "data": "hours",
+            "type": "TIME",
+            "mentions": 1
+          },
+          {
+            "data": "Williams",
+            "type": "PERSON",
+            "mentions": 3
+          }
+        ],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.2699279,
+          "negative": 0.43533733,
+          "neutral": 0.2947348
+        },
+        "summary": "Gold prices have remained under pressure this week due to multiple bearish factors including sticky inflation, economic resilience, and Fed rate hike expectations. US Treasury yields continued to rise, with the 30-year yield reaching its highest in over 20 years and the 10-year level at the key 5% level. The New York Fed President, New York President Williams, has confirmed that the Fed cannot ignore short-term inflation disturbances and must instead be alert to persistent supply shocks that could further entrench inflation expectations. The probability of a Fed rate rise in October has surpassed 60% according to market pricing. Recent US economic data continues to support economic resilience and the market expects 100,000 new non-farm jobs in September and the unemployment rate to remain low, showing that the labor market is generally robust. However, August US durable goods orders showed structural strength, highlighting the resilience of corporate investment demand. The current gold trend aligns with the principle of a spring-like rebound due to the more bearish pressure beforehand and the longer it lasts, the greater the rebound once data materializes.",
+        "shortSummary": "Gold prices rebounded after being under pressure due to bearish factors like inflation, economic resilience, and Fed rate hike expectations, with potential rebound expected from upcoming data.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "e0a6745a8cd74dc08a8c7782668a5ebf",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://tradersunion.com/news/market-voices/show/3500767-crypto-economic-layer-ai/",
+        "authorsByline": "",
+        "articleId": "6d1c6b7c227b4534aa14a4e192295e27",
+        "clusterId": "f6243c85e4eb450aa7bce22b5923013a",
+        "source": {
+          "domain": "tradersunion.com",
+          "location": null
+        },
+        "imageUrl": "https://files.tradersunion.com/images/twitter-news/cryptomanran/cryptomanran_01.jpg",
+        "country": "",
+        "language": "en",
+        "pubDate": "2026-09-25T13:25:32+00:00",
+        "addDate": "2026-09-25T13:32:31.474372+00:00",
+        "refreshDate": "2026-09-25T13:32:31.474373+00:00",
+        "score": 1.0,
+        "title": "Crypto is poised for massive growth as AI accelerates, Ran Neuner notes",
+        "description": "Ran Neuner highlights Raoul Pal's belief that crypto could serve as the economic layer for accelerating AI adoption.",
+        "content": "Ran Neuner, founder of Crypto Banter, highlights the rapid acceleration of artificial intelligence and the expected influx of billions of AI agents, all of which will require an economic layer.\n\nHe po... [871 symbols]",
+        "enContentWordCount": 144,
+        "medium": "Article",
+        "links": [
+          "https://tradersunion.com/news/market-voices/show/3307024-us-inflation-cpi-markets/",
+          "https://tradersunion.com/news/market-voices/show/3154579-x-algo-echo-chamber/",
+          "https://twitter.com/cryptomanran/status/2103475456791937457",
+          "https://tradersunion.com/persons/ran-neuner/"
+        ],
+        "labels": [],
+        "matchedAuthors": [],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "improved market sentiment",
+            "weight": 0.10252682
+          },
+          {
+            "name": "market participants",
+            "weight": 0.09249303
+          },
+          {
+            "name": "Ran Neuner",
+            "weight": 0.09070135
+          },
+          {
+            "name": "AI agents",
+            "weight": 0.089723855
+          },
+          {
+            "name": "crypto",
+            "weight": 0.08779988
+          },
+          {
+            "name": "U.S. headline inflation",
+            "weight": 0.0820081
+          },
+          {
+            "name": "Crypto Banter",
+            "weight": 0.0814215
+          },
+          {
+            "name": "echo chambers",
+            "weight": 0.079516225
+          },
+          {
+            "name": "AI",
+            "weight": 0.07635939
+          },
+          {
+            "name": "Raoul Pal",
+            "weight": 0.07572836
+          }
+        ],
+        "topics": [
+          {
+            "name": "Cryptocurrency"
+          },
+          {
+            "name": "AI"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Finance"
+          },
+          {
+            "name": "Tech"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Financial Markets News",
+            "score": 0.9601374864578247
+          },
+          {
+            "name": "/Finance/Investing/Currencies & Foreign Exchange",
+            "score": 0.9472835659980774
+          }
+        ],
+        "entities": [
+          {
+            "data": "Ran Neuner",
+            "type": "PERSON",
+            "mentions": 3
+          },
+          {
+            "data": "Raoul Pal",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Crypto Banter",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "U.S.",
+            "type": "GPE",
+            "mentions": 1
+          }
+        ],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.56244993,
+          "negative": 0.08368239,
+          "neutral": 0.35386774
+        },
+        "summary": "Ran Neuner, founder of Crypto Banter, has stated that the rapid acceleration of artificial intelligence and the expected influx of billions of AI agents will create an economic layer that requires an economic infrastructure. He suggests that crypto could provide this infrastructure, making this current environment particularly significant for the ongoing bull market and the future of crypto. Neuner also highlighted that U.S. headline inflation at 3.4 percent and core CPI at a five-year low, suggesting improved market sentiment. He warned that X’s algorithm may inadvertently reinforce echo chambers by showing users similar crypto and stock posts.",
+        "shortSummary": "Ran Neuner highlights the potential for rapid AI growth and economic expansion, highlighting potential for crypto as a crucialstone for the ongoing bull market.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "00a51a5d828848aeaf005f48f4d41c90",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://www.actionforex.com/action-insight/market-overview/655431-week-ahead-rate-hike-bets-face-a-crucial-data-week/",
+        "authorsByline": "XM.com",
+        "articleId": "e88ee7ea28244a6e9f41dda669031f4a",
+        "clusterId": "6fc5d23b2a0446eca928e10293aa33d4",
+        "source": {
+          "domain": "actionforex.com",
+          "location": null
+        },
+        "imageUrl": "https://www.actionforex.com/wp-content/uploads/2022/09/f-rate58.jpg",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-09-25T13:22:47+00:00",
+        "addDate": "2026-09-25T13:32:04.172057+00:00",
+        "refreshDate": "2026-09-25T13:32:04.172059+00:00",
+        "score": 1.0,
+        "title": "Week Ahead – Rate Hike Bets Face a Crucial Data Week - ActionForex",
+        "description": "Despite the solid drop from the mid-September high, oil prices remained in the driver's seat for another week, setting the tone in financial markets. Six months have passed since the late-February start of the US-Iran conflict, and there is still no breakthrough in the stalled talks, despite pressure from regional leaders and the rest of the world. With winter upon us, the lack of restored oil and gas flows could prove damaging to the global economy.",
+        "content": "Oil remains in the driver’s seat as geopolitical uncertainty persists.\n• US dollar gains as focus shifts to key US data and Fedspeak.\n• Yen remains under pressure; RBA decision and Chinese PMIs to dri... [7100 symbols]",
+        "enContentWordCount": 1281,
+        "medium": "Article",
+        "links": [
+          "https://www.actionforex.com/wp-content/uploads/2026/09/xm2026092515.jpg",
+          "https://www.actionforex.com/wp-content/uploads/2026/09/xm2026092512.jpg",
+          "https://www.actionforex.com/wp-content/uploads/2026/09/xm2026092511.jpg",
+          "https://www.actionforex.com/wp-content/uploads/2026/09/xm2026092516.jpg",
+          "https://www.actionforex.com/wp-content/uploads/2026/09/xm2026092517.jpg",
+          "https://www.actionforex.com/wp-content/uploads/2026/09/xm2026092514.jpg",
+          "https://www.actionforex.com/wp-content/uploads/2026/09/xm2026092513.jpg"
+        ],
+        "labels": [],
+        "matchedAuthors": [],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "US dollar",
+            "weight": 0.081155546
+          },
+          {
+            "name": "US Data",
+            "weight": 0.07636999
+          },
+          {
+            "name": "Fed rate hike expectations",
+            "weight": 0.07551183
+          },
+          {
+            "name": "Weaker US data",
+            "weight": 0.07334135
+          },
+          {
+            "name": "key US data",
+            "weight": 0.07247112
+          },
+          {
+            "name": "Rate Hike Bets",
+            "weight": 0.06809401
+          },
+          {
+            "name": "US",
+            "weight": 0.06543423
+          },
+          {
+            "name": "expected ECB hikes",
+            "weight": 0.063999824
+          },
+          {
+            "name": "US Treasury Secretary Bessent",
+            "weight": 0.061694197
+          },
+          {
+            "name": "Rising Oil Prices",
+            "weight": 0.060110714
+          }
+        ],
+        "topics": [],
+        "categories": [
+          {
+            "name": "Finance"
+          },
+          {
+            "name": "World"
+          },
+          {
+            "name": "Tech"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Financial Markets News",
+            "score": 0.9472835659980774
+          },
+          {
+            "name": "/Business & Industrial/Energy & Utilities/Oil & Gas",
+            "score": 0.7859664559364319
+          },
+          {
+            "name": "/News/Business News/Economy News",
+            "score": 0.7151256799697876
+          },
+          {
+            "name": "/Finance/Investing/Commodities & Futures Trading",
+            "score": 0.635448694229126
+          },
+          {
+            "name": "/News/Business News/Other",
+            "score": 0.6039901971817017
+          }
+        ],
+        "entities": [
+          {
+            "data": "US",
+            "type": "GPE",
+            "mentions": 14
+          },
+          {
+            "data": "Ukraine",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Russia",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Tokyo",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "RBA",
+            "type": "ORG",
+            "mentions": 3
+          },
+          {
+            "data": "Fed",
+            "type": "ORG",
+            "mentions": 7
+          },
+          {
+            "data": "Senate",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Conference Board",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "ECB",
+            "type": "ORG",
+            "mentions": 5
+          },
+          {
+            "data": "CDU",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "CSU",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Treasury",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "BoJ",
+            "type": "ORG",
+            "mentions": 4
+          },
+          {
+            "data": "Tankan",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Chinese",
+            "type": "NORP",
+            "mentions": 2
+          },
+          {
+            "data": "German",
+            "type": "NORP",
+            "mentions": 1
+          },
+          {
+            "data": "aussie",
+            "type": "NORP",
+            "mentions": 1
+          },
+          {
+            "data": "Trump",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Williams",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Barr",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Merz",
+            "type": "PERSON",
+            "mentions": 2
+          },
+          {
+            "data": "Lagarde",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Marine Le Pen",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Bessent",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Bullock",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Clarity Act",
+            "type": "LAW",
+            "mentions": 2
+          },
+          {
+            "data": "Fedspeak",
+            "type": "LANGUAGE",
+            "mentions": 1
+          },
+          {
+            "data": "eurozone",
+            "type": "LOC",
+            "mentions": 2
+          },
+          {
+            "data": "Middle East",
+            "type": "LOC",
+            "mentions": 1
+          },
+          {
+            "data": "the Summary of Opinions",
+            "type": "WORK_OF_ART",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "477d4bbb34f641bcbc44a9de8bb4c770",
+            "name": "Reserve Bank of Australia",
+            "domains": [
+              "rba.gov.au"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "9ac0ab6adcf74c9c84ab3fd82038a5d3",
+            "name": "European Central Bank",
+            "domains": [
+              "ecb.europa.eu"
+            ],
+            "symbols": []
+          }
+        ],
+        "sentiment": {
+          "positive": 0.3692872,
+          "negative": 0.28992757,
+          "neutral": 0.3407852
+        },
+        "summary": "Oil prices remain in the driver’s seat as geopolitical uncertainty continues to plague global economy. Despite a solid drop from the mid-September high, oil prices have remained the key factor in financial markets. The US dollar has seen significant gains due to Fed rate hike expectations, higher bond yields, and some safe-haven flows. The lack of restored oil and gas flows could negatively impact the global economy with winter weather conditions. Despite this, the Nasdaq 100 index and cryptocurrencies have seen solid gains. The focus will now be on key US data and Fedspeak, with key events expected to include the Conference Board Consumer Confidence index, ADP and final Q2 GDP reports, and the critical August PCE prints. The Euro is also underperformed by ECB expectations and rising oil prices.",
+        "shortSummary": "Despite oil prices and geopolitical uncertainty, the US dollar gains as markets focus on key US data and Fedspeak, with potential rate hikes and other economic events expected.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": true,
+        "reprintGroupId": "4423a44177584556a2ab0d52ae5fddc7",
+        "places": [],
+        "people": [
+          {
+            "wikidataId": "Q12927",
+            "name": "Marine Le Pen"
+          }
+        ]
+      }
+    ]
+  }
+}

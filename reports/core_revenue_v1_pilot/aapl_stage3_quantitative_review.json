@@ -1,0 +1,118 @@
+{
+  "model": "CRQ V1 - Stage 3 Quantitative Revenue Bridge (not a CRQ score)",
+  "ticker": "AAPL",
+  "fiscal_year": 2025,
+  "currency": "USD",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+  "reconciliation": {
+    "SEC_vs_FMP": "MATCH",
+    "FY2024_revenue_usd": 391035000000,
+    "FY2025_revenue_usd": 416161000000,
+    "revenue_delta_usd": 25126000000,
+    "revenue_growth_pct": 6.426,
+    "category_bridge": "MATCH"
+  },
+  "categories": [
+    {
+      "name": "iPhone",
+      "FY2024_usd": 201183000000,
+      "FY2025_usd": 209586000000,
+      "revenue_delta_usd": 8403000000,
+      "FY2025_revenue_share_pct": 50.362,
+      "category_yoy_growth_pct": 4.177,
+      "contribution_to_consolidated_growth_pp": 2.149,
+      "share_of_net_revenue_increment_pct": 33.443,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_locator": "Apple FY2025 10-K, Item 7, Products and Services Performance, p.23 (PDF p.27)"
+    },
+    {
+      "name": "Mac",
+      "FY2024_usd": 29984000000,
+      "FY2025_usd": 33708000000,
+      "revenue_delta_usd": 3724000000,
+      "FY2025_revenue_share_pct": 8.1,
+      "category_yoy_growth_pct": 12.42,
+      "contribution_to_consolidated_growth_pp": 0.952,
+      "share_of_net_revenue_increment_pct": 14.821,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_locator": "Apple FY2025 10-K, Item 7, Products and Services Performance, p.23 (PDF p.27)"
+    },
+    {
+      "name": "iPad",
+      "FY2024_usd": 26694000000,
+      "FY2025_usd": 28023000000,
+      "revenue_delta_usd": 1329000000,
+      "FY2025_revenue_share_pct": 6.734,
+      "category_yoy_growth_pct": 4.979,
+      "contribution_to_consolidated_growth_pp": 0.34,
+      "share_of_net_revenue_increment_pct": 5.289,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_locator": "Apple FY2025 10-K, Item 7, Products and Services Performance, p.23 (PDF p.27)"
+    },
+    {
+      "name": "Wearables, Home and Accessories",
+      "FY2024_usd": 37005000000,
+      "FY2025_usd": 35686000000,
+      "revenue_delta_usd": -1319000000,
+      "FY2025_revenue_share_pct": 8.575,
+      "category_yoy_growth_pct": -3.564,
+      "contribution_to_consolidated_growth_pp": -0.337,
+      "share_of_net_revenue_increment_pct": -5.25,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_locator": "Apple FY2025 10-K, Item 7, Products and Services Performance, p.23 (PDF p.27)"
+    },
+    {
+      "name": "Services",
+      "FY2024_usd": 96169000000,
+      "FY2025_usd": 109158000000,
+      "revenue_delta_usd": 12989000000,
+      "FY2025_revenue_share_pct": 26.23,
+      "category_yoy_growth_pct": 13.506,
+      "contribution_to_consolidated_growth_pp": 3.322,
+      "share_of_net_revenue_increment_pct": 51.695,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_locator": "Apple FY2025 10-K, Item 7, Products and Services Performance, p.23 (PDF p.27)"
+    }
+  ],
+  "disclosed_operating_revenue_share_pct": 100.0,
+  "disclosure_classification_coverage_pct": 100.0,
+  "revenue_growth_lead": {
+    "category": "Services",
+    "revenue_delta_usd": 12989000000,
+    "share_of_net_revenue_increment_pct": 51.695
+  },
+  "recognition_diagnostic": {
+    "receivables_growth_pct": 10.135410533943201,
+    "revenue_growth_pct": 6.425511782832749,
+    "receivables_minus_revenue_growth_pp": 3.71,
+    "observation": "No >10 pp receivables-growth divergence under the existing pilot flag; not an integrity verdict.",
+    "revenue_recognition_policy_source": "Apple FY2025 10-K, Note 2 - Revenue, pp.35-36 (PDF pp.39-40)"
+  },
+  "subcomponents": {
+    "core_revenue_purity": {
+      "score": null,
+      "status": "NOT_SCORED",
+      "classification_level_operating_revenue_share_pct": 100.0,
+      "reason": "Disclosure classification alone does not establish transaction-level purity or a validated CRP scoring rubric."
+    },
+    "organic_growth_attribution": {
+      "score": null,
+      "status": "NOT_SCORED",
+      "reason": "Product/service category growth is not an organic-vs-acquired revenue bridge."
+    },
+    "revenue_recognition_integrity": {
+      "score": null,
+      "status": "NOT_SCORED",
+      "reason": "An accounting policy and one receivables-growth observation cannot establish numerical recognition integrity."
+    }
+  },
+  "overall_crq_score": null,
+  "overall_crq_status": "NOT_SCORED",
+  "scoring_coverage_pct": 0.0,
+  "source_provenance": {
+    "SEC": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+    "FMP": "FMP annual income-statement / balance-sheet-statement"
+  },
+  "production_files_modified": false,
+  "deterministic_analyst_note": "FY2025 revenue rose 6.4% year over year; Services contributed 51.7% of the net revenue increase. Accounts receivable grew 3.7 percentage points faster than revenue; review its drivers without inferring misstatement. Organic growth and revenue-recognition integrity remain unscored pending additional evidence."
+}

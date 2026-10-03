@@ -1,0 +1,33 @@
+{
+  "_ingestion": {
+    "provider": "freenewsapi",
+    "endpoint": "details",
+    "article_uuid": "becbd6f8-e884-465e-9381-3cd937f6c1d9",
+    "fetched_at": "2026-09-21T02:54:35.922772+00:00"
+  },
+  "raw_response": {
+    "data": {
+      "uuid": "becbd6f8-e884-465e-9381-3cd937f6c1d9",
+      "title": "Discarded pool chemicals in garbage truck load cause vapor cloud, hours-long hazmat response in Gurnee",
+      "thumbnail": "https://lakemchenryscanner.b-cdn.net/wp-content/uploads/2026/09/gurnee-hazmat.jpg",
+      "publisher": "Lake and McHenry County Scanner",
+      "authors": [
+        "@LMCScanner",
+        "Sam Borcia"
+      ],
+      "topics": [
+        "energy"
+      ],
+      "countries": [
+        "US"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-09-21T00:43:12.000Z",
+      "original_url": "https://www.lakemchenryscanner.com/2026/09/20/discarded-pool-chemicals-in-garbage-truck-load-cause-vapor-cloud-hours-long-hazmat-response-in-gurnee/",
+      "incipit": "A garbage truck dumped its load into a parking lot on the northwest corner of Washington Street and Ambrogio Drive in Gurnee after the driver thought a fire had started, which turned out to be a hazardous...",
+      "body": "A garbage truck dumped its load into a parking lot on the northwest corner of Washington Street and Ambrogio Drive in Gurnee after the driver thought a fire had started, which turned out to be a hazardous materials incident involving chemicals that mixed together. | Photo Submitted to Lake and McHenry County Scanner Discarded pool chemicals that got wet in a garbage truck load caused a vapor cloud, prompting an hours-long hazardous materials response and a shelter-in-place notice in Gurnee. The Gurnee Fire Department and Gurnee Police Department responded around 10:53 a.m. Thursday to the area of Washington Street and Ambrogio Drive in Gurnee for a report of a vehicle fire. Gurnee Fire Department Battalion Chief Tim Steffens said crews arrived to find a Waste Management garbage truck that had dumped its load, which is common practice when there is a potential fire. Fire crews found light smoke coming from the garbage debris in the dentist office parking lot on the northwest corner of the intersection. Firefighters began extinguishing the pile with water but they heard crackling and popping sounds and smelled a strange odor, Steffens said. Additional fire department resources were requested to the scene and the area was secured. Steffens said firefighters found five crushed buckets, covered in debris, containing substances believed to be pool chemicals. The products consisted of calcium hypochlorite, chlorine granules and chlorine tablets. The chemicals were combined when they got wet and started emitting a vapor cloud, which affected an isolated area, Steffens said. Steffens said it was also ultimately determined that there was no fire as initially thought and that it was off-gassing related to the chemicals. Ambrogio Drive was shut down at Washington Street, which affected access to the businesses in the area. Steffens said first responders notified buildings in the area to shelter in place and turn off their HVAC systems. No injuries were reported and the incident did not pose an immediate danger to anyone. Waste Management called their own cleanup company, SET Environmental, which arrived in the afternoon and remained on the scene for hours, Steffens said. The Gurnee Police Department issued an alert to people in the area, saying the incident required “extended cleanup, and the roadway is expected to remain closed for several hours.” “There is no hazardous materials threat to the public. The closure is limited to this area and is not affecting traffic on surrounding major roadways,” the department said. “Please avoid the immediate area and allow emergency and cleanup crews room to work,” they added. Post navigation"
+    }
+  }
+}

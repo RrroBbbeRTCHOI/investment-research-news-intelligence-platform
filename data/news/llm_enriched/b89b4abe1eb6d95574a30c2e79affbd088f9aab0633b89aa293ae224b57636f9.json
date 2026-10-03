@@ -1,0 +1,137 @@
+{
+  "status": "available",
+  "schema_version": "news_semantic_v3_1",
+  "prompt_version": "news_semantics_v3_1_sentence_grounding",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "content_hash": "b89b4abe1eb6d95574a30c2e79affbd088f9aab0633b89aa293ae224b57636f9",
+  "article_content_hash": "d89224e4139f51a2be65d3bcdbc7c015845fb3135096f431c4b8cb0a2f444c90",
+  "generated_at": "2026-09-25T13:34:54.847787+00:00",
+  "semantic": {
+    "article_class": "macro_event",
+    "is_relevant_candidate": true,
+    "summary_short": "Volatile yen draws intervention watch, other currencies subdued",
+    "summary_full": "Volatile yen draws intervention watch, other currencies subdued Markets focused on the yen on Monday following a sharp drop last week that spurred speculation of a rate check, while investors pondered rate outlooks after hikes from major central banks last week.",
+    "primary_country": "Japan",
+    "event_type": "monetary_policy",
+    "event_subtype": "currency_intervention",
+    "countries": [
+      "Japan",
+      "United States",
+      "Germany"
+    ],
+    "entities": [
+      "Bank of Japan",
+      "Federal Reserve",
+      "European Central Bank",
+      "Alternative for Germany"
+    ],
+    "companies_mentioned": [
+      "HSBC",
+      "Jefferies"
+    ],
+    "direct_ticker_candidates": [],
+    "economic_channels": [
+      "foreign_exchange",
+      "interest_rates",
+      "central_banks"
+    ],
+    "candidate_indirect_tickers": [
+      "USD",
+      "EUR",
+      "GBP",
+      "AUD",
+      "NZD"
+    ],
+    "missing_information": [
+      "Exact timing of potential official currency intervention by Japanese authorities"
+    ],
+    "research_questions": [
+      "Will Japanese authorities intervene in currency markets to support the yen?"
+    ],
+    "severity_candidate": "Medium",
+    "severity_reason": "The article reports heightened market volatility in the yen and speculation of an official currency intervention following a rate hike by the Bank of Japan.",
+    "severity_confidence": 0.8,
+    "operational_event": false,
+    "fundamental_change_detected": false,
+    "llm_confidence": 0.95,
+    "citations": [
+      {
+        "field": "summary_short",
+        "quote": "Volatile yen draws intervention watch, other currencies subdued",
+        "source_field": "headline"
+      },
+      {
+        "field": "summary_full",
+        "quote": "Volatile yen draws intervention watch, other currencies subdued",
+        "source_field": "headline"
+      },
+      {
+        "field": "summary_full",
+        "quote": "Markets focused on the yen on Monday following a sharp drop last week that spurred speculation of a rate check, while investors pondered rate outlooks after hikes from major central banks last week.",
+        "source_field": "summary"
+      },
+      {
+        "field": "primary_country",
+        "quote": "Japan",
+        "source_field": "body"
+      },
+      {
+        "field": "event_type",
+        "quote": "rate checks",
+        "source_field": "body"
+      },
+      {
+        "field": "event_subtype",
+        "quote": "currency intervention",
+        "source_field": "body"
+      },
+      {
+        "field": "article_class",
+        "quote": "Volatile yen draws intervention watch, other currencies subdued",
+        "source_field": "headline"
+      },
+      {
+        "field": "economic_channels",
+        "quote": "Currency markets",
+        "source_field": "body"
+      },
+      {
+        "field": "severity_candidate",
+        "quote": "volatile currency",
+        "source_field": "body"
+      },
+      {
+        "field": "operational_event",
+        "quote": "Currency markets focused on the yen on Monday following a sharp drop last week",
+        "source_field": "body"
+      },
+      {
+        "field": "fundamental_change_detected",
+        "quote": "The Bank of Japan raised rates on Friday to their highest level in 31 years to 1.25%",
+        "source_field": "body"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "total_tokens": 1970,
+    "estimated_cost_usd": null,
+    "scope": "successful response only; failed-attempt usage unavailable"
+  },
+  "cache_hit": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "success"
+    }
+  ],
+  "attempt_audit_scope": "original enrichment generation; cache reuse makes no new requests",
+  "attempt_count": 1,
+  "retry_count": 0,
+  "fallback_used": false
+}

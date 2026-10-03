@@ -1,0 +1,91 @@
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.sse4_2'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx1_0'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx2_0'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.bmi1'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.bmi2'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512f'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512cd'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512dq'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512bw'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512vl'. Detail: [errno 1] Operation not permitted
+Research component pipeline failed for AAPL
+Traceback (most recent call last):
+  File "/Users/choisiuhang/Documents/ChatGPT/stock screener/STOCK_SCREENER_NEWS_RESEARCH_INTELLIGENCE_V2_VISUAL_HIERARCHY/src/services/rating_service.py", line 80, in build_recommendation
+    components = get_research_components(ticker, peer_tickers)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1167, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1171, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1226, in _execute_mock_call
+    raise effect
+RuntimeError: fixture failure
+....................Historical financials failed for AAPL
+Traceback (most recent call last):
+  File "/Users/choisiuhang/Documents/ChatGPT/stock screener/STOCK_SCREENER_NEWS_RESEARCH_INTELLIGENCE_V2_VISUAL_HIERARCHY/src/data/historical_financial_data.py", line 261, in _fmp_get
+    response = requests.get(
+        url,
+        params=params,
+        timeout=20
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1167, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1171, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1232, in _execute_mock_call
+    result = effect(*args, **kwargs)
+  File "/Users/choisiuhang/Documents/ChatGPT/stock screener/STOCK_SCREENER_NEWS_RESEARCH_INTELLIGENCE_V2_VISUAL_HIERARCHY/tests/support.py", line 190, in get
+    self.record("fmp", ticker, endpoint)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/choisiuhang/Documents/ChatGPT/stock screener/STOCK_SCREENER_NEWS_RESEARCH_INTELLIGENCE_V2_VISUAL_HIERARCHY/tests/support.py", line 150, in record
+    raise requests.Timeout(f"Injected {kind} failure for {ticker}")
+requests.exceptions.Timeout: Injected fmp failure for AAPL
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/choisiuhang/Documents/ChatGPT/stock screener/STOCK_SCREENER_NEWS_RESEARCH_INTELLIGENCE_V2_VISUAL_HIERARCHY/src/services/historical_trends_service.py", line 10, in build_historical_trends
+    result["financial_history"] = build_company_historical_trends(ticker)
+                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/Users/choisiuhang/Documents/ChatGPT/stock screener/STOCK_SCREENER_NEWS_RESEARCH_INTELLIGENCE_V2_VISUAL_HIERARCHY/src/analysis/historical_trends.py", line 587, in build_company_historical_trends
+    get_income_history(
+    ~~~~~~~~~~~~~~~~~~^
+        ticker,
+        ^^^^^^^
+        years=years
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/Users/choisiuhang/Documents/ChatGPT/stock screener/STOCK_SCREENER_NEWS_RESEARCH_INTELLIGENCE_V2_VISUAL_HIERARCHY/src/data/historical_financial_data.py", line 382, in get_income_history
+    get_historical_income_statement(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        ticker,
+        ^^^^^^^
+        years=years,
+        ^^^^^^^^^^^^
+        force_refresh=force_refresh
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/choisiuhang/Documents/ChatGPT/stock screener/STOCK_SCREENER_NEWS_RESEARCH_INTELLIGENCE_V2_VISUAL_HIERARCHY/src/data/historical_financial_data.py", line 326, in get_historical_income_statement
+    return _fmp_get(
+        endpoint="income-statement",
+    ...<2 lines>...
+        force_refresh=force_refresh
+    )
+  File "/Users/choisiuhang/Documents/ChatGPT/stock screener/STOCK_SCREENER_NEWS_RESEARCH_INTELLIGENCE_V2_VISUAL_HIERARCHY/src/data/historical_financial_data.py", line 269, in _fmp_get
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: FMP request failed for AAPL / income-statement.
+...................
+----------------------------------------------------------------------
+Ran 39 tests in 43.291s
+
+OK

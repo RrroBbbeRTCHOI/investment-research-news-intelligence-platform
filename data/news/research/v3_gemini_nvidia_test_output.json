@@ -1,0 +1,547 @@
+{
+  "schema_version": "news_research_v3",
+  "generated_at": "2026-09-25T12:22:27.454017+00:00",
+  "knowledge": {
+    "status": "loaded",
+    "workbook": "MAG7_News_Intelligence_Exposure_Knowledge_Layer_V1.xlsx",
+    "edge_count": 27,
+    "message": "Loaded raw exposure rows; each match still requires evidence and temporal checks."
+  },
+  "policies": {
+    "direction": "Analyst judgment required",
+    "severity": "article_severity_policy_v2",
+    "priority": "attention_policy_v2",
+    "historical_ml_role": "optional_retrospective_context_only",
+    "v3": "Candidate extraction never directly qualifies exposure; source-grounding is not fact verification."
+  },
+  "articles": [
+    {
+      "article_id": "freenewsapi_f15bf067-b612-4338-8041-9e41218ba6f4",
+      "headline": "Nvidia boss rejects AI extinction fears as 'doomsday narratives'",
+      "source": "BBC",
+      "article_url": "https://www.bbc.com/news/articles/cr5ye7p13jg7o",
+      "gate": {
+        "article_id": "freenewsapi_f15bf067-b612-4338-8041-9e41218ba6f4",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_73ff4902cc61c5139b9c",
+        "event_type": "commentary",
+        "event_subtype": "commentary",
+        "published_at_first": "2026-09-21T00:34:53.000Z",
+        "country": null,
+        "region": null,
+        "city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "coordinate_precision": null,
+        "primary_country": null
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [
+        {
+          "ticker": "NVDA",
+          "qualification": "qualified_direct_company_subject",
+          "relationship_type": "direct_company_subject",
+          "relevance_score": 0.15,
+          "relevance_level": "Mention only",
+          "evidence": [],
+          "economic_channels": [],
+          "relationship_paths": [],
+          "evidence_strength": {
+            "relationship_level": "Direct article evidence",
+            "basis": "Explicit company subject; no independent confirmation inferred."
+          },
+          "materiality": {
+            "level": "Unknown"
+          },
+          "historical_reaction": {
+            "status": "unavailable",
+            "reason": "No compatible archived event binding.",
+            "predictions": []
+          },
+          "explanation": "NVDA is the explicit company/action subject of the cited article clause.",
+          "next_questions": [
+            "Verify the original report and any company confirmation.",
+            "Determine event-specific scale and financial exposure."
+          ],
+          "direct_event_evidence": {
+            "relationship_type": "direct_company_subject",
+            "evidence": "Nvidia boss rejects AI extinction fears as 'doomsday narratives'",
+            "source_field": "headline",
+            "channel": null
+          },
+          "relevance": {
+            "level": "High",
+            "relationship_score": 0.15,
+            "reason": "NVDA is the explicit company/action subject of the cited article clause.",
+            "interpretation": "Uncalibrated relationship policy score; not probability or expected return."
+          },
+          "evidence_assessment": {
+            "level": "Moderate",
+            "reason": "Explicit company subject; no independent confirmation inferred."
+          },
+          "financial_materiality": {
+            "level": "Not yet quantified",
+            "reason": "No validated event-specific financial amount/denominator established.",
+            "legacy": {
+              "level": "Unknown"
+            }
+          },
+          "research_priority": {
+            "level": "Low",
+            "score": 0.2,
+            "method": "attention_policy_v2",
+            "reason": "Relationship High; severity Low; evidence Moderate.",
+            "interpretation": "Analyst attention only. No direction, expected return or ML input."
+          },
+          "historical_context": {
+            "available": false,
+            "disclosure": "Retrospective context only; not a live directional prediction.",
+            "details": {
+              "status": "unavailable",
+              "reason": "No compatible archived event binding.",
+              "predictions": []
+            }
+          },
+          "direction": "Analyst judgment required",
+          "quantitative": {
+            "relevance": {
+              "value": 0.45,
+              "kind": "normalized_heuristic",
+              "method": "weighted_supported_relationship_terms_v3",
+              "weights": {
+                "mention": 0.1,
+                "direct_subject": 0.35,
+                "eligible_edge": 0.35,
+                "channel": 0.1,
+                "country": 0.05,
+                "counterparty": 0.05
+              },
+              "inputs": {
+                "mention": 1.0,
+                "direct_subject": 1.0,
+                "eligible_edge": 0.0,
+                "channel": 0.0,
+                "country": 0.0,
+                "counterparty": 0.0
+              },
+              "contributions": {
+                "mention": 0.1,
+                "direct_subject": 0.35,
+                "eligible_edge": 0.0,
+                "channel": 0.0,
+                "country": 0.0,
+                "counterparty": 0.0
+              },
+              "interpretation": "Not P(relevant); not calibrated or a financial-impact estimate."
+            },
+            "confidence": {
+              "value": 0.5984999999999999,
+              "kind": "evidence_index",
+              "source_quality_policy_notice": "Internal source-quality policy weight; not a calibrated probability, truth probability, statistical accuracy estimate, or model confidence.",
+              "source_quality": 0.9,
+              "extraction_self_assessment": 0.95,
+              "relationship_evidence_quality": 0.7,
+              "interpretation": "Evidence/policy index, not probability. Product of internal source-quality policy weight, uncalibrated model self-assessment and relationship evidence policy. Null if a factor is unavailable."
+            },
+            "time_decay": {
+              "value": 0.3542589813914264,
+              "age_hours": 107.79290389361111,
+              "half_life_hours": 72,
+              "lambda_per_hour": 0.009627044174443685,
+              "as_of": "2026-09-25T12:22:27.454017+00:00",
+              "interpretation": "Recency factor, not causal impact; future/invalid publication time gives null."
+            },
+            "impact": {
+              "value": null,
+              "magnitude": null,
+              "directional_exposure": null,
+              "surprise": null,
+              "reason": "Event-specific magnitude, direction and surprise not established."
+            }
+          },
+          "analyst_interpretation": "NVDA is the article's direct company subject. The current classification is management commentary; no confirmed operational, regulatory or financial change is established by the available validation. No measurable fundamental impact has been established."
+        }
+      ],
+      "edge_exclusions": [],
+      "status": "commentary",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "commentary",
+      "published_at": "2026-09-21T00:34:53.000Z",
+      "geography": {
+        "event_country": null,
+        "event_region": null,
+        "event_city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "location_confidence": null,
+        "coordinate_basis": null,
+        "evidence": [],
+        "coordinate_precision": null
+      },
+      "severity": {
+        "level": "Low",
+        "score": 0.2,
+        "components": [],
+        "reason": "Company discussion/opinion with no supported operational or binding-action escalation.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Low",
+        "score": 0.2,
+        "method": "attention_policy_v2",
+        "reason": "Relationship High; severity Low; evidence Moderate.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      },
+      "enrichment": {
+        "status": "available",
+        "schema_version": "news_semantic_v3_1",
+        "prompt_version": "news_semantics_v3_1_sentence_grounding",
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "requested_model": "gemini-3.5-flash-lite",
+        "content_hash": "9b782560d78cc7b70abbc4f4f109ea7d2c9a95df672a9c2a9a428ef1a3561de7",
+        "article_content_hash": "89c239505149f3886b58c382adc2e34fa2d3a0f90518367ec5aa6a398985521a",
+        "generated_at": "2026-09-25T12:21:05.349446+00:00",
+        "semantic": {
+          "article_class": "commentary",
+          "is_relevant_candidate": true,
+          "summary_short": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+          "summary_full": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+          "primary_country": "United States",
+          "event_type": "corporate_commentary",
+          "event_subtype": "executive_statements",
+          "countries": [
+            "United States",
+            "United Kingdom"
+          ],
+          "entities": [
+            "Jensen Huang",
+            "Nvidia",
+            "CBS News",
+            "Anthropic",
+            "OpenAI",
+            "King Charles",
+            "Trump"
+          ],
+          "companies_mentioned": [
+            "Nvidia",
+            "Anthropic",
+            "OpenAI"
+          ],
+          "direct_ticker_candidates": [
+            "NVDA"
+          ],
+          "economic_channels": [
+            "sentiment",
+            "regulatory_lobbying"
+          ],
+          "candidate_indirect_tickers": [],
+          "missing_information": [
+            "Specific regulatory proposals or legal texts referenced"
+          ],
+          "research_questions": [
+            "Are other semiconductor or AI infrastructure companies commenting publicly on AI safety regulation?"
+          ],
+          "severity_candidate": "Low",
+          "severity_reason": "The article reports executive comments and industry debates regarding AI safety and regulation rather than any immediate operational disruption or fundamental financial impact.",
+          "severity_confidence": 0.9,
+          "operational_event": false,
+          "fundamental_change_detected": false,
+          "llm_confidence": 0.95,
+          "citations": [
+            {
+              "field": "summary_short",
+              "quote": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+              "source_field": "summary"
+            },
+            {
+              "field": "summary_full",
+              "quote": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+              "source_field": "summary"
+            },
+            {
+              "field": "primary_country",
+              "quote": "CBS News, the BBC's US partner.",
+              "source_field": "body"
+            },
+            {
+              "field": "event_type",
+              "quote": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+              "source_field": "body"
+            },
+            {
+              "field": "event_subtype",
+              "quote": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+              "source_field": "body"
+            },
+            {
+              "field": "article_class",
+              "quote": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+              "source_field": "body"
+            },
+            {
+              "field": "economic_channels",
+              "quote": "Huang suggested AI firms talking about a \"slow down\" could be seeking liability protections for harms their products may cause.",
+              "source_field": "body"
+            },
+            {
+              "field": "severity_candidate",
+              "quote": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+              "source_field": "body"
+            },
+            {
+              "field": "operational_event",
+              "quote": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+              "source_field": "body"
+            },
+            {
+              "field": "fundamental_change_detected",
+              "quote": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+              "source_field": "body"
+            },
+            {
+              "field": "direct_ticker_candidates",
+              "quote": "Nvidia CEO Jensen Huang",
+              "source_field": "body"
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": null,
+          "output_tokens": null,
+          "total_tokens": 1788,
+          "estimated_cost_usd": null,
+          "scope": "successful response only; failed-attempt usage unavailable"
+        },
+        "cache_hit": true,
+        "attempts": [
+          {
+            "attempt": 1,
+            "provider": "gemini",
+            "model": "gemini-3.5-flash-lite",
+            "status": "success"
+          }
+        ],
+        "attempt_count": 1,
+        "retry_count": 0,
+        "fallback_used": false,
+        "point_in_time_note": "Generated at the recorded enrichment time; not evidence the AI output was available when the article was published. Exposure eligibility still uses the original article replay time."
+      },
+      "semantic_validation": {
+        "status": "validated_constraints",
+        "accepted": {
+          "article_class": {
+            "value": "commentary",
+            "citations": [
+              {
+                "field": "article_class",
+                "quote": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+                "source_field": "body"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "economic_channels": {
+            "value": [
+              "sentiment",
+              "regulatory_lobbying"
+            ],
+            "citations": [
+              {
+                "field": "economic_channels",
+                "quote": "Huang suggested AI firms talking about a \"slow down\" could be seeking liability protections for harms their products may cause.",
+                "source_field": "body"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "operational_event": {
+            "value": false,
+            "citations": [
+              {
+                "field": "operational_event",
+                "quote": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+                "source_field": "body"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "fundamental_change_detected": {
+            "value": false,
+            "citations": [
+              {
+                "field": "fundamental_change_detected",
+                "quote": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+                "source_field": "body"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          }
+        },
+        "summary_validation": {
+          "summary_short": {
+            "value": null,
+            "status": "rejected",
+            "sentence_validation": [
+              {
+                "sentence": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+                "accepted": false,
+                "reason": "No sufficient exact source support for the complete sentence."
+              }
+            ],
+            "reason": "No summary sentences have sufficient exact source support."
+          },
+          "summary_full": {
+            "value": null,
+            "status": "rejected",
+            "sentence_validation": [
+              {
+                "sentence": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+                "accepted": false,
+                "reason": "No sufficient exact source support for the complete sentence."
+              }
+            ],
+            "reason": "No summary sentences have sufficient exact source support."
+          }
+        },
+        "rejections": [
+          {
+            "field": "summary_short",
+            "reason": "No summary sentences have sufficient exact source support."
+          },
+          {
+            "field": "summary_full",
+            "reason": "No summary sentences have sufficient exact source support."
+          },
+          {
+            "field": "event_type",
+            "reason": "Source quote does not independently validate candidate classification; retained in AI audit only."
+          },
+          {
+            "field": "event_subtype",
+            "reason": "Source quote does not independently validate candidate classification; retained in AI audit only."
+          },
+          {
+            "field": "primary_country",
+            "reason": "Country failed deterministic event-geography validation; contextual location is not event location."
+          }
+        ],
+        "candidate_relationships": [
+          {
+            "ticker": "NVDA",
+            "kind": "direct_ticker_candidates",
+            "state": "qualified",
+            "reason": "Existing deterministic result supports relationship.",
+            "edge_ids": []
+          }
+        ],
+        "notice": "Source-grounded AI extraction is not independent fact verification. Candidate fields do not qualify ticker exposure."
+      },
+      "classification_assessment": {
+        "candidates": {
+          "article_class": "commentary",
+          "event_type": "corporate_commentary",
+          "event_subtype": "executive_statements",
+          "operational_event": false,
+          "fundamental_change_detected": false
+        },
+        "source_grounded_candidates": {
+          "article_class": {
+            "value": "commentary",
+            "citations": [
+              {
+                "field": "article_class",
+                "quote": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+                "source_field": "body"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "operational_event": {
+            "value": false,
+            "citations": [
+              {
+                "field": "operational_event",
+                "quote": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+                "source_field": "body"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "fundamental_change_detected": {
+            "value": false,
+            "citations": [
+              {
+                "field": "fundamental_change_detected",
+                "quote": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+                "source_field": "body"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          }
+        },
+        "final": {
+          "article_class": "commentary",
+          "event_type": "commentary",
+          "event_subtype": "commentary"
+        },
+        "authority": "existing deterministic classification; candidate fields never override final fields"
+      },
+      "article_summary": {
+        "summary_short": null,
+        "summary_full": null,
+        "source": "unavailable",
+        "notice": "AI summary of the supplied article; not independent verification."
+      },
+      "severity_assessment": {
+        "severity_candidate": "Low",
+        "severity_reason": "The article reports executive comments and industry debates regarding AI safety and regulation rather than any immediate operational disruption or fundamental financial impact.",
+        "severity_confidence": 0.9,
+        "severity_final": "Low",
+        "severity_source": "rule",
+        "validation": "LLM candidate retained for audit; final severity requires the existing non-negated article rules.",
+        "rule_evidence": []
+      },
+      "feed": {
+        "state": "surface",
+        "reason": "Deterministically qualified watchlist relationship."
+      }
+    }
+  ],
+  "research_queue": [
+    {
+      "article_id": "freenewsapi_f15bf067-b612-4338-8041-9e41218ba6f4",
+      "event_id": "article_73ff4902cc61c5139b9c",
+      "ticker": "NVDA",
+      "qualification": "qualified_direct_company_subject",
+      "priority": "Low",
+      "direction": "Analyst judgment required"
+    }
+  ],
+  "summary": {
+    "articles": 1,
+    "usable": 1,
+    "discrete_events": 0,
+    "rejected": 0,
+    "qualified_pairs": 1,
+    "review_candidates": 0,
+    "surface": 1,
+    "background": 0,
+    "noise_rejected": 0,
+    "llm_calls": 0,
+    "cache_hits": 1,
+    "enrichment_success": 1,
+    "enrichment_failure": 0,
+    "enrichment_status_counts": {
+      "available": 1
+    }
+  }
+}

@@ -1,0 +1,1000 @@
+{
+  "articles": [
+    {
+      "article_id": "historical_H31",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H31",
+      "headline": "Apple targeted in EU's first Digital Markets Act probe",
+      "summary": "The European Commission opened a formal DMA investigation into Apple's App Store steering rules and Safari choice-screen compliance.",
+      "body": "The European Commission opened a formal non-compliance investigation into Apple under the Digital Markets Act, examining App Store steering rules and Safari browser choice-screen measures. The investigation was an actual regulatory action and could lead to penalties if non-compliance were established. This snapshot excludes later preliminary findings, fines, appeals and compliance changes.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/business/media-telecom/eu-investigate-apple-google-meta-potential-digital-markets-act-breaches-2024-03-25/",
+      "topics": [
+        "Apple",
+        "Digital Markets Act",
+        "App Store",
+        "regulatory investigation"
+      ],
+      "countries": [
+        "European Union"
+      ],
+      "published_at": "2024-03-25",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H32",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H32",
+      "headline": "Apple's iPadOS designated gatekeeper under EU tech rules",
+      "summary": "The European Commission designated Apple's iPadOS as a gatekeeper under the Digital Markets Act following a market investigation.",
+      "body": "The European Commission designated Apple's iPadOS operating system as a gatekeeper under the Digital Markets Act after concluding that it constituted an important gateway for business users. Apple was given six months to comply with applicable obligations. This snapshot excludes later compliance actions or enforcement outcomes.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/apples-ipados-designated-gatekeeper-under-eu-tech-rules-eu-says-2024-04-29/",
+      "topics": [
+        "Apple",
+        "iPadOS",
+        "Digital Markets Act",
+        "regulation"
+      ],
+      "countries": [
+        "European Union"
+      ],
+      "published_at": "2024-04-29",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H33",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H33",
+      "headline": "Apple charged with breaching EU tech rules, faces another probe",
+      "summary": "EU regulators issued preliminary findings that Apple's App Store steering rules breached the Digital Markets Act and opened another non-compliance investigation.",
+      "body": "The European Commission informed Apple of its preliminary view that App Store steering rules breached the Digital Markets Act and opened a separate non-compliance investigation into contractual requirements including the Core Technology Fee. This snapshot excludes later final decisions, fines or appeals.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/apples-app-store-rules-breach-eu-tech-rules-eu-regulators-say-2024-06-24/",
+      "topics": [
+        "Apple",
+        "App Store",
+        "Digital Markets Act",
+        "antitrust"
+      ],
+      "countries": [
+        "European Union"
+      ],
+      "published_at": "2024-06-24",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H34",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H34",
+      "headline": "India antitrust probe finds Apple abused position in apps market",
+      "summary": "An Indian competition investigation report found Apple abused its dominant position in the iOS app-store market, according to a confidential report seen by Reuters.",
+      "body": "The Competition Commission of India's investigations unit found in a confidential report that Apple exploited its dominant position in the iOS app-store market and engaged in abusive conduct related to app distribution and in-app payments. Apple denied wrongdoing. This snapshot excludes later commission decisions, penalties or appeals.",
+      "source": "Reuters",
+      "article_url": "https://theprint.in/india/exclusive-india-antitrust-probe-finds-apple-abused-position-in-apps-market/2172034/",
+      "topics": [
+        "Apple",
+        "India",
+        "App Store",
+        "antitrust"
+      ],
+      "countries": [
+        "India"
+      ],
+      "published_at": "2024-07-12",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H35",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H35",
+      "headline": "EU opens antitrust investigation into Microsoft Teams and Office bundling",
+      "summary": "EU antitrust regulators opened a formal investigation into Microsoft's bundling of Teams with Office products.",
+      "body": "The European Commission opened a formal antitrust investigation into Microsoft's tying of Teams with Office 365 and Microsoft 365 after a complaint from Slack. The investigation examined whether bundling restricted competition in workplace communication software. This snapshot excludes later charges, remedies or settlements.",
+      "source": "Reuters",
+      "article_url": "https://www.investing.com/news/stock-market-news/eu-antitrust-regulators-to-investigate-microsoft-over-teams-office-tying-3135569",
+      "topics": [
+        "Microsoft",
+        "Teams",
+        "Office",
+        "antitrust investigation"
+      ],
+      "countries": [
+        "European Union"
+      ],
+      "published_at": "2023-07-27",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H36",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H36",
+      "headline": "UK blocks Microsoft's $69 billion Activision deal over cloud gaming concerns",
+      "summary": "Britain's competition regulator blocked Microsoft's proposed acquisition of Activision Blizzard over cloud-gaming competition concerns.",
+      "body": "The UK Competition and Markets Authority blocked Microsoft's proposed acquisition of Activision Blizzard, concluding that proposed remedies did not adequately address competition concerns in cloud gaming. This snapshot excludes later restructuring of the deal, appeals and eventual clearance.",
+      "source": "Reuters",
+      "article_url": "https://www.investing.com/news/economy/uk-blocks-microsoft-69-billion-activision-deal-over-cloud-gaming-concerns-3065040",
+      "topics": [
+        "Microsoft",
+        "Activision Blizzard",
+        "M&A",
+        "regulatory block"
+      ],
+      "countries": [
+        "United Kingdom"
+      ],
+      "published_at": "2023-04-26",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H37",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H37",
+      "headline": "Microsoft closes $69 billion Activision deal after Britain's nod",
+      "summary": "Microsoft completed its acquisition of Activision Blizzard after receiving final UK clearance for a restructured transaction.",
+      "body": "Microsoft closed its $69 billion acquisition of Activision Blizzard after the UK Competition and Markets Authority cleared a restructured transaction in which cloud streaming rights were sold to Ubisoft. This snapshot records the transaction completion and contemporaneous regulatory clearance only.",
+      "source": "Reuters",
+      "article_url": "https://m.investing.com/news/stock-market-news/uk-antitrust-regulator-clears-microsofts-acquisition-of-activision-3197699?ampMode=1",
+      "topics": [
+        "Microsoft",
+        "Activision Blizzard",
+        "acquisition",
+        "gaming"
+      ],
+      "countries": [
+        "United Kingdom",
+        "United States"
+      ],
+      "published_at": "2023-10-13",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H38",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H38",
+      "headline": "Microsoft says Sam Altman will join to lead new advanced AI research team",
+      "summary": "Microsoft announced that ousted OpenAI CEO Sam Altman and Greg Brockman would join the company to lead a new advanced AI research team.",
+      "body": "Microsoft CEO Satya Nadella announced that Sam Altman and Greg Brockman would join Microsoft to lead a new advanced AI research team following leadership turmoil at OpenAI. This snapshot excludes later negotiations, Altman's return to OpenAI or subsequent governance changes.",
+      "source": "Reuters",
+      "article_url": "https://www.investing.com/news/stock-market-news/microsoft-ceo-says-sam-altman-will-be-joining-microsoft-3238619",
+      "topics": [
+        "Microsoft",
+        "OpenAI",
+        "Sam Altman",
+        "AI hiring"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2023-11-20",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H39",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H39",
+      "headline": "FTC launches inquiry into Microsoft's generative-AI partnership investments",
+      "summary": "The FTC issued compulsory information requests to Microsoft and other firms concerning investments and partnerships in generative AI.",
+      "body": "The U.S. Federal Trade Commission launched a Section 6(b) inquiry into generative-AI investments and partnerships, issuing compulsory orders to Microsoft, OpenAI, Alphabet, Amazon and Anthropic. For Microsoft, the inquiry covered its OpenAI relationship and potential competitive effects. This snapshot excludes later findings or enforcement actions.",
+      "source": "Federal Trade Commission",
+      "article_url": "https://www.ftc.gov/news-events/news/press-releases/2024/01/ftc-launches-inquiry-generative-ai-investments-partnerships",
+      "topics": [
+        "Microsoft",
+        "OpenAI",
+        "FTC",
+        "AI partnership inquiry"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2024-01-25",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H40",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H40",
+      "headline": "US Justice Department sues Google over digital advertising technology",
+      "summary": "The U.S. Justice Department and states filed an antitrust lawsuit accusing Google of monopolizing digital advertising technology markets.",
+      "body": "The U.S. Justice Department and several states filed a civil antitrust lawsuit against Google alleging monopolization of key digital advertising technology products and seeking structural relief. This snapshot excludes later trial results, liability findings and remedies.",
+      "source": "U.S. Department of Justice",
+      "article_url": "https://www.justice.gov/archives/opa/pr/justice-department-sues-google-monopolizing-digital-advertising-technologies",
+      "topics": [
+        "Google",
+        "ad tech",
+        "antitrust lawsuit",
+        "DOJ"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2023-01-24",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H41",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H41",
+      "headline": "Google faces EU break-up order over anti-competitive adtech practices",
+      "summary": "EU regulators issued antitrust charges against Google over ad-tech practices and said divestiture might be needed to resolve competition concerns.",
+      "body": "The European Commission issued a statement of objections accusing Google of anti-competitive practices in advertising technology and said only a mandatory divestiture of part of its services might address the concerns. This snapshot excludes later hearings, final decisions or remedies.",
+      "source": "Reuters",
+      "article_url": "https://www.investing.com/news/stock-market-news/eu-antitrust-regulators-charge-google-on-anticompetitive-adtech-practices-3105237",
+      "topics": [
+        "Google",
+        "ad tech",
+        "antitrust charge",
+        "European Union"
+      ],
+      "countries": [
+        "European Union"
+      ],
+      "published_at": "2023-06-14",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H42",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H42",
+      "headline": "FTC launches inquiry into Alphabet's generative-AI partnership investments",
+      "summary": "The FTC issued compulsory information requests to Alphabet regarding generative-AI investments and partnerships including its relationship with Anthropic.",
+      "body": "The U.S. Federal Trade Commission launched a Section 6(b) inquiry into generative-AI investments and partnerships, issuing compulsory orders to Alphabet and other firms. For Alphabet, the inquiry covered its Anthropic relationship and competitive effects. This snapshot excludes later findings or enforcement actions.",
+      "source": "Federal Trade Commission",
+      "article_url": "https://www.ftc.gov/news-events/news/press-releases/2024/01/ftc-launches-inquiry-generative-ai-investments-partnerships",
+      "topics": [
+        "Alphabet",
+        "Anthropic",
+        "FTC",
+        "AI partnership inquiry"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2024-01-25",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H43",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H43",
+      "headline": "Google targeted in EU's first Digital Markets Act probe",
+      "summary": "The European Commission opened a formal DMA investigation into Google Play steering rules and self-preferencing in Google Search.",
+      "body": "The European Commission opened a formal non-compliance investigation into Alphabet's Google under the Digital Markets Act, examining Google Play steering rules and self-preferencing in Google Search. This snapshot excludes later preliminary findings, penalties or compliance changes.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/business/media-telecom/eu-investigate-apple-google-meta-potential-digital-markets-act-breaches-2024-03-25/",
+      "topics": [
+        "Google",
+        "Digital Markets Act",
+        "Google Play",
+        "Search"
+      ],
+      "countries": [
+        "European Union"
+      ],
+      "published_at": "2024-03-25",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H44",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H44",
+      "headline": "Google holds illegal monopolies in ad tech, US judge finds",
+      "summary": "A U.S. federal judge ruled that Google illegally monopolized publisher ad-server and ad-exchange markets.",
+      "body": "A U.S. federal judge found Google liable for willfully acquiring and maintaining monopoly power in publisher ad-server and ad-exchange markets. The ruling opened the door to later remedies proceedings. This snapshot excludes subsequent remedy proposals and decisions.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/us-judge-finds-google-holds-illegal-online-ad-tech-monopolies-2025-04-17/",
+      "topics": [
+        "Google",
+        "ad tech",
+        "antitrust ruling",
+        "DOJ"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2025-04-17",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H45",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H45",
+      "headline": "Amazon workers walk out over pay in first UK strike",
+      "summary": "Workers at Amazon's Coventry warehouse staged the company's first UK strike over pay.",
+      "body": "Workers at Amazon's Coventry warehouse in England walked out in a strike over pay, marking the first strike affecting Amazon operations in Britain. The action involved warehouse employees and was organized by the GMB union. This snapshot excludes later strike days, bargaining outcomes or operational estimates.",
+      "source": "Reuters",
+      "article_url": "https://www.euronews.com/next/2023/01/25/britain-strikes-amazon",
+      "topics": [
+        "Amazon",
+        "labor strike",
+        "warehouse",
+        "United Kingdom"
+      ],
+      "countries": [
+        "United Kingdom"
+      ],
+      "published_at": "2023-01-25",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H46",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H46",
+      "headline": "FTC sues Amazon over Prime enrollment and cancellation practices",
+      "summary": "The FTC filed a lawsuit accusing Amazon of enrolling consumers in Prime without consent and making cancellation unnecessarily difficult.",
+      "body": "The U.S. Federal Trade Commission filed a complaint against Amazon alleging that the company used deceptive interface designs to enroll consumers in Prime without consent and complicated cancellation. This snapshot excludes later amendments, trial rulings or settlements.",
+      "source": "Federal Trade Commission",
+      "article_url": "https://www.ftc.gov/news-events/news/press-releases/2023/06/ftc-takes-action-against-amazon-enrolling-consumers-amazon-prime-without-consent-sabotaging-their",
+      "topics": [
+        "Amazon",
+        "Prime",
+        "FTC",
+        "consumer protection lawsuit"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2023-06-21",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H47",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H47",
+      "headline": "EU sends Amazon statement of objections over proposed iRobot acquisition",
+      "summary": "The European Commission informed Amazon that its proposed iRobot acquisition might restrict competition in robot vacuum cleaners.",
+      "body": "The European Commission sent Amazon a statement of objections setting out its preliminary view that the proposed acquisition of iRobot could restrict competition in robot vacuum cleaners and strengthen Amazon's marketplace position. This snapshot excludes the later deal termination.",
+      "source": "European Commission",
+      "article_url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_23_5990/IP_23_5990_EN.pdf",
+      "topics": [
+        "Amazon",
+        "iRobot",
+        "M&A",
+        "antitrust objections"
+      ],
+      "countries": [
+        "European Union"
+      ],
+      "published_at": "2023-11-27",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H48",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H48",
+      "headline": "FTC launches inquiry into Amazon's generative-AI partnership investments",
+      "summary": "The FTC issued compulsory information requests to Amazon regarding generative-AI investments and partnerships including its Anthropic relationship.",
+      "body": "The U.S. Federal Trade Commission launched a Section 6(b) inquiry into generative-AI investments and partnerships, issuing compulsory orders to Amazon and other firms. For Amazon, the inquiry covered its Anthropic relationship and competitive effects. This snapshot excludes later findings or enforcement actions.",
+      "source": "Federal Trade Commission",
+      "article_url": "https://www.ftc.gov/news-events/news/press-releases/2024/01/ftc-launches-inquiry-generative-ai-investments-partnerships",
+      "topics": [
+        "Amazon",
+        "Anthropic",
+        "FTC",
+        "AI partnership inquiry"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2024-01-25",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H49",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H49",
+      "headline": "Amazon Web Services lays off several hundred tech and sales staff",
+      "summary": "AWS eliminated several hundred roles across sales, marketing, global services and physical-store technology teams.",
+      "body": "Amazon Web Services said it eliminated several hundred roles across sales, marketing and global services, along with jobs in its physical-stores technology team, as part of targeted streamlining. This snapshot excludes later layoffs or financial outcomes.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/amazon-web-services-lays-off-tech-sales-staff-information-reports-2024-04-03/",
+      "topics": [
+        "Amazon",
+        "AWS",
+        "layoffs",
+        "workforce reduction"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2024-04-03",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H50",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H50",
+      "headline": "FTC can reopen Meta privacy case despite $5 billion fine, court rules",
+      "summary": "A U.S. appeals court allowed the FTC to continue reopening Meta's privacy case while Meta challenged the agency's authority.",
+      "body": "A U.S. appeals court ruled that Meta could not stop the Federal Trade Commission from reopening a privacy case involving Facebook while litigation continued. The FTC sought tighter restrictions related to minors' data and facial recognition. This snapshot excludes later merits rulings.",
+      "source": "Reuters",
+      "article_url": "https://www.investing.com/news/stock-market-news/ftc-can-reopen-meta-privacy-case-despite-5-billion-fine-court-rules-3336169",
+      "topics": [
+        "Meta",
+        "FTC",
+        "privacy",
+        "court ruling"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2024-03-13",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H51",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H51",
+      "headline": "Meta targeted in EU's first Digital Markets Act probe",
+      "summary": "The European Commission opened a formal DMA investigation into Meta's pay-or-consent advertising model.",
+      "body": "The European Commission opened a formal non-compliance investigation into Meta under the Digital Markets Act, examining its pay-or-consent model for Facebook and Instagram. This snapshot excludes later charges, fines or business-model changes.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/business/media-telecom/eu-investigate-apple-google-meta-potential-digital-markets-act-breaches-2024-03-25/",
+      "topics": [
+        "Meta",
+        "Digital Markets Act",
+        "advertising",
+        "regulatory investigation"
+      ],
+      "countries": [
+        "European Union"
+      ],
+      "published_at": "2024-03-25",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H52",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H52",
+      "headline": "Turkey fines Meta over data-sharing practices",
+      "summary": "Turkey's competition authority fined Meta after investigations into data-sharing across Facebook, Instagram, WhatsApp and Threads.",
+      "body": "Turkey's Competition Board imposed fines on Meta following investigations into data-sharing practices involving Facebook, Instagram, WhatsApp and Threads. The decision followed earlier interim measures concerning Threads and Instagram data sharing. This snapshot excludes later appeals or compliance outcomes.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/turkeys-competition-board-fine-meta-372-million-data-sharing-probe-2024-05-08/",
+      "topics": [
+        "Meta",
+        "Turkey",
+        "competition",
+        "fine"
+      ],
+      "countries": [
+        "Turkey"
+      ],
+      "published_at": "2024-05-08",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H53",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H53",
+      "headline": "Meta charged with failing to comply with EU tech rules",
+      "summary": "EU regulators charged Meta over its pay-or-consent advertising model under the Digital Markets Act.",
+      "body": "The European Commission issued preliminary findings charging Meta with failing to comply with the Digital Markets Act because its binary pay-or-consent model did not provide users with an equivalent less-personalized option. This snapshot excludes later modifications, final rulings or penalties.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/meta-charged-with-failing-comply-with-eu-tech-rules-2024-07-01/",
+      "topics": [
+        "Meta",
+        "Digital Markets Act",
+        "advertising",
+        "charge"
+      ],
+      "countries": [
+        "European Union"
+      ],
+      "published_at": "2024-07-01",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H54",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H54",
+      "headline": "Meta agrees to pay $1.4 billion to settle Texas facial-recognition lawsuit",
+      "summary": "Meta agreed to a $1.4 billion settlement with Texas over allegations involving Facebook facial-recognition data.",
+      "body": "Meta agreed to pay $1.4 billion to settle a Texas lawsuit alleging unauthorized collection of biometric data through Facebook facial-recognition technology. Meta denied wrongdoing. This snapshot records the settlement announcement and excludes later payment schedules or related litigation.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/cybersecurity/meta-platforms-pay-14-bln-settle-texas-lawsuit-over-facial-recognition-data-2024-07-30/",
+      "topics": [
+        "Meta",
+        "Texas",
+        "privacy",
+        "settlement"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2024-07-30",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H55",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H55",
+      "headline": "EU privacy regulator fines Meta 91 million euros over password storage",
+      "summary": "Ireland's privacy regulator fined Meta over storing some users' passwords without encryption.",
+      "body": "Ireland's Data Protection Commission fined Meta 91 million euros after an inquiry into storage of some users' passwords in plaintext without adequate protection. This snapshot excludes later appeal or compliance outcomes.",
+      "source": "Reuters",
+      "article_url": "https://www.investing.com/news/stock-market-news/eu-privacy-regulator-fines-meta-91-million-euros-over-password-storage-3635867",
+      "topics": [
+        "Meta",
+        "privacy",
+        "passwords",
+        "fine"
+      ],
+      "countries": [
+        "Ireland",
+        "European Union"
+      ],
+      "published_at": "2024-09-27",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H56",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H56",
+      "headline": "US Justice Department questions Nvidia business practices in antitrust probe",
+      "summary": "Reuters reported that the U.S. Justice Department was asking technology companies about Nvidia's business practices and examining its Run:AI acquisition.",
+      "body": "Reuters reported that U.S. Justice Department officials were asking technology companies questions about Nvidia's business practices, including hardware bundling, and examining whether the Run:AI acquisition could increase Nvidia's AI-computing market power. Nvidia said it had not received a subpoena and was willing to answer regulators' questions. This snapshot does not repeat an earlier incorrect subpoena claim.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/nvidia-did-not-receive-us-justice-department-subpoena-spokesperson-says-2024-09-04/",
+      "topics": [
+        "Nvidia",
+        "antitrust",
+        "DOJ",
+        "Run:AI"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2024-09-04",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H57",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H57",
+      "headline": "Nvidia says Blackwell design flaw that hurt yields has been fixed",
+      "summary": "Nvidia CEO Jensen Huang said a Blackwell design flaw had caused low production yields and was fixed with TSMC's help.",
+      "body": "Nvidia CEO Jensen Huang said a design flaw in Blackwell AI chips had caused low production yields and delayed shipments, and that the issue had been fixed with help from TSMC. This snapshot records the disclosed manufacturing issue and contemporaneous recovery status only.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/artificial-intelligence/nvidias-design-flaw-with-blackwell-ai-chips-now-fixed-ceo-says-2024-10-23/",
+      "topics": [
+        "Nvidia",
+        "Blackwell",
+        "production yields",
+        "TSMC"
+      ],
+      "countries": [
+        "United States",
+        "Taiwan"
+      ],
+      "published_at": "2024-10-23",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H58",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H58",
+      "headline": "Nvidia faces $5.5 billion charge as US restricts H20 chip sales to China",
+      "summary": "The U.S. government imposed an indefinite license requirement on Nvidia H20 exports to China, prompting an expected $5.5 billion charge.",
+      "body": "Nvidia disclosed that the U.S. government required licenses for exports of H20 chips and equivalent products to China, Hong Kong, Macau and specified destinations, with the requirement expected to remain in effect indefinitely. Nvidia said it expected up to $5.5 billion in related charges. This snapshot excludes later license decisions or redesigned products.",
+      "source": "Reuters",
+      "article_url": "https://www.investing.com/news/stock-market-news/nvidia-expects-up-to-55-billion-charge-in-first-quarter-3986890",
+      "topics": [
+        "Nvidia",
+        "H20",
+        "China",
+        "export controls"
+      ],
+      "countries": [
+        "United States",
+        "China"
+      ],
+      "published_at": "2025-04-15",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H59",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H59",
+      "headline": "Tesla cuts vehicle prices in U.S. and Europe by as much as 20%",
+      "summary": "Tesla cut prices across major U.S. and European markets after missing Wall Street estimates for 2022 deliveries.",
+      "body": "Tesla reduced prices on electric vehicles in the United States and Europe by as much as 20%, extending aggressive discounting after weaker-than-expected delivery performance and earlier China price cuts. The action was a confirmed pricing change. This snapshot excludes later sales responses or subsequent price changes.",
+      "source": "Reuters",
+      "article_url": "https://www.taiwannews.com.tw/news/4780361",
+      "topics": [
+        "Tesla",
+        "price cut",
+        "vehicle demand",
+        "United States",
+        "Europe"
+      ],
+      "countries": [
+        "United States",
+        "Europe"
+      ],
+      "published_at": "2023-01-13",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H60",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H60",
+      "headline": "Tesla recalls 3,878 Cybertrucks over faulty accelerator pedal",
+      "summary": "Tesla recalled 3,878 Cybertrucks because an accelerator pedal pad could detach and become trapped, increasing crash risk.",
+      "body": "Tesla initiated a recall covering 3,878 Cybertrucks after the U.S. National Highway Traffic Safety Administration said an accelerator pedal pad could come loose and become trapped in interior trim, potentially causing unintended acceleration. Tesla said it would repair or replace the assembly. This snapshot excludes later recall completion data.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/business/autos-transportation/tesla-recall-3878-cybertrucks-nhtsa-says-2024-04-19/",
+      "topics": [
+        "Tesla",
+        "Cybertruck",
+        "recall",
+        "vehicle safety"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2024-04-19",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    }
+  ]
+}

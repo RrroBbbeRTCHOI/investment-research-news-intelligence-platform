@@ -1,0 +1,32 @@
+{
+  "_ingestion": {
+    "provider": "freenewsapi",
+    "endpoint": "details",
+    "article_uuid": "1ded6a83-874f-4403-be09-a3114f17d326",
+    "fetched_at": "2026-09-18T08:06:05.017853+00:00"
+  },
+  "raw_response": {
+    "data": {
+      "uuid": "1ded6a83-874f-4403-be09-a3114f17d326",
+      "title": "Moore: Marriage deficit an economic catastrophe",
+      "thumbnail": "https://www.bostonherald.com/wp-content/uploads/2026/09/BHR-Z-MOORE-01_dd8ad3.jpg?w=640",
+      "publisher": "Boston Herald",
+      "authors": [
+        "Stephen Moore"
+      ],
+      "topics": [
+        "social sciences"
+      ],
+      "countries": [
+        "US"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-09-18T07:42:59.000Z",
+      "original_url": "https://www.bostonherald.com/2026/09/18/moore-marriage-deficit-an-economic-catastrophe/",
+      "incipit": "Every study shows that the decline in marriage among young men is tied to alcoholism, violent crime, drug abuse, pornography, depression, isolation, less economic success and suicide.",
+      "body": "The Beatles told us: “All you need is love.” They were right, but along with love must come marriage. But marriage rates have plummeted, especially among young men. A Pulitzer Prize-worthy story by Sean Salai of The Washington Times crunches all the numbers. To say they are worrisome would be a vast understatement. — In 2025, nearly twice as many men ages 18 to 39 were unmarried as were married. — There were 30.4 million unmarried men ages 18 to 39 in 2025, up 47% from 20.7 million in 2000. — In the same period, married men in this age range dropped by 15%, from 18.1 million to 15.4 million. “Such men are more likely to be lonely, prone to deaths of despair and unhappy,” according to Brad Wilcox, a University of Virginia sociologist. — Forty-two percent of working-class men are unmarried, according to educational psychologist Donna R. Turner. In 1980, 73% of working-class men were married. I could go on and with these depressing statistics. But I believe the decline in marriage and children is a threat to the American future much more dangerous than even the national debt, climate change, cancer or foreign aggression. Family is the essential organizing unit in America. Every study shows that the decline in marriage among young men is tied to alcoholism, violent crime, drug abuse, pornography, depression, isolation, less economic success and suicide. Generation X and millennials have become choosier in finding a mate and more likely to have children alone, if they have them at all. “Women have less structural need for marriage than past generations did,” said Angelica Gianchandani, a New York University finance instructor. “Rising income and education give many women a financial independence marriage once provided, and donor sperm and fertility treatment have decoupled motherhood from a partner altogether.” Women are much less likely to be religious today than in decades past. So holy matrimony is less of a lifetime priority or moral obligation. We do know that when women raise children without a father in the home — for whatever reason — their kids, especially their sons, are less successful. I’m thrashing for explanations and solutions to this deeply troubling social trend. Obviously, we are not returning to the “Father Knows Best” norms of the 1950s or 1960s. But recovery starts with admitting we have a problem. I would suggest that President Donald Trump announce a national bipartisan commission on “Rediscovering Love, Marriage and Parenthood.” One last stat to underscore the urgency of turning around these trends: The latest Census Bureau data indicate that 47% of households were headed by married couples last year, down from 78.8% in 1949. That trend MUST be reversed to advance America’s economic prosperity and human happiness. Stephen Moore is a former Trump senior economic adviser and the cofounder of Unleash Prosperity, which advocates for education freedom for all children."
+    }
+  }
+}

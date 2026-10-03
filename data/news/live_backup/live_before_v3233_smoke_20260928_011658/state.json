@@ -1,0 +1,1159 @@
+{
+  "seen": {
+    "id:perigon:17099733989a4051a4fa5b5d25f1312b": "live_13a5394adff0aa2d45d4bb45",
+    "url:https://pass.dawn.com/news/2033076/bill-gates-joins-calls-for-ai-safeguards-including-legislation": "live_13a5394adff0aa2d45d4bb45",
+    "content:eb6d61291b597f08840884344e9b1ae539a488ff03630bd0ca6aca3ea1cfd808": "live_13a5394adff0aa2d45d4bb45",
+    "id:perigon:43ab490c2e9d493c9037d78f4dd6ba4f": "live_7fa292a51534ae7f79041913",
+    "url:https://www.dawn.com/news/2033076/bill-gates-joins-calls-for-ai-safeguards-including-legislation": "live_7fa292a51534ae7f79041913",
+    "content:7728b036499fc0d6f579ef9fabeaf363dfec4e0c1d7a438a50f8b8e9b335d8ad": "live_7fa292a51534ae7f79041913",
+    "id:perigon:d3ba6d60c3e0469881910c0c941f71b7": "live_ea7adb41c0b177f450ee7c66",
+    "url:https://www.castanetkamloops.net/edition/news-story-632574-7-.htm": "live_ea7adb41c0b177f450ee7c66",
+    "content:9325c994cbc5a2bb59365468a655ba3f5ce840e16ca492ebafa8a33da67d6cf8": "live_ea7adb41c0b177f450ee7c66",
+    "id:perigon:32cba7eeb6c74c7eafaf4b3ab4a2e694": "live_5e133938d45b9fc4596824fa",
+    "url:https://www.legit.ng/business-economy/economy/1733101-lagos-onion-prices-surge-200-shortages-pushes-rates-levels/": "live_5e133938d45b9fc4596824fa",
+    "content:6303e577d3c6485f9019655616721b755cd23f97743fd7022fb5438a88e72cfe": "live_5e133938d45b9fc4596824fa",
+    "id:perigon:8df1e12a359f495e8888ac8ab0332ecc": "live_3f59da010add13fb21e4c5e3",
+    "url:https://www.flickeringmyth.com/new-batman-hush-mafex-figures-feature-batgirl-and-battle-damaged-bruce-wayne/": "live_3f59da010add13fb21e4c5e3",
+    "content:162769e9e7689089d157a25ad867c768630d02a1975853e1b21d8ac5a60d336d": "live_3f59da010add13fb21e4c5e3"
+  },
+  "pending": {
+    "live_7fa292a51534ae7f79041913": {
+      "article": {
+        "provider": "perigon",
+        "provider_article_id": "43ab490c2e9d493c9037d78f4dd6ba4f",
+        "headline": "Bill Gates joins calls for AI safeguards, including legislation",
+        "summary": "“No one thinks self-regulation is enough,” Microsoft co-founder says.",
+        "body": "AI requires safeguards that go beyond self-regulation, Microsoft co-founder Bill Gates said in an interview that aired on Sunday, calling for legislation to be passed in Congress.\n\n“You need law enfor... [2651 symbols]",
+        "source": "dawn.com",
+        "article_url": "https://www.dawn.com/news/2033076/bill-gates-joins-calls-for-ai-safeguards-including-legislation",
+        "published_at": "2026-09-27T21:40:08+05:00",
+        "fetched_at": "2026-09-27T16:44:58.319474+00:00",
+        "article_id": "live_7fa292a51534ae7f79041913"
+      },
+      "status": "quota_deferred",
+      "intake": {
+        "content_type": "event",
+        "reason": "Existing V3.2.2 research-intelligence eligibility preserved; final event gate remains authoritative.",
+        "signals": [],
+        "method": "live_content_v3_2_3"
+      }
+    }
+  },
+  "records": {
+    "live_13a5394adff0aa2d45d4bb45": {
+      "article_id": "live_13a5394adff0aa2d45d4bb45",
+      "headline": "Bill Gates joins calls for AI safeguards, including legislation",
+      "source": "pass.dawn.com",
+      "article_url": "https://pass.dawn.com/news/2033076/bill-gates-joins-calls-for-ai-safeguards-including-legislation",
+      "gate": {
+        "article_id": "live_13a5394adff0aa2d45d4bb45",
+        "is_event": true,
+        "gate_reason": "Asserted regulation event:  that aired on Sunday, calling for legislation to be passed in Congress.",
+        "gate_confidence": 0.8
+      },
+      "event": {
+        "event_id": "evt_6272c972615fadfd480e2d67",
+        "canonical_event_id": "evt_6272c972615fadfd480e2d67",
+        "article_ids": [
+          "live_13a5394adff0aa2d45d4bb45"
+        ],
+        "source_count": 1,
+        "independent_source_count": 1,
+        "first_seen_at": "2026-09-27T16:44:58.319474+00:00",
+        "last_seen_at": "2026-09-27T16:44:58.319474+00:00",
+        "published_at_first": "2026-09-27T21:40:08+05:00",
+        "event_start_at": null,
+        "event_end_at": null,
+        "time_precision": "unknown",
+        "event_status": "developing",
+        "primary_country": null,
+        "affected_countries": [],
+        "primary_region": null,
+        "affected_regions": [],
+        "city": null,
+        "location_name": null,
+        "latitude": null,
+        "longitude": null,
+        "location_confidence": null,
+        "event_type": "government_policy",
+        "event_subtype": "regulation",
+        "severity_score": null,
+        "severity_confidence": null,
+        "scope": null,
+        "duration_class": "unknown",
+        "event_novelty": null,
+        "physical_damage": null,
+        "production_disruption": null,
+        "capacity_disruption": null,
+        "logistics_disruption": null,
+        "port_disruption": null,
+        "power_disruption": null,
+        "network_disruption": null,
+        "cloud_service_disruption": null,
+        "labor_disruption": null,
+        "supply_shortage": null,
+        "regulatory_change": null,
+        "export_restriction": null,
+        "import_restriction": null,
+        "price_change_explicit": null,
+        "demand_change_explicit": null,
+        "companies_mentioned": [
+          "Microsoft"
+        ],
+        "tickers_mentioned": [
+          "MSFT"
+        ],
+        "suppliers_mentioned": [],
+        "customers_mentioned": [],
+        "industries_mentioned": [],
+        "products_mentioned": [],
+        "technologies_mentioned": [
+          "AI"
+        ],
+        "commodities_mentioned": [],
+        "government_entities": [],
+        "regulators": [],
+        "people_mentioned": [],
+        "supply_channel": null,
+        "demand_channel": null,
+        "cost_channel": null,
+        "revenue_channel": null,
+        "margin_channel": null,
+        "capex_channel": null,
+        "financing_channel": null,
+        "interest_rate_channel": null,
+        "fx_channel": null,
+        "commodity_channel": null,
+        "logistics_channel": null,
+        "energy_channel": null,
+        "regulatory_channel": true,
+        "legal_channel": null,
+        "technology_channel": null,
+        "competition_channel": null,
+        "source_quality": null,
+        "extraction_confidence": 0.7,
+        "confirmation_level": "single_source",
+        "evidence_fields": {
+          "event_type": {
+            "value": "government_policy",
+            "evidence": " that aired on Sunday, calling for legislation to be passed in Congress.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_subtype": {
+            "value": "regulation",
+            "evidence": " that aired on Sunday, calling for legislation to be passed in Congress.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_summary": {
+            "value": " that aired on Sunday, calling for legislation to be passed in Congress.",
+            "evidence": " that aired on Sunday, calling for legislation to be passed in Congress.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "keywords": {
+            "value": [
+              "regulation"
+            ],
+            "evidence": " that aired on Sunday, calling for legislation to be passed in Congress.",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": " that aired on Sunday, calling for legislation to be passed in Congress.",
+                "source_field": "body"
+              }
+            ]
+          },
+          "canonical_headline": {
+            "value": "Bill Gates joins calls for AI safeguards, including legislation",
+            "evidence": "Bill Gates joins calls for AI safeguards, including legislation",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "independent_source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "event_status": {
+            "value": "developing",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "confirmation_level": {
+            "value": "single_source",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "extraction_confidence": {
+            "value": 0.7,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "published_at_first": {
+            "value": "2026-09-27T21:40:08+05:00",
+            "evidence": "2026-09-27T21:40:08+05:00",
+            "source_field": "published_at",
+            "basis": "provider_metadata"
+          },
+          "first_seen_at": {
+            "value": "2026-09-27T16:44:58.319474+00:00",
+            "evidence": "2026-09-27T16:44:58.319474+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "last_seen_at": {
+            "value": "2026-09-27T16:44:58.319474+00:00",
+            "evidence": "2026-09-27T16:44:58.319474+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "regulatory_channel": {
+            "value": true,
+            "evidence": " that aired on Sunday, calling for legislation to be passed in Congress.",
+            "source_field": "body",
+            "basis": "article_text",
+            "assertion": "affirmed"
+          },
+          "technologies_mentioned": {
+            "value": [
+              "AI"
+            ],
+            "evidence": "Bill Gates joins calls for AI safeguards, including legislation",
+            "source_field": "headline",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "Bill Gates joins calls for AI safeguards, including legislation",
+                "source_field": "headline"
+              }
+            ]
+          },
+          "companies_mentioned": {
+            "value": [
+              "Microsoft"
+            ],
+            "evidence": "at go beyond self-regulation, Microsoft co-founder Bill Gates said in an interview that aired on Sunday, call",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "at go beyond self-regulation, Microsoft co-founder Bill Gates said in an interview that aired on Sunday, call",
+                "source_field": "body"
+              }
+            ]
+          },
+          "tickers_mentioned": {
+            "value": [
+              "MSFT"
+            ],
+            "evidence": "at go beyond self-regulation, Microsoft co-founder Bill Gates said in an interview that aired on Sunday, call",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "at go beyond self-regulation, Microsoft co-founder Bill Gates said in an interview that aired on Sunday, call",
+                "source_field": "body"
+              }
+            ]
+          }
+        },
+        "canonical_headline": "Bill Gates joins calls for AI safeguards, including legislation",
+        "event_summary": " that aired on Sunday, calling for legislation to be passed in Congress.",
+        "keywords": [
+          "regulation"
+        ],
+        "created_at": "2026-09-27T16:44:58.319474+00:00",
+        "updated_at": "2026-09-27T16:44:58.319474+00:00",
+        "schema_version": "event_v1",
+        "country": null,
+        "region": null,
+        "location_basis": "unresolved",
+        "coordinate_precision": null
+      },
+      "candidate_channels": [
+        {
+          "channel_family": "regulatory_general",
+          "channel_subtype": "unspecified",
+          "confidence": 0.75,
+          "basis": [
+            "regulatory_channel"
+          ],
+          "status": "candidate"
+        }
+      ],
+      "ticker_analysis": [
+        {
+          "ticker": "MSFT",
+          "qualification": "candidate_requires_review",
+          "relationship_type": "direct_mention",
+          "direct_mention": true,
+          "relevance_score": 0.15,
+          "relevance_level": "Mention only",
+          "relevance_components": {
+            "values": {
+              "direct_mention": 1.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0
+            },
+            "contributions": {
+              "direct_mention": 0.15,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0
+            }
+          },
+          "score_method": "relationship_components_v1",
+          "legacy_relevance_score": 0.15,
+          "score_interpretation": "Uncalibrated relationship policy score, not a probability or impact estimate.",
+          "economic_channels": [],
+          "relationship_paths": [],
+          "evidence": [],
+          "evidence_strength": {
+            "relationship_level": "Mention only",
+            "basis": "existing exposure-record curation status",
+            "independently_verified": false,
+            "article_confirmation": "single_source",
+            "article_source_quality": null,
+            "article_source": "pass.dawn.com",
+            "article_url": "https://pass.dawn.com/news/2033076/bill-gates-joins-calls-for-ai-safeguards-including-legislation",
+            "note": "Curator-verified relationship is not independent confirmation of this event or its financial impact."
+          },
+          "article_evidence": {
+            "event_type": {
+              "value": "government_policy",
+              "evidence": " that aired on Sunday, calling for legislation to be passed in Congress.",
+              "source_field": "body",
+              "basis": "article_text"
+            },
+            "event_subtype": {
+              "value": "regulation",
+              "evidence": " that aired on Sunday, calling for legislation to be passed in Congress.",
+              "source_field": "body",
+              "basis": "article_text"
+            },
+            "event_summary": {
+              "value": " that aired on Sunday, calling for legislation to be passed in Congress.",
+              "evidence": " that aired on Sunday, calling for legislation to be passed in Congress.",
+              "source_field": "body",
+              "basis": "article_text"
+            },
+            "keywords": {
+              "value": [
+                "regulation"
+              ],
+              "evidence": " that aired on Sunday, calling for legislation to be passed in Congress.",
+              "source_field": "body",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": " that aired on Sunday, calling for legislation to be passed in Congress.",
+                  "source_field": "body"
+                }
+              ]
+            },
+            "canonical_headline": {
+              "value": "Bill Gates joins calls for AI safeguards, including legislation",
+              "evidence": "Bill Gates joins calls for AI safeguards, including legislation",
+              "source_field": "headline",
+              "basis": "article_text"
+            },
+            "source_count": {
+              "value": 1,
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "independent_source_count": {
+              "value": 1,
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "event_status": {
+              "value": "developing",
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "confirmation_level": {
+              "value": "single_source",
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "extraction_confidence": {
+              "value": 0.7,
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "published_at_first": {
+              "value": "2026-09-27T21:40:08+05:00",
+              "evidence": "2026-09-27T21:40:08+05:00",
+              "source_field": "published_at",
+              "basis": "provider_metadata"
+            },
+            "first_seen_at": {
+              "value": "2026-09-27T16:44:58.319474+00:00",
+              "evidence": "2026-09-27T16:44:58.319474+00:00",
+              "source_field": "fetched_at",
+              "basis": "provider_metadata"
+            },
+            "last_seen_at": {
+              "value": "2026-09-27T16:44:58.319474+00:00",
+              "evidence": "2026-09-27T16:44:58.319474+00:00",
+              "source_field": "fetched_at",
+              "basis": "provider_metadata"
+            },
+            "regulatory_channel": {
+              "value": true,
+              "evidence": " that aired on Sunday, calling for legislation to be passed in Congress.",
+              "source_field": "body",
+              "basis": "article_text",
+              "assertion": "affirmed"
+            },
+            "technologies_mentioned": {
+              "value": [
+                "AI"
+              ],
+              "evidence": "Bill Gates joins calls for AI safeguards, including legislation",
+              "source_field": "headline",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "Bill Gates joins calls for AI safeguards, including legislation",
+                  "source_field": "headline"
+                }
+              ]
+            },
+            "companies_mentioned": {
+              "value": [
+                "Microsoft"
+              ],
+              "evidence": "at go beyond self-regulation, Microsoft co-founder Bill Gates said in an interview that aired on Sunday, call",
+              "source_field": "body",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "at go beyond self-regulation, Microsoft co-founder Bill Gates said in an interview that aired on Sunday, call",
+                  "source_field": "body"
+                }
+              ]
+            },
+            "tickers_mentioned": {
+              "value": [
+                "MSFT"
+              ],
+              "evidence": "at go beyond self-regulation, Microsoft co-founder Bill Gates said in an interview that aired on Sunday, call",
+              "source_field": "body",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "at go beyond self-regulation, Microsoft co-founder Bill Gates said in an interview that aired on Sunday, call",
+                  "source_field": "body"
+                }
+              ]
+            }
+          },
+          "temporal_status": {
+            "status": "no_qualified_edge",
+            "as_of": "2026-09-27T16:44:58.319474+00:00",
+            "article_availability_known": true,
+            "source_dates_independently_verified": false,
+            "note": "Composite or revised sources require per-fact historical provenance review."
+          },
+          "materiality": {
+            "level": "Unknown",
+            "status": "unquantified",
+            "factors": {
+              "event_severity": null,
+              "exposure": []
+            },
+            "missing_evidence": [
+              "Validated event-specific exposure scale and segment impact"
+            ],
+            "note": "Severity, exposure band and research priority do not establish financial materiality."
+          },
+          "historical_reaction": {
+            "status": "unavailable",
+            "probability": null,
+            "predictions": [],
+            "reason": "No archived context supplied.",
+            "disclosure": "Experimental historical association only. Not directional or causal. Retrospective OOS results may use historical backfill; not a live prediction.",
+            "used_for_relevance": false,
+            "used_for_priority": false
+          },
+          "research_priority": {
+            "level": "Review",
+            "score": null,
+            "method": "attention_policy_v2",
+            "reason": "Relationship Mention only; severity Unknown; evidence Mention only.",
+            "interpretation": "Analyst attention only. No direction, expected return or ML input."
+          },
+          "direction": "Analyst judgment required",
+          "explanation": "MSFT is mentioned in the article; no qualified exposure match was found.",
+          "next_questions": [
+            "Verify the original event report and whether later updates changed the facts.",
+            "Determine whether the named company is an affected party or merely an observer.",
+            "Find a sourced, temporally valid economic relationship before treating this as qualified exposure."
+          ],
+          "relevance": {
+            "level": "Mention only",
+            "relationship_score": 0.15,
+            "reason": "MSFT is mentioned in the article; no qualified exposure match was found.",
+            "interpretation": "Uncalibrated relationship policy score; not probability or expected return."
+          },
+          "evidence_assessment": {
+            "level": "Mention only",
+            "reason": "existing exposure-record curation status"
+          },
+          "financial_materiality": {
+            "level": "Insufficient evidence",
+            "reason": "No validated event-specific financial amount/denominator established.",
+            "legacy": {
+              "level": "Unknown",
+              "status": "unquantified",
+              "factors": {
+                "event_severity": null,
+                "exposure": []
+              },
+              "missing_evidence": [
+                "Validated event-specific exposure scale and segment impact"
+              ],
+              "note": "Severity, exposure band and research priority do not establish financial materiality."
+            }
+          },
+          "historical_context": {
+            "available": false,
+            "disclosure": "Retrospective context only; not a live directional prediction.",
+            "details": {
+              "status": "unavailable",
+              "probability": null,
+              "predictions": [],
+              "reason": "No archived context supplied.",
+              "disclosure": "Experimental historical association only. Not directional or causal. Retrospective OOS results may use historical backfill; not a live prediction.",
+              "used_for_relevance": false,
+              "used_for_priority": false
+            }
+          },
+          "quantitative": {
+            "relevance": {
+              "value": 0.1,
+              "kind": "normalized_heuristic",
+              "method": "weighted_supported_relationship_terms_v3",
+              "weights": {
+                "mention": 0.1,
+                "direct_subject": 0.35,
+                "eligible_edge": 0.35,
+                "channel": 0.1,
+                "country": 0.05,
+                "counterparty": 0.05
+              },
+              "inputs": {
+                "mention": 1.0,
+                "direct_subject": 0.0,
+                "eligible_edge": 0.0,
+                "channel": 0.0,
+                "country": 0.0,
+                "counterparty": 0.0
+              },
+              "contributions": {
+                "mention": 0.1,
+                "direct_subject": 0.0,
+                "eligible_edge": 0.0,
+                "channel": 0.0,
+                "country": 0.0,
+                "counterparty": 0.0
+              },
+              "interpretation": "Not P(relevant); not calibrated or a financial-impact estimate."
+            },
+            "confidence": {
+              "value": null,
+              "kind": "qualitative_evidence_components",
+              "source_quality_policy_notice": "Qualitative source-quality policy tier; not a calibrated probability, truth probability, statistical accuracy estimate, or model confidence.",
+              "source_quality": "Unknown",
+              "extraction_self_assessment": 0.9,
+              "relationship_evidence_quality": "Mention only",
+              "interpretation": "Qualitative source policy and relationship evidence; extraction confidence is uncalibrated model self-assessment, not factual accuracy. No composite probability or confidence score is computed."
+            },
+            "time_decay": {
+              "value": 0.9992239350718071,
+              "age_hours": 0.08064429833333334,
+              "half_life_hours": 72.0,
+              "lambda_per_hour": 0.009627044174443685,
+              "as_of": "2026-09-27T16:44:58.319474+00:00",
+              "interpretation": "Recency factor, not causal impact; future/invalid publication time gives null."
+            },
+            "impact": {
+              "value": null,
+              "magnitude": null,
+              "directional_exposure": null,
+              "surprise": null,
+              "reason": "Event-specific magnitude, direction and surprise not established."
+            }
+          }
+        }
+      ],
+      "edge_exclusions": [
+        {
+          "event_id": "evt_6272c972615fadfd480e2d67",
+          "edge_id": "4",
+          "reason": "non_operating_capacity"
+        },
+        {
+          "event_id": "evt_6272c972615fadfd480e2d67",
+          "edge_id": "19",
+          "reason": "blocked_or_hypothesis_evidence"
+        }
+      ],
+      "status": "actionable_event",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "actionable_event",
+      "published_at": "2026-09-27T21:40:08+05:00",
+      "geography": {
+        "event_country": null,
+        "event_region": null,
+        "event_city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "location_confidence": null,
+        "coordinate_basis": null,
+        "evidence": [],
+        "coordinate_precision": null
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship Mention only; severity Unknown; evidence Mention only.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      },
+      "enrichment": {
+        "status": "available",
+        "schema_version": "news_semantic_v3_1",
+        "prompt_version": "news_semantics_v3_1_sentence_grounding",
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "requested_model": "gemini-3.5-flash-lite",
+        "content_hash": "f80cdcfbb112cd78d7b14263ce52145fdfaa3c8819531162a1b1061ac3b42ae4",
+        "article_content_hash": "eb6d61291b597f08840884344e9b1ae539a488ff03630bd0ca6aca3ea1cfd808",
+        "generated_at": "2026-09-27T16:45:06.766081+00:00",
+        "semantic": {
+          "article_class": "regulatory_event",
+          "is_relevant_candidate": true,
+          "summary_short": "Bill Gates joins calls for AI safeguards, including legislation",
+          "summary_full": "Bill Gates joins calls for AI safeguards, including legislation. “No one thinks self-regulation is enough,” Microsoft co-founder says.",
+          "primary_country": "United States",
+          "event_type": "regulatory_event",
+          "event_subtype": "regulatory_proposal",
+          "countries": [
+            "United States"
+          ],
+          "entities": [
+            "Bill Gates",
+            "Congress",
+            "Microsoft"
+          ],
+          "companies_mentioned": [
+            "Microsoft"
+          ],
+          "direct_ticker_candidates": [
+            "MSFT"
+          ],
+          "economic_channels": [
+            "regulatory"
+          ],
+          "candidate_indirect_tickers": [],
+          "missing_information": [
+            "Specific legislative bills or timelines under discussion"
+          ],
+          "research_questions": [
+            "What specific legislative proposals on AI safeguards are currently being introduced in Congress?"
+          ],
+          "severity_candidate": "Low",
+          "severity_reason": "The article discusses commentary and calls for legislation by a prominent figure rather than an enacted law or direct operational disruption.",
+          "severity_confidence": 0.8,
+          "operational_event": false,
+          "fundamental_change_detected": false,
+          "llm_confidence": 0.9,
+          "citations": [
+            {
+              "field": "summary_short",
+              "quote": "Bill Gates joins calls for AI safeguards, including legislation",
+              "source_field": "headline"
+            },
+            {
+              "field": "summary_full",
+              "quote": "Bill Gates joins calls for AI safeguards, including legislation",
+              "source_field": "headline"
+            },
+            {
+              "field": "summary_full",
+              "quote": "“No one thinks self-regulation is enough,” Microsoft co-founder says.",
+              "source_field": "summary"
+            },
+            {
+              "field": "primary_country",
+              "quote": "Congress",
+              "source_field": "body"
+            },
+            {
+              "field": "event_type",
+              "quote": "legislation",
+              "source_field": "headline"
+            },
+            {
+              "field": "event_subtype",
+              "quote": "legislation",
+              "source_field": "headline"
+            },
+            {
+              "field": "article_class",
+              "quote": "legislation",
+              "source_field": "headline"
+            },
+            {
+              "field": "economic_channels",
+              "quote": "legislation",
+              "source_field": "headline"
+            },
+            {
+              "field": "severity_candidate",
+              "quote": "legislation",
+              "source_field": "headline"
+            },
+            {
+              "field": "operational_event",
+              "quote": "legislation",
+              "source_field": "headline"
+            },
+            {
+              "field": "fundamental_change_detected",
+              "quote": "legislation",
+              "source_field": "headline"
+            },
+            {
+              "field": "direct_ticker_candidates",
+              "quote": "Microsoft",
+              "source_field": "headline"
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": null,
+          "output_tokens": null,
+          "total_tokens": 1111,
+          "estimated_cost_usd": null,
+          "scope": "successful response only; failed-attempt usage unavailable"
+        },
+        "cache_hit": false,
+        "attempts": [
+          {
+            "attempt": 1,
+            "provider": "gemini",
+            "model": "gemini-3.5-flash-lite",
+            "status": "success"
+          }
+        ],
+        "attempt_audit_scope": "original enrichment generation; cache reuse makes no new requests",
+        "attempt_count": 1,
+        "retry_count": 0,
+        "fallback_used": false,
+        "point_in_time_note": "Generated at the recorded enrichment time; not evidence the AI output was available when the article was published. Exposure eligibility still uses the original article replay time."
+      },
+      "semantic_validation": {
+        "status": "validated_constraints",
+        "accepted": {
+          "article_class": {
+            "value": "regulatory_event",
+            "citations": [
+              {
+                "field": "article_class",
+                "quote": "legislation",
+                "source_field": "headline"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "event_type": {
+            "value": "regulatory_event",
+            "citations": [
+              {
+                "field": "event_type",
+                "quote": "legislation",
+                "source_field": "headline"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "event_subtype": {
+            "value": "regulatory_proposal",
+            "citations": [
+              {
+                "field": "event_subtype",
+                "quote": "legislation",
+                "source_field": "headline"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "economic_channels": {
+            "value": [
+              "regulatory"
+            ],
+            "citations": [
+              {
+                "field": "economic_channels",
+                "quote": "legislation",
+                "source_field": "headline"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "operational_event": {
+            "value": false,
+            "citations": [
+              {
+                "field": "operational_event",
+                "quote": "legislation",
+                "source_field": "headline"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "fundamental_change_detected": {
+            "value": false,
+            "citations": [
+              {
+                "field": "fundamental_change_detected",
+                "quote": "legislation",
+                "source_field": "headline"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "summary_short": {
+            "value": "Bill Gates joins calls for AI safeguards, including legislation",
+            "status": "source_grounded_candidate",
+            "sentence_validation": [
+              {
+                "sentence": "Bill Gates joins calls for AI safeguards, including legislation",
+                "accepted": true,
+                "supporting_quotes": [
+                  "Bill Gates joins calls for AI safeguards, including legislation"
+                ],
+                "source_fields": [
+                  "headline"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "Bill Gates joins calls for AI safeguards, including legislation",
+                "source_field": "headline"
+              }
+            ],
+            "reason": null
+          },
+          "summary_full": {
+            "value": "Bill Gates joins calls for AI safeguards, including legislation. “No one thinks self-regulation is enough,” Microsoft co-founder says.",
+            "status": "source_grounded_candidate",
+            "sentence_validation": [
+              {
+                "sentence": "Bill Gates joins calls for AI safeguards, including legislation.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "Bill Gates joins calls for AI safeguards, including legislation"
+                ],
+                "source_fields": [
+                  "headline"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "Bill Gates joins calls for AI safeguards, including legislation",
+                "source_field": "headline"
+              },
+              {
+                "sentence": "“No one thinks self-regulation is enough,” Microsoft co-founder says.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "“No one thinks self-regulation is enough,” Microsoft co-founder says."
+                ],
+                "source_fields": [
+                  "summary"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "“No one thinks self-regulation is enough,” Microsoft co-founder says.",
+                "source_field": "summary"
+              }
+            ],
+            "reason": null
+          }
+        },
+        "summary_validation": {
+          "summary_short": {
+            "value": "Bill Gates joins calls for AI safeguards, including legislation",
+            "status": "source_grounded_candidate",
+            "sentence_validation": [
+              {
+                "sentence": "Bill Gates joins calls for AI safeguards, including legislation",
+                "accepted": true,
+                "supporting_quotes": [
+                  "Bill Gates joins calls for AI safeguards, including legislation"
+                ],
+                "source_fields": [
+                  "headline"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "Bill Gates joins calls for AI safeguards, including legislation",
+                "source_field": "headline"
+              }
+            ],
+            "reason": null
+          },
+          "summary_full": {
+            "value": "Bill Gates joins calls for AI safeguards, including legislation. “No one thinks self-regulation is enough,” Microsoft co-founder says.",
+            "status": "source_grounded_candidate",
+            "sentence_validation": [
+              {
+                "sentence": "Bill Gates joins calls for AI safeguards, including legislation.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "Bill Gates joins calls for AI safeguards, including legislation"
+                ],
+                "source_fields": [
+                  "headline"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "Bill Gates joins calls for AI safeguards, including legislation",
+                "source_field": "headline"
+              },
+              {
+                "sentence": "“No one thinks self-regulation is enough,” Microsoft co-founder says.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "“No one thinks self-regulation is enough,” Microsoft co-founder says."
+                ],
+                "source_fields": [
+                  "summary"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "“No one thinks self-regulation is enough,” Microsoft co-founder says.",
+                "source_field": "summary"
+              }
+            ],
+            "reason": null
+          }
+        },
+        "rejections": [
+          {
+            "field": "direct_ticker_candidates",
+            "reason": "Citation is not a substantive exact source span."
+          },
+          {
+            "field": "primary_country",
+            "reason": "Country failed deterministic event-geography validation; contextual location is not event location."
+          }
+        ],
+        "candidate_relationships": [
+          {
+            "ticker": "MSFT",
+            "kind": "direct_ticker_candidates",
+            "state": "unverified",
+            "reason": "No eligible matching exposure/action evidence; candidate cannot qualify itself.",
+            "edge_ids": []
+          }
+        ],
+        "classification_arbitration": {
+          "status": "grounded_semantic_candidate",
+          "deterministic": {
+            "article_class": "actionable_event",
+            "event_type": "government_policy",
+            "event_subtype": "regulation"
+          },
+          "semantic_candidate": {
+            "article_class": "regulatory_event",
+            "event_type": "regulatory_event",
+            "event_subtype": "regulatory_proposal"
+          },
+          "decision": "classification_conflict",
+          "reason": "Grounded semantic classification conflicts with a specific deterministic classification; final arbitration must resolve the main-event evidence.",
+          "final": {
+            "article_class": "actionable_event",
+            "event_type": "government_policy",
+            "event_subtype": "regulation"
+          },
+          "authority": "This validator exposes grounded candidates only; research_v3 remains final classification authority."
+        },
+        "notice": "Source-grounded AI extraction is not independent fact verification. Candidate fields do not qualify ticker exposure."
+      },
+      "classification_assessment": {
+        "candidates": {
+          "article_class": "regulatory_event",
+          "event_type": "regulatory_event",
+          "event_subtype": "regulatory_proposal",
+          "operational_event": false,
+          "fundamental_change_detected": false
+        },
+        "source_grounded_candidates": {
+          "article_class": {
+            "value": "regulatory_event",
+            "citations": [
+              {
+                "field": "article_class",
+                "quote": "legislation",
+                "source_field": "headline"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "event_type": {
+            "value": "regulatory_event",
+            "citations": [
+              {
+                "field": "event_type",
+                "quote": "legislation",
+                "source_field": "headline"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "event_subtype": {
+            "value": "regulatory_proposal",
+            "citations": [
+              {
+                "field": "event_subtype",
+                "quote": "legislation",
+                "source_field": "headline"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "operational_event": {
+            "value": false,
+            "citations": [
+              {
+                "field": "operational_event",
+                "quote": "legislation",
+                "source_field": "headline"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "fundamental_change_detected": {
+            "value": false,
+            "citations": [
+              {
+                "field": "fundamental_change_detected",
+                "quote": "legislation",
+                "source_field": "headline"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          }
+        },
+        "validator_candidate": {
+          "status": "grounded_semantic_candidate",
+          "deterministic": {
+            "article_class": "actionable_event",
+            "event_type": "government_policy",
+            "event_subtype": "regulation"
+          },
+          "semantic_candidate": {
+            "article_class": "regulatory_event",
+            "event_type": "regulatory_event",
+            "event_subtype": "regulatory_proposal"
+          },
+          "decision": "classification_conflict",
+          "reason": "Grounded semantic classification conflicts with a specific deterministic classification; final arbitration must resolve the main-event evidence.",
+          "final": {
+            "article_class": "actionable_event",
+            "event_type": "government_policy",
+            "event_subtype": "regulation"
+          },
+          "authority": "This validator exposes grounded candidates only; research_v3 remains final classification authority."
+        },
+        "arbitration": {
+          "decision": "deterministic_only",
+          "reason": "No grounded semantic event candidate maps safely into the existing event taxonomy.",
+          "deterministic": {
+            "article_class": "actionable_event",
+            "event_type": "government_policy",
+            "event_subtype": "regulation"
+          },
+          "canonical_semantic_candidate": null,
+          "final": {
+            "article_class": "actionable_event",
+            "event_type": "government_policy",
+            "event_subtype": "regulation"
+          },
+          "applied": false
+        },
+        "final": {
+          "article_class": "actionable_event",
+          "event_type": "government_policy",
+          "event_subtype": "regulation"
+        },
+        "authority": "Grounded semantic candidates may refine classification only through bounded deterministic arbitration; exposure, severity and financial impact remain independently controlled.",
+        "direct_event_subjects_pre_arbitration": [],
+        "direct_event_subjects_post_arbitration": [],
+        "downstream_relationships_recomputed": false
+      },
+      "article_summary": {
+        "summary_short": "Bill Gates joins calls for AI safeguards, including legislation",
+        "summary_full": "Bill Gates joins calls for AI safeguards, including legislation. “No one thinks self-regulation is enough,” Microsoft co-founder says.",
+        "source": "ai_source_grounded",
+        "notice": "AI summary of the supplied article; not independent verification."
+      },
+      "severity_assessment": {
+        "severity_candidate": "Low",
+        "severity_reason": "The article discusses commentary and calls for legislation by a prominent figure rather than an enacted law or direct operational disruption.",
+        "severity_confidence": 0.8,
+        "severity_final": "Unknown",
+        "severity_source": "rule",
+        "validation": "LLM candidate retained for audit; final severity requires the existing non-negated article rules.",
+        "rule_evidence": []
+      },
+      "feed": {
+        "state": "surface",
+        "reason": "Watchlist company explicitly mentioned; qualification is separate."
+      },
+      "content_type": "event",
+      "display_type": "event",
+      "intake": {
+        "content_type": "event",
+        "reason": "Existing V3.2.2 research-intelligence eligibility preserved; final event gate remains authoritative.",
+        "signals": [],
+        "method": "live_content_v3_2_3"
+      }
+    }
+  },
+  "usage": {
+    "2026-09-27": 1
+  },
+  "window": {
+    "start": "2026-09-27T15:44:58.319474+00:00",
+    "end": "2026-09-27T16:44:58.319474+00:00",
+    "page": 1
+  }
+}

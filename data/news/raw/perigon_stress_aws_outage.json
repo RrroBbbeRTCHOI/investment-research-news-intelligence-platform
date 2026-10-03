@@ -1,0 +1,1673 @@
+{
+  "_ingestion": {
+    "provider": "perigon",
+    "query_name": "stress_aws_outage",
+    "query": "\"AWS\" AND (\"outage\" OR \"service disruption\")",
+    "fetched_at": "2026-09-25T14:05:34.832820+00:00"
+  },
+  "raw_response": {
+    "status": 200,
+    "numResults": 10000,
+    "articles": [
+      {
+        "url": "https://thenewstack.io/openai-cursor-coordinator-agents/",
+        "authorsByline": "Robert Kimani",
+        "articleId": "2b7287345cf540008414966a253803a2",
+        "clusterId": "0165f5d9034543f3a1cfc0be2641751f",
+        "source": {
+          "domain": "thenewstack.io",
+          "location": {
+            "country": "us",
+            "state": "OR",
+            "county": "Multnomah County",
+            "city": "Portland",
+            "coordinates": {
+              "lat": 45.5202471,
+              "lon": -122.6741949
+            }
+          }
+        },
+        "imageUrl": "https://cdn.thenewstack.io/media/2026/09/d6e7dae7-ilgmyzin-fzh0x9s28cy-unsplash-scaled.jpg",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-09-25T12:00:00+00:00",
+        "addDate": "2026-09-25T12:18:41.090192+00:00",
+        "refreshDate": "2026-09-25T12:18:41.090194+00:00",
+        "score": 1.0,
+        "title": "OpenAI and Cursor agree on agent coordinators. They disagree on who runs them.",
+        "description": "OpenAI opened its Agents API in public beta this month, exposing the harness that powers Codex with managed sessions, tool",
+        "content": "OpenAI opened its Agents API in public beta this month, exposing the harness that powers Codex with managed sessions, tool coordination, and subagent orchestration. On the same day, September 10, Curs... [16915 symbols]",
+        "enContentWordCount": 2878,
+        "medium": "Article",
+        "links": [
+          "https://modelcontextprotocol.io/",
+          "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/",
+          "https://www.infoworld.com/article/4156852/anthropic-rolls-out-claude-managed-agents.html",
+          "https://docs.github.com/en/copilot/how-tos/copilot-sdk/use-copilot-sdk/custom-agents",
+          "https://www.youtube.com/playlist?list=PLbMP1JcGBmSGKO8UreWpOBOhCqilejhtd",
+          "https://openai.com/index/agentic-ai-foundation/",
+          "https://thenewstack.io/author/robertkimani/",
+          "https://research.trychroma.com/context-rot",
+          "https://arxiv.org/pdf/2602.21012",
+          "https://cursor.com/blog/cloud-agent-lessons",
+          "https://www.cncf.io/blog/2026/03/23/cloud-native-agentic-standards/",
+          "https://thenewstack.io/openai-agents-api-compute/",
+          "https://www.linkedin.com/in/hilliary-lipsig-a5935245/",
+          "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
+          "https://www.anthropic.com/engineering/building-effective-agents",
+          "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-bedrock-agentcore-available",
+          "https://claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them",
+          "https://arxiv.org/html/2605.12366v1",
+          "https://youtube.com/thenewstack?sub_confirmation=1",
+          "https://thenewstack.io/kubernetes/",
+          "https://openai.com/index/introducing-the-agents-api/",
+          "https://cursor.com/blog/projects",
+          "https://www.anthropic.com/engineering/multi-agent-research-system"
+        ],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": null,
+            "name": "Robert Kimani"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "agent context",
+            "weight": 0.09763502
+          },
+          {
+            "name": "agent coordinators",
+            "weight": 0.09510696
+          },
+          {
+            "name": "different agents",
+            "weight": 0.09136124
+          },
+          {
+            "name": "single agents",
+            "weight": 0.0905318
+          },
+          {
+            "name": "agent",
+            "weight": 0.090474166
+          },
+          {
+            "name": "agents",
+            "weight": 0.090474166
+          },
+          {
+            "name": "coding agents",
+            "weight": 0.09040833
+          },
+          {
+            "name": "worker agents",
+            "weight": 0.090142064
+          },
+          {
+            "name": "specialized agents",
+            "weight": 0.08917278
+          },
+          {
+            "name": "multiple agents",
+            "weight": 0.08910144
+          }
+        ],
+        "topics": [
+          {
+            "name": "AI"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Tech"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/Computers & Electronics/Software/Business & Productivity Software",
+            "score": 0.804405927658081
+          },
+          {
+            "name": "/Science/Computer Science/Machine Learning & Artificial Intelligence",
+            "score": 0.7905303239822388
+          },
+          {
+            "name": "/News/Technology News",
+            "score": 0.7490872144699097
+          },
+          {
+            "name": "/News/Business News/Company News",
+            "score": 0.5226894617080688
+          },
+          {
+            "name": "/Computers & Electronics/Enterprise Technology/Other",
+            "score": 0.4670886695384979
+          },
+          {
+            "name": "/Computers & Electronics/Enterprise Technology/Data Management",
+            "score": 0.33982762694358826
+          },
+          {
+            "name": "/Computers & Electronics/Programming/Other",
+            "score": 0.3372035324573517
+          }
+        ],
+        "entities": [
+          {
+            "data": "OpenAI",
+            "type": "ORG",
+            "mentions": 11
+          },
+          {
+            "data": "Cursor",
+            "type": "ORG",
+            "mentions": 5
+          },
+          {
+            "data": "AWS",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Anthropic",
+            "type": "ORG",
+            "mentions": 6
+          },
+          {
+            "data": "Red Hat",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Azure",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "YouTube",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "GitHub",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Temporal",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "MCP",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "the Agentic AI Foundation",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Block",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Google",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Microsoft",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Bloomberg",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Cloudflare",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "OWASP",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "METR",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Redwood Research",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Hugging Face",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Slack",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Projects",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Codex",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Projects",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Bedrock AgentCore",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Claude Managed Agents",
+            "type": "PRODUCT",
+            "mentions": 3
+          },
+          {
+            "data": "OpenShift SRE",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Kubernetes",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Claude Opus 4.6",
+            "type": "PRODUCT",
+            "mentions": 2
+          },
+          {
+            "data": "Claude Sonnet 4",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Cursor",
+            "type": "PRODUCT",
+            "mentions": 4
+          },
+          {
+            "data": "MCP",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Hugging Face",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Artifactory",
+            "type": "PRODUCT",
+            "mentions": 2
+          },
+          {
+            "data": "Hilliary Lipsig",
+            "type": "PERSON",
+            "mentions": 7
+          },
+          {
+            "data": "the International AI Safety Report",
+            "type": "LAW",
+            "mentions": 1
+          },
+          {
+            "data": "twenty-minute",
+            "type": "TIME",
+            "mentions": 1
+          },
+          {
+            "data": "U.S.",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Artifactory",
+            "type": "FAC",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "955c13eff06d4b98b0c8c81916d2716d",
+            "name": "Cursor",
+            "domains": [
+              "cursor.com"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "6d688831f698495281098a1d24465e33",
+            "name": "OpenAI",
+            "domains": [
+              "openai.com"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "3e470e759f7640fdbf5d22e2dffa277c",
+            "name": "Anthropic",
+            "domains": [
+              "anthropic.com"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "74a72f5dd7004ced9d4698a27862eb36",
+            "name": "GitHub",
+            "domains": [
+              "github.com"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "05ee0cc3ab2b4b2b9e815829f331fcc8",
+            "name": "Red Hat Inc.",
+            "domains": [
+              "redhat.com"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "e4d74ce7f47f46a2bddd0302376b2b31",
+            "name": "Amazon Web Services",
+            "domains": [
+              "aws.amazon.com"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "b7ef7018b2e94cd9ac991d783800f4d3",
+            "name": "Block, Inc.",
+            "domains": [
+              "block.xyz"
+            ],
+            "symbols": [
+              "0L95.IL",
+              "0L95.L",
+              "SQ3.F",
+              "XYZ.AX",
+              "XYZ",
+              "BSQKZ",
+              "SQ",
+              "SQ2.AX"
+            ]
+          },
+          {
+            "id": "5b4a584032bd420b967b770d18d10bc9",
+            "name": "Temporal",
+            "domains": [
+              "temporal.io"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "0576df84f44440c6bfa3d059175eec8b",
+            "name": "Cloudflare, Inc.",
+            "domains": [
+              "cloudflare.com"
+            ],
+            "symbols": [
+              "NET"
+            ]
+          },
+          {
+            "id": "4de51cf8472b4ce7a5aecdf52a1de4c0",
+            "name": "Microsoft Corporation",
+            "domains": [
+              "microsoft.com"
+            ],
+            "symbols": [
+              "MSF.DE",
+              "MSF.F",
+              "MSFT",
+              "MSFT.NE",
+              "MSF.BR",
+              "4338.HK"
+            ]
+          },
+          {
+            "id": "f1d262a1353b4567858f806721fe8cb8",
+            "name": "Google",
+            "domains": [
+              "about.google"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "0503d3b65e02452698aa02a49f94e1ea",
+            "name": "Slack Technologies, Inc.",
+            "domains": [
+              "slack.com"
+            ],
+            "symbols": []
+          }
+        ],
+        "sentiment": {
+          "positive": 0.14012651,
+          "negative": 0.40310064,
+          "neutral": 0.45677286
+        },
+        "summary": "OpenAI and Cursor, two major players in AI-assisted software development, have released their Agents API in public beta and launched Projects to coordinate multiple coding agents around larger software work. While these companies sit at different points in the stack, both converge on the same architecture: a coordinator understands the larger objective and manages the work, while specialized agents execute individual pieces. While the specialized agents do their work, the coordinator can act as a source of truth and guide the most efficient target agent. Hilliary Lipsig, a senior principal site reliability engineer at Red Hat, suggests that multi-agent workflows are the same concept, just in a new part of the technical stack. The problem with the single-agent loop is that maintaining reliability in a single context becomes harder. Multi-agent systems do not guarantee better software quality and increase costs and integration risks.",
+        "shortSummary": "OpenAI and Cursor both launch separate agent coordination tools, emphasizing the need for multi-agent workflows to ensure reliability and accuracy within complex software environments.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "b4219ba8c6c04fdea6872a92029e7dae",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://www.dice.com/career-advice/when-the-cloud-goes-dark-lessons-from-the-offpunk-philosophy",
+        "authorsByline": "David Bolton",
+        "articleId": "0516a5fd94df4342bb30238cd2cf4d9e",
+        "clusterId": "7a4f221e2b9a445f83e3a9134483ce79",
+        "source": {
+          "domain": "dice.com",
+          "location": {
+            "country": "us",
+            "state": "CA",
+            "county": "Santa Clara County",
+            "city": "San Jose",
+            "coordinates": {
+              "lat": 37.3361905,
+              "lon": -121.890583
+            }
+          }
+        },
+        "imageUrl": "https://www.dice.com/binaries/large/content/gallery/dice/insights/2026/09/adobestock_1865131083.jpeg",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-09-25T06:00:00+00:00",
+        "addDate": "2026-09-25T07:20:57.890948+00:00",
+        "refreshDate": "2026-09-25T07:20:57.890949+00:00",
+        "score": 1.0,
+        "title": "When the Cloud Goes Dark: Lessons From the Offpunk Philosophy",
+        "description": "Explore Offpunk, the movement pushing back on hyperconnectivity — and what rising internet outages and 'right to disconnect' laws mean for how tech pros work, stay resilient and even apply for jobs.",
+        "content": "So, your internet is down…\n\nBack a long time ago, my first experience of using computers was on a teletype connected over phone lines to a computer. When I went to university, I took a portable typewr... [5011 symbols]",
+        "enContentWordCount": 965,
+        "medium": "Article",
+        "links": [
+          "https://blog.ayom.media/ideiasdechirico/offpunk-manifesto",
+          "https://www.statista.com/chart/29415/global-internet-shutdowns-timeline/",
+          "https://lifehacker.com/tech/cloudflare-amazon-web-sites-and-services-down",
+          "https://ploum.net/index_en.html"
+        ],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": "dc34f707abcf483aa243388b9883bb82",
+            "name": "David Bolton"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "unmetered internet access",
+            "weight": 0.0697392
+          },
+          {
+            "name": "cloud services",
+            "weight": 0.065367095
+          },
+          {
+            "name": "streaming services",
+            "weight": 0.0619471
+          },
+          {
+            "name": "full connectivity loss",
+            "weight": 0.061646085
+          },
+          {
+            "name": "less connectivity",
+            "weight": 0.060464166
+          },
+          {
+            "name": "mobile connectivity",
+            "weight": 0.05949391
+          },
+          {
+            "name": "cellular services",
+            "weight": 0.058883473
+          },
+          {
+            "name": "connectivity",
+            "weight": 0.058204398
+          },
+          {
+            "name": "digital ID schemes",
+            "weight": 0.05717612
+          },
+          {
+            "name": "digital stuff",
+            "weight": 0.053396095
+          }
+        ],
+        "topics": [],
+        "categories": [
+          {
+            "name": "Tech"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Technology News",
+            "score": 0.42155182361602783
+          }
+        ],
+        "entities": [
+          {
+            "data": "Apple",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Compuserve",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Offpunk",
+            "type": "ORG",
+            "mentions": 7
+          },
+          {
+            "data": "statista",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "AWS",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Verizon",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "T-Mobile",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Google Maps",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Lifehacker",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Spotify",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Ploum",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "IIs",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "CBM Pets",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "TRSA-80s",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Gmail",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Gemini",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Tor",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Linux",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Windows",
+            "type": "PRODUCT",
+            "mentions": 2
+          },
+          {
+            "data": "Canadian",
+            "type": "NORP",
+            "mentions": 1
+          },
+          {
+            "data": "Marshall McLuhan",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Lionel Dricot",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Ploum",
+            "type": "PERSON",
+            "mentions": 2
+          },
+          {
+            "data": "any o’clock",
+            "type": "TIME",
+            "mentions": 1
+          },
+          {
+            "data": "working hours",
+            "type": "TIME",
+            "mentions": 1
+          },
+          {
+            "data": "France",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Portugal",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Belgium",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "UK",
+            "type": "GPE",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "bbd2ce9229dd48ae8a91ef7193b9b38c",
+            "name": "CompuServe",
+            "domains": [
+              "compuserve.com"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "5985872d662c4a3f941a9c581a9fce71",
+            "name": "Apple Inc.",
+            "domains": [
+              "apple.com"
+            ],
+            "symbols": [
+              "APC.F",
+              "APC.DE",
+              "AAPL",
+              "AAPL.MX",
+              "AAPL.NE",
+              "AAPL.DE"
+            ]
+          },
+          {
+            "id": "bf5354de0ff24aabaabdbceb91b57537",
+            "name": "Verizon Communications Inc.",
+            "domains": [
+              "verizon.com"
+            ],
+            "symbols": [
+              "BAC.DE",
+              "VZ",
+              "VZ.NE",
+              "VERIZ.BR",
+              "VZA"
+            ]
+          },
+          {
+            "id": "e4d74ce7f47f46a2bddd0302376b2b31",
+            "name": "Amazon Web Services",
+            "domains": [
+              "aws.amazon.com"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "812bd80502444c789671adb15515b829",
+            "name": "Spotify",
+            "domains": [
+              "spotify.com"
+            ],
+            "symbols": [
+              "639.DE",
+              "SPF.SW",
+              "SPOT"
+            ]
+          }
+        ],
+        "sentiment": {
+          "positive": 0.04515004,
+          "negative": 0.68990487,
+          "neutral": 0.26494506
+        },
+        "summary": "Developer Lionel Dricot (aka Ploum) has developed the Offpunk philosophy, which believes that the internet has become a prison. The philosophy is opposed to hyperconnectivity and suggests that living without a smart phone is a way to avoid dependence on the digital world. This includes ditching smartphones and switching to a dumb phone, using Bitchat (Bluetooth), the Gemini protocol for accessing remote documents, Tor and encrypted email, and using digital camera instead. The concept also suggests that when the internet goes down due to power cuts or political activity, many websites are powered by cloud services like Amazon, which can cause significant disruption. However, PlouM argues for less connectivity, perhaps switching to mesh network or working in a reduced connectivity environment.",
+        "shortSummary": "Offpunk philosophy advocates for a more hands-free, offline world, emphasizing essential practices to avoid dependence on internet for work and personal life, despite its dangers from connectivity issues.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "3979b2a3d722440b8a296a6dbcb7ccdc",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://www.escudodigital.com/en/technology/data-centers/someone-will-control-your-systems-and-your-digital-future-make-sure-that-someone-is-you-pearl-almedia.html",
+        "authorsByline": "Alberto Payo",
+        "articleId": "a363a6c5bb624faa916eb17752011c2f",
+        "clusterId": "aedc37ca20904f18a7dba90bea6331c4",
+        "source": {
+          "domain": "escudodigital.com",
+          "location": null
+        },
+        "imageUrl": "https://d3fkdmlbzjtjd3.cloudfront.net/articulos/articulos-91169.jpg",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-09-25T07:15:02+02:00",
+        "addDate": "2026-09-25T05:49:48.927368+00:00",
+        "refreshDate": "2026-09-25T05:49:48.927369+00:00",
+        "score": 1.0,
+        "title": "“Someone will control your systems and your digital future — make sure that someone is you”",
+        "description": "Pearl Almeida, a cybersecurity expert at Info Tech, has warned that the fact that US multinationals control 85% of the digital storage market poses a serious risk to digital sovereignty.",
+        "content": "In October of last year, a simple internal computer glitch caused a massive outage of Amazon Web Services (AWS) servers worldwide. What seemed like a routine technical problem quickly turned into a do... [10372 symbols]",
+        "enContentWordCount": 1864,
+        "medium": "Article",
+        "links": [
+          "https://www.infotech.com/events/barcelona-live"
+        ],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": "0e79831f536a40ea8b14c4a97601cd67",
+            "name": "Alberto Payo"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Digital sovereignty",
+            "weight": 0.07549094
+          },
+          {
+            "name": "digital sovereignty",
+            "weight": 0.07549094
+          },
+          {
+            "name": "U.S. companies",
+            "weight": 0.06700918
+          },
+          {
+            "name": "essential digital services",
+            "weight": 0.06664327
+          },
+          {
+            "name": "digital independence",
+            "weight": 0.06459624
+          },
+          {
+            "name": "foreign companies",
+            "weight": 0.059663877
+          },
+          {
+            "name": "companies",
+            "weight": 0.05963205
+          },
+          {
+            "name": "Many companies",
+            "weight": 0.059110854
+          },
+          {
+            "name": "sovereign technology",
+            "weight": 0.057916492
+          },
+          {
+            "name": "technology leaders",
+            "weight": 0.053694855
+          }
+        ],
+        "topics": [
+          {
+            "name": "Environment-ESG"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Tech"
+          },
+          {
+            "name": "Business"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Technology News",
+            "score": 0.9136765599250793
+          },
+          {
+            "name": "/Computers & Electronics/Computer Security/Network Security",
+            "score": 0.575588047504425
+          }
+        ],
+        "entities": [
+          {
+            "data": "Amazon Web Services",
+            "type": "ORG",
+            "mentions": 4
+          },
+          {
+            "data": "AWS",
+            "type": "ORG",
+            "mentions": 3
+          },
+          {
+            "data": "Info-Tech Research Group",
+            "type": "ORG",
+            "mentions": 4
+          },
+          {
+            "data": "Microsoft",
+            "type": "ORG",
+            "mentions": 4
+          },
+          {
+            "data": "Google",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Almeida",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "the European Commission's",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "the European Union",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "CISO",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Pearl Almeida",
+            "type": "PERSON",
+            "mentions": 8
+          },
+          {
+            "data": "European",
+            "type": "NORP",
+            "mentions": 8
+          },
+          {
+            "data": "U.S.",
+            "type": "GPE",
+            "mentions": 6
+          },
+          {
+            "data": "France",
+            "type": "GPE",
+            "mentions": 4
+          },
+          {
+            "data": "Germany",
+            "type": "GPE",
+            "mentions": 2
+          },
+          {
+            "data": "Japan",
+            "type": "GPE",
+            "mentions": 2
+          },
+          {
+            "data": "Europe",
+            "type": "LOC",
+            "mentions": 4
+          },
+          {
+            "data": "the Old Continent",
+            "type": "LOC",
+            "mentions": 2
+          },
+          {
+            "data": "the Cloud Act",
+            "type": "LAW",
+            "mentions": 2
+          },
+          {
+            "data": "Teams",
+            "type": "PRODUCT",
+            "mentions": 2
+          },
+          {
+            "data": "Zoom",
+            "type": "PRODUCT",
+            "mentions": 2
+          }
+        ],
+        "companies": [
+          {
+            "id": "e4d74ce7f47f46a2bddd0302376b2b31",
+            "name": "Amazon Web Services",
+            "domains": [
+              "aws.amazon.com"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "4afb790f172c46bd832bd785e17ca2ec",
+            "name": "European Union",
+            "domains": [
+              "european-union.europa.eu"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "f1d262a1353b4567858f806721fe8cb8",
+            "name": "Google",
+            "domains": [
+              "about.google"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "435e0daa7ea443ba89f0dd39e95dd71d",
+            "name": "Amazon.com, Inc.",
+            "domains": [
+              "amazon.com"
+            ],
+            "symbols": [
+              "AMZ.DE",
+              "AMZN"
+            ]
+          },
+          {
+            "id": "4de51cf8472b4ce7a5aecdf52a1de4c0",
+            "name": "Microsoft Corporation",
+            "domains": [
+              "microsoft.com"
+            ],
+            "symbols": [
+              "MSF.DE",
+              "MSF.F",
+              "MSFT",
+              "MSFT.NE",
+              "MSF.BR",
+              "4338.HK"
+            ]
+          }
+        ],
+        "sentiment": {
+          "positive": 0.04481443,
+          "negative": 0.69014734,
+          "neutral": 0.2650382
+        },
+        "summary": "Pearse Almeida, Director of Cybersecurity and Artificial Intelligence Research at Info-Tech Research Group and former CISO with extensive experience in national security, has warned that digital sovereignty is the foundation that defines the global economy, the future, and the balance of power between countries. She suggested that organizations assess their level of digital independence by asking four simple questions: where the data is stored, who can control it, who has the power to shut it down, and if it is safe to switch providers if needed. In the European cloud services market, U.S. companies hold 85% of the sector and just three major tech companies, Amazon, Microsoft, and Google, control almost 70%. Industry estimates suggest that between 80% and 90% of all digital infrastructure in Europe is in the hands of foreign companies. AlmeIDA also highlighted the vulnerability of this dependence on technology from other countries. To address this issue, public sector has taken action, including France's announcement to replace tools like Microsoft Teams and Zoom with a national videoconferencing platform by 2027 and the European Commission's awarding of 180 million euros in sovereign cloud contracts.",
+        "shortSummary": "The internet outage caused by Amazon's AWS outage highlighted the urgent need for companies to assess digital sovereignty and ensure their operations and data are safe and effective.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "d03d3cdce606406badc6783c3c5704a2",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://insight.tmcnet.com/insight/how-healthcare-providers-can-compare-disaster-recovery-options-mugh210n",
+        "authorsByline": "Rich Tehrani",
+        "articleId": "7dd67e3bfbdd428bb8e8b993b41bd62d",
+        "clusterId": "af704430e8f4440b9aba34ec2525a79d",
+        "source": {
+          "domain": "insight.tmcnet.com",
+          "location": null
+        },
+        "imageUrl": "https://insight.tmcnet.com/public-objects/articles/how-healthcare-providers-can-compare-disaster-recovery-options-2026-09-25.png",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-09-25T04:39:47.127000+00:00",
+        "addDate": "2026-09-25T04:44:57.668937+00:00",
+        "refreshDate": "2026-09-25T04:44:57.668939+00:00",
+        "score": 1.0,
+        "title": "How Healthcare Providers Can Compare Disaster Recovery Options",
+        "description": "A healthcare outage extends beyond an IT interruption. It can affect medication administration, imaging, laboratory processing, patient registration,",
+        "content": "Apex Technology Services: Start with patient safety and clinical service continuity, then translate those priorities into realistic recovery-time objective (RTO) and recovery-point objective (RPO) tar... [7362 symbols]",
+        "enContentWordCount": 1141,
+        "medium": "Article",
+        "links": [
+          "https://www.vmware.com/products/live-recovery.html",
+          "https://www.aha.org/news/aha-cyber-intel/2025-10-07-2025-cybersecurity-year-review-part-one-breaches-and-defensive-measures",
+          "https://docs.aws.amazon.com/drs/latest/userguide/what-is-drs.html",
+          "https://learn.microsoft.com/en-us/azure/site-recovery/site-recovery-overview",
+          "https://apextechservices.com/",
+          "https://oig.hhs.gov/reports/all/2026/review-of-the-department-of-health-and-human-services-compliance-with-the-federal-information-security-modernization-act-of-2014-for-fiscal-year-2025/"
+        ],
+        "labels": [
+          {
+            "name": "Non-news"
+          }
+        ],
+        "matchedAuthors": [
+          {
+            "id": "77ae0d15fec949de979ac5a067c0b96f",
+            "name": "Rich Tehrani"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "managed recovery services",
+            "weight": 0.09256516
+          },
+          {
+            "name": "disaster recovery",
+            "weight": 0.08800353
+          },
+          {
+            "name": "Disaster Recovery Options",
+            "weight": 0.08737998
+          },
+          {
+            "name": "recovery options",
+            "weight": 0.08643887
+          },
+          {
+            "name": "recovery targets",
+            "weight": 0.08549739
+          },
+          {
+            "name": "identity recovery",
+            "weight": 0.08523941
+          },
+          {
+            "name": "Traditional disaster recovery",
+            "weight": 0.08217698
+          },
+          {
+            "name": "recovery sequencing",
+            "weight": 0.082029656
+          },
+          {
+            "name": "recovery software",
+            "weight": 0.081478916
+          },
+          {
+            "name": "rapid recovery",
+            "weight": 0.081468664
+          }
+        ],
+        "topics": [
+          {
+            "name": "Environment-ESG"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Health"
+          },
+          {
+            "name": "Tech"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/Health/Medical Facilities & Services/Other",
+            "score": 0.8060905337333679
+          },
+          {
+            "name": "/Computers & Electronics/Software/Business & Productivity Software",
+            "score": 0.6902459859848022
+          },
+          {
+            "name": "/Computers & Electronics/Enterprise Technology/Other",
+            "score": 0.36658975481987
+          }
+        ],
+        "entities": [
+          {
+            "data": "Apex Technology Services",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "The HHS Office of Inspector General’s",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "HHS",
+            "type": "ORG",
+            "mentions": 3
+          },
+          {
+            "data": "The American Hospital Association’s",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Microsoft",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "AWS",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "VMware",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "HIPAA",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Azure Site Recovery",
+            "type": "PRODUCT",
+            "mentions": 3
+          },
+          {
+            "data": "Elastic Disaster Recovery",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Live Cyber Recovery",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "RISC 2.0",
+            "type": "LAW",
+            "mentions": 1
+          },
+          {
+            "data": "HIPAA",
+            "type": "LAW",
+            "mentions": 1
+          },
+          {
+            "data": "45 CFR § 164.308(a)(7)",
+            "type": "LAW",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "4de51cf8472b4ce7a5aecdf52a1de4c0",
+            "name": "Microsoft Corporation",
+            "domains": [
+              "microsoft.com"
+            ],
+            "symbols": [
+              "MSF.DE",
+              "MSF.F",
+              "MSFT",
+              "MSFT.NE",
+              "MSF.BR",
+              "4338.HK"
+            ]
+          },
+          {
+            "id": "a4a15ffd49d842c9b9f4187f1916e5df",
+            "name": "VMware, Inc.",
+            "domains": [
+              "vmware.com"
+            ],
+            "symbols": [
+              "BZF1.DE",
+              "VMW",
+              "0LQO.L"
+            ]
+          },
+          {
+            "id": "e4d74ce7f47f46a2bddd0302376b2b31",
+            "name": "Amazon Web Services",
+            "domains": [
+              "aws.amazon.com"
+            ],
+            "symbols": []
+          }
+        ],
+        "sentiment": {
+          "positive": 0.09337223,
+          "negative": 0.46614844,
+          "neutral": 0.44047937
+        },
+        "summary": "How to Compare Disaster Recovery Options to Healthcare Providers can help providers navigate between patient safety and clinical service continuity, and realistic recovery-time objectives (RTO) and recovery-point objective (RPO) targets. Compare recovery options on restoration testing, cyber resilience, interoperability, staffing demands, and infrastructure dependencies, not backup capacity. On-premises, cloud, hybrid, and managed approaches each have tradeoffs and many healthcare organizations will benefit from combining them by workload tier. The American Hospital Association's 2025 cybersecurity review also reviews breaches and defensive measures affecting healthcare. The HHS Office of Inspector General's fiscal year 2025 information-security review rated the department’s program “Not Effective” for the sixth consecutive year and placed its recovery metrics below the “Managed and Measurable” maturity level. Healthcare buyers should verify the proposed scope, contractual controls, recovery targets, testing responsibilities, and total cost for managed services and cloud-native tools.",
+        "shortSummary": "Apex Technology Services advises healthcare providers to prioritize patient safety and clinical service continuity over overall recovery options, focusing on operational resilience, interoperability, and managed recovery targets.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "87ccce1d45654b609da223dae86edf4d",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://undercodenews.com/ransomware-claim-hits-us-healthcare-provider-as-a-separate-supply-chain-attack-targets-developer-secrets-video/",
+        "authorsByline": "Humanoid Deep Analyser",
+        "articleId": "fd8a2520162a41e284065a7935272ebb",
+        "clusterId": "b65142859a6e43adb2c9cc531a86531e",
+        "source": {
+          "domain": "undercodenews.com",
+          "location": null
+        },
+        "imageUrl": "https://i0.wp.com/undercodenews.com/wp-content/uploads/RPbE0e4xH_response-1.jpeg",
+        "country": "",
+        "language": "en",
+        "pubDate": "2026-09-25T00:32:33-04:00",
+        "addDate": "2026-09-25T04:51:47.731734+00:00",
+        "refreshDate": "2026-09-25T04:51:47.731736+00:00",
+        "score": 1.0,
+        "title": "Ransomware Claim Hits US Healthcare Provider as a Separate Supply-Chain Attack Targets Developer Secrets + Video - UNDERCODE NEWS",
+        "description": "A ransomware group known as Pear has reportedly listed Indroj Medical Group Inc., a U.S. healthcare organization, on its leak site. The claim surfaced on",
+        "content": "A ransomware group known as Pear has reportedly listed Indroj Medical Group Inc., a U.S. healthcare organization, on its leak site. The claim surfaced on September 24–25, 2026, and is being tracked as... [11060 symbols]",
+        "enContentWordCount": 1675,
+        "medium": "Article",
+        "links": [
+          "https://undercodenews.com/ransomware-claim-hits-us-healthcare-provider-as-a-separate-supply-chain-attack-targets-developer-secrets-video/?share=x",
+          "https://undercodenews.com/apple-watch-series-12-finally-puts-your-steps-where-they-belong-right-on-your-wrist-video/",
+          "https://t.me/UndercodeCommunity",
+          "https://undercode.co.uk/certifications/",
+          "https://undercode.help/whatsapp",
+          "https://bsky.app/profile/undercodenews.bsky.social",
+          "https://undercodenews.com/cdn-cgi/l/email-protection#d0a0a2bfbab5b3a4a390a5beb4b5a2b3bfb4b5feb3bffea5bb",
+          "https://unsplash.com/",
+          "https://x.com/undercode_news",
+          "https://www.youtube.com/undercodenews/community",
+          "https://undercodenews.com/ransomware-claim-hits-us-healthcare-provider-as-a-separate-supply-chain-attack-targets-developer-secrets-video/?share=facebook",
+          "https://www.threads.net/@undercodenews",
+          "https://x.com/TweetThreatNews/status/2103337658772578757",
+          "https://undercodenews.com/samsung-galaxy-devices-face-a-new-us-patent-threat-as-boomcloud-360-pushes-audio-technology-case-toward-the-usitc-video/",
+          "https://www.wikipedia.org",
+          "https://www.linkedin.com/company/undercode-news/",
+          "https://undercodenews.com/frances-diesel-shock-deepens-as-middle-east-war-pushes-european-fuel-prices-to-record-levels-video/",
+          "https://mastodon.social/@undercodenews"
+        ],
+        "labels": [],
+        "matchedAuthors": [],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "stolen Indroj Medical Group information",
+            "weight": 0.08728047
+          },
+          {
+            "name": "Public NPI information",
+            "weight": 0.08331077
+          },
+          {
+            "name": "NPI information",
+            "weight": 0.08265783
+          },
+          {
+            "name": "Indroj Medical Group",
+            "weight": 0.08211599
+          },
+          {
+            "name": "Indroj Medical Group Inc.",
+            "weight": 0.07897004
+          },
+          {
+            "name": "Healthcare organizations",
+            "weight": 0.07380545
+          },
+          {
+            "name": "NPI records",
+            "weight": 0.07158643
+          },
+          {
+            "name": "alleged patient information",
+            "weight": 0.06991408
+          },
+          {
+            "name": "public NPI databases",
+            "weight": 0.06831717
+          },
+          {
+            "name": "NPI Registry",
+            "weight": 0.06829289
+          }
+        ],
+        "topics": [
+          {
+            "name": "Cyber Crime"
+          },
+          {
+            "name": "Security"
+          },
+          {
+            "name": "Security Breach"
+          },
+          {
+            "name": "Ransomware"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Health"
+          },
+          {
+            "name": "Tech"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/Computers & Electronics/Computer Security/Network Security",
+            "score": 0.872347354888916
+          },
+          {
+            "name": "/News/Technology News",
+            "score": 0.6610482335090637
+          },
+          {
+            "name": "/Computers & Electronics/Computer Security/Other",
+            "score": 0.5477060079574585
+          },
+          {
+            "name": "/Computers & Electronics/Computer Security/Hacking & Cracking",
+            "score": 0.4568943679332733
+          },
+          {
+            "name": "/Health/Medical Facilities & Services/Other",
+            "score": 0.4373428225517273
+          },
+          {
+            "name": "/News/Business News/Company News",
+            "score": 0.39606815576553345
+          },
+          {
+            "name": "/Health/Public Health/Health Policy",
+            "score": 0.3268083333969116
+          },
+          {
+            "name": "/Computers & Electronics/Enterprise Technology/Other",
+            "score": 0.31153160333633423
+          }
+        ],
+        "entities": [
+          {
+            "data": "US",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "U.S.",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Rancho Mirage",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "California",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Pear",
+            "type": "PRODUCT",
+            "mentions": 3
+          },
+          {
+            "data": "RansomWatch",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Python",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "PyPI",
+            "type": "PRODUCT",
+            "mentions": 3
+          },
+          {
+            "data": "Go",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "sckit",
+            "type": "PRODUCT",
+            "mentions": 2
+          },
+          {
+            "data": "npm",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Corgea",
+            "type": "PRODUCT",
+            "mentions": 2
+          },
+          {
+            "data": "SSH",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "+1",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "SafeDep",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "MemoryOS 2.0.34",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "MemTensor",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Indroj Medical Group Inc.",
+            "type": "ORG",
+            "mentions": 13
+          },
+          {
+            "data": "The U.S. Centers for Medicare & Medicaid Services’",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Pear",
+            "type": "ORG",
+            "mentions": 10
+          },
+          {
+            "data": "GalaxyWarden",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "CMS",
+            "type": "ORG",
+            "mentions": 5
+          },
+          {
+            "data": "NPI Registry\n\n",
+            "type": "ORG",
+            "mentions": 3
+          },
+          {
+            "data": "HIPAA",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "MemTensor",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "npm",
+            "type": "ORG",
+            "mentions": 3
+          },
+          {
+            "data": "Corgea",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Security",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "GitHub",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "GitLab",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "AWS",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "SafeDep",
+            "type": "ORG",
+            "mentions": 3
+          },
+          {
+            "data": "Corgea",
+            "type": "PERSON",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "e4d74ce7f47f46a2bddd0302376b2b31",
+            "name": "Amazon Web Services",
+            "domains": [
+              "aws.amazon.com"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "74a72f5dd7004ced9d4698a27862eb36",
+            "name": "GitHub",
+            "domains": [
+              "github.com"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "c93d939d13b24f8ab8eadf39256839ac",
+            "name": "GitLab Inc.",
+            "domains": [
+              "about.gitlab.com"
+            ],
+            "symbols": [
+              "GTLB"
+            ]
+          }
+        ],
+        "sentiment": {
+          "positive": 0.08832622,
+          "negative": 0.3974,
+          "neutral": 0.5142738
+        },
+        "summary": "Ransomware group known as Pear has reportedly listed Indroj Medical Group Inc., a U.S. healthcare organization, on its leak site. The claim surfaced on September 24–25, 2026 and is being tracked as an unverified ransomware/extortion allegation. The Centers for Medicare & Medicaid Services’ NPI Registry lists Indrooj MedicalGroup Inc. under NPI 1184666570 and classifies it as a multi-specialty/internal-medicine organization. However, the existence of the organization does not verify Pear’s claim that it was compromised. The NPI registry contains publicly accessible provider information and does not determine whether a healthcare provider is licensed or credentialed. However there is no independently verified evidence in the available reporting establishing what data was accessed, how many people were affected, or whether ransomware actually disrupted Indroroj’S systems.",
+        "shortSummary": "Pear's unverified ransomware claim against Indroj Medical Group Inc.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "ea5bf6c53c49461a8ec4d681d07c564c",
+        "places": [],
+        "people": []
+      }
+    ]
+  }
+}

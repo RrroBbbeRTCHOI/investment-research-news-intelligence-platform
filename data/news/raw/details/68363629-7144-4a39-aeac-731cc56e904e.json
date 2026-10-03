@@ -1,0 +1,47 @@
+{
+  "_ingestion": {
+    "provider": "freenewsapi",
+    "endpoint": "details",
+    "article_uuid": "68363629-7144-4a39-aeac-731cc56e904e",
+    "fetched_at": "2026-09-21T02:54:37.435528+00:00"
+  },
+  "raw_response": {
+    "data": {
+      "uuid": "68363629-7144-4a39-aeac-731cc56e904e",
+      "title": "The iron-air storage solution for solar",
+      "thumbnail": "https://bl-i.thgim.com/public/incoming/ny5eu9/article71488883.ece/alternates/LANDSCAPE_1200/BL2109_Quantum_Priyansh%20Mohan.jpg",
+      "publisher": "BusinessLine",
+      "authors": [
+        "K Bharat Kumar"
+      ],
+      "topics": [
+        "energy"
+      ],
+      "countries": [
+        "BW",
+        "ET",
+        "GB",
+        "GH",
+        "ID",
+        "IL",
+        "IN",
+        "LV",
+        "MY",
+        "NA",
+        "PH",
+        "PK",
+        "TZ",
+        "UG",
+        "US",
+        "ZW"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-09-21T00:36:00.000Z",
+      "original_url": "https://www.thehindubusinessline.com/business-tech/the-iron-air-storage-solution-for-solar/article71488881.ece",
+      "incipit": "Priyansh Mohan, co-founder and CEO of Meine Electric, with the firm’s fast-charging iron-air battery system India’s accelerated efforts to raise renewable energy capacity in the...",
+      "body": "Priyansh Mohan, co-founder and CEO of Meine Electric, with the firm’s fast-charging iron-air battery system India’s accelerated efforts to raise renewable energy capacity in the coming years face at least one significant challenge — lack of mature storage technologies. Renewable power generation firms are often forced to stop production at midday, which is peak hour for solar power production, as there isn’t enough demand for such energy. Theoretically, power can be stored in largescale batteries and used when demand rises in the evenings. But the country does not have such storage capacity due to the high cost of imports and lack of indigenous technology. Producers have seen 15–20 per cent average curtailment — namely having to stop production due to lack of demand — with at least one instance of curtailment spiking to 65 per cent last year due to lack of grid-scale storage. According to Prof Aravind Kumar Chandiran, Faculty, Department of Chemical Engineering, IIT-Madras, “We see from our studies that electricity consumption is projected to triple in India from about 2,000 terawatt hour (TWh) today to about 6,000 TWh by 2047.” Iron-air battery workflow He reasons this would mean about 4 TWh of daily energy storage capacity would be needed, assuming only 50 per cent of power would come from renewables and only half of this would need storage for future use. As India cannot afford to rely only on imported lithium to meet storage demand of such magnitude, it is important to bring in alternatives, such as domestic mineral solutions. Lithium-ion batteries offer high power delivery and are quickly responsive. They are ideal for electric mobility and transient, high-power grid spikes. Metal-air technologies (such as iron-air or zinc-air) offer low power delivery but for a longer duration. These are best suited for steady-state grid storage. Unlike lithium-ion battery manufacturing, which requires expensive, highly controlled clean-room and ultra-dry environments to prevent chemical instability, iron-air systems can be fabricated in ambient atmospheric conditions, drastically reducing production and capital expenses. Metal-air systems suffer from what is called ‘high electrochemical overpotential’ — they need more voltage during a reaction, such as the charging or discharging of a battery. This results in significantly lower efficiency compared to lithium-ion technology. For example, iron-air yields an efficiency of 23–50 per cent, while for zinc-air it is 40–80 per cent, according to Prof Chandiran. Notably, he mentors this field directly, with three of his former PhD students having founded a start-up focused on commercialising indigenous zinc-air battery technology for stationary grid storage. Further, lithium-ion battery is a mature technology, whereas metal-air batteries still face chemistry hurdles, engineering scaling challenges and a lack of long-term real-world testing. Long-duration storage Startup Meine Electric disclosed in July that it had developed the world’s first fast-charging iron-air battery system. This could likely offer a breakthrough in long-duration energy storage. Iron-air batteries generally operate on a basic reduction-oxidation mechanism — iron reacts with oxygen and water during discharge to form iron oxide, releasing electrical energy. Reversing this reaction forces the iron oxide back into metallic iron. “Traditional iron-air systems are restricted to multi-day cycles, making them largely incompatible with the intermittent nature of renewable energy generation,” says Priyansh Mohan, Co-founder and CEO of Meine Electric. “Solar-heavy grids don’t need a 100-hour battery. Unlike regions that require seasonal storage, the renewable challenge across Asia is fundamentally a daily balancing problem.” He says Meine has engineered its system to capture a full charge within a six- to eight-hour window. This has helped compress the multi-day charging window to six hours, paired with 18 hours of discharging. The company says its technology has been tested and validated by the Customized Energy Solutions (CES) Battery Laboratory. The lab confirmed the “operational stability, capacity retention and electrochemical performance under this 6/18-hour cycle”, Meine stated. According to Mohan, using Meine’s proprietary technology, the storage cost over the battery’s lifetime would be about ₹5 per kWh. The clincher here is as much the low cost of operation as the raw material iron, as India has an abundance of iron ore and is the fourth-largest producer globally. However, there is still a long way to go before indigenous and inexpensive technologies see widespread use. According to a report on the iron-air market released by datamintelligence in August, “The market continues in validation stage. Lack of commercial operational experience, bankability issues, lack of warranty confidence and performance assurance could hinder adoption in the near term.” Prof Chandiran concurs. “Metal-air technologies will require about five years to prove themselves fit for largescale use. They need to be tested in the real world over thousands of charge-discharge cycles. There are engineering hurdles, scale hurdles, issues with lack of operational experience at scale, all of which we have to surmount.” Published on September 21, 2026"
+    }
+  }
+}

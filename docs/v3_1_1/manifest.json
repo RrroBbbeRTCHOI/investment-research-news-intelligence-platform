@@ -1,0 +1,48 @@
+{
+  "modified": [
+    "src/news/v3_validation.py",
+    "src/news/v3_config.py",
+    "src/news/v3_scoring.py",
+    "src/news/ui_api.py",
+    "static/js/news_presentation.js",
+    "static/js/news_ui.js",
+    ".env.v3.example",
+    "tests/news/test_v3.py",
+    "tests/news/test_v31.py",
+    "tests/news_v31_presentation_test.mjs"
+  ],
+  "created": [
+    "tests/news/test_v311.py",
+    "tests/news_v311_confidence_test.mjs",
+    "docs/v3_1_1/REPORT.md",
+    "docs/v3_1_1/nvidia_replay.json",
+    "docs/v3_1_1/focused_tests.log",
+    "docs/v3_1_1/js_tests.log",
+    "docs/v3_1_1/manifest.json"
+  ],
+  "before_sha256": {
+    "src/news/v3_validation.py": "c1fc3144f2252fe1e3d4ae35968ed91163a9ee9828d1e2520fa3702b8bda2bfc",
+    "src/news/v3_config.py": "19d3bed067f3ddcbd87c37d56478a31a8fb08fc4ac8f354182bae446cef50f8a",
+    "src/news/v3_scoring.py": "59bae456e0daf2e06686d19997321e47f913e6c66615162b4e3f4b8cb73e6a51",
+    "src/news/ui_api.py": "2d68abefde9a7154104f81ba6a9363fc6977a957856adca9ebeba30eaaf78223",
+    "static/js/news_presentation.js": "a7a02b5546f5fa8b760132eb18cda63ebc897e83362e6229468ee6232ce5da64",
+    "static/js/news_ui.js": "31862949375b13ea1a7d327488887c4c8d1f5d6e4d0ac55e168938b1516296b6",
+    ".env.v3.example": "48e346f89b9ef02d0ba7022fae054c1dd02af5cd9adbc5c922a3eccffd63fd94",
+    "tests/news/test_v3.py": "c316241e99f5cc281b597670df2109ca853e5c1a35051eb689d89e3f5bcde353",
+    "tests/news/test_v31.py": "392b1b498382a760f52ebf6ddadb679e68290fd3cb424115759b4549943b6626",
+    "tests/news_v31_presentation_test.mjs": "ce8aca3ec37f578f3bfdcb6a6d8eaac6f39e920cbb997420e5b1b84c80c85131"
+  },
+  "after_sha256": {
+    "src/news/v3_validation.py": "02d94bbfed2b6e1ae2ef71811085c496c68defbbc2a110a56ac4ffd69b97997a",
+    "src/news/v3_config.py": "e45587d5b43f3afc708203746c5e0dc6e8936a87e630e98103604df10adac682",
+    "src/news/v3_scoring.py": "db78ef33037935b8df6618bb6907b708068da544107fdc855233f3fbac44c495",
+    "src/news/ui_api.py": "0bbfac8baadb826b5e394ef6364313aa427d0bc904c265c693b32b6226e7850c",
+    "static/js/news_presentation.js": "67d5ed51da9b1c183956b4abf402c1b5277bb4a26b731aa67e35519d0d418c31",
+    "static/js/news_ui.js": "ab5575da0c6422ba89590ccaa30192e20707f4f46d27cd3f431031fc90692564",
+    ".env.v3.example": "96c4d727e3990d9b222000e820c68a23a7041e66ec94d25d9a9fb00d6df978ee",
+    "tests/news/test_v3.py": "34461b95ad2bda3388edace95de96bc5d8ec2a733dc5e7f5155032684a716940",
+    "tests/news/test_v31.py": "8b901701a1fb9ae1de528451ad4c9d805408442d18647e306316ebc13ba85fb8",
+    "tests/news_v31_presentation_test.mjs": "76e0341e0fb93132ea9c6a2192fdd5711f9ff78f0cc2316c57654a2ce803765e"
+  },
+  "scope": "Explicitly named validation/config/scoring/confidence presentation/test files only; no unrelated scans."
+}

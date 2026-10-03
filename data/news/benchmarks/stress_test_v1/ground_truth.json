@@ -1,0 +1,250 @@
+{
+  "benchmark_name": "News Intelligence Stress Test v1",
+  "version": "1.0",
+  "evaluation_only": true,
+  "warning": "Do not pass this file to Gemini or the research pipeline.",
+  "cases": {
+    "ST01": {
+      "description": "Federal Reserve interest-rate decision",
+      "hard_expectations": {
+        "should_surface": true,
+        "should_be_noise_rejected": false,
+        "event_family": "monetary_policy",
+        "operational_event": false,
+        "direct_mag7_tickers": [],
+        "must_not_invent_company_relationship": true
+      },
+      "soft_expectations": {
+        "country": "United States",
+        "severity": [
+          "Low",
+          "Medium"
+        ],
+        "channels": [
+          "monetary_policy",
+          "interest_rates"
+        ]
+      }
+    },
+    "ST02": {
+      "description": "US consumer-price inflation release",
+      "hard_expectations": {
+        "should_surface": true,
+        "should_be_noise_rejected": false,
+        "event_family": "inflation_data",
+        "operational_event": false,
+        "direct_mag7_tickers": [],
+        "must_not_invent_company_relationship": true
+      },
+      "soft_expectations": {
+        "country": "United States",
+        "channels": [
+          "inflation",
+          "monetary_policy"
+        ],
+        "financial_impact_should_remain_unquantified": true
+      }
+    },
+    "ST03": {
+      "description": "Nvidia customer controls under US export restrictions",
+      "hard_expectations": {
+        "should_surface": true,
+        "should_be_noise_rejected": false,
+        "event_family": "export_control",
+        "required_direct_tickers": [
+          "NVDA"
+        ],
+        "must_preserve_regulatory_context": true,
+        "must_not_infer_price_direction": true
+      },
+      "soft_expectations": {
+        "channels": [
+          "regulatory_policy",
+          "semiconductors",
+          "china_exposure"
+        ],
+        "severity": [
+          "Medium",
+          "High"
+        ]
+      }
+    },
+    "ST04": {
+      "description": "US probe involving alleged Nvidia-chip smuggling",
+      "hard_expectations": {
+        "should_surface": true,
+        "should_be_noise_rejected": false,
+        "event_family": "regulatory_enforcement",
+        "nvda_is_mentioned": true,
+        "must_not_treat_nvda_as_target_of_probe_without_evidence": true,
+        "must_not_infer_financial_impact": true
+      },
+      "soft_expectations": {
+        "channels": [
+          "regulatory_policy",
+          "export_control",
+          "semiconductors"
+        ]
+      }
+    },
+    "ST05": {
+      "description": "TSMC advanced-packaging supplier infrastructure",
+      "hard_expectations": {
+        "should_be_noise_rejected": false,
+        "event_family": "semiconductor_supply_chain",
+        "must_not_invent_mag7_relationship": true,
+        "must_not_infer_price_direction": true
+      },
+      "soft_expectations": {
+        "allowed_feed_states": [
+          "surface",
+          "background"
+        ],
+        "channels": [
+          "advanced_packaging",
+          "semiconductor_supply_chain"
+        ],
+        "country": "Taiwan"
+      }
+    },
+    "ST06": {
+      "description": "CoWoS capacity and MAG7 dependency",
+      "hard_expectations": {
+        "should_be_noise_rejected": false,
+        "event_family": "advanced_packaging_capacity",
+        "mentioned_tickers_expected": [
+          "MSFT",
+          "NVDA"
+        ],
+        "relationship_requires_evidence": true,
+        "must_not_infer_price_direction": true
+      },
+      "soft_expectations": {
+        "channels": [
+          "advanced_packaging",
+          "semiconductor_supply_chain",
+          "ai_infrastructure"
+        ]
+      }
+    },
+    "ST07": {
+      "description": "Major Amazon Web Services outage",
+      "hard_expectations": {
+        "should_surface": true,
+        "should_be_noise_rejected": false,
+        "event_family": "infrastructure_outage",
+        "operational_event": true,
+        "required_direct_tickers": [
+          "AMZN"
+        ],
+        "must_not_infer_price_direction": true
+      },
+      "soft_expectations": {
+        "severity": [
+          "Medium",
+          "High"
+        ],
+        "channels": [
+          "cloud_infrastructure",
+          "service_outage"
+        ]
+      }
+    },
+    "ST08": {
+      "description": "Microsoft 365 / Azure outage",
+      "hard_expectations": {
+        "should_surface": true,
+        "should_be_noise_rejected": false,
+        "event_family": "infrastructure_outage",
+        "operational_event": true,
+        "required_direct_tickers": [
+          "MSFT"
+        ],
+        "must_not_infer_price_direction": true
+      },
+      "soft_expectations": {
+        "severity": [
+          "Medium",
+          "High"
+        ],
+        "channels": [
+          "cloud_infrastructure",
+          "service_outage"
+        ]
+      }
+    },
+    "ST09": {
+      "description": "Strait of Hormuz blockade",
+      "hard_expectations": {
+        "should_surface": true,
+        "should_be_noise_rejected": false,
+        "event_family": "geopolitical_shipping_disruption",
+        "location_expected": "Strait of Hormuz",
+        "must_not_invent_mag7_direct_ticker": true,
+        "must_not_infer_price_direction": true
+      },
+      "soft_expectations": {
+        "channels": [
+          "geopolitics",
+          "energy",
+          "shipping",
+          "oil"
+        ],
+        "severity": [
+          "Medium",
+          "High"
+        ]
+      }
+    },
+    "ST10": {
+      "description": "Tanker hit in Strait of Hormuz",
+      "hard_expectations": {
+        "should_surface": true,
+        "should_be_noise_rejected": false,
+        "event_family": "physical_shipping_disruption",
+        "operational_event": true,
+        "location_expected": "Strait of Hormuz",
+        "must_not_invent_mag7_direct_ticker": true
+      },
+      "soft_expectations": {
+        "channels": [
+          "geopolitics",
+          "shipping",
+          "energy"
+        ],
+        "severity": [
+          "Medium",
+          "High"
+        ]
+      }
+    },
+    "ST11": {
+      "description": "Nvidia CEO AI-extinction commentary",
+      "hard_expectations": {
+        "should_surface": true,
+        "should_be_noise_rejected": false,
+        "event_family": "company_commentary",
+        "required_direct_tickers": [
+          "NVDA"
+        ],
+        "operational_event": false,
+        "fundamental_change_detected": false,
+        "final_severity": "Low",
+        "financial_impact_should_be_null": true
+      },
+      "soft_expectations": {
+        "research_priority": "Low"
+      }
+    },
+    "ST12": {
+      "description": "Irrelevant passenger incident",
+      "hard_expectations": {
+        "should_be_noise_rejected": true,
+        "should_surface": false,
+        "llm_should_be_skipped": true,
+        "direct_mag7_tickers": []
+      },
+      "soft_expectations": {}
+    }
+  }
+}

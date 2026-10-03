@@ -1,0 +1,8 @@
+ticker,fiscal_year,currency,revenue,prior_revenue,revenue_growth_pct,receivables_growth_pct,receivables_minus_revenue_growth_pp,crq_score,score_coverage_pct,score_status,unavailable_reason
+AAPL,2025,USD,416161000000.0,391035000000.0,6.425511782832749,10.135410533943201,3.709898751110452,,0.0,Not Scored,Verified core/non-core segment split and organic-growth attribution are not in normalized statements.
+MSFT,2026,USD,331839000000.0,281724000000.0,17.788686799846666,15.694156355053291,-2.0945304447933744,,0.0,Not Scored,Verified core/non-core segment split and organic-growth attribution are not in normalized statements.
+GOOGL,2025,USD,402836000000.0,350018000000.0,15.090081081544371,20.149025601834158,5.058944520289787,,0.0,Not Scored,Verified core/non-core segment split and organic-growth attribution are not in normalized statements.
+NVDA,2026,USD,215938000000.0,130497000000.0,65.47353579009479,66.77216561890309,1.298629828808302,,0.0,Not Scored,Verified core/non-core segment split and organic-growth attribution are not in normalized statements.
+AMZN,2025,USD,716924000000.0,637959000000.0,12.377754683294695,22.142071378334016,9.764316695039321,,0.0,Not Scored,Verified core/non-core segment split and organic-growth attribution are not in normalized statements.
+META,2025,USD,200966000000.0,164501000000.0,22.167038498246217,16.3292926915382,-5.837745806708018,,0.0,Not Scored,Verified core/non-core segment split and organic-growth attribution are not in normalized statements.
+TSLA,2025,USD,94827000000.0,97690000000.0,-2.930699150373628,3.576278859212323,6.506978009585951,,0.0,Not Scored,Verified core/non-core segment split and organic-growth attribution are not in normalized statements.

@@ -1,0 +1,113 @@
+{
+  "benchmark_name": "News Intelligence Stress Test v1",
+  "benchmark_version": "1.0",
+  "created_at": "2026-09-25T14:26:00.176803+00:00",
+  "frozen": true,
+  "api_requests_used_to_build": 0,
+  "case_count": 12,
+  "policy": {
+    "source_articles_are_frozen": true,
+    "ground_truth_is_evaluation_only": true,
+    "ground_truth_must_not_be_passed_to_llm": true,
+    "future_versions_should_not_modify_v1_articles": true,
+    "new_cases_require_new_benchmark_version": true
+  },
+  "cases": [
+    {
+      "case_id": "ST01",
+      "category": "macro_monetary_policy",
+      "source_provider": "perigon",
+      "source_file": "data/news/raw/perigon_benchmark_hunt/macro_fed_policy.json",
+      "frozen_sha256": "b1221d624a401507d6edf18688a31b7b6000c9a67935aa9c86f612d82b5e6f3f",
+      "headline": "Divided Fed holds interest rates steady, but three members voted to hike"
+    },
+    {
+      "case_id": "ST02",
+      "category": "macro_inflation",
+      "source_provider": "perigon",
+      "source_file": "data/news/raw/perigon_benchmark_hunt/macro_us_inflation.json",
+      "frozen_sha256": "fdd94a836317706cb96fd7523faa40f8aaab7177b80215f8100294c5841ddc20",
+      "headline": "Consumer prices rose 0.4% in August, as expected; core inflation was higher than estimated"
+    },
+    {
+      "case_id": "ST03",
+      "category": "regulatory_export_controls",
+      "source_provider": "perigon",
+      "source_file": "data/news/raw/perigon_benchmark_hunt/policy_ai_chip_controls.json",
+      "frozen_sha256": "a1c8d0a051ea966dd3323d9ffed28cdc64ddbfdc52285fa061e77a26b32cd23a",
+      "headline": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)"
+    },
+    {
+      "case_id": "ST04",
+      "category": "regulatory_enforcement",
+      "source_provider": "perigon",
+      "source_file": "data/news/raw/perigon_benchmark_hunt/policy_ai_chip_controls.json",
+      "frozen_sha256": "c532a7180a28d7a54e236f57d9e4a43decd48f33062316f99edea571150ed0f4",
+      "headline": "US Probes Apex Logistics Over Alleged Nvidia AI Chip Smuggling"
+    },
+    {
+      "case_id": "ST05",
+      "category": "semiconductor_supply_chain",
+      "source_provider": "perigon",
+      "source_file": "data/news/raw/perigon_benchmark_hunt/semiconductor_tsmc_disruption.json",
+      "frozen_sha256": "6c9b2df4783efcab5c6e226385eebf5674384c187d6d85c0b8fa864595cc9f2a",
+      "headline": "TSMC Opens Kaohsiung Supplier Campus to Close Packaging Validation Gap"
+    },
+    {
+      "case_id": "ST06",
+      "category": "advanced_packaging_dependency",
+      "source_provider": "perigon",
+      "source_file": "data/news/raw/perigon_benchmark_hunt/semiconductor_tsmc_disruption.json",
+      "frozen_sha256": "5f625ce8024f30f86c2da7c4f36275492f6dde083f0649b6c1711301ff46a68d",
+      "headline": "Microsoft Maia 300 Seeks 300,000 TSMC Units; Nvidia Controls 60% of Packaging Queue"
+    },
+    {
+      "case_id": "ST07",
+      "category": "cloud_infrastructure_outage",
+      "source_provider": "perigon",
+      "source_file": "data/news/raw/perigon_benchmark_hunt/cloud_outage.json",
+      "frozen_sha256": "e80f21a49aa53a6086afef46264688f635cd1a8bce25cf7f09d64f64e5844510",
+      "headline": "Major outage on Amazon Web Services disrupts access to dozens of popular websites, online services"
+    },
+    {
+      "case_id": "ST08",
+      "category": "cloud_infrastructure_outage",
+      "source_provider": "perigon",
+      "source_file": "data/news/raw/perigon_benchmark_hunt/cloud_outage.json",
+      "frozen_sha256": "8dc7218c8ba7fc46ca71dc2d662bb426fe551d02bff5083cd096c29d2b659200",
+      "headline": "Microsoft 365 Outage: Azure Maintenance Bug Wiped IP Routes, Taking Down Teams for Hours"
+    },
+    {
+      "case_id": "ST09",
+      "category": "geopolitics_energy_shipping",
+      "source_provider": "perigon",
+      "source_file": "data/news/raw/perigon_benchmark_hunt/geopolitics_hormuz.json",
+      "frozen_sha256": "2154a71598f5cb7aec4e979eaa799a2276bcc61125cac1e0dbeb09d5c47c96db",
+      "headline": "Strait of Hormuz: US fires at tanker as new Iran blockade begins"
+    },
+    {
+      "case_id": "ST10",
+      "category": "geopolitics_physical_disruption",
+      "source_provider": "perigon",
+      "source_file": "data/news/raw/perigon_benchmark_hunt/geopolitics_hormuz.json",
+      "frozen_sha256": "f89e3c77cd620e374d40f2ac1a40c15b502ae76db0b3ead9870a7d92c6c00258",
+      "headline": "Authorities: Another tanker hit in the Strait of Hormuz"
+    },
+    {
+      "case_id": "ST11",
+      "category": "company_commentary_control",
+      "source_provider": "local_normalized_sample",
+      "source_file": "data/news/normalized/mag7_live_sample21_20260921.json",
+      "frozen_sha256": "ed9ed2ac9e6f2066c532923a4b7b7727db285e8ee8c7b4f8c29937a5ffebc3ad",
+      "headline": "Nvidia boss rejects AI extinction fears as 'doomsday narratives'"
+    },
+    {
+      "case_id": "ST12",
+      "category": "irrelevant_noise_control",
+      "source_provider": "local_normalized_sample",
+      "source_file": "data/news/normalized/mag7_live_sample21_20260921.json",
+      "frozen_sha256": "042b20447a079b04842d9d7eaff90f9819e5d02b0e03df24e745c242eb6aa859",
+      "headline": "Missing Carnival Panorama passenger jumped overboard off Mexico's coast"
+    }
+  ]
+}

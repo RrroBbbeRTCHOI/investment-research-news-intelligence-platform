@@ -1,0 +1,14 @@
+{
+  "modified": [
+    "src/news/ui_api.py",
+    "src/news/live_runner.py",
+    "src/news/live_content.py",
+    "static/js/news_presentation.js",
+    "static/js/news_model.js",
+    "static/js/news_ui.js"
+  ],
+  "added": [
+    "tests/news_semantic_display_test.mjs",
+    "tests/news/test_live_semantic_routing.py"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "_ingestion": {
+    "provider": "freenewsapi",
+    "endpoint": "details",
+    "article_uuid": "17270f98-6ab2-4d50-9b25-e67a072a4041",
+    "fetched_at": "2026-09-21T02:54:46.753079+00:00"
+  },
+  "raw_response": {
+    "data": {
+      "uuid": "17270f98-6ab2-4d50-9b25-e67a072a4041",
+      "title": "Ukraine war briefing: Russia to ‘intensify’ attacks on Kyiv after Moscow hit with mass drone strikes",
+      "thumbnail": "https://i.guim.co.uk/img/media/bf616ed6ae0e19b32a6bed37b309d553b13e71db/1018_0_4662_3730/master/4662.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&s=3d2c0678232e07157a7b92aeebe204ae",
+      "publisher": "The Guardian",
+      "authors": [
+        "Guardian staff and agencies"
+      ],
+      "topics": [
+        "energy",
+        "world"
+      ],
+      "countries": [
+        "AU",
+        "BW",
+        "GB",
+        "IL",
+        "IN",
+        "LV",
+        "NA",
+        "US"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-09-21T01:14:00.000Z",
+      "original_url": "https://www.theguardian.com/world/2026/sep/21/ukraine-war-briefing-russia-intensify-attacks-kyiv",
+      "incipit": "Russia has vowed to “intensify” its strikes on Kyiv while accusing Ukraine of attempting to “disrupt” Russian elections after Ukraine fired waves of drones at the Moscow region on the final day of voting,...",
+      "body": "Russia has vowed to “intensify” its strikes on Kyiv while accusing Ukraine of attempting to “disrupt” Russian elections after Ukraine fired waves of drones at the Moscow region on the final day of voting, killing at least two people. “In response to the Kyiv regime’s attacks on civilian targets within Russia, the Russian army will continue and intensify its high-accuracy strikes against military targets in Kyiv,” the Russian defence ministry said. The attack was the largest on Moscow since the Kremlin launched its Ukraine offensive in 2022 and involved about 1,600 drones , 450 of which were aimed directly at the capital, Moscow mayor Sergei Sobyanin said. Images showed a gaping hole in a multi-storey apartment building on the outskirts of Moscow. Another showed black smoke pouring from what appeared to be an oil refinery. Volodymyr Zelenskyy praised Ukraine’s attacks , saying: “Our long-range responses had a very significant impact in the Moscow region last night.” The Ukrainian presidient said that among the weapons used in the attack was the Pelican , initially thought to be a short-range ballistic missile, but which sources said later was a winged drone. Zelenskyy said also Ukraine had used its domestically produced Flamingo cruise missiles to strike Moscow. The long-range weapon has previously been used against targets deep inside Russia . Preliminary results from Russia’s election, released by the country’s election commission early Monday, showed the main Kremlin party dominating the vote . The tightly controlled balloting was virtually devoid of opposition to President Vladimir Putin’s policies and all but certain to cement the Kremlin’s dominance. With about 58% of the precincts counted, United Russia had nearly 58% of the vote for the 225 deputies apportioned by party lists, according to the Central Election Commission. The balloting included residents of four Ukrainian regions that Moscow illegally annexed after the war began , but still doesn’t fully control, as well as those in Crimea, the Black Sea peninsula that was illegally annexed by Russia in 2014, in what Kyiv denounced as illegal and the European Union described as a “blatant violation of international law”. Zelenskyy ⁠said on Sunday he had spoken with US President Donald Trump and ⁠the two ⁠agreed ​to meet in New York for talks that “could change a lot” ⁠in terms of finding a resolution to the war with Russia. The two ⁠leaders will be in New York this week ‌for the UN ‌General Assembly. “There are ideas for de-escalation steps and for addressing fundamental security issues – energy security, food security, and the protection of human ⁠life,” Zelenskyy posted on X. European intelligence officials have raised the possibility of an imminent Russian test of Nato, Sean Walker writes , with one saying a potential attack could come in a matter of “months, not years” . The warnings come after Poland’s prime minister, Donald Tusk, told parliament that intelligence assessments suggested Russia might launch an attack with drones or missiles on Nato territory in the coming months, as part of efforts to prove that “article 5 is more theoretical than practical”. Egypt, one of the world’s largest importers of wheat, is diversifying its source of wheat imports towards France ⁠and other European suppliers, moving away from Ukraine and Russia where supplies have been ⁠disrupted , supply minister ⁠Sherif ​Farouk was quoted as saying on Sunday. The minister’s remarks were quoted by television ⁠host Ahmed Moussa and later confirmed by a ministry spokesperson. An overnight Russian attack on the Kyiv region ⁠killed four people, including three children , Kyiv regional authorities said on Sunday. Drone attacks persisted in Kyiv and the surrounding ⁠region throughout the day. Drone fragments fell in various districts in the capital. Outside the capital, a mother and ⁠her two 3-year-old children were killed in Kyiv region when a Russian drone strike hit a private home, the emergency service ⁠said. Kyiv region governor Tymur Tkachenko said a girl died in hospital after a separate ​drone strike in another district. Tkachenko ‌said the region endured ‌more than a day of hostile attacks over several areas."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{{ selected_ticker }} · Meridian Research</title><link rel="stylesheet" href="{{ url_for('static',filename='css/research_dossier.css') }}"><script defer src="{{ url_for('static',filename='js/research_dossier.js') }}"></script></head>
+{% set company = dossier.company %}
+<body data-initial-section="{{ 'sec-filings' if active_tab == 'sec-filing' else active_tab }}" data-ticker="{{ selected_ticker }}">
+<header class="topbar"><a class="wordmark" href="{{ url_for('research',ticker=selected_ticker) }}">M<span>MERIDIAN <small>RESEARCH</small></span></a><nav aria-label="Main navigation"><a aria-current="page" href="{{ url_for('research',ticker=selected_ticker) }}">Research</a><a href="{{ url_for('news',ticker=selected_ticker,event=request.args.get('event','')) }}">News Intelligence ↗</a></nav><form action="{{ url_for('research') }}" class="company-switch"><label for="company-switch">Company</label><select id="company-switch" name="ticker">{% for row in screener_rows %}<option value="{{ row.ticker }}" {% if row.ticker == selected_ticker %}selected{% endif %}>{{ row.ticker }}</option>{% endfor %}</select><input type="hidden" name="tab" value="{{ active_tab }}"><button type="submit">Open</button></form><button id="theme-toggle" type="button" aria-label="Switch color theme">Daylight / Black</button></header>
+{% include 'research/_research_nav.html' %}
+<main id="research-dossier" class="dossier">
+{% include 'research/_company_hero.html' %}
+{% include 'research/_financials.html' %}
+{% include 'research/_valuation.html' %}
+{% include 'research/_historical_trends.html' %}
+{% include 'research/_earnings_quality.html' %}
+{% include 'research/_financial_health.html' %}
+{% include 'research/_sec_filings.html' %}
+{% include 'research/_relevant_events.html' %}
+<footer>MERIDIAN · {{ company.ticker }} · Research and source evidence</footer></main>
+<script type="application/json" id="research-chart-data">{{ {'financials': dossier.financials.modes, 'historical': dossier.historical_trends, 'health': dossier.financial_health.trend_context if dossier.financial_health else {}}|tojson }}</script>
+<script type="module" src="{{ url_for('static',filename='js/research_events.js') }}"></script></body></html>

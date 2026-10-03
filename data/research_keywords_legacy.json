@@ -1,0 +1,405 @@
+{
+    "level_3_high_risk": {
+        "description": "Potentially significant non-core, non-cash, valuation-driven or unusual earnings items requiring analyst review.",
+
+        "unrealized_gains": {
+            "category": "investment_valuation",
+            "keywords": [
+                "unrealized gain",
+                "unrealized gains",
+                "net unrealized gain",
+                "net unrealized gains",
+                "unrealized investment gain",
+                "unrealized investment gains",
+                "unrealized gains on investments",
+                "unrealized gains on equity securities",
+                "unrealized gains on equity investments",
+                "unrealized appreciation"
+            ]
+        },
+
+        "fair_value_remeasurement": {
+            "category": "investment_valuation",
+            "keywords": [
+                "fair value adjustment",
+                "fair value adjustments",
+                "fair value remeasurement",
+                "fair value remeasurements",
+                "remeasurement gain",
+                "remeasurement gains",
+                "valuation gain",
+                "valuation gains",
+                "valuation adjustment",
+                "valuation adjustments",
+                "mark-to-market",
+                "mark to market",
+                "mark-to-market gain",
+                "mark-to-market gains"
+            ]
+        },
+
+        "upward_revaluation": {
+            "category": "investment_valuation",
+            "keywords": [
+                "upward adjustment",
+                "upward adjustments",
+                "upward fair value adjustment",
+                "upward valuation adjustment",
+                "increase in fair value",
+                "increase in estimated fair value",
+                "appreciation in fair value"
+            ]
+        },
+
+        "observable_price_change": {
+            "category": "investment_valuation",
+            "keywords": [
+                "observable price change",
+                "observable price changes",
+                "observable changes in price",
+                "observable transaction",
+                "observable transactions",
+                "observable market transaction",
+                "measurement alternative"
+            ]
+        },
+
+        "dilution_gain": {
+            "category": "capital_transaction",
+            "keywords": [
+                "dilution gain",
+                "dilution gains",
+                "gain from dilution",
+                "gain on dilution",
+                "ownership dilution",
+                "proportionate ownership decreased"
+            ]
+        },
+
+        "conversion_reclassification": {
+            "category": "capital_transaction",
+            "keywords": [
+                "conversion gain",
+                "gain on conversion",
+                "gain from conversion",
+                "conversion of notes",
+                "reclassification adjustment",
+                "reclassification adjustments",
+                "reclassified gain",
+                "reclassified gains",
+                "unrealized gain reclassified",
+                "reclassified from accumulated other comprehensive income"
+            ]
+        },
+
+        "equity_security_gains": {
+            "category": "investment_income",
+            "keywords": [
+                "gain on equity securities",
+                "gains on equity securities",
+                "gain (loss) on equity securities",
+                "gain (loss) on equity securities, net",
+                "equity securities valuation gain",
+                "equity securities valuation gains",
+                "equity investment gain",
+                "equity investment gains"
+            ]
+        },
+
+        "warrant_valuation": {
+            "category": "derivative_valuation",
+            "keywords": [
+                "warrant valuation gain",
+                "warrant valuation gains",
+                "equity warrant valuation gain",
+                "equity warrant valuation gains",
+                "change in fair value of warrants"
+            ]
+        }
+    },
+
+    "level_2_materiality_candidate": {
+        "description": "Items that may materially affect earnings quality but require amount and context before classification.",
+
+        "investment_gains": {
+            "category": "investment_income",
+            "keywords": [
+                "investment gain",
+                "investment gains",
+                "gain on investment",
+                "gains on investments",
+                "gain from investment",
+                "gains from investments",
+                "recognized gain on investment",
+                "recognized gains on investments",
+                "net recognized gains on investments",
+                "net investment gains"
+            ]
+        },
+
+        "asset_sales": {
+            "category": "one_off",
+            "keywords": [
+                "gain on sale",
+                "gain from sale",
+                "gain on sale of investment",
+                "gain on sale of securities",
+                "gain on sale of assets",
+                "gain on disposal",
+                "disposal gain",
+                "gain on divestiture",
+                "divestiture gain"
+            ]
+        },
+
+        "derivatives": {
+            "category": "derivative_income",
+            "keywords": [
+                "derivative gain",
+                "derivative gains",
+                "gain on derivatives",
+                "gains on derivatives",
+                "net gains on derivatives",
+                "equity derivative gain",
+                "changes in fair value of derivatives"
+            ]
+        },
+
+        "foreign_exchange": {
+            "category": "foreign_exchange",
+            "keywords": [
+                "foreign exchange gain",
+                "foreign exchange gains",
+                "foreign currency exchange gain",
+                "foreign currency exchange gains",
+                "foreign currency gain",
+                "foreign currency gains",
+                "foreign currency remeasurement gain",
+                "foreign currency remeasurement gains",
+                "net gains on foreign currency remeasurements",
+                "foreign currency transaction gains"
+            ]
+        },
+
+        "digital_assets": {
+            "category": "digital_assets",
+            "keywords": [
+                "digital asset gain",
+                "digital asset gains",
+                "digital assets gains",
+                "bitcoin gain",
+                "bitcoin gains",
+                "crypto asset gain",
+                "cryptocurrency gain",
+                "fair value remeasurement of digital assets",
+                "mark-to-market on bitcoin"
+            ]
+        },
+
+        "impairment": {
+            "category": "one_off",
+            "keywords": [
+                "impairment charge",
+                "impairment charges",
+                "impairment loss",
+                "impairment losses",
+                "impairment reversal",
+                "reversal of impairment",
+                "impairment recovery",
+                "write-down",
+                "write-off"
+            ]
+        },
+
+        "restructuring": {
+            "category": "one_off",
+            "keywords": [
+                "restructuring charge",
+                "restructuring charges",
+                "restructuring expense",
+                "restructuring expenses",
+                "restructuring costs",
+                "severance costs"
+            ]
+        },
+
+        "equity_method": {
+            "category": "investment_income",
+            "keywords": [
+                "equity method income",
+                "equity method gain",
+                "income from equity method investments",
+                "income (loss) from equity method investments",
+                "income (loss) and impairment from equity method investments"
+            ]
+        }
+    },
+
+    "level_1_relevant": {
+        "description": "Relevant financial information that should be extracted but is not automatically considered abnormal.",
+
+        "interest_income": {
+            "category": "non_operating_income",
+            "keywords": [
+                "interest income",
+                "interest and dividend income",
+                "interest and dividends income",
+                "dividend income",
+                "interest earned",
+                "interest earned on cash",
+                "interest earned on investments"
+            ]
+        },
+
+        "investment_income": {
+            "category": "investment_income",
+            "keywords": [
+                "investment income",
+                "income from investments"
+            ]
+        },
+
+        "marketable_equity": {
+            "category": "investments",
+            "keywords": [
+                "marketable equity securities",
+                "marketable equity investments",
+                "non-marketable equity securities",
+                "non-marketable equity investments",
+                "publicly-held equity securities",
+                "private company investments"
+            ]
+        },
+
+        "commercial_paper": {
+            "category": "debt",
+            "keywords": [
+                "commercial paper",
+                "short-term borrowings"
+            ]
+        },
+
+        "debt_maturity": {
+            "category": "debt",
+            "keywords": [
+                "debt maturities",
+                "maturities of debt",
+                "long-term debt",
+                "senior notes",
+                "term debt",
+                "current portion of long-term debt",
+                "weighted-average interest rate"
+            ]
+        },
+
+        "stock_compensation": {
+            "category": "earnings_quality",
+            "keywords": [
+                "stock-based compensation",
+                "share-based compensation",
+                "equity-based compensation"
+            ]
+        },
+
+        "customer_concentration": {
+            "category": "revenue_quality",
+            "keywords": [
+                "customer concentration",
+                "significant customer",
+                "major customer",
+                "accounted for 10%",
+                "accounted for more than 10%"
+            ]
+        },
+
+        "deferred_revenue": {
+            "category": "revenue_quality",
+            "keywords": [
+                "deferred revenue",
+                "contract liabilities",
+                "remaining performance obligations"
+            ]
+        }
+    },
+
+    "level_0_context": {
+        "description": "Context and navigation terms used to locate relevant sections. A match alone is not a research warning.",
+
+        "other_income_container": {
+            "category": "navigation",
+            "keywords": [
+                "other income",
+                "other expense",
+                "other income, net",
+                "other expense, net",
+                "other income (expense), net",
+                "other (expense) income, net",
+                "interest and other income",
+                "interest and other income, net",
+                "interest and other income (expense), net",
+                "other, net",
+                "total other income",
+                "total other income, net",
+                "total non-operating income",
+                "OI&E"
+            ]
+        },
+
+        "segment": {
+            "category": "navigation",
+            "keywords": [
+                "operating segments",
+                "reportable segments",
+                "segment information",
+                "segment revenue",
+                "segment operating income",
+                "segment profit",
+                "geographic information",
+                "geographic data",
+                "revenue by geography"
+            ]
+        },
+
+        "marketable_securities": {
+            "category": "navigation",
+            "keywords": [
+                "marketable securities",
+                "available-for-sale securities",
+                "available-for-sale debt securities",
+                "AFS securities",
+                "AFS investments"
+            ]
+        },
+
+        "fair_value_context": {
+            "category": "navigation",
+            "keywords": [
+                "measured at fair value",
+                "carried at fair value",
+                "recognized at fair value",
+                "estimated fair value",
+                "fair value measurement",
+                "Level 1",
+                "Level 2",
+                "Level 3",
+                "readily determinable fair value",
+                "without readily determinable fair value"
+            ]
+        },
+
+        "profit_bridge": {
+            "category": "navigation",
+            "keywords": [
+                "income from operations",
+                "operating income",
+                "operating loss",
+                "income before income taxes",
+                "income before taxes",
+                "pretax income",
+                "pre-tax income",
+                "net income",
+                "net loss"
+            ]
+        }
+    }
+}

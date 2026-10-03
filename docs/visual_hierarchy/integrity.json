@@ -1,0 +1,11 @@
+{
+  "modified_existing_files": [
+    "templates/news.html",
+    "static/css/news.css",
+    "static/js/news_presentation.js",
+    "static/js/news_globe.js",
+    "static/js/news_ui.js"
+  ],
+  "backend_research_data_unchanged": true,
+  "globe_mechanics_tail_byte_identical": true
+}

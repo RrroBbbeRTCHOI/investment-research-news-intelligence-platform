@@ -1,0 +1,105 @@
+{% set v = company.get('valuation_interpretation') %}
+{% if v %}
+{% macro num(x,suffix='') -%}{% if x is none %}Unknown{% else %}{{ '{:,.1f}'.format(x) }}{{ suffix }}{% endif %}{%- endmacro %}
+{% macro pct(x) -%}{{ num(x*100 if x is not none else none,'%') }}{%- endmacro %}
+{% macro money(x) -%}{% if x is none %}Unknown{% else %}${{ '{:,.0f}'.format(x) }}{% endif %}{%- endmacro %}
+{% macro provenance(x) %}{% if x %}<p class="text-xs mt-1">{{ x.get('kind',x.get('confidence','')) }} · {{ x.get('source','') }} · {{ x.get('observation_date') or 'Observation date unavailable' }}{% if x.get('version') %} · {{ x.version }}{% endif %}</p><p class="text-xs">{{ x.get('method','') }}{% if x.get('stale') %} · Stale / unusable{% endif %}</p>{% endif %}{% endmacro %}
+{% macro sensitivity(s,label) %}
+<h3 class="font-semibold mt-4">{{ label }}</h3>
+{% if s.rows %}<div class="overflow-x-auto"><table class="w-full text-sm text-left"><thead><tr><th class="p-3">Discount rate / terminal growth</th>{% for g in s.terminals %}<th class="p-3">{{ pct(g) }}</th>{% endfor %}</tr></thead><tbody>
+{% for row in s.rows %}<tr class="border-t"><th class="p-3">{{ pct(row.discount_rate) }}</th>{% for cell in row.cells %}<td class="p-3 {% if cell.base %}font-bold border{% endif %}">{{ pct(cell.growth) }}{% if cell.base %}<span class="block text-xs">Base</span>{% endif %}{% if cell.growth is none %}<span class="block text-xs">{{ cell.status|replace('_',' ') }}</span>{% endif %}</td>{% endfor %}</tr>{% endfor %}</tbody></table></div>
+<p class="text-sm mt-2">Implied growth range: {{ pct(s.minimum) }} to {{ pct(s.maximum) }}. This is the displayed assumption envelope, not a probability interval.</p>
+{% else %}<p>Insufficient Evidence: discount rate and terminal assumptions are required.</p>{% endif %}
+{% endmacro %}
+{% if v.get('error') %}<div class="metric-card mt-6" id="moat3-unavailable"><h2 class="text-lg font-semibold">Market-Implied Expectations</h2><p>{{ v.error }}</p></div>
+{% else %}
+<div id="moat3-snapshot" class="metric-card mt-6"><h2 class="text-lg font-semibold">Valuation Snapshot</h2>
+<p class="text-xs mt-2">Moat 3 uses separately documented cash flows and market assumptions. The traditional valuation cards above retain their existing definitions and results. The legacy “Implied FCFF Growth” above is a separate model with its original assumptions; compare definitions before comparing percentages.</p>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
+{% for label,k in [('Current Price','price'),('Market Cap','market_cap'),('Market EV Proxy','enterprise_value')] %}<div><div class="metric-label">{{ label }}</div><div class="metric-value">{{ money(v.snapshot[k].value) }}</div>{{ provenance(v.snapshot[k]) }}</div>{% endfor %}
+{% for label,k in [('Trailing P/E','pe'),('Forward P/E','forward_pe')] %}<div><div class="metric-label">{{ label }}</div><div class="metric-value">{{ num(v.snapshot[k].value,'x') }}</div></div>{% endfor %}
+<div><div class="metric-label">Historical Median P/E · Proxy</div><div class="metric-value">{{ num(v.snapshot.historical_median_pe,'x') }}</div></div>
+<div><div class="metric-label">Annual Reported FCF Yield</div><div class="metric-value">{{ pct(v.snapshot.reported_fcf_yield) }}</div><p class="text-xs">{{ v.snapshot.reported_fcf_period }} · {{ v.snapshot.fcf_yield_method }}</p></div>
+</div></div>
+<div id="moat3-history" class="metric-card mt-6"><h2 class="text-lg font-semibold">Historical Valuation Context</h2>
+<p class="mt-3">Current P/E {{ num(v.snapshot.pe.value,'x') }} · historical median {{ num(v.historical_valuation.median,'x') }} · premium / discount {{ pct(v.historical_valuation.premium) }}</p>
+<p class="text-sm mt-2">{{ v.historical_valuation.status }} · {{ v.historical_valuation.method }}. {{ v.historical_valuation.observations|length }} observations.</p>
+<p class="text-xs mt-2">{{ v.historical_valuation.note }} A premium is not a measure of overvaluation.</p>
+<details class="mt-2 text-sm"><summary>Historical observations</summary>{% for r in v.historical_valuation.observations %}<p>{{ r.period }} · {{ num(r.pe,'x') }} · matched price {{ money(r.price) }} / annual diluted EPS {{ num(r.eps) }}</p>{% endfor %}</details>
+</div>
+<div id="moat3-fundamentals" class="metric-card mt-6"><h2 class="text-lg font-semibold">Fundamentals vs Valuation</h2>
+{% for k,label in [('revenue_growth_raw','Revenue Growth'),('operating_margin_raw','Operating Margin'),('fcf_margin_raw','Reported FCF Margin'),('roic_raw','Legacy ROIC')] %}<p class="mt-2">{{ label }}: {{ pct(v.fundamentals.legacy_cards[k]) }}</p>{% endfor %}
+<p class="mt-2">Moat 1 Earnings Quality: {{ v.fundamentals.moat1_quality or 'Upstream result unavailable' }} · score {{ num(v.fundamentals.moat1_score) }}</p>
+{% if v.fundamentals.moat2_interpretation %}<p class="mt-2">Moat 2: {{ v.fundamentals.moat2_interpretation.summary }}</p>{% endif %}
+<p class="text-xs mt-2">{{ v.fundamentals.note }}</p>
+</div>
+<div id="moat3-expectations" class="metric-card mt-6 border-2"><h2 class="text-xl font-semibold">Market-Implied Expectations</h2>
+<div class="mt-4"><div class="metric-label">PRIMARY · Market-Implied 5Y FCFF Growth</div><div class="text-4xl font-semibold mt-2">{{ pct(v.primary.growth) }}</div><p class="text-sm mt-2">{{ v.primary.status|replace('_',' ') }} · {{ v.primary.confidence }}</p></div>
+<p class="mt-3">{{ v.risk_summary.priced_in }}</p>
+<div class="grid grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
+<div>Starting FCFF<p class="font-semibold">{{ money(v.primary.starting_cash_flow) }}</p></div>
+<div>Year-5 Implied FCFF<p class="font-semibold">{{ money(v.primary.year5_cash_flow) }}</p></div>
+<div>WACC<p class="font-semibold">{{ pct(v.primary.discount_rate) }}</p></div>
+<div>Terminal Growth<p class="font-semibold">{{ pct(v.primary.terminal_growth) }}</p></div>
+<div>Expectation Horizon<p class="font-semibold">5Y · platform convention</p></div>
+<div>Market EV Proxy<p class="font-semibold">{{ money(v.primary.target) }}</p></div>
+</div>
+<div class="border-t mt-5 pt-4"><div class="metric-label">SECONDARY CROSS-CHECK · Market-Implied 5Y FCFE Growth</div><div class="text-2xl font-semibold mt-2">{{ pct(v.cross_check.growth) }}</div><p>{{ v.cross_check.status|replace('_',' ') }} · {{ v.cross_check.confidence }}</p>
+<p class="mt-2">Starting FCFE {{ money(v.cross_check.starting_cash_flow) }} · Cost of equity {{ pct(v.cross_check.discount_rate) }} · Market cap {{ money(v.cross_check.target) }}</p>
+<p class="mt-3 font-semibold">{{ v.consistency.status }}</p><p>FCFF minus FCFE implied-growth gap: {{ num(v.consistency.gap_pp,' pp') }}</p><p class="text-xs mt-2">{{ v.consistency.note }}</p></div>
+</div>
+<div id="moat3-gaps" class="metric-card mt-6"><h2 class="text-lg font-semibold">Expectation Gap</h2><p class="text-xs mt-2">Forward 5Y FCFF requirements versus different historical operating/cash-flow measures. Gaps are numerical comparisons, not forecasts or risk scores.</p>
+<div class="overflow-x-auto"><table class="w-full text-sm text-left"><thead><tr><th class="p-3">Historical comparison</th><th class="p-3">Observed growth</th><th class="p-3">Implied FCFF minus observed</th><th class="p-3">Basis</th></tr></thead><tbody>
+{% for row in v.expectation_gaps %}<tr class="border-t"><td class="p-3">{{ row.comparison|replace('_',' ')|title }}</td><td class="p-3">{{ pct(row.observed) }}</td><td class="p-3">{{ num(row.gap_pp,' pp') }}</td><td class="p-3">{{ row.note }}{% if row.get('history') and row.history.get('years') %} · {{ row.history.years }} years, {{ row.history.prior_period }}–{{ row.history.current_period }}{% endif %}</td></tr>{% endfor %}</tbody></table></div>
+</div>
+<div id="moat3-sensitivity" class="metric-card mt-6"><h2 class="text-lg font-semibold">Sensitivity</h2>
+<p class="text-sm mt-2">Implied growth at base discount rate ±0.5/1.0 pp and terminal growth ±0.5 pp. These are platform display conventions.</p>
+{{ sensitivity(v.sensitivity,'FCFF · WACC × Terminal Growth') }}
+<details class="mt-4"><summary>FCFE cross-check sensitivity</summary>{{ sensitivity(v.equity_sensitivity,'FCFE · Cost of Equity × Terminal Growth') }}</details>
+</div>
+<div id="moat3-risk" class="metric-card mt-6"><h2 class="text-lg font-semibold">Valuation Risk Summary</h2>
+{% for label,key in [('Priced In','priced_in'),('Most Demanding Comparison','most_demanding'),('Sensitivity Driver','sensitivity_driver'),('Main Review Item','main_review'),('What Could Weaken Support','support_risk')] %}<p class="mt-3"><strong>{{ label }}:</strong> {{ v.risk_summary[key] }}</p>{% endfor %}
+</div>
+<details id="moat3-methodology" class="metric-card mt-6"><summary class="text-lg font-semibold cursor-pointer">Assumptions &amp; Methodology</summary>
+<p class="mt-3">Assumption version: {{ v.assumptions.version }} · retrieved {{ v.retrieved_at }}. Rates use full calculation precision and rounded display.</p>
+<details class="mt-4"><summary>Reported FCF / FCFF / FCFE</summary>
+<p>Reported FCF = OCF − positive CapEx outlay. Existing reported FCF is not FCFF.</p><p>FCFF = EBIT(1−T) + D&amp;A − CapEx − ΔOperating NWC.</p><p>FCFE = Net Income + D&amp;A − CapEx − ΔOperating NWC + Net Borrowing.</p>
+{% if v.cash_flows.current %}{% set c=v.cash_flows.current %}<p>Period {{ c.period }} · FCFF {{ money(c.fcff) }} · FCFE {{ money(c.fcfe) }} · CapEx outlay {{ money(c.capex_outlay) }}</p>
+{% for name,f in [('EBIT',c.ebit),('Net income',c.ni),('D&A',c.da),('Signed provider CapEx',c.capex),('Reported FCF',c.reported_fcf)] %}<p>{{ name }}: {{ money(f.value if f else none) }} · {% if f %}{{ f.source }} / {{ f.source_field }} / {{ f.period }} / {{ f.currency }} / {{ f.availability }}{% endif %}</p>{% endfor %}{% endif %}
+</details>
+<details class="mt-4"><summary>Operating NWC &amp; Net Borrowing</summary>
+<p>Operating NWC = (Current Assets − Cash − Short-Term Investments) − (Current Liabilities − Short-Term Debt − Current Lease Debt). Component fallback requires complete explicitly operating balances. Unknown fields are not zeros.</p>
+{% if v.cash_flows.current %}{% set c=v.cash_flows.current %}<p>ΔOperating NWC: {{ money(c.delta_nwc.value) }} · {{ c.delta_nwc.method }} · {{ c.delta_nwc.confidence }}. {{ c.delta_nwc.reason }}</p>
+{% for side in ['current','prior'] %}{% set nw=c.delta_nwc.inputs[side] %}<p>{{ side|title }} NWC {{ money(nw.value) }} · {{ nw.method }} · {{ nw.reason }}</p>{% for key,f in nw.inputs.items() %}<p class="text-xs">{{ key }}: {{ money(f.value if f else none) }} · {% if f %}{{ f.source_field }} / {{ f.period }} / {{ f.currency }} / {{ f.availability }}{% endif %}</p>{% endfor %}{% endfor %}
+<p>Net Borrowing: {{ money(c.net_borrowing.value) }} · {{ c.net_borrowing.method }} · {{ c.net_borrowing.confidence }}. {{ c.net_borrowing.reason or '' }}</p>
+<pre class="text-xs whitespace-pre-wrap">{{ c.net_borrowing.inputs|tojson(indent=2) }}</pre>{% endif %}
+</details>
+<details class="mt-4"><summary>Tax Normalization</summary>{% set t=v.cost_of_capital.tax %}<p>Normalized tax {{ pct(t.value) }} · {{ t.method }} · {{ t.confidence }}.</p><p>Years used: {{ t.years_used|join(', ') or 'None' }}</p>
+{% for row in t.observations %}<p>{{ row.period }}: {{ pct(row.rate) }} · tax expense / positive pretax income.</p>{% endfor %}
+{% for row in t.excluded %}<p>Excluded {{ row.period }}: {{ row.reason }}</p>{% endfor %}<p>{{ t.reason or '' }} The three-year median and validation interval are platform rules. Unusual tax evidence may exclude a year; it never invents an adjusted rate.</p>
+</details>
+<details class="mt-4"><summary>CAPM / Risk-Free Rate / ERP / Beta / Cost of Debt / WACC</summary>
+<p>Cost of equity = risk-free rate + beta × ERP. WACC = market equity weight × cost of equity + debt weight × debt cost × (1−T).</p>
+{% for label,key in [('Risk-Free Rate','risk_free'),('ERP','erp')] %}{% set x=v.cost_of_capital[key] %}<p class="mt-2">{{ label }}: {{ pct(x.value) }}</p>{{ provenance(x) }}<p>{{ x.get('note','') }} {{ x.get('reason','') }}</p>{% endfor %}
+<p>Beta {{ num(v.cost_of_capital.beta.value,'x') }} · {{ v.cost_of_capital.beta.get('window') or 'Unknown window' }}</p>{{ provenance(v.cost_of_capital.beta) }}<p>{{ v.cost_of_capital.beta.get('confidence','') }}</p>
+<p>Cost of equity {{ pct(v.cost_of_capital.cost_of_equity) }}</p>
+<p>Debt cost {{ pct(v.cost_of_capital.cost_of_debt.value) }} · {{ v.cost_of_capital.cost_of_debt.method }} · {{ v.cost_of_capital.cost_of_debt.confidence }} · {{ v.cost_of_capital.cost_of_debt.reason or '' }}</p>
+<pre class="text-xs whitespace-pre-wrap">{{ v.cost_of_capital.cost_of_debt.inputs|tojson(indent=2) }}</pre>
+<p>WACC {{ pct(v.cost_of_capital.wacc.value) }} · equity weight {{ pct(v.cost_of_capital.wacc.get('equity_weight')) }} · debt weight {{ pct(v.cost_of_capital.wacc.get('debt_weight')) }}</p>
+<p>{{ v.cost_of_capital.wacc.get('preferred_treatment','') }} {{ v.cost_of_capital.wacc.reason or '' }}</p>
+</details>
+<details class="mt-4"><summary>Enterprise Value Bridge</summary>{% set e=v.enterprise_value %}
+<p>Market Cap {{ money(e.market_cap.value) }} + borrowing-debt proxy {{ money(e.debt.value) }} + unclassified net adjustment {{ money(e.residual_adjustment) }} = provider EV {{ money(e.value) }}.</p>
+<p>{{ e.cash_treatment }}</p><p>{{ e.investments_treatment }}</p><p>{{ e.note }}</p>
+{% for name,f in [('Cash',e.cash),('Short-term investments',e.short_investments),('Preferred stock book amount',e.preferred),('NCI',e.nci)] %}<p>{{ name }} {{ money(f.value if f else none) }} · {% if f %}{{ f.source_field }} / {{ f.period }} / {{ f.currency }}{% endif %}</p>{% endfor %}
+<pre class="text-xs whitespace-pre-wrap">{{ e.debt|tojson(indent=2) }}</pre>
+</details>
+<details class="mt-4"><summary>Terminal Growth / Terminal Value / Reverse DCF / Sensitivity</summary><p>Terminal value = year-5 cash flow × (1+terminal growth) / (discount rate − terminal growth). Terminal growth must be strictly below the matching discount rate.</p>
+<p>Market value = present value of five explicit cash flows + discounted terminal value. The bounded bisection solver uses FCFF/WACC/EV or FCFE/cost-of-equity/market-cap; the two models are never mixed.</p>
+{{ provenance(v.assumptions.terminal_growth) }}<p>Terminal growth {{ pct(v.assumptions.terminal_growth.value) }}. {{ v.assumptions.terminal_growth.get('reason','') }}</p>
+<p>Five years is a platform standardized horizon, not a company forecast or CFA mandate. Solver bounds: {{ v.assumptions.solver_growth_bounds }} (decimal growth). FCFF residual {{ money(v.primary.residual) }} · iterations {{ v.primary.iterations }}.</p>
+</details>
+<details class="mt-4"><summary>Sources &amp; Limitations</summary><p>Standard FCFF/FCFE and discount-rate matching: CFA Institute Free Cash Flow Valuation. Market assumptions: versioned external records shown above. See docs/MOAT3_METHODOLOGY.md for primary references and platform conventions.</p>{% for line in v.limitations %}<p class="text-sm mt-2">{{ line }}</p>{% endfor %}</details>
+</details>
+{% endif %}
+{% endif %}

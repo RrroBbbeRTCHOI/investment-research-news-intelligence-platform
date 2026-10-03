@@ -1,0 +1,152 @@
+{
+  "article_count": 21,
+  "articles": [
+    {
+      "uuid": "4e06cd53-e2df-4181-92f9-71b1b7fdc698",
+      "title": "Missing Carnival Panorama passenger jumped overboard off Mexico's coast",
+      "published_at": "2026-09-21T01:17:24.000Z",
+      "publisher": "Fox News",
+      "_source_topic": "business"
+    },
+    {
+      "uuid": "88d78250-1732-48b3-9ffd-a7f1b9975163",
+      "title": "Confirmed: PBOC leaves Loan Prime Rates unchanged in September",
+      "published_at": "2026-09-21T01:00:55.000Z",
+      "publisher": "FXStreet",
+      "_source_topic": "business"
+    },
+    {
+      "uuid": "f15bf067-b612-4338-8041-9e41218ba6f4",
+      "title": "Nvidia boss rejects AI extinction fears as 'doomsday narratives'",
+      "published_at": "2026-09-21T00:34:53.000Z",
+      "publisher": "BBC",
+      "_source_topic": "business"
+    },
+    {
+      "uuid": "ef76f840-4065-4052-82cf-60af67d7e099",
+      "title": "Volatile yen draws intervention watch, other currencies subdued",
+      "published_at": "2026-09-21T02:20:00.000Z",
+      "publisher": "CNBC",
+      "_source_topic": "finance"
+    },
+    {
+      "uuid": "d42abbb8-ee3a-46db-ab9d-af134626ba21",
+      "title": "New Zealand Dollar languishes near two-month low vs USD as bears await break below 0.5700",
+      "published_at": "2026-09-21T01:42:14.000Z",
+      "publisher": "FXStreet",
+      "_source_topic": "finance"
+    },
+    {
+      "uuid": "c96075d5-089e-4218-9151-f7c4ca8b0bc2",
+      "title": "Japanese Yen bulls seem hesitant amid BoJ's dovish rate hike as Fed bets support USD",
+      "published_at": "2026-09-21T01:12:12.000Z",
+      "publisher": "FXStreet",
+      "_source_topic": "finance"
+    },
+    {
+      "uuid": "da45790d-2c14-4b8c-9032-8853b60e78f9",
+      "title": "Bessent: US proposes AI incident alert system in talks with China",
+      "published_at": "2026-09-21T01:49:00.000Z",
+      "publisher": "Yahoo",
+      "_source_topic": "economy"
+    },
+    {
+      "uuid": "454f4948-4b82-41d8-b018-d237061442f4",
+      "title": "Newshour | The German chancellor describes the results of a state election as a \"disaster\"",
+      "published_at": "2026-09-21T01:31:18.000Z",
+      "publisher": "BBC",
+      "_source_topic": "economy"
+    },
+    {
+      "uuid": "ca8d429a-a5d0-42db-879e-9c20a97d5f1c",
+      "title": "IMF Says Global Public Debt at Record High, Governments Falling Short on Deficit Cuts",
+      "published_at": "2026-09-20T22:38:53.000Z",
+      "publisher": "bloomingbit",
+      "_source_topic": "economy"
+    },
+    {
+      "uuid": "d1ce402a-1254-4f72-afc7-b4c86a9069d6",
+      "title": "Stellar Blade \"Switch 2 vs. PS5\" graphics and framerate comparison",
+      "published_at": "2026-09-21T02:21:27.000Z",
+      "publisher": "GoNintendo",
+      "_source_topic": "technology"
+    },
+    {
+      "uuid": "6e330833-6052-405e-bcba-8f57ff937692",
+      "title": "Lufia is finally coming to PC for the first time ever",
+      "published_at": "2026-09-21T02:06:49.000Z",
+      "publisher": "well-played.com.au",
+      "_source_topic": "technology"
+    },
+    {
+      "uuid": "1ad64d53-2922-4e3f-8be0-61a78647e112",
+      "title": "Good News: Trumpet player sings National Anthem after horn malfunction",
+      "published_at": "2026-09-20T23:02:44.000Z",
+      "publisher": "Yahoo",
+      "_source_topic": "technology"
+    },
+    {
+      "uuid": "f7b2ede4-bd84-4bf4-8225-a36e2898009c",
+      "title": "Petrobras Backs New Diesel Subsidy as Fuel Payments Reach $1.9 Billion",
+      "published_at": "2026-09-21T01:56:44.000Z",
+      "publisher": "Crude Oil Prices Today | OilPrice.com",
+      "_source_topic": "energy"
+    },
+    {
+      "uuid": "becbd6f8-e884-465e-9381-3cd937f6c1d9",
+      "title": "Discarded pool chemicals in garbage truck load cause vapor cloud, hours-long hazmat response in Gurnee",
+      "published_at": "2026-09-21T00:43:12.000Z",
+      "publisher": "Lake and McHenry County Scanner",
+      "_source_topic": "energy"
+    },
+    {
+      "uuid": "68363629-7144-4a39-aeac-731cc56e904e",
+      "title": "The iron-air storage solution for solar",
+      "published_at": "2026-09-21T00:36:00.000Z",
+      "publisher": "BusinessLine",
+      "_source_topic": "energy"
+    },
+    {
+      "uuid": "bc9d07b3-a97d-4901-8e3a-f426a15d355a",
+      "title": "COMMENT | Govt must reveal reasons for Najib's pardon",
+      "published_at": "2026-09-21T02:10:00.000Z",
+      "publisher": "malaysiakini.com",
+      "_source_topic": "politics"
+    },
+    {
+      "uuid": "a990e6fb-b2e8-447b-a7fd-093f3baf9f48",
+      "title": "In Washington, temples to Trump’s ego lie ruined. And another is on the way",
+      "published_at": "2026-09-21T01:49:10.000Z",
+      "publisher": "SMH.com.au",
+      "_source_topic": "politics"
+    },
+    {
+      "uuid": "4a78c634-4e8c-4016-9d40-292cc14bd2d8",
+      "title": "SNAPSHOT | Anwar denies paving way for Najib's pardon; PM celebrates Malacca CM's birthday",
+      "published_at": "2026-09-21T01:10:00.000Z",
+      "publisher": "Malaysiakini",
+      "_source_topic": "politics"
+    },
+    {
+      "uuid": "622f3b75-8c46-449e-ae1e-0aee34ead34e",
+      "title": "Putin's United Russia wins tightly controlled wartime election",
+      "published_at": "2026-09-21T02:03:00.000Z",
+      "publisher": "yahoo.com",
+      "_source_topic": "world"
+    },
+    {
+      "uuid": "cfaecb74-b4de-461d-932f-d26d1cc316ea",
+      "title": "Princess Diana's brother says his bombshell claims against King Charles following her death will 'not be a surprise' to nephews William and Harry",
+      "published_at": "2026-09-21T01:15:00.000Z",
+      "publisher": "pagesix.com",
+      "_source_topic": "world"
+    },
+    {
+      "uuid": "17270f98-6ab2-4d50-9b25-e67a072a4041",
+      "title": "Ukraine war briefing: Russia to ‘intensify’ attacks on Kyiv after Moscow hit with mass drone strikes",
+      "published_at": "2026-09-21T01:14:00.000Z",
+      "publisher": "The Guardian",
+      "_source_topic": "world"
+    }
+  ]
+}

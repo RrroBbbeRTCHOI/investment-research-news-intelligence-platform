@@ -1,0 +1,2075 @@
+{
+  "schema_version": "news_research_v1",
+  "generated_at": "2026-09-21T00:37:22.072547+00:00",
+  "knowledge": {
+    "status": "loaded",
+    "workbook": "MAG7_News_Intelligence_Exposure_Knowledge_Layer_V1.xlsx",
+    "edge_count": 27,
+    "message": "Loaded raw exposure rows; each match still requires evidence and temporal checks."
+  },
+  "policies": {
+    "relevance": "relationship_components_v1",
+    "priority": "evidence_first_attention_v1",
+    "historical_ml_role": "optional_retrospective_context_only",
+    "queue_order": "priority, relationship relevance, publication recency, stable IDs",
+    "direction": "Analyst judgment required"
+  },
+  "articles": [
+    {
+      "article_id": "relevance_qa_001",
+      "headline": "Regulator fines Meta over data-protection violations",
+      "source": "Synthetic Relevance QA",
+      "article_url": null,
+      "gate": {
+        "article_id": "relevance_qa_001",
+        "is_event": true,
+        "gate_reason": "Asserted fine event: The regulator imposed a fine on Meta Platforms over data-protection violations involving Facebook and Instagram user information.",
+        "gate_confidence": 0.8
+      },
+      "event": {
+        "event_id": "evt_30fe20ace60c858723eaea00",
+        "canonical_event_id": "evt_30fe20ace60c858723eaea00",
+        "article_ids": [
+          "relevance_qa_001"
+        ],
+        "source_count": 1,
+        "independent_source_count": 1,
+        "first_seen_at": "2026-09-20T01:05:00+00:00",
+        "last_seen_at": "2026-09-20T01:05:00+00:00",
+        "published_at_first": "2026-09-20T01:00:00+00:00",
+        "event_start_at": null,
+        "event_end_at": null,
+        "time_precision": "unknown",
+        "event_status": "developing",
+        "primary_country": null,
+        "affected_countries": [],
+        "primary_region": null,
+        "affected_regions": [],
+        "city": null,
+        "location_name": null,
+        "latitude": null,
+        "longitude": null,
+        "location_confidence": null,
+        "event_type": "legal_antitrust",
+        "event_subtype": "fine",
+        "severity_score": null,
+        "severity_confidence": null,
+        "scope": null,
+        "duration_class": "unknown",
+        "event_novelty": null,
+        "physical_damage": null,
+        "production_disruption": null,
+        "capacity_disruption": null,
+        "logistics_disruption": null,
+        "port_disruption": null,
+        "power_disruption": null,
+        "network_disruption": null,
+        "cloud_service_disruption": null,
+        "labor_disruption": null,
+        "supply_shortage": null,
+        "regulatory_change": null,
+        "export_restriction": null,
+        "import_restriction": null,
+        "price_change_explicit": null,
+        "demand_change_explicit": null,
+        "companies_mentioned": [
+          "Meta",
+          "Meta Platforms",
+          "Facebook"
+        ],
+        "tickers_mentioned": [
+          "META"
+        ],
+        "suppliers_mentioned": [],
+        "customers_mentioned": [],
+        "industries_mentioned": [],
+        "products_mentioned": [],
+        "technologies_mentioned": [],
+        "commodities_mentioned": [],
+        "government_entities": [],
+        "regulators": [],
+        "people_mentioned": [],
+        "supply_channel": null,
+        "demand_channel": null,
+        "cost_channel": null,
+        "revenue_channel": null,
+        "margin_channel": null,
+        "capex_channel": null,
+        "financing_channel": null,
+        "interest_rate_channel": null,
+        "fx_channel": null,
+        "commodity_channel": null,
+        "logistics_channel": null,
+        "energy_channel": null,
+        "regulatory_channel": null,
+        "legal_channel": true,
+        "technology_channel": null,
+        "competition_channel": null,
+        "source_quality": null,
+        "extraction_confidence": 0.7,
+        "confirmation_level": "single_source",
+        "evidence_fields": {
+          "event_type": {
+            "value": "legal_antitrust",
+            "evidence": "The regulator imposed a fine on Meta Platforms over data-protection violations involving Facebook and Instagram user information.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_subtype": {
+            "value": "fine",
+            "evidence": "The regulator imposed a fine on Meta Platforms over data-protection violations involving Facebook and Instagram user information.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_summary": {
+            "value": "The regulator imposed a fine on Meta Platforms over data-protection violations involving Facebook and Instagram user information.",
+            "evidence": "The regulator imposed a fine on Meta Platforms over data-protection violations involving Facebook and Instagram user information.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "keywords": {
+            "value": [
+              "fine"
+            ],
+            "evidence": "The regulator imposed a fine on Meta Platforms over data-protection violations involving Facebook and Instagram user information.",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "The regulator imposed a fine on Meta Platforms over data-protection violations involving Facebook and Instagram user information.",
+                "source_field": "body"
+              }
+            ]
+          },
+          "canonical_headline": {
+            "value": "Regulator fines Meta over data-protection violations",
+            "evidence": "Regulator fines Meta over data-protection violations",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "independent_source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "event_status": {
+            "value": "developing",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "confirmation_level": {
+            "value": "single_source",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "extraction_confidence": {
+            "value": 0.7,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "published_at_first": {
+            "value": "2026-09-20T01:00:00+00:00",
+            "evidence": "2026-09-20T01:00:00+00:00",
+            "source_field": "published_at",
+            "basis": "provider_metadata"
+          },
+          "first_seen_at": {
+            "value": "2026-09-20T01:05:00+00:00",
+            "evidence": "2026-09-20T01:05:00+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "last_seen_at": {
+            "value": "2026-09-20T01:05:00+00:00",
+            "evidence": "2026-09-20T01:05:00+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "legal_channel": {
+            "value": true,
+            "evidence": "The regulator imposed a fine on Meta Platforms over data-protection violations involving Facebook and Instagram user information.",
+            "source_field": "body",
+            "basis": "article_text",
+            "assertion": "affirmed"
+          },
+          "companies_mentioned": {
+            "value": [
+              "Meta",
+              "Meta Platforms",
+              "Facebook"
+            ],
+            "evidence": "otection violations involving Facebook and Instagram user information.",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "Regulator fines Meta over data-protection violations",
+                "source_field": "headline"
+              },
+              {
+                "evidence": "e regulator imposed a fine on Meta Platforms over data-protection violations involving Facebook and Instagram user",
+                "source_field": "body"
+              },
+              {
+                "evidence": "otection violations involving Facebook and Instagram user information.",
+                "source_field": "body"
+              }
+            ]
+          },
+          "tickers_mentioned": {
+            "value": [
+              "META"
+            ],
+            "evidence": "Regulator fines Meta over data-protection violations",
+            "source_field": "headline",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "Regulator fines Meta over data-protection violations",
+                "source_field": "headline"
+              }
+            ]
+          }
+        },
+        "canonical_headline": "Regulator fines Meta over data-protection violations",
+        "event_summary": "The regulator imposed a fine on Meta Platforms over data-protection violations involving Facebook and Instagram user information.",
+        "keywords": [
+          "fine"
+        ],
+        "created_at": "2026-09-21T00:37:22.072547+00:00",
+        "updated_at": "2026-09-21T00:37:22.072547+00:00",
+        "schema_version": "event_v1"
+      },
+      "candidate_channels": [
+        {
+          "channel_family": "legal_antitrust",
+          "channel_subtype": "unspecified",
+          "confidence": 0.75,
+          "basis": [
+            "legal_channel"
+          ],
+          "status": "candidate"
+        }
+      ],
+      "ticker_analysis": [
+        {
+          "ticker": "META",
+          "qualification": "qualified_direct_event_subject",
+          "relationship_type": "direct_event_subject",
+          "direct_mention": true,
+          "relevance_score": 0.15,
+          "relevance_level": "Direct event subject",
+          "relevance_components": {
+            "values": {
+              "direct_mention": 1.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0
+            },
+            "contributions": {
+              "direct_mention": 0.15,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0
+            }
+          },
+          "score_method": "relationship_components_v1",
+          "legacy_relevance_score": 0.15,
+          "score_interpretation": "Uncalibrated relationship policy score, not a probability or impact estimate.",
+          "economic_channels": [],
+          "relationship_paths": [],
+          "evidence": [],
+          "evidence_strength": {
+            "relationship_level": "Direct article evidence",
+            "basis": "explicit event action/participant link; not external exposure verification",
+            "independently_verified": false,
+            "article_confirmation": "single_source",
+            "article_source_quality": null,
+            "article_source": "Synthetic Relevance QA",
+            "article_url": null,
+            "note": "Curator-verified relationship is not independent confirmation of this event or its financial impact."
+          },
+          "article_evidence": {
+            "event_type": {
+              "value": "legal_antitrust",
+              "evidence": "The regulator imposed a fine on Meta Platforms over data-protection violations involving Facebook and Instagram user information.",
+              "source_field": "body",
+              "basis": "article_text"
+            },
+            "event_subtype": {
+              "value": "fine",
+              "evidence": "The regulator imposed a fine on Meta Platforms over data-protection violations involving Facebook and Instagram user information.",
+              "source_field": "body",
+              "basis": "article_text"
+            },
+            "event_summary": {
+              "value": "The regulator imposed a fine on Meta Platforms over data-protection violations involving Facebook and Instagram user information.",
+              "evidence": "The regulator imposed a fine on Meta Platforms over data-protection violations involving Facebook and Instagram user information.",
+              "source_field": "body",
+              "basis": "article_text"
+            },
+            "keywords": {
+              "value": [
+                "fine"
+              ],
+              "evidence": "The regulator imposed a fine on Meta Platforms over data-protection violations involving Facebook and Instagram user information.",
+              "source_field": "body",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "The regulator imposed a fine on Meta Platforms over data-protection violations involving Facebook and Instagram user information.",
+                  "source_field": "body"
+                }
+              ]
+            },
+            "canonical_headline": {
+              "value": "Regulator fines Meta over data-protection violations",
+              "evidence": "Regulator fines Meta over data-protection violations",
+              "source_field": "headline",
+              "basis": "article_text"
+            },
+            "source_count": {
+              "value": 1,
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "independent_source_count": {
+              "value": 1,
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "event_status": {
+              "value": "developing",
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "confirmation_level": {
+              "value": "single_source",
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "extraction_confidence": {
+              "value": 0.7,
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "published_at_first": {
+              "value": "2026-09-20T01:00:00+00:00",
+              "evidence": "2026-09-20T01:00:00+00:00",
+              "source_field": "published_at",
+              "basis": "provider_metadata"
+            },
+            "first_seen_at": {
+              "value": "2026-09-20T01:05:00+00:00",
+              "evidence": "2026-09-20T01:05:00+00:00",
+              "source_field": "fetched_at",
+              "basis": "provider_metadata"
+            },
+            "last_seen_at": {
+              "value": "2026-09-20T01:05:00+00:00",
+              "evidence": "2026-09-20T01:05:00+00:00",
+              "source_field": "fetched_at",
+              "basis": "provider_metadata"
+            },
+            "legal_channel": {
+              "value": true,
+              "evidence": "The regulator imposed a fine on Meta Platforms over data-protection violations involving Facebook and Instagram user information.",
+              "source_field": "body",
+              "basis": "article_text",
+              "assertion": "affirmed"
+            },
+            "companies_mentioned": {
+              "value": [
+                "Meta",
+                "Meta Platforms",
+                "Facebook"
+              ],
+              "evidence": "otection violations involving Facebook and Instagram user information.",
+              "source_field": "body",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "Regulator fines Meta over data-protection violations",
+                  "source_field": "headline"
+                },
+                {
+                  "evidence": "e regulator imposed a fine on Meta Platforms over data-protection violations involving Facebook and Instagram user",
+                  "source_field": "body"
+                },
+                {
+                  "evidence": "otection violations involving Facebook and Instagram user information.",
+                  "source_field": "body"
+                }
+              ]
+            },
+            "tickers_mentioned": {
+              "value": [
+                "META"
+              ],
+              "evidence": "Regulator fines Meta over data-protection violations",
+              "source_field": "headline",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "Regulator fines Meta over data-protection violations",
+                  "source_field": "headline"
+                }
+              ]
+            }
+          },
+          "temporal_status": {
+            "status": "article_available_at_analysis_time",
+            "as_of": "2026-09-20T01:05:00+00:00",
+            "article_availability_known": true,
+            "source_dates_independently_verified": false,
+            "note": "Composite or revised sources require per-fact historical provenance review."
+          },
+          "materiality": {
+            "level": "Unknown",
+            "status": "unquantified",
+            "factors": {
+              "event_severity": null,
+              "exposure": []
+            },
+            "missing_evidence": [
+              "Validated event-specific exposure scale and segment impact"
+            ],
+            "note": "Severity, exposure band and research priority do not establish financial materiality."
+          },
+          "historical_reaction": {
+            "status": "unavailable",
+            "probability": null,
+            "predictions": [],
+            "reason": "No explicit article-to-case mapping supplied.",
+            "disclosure": "Experimental historical association only. Not directional or causal. Retrospective OOS results may use historical backfill; not a live prediction.",
+            "used_for_relevance": false,
+            "used_for_priority": false
+          },
+          "research_priority": {
+            "level": "Medium",
+            "reasons": [
+              "Explicit direct event subject supported by article text; independent confirmation and materiality require review."
+            ],
+            "method": "evidence_first_attention_v1",
+            "interpretation": "Analyst attention only; not magnitude, direction or recommendation."
+          },
+          "direction": "Analyst judgment required",
+          "explanation": "META is explicitly linked to the accepted event action in the article.",
+          "next_questions": [
+            "Verify the original action report and any official confirmation.",
+            "Determine event-specific financial scale, scope and mitigating factors."
+          ],
+          "direct_event_evidence": {
+            "ticker": "META",
+            "evidence": "Regulator fines Meta over data-protection violations",
+            "source_field": "headline",
+            "basis": "explicit_event_action_participant",
+            "event_subtype": "fine"
+          }
+        }
+      ],
+      "edge_exclusions": [
+        {
+          "event_id": "evt_30fe20ace60c858723eaea00",
+          "edge_id": "4",
+          "reason": "non_operating_capacity"
+        },
+        {
+          "event_id": "evt_30fe20ace60c858723eaea00",
+          "edge_id": "19",
+          "reason": "blocked_or_hypothesis_evidence"
+        }
+      ],
+      "status": "qualified_matches",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "relevance_qa_002",
+      "headline": "TSMC advanced packaging interruption affects CoWoS capacity in Taiwan",
+      "source": "Synthetic Relevance QA",
+      "article_url": null,
+      "gate": {
+        "article_id": "relevance_qa_002",
+        "is_event": true,
+        "gate_reason": "Asserted production_interruption event: TSMC reported a temporary disruption in CoWoS advanced packaging operations in Taiwan.",
+        "gate_confidence": 0.8
+      },
+      "event": {
+        "event_id": "evt_3167b629fd0f0a7762873cc0",
+        "canonical_event_id": "evt_3167b629fd0f0a7762873cc0",
+        "article_ids": [
+          "relevance_qa_002"
+        ],
+        "source_count": 1,
+        "independent_source_count": 1,
+        "first_seen_at": "2026-09-20T02:05:00+00:00",
+        "last_seen_at": "2026-09-20T02:05:00+00:00",
+        "published_at_first": "2026-09-20T02:00:00+00:00",
+        "event_start_at": null,
+        "event_end_at": null,
+        "time_precision": "unknown",
+        "event_status": "developing",
+        "primary_country": "Taiwan",
+        "affected_countries": [
+          "Taiwan"
+        ],
+        "primary_region": null,
+        "affected_regions": [],
+        "city": null,
+        "location_name": null,
+        "latitude": null,
+        "longitude": null,
+        "location_confidence": 0.65,
+        "event_type": "supply_chain",
+        "event_subtype": "production_interruption",
+        "severity_score": null,
+        "severity_confidence": null,
+        "scope": null,
+        "duration_class": "unknown",
+        "event_novelty": null,
+        "physical_damage": null,
+        "production_disruption": null,
+        "capacity_disruption": null,
+        "logistics_disruption": null,
+        "port_disruption": null,
+        "power_disruption": null,
+        "network_disruption": null,
+        "cloud_service_disruption": null,
+        "labor_disruption": null,
+        "supply_shortage": null,
+        "regulatory_change": null,
+        "export_restriction": null,
+        "import_restriction": null,
+        "price_change_explicit": null,
+        "demand_change_explicit": null,
+        "companies_mentioned": [
+          "TSMC"
+        ],
+        "tickers_mentioned": [],
+        "suppliers_mentioned": [],
+        "customers_mentioned": [],
+        "industries_mentioned": [],
+        "products_mentioned": [],
+        "technologies_mentioned": [
+          "advanced packaging",
+          "CoWoS",
+          "AI",
+          "packaging capacity"
+        ],
+        "commodities_mentioned": [],
+        "government_entities": [],
+        "regulators": [],
+        "people_mentioned": [],
+        "supply_channel": null,
+        "demand_channel": null,
+        "cost_channel": null,
+        "revenue_channel": null,
+        "margin_channel": null,
+        "capex_channel": null,
+        "financing_channel": null,
+        "interest_rate_channel": null,
+        "fx_channel": null,
+        "commodity_channel": null,
+        "logistics_channel": null,
+        "energy_channel": null,
+        "regulatory_channel": null,
+        "legal_channel": null,
+        "technology_channel": null,
+        "competition_channel": null,
+        "source_quality": null,
+        "extraction_confidence": 0.7,
+        "confirmation_level": "single_source",
+        "evidence_fields": {
+          "event_type": {
+            "value": "supply_chain",
+            "evidence": "TSMC reported a temporary disruption in CoWoS advanced packaging operations in Taiwan.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_subtype": {
+            "value": "production_interruption",
+            "evidence": "TSMC reported a temporary disruption in CoWoS advanced packaging operations in Taiwan.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_summary": {
+            "value": "TSMC reported a temporary disruption in CoWoS advanced packaging operations in Taiwan.",
+            "evidence": "TSMC reported a temporary disruption in CoWoS advanced packaging operations in Taiwan.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "keywords": {
+            "value": [
+              "production_interruption"
+            ],
+            "evidence": "TSMC reported a temporary disruption in CoWoS advanced packaging operations in Taiwan.",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "TSMC reported a temporary disruption in CoWoS advanced packaging operations in Taiwan.",
+                "source_field": "body"
+              }
+            ]
+          },
+          "canonical_headline": {
+            "value": "TSMC advanced packaging interruption affects CoWoS capacity in Taiwan",
+            "evidence": "TSMC advanced packaging interruption affects CoWoS capacity in Taiwan",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "independent_source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "event_status": {
+            "value": "developing",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "confirmation_level": {
+            "value": "single_source",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "extraction_confidence": {
+            "value": 0.7,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "published_at_first": {
+            "value": "2026-09-20T02:00:00+00:00",
+            "evidence": "2026-09-20T02:00:00+00:00",
+            "source_field": "published_at",
+            "basis": "provider_metadata"
+          },
+          "first_seen_at": {
+            "value": "2026-09-20T02:05:00+00:00",
+            "evidence": "2026-09-20T02:05:00+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "last_seen_at": {
+            "value": "2026-09-20T02:05:00+00:00",
+            "evidence": "2026-09-20T02:05:00+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "affected_countries": {
+            "value": [
+              "Taiwan"
+            ],
+            "evidence": "TSMC reported a temporary disruption in CoWoS advanced packaging operations in Taiwan.",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "TSMC reported a temporary disruption in CoWoS advanced packaging operations in Taiwan.",
+                "source_field": "body"
+              }
+            ],
+            "mapping_basis": [
+              {
+                "stated": "Taiwan",
+                "country": "Taiwan"
+              }
+            ]
+          },
+          "primary_country": {
+            "value": "Taiwan",
+            "evidence": "TSMC reported a temporary disruption in CoWoS advanced packaging operations in Taiwan.",
+            "source_field": "body",
+            "basis": "article_location_or_policy_actor"
+          },
+          "location_confidence": {
+            "value": 0.65,
+            "evidence": "TSMC reported a temporary disruption in CoWoS advanced packaging operations in Taiwan.",
+            "source_field": "body",
+            "basis": "heuristic_from_article"
+          },
+          "companies_mentioned": {
+            "value": [
+              "TSMC"
+            ],
+            "evidence": "TSMC advanced packaging interruption affects CoWoS capacity in Taiwan",
+            "source_field": "headline",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "TSMC advanced packaging interruption affects CoWoS capacity in Taiwan",
+                "source_field": "headline"
+              }
+            ]
+          },
+          "technologies_mentioned": {
+            "value": [
+              "advanced packaging",
+              "CoWoS",
+              "AI",
+              "packaging capacity"
+            ],
+            "evidence": "A temporary interruption affected TSMC CoWoS advanced packaging capacity used for high-performance AI chips.",
+            "source_field": "summary",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "TSMC advanced packaging interruption affects CoWoS capacity in Taiwan",
+                "source_field": "headline"
+              },
+              {
+                "evidence": "A temporary interruption affected TSMC CoWoS advanced packaging capacity used for high-performance AI chips.",
+                "source_field": "summary"
+              }
+            ]
+          }
+        },
+        "canonical_headline": "TSMC advanced packaging interruption affects CoWoS capacity in Taiwan",
+        "event_summary": "TSMC reported a temporary disruption in CoWoS advanced packaging operations in Taiwan.",
+        "keywords": [
+          "production_interruption"
+        ],
+        "created_at": "2026-09-21T00:37:22.072547+00:00",
+        "updated_at": "2026-09-21T00:37:22.072547+00:00",
+        "schema_version": "event_v1"
+      },
+      "candidate_channels": [
+        {
+          "channel_family": "advanced_packaging",
+          "channel_subtype": "unspecified",
+          "confidence": 0.35,
+          "basis": [
+            "event_type",
+            "technologies_mentioned"
+          ],
+          "status": "candidate"
+        }
+      ],
+      "ticker_analysis": [
+        {
+          "ticker": "NVDA",
+          "qualification": "qualified_exposure",
+          "relationship_type": "indirect_exposure_match",
+          "direct_mention": false,
+          "relevance_score": 0.6,
+          "relevance_level": "Qualified exposure",
+          "relevance_components": {
+            "values": {
+              "direct_mention": 0.0,
+              "edge_match": 1.0,
+              "country_match": 1.0,
+              "channel_match": 1.0
+            },
+            "contributions": {
+              "direct_mention": 0.0,
+              "edge_match": 0.3,
+              "country_match": 0.15,
+              "channel_match": 0.15
+            }
+          },
+          "score_method": "relationship_components_v1",
+          "legacy_relevance_score": 0.8,
+          "score_interpretation": "Uncalibrated relationship policy score, not a probability or impact estimate.",
+          "economic_channels": [
+            "advanced_packaging"
+          ],
+          "relationship_paths": [
+            {
+              "edge_id": "2",
+              "ticker": "NVDA",
+              "role": "buyer",
+              "counterparty": "TSMC",
+              "business": "Blackwell B200/GB200; Hopper H100/H200",
+              "channel": "advanced_packaging",
+              "country": "Taiwan",
+              "match_reasons": [
+                "country_match",
+                "channel_match",
+                "eligible_evidence",
+                "point_in_time_valid",
+                "semantic_compatibility"
+              ]
+            }
+          ],
+          "evidence": [
+            {
+              "edge_id": "2",
+              "ticker": "NVDA",
+              "country": "Taiwan",
+              "channel_family": "advanced_packaging",
+              "channel_subtype": "unspecified",
+              "role": "buyer",
+              "product_or_business": "Blackwell B200/GB200; Hopper H100/H200",
+              "counterparty": "TSMC",
+              "facility_or_route": "Taiwan CoWoS operations; exact facility not publicly confirmed",
+              "commodity_or_input": "CoWoS-L; CoWoS advanced packaging",
+              "stage": "operating",
+              "exposure_value": null,
+              "exposure_unit": null,
+              "exposure_band": "high",
+              "evidence_status": "verified",
+              "source_url": "https://www.nvidia.com/en-us/data-center/blackwell-platform/",
+              "source_locator": "NVIDIA GTC 2024; TechInsights HGX B200 teardown, Apr. 2025",
+              "valid_from": "2024-10-01",
+              "valid_to": null,
+              "known_at_utc": "2024-03-18",
+              "confidence": null,
+              "notes": "Blackwell packaging relationship is supported by Blackwell/CoWoS-L technical reporting.",
+              "match_reasons": [
+                "country_match",
+                "channel_match",
+                "eligible_evidence",
+                "point_in_time_valid",
+                "semantic_compatibility"
+              ]
+            }
+          ],
+          "evidence_strength": {
+            "relationship_level": "Strong (curated)",
+            "basis": "existing exposure-record curation status",
+            "independently_verified": false,
+            "article_confirmation": "single_source",
+            "article_source_quality": null,
+            "article_source": "Synthetic Relevance QA",
+            "article_url": null,
+            "note": "Curator-verified relationship is not independent confirmation of this event or its financial impact."
+          },
+          "article_evidence": {
+            "event_type": {
+              "value": "supply_chain",
+              "evidence": "TSMC reported a temporary disruption in CoWoS advanced packaging operations in Taiwan.",
+              "source_field": "body",
+              "basis": "article_text"
+            },
+            "event_subtype": {
+              "value": "production_interruption",
+              "evidence": "TSMC reported a temporary disruption in CoWoS advanced packaging operations in Taiwan.",
+              "source_field": "body",
+              "basis": "article_text"
+            },
+            "event_summary": {
+              "value": "TSMC reported a temporary disruption in CoWoS advanced packaging operations in Taiwan.",
+              "evidence": "TSMC reported a temporary disruption in CoWoS advanced packaging operations in Taiwan.",
+              "source_field": "body",
+              "basis": "article_text"
+            },
+            "keywords": {
+              "value": [
+                "production_interruption"
+              ],
+              "evidence": "TSMC reported a temporary disruption in CoWoS advanced packaging operations in Taiwan.",
+              "source_field": "body",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "TSMC reported a temporary disruption in CoWoS advanced packaging operations in Taiwan.",
+                  "source_field": "body"
+                }
+              ]
+            },
+            "canonical_headline": {
+              "value": "TSMC advanced packaging interruption affects CoWoS capacity in Taiwan",
+              "evidence": "TSMC advanced packaging interruption affects CoWoS capacity in Taiwan",
+              "source_field": "headline",
+              "basis": "article_text"
+            },
+            "source_count": {
+              "value": 1,
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "independent_source_count": {
+              "value": 1,
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "event_status": {
+              "value": "developing",
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "confirmation_level": {
+              "value": "single_source",
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "extraction_confidence": {
+              "value": 0.7,
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "published_at_first": {
+              "value": "2026-09-20T02:00:00+00:00",
+              "evidence": "2026-09-20T02:00:00+00:00",
+              "source_field": "published_at",
+              "basis": "provider_metadata"
+            },
+            "first_seen_at": {
+              "value": "2026-09-20T02:05:00+00:00",
+              "evidence": "2026-09-20T02:05:00+00:00",
+              "source_field": "fetched_at",
+              "basis": "provider_metadata"
+            },
+            "last_seen_at": {
+              "value": "2026-09-20T02:05:00+00:00",
+              "evidence": "2026-09-20T02:05:00+00:00",
+              "source_field": "fetched_at",
+              "basis": "provider_metadata"
+            },
+            "affected_countries": {
+              "value": [
+                "Taiwan"
+              ],
+              "evidence": "TSMC reported a temporary disruption in CoWoS advanced packaging operations in Taiwan.",
+              "source_field": "body",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "TSMC reported a temporary disruption in CoWoS advanced packaging operations in Taiwan.",
+                  "source_field": "body"
+                }
+              ],
+              "mapping_basis": [
+                {
+                  "stated": "Taiwan",
+                  "country": "Taiwan"
+                }
+              ]
+            },
+            "primary_country": {
+              "value": "Taiwan",
+              "evidence": "TSMC reported a temporary disruption in CoWoS advanced packaging operations in Taiwan.",
+              "source_field": "body",
+              "basis": "article_location_or_policy_actor"
+            },
+            "location_confidence": {
+              "value": 0.65,
+              "evidence": "TSMC reported a temporary disruption in CoWoS advanced packaging operations in Taiwan.",
+              "source_field": "body",
+              "basis": "heuristic_from_article"
+            },
+            "companies_mentioned": {
+              "value": [
+                "TSMC"
+              ],
+              "evidence": "TSMC advanced packaging interruption affects CoWoS capacity in Taiwan",
+              "source_field": "headline",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "TSMC advanced packaging interruption affects CoWoS capacity in Taiwan",
+                  "source_field": "headline"
+                }
+              ]
+            },
+            "technologies_mentioned": {
+              "value": [
+                "advanced packaging",
+                "CoWoS",
+                "AI",
+                "packaging capacity"
+              ],
+              "evidence": "A temporary interruption affected TSMC CoWoS advanced packaging capacity used for high-performance AI chips.",
+              "source_field": "summary",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "TSMC advanced packaging interruption affects CoWoS capacity in Taiwan",
+                  "source_field": "headline"
+                },
+                {
+                  "evidence": "A temporary interruption affected TSMC CoWoS advanced packaging capacity used for high-performance AI chips.",
+                  "source_field": "summary"
+                }
+              ]
+            }
+          },
+          "temporal_status": {
+            "status": "eligible_by_record_metadata",
+            "as_of": "2026-09-20T02:05:00+00:00",
+            "article_availability_known": true,
+            "source_dates_independently_verified": false,
+            "note": "Composite or revised sources require per-fact historical provenance review."
+          },
+          "materiality": {
+            "level": "Unknown",
+            "status": "unquantified",
+            "factors": {
+              "event_severity": null,
+              "exposure": [
+                {
+                  "edge_id": "2",
+                  "exposure_value": null,
+                  "exposure_unit": null,
+                  "exposure_band": "high"
+                }
+              ]
+            },
+            "missing_evidence": [
+              "Validated event-specific exposure scale and segment impact"
+            ],
+            "note": "Severity, exposure band and research priority do not establish financial materiality."
+          },
+          "historical_reaction": {
+            "status": "unavailable",
+            "probability": null,
+            "predictions": [],
+            "reason": "No explicit article-to-case mapping supplied.",
+            "disclosure": "Experimental historical association only. Not directional or causal. Retrospective OOS results may use historical backfill; not a live prediction.",
+            "used_for_relevance": false,
+            "used_for_priority": false
+          },
+          "research_priority": {
+            "level": "High",
+            "reasons": [
+              "Qualified relationship with curator-verified supporting exposure evidence."
+            ],
+            "method": "evidence_first_attention_v1",
+            "interpretation": "Analyst attention only; not magnitude, direction or recommendation."
+          },
+          "direction": "Analyst judgment required",
+          "explanation": "NVDA has 1 qualified exposure record(s) through advanced_packaging; inspect the attached relationship paths and sources.",
+          "next_questions": [
+            "Verify the original event report and whether later updates changed the facts.",
+            "Verify the cited relationship and that each supporting fact was known at the analysis time.",
+            "Determine the affected business segment, exposure amount, duration and mitigating capacity."
+          ]
+        }
+      ],
+      "edge_exclusions": [
+        {
+          "event_id": "evt_3167b629fd0f0a7762873cc0",
+          "edge_id": "4",
+          "reason": "non_operating_capacity"
+        },
+        {
+          "event_id": "evt_3167b629fd0f0a7762873cc0",
+          "edge_id": "19",
+          "reason": "blocked_or_hypothesis_evidence"
+        }
+      ],
+      "status": "qualified_matches",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "relevance_qa_003",
+      "headline": "Regional power outage temporarily disrupts a small electronics supplier in Malaysia",
+      "source": "Synthetic Relevance QA",
+      "article_url": null,
+      "gate": {
+        "article_id": "relevance_qa_003",
+        "is_event": true,
+        "gate_reason": "Asserted outage event: A regional power outage temporarily stopped production at a small electronics-components supplier in Ma",
+        "gate_confidence": 0.8
+      },
+      "event": {
+        "event_id": "evt_9037fe117e72820371d4ad70",
+        "canonical_event_id": "evt_9037fe117e72820371d4ad70",
+        "article_ids": [
+          "relevance_qa_003"
+        ],
+        "source_count": 1,
+        "independent_source_count": 1,
+        "first_seen_at": "2026-09-20T03:05:00+00:00",
+        "last_seen_at": "2026-09-20T03:05:00+00:00",
+        "published_at_first": "2026-09-20T03:00:00+00:00",
+        "event_start_at": null,
+        "event_end_at": null,
+        "time_precision": "unknown",
+        "event_status": "developing",
+        "primary_country": "Malaysia",
+        "affected_countries": [
+          "Malaysia"
+        ],
+        "primary_region": null,
+        "affected_regions": [],
+        "city": null,
+        "location_name": null,
+        "latitude": null,
+        "longitude": null,
+        "location_confidence": 0.65,
+        "event_type": "infrastructure_outage",
+        "event_subtype": "outage",
+        "severity_score": null,
+        "severity_confidence": null,
+        "scope": null,
+        "duration_class": "unknown",
+        "event_novelty": null,
+        "physical_damage": null,
+        "production_disruption": true,
+        "capacity_disruption": null,
+        "logistics_disruption": null,
+        "port_disruption": null,
+        "power_disruption": true,
+        "network_disruption": null,
+        "cloud_service_disruption": null,
+        "labor_disruption": null,
+        "supply_shortage": null,
+        "regulatory_change": null,
+        "export_restriction": null,
+        "import_restriction": null,
+        "price_change_explicit": null,
+        "demand_change_explicit": null,
+        "companies_mentioned": [],
+        "tickers_mentioned": [],
+        "suppliers_mentioned": [],
+        "customers_mentioned": [],
+        "industries_mentioned": [],
+        "products_mentioned": [],
+        "technologies_mentioned": [],
+        "commodities_mentioned": [],
+        "government_entities": [],
+        "regulators": [],
+        "people_mentioned": [],
+        "supply_channel": true,
+        "demand_channel": null,
+        "cost_channel": null,
+        "revenue_channel": null,
+        "margin_channel": null,
+        "capex_channel": null,
+        "financing_channel": null,
+        "interest_rate_channel": null,
+        "fx_channel": null,
+        "commodity_channel": null,
+        "logistics_channel": null,
+        "energy_channel": true,
+        "regulatory_channel": null,
+        "legal_channel": null,
+        "technology_channel": null,
+        "competition_channel": null,
+        "source_quality": null,
+        "extraction_confidence": 0.7,
+        "confirmation_level": "single_source",
+        "evidence_fields": {
+          "event_type": {
+            "value": "infrastructure_outage",
+            "evidence": "A regional power outage temporarily stopped production at a small electronics-components supplier in Ma",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_subtype": {
+            "value": "outage",
+            "evidence": "A regional power outage temporarily stopped production at a small electronics-components supplier in Ma",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_summary": {
+            "value": "A regional power outage temporarily stopped production at a small electronics-components supplier in Ma",
+            "evidence": "A regional power outage temporarily stopped production at a small electronics-components supplier in Ma",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "keywords": {
+            "value": [
+              "outage"
+            ],
+            "evidence": "A regional power outage temporarily stopped production at a small electronics-components supplier in Ma",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "A regional power outage temporarily stopped production at a small electronics-components supplier in Ma",
+                "source_field": "body"
+              }
+            ]
+          },
+          "canonical_headline": {
+            "value": "Regional power outage temporarily disrupts a small electronics supplier in Malaysia",
+            "evidence": "Regional power outage temporarily disrupts a small electronics supplier in Malaysia",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "independent_source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "event_status": {
+            "value": "developing",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "confirmation_level": {
+            "value": "single_source",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "extraction_confidence": {
+            "value": 0.7,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "published_at_first": {
+            "value": "2026-09-20T03:00:00+00:00",
+            "evidence": "2026-09-20T03:00:00+00:00",
+            "source_field": "published_at",
+            "basis": "provider_metadata"
+          },
+          "first_seen_at": {
+            "value": "2026-09-20T03:05:00+00:00",
+            "evidence": "2026-09-20T03:05:00+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "last_seen_at": {
+            "value": "2026-09-20T03:05:00+00:00",
+            "evidence": "2026-09-20T03:05:00+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "affected_countries": {
+            "value": [
+              "Malaysia"
+            ],
+            "evidence": "A regional power outage temporarily stopped production at a small electronics-components supplier in Ma",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "A regional power outage temporarily stopped production at a small electronics-components supplier in Ma",
+                "source_field": "body"
+              }
+            ],
+            "mapping_basis": [
+              {
+                "stated": "Malaysia",
+                "country": "Malaysia"
+              }
+            ]
+          },
+          "primary_country": {
+            "value": "Malaysia",
+            "evidence": "A regional power outage temporarily stopped production at a small electronics-components supplier in Malaysia.",
+            "source_field": "body",
+            "basis": "article_location_or_policy_actor"
+          },
+          "location_confidence": {
+            "value": 0.65,
+            "evidence": "A regional power outage temporarily stopped production at a small electronics-components supplier in Ma",
+            "source_field": "body",
+            "basis": "heuristic_from_article"
+          },
+          "production_disruption": {
+            "value": true,
+            "evidence": "A small electronics supplier in Malaysia temporarily halted production after a regional power outage.",
+            "source_field": "summary",
+            "basis": "article_text",
+            "assertion": "affirmed"
+          },
+          "power_disruption": {
+            "value": true,
+            "evidence": "Regional power outage temporarily disrupts a small electronics supplier in Malaysia",
+            "source_field": "headline",
+            "basis": "article_text",
+            "assertion": "affirmed"
+          },
+          "supply_channel": {
+            "value": true,
+            "evidence": "A regional power outage temporarily stopped production at a small electronics-components supplier in Ma",
+            "source_field": "body",
+            "basis": "article_text",
+            "assertion": "affirmed"
+          },
+          "energy_channel": {
+            "value": true,
+            "evidence": "A regional power outage temporarily stopped production at a small electronics-components supplier in Ma",
+            "source_field": "body",
+            "basis": "article_text",
+            "assertion": "affirmed"
+          }
+        },
+        "canonical_headline": "Regional power outage temporarily disrupts a small electronics supplier in Malaysia",
+        "event_summary": "A regional power outage temporarily stopped production at a small electronics-components supplier in Ma",
+        "keywords": [
+          "outage"
+        ],
+        "created_at": "2026-09-21T00:37:22.072547+00:00",
+        "updated_at": "2026-09-21T00:37:22.072547+00:00",
+        "schema_version": "event_v1"
+      },
+      "candidate_channels": [
+        {
+          "channel_family": "manufacturing",
+          "channel_subtype": "unspecified",
+          "confidence": 0.75,
+          "basis": [
+            "production_disruption"
+          ],
+          "status": "candidate"
+        },
+        {
+          "channel_family": "electricity_grid",
+          "channel_subtype": "unspecified",
+          "confidence": 0.75,
+          "basis": [
+            "power_disruption"
+          ],
+          "status": "candidate"
+        },
+        {
+          "channel_family": "supply_chain",
+          "channel_subtype": "unspecified",
+          "confidence": 0.75,
+          "basis": [
+            "supply_channel"
+          ],
+          "status": "candidate"
+        },
+        {
+          "channel_family": "energy",
+          "channel_subtype": "unspecified",
+          "confidence": 0.75,
+          "basis": [
+            "energy_channel"
+          ],
+          "status": "candidate"
+        }
+      ],
+      "ticker_analysis": [],
+      "edge_exclusions": [
+        {
+          "event_id": "evt_9037fe117e72820371d4ad70",
+          "edge_id": "4",
+          "reason": "non_operating_capacity"
+        },
+        {
+          "event_id": "evt_9037fe117e72820371d4ad70",
+          "edge_id": "19",
+          "reason": "blocked_or_hypothesis_evidence"
+        }
+      ],
+      "status": "no_qualified_match",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "relevance_qa_004",
+      "headline": "US expands export-license restrictions on advanced AI chips sold to China",
+      "source": "Synthetic Relevance QA",
+      "article_url": null,
+      "gate": {
+        "article_id": "relevance_qa_004",
+        "is_event": true,
+        "gate_reason": "Asserted export_controls event: The U.S. government announced expanded export-license restrictions on advanced AI accelerators sold to China.",
+        "gate_confidence": 0.8
+      },
+      "event": {
+        "event_id": "evt_f64ca9ce52e0317f57fb8732",
+        "canonical_event_id": "evt_f64ca9ce52e0317f57fb8732",
+        "article_ids": [
+          "relevance_qa_004"
+        ],
+        "source_count": 1,
+        "independent_source_count": 1,
+        "first_seen_at": "2026-09-20T04:05:00+00:00",
+        "last_seen_at": "2026-09-20T04:05:00+00:00",
+        "published_at_first": "2026-09-20T04:00:00+00:00",
+        "event_start_at": null,
+        "event_end_at": null,
+        "time_precision": "unknown",
+        "event_status": "developing",
+        "primary_country": "United States",
+        "affected_countries": [
+          "United States",
+          "China"
+        ],
+        "primary_region": null,
+        "affected_regions": [],
+        "city": null,
+        "location_name": null,
+        "latitude": null,
+        "longitude": null,
+        "location_confidence": 0.65,
+        "event_type": "trade_export_control",
+        "event_subtype": "export_controls",
+        "severity_score": null,
+        "severity_confidence": null,
+        "scope": null,
+        "duration_class": "unknown",
+        "event_novelty": null,
+        "physical_damage": null,
+        "production_disruption": null,
+        "capacity_disruption": null,
+        "logistics_disruption": null,
+        "port_disruption": null,
+        "power_disruption": null,
+        "network_disruption": null,
+        "cloud_service_disruption": null,
+        "labor_disruption": null,
+        "supply_shortage": null,
+        "regulatory_change": null,
+        "export_restriction": true,
+        "import_restriction": null,
+        "price_change_explicit": null,
+        "demand_change_explicit": null,
+        "companies_mentioned": [
+          "NVIDIA"
+        ],
+        "tickers_mentioned": [
+          "NVDA"
+        ],
+        "suppliers_mentioned": [],
+        "customers_mentioned": [],
+        "industries_mentioned": [],
+        "products_mentioned": [],
+        "technologies_mentioned": [
+          "AI"
+        ],
+        "commodities_mentioned": [],
+        "government_entities": [],
+        "regulators": [],
+        "people_mentioned": [],
+        "supply_channel": null,
+        "demand_channel": null,
+        "cost_channel": null,
+        "revenue_channel": null,
+        "margin_channel": null,
+        "capex_channel": null,
+        "financing_channel": null,
+        "interest_rate_channel": null,
+        "fx_channel": null,
+        "commodity_channel": null,
+        "logistics_channel": null,
+        "energy_channel": null,
+        "regulatory_channel": true,
+        "legal_channel": null,
+        "technology_channel": null,
+        "competition_channel": null,
+        "source_quality": null,
+        "extraction_confidence": 0.7,
+        "confirmation_level": "single_source",
+        "evidence_fields": {
+          "event_type": {
+            "value": "trade_export_control",
+            "evidence": "The U.S. government announced expanded export-license restrictions on advanced AI accelerators sold to China.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_subtype": {
+            "value": "export_controls",
+            "evidence": "The U.S. government announced expanded export-license restrictions on advanced AI accelerators sold to China.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_summary": {
+            "value": "The U.S. government announced expanded export-license restrictions on advanced AI accelerators sold to China.",
+            "evidence": "The U.S. government announced expanded export-license restrictions on advanced AI accelerators sold to China.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "keywords": {
+            "value": [
+              "export_controls"
+            ],
+            "evidence": "The U.S. government announced expanded export-license restrictions on advanced AI accelerators sold to China.",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "The U.S. government announced expanded export-license restrictions on advanced AI accelerators sold to China.",
+                "source_field": "body"
+              }
+            ]
+          },
+          "canonical_headline": {
+            "value": "US expands export-license restrictions on advanced AI chips sold to China",
+            "evidence": "US expands export-license restrictions on advanced AI chips sold to China",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "independent_source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "event_status": {
+            "value": "developing",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "confirmation_level": {
+            "value": "single_source",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "extraction_confidence": {
+            "value": 0.7,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "published_at_first": {
+            "value": "2026-09-20T04:00:00+00:00",
+            "evidence": "2026-09-20T04:00:00+00:00",
+            "source_field": "published_at",
+            "basis": "provider_metadata"
+          },
+          "first_seen_at": {
+            "value": "2026-09-20T04:05:00+00:00",
+            "evidence": "2026-09-20T04:05:00+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "last_seen_at": {
+            "value": "2026-09-20T04:05:00+00:00",
+            "evidence": "2026-09-20T04:05:00+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "affected_countries": {
+            "value": [
+              "United States",
+              "China"
+            ],
+            "evidence": "The U.S. government announced expanded export-license restrictions on advanced AI accelerators sold to China.",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "The U.S. government announced expanded export-license restrictions on advanced AI accelerators sold to China.",
+                "source_field": "body"
+              }
+            ],
+            "mapping_basis": [
+              {
+                "stated": "China",
+                "country": "China"
+              },
+              {
+                "stated": "U.S.",
+                "country": "United States"
+              }
+            ]
+          },
+          "primary_country": {
+            "value": "United States",
+            "evidence": "The U.S. government announced expanded export-license restrictions on advanced AI accelerators sold to China.",
+            "source_field": "body",
+            "basis": "article_location_or_policy_actor"
+          },
+          "location_confidence": {
+            "value": 0.65,
+            "evidence": "The U.S. government announced expanded export-license restrictions on advanced AI accelerators sold to China.",
+            "source_field": "body",
+            "basis": "heuristic_from_article"
+          },
+          "export_restriction": {
+            "value": true,
+            "evidence": "US expands export-license restrictions on advanced AI chips sold to China",
+            "source_field": "headline",
+            "basis": "article_text",
+            "assertion": "affirmed"
+          },
+          "regulatory_channel": {
+            "value": true,
+            "evidence": "The U.S. government announced expanded export-license restrictions on advanced AI accelerators sold to China.",
+            "source_field": "body",
+            "basis": "article_text",
+            "assertion": "affirmed"
+          },
+          "technologies_mentioned": {
+            "value": [
+              "AI"
+            ],
+            "evidence": "US expands export-license restrictions on advanced AI chips sold to China",
+            "source_field": "headline",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "US expands export-license restrictions on advanced AI chips sold to China",
+                "source_field": "headline"
+              }
+            ]
+          },
+          "companies_mentioned": {
+            "value": [
+              "NVIDIA"
+            ],
+            "evidence": " to China and directly affect Nvidia",
+            "source_field": "summary",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": " to China and directly affect Nvidia",
+                "source_field": "summary"
+              }
+            ]
+          },
+          "tickers_mentioned": {
+            "value": [
+              "NVDA"
+            ],
+            "evidence": " to China and directly affect Nvidia",
+            "source_field": "summary",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": " to China and directly affect Nvidia",
+                "source_field": "summary"
+              }
+            ]
+          }
+        },
+        "canonical_headline": "US expands export-license restrictions on advanced AI chips sold to China",
+        "event_summary": "The U.S. government announced expanded export-license restrictions on advanced AI accelerators sold to China.",
+        "keywords": [
+          "export_controls"
+        ],
+        "created_at": "2026-09-21T00:37:22.072547+00:00",
+        "updated_at": "2026-09-21T00:37:22.072547+00:00",
+        "schema_version": "event_v1"
+      },
+      "candidate_channels": [
+        {
+          "channel_family": "regulatory_export",
+          "channel_subtype": "unspecified",
+          "confidence": 0.75,
+          "basis": [
+            "event_subtype",
+            "event_type",
+            "export_restriction"
+          ],
+          "status": "candidate"
+        },
+        {
+          "channel_family": "regulatory_general",
+          "channel_subtype": "unspecified",
+          "confidence": 0.75,
+          "basis": [
+            "regulatory_channel"
+          ],
+          "status": "candidate"
+        }
+      ],
+      "ticker_analysis": [
+        {
+          "ticker": "NVDA",
+          "qualification": "qualified_direct_event_subject",
+          "relationship_type": "direct_event_subject",
+          "direct_mention": true,
+          "relevance_score": 0.75,
+          "relevance_level": "Direct event subject",
+          "relevance_components": {
+            "values": {
+              "direct_mention": 1.0,
+              "edge_match": 1.0,
+              "country_match": 1.0,
+              "channel_match": 1.0
+            },
+            "contributions": {
+              "direct_mention": 0.15,
+              "edge_match": 0.3,
+              "country_match": 0.15,
+              "channel_match": 0.15
+            }
+          },
+          "score_method": "relationship_components_v1",
+          "legacy_relevance_score": 0.95,
+          "score_interpretation": "Uncalibrated relationship policy score, not a probability or impact estimate.",
+          "economic_channels": [
+            "regulatory_export"
+          ],
+          "relationship_paths": [
+            {
+              "edge_id": "5",
+              "ticker": "NVDA",
+              "role": "seller",
+              "counterparty": "U.S. Department of Commerce, Bureau of Industry and Security",
+              "business": "Data-center GPUs; China-compliant products",
+              "channel": "regulatory_export",
+              "country": "China",
+              "match_reasons": [
+                "country_match",
+                "channel_match",
+                "eligible_evidence",
+                "point_in_time_valid",
+                "semantic_compatibility"
+              ]
+            }
+          ],
+          "evidence": [
+            {
+              "edge_id": "5",
+              "ticker": "NVDA",
+              "country": "China",
+              "channel_family": "regulatory_export",
+              "channel_subtype": "unspecified",
+              "role": "seller",
+              "product_or_business": "Data-center GPUs; China-compliant products",
+              "counterparty": "U.S. Department of Commerce, Bureau of Industry and Security",
+              "facility_or_route": null,
+              "commodity_or_input": "Advanced computing integrated circuits",
+              "stage": "operating",
+              "exposure_value": null,
+              "exposure_unit": null,
+              "exposure_band": "high",
+              "evidence_status": "verified",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000017/nvda-20230129.htm",
+              "source_locator": "NVIDIA FY2023 Form 10-K / public export-control risk disclosure predating H02; later BIS rule refined the restriction.",
+              "valid_from": "2023-10-17",
+              "valid_to": null,
+              "known_at_utc": "2023-05-26",
+              "confidence": null,
+              "notes": "U.S. export controls restrict transactions involving specified advanced computing products and China/Macau destinations.",
+              "match_reasons": [
+                "country_match",
+                "channel_match",
+                "eligible_evidence",
+                "point_in_time_valid",
+                "semantic_compatibility"
+              ]
+            }
+          ],
+          "evidence_strength": {
+            "relationship_level": "Strong (curated)",
+            "basis": "existing exposure-record curation status",
+            "independently_verified": false,
+            "article_confirmation": "single_source",
+            "article_source_quality": null,
+            "article_source": "Synthetic Relevance QA",
+            "article_url": null,
+            "note": "Curator-verified relationship is not independent confirmation of this event or its financial impact."
+          },
+          "article_evidence": {
+            "event_type": {
+              "value": "trade_export_control",
+              "evidence": "The U.S. government announced expanded export-license restrictions on advanced AI accelerators sold to China.",
+              "source_field": "body",
+              "basis": "article_text"
+            },
+            "event_subtype": {
+              "value": "export_controls",
+              "evidence": "The U.S. government announced expanded export-license restrictions on advanced AI accelerators sold to China.",
+              "source_field": "body",
+              "basis": "article_text"
+            },
+            "event_summary": {
+              "value": "The U.S. government announced expanded export-license restrictions on advanced AI accelerators sold to China.",
+              "evidence": "The U.S. government announced expanded export-license restrictions on advanced AI accelerators sold to China.",
+              "source_field": "body",
+              "basis": "article_text"
+            },
+            "keywords": {
+              "value": [
+                "export_controls"
+              ],
+              "evidence": "The U.S. government announced expanded export-license restrictions on advanced AI accelerators sold to China.",
+              "source_field": "body",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "The U.S. government announced expanded export-license restrictions on advanced AI accelerators sold to China.",
+                  "source_field": "body"
+                }
+              ]
+            },
+            "canonical_headline": {
+              "value": "US expands export-license restrictions on advanced AI chips sold to China",
+              "evidence": "US expands export-license restrictions on advanced AI chips sold to China",
+              "source_field": "headline",
+              "basis": "article_text"
+            },
+            "source_count": {
+              "value": 1,
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "independent_source_count": {
+              "value": 1,
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "event_status": {
+              "value": "developing",
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "confirmation_level": {
+              "value": "single_source",
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "extraction_confidence": {
+              "value": 0.7,
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "published_at_first": {
+              "value": "2026-09-20T04:00:00+00:00",
+              "evidence": "2026-09-20T04:00:00+00:00",
+              "source_field": "published_at",
+              "basis": "provider_metadata"
+            },
+            "first_seen_at": {
+              "value": "2026-09-20T04:05:00+00:00",
+              "evidence": "2026-09-20T04:05:00+00:00",
+              "source_field": "fetched_at",
+              "basis": "provider_metadata"
+            },
+            "last_seen_at": {
+              "value": "2026-09-20T04:05:00+00:00",
+              "evidence": "2026-09-20T04:05:00+00:00",
+              "source_field": "fetched_at",
+              "basis": "provider_metadata"
+            },
+            "affected_countries": {
+              "value": [
+                "United States",
+                "China"
+              ],
+              "evidence": "The U.S. government announced expanded export-license restrictions on advanced AI accelerators sold to China.",
+              "source_field": "body",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "The U.S. government announced expanded export-license restrictions on advanced AI accelerators sold to China.",
+                  "source_field": "body"
+                }
+              ],
+              "mapping_basis": [
+                {
+                  "stated": "China",
+                  "country": "China"
+                },
+                {
+                  "stated": "U.S.",
+                  "country": "United States"
+                }
+              ]
+            },
+            "primary_country": {
+              "value": "United States",
+              "evidence": "The U.S. government announced expanded export-license restrictions on advanced AI accelerators sold to China.",
+              "source_field": "body",
+              "basis": "article_location_or_policy_actor"
+            },
+            "location_confidence": {
+              "value": 0.65,
+              "evidence": "The U.S. government announced expanded export-license restrictions on advanced AI accelerators sold to China.",
+              "source_field": "body",
+              "basis": "heuristic_from_article"
+            },
+            "export_restriction": {
+              "value": true,
+              "evidence": "US expands export-license restrictions on advanced AI chips sold to China",
+              "source_field": "headline",
+              "basis": "article_text",
+              "assertion": "affirmed"
+            },
+            "regulatory_channel": {
+              "value": true,
+              "evidence": "The U.S. government announced expanded export-license restrictions on advanced AI accelerators sold to China.",
+              "source_field": "body",
+              "basis": "article_text",
+              "assertion": "affirmed"
+            },
+            "technologies_mentioned": {
+              "value": [
+                "AI"
+              ],
+              "evidence": "US expands export-license restrictions on advanced AI chips sold to China",
+              "source_field": "headline",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "US expands export-license restrictions on advanced AI chips sold to China",
+                  "source_field": "headline"
+                }
+              ]
+            },
+            "companies_mentioned": {
+              "value": [
+                "NVIDIA"
+              ],
+              "evidence": " to China and directly affect Nvidia",
+              "source_field": "summary",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": " to China and directly affect Nvidia",
+                  "source_field": "summary"
+                }
+              ]
+            },
+            "tickers_mentioned": {
+              "value": [
+                "NVDA"
+              ],
+              "evidence": " to China and directly affect Nvidia",
+              "source_field": "summary",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": " to China and directly affect Nvidia",
+                  "source_field": "summary"
+                }
+              ]
+            }
+          },
+          "temporal_status": {
+            "status": "eligible_by_record_metadata",
+            "as_of": "2026-09-20T04:05:00+00:00",
+            "article_availability_known": true,
+            "source_dates_independently_verified": false,
+            "note": "Composite or revised sources require per-fact historical provenance review."
+          },
+          "materiality": {
+            "level": "Unknown",
+            "status": "unquantified",
+            "factors": {
+              "event_severity": null,
+              "exposure": [
+                {
+                  "edge_id": "5",
+                  "exposure_value": null,
+                  "exposure_unit": null,
+                  "exposure_band": "high"
+                }
+              ]
+            },
+            "missing_evidence": [
+              "Validated event-specific exposure scale and segment impact"
+            ],
+            "note": "Severity, exposure band and research priority do not establish financial materiality."
+          },
+          "historical_reaction": {
+            "status": "unavailable",
+            "probability": null,
+            "predictions": [],
+            "reason": "No explicit article-to-case mapping supplied.",
+            "disclosure": "Experimental historical association only. Not directional or causal. Retrospective OOS results may use historical backfill; not a live prediction.",
+            "used_for_relevance": false,
+            "used_for_priority": false
+          },
+          "research_priority": {
+            "level": "High",
+            "reasons": [
+              "Qualified relationship with curator-verified supporting exposure evidence."
+            ],
+            "method": "evidence_first_attention_v1",
+            "interpretation": "Analyst attention only; not magnitude, direction or recommendation."
+          },
+          "direction": "Analyst judgment required",
+          "explanation": "NVDA is explicitly linked to the accepted event action in the article.",
+          "next_questions": [
+            "Verify the original action report and any official confirmation.",
+            "Determine event-specific financial scale, scope and mitigating factors."
+          ],
+          "direct_event_evidence": {
+            "ticker": "NVDA",
+            "evidence": "New export-license restrictions cover advanced AI accelerators sold to China and directly affect Nvidia",
+            "source_field": "summary",
+            "basis": "explicit_event_action_participant",
+            "event_subtype": "export_controls"
+          }
+        }
+      ],
+      "edge_exclusions": [
+        {
+          "event_id": "evt_f64ca9ce52e0317f57fb8732",
+          "edge_id": "4",
+          "reason": "non_operating_capacity"
+        },
+        {
+          "event_id": "evt_f64ca9ce52e0317f57fb8732",
+          "edge_id": "19",
+          "reason": "blocked_or_hypothesis_evidence"
+        }
+      ],
+      "status": "qualified_matches",
+      "direction": "Analyst judgment required"
+    }
+  ],
+  "research_queue": [
+    {
+      "article_id": "relevance_qa_004",
+      "event_id": "evt_f64ca9ce52e0317f57fb8732",
+      "ticker": "NVDA",
+      "qualification": "qualified_direct_event_subject",
+      "priority": "High",
+      "relevance_score": 0.75,
+      "published_at": "2026-09-20T04:00:00+00:00",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "relevance_qa_002",
+      "event_id": "evt_3167b629fd0f0a7762873cc0",
+      "ticker": "NVDA",
+      "qualification": "qualified_exposure",
+      "priority": "High",
+      "relevance_score": 0.6,
+      "published_at": "2026-09-20T02:00:00+00:00",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "relevance_qa_001",
+      "event_id": "evt_30fe20ace60c858723eaea00",
+      "ticker": "META",
+      "qualification": "qualified_direct_event_subject",
+      "priority": "Medium",
+      "relevance_score": 0.15,
+      "published_at": "2026-09-20T01:00:00+00:00",
+      "direction": "Analyst judgment required"
+    }
+  ],
+  "summary": {
+    "articles": 4,
+    "accepted": 4,
+    "rejected": 0,
+    "qualified_pairs": 3,
+    "review_candidates": 0
+  }
+}

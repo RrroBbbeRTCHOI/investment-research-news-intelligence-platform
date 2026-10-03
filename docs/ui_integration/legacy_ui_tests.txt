@@ -1,0 +1,84 @@
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.sse4_2'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx1_0'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx2_0'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.bmi1'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.bmi2'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512f'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512cd'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512dq'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512bw'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512vl'. Detail: [errno 1] Operation not permitted
+/Users/choisiuhang/Documents/ChatGPT/stock screener/STOCK_SCREENER_NEWS_UI_INTEGRATED_V1/tests/test_news_ui.py:45: ResourceWarning: unclosed file <_io.BufferedReader name='/Users/choisiuhang/Documents/ChatGPT/stock screener/STOCK_SCREENER_NEWS_UI_INTEGRATED_V1/static/css/news.css'>
+  self.assertEqual(client.get('/static/'+path).status_code,200)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/choisiuhang/Documents/ChatGPT/stock screener/STOCK_SCREENER_NEWS_UI_INTEGRATED_V1/tests/test_news_ui.py:45: ResourceWarning: unclosed file <_io.BufferedReader name='/Users/choisiuhang/Documents/ChatGPT/stock screener/STOCK_SCREENER_NEWS_UI_INTEGRATED_V1/static/js/news_model.js'>
+  self.assertEqual(client.get('/static/'+path).status_code,200)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/choisiuhang/Documents/ChatGPT/stock screener/STOCK_SCREENER_NEWS_UI_INTEGRATED_V1/tests/test_news_ui.py:45: ResourceWarning: unclosed file <_io.BufferedReader name='/Users/choisiuhang/Documents/ChatGPT/stock screener/STOCK_SCREENER_NEWS_UI_INTEGRATED_V1/static/js/news_ui.js'>
+  self.assertEqual(client.get('/static/'+path).status_code,200)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/choisiuhang/Documents/ChatGPT/stock screener/STOCK_SCREENER_NEWS_UI_INTEGRATED_V1/tests/test_news_ui.py:45: ResourceWarning: unclosed file <_io.BufferedReader name='/Users/choisiuhang/Documents/ChatGPT/stock screener/STOCK_SCREENER_NEWS_UI_INTEGRATED_V1/static/js/news_globe.js'>
+  self.assertEqual(client.get('/static/'+path).status_code,200)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/choisiuhang/Documents/ChatGPT/stock screener/STOCK_SCREENER_NEWS_UI_INTEGRATED_V1/tests/test_news_ui.py:45: ResourceWarning: unclosed file <_io.BufferedReader name='/Users/choisiuhang/Documents/ChatGPT/stock screener/STOCK_SCREENER_NEWS_UI_INTEGRATED_V1/static/vendor/three/three.module.js'>
+  self.assertEqual(client.get('/static/'+path).status_code,200)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/choisiuhang/Documents/ChatGPT/stock screener/STOCK_SCREENER_NEWS_UI_INTEGRATED_V1/tests/test_news_ui.py:45: ResourceWarning: unclosed file <_io.BufferedReader name='/Users/choisiuhang/Documents/ChatGPT/stock screener/STOCK_SCREENER_NEWS_UI_INTEGRATED_V1/static/vendor/three/three.core.js'>
+  self.assertEqual(client.get('/static/'+path).status_code,200)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/choisiuhang/Documents/ChatGPT/stock screener/STOCK_SCREENER_NEWS_UI_INTEGRATED_V1/tests/test_news_ui.py:45: ResourceWarning: unclosed file <_io.BufferedReader name='/Users/choisiuhang/Documents/ChatGPT/stock screener/STOCK_SCREENER_NEWS_UI_INTEGRATED_V1/static/vendor/three/OrbitControls.js'>
+  self.assertEqual(client.get('/static/'+path).status_code,200)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/choisiuhang/Documents/ChatGPT/stock screener/STOCK_SCREENER_NEWS_UI_INTEGRATED_V1/tests/test_news_ui.py:45: ResourceWarning: unclosed file <_io.BufferedReader name='/Users/choisiuhang/Documents/ChatGPT/stock screener/STOCK_SCREENER_NEWS_UI_INTEGRATED_V1/static/vendor/d3.min.js'>
+  self.assertEqual(client.get('/static/'+path).status_code,200)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/choisiuhang/Documents/ChatGPT/stock screener/STOCK_SCREENER_NEWS_UI_INTEGRATED_V1/tests/test_news_ui.py:45: ResourceWarning: unclosed file <_io.BufferedReader name='/Users/choisiuhang/Documents/ChatGPT/stock screener/STOCK_SCREENER_NEWS_UI_INTEGRATED_V1/static/data/countries.geojson'>
+  self.assertEqual(client.get('/static/'+path).status_code,200)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/choisiuhang/Documents/ChatGPT/stock screener/STOCK_SCREENER_NEWS_UI_INTEGRATED_V1/tests/test_news_ui.py:46: ResourceWarning: unclosed file <_io.BufferedReader name='/Users/choisiuhang/Documents/ChatGPT/stock screener/STOCK_SCREENER_NEWS_UI_INTEGRATED_V1/static/data/countries.geojson'>
+  data=json.loads(client.get('/static/data/countries.geojson').data)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.....FFF..
+======================================================================
+FAIL: test_research_and_financial_sources_unchanged (test_news_ui.NewsUITests.test_research_and_financial_sources_unchanged) (path='data/cache/historical_financials/AAPL_balance_sheet_statement_5y.json')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/choisiuhang/Documents/ChatGPT/stock screener/STOCK_SCREENER_NEWS_UI_INTEGRATED_V1/tests/test_news_ui.py", line 24, in test_research_and_financial_sources_unchanged
+    self.assertEqual(hashlib.sha256(content).hexdigest(), checksum)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '1462d3d4b08d6bd616467794fe56d6850bc602084950785e0cf646a28580acf4' != 'e085d8d8930e33dfa337491a2a4dcef03429cf9e5e260ca400329cc011f53ed7'
+- 1462d3d4b08d6bd616467794fe56d6850bc602084950785e0cf646a28580acf4
++ e085d8d8930e33dfa337491a2a4dcef03429cf9e5e260ca400329cc011f53ed7
+
+
+======================================================================
+FAIL: test_research_and_financial_sources_unchanged (test_news_ui.NewsUITests.test_research_and_financial_sources_unchanged) (path='data/cache/historical_financials/AAPL_cash_flow_statement_5y.json')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/choisiuhang/Documents/ChatGPT/stock screener/STOCK_SCREENER_NEWS_UI_INTEGRATED_V1/tests/test_news_ui.py", line 24, in test_research_and_financial_sources_unchanged
+    self.assertEqual(hashlib.sha256(content).hexdigest(), checksum)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '395fd19aa2329f1a7155a9f2c8fbc1b867ad9b76533f74cd9ae673ea9c300639' != '6d065a1a13659d256b356a30818715d4579b5b62ecb25a1212138b9810068578'
+- 395fd19aa2329f1a7155a9f2c8fbc1b867ad9b76533f74cd9ae673ea9c300639
++ 6d065a1a13659d256b356a30818715d4579b5b62ecb25a1212138b9810068578
+
+
+======================================================================
+FAIL: test_research_and_financial_sources_unchanged (test_news_ui.NewsUITests.test_research_and_financial_sources_unchanged) (path='data/cache/historical_financials/AAPL_income_statement_5y.json')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/choisiuhang/Documents/ChatGPT/stock screener/STOCK_SCREENER_NEWS_UI_INTEGRATED_V1/tests/test_news_ui.py", line 24, in test_research_and_financial_sources_unchanged
+    self.assertEqual(hashlib.sha256(content).hexdigest(), checksum)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '4d0f779332f7ed3d9e3d6d342248cadb8dafa68e8b0e9d1992fea42c221cd91c' != '98bdf62d6c4d8ff78741436fb303489f3d984e1d170d7f5270643a1dfb3d3dc8'
+- 4d0f779332f7ed3d9e3d6d342248cadb8dafa68e8b0e9d1992fea42c221cd91c
++ 98bdf62d6c4d8ff78741436fb303489f3d984e1d170d7f5270643a1dfb3d3dc8
+
+
+----------------------------------------------------------------------
+Ran 8 tests in 3.677s
+
+FAILED (failures=3)

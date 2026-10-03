@@ -1,0 +1,94 @@
+{
+    "_metadata": {
+      "schema": "normalized_article_v2",
+      "test_set": "tsmc_specificity_v1",
+      "article_count": 3,
+      "full_text_count": 3
+    },
+    "articles": [
+      {
+        "article_id": "tsmc_spec_001",
+        "provider": "synthetic_test",
+        "provider_article_id": "tsmc-spec-001",
+        "headline": "TSMC wafer fabrication interruption affects advanced chip production in Taiwan",
+        "summary": "TSMC temporarily interrupted advanced logic wafer fabrication at a Taiwan fab.",
+        "body": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs following an equipment issue. The affected operation produces advanced logic wafers using leading-edge semiconductor manufacturing processes. TSMC said advanced packaging operations, including CoWoS, were not affected.",
+        "source": "Synthetic Specificity Test",
+        "article_url": null,
+        "thumbnail": null,
+        "authors": [],
+        "topics": [
+          "TSMC",
+          "wafer fabrication",
+          "advanced semiconductors"
+        ],
+        "countries": [
+          "TW"
+        ],
+        "languages": [
+          "en"
+        ],
+        "published_at": "2026-09-18T08:00:00+00:00",
+        "fetched_at": "2026-09-18T08:05:00+00:00",
+        "has_full_text": true,
+        "raw_listing": {},
+        "raw_detail": {}
+      },
+      {
+        "article_id": "tsmc_spec_002",
+        "provider": "synthetic_test",
+        "provider_article_id": "tsmc-spec-002",
+        "headline": "TSMC CoWoS packaging disruption delays advanced AI chip packaging",
+        "summary": "A temporary disruption affected TSMC CoWoS advanced packaging operations in Taiwan.",
+        "body": "TSMC reported a temporary interruption at CoWoS advanced packaging operations in Taiwan. The disruption affected advanced packaging capacity used for high-performance AI chips. TSMC said wafer fabrication at its leading-edge logic fabs continued operating normally.",
+        "source": "Synthetic Specificity Test",
+        "article_url": null,
+        "thumbnail": null,
+        "authors": [],
+        "topics": [
+          "TSMC",
+          "CoWoS",
+          "advanced packaging"
+        ],
+        "countries": [
+          "TW"
+        ],
+        "languages": [
+          "en"
+        ],
+        "published_at": "2026-09-18T08:10:00+00:00",
+        "fetched_at": "2026-09-18T08:15:00+00:00",
+        "has_full_text": true,
+        "raw_listing": {},
+        "raw_detail": {}
+      },
+      {
+        "article_id": "tsmc_spec_003",
+        "provider": "synthetic_test",
+        "provider_article_id": "tsmc-spec-003",
+        "headline": "TSMC announces employee training initiative in Taiwan",
+        "summary": "TSMC announced a new employee training program.",
+        "body": "Taiwan Semiconductor Manufacturing Company announced a new employee training initiative in Taiwan focused on engineering skills and professional development. The announcement did not involve production interruptions, wafer fabrication issues, advanced packaging disruptions, supply shortages or customer shipment delays.",
+        "source": "Synthetic Specificity Test",
+        "article_url": null,
+        "thumbnail": null,
+        "authors": [],
+        "topics": [
+          "TSMC",
+          "training",
+          "workforce"
+        ],
+        "countries": [
+          "TW"
+        ],
+        "languages": [
+          "en"
+        ],
+        "published_at": "2026-09-18T08:20:00+00:00",
+        "fetched_at": "2026-09-18T08:25:00+00:00",
+        "has_full_text": true,
+        "raw_listing": {},
+        "raw_detail": {}
+      }
+    ]
+  }

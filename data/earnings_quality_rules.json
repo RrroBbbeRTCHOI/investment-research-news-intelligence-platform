@@ -1,0 +1,83 @@
+{
+  "version": "2.0",
+  "gap_pp": 10,
+  "roic_stable_pp": 1,
+  "taxonomy": {
+    "volatile_market": [
+      "unrealized_gains",
+      "fair_value_remeasurement",
+      "upward_revaluation",
+      "observable_price_change",
+      "equity_security_gains",
+      "warrant_valuation",
+      "investment_gains",
+      "derivatives",
+      "foreign_exchange",
+      "digital_assets",
+      "marketable_equity"
+    ],
+    "actual_event": [
+      "dilution_gain",
+      "recapitalization",
+      "asset_sales",
+      "conversion_reclassification",
+      "equity_method",
+      "legal_settlements",
+      "acquisition_accounting"
+    ],
+    "tax": [
+      "tax_unusual_items",
+      "tax_context"
+    ],
+    "operating_revenue": [
+      "regulatory_credits",
+      "unusual_revenue_recognition",
+      "customer_concentration",
+      "revenue_recognition",
+      "operating_revenue_mix",
+      "related_party_transactions"
+    ],
+    "operating_cost": [
+      "inventory_reserve_movements",
+      "impairment",
+      "restructuring",
+      "stock_compensation",
+      "vendor_arrangements"
+    ],
+    "working_capital": [
+      "supplier_financing",
+      "receivable_financing",
+      "accounts_receivable",
+      "inventory",
+      "accounts_payable",
+      "working_capital",
+      "deferred_revenue"
+    ],
+    "capex": [
+      "capitalized_costs",
+      "capital_expenditures",
+      "infrastructure_investment"
+    ],
+    "below_operating": [
+      "interest_income",
+      "investment_income",
+      "other_income_container"
+    ]
+  },
+  "patterns": {
+    "actual": "\\b(?:we|the company)\\s+(?:recognized|recorded|incurred|reported|realized)\\b|\\b(?:included|resulted in)\\s+(?:a |an |net )?(?:gain|loss|charge|benefit)|\\b(?:increased|decreased) by\\b",
+    "hypothetical": "\\b(?:may|might|could|would|if|not|never|without)\\b|\\brisk factors\\b|\\bno (?:gain|loss|charge|benefit)\\b",
+    "policy": "\\b(?:are|is) (?:recorded|recognized|measured)|\\b(?:we|the company) (?:records|recognizes)\\b|\\baccounting polic",
+    "one_off": "\\b(?:one-time|one time|non-recurring|nonrecurring|discrete tax|transaction-related|transaction related)\\b",
+    "fiscal_year": "\\bfiscal (?:year\\s+)?(20\\d{2})\\b",
+    "annual_date": "\\byear ended\\s+([A-Za-z]+\\s+\\d{1,2},?\\s+20\\d{2})",
+    "named_transaction": "\\b([A-Z][A-Za-z0-9&.-]*(?:\\s+[A-Z][A-Za-z0-9&.-]*){0,2})\\s+(?:[Rr]ecapitalization|[Aa]cquisition|[Ss]ettlement)\\b",
+    "linked_amount": "\\b(?:recognized|recorded|incurred|reported|realized)\\s+(?:a|an)\\s+(?P<sign>-|\\()?\\$(?P<amount>\\d+(?:,\\d{3})*(?:\\.\\d+)?)\\s*(?P<scale>billion|million|thousand)\\)?\\s+(?P<label>[^.;:]{0,100}?(?:gain|loss|charge|benefit|expense))\\b"
+  },
+  "warnings": [
+    "Missing evidence is not clean evidence.",
+    "Keyword matches and arithmetic bridges do not establish economic causation.",
+    "Do not sum overlapping statement subtotals, structured items and narrative evidence.",
+    "No forecast or productive-reinvestment conclusion is made."
+  ]
+}

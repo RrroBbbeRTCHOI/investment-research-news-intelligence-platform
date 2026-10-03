@@ -1,0 +1,1619 @@
+{
+  "schema_version": "news_research_v1",
+  "generated_at": "2026-09-20T16:18:23.605666+00:00",
+  "knowledge": {
+    "status": "loaded",
+    "workbook": "MAG7_News_Intelligence_Exposure_Knowledge_Layer_V1.xlsx",
+    "edge_count": 27,
+    "message": "Loaded raw exposure rows; each match still requires evidence and temporal checks."
+  },
+  "policies": {
+    "relevance": "relationship_components_v1",
+    "priority": "evidence_first_attention_v1",
+    "historical_ml_role": "optional_retrospective_context_only",
+    "queue_order": "priority, relationship relevance, publication recency, stable IDs",
+    "direction": "Analyst judgment required"
+  },
+  "articles": [
+    {
+      "article_id": "tsmc_spec_001",
+      "headline": "TSMC wafer fabrication interruption affects advanced chip production in Taiwan",
+      "source": "Synthetic Specificity Test",
+      "article_url": null,
+      "gate": {
+        "article_id": "tsmc_spec_001",
+        "is_event": true,
+        "gate_reason": "Asserted production_interruption event: Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs following an equipment issue.",
+        "gate_confidence": 0.8
+      },
+      "event": {
+        "event_id": "evt_f9328baadabe170be4e68b91",
+        "canonical_event_id": "evt_f9328baadabe170be4e68b91",
+        "article_ids": [
+          "tsmc_spec_001"
+        ],
+        "source_count": 1,
+        "independent_source_count": 1,
+        "first_seen_at": "2026-09-18T08:05:00+00:00",
+        "last_seen_at": "2026-09-18T08:05:00+00:00",
+        "published_at_first": "2026-09-18T08:00:00+00:00",
+        "event_start_at": null,
+        "event_end_at": null,
+        "time_precision": "unknown",
+        "event_status": "developing",
+        "primary_country": "Taiwan",
+        "affected_countries": [
+          "Taiwan"
+        ],
+        "primary_region": null,
+        "affected_regions": [],
+        "city": null,
+        "location_name": null,
+        "latitude": null,
+        "longitude": null,
+        "location_confidence": 0.65,
+        "event_type": "supply_chain",
+        "event_subtype": "production_interruption",
+        "severity_score": null,
+        "severity_confidence": null,
+        "scope": null,
+        "duration_class": "unknown",
+        "event_novelty": null,
+        "physical_damage": null,
+        "production_disruption": true,
+        "capacity_disruption": null,
+        "logistics_disruption": null,
+        "port_disruption": null,
+        "power_disruption": null,
+        "network_disruption": null,
+        "cloud_service_disruption": null,
+        "labor_disruption": null,
+        "supply_shortage": null,
+        "regulatory_change": null,
+        "export_restriction": null,
+        "import_restriction": null,
+        "price_change_explicit": null,
+        "demand_change_explicit": null,
+        "companies_mentioned": [
+          "TSMC",
+          "Taiwan Semiconductor Manufacturing Company"
+        ],
+        "tickers_mentioned": [],
+        "suppliers_mentioned": [],
+        "customers_mentioned": [],
+        "industries_mentioned": [],
+        "products_mentioned": [],
+        "technologies_mentioned": [
+          "wafer fabrication",
+          "logic wafer",
+          "logic wafers",
+          "leading-edge semiconductor manufacturing"
+        ],
+        "commodities_mentioned": [],
+        "government_entities": [],
+        "regulators": [],
+        "people_mentioned": [],
+        "supply_channel": null,
+        "demand_channel": null,
+        "cost_channel": null,
+        "revenue_channel": null,
+        "margin_channel": null,
+        "capex_channel": null,
+        "financing_channel": null,
+        "interest_rate_channel": null,
+        "fx_channel": null,
+        "commodity_channel": null,
+        "logistics_channel": null,
+        "energy_channel": null,
+        "regulatory_channel": null,
+        "legal_channel": null,
+        "technology_channel": null,
+        "competition_channel": null,
+        "source_quality": null,
+        "extraction_confidence": 0.7,
+        "confirmation_level": "single_source",
+        "evidence_fields": {
+          "event_type": {
+            "value": "supply_chain",
+            "evidence": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs following an equipment issue.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_subtype": {
+            "value": "production_interruption",
+            "evidence": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs following an equipment issue.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_summary": {
+            "value": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs following an equipment issue.",
+            "evidence": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs following an equipment issue.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "keywords": {
+            "value": [
+              "production_interruption"
+            ],
+            "evidence": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs following an equipment issue.",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs following an equipment issue.",
+                "source_field": "body"
+              }
+            ]
+          },
+          "canonical_headline": {
+            "value": "TSMC wafer fabrication interruption affects advanced chip production in Taiwan",
+            "evidence": "TSMC wafer fabrication interruption affects advanced chip production in Taiwan",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "independent_source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "event_status": {
+            "value": "developing",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "confirmation_level": {
+            "value": "single_source",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "extraction_confidence": {
+            "value": 0.7,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "published_at_first": {
+            "value": "2026-09-18T08:00:00+00:00",
+            "evidence": "2026-09-18T08:00:00+00:00",
+            "source_field": "published_at",
+            "basis": "provider_metadata"
+          },
+          "first_seen_at": {
+            "value": "2026-09-18T08:05:00+00:00",
+            "evidence": "2026-09-18T08:05:00+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "last_seen_at": {
+            "value": "2026-09-18T08:05:00+00:00",
+            "evidence": "2026-09-18T08:05:00+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "affected_countries": {
+            "value": [
+              "Taiwan"
+            ],
+            "evidence": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs following an equipment issue.",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs following an equipment issue.",
+                "source_field": "body"
+              }
+            ],
+            "mapping_basis": [
+              {
+                "stated": "Taiwan",
+                "country": "Taiwan"
+              }
+            ]
+          },
+          "primary_country": {
+            "value": "Taiwan",
+            "evidence": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs following an equipment issue.",
+            "source_field": "body",
+            "basis": "article_location_or_policy_actor"
+          },
+          "location_confidence": {
+            "value": 0.65,
+            "evidence": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs following an equipment issue.",
+            "source_field": "body",
+            "basis": "heuristic_from_article"
+          },
+          "production_disruption": {
+            "value": true,
+            "evidence": "TSMC wafer fabrication interruption affects advanced chip production in Taiwan",
+            "source_field": "headline",
+            "basis": "article_text",
+            "assertion": "affirmed"
+          },
+          "companies_mentioned": {
+            "value": [
+              "TSMC",
+              "Taiwan Semiconductor Manufacturing Company"
+            ],
+            "evidence": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs f",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "TSMC wafer fabrication interruption affects advanced chip production in Ta",
+                "source_field": "headline"
+              },
+              {
+                "evidence": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs f",
+                "source_field": "body"
+              }
+            ]
+          },
+          "technologies_mentioned": {
+            "value": [
+              "wafer fabrication",
+              "logic wafer",
+              "logic wafers",
+              "leading-edge semiconductor manufacturing"
+            ],
+            "evidence": "The affected operation produces advanced logic wafers using leading-edge semiconductor manufacturing processes.",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "TSMC wafer fabrication interruption affects advanced chip production in Taiwan",
+                "source_field": "headline"
+              },
+              {
+                "evidence": "TSMC temporarily interrupted advanced logic wafer fabrication at a Taiwan fab.",
+                "source_field": "summary"
+              },
+              {
+                "evidence": "The affected operation produces advanced logic wafers using leading-edge semiconductor manufacturing processes.",
+                "source_field": "body"
+              }
+            ]
+          }
+        },
+        "canonical_headline": "TSMC wafer fabrication interruption affects advanced chip production in Taiwan",
+        "event_summary": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs following an equipment issue.",
+        "keywords": [
+          "production_interruption"
+        ],
+        "created_at": "2026-09-20T16:18:23.605666+00:00",
+        "updated_at": "2026-09-20T16:18:23.605666+00:00",
+        "schema_version": "event_v1"
+      },
+      "candidate_channels": [
+        {
+          "channel_family": "manufacturing",
+          "channel_subtype": "unspecified",
+          "confidence": 0.75,
+          "basis": [
+            "production_disruption"
+          ],
+          "status": "candidate"
+        },
+        {
+          "channel_family": "advanced_semiconductors",
+          "channel_subtype": "unspecified",
+          "confidence": 0.35,
+          "basis": [
+            "event_type",
+            "technologies_mentioned"
+          ],
+          "status": "candidate"
+        }
+      ],
+      "ticker_analysis": [
+        {
+          "ticker": "AAPL",
+          "qualification": "qualified_exposure",
+          "relationship_type": "indirect_exposure_match",
+          "direct_mention": false,
+          "relevance_score": 0.6,
+          "relevance_level": "Qualified exposure",
+          "relevance_components": {
+            "values": {
+              "direct_mention": 0.0,
+              "edge_match": 1.0,
+              "country_match": 1.0,
+              "channel_match": 1.0
+            },
+            "contributions": {
+              "direct_mention": 0.0,
+              "edge_match": 0.3,
+              "country_match": 0.15,
+              "channel_match": 0.15
+            }
+          },
+          "score_method": "relationship_components_v1",
+          "legacy_relevance_score": 0.4,
+          "score_interpretation": "Uncalibrated relationship policy score, not a probability or impact estimate.",
+          "economic_channels": [
+            "advanced_semiconductors"
+          ],
+          "relationship_paths": [
+            {
+              "edge_id": "6",
+              "ticker": "AAPL",
+              "role": "buyer",
+              "counterparty": "TSMC",
+              "business": "A-series and M-series Apple silicon",
+              "channel": "advanced_semiconductors",
+              "country": "Taiwan",
+              "match_reasons": [
+                "country_match",
+                "channel_match",
+                "eligible_evidence",
+                "point_in_time_valid",
+                "semantic_compatibility"
+              ]
+            }
+          ],
+          "evidence": [
+            {
+              "edge_id": "6",
+              "ticker": "AAPL",
+              "country": "Taiwan",
+              "channel_family": "advanced_semiconductors",
+              "channel_subtype": "unspecified",
+              "role": "buyer",
+              "product_or_business": "A-series and M-series Apple silicon",
+              "counterparty": "TSMC",
+              "facility_or_route": "TSMC Taiwan fabs; exact fab not publicly confirmed",
+              "commodity_or_input": "3nm/5nm-class custom logic wafers",
+              "stage": "operating",
+              "exposure_value": null,
+              "exposure_unit": null,
+              "exposure_band": "high",
+              "evidence_status": "partial",
+              "source_url": "https://www.apple.com/newsroom/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/",
+              "source_locator": "Apple iPhone 15 Pro announcement; TSMC technology disclosures",
+              "valid_from": "2023-07-01",
+              "valid_to": null,
+              "known_at_utc": "2023-09-12",
+              "confidence": null,
+              "notes": "Apple publicly announced A17 Pro as its first 3nm chip; public industry evidence links Apple advanced SoCs to TSMC.",
+              "match_reasons": [
+                "country_match",
+                "channel_match",
+                "eligible_evidence",
+                "point_in_time_valid",
+                "semantic_compatibility"
+              ]
+            }
+          ],
+          "evidence_strength": {
+            "relationship_level": "Partial",
+            "basis": "existing exposure-record curation status",
+            "independently_verified": false,
+            "article_confirmation": "single_source",
+            "article_source_quality": null,
+            "article_source": "Synthetic Specificity Test",
+            "article_url": null,
+            "note": "Curator-verified relationship is not independent confirmation of this event or its financial impact."
+          },
+          "article_evidence": {
+            "event_type": {
+              "value": "supply_chain",
+              "evidence": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs following an equipment issue.",
+              "source_field": "body",
+              "basis": "article_text"
+            },
+            "event_subtype": {
+              "value": "production_interruption",
+              "evidence": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs following an equipment issue.",
+              "source_field": "body",
+              "basis": "article_text"
+            },
+            "event_summary": {
+              "value": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs following an equipment issue.",
+              "evidence": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs following an equipment issue.",
+              "source_field": "body",
+              "basis": "article_text"
+            },
+            "keywords": {
+              "value": [
+                "production_interruption"
+              ],
+              "evidence": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs following an equipment issue.",
+              "source_field": "body",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs following an equipment issue.",
+                  "source_field": "body"
+                }
+              ]
+            },
+            "canonical_headline": {
+              "value": "TSMC wafer fabrication interruption affects advanced chip production in Taiwan",
+              "evidence": "TSMC wafer fabrication interruption affects advanced chip production in Taiwan",
+              "source_field": "headline",
+              "basis": "article_text"
+            },
+            "source_count": {
+              "value": 1,
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "independent_source_count": {
+              "value": 1,
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "event_status": {
+              "value": "developing",
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "confirmation_level": {
+              "value": "single_source",
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "extraction_confidence": {
+              "value": 0.7,
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "published_at_first": {
+              "value": "2026-09-18T08:00:00+00:00",
+              "evidence": "2026-09-18T08:00:00+00:00",
+              "source_field": "published_at",
+              "basis": "provider_metadata"
+            },
+            "first_seen_at": {
+              "value": "2026-09-18T08:05:00+00:00",
+              "evidence": "2026-09-18T08:05:00+00:00",
+              "source_field": "fetched_at",
+              "basis": "provider_metadata"
+            },
+            "last_seen_at": {
+              "value": "2026-09-18T08:05:00+00:00",
+              "evidence": "2026-09-18T08:05:00+00:00",
+              "source_field": "fetched_at",
+              "basis": "provider_metadata"
+            },
+            "affected_countries": {
+              "value": [
+                "Taiwan"
+              ],
+              "evidence": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs following an equipment issue.",
+              "source_field": "body",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs following an equipment issue.",
+                  "source_field": "body"
+                }
+              ],
+              "mapping_basis": [
+                {
+                  "stated": "Taiwan",
+                  "country": "Taiwan"
+                }
+              ]
+            },
+            "primary_country": {
+              "value": "Taiwan",
+              "evidence": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs following an equipment issue.",
+              "source_field": "body",
+              "basis": "article_location_or_policy_actor"
+            },
+            "location_confidence": {
+              "value": 0.65,
+              "evidence": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs following an equipment issue.",
+              "source_field": "body",
+              "basis": "heuristic_from_article"
+            },
+            "production_disruption": {
+              "value": true,
+              "evidence": "TSMC wafer fabrication interruption affects advanced chip production in Taiwan",
+              "source_field": "headline",
+              "basis": "article_text",
+              "assertion": "affirmed"
+            },
+            "companies_mentioned": {
+              "value": [
+                "TSMC",
+                "Taiwan Semiconductor Manufacturing Company"
+              ],
+              "evidence": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs f",
+              "source_field": "body",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "TSMC wafer fabrication interruption affects advanced chip production in Ta",
+                  "source_field": "headline"
+                },
+                {
+                  "evidence": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs f",
+                  "source_field": "body"
+                }
+              ]
+            },
+            "technologies_mentioned": {
+              "value": [
+                "wafer fabrication",
+                "logic wafer",
+                "logic wafers",
+                "leading-edge semiconductor manufacturing"
+              ],
+              "evidence": "The affected operation produces advanced logic wafers using leading-edge semiconductor manufacturing processes.",
+              "source_field": "body",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "TSMC wafer fabrication interruption affects advanced chip production in Taiwan",
+                  "source_field": "headline"
+                },
+                {
+                  "evidence": "TSMC temporarily interrupted advanced logic wafer fabrication at a Taiwan fab.",
+                  "source_field": "summary"
+                },
+                {
+                  "evidence": "The affected operation produces advanced logic wafers using leading-edge semiconductor manufacturing processes.",
+                  "source_field": "body"
+                }
+              ]
+            }
+          },
+          "temporal_status": {
+            "status": "eligible_by_record_metadata",
+            "as_of": "2026-09-18T08:05:00+00:00",
+            "article_availability_known": true,
+            "source_dates_independently_verified": false,
+            "note": "Composite or revised sources require per-fact historical provenance review."
+          },
+          "materiality": {
+            "level": "Unknown",
+            "status": "unquantified",
+            "factors": {
+              "event_severity": null,
+              "exposure": [
+                {
+                  "edge_id": "6",
+                  "exposure_value": null,
+                  "exposure_unit": null,
+                  "exposure_band": "high"
+                }
+              ]
+            },
+            "missing_evidence": [
+              "Validated event-specific exposure scale and segment impact"
+            ],
+            "note": "Severity, exposure band and research priority do not establish financial materiality."
+          },
+          "historical_reaction": {
+            "status": "unavailable",
+            "probability": null,
+            "predictions": [],
+            "reason": "No explicit article-to-case mapping supplied.",
+            "disclosure": "Experimental historical association only. Not directional or causal. Retrospective OOS results may use historical backfill; not a live prediction.",
+            "used_for_relevance": false,
+            "used_for_priority": false
+          },
+          "research_priority": {
+            "level": "Medium",
+            "reasons": [
+              "Qualified relationship supported by partial exposure evidence; verify its scope."
+            ],
+            "method": "evidence_first_attention_v1",
+            "interpretation": "Analyst attention only; not magnitude, direction or recommendation."
+          },
+          "direction": "Analyst judgment required",
+          "explanation": "AAPL has 1 qualified exposure record(s) through advanced_semiconductors; inspect the attached relationship paths and sources.",
+          "next_questions": [
+            "Verify the original event report and whether later updates changed the facts.",
+            "Verify the cited relationship and that each supporting fact was known at the analysis time.",
+            "Determine the affected business segment, exposure amount, duration and mitigating capacity."
+          ]
+        },
+        {
+          "ticker": "NVDA",
+          "qualification": "qualified_exposure",
+          "relationship_type": "indirect_exposure_match",
+          "direct_mention": false,
+          "relevance_score": 0.6,
+          "relevance_level": "Qualified exposure",
+          "relevance_components": {
+            "values": {
+              "direct_mention": 0.0,
+              "edge_match": 1.0,
+              "country_match": 1.0,
+              "channel_match": 1.0
+            },
+            "contributions": {
+              "direct_mention": 0.0,
+              "edge_match": 0.3,
+              "country_match": 0.15,
+              "channel_match": 0.15
+            }
+          },
+          "score_method": "relationship_components_v1",
+          "legacy_relevance_score": 0.8,
+          "score_interpretation": "Uncalibrated relationship policy score, not a probability or impact estimate.",
+          "economic_channels": [
+            "advanced_semiconductors"
+          ],
+          "relationship_paths": [
+            {
+              "edge_id": "1",
+              "ticker": "NVDA",
+              "role": "buyer",
+              "counterparty": "TSMC",
+              "business": "Blackwell B200/GB200; Hopper H100/H200",
+              "channel": "advanced_semiconductors",
+              "country": "Taiwan",
+              "match_reasons": [
+                "country_match",
+                "channel_match",
+                "eligible_evidence",
+                "point_in_time_valid",
+                "semantic_compatibility"
+              ]
+            }
+          ],
+          "evidence": [
+            {
+              "edge_id": "1",
+              "ticker": "NVDA",
+              "country": "Taiwan",
+              "channel_family": "advanced_semiconductors",
+              "channel_subtype": "unspecified",
+              "role": "buyer",
+              "product_or_business": "Blackwell B200/GB200; Hopper H100/H200",
+              "counterparty": "TSMC",
+              "facility_or_route": "TSMC Taiwan fabs; exact fab not publicly confirmed",
+              "commodity_or_input": "TSMC 4NP/4N process wafers",
+              "stage": "operating",
+              "exposure_value": null,
+              "exposure_unit": null,
+              "exposure_band": "high",
+              "evidence_status": "verified",
+              "source_url": "https://www.nvidia.com/en-us/about-nvidia/",
+              "source_locator": "NVIDIA GTC 2024; NVIDIA FY2026 10-K, Item 1, Manufacturing",
+              "valid_from": "2022-04-01",
+              "valid_to": null,
+              "known_at_utc": "2024-03-18",
+              "confidence": null,
+              "notes": "Blackwell disclosed as using a custom TSMC 4NP process; NVIDIA discloses TSMC and Samsung as wafer foundries.",
+              "match_reasons": [
+                "country_match",
+                "channel_match",
+                "eligible_evidence",
+                "point_in_time_valid",
+                "semantic_compatibility"
+              ]
+            }
+          ],
+          "evidence_strength": {
+            "relationship_level": "Strong (curated)",
+            "basis": "existing exposure-record curation status",
+            "independently_verified": false,
+            "article_confirmation": "single_source",
+            "article_source_quality": null,
+            "article_source": "Synthetic Specificity Test",
+            "article_url": null,
+            "note": "Curator-verified relationship is not independent confirmation of this event or its financial impact."
+          },
+          "article_evidence": {
+            "event_type": {
+              "value": "supply_chain",
+              "evidence": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs following an equipment issue.",
+              "source_field": "body",
+              "basis": "article_text"
+            },
+            "event_subtype": {
+              "value": "production_interruption",
+              "evidence": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs following an equipment issue.",
+              "source_field": "body",
+              "basis": "article_text"
+            },
+            "event_summary": {
+              "value": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs following an equipment issue.",
+              "evidence": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs following an equipment issue.",
+              "source_field": "body",
+              "basis": "article_text"
+            },
+            "keywords": {
+              "value": [
+                "production_interruption"
+              ],
+              "evidence": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs following an equipment issue.",
+              "source_field": "body",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs following an equipment issue.",
+                  "source_field": "body"
+                }
+              ]
+            },
+            "canonical_headline": {
+              "value": "TSMC wafer fabrication interruption affects advanced chip production in Taiwan",
+              "evidence": "TSMC wafer fabrication interruption affects advanced chip production in Taiwan",
+              "source_field": "headline",
+              "basis": "article_text"
+            },
+            "source_count": {
+              "value": 1,
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "independent_source_count": {
+              "value": 1,
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "event_status": {
+              "value": "developing",
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "confirmation_level": {
+              "value": "single_source",
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "extraction_confidence": {
+              "value": 0.7,
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "published_at_first": {
+              "value": "2026-09-18T08:00:00+00:00",
+              "evidence": "2026-09-18T08:00:00+00:00",
+              "source_field": "published_at",
+              "basis": "provider_metadata"
+            },
+            "first_seen_at": {
+              "value": "2026-09-18T08:05:00+00:00",
+              "evidence": "2026-09-18T08:05:00+00:00",
+              "source_field": "fetched_at",
+              "basis": "provider_metadata"
+            },
+            "last_seen_at": {
+              "value": "2026-09-18T08:05:00+00:00",
+              "evidence": "2026-09-18T08:05:00+00:00",
+              "source_field": "fetched_at",
+              "basis": "provider_metadata"
+            },
+            "affected_countries": {
+              "value": [
+                "Taiwan"
+              ],
+              "evidence": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs following an equipment issue.",
+              "source_field": "body",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs following an equipment issue.",
+                  "source_field": "body"
+                }
+              ],
+              "mapping_basis": [
+                {
+                  "stated": "Taiwan",
+                  "country": "Taiwan"
+                }
+              ]
+            },
+            "primary_country": {
+              "value": "Taiwan",
+              "evidence": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs following an equipment issue.",
+              "source_field": "body",
+              "basis": "article_location_or_policy_actor"
+            },
+            "location_confidence": {
+              "value": 0.65,
+              "evidence": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs following an equipment issue.",
+              "source_field": "body",
+              "basis": "heuristic_from_article"
+            },
+            "production_disruption": {
+              "value": true,
+              "evidence": "TSMC wafer fabrication interruption affects advanced chip production in Taiwan",
+              "source_field": "headline",
+              "basis": "article_text",
+              "assertion": "affirmed"
+            },
+            "companies_mentioned": {
+              "value": [
+                "TSMC",
+                "Taiwan Semiconductor Manufacturing Company"
+              ],
+              "evidence": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs f",
+              "source_field": "body",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "TSMC wafer fabrication interruption affects advanced chip production in Ta",
+                  "source_field": "headline"
+                },
+                {
+                  "evidence": "Taiwan Semiconductor Manufacturing Company temporarily interrupted wafer fabrication at one of its Taiwan fabs f",
+                  "source_field": "body"
+                }
+              ]
+            },
+            "technologies_mentioned": {
+              "value": [
+                "wafer fabrication",
+                "logic wafer",
+                "logic wafers",
+                "leading-edge semiconductor manufacturing"
+              ],
+              "evidence": "The affected operation produces advanced logic wafers using leading-edge semiconductor manufacturing processes.",
+              "source_field": "body",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "TSMC wafer fabrication interruption affects advanced chip production in Taiwan",
+                  "source_field": "headline"
+                },
+                {
+                  "evidence": "TSMC temporarily interrupted advanced logic wafer fabrication at a Taiwan fab.",
+                  "source_field": "summary"
+                },
+                {
+                  "evidence": "The affected operation produces advanced logic wafers using leading-edge semiconductor manufacturing processes.",
+                  "source_field": "body"
+                }
+              ]
+            }
+          },
+          "temporal_status": {
+            "status": "eligible_by_record_metadata",
+            "as_of": "2026-09-18T08:05:00+00:00",
+            "article_availability_known": true,
+            "source_dates_independently_verified": false,
+            "note": "Composite or revised sources require per-fact historical provenance review."
+          },
+          "materiality": {
+            "level": "Unknown",
+            "status": "unquantified",
+            "factors": {
+              "event_severity": null,
+              "exposure": [
+                {
+                  "edge_id": "1",
+                  "exposure_value": null,
+                  "exposure_unit": null,
+                  "exposure_band": "high"
+                }
+              ]
+            },
+            "missing_evidence": [
+              "Validated event-specific exposure scale and segment impact"
+            ],
+            "note": "Severity, exposure band and research priority do not establish financial materiality."
+          },
+          "historical_reaction": {
+            "status": "unavailable",
+            "probability": null,
+            "predictions": [],
+            "reason": "No explicit article-to-case mapping supplied.",
+            "disclosure": "Experimental historical association only. Not directional or causal. Retrospective OOS results may use historical backfill; not a live prediction.",
+            "used_for_relevance": false,
+            "used_for_priority": false
+          },
+          "research_priority": {
+            "level": "High",
+            "reasons": [
+              "Qualified relationship with curator-verified supporting exposure evidence."
+            ],
+            "method": "evidence_first_attention_v1",
+            "interpretation": "Analyst attention only; not magnitude, direction or recommendation."
+          },
+          "direction": "Analyst judgment required",
+          "explanation": "NVDA has 1 qualified exposure record(s) through advanced_semiconductors; inspect the attached relationship paths and sources.",
+          "next_questions": [
+            "Verify the original event report and whether later updates changed the facts.",
+            "Verify the cited relationship and that each supporting fact was known at the analysis time.",
+            "Determine the affected business segment, exposure amount, duration and mitigating capacity."
+          ]
+        }
+      ],
+      "edge_exclusions": [
+        {
+          "event_id": "evt_f9328baadabe170be4e68b91",
+          "edge_id": "4",
+          "reason": "non_operating_capacity"
+        },
+        {
+          "event_id": "evt_f9328baadabe170be4e68b91",
+          "edge_id": "19",
+          "reason": "blocked_or_hypothesis_evidence"
+        }
+      ],
+      "status": "qualified_matches",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "tsmc_spec_002",
+      "headline": "TSMC CoWoS packaging disruption delays advanced AI chip packaging",
+      "source": "Synthetic Specificity Test",
+      "article_url": null,
+      "gate": {
+        "article_id": "tsmc_spec_002",
+        "is_event": true,
+        "gate_reason": "Asserted production_interruption event: TSMC reported a temporary interruption at CoWoS advanced packaging operations in Taiwan.",
+        "gate_confidence": 0.8
+      },
+      "event": {
+        "event_id": "evt_31863ab11e04c1546f377846",
+        "canonical_event_id": "evt_31863ab11e04c1546f377846",
+        "article_ids": [
+          "tsmc_spec_002"
+        ],
+        "source_count": 1,
+        "independent_source_count": 1,
+        "first_seen_at": "2026-09-18T08:15:00+00:00",
+        "last_seen_at": "2026-09-18T08:15:00+00:00",
+        "published_at_first": "2026-09-18T08:10:00+00:00",
+        "event_start_at": null,
+        "event_end_at": null,
+        "time_precision": "unknown",
+        "event_status": "developing",
+        "primary_country": "Taiwan",
+        "affected_countries": [
+          "Taiwan"
+        ],
+        "primary_region": null,
+        "affected_regions": [],
+        "city": null,
+        "location_name": null,
+        "latitude": null,
+        "longitude": null,
+        "location_confidence": 0.65,
+        "event_type": "supply_chain",
+        "event_subtype": "production_interruption",
+        "severity_score": null,
+        "severity_confidence": null,
+        "scope": null,
+        "duration_class": "unknown",
+        "event_novelty": null,
+        "physical_damage": null,
+        "production_disruption": false,
+        "capacity_disruption": null,
+        "logistics_disruption": null,
+        "port_disruption": null,
+        "power_disruption": null,
+        "network_disruption": null,
+        "cloud_service_disruption": null,
+        "labor_disruption": null,
+        "supply_shortage": null,
+        "regulatory_change": null,
+        "export_restriction": null,
+        "import_restriction": null,
+        "price_change_explicit": null,
+        "demand_change_explicit": null,
+        "companies_mentioned": [
+          "TSMC"
+        ],
+        "tickers_mentioned": [],
+        "suppliers_mentioned": [],
+        "customers_mentioned": [],
+        "industries_mentioned": [],
+        "products_mentioned": [],
+        "technologies_mentioned": [
+          "AI",
+          "CoWoS",
+          "chip packaging",
+          "advanced packaging",
+          "packaging capacity"
+        ],
+        "commodities_mentioned": [],
+        "government_entities": [],
+        "regulators": [],
+        "people_mentioned": [],
+        "supply_channel": null,
+        "demand_channel": null,
+        "cost_channel": null,
+        "revenue_channel": null,
+        "margin_channel": null,
+        "capex_channel": null,
+        "financing_channel": null,
+        "interest_rate_channel": null,
+        "fx_channel": null,
+        "commodity_channel": null,
+        "logistics_channel": null,
+        "energy_channel": null,
+        "regulatory_channel": null,
+        "legal_channel": null,
+        "technology_channel": null,
+        "competition_channel": null,
+        "source_quality": null,
+        "extraction_confidence": 0.7,
+        "confirmation_level": "single_source",
+        "evidence_fields": {
+          "event_type": {
+            "value": "supply_chain",
+            "evidence": "TSMC reported a temporary interruption at CoWoS advanced packaging operations in Taiwan.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_subtype": {
+            "value": "production_interruption",
+            "evidence": "TSMC reported a temporary interruption at CoWoS advanced packaging operations in Taiwan.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_summary": {
+            "value": "TSMC reported a temporary interruption at CoWoS advanced packaging operations in Taiwan.",
+            "evidence": "TSMC reported a temporary interruption at CoWoS advanced packaging operations in Taiwan.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "keywords": {
+            "value": [
+              "production_interruption"
+            ],
+            "evidence": "TSMC reported a temporary interruption at CoWoS advanced packaging operations in Taiwan.",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "TSMC reported a temporary interruption at CoWoS advanced packaging operations in Taiwan.",
+                "source_field": "body"
+              }
+            ]
+          },
+          "canonical_headline": {
+            "value": "TSMC CoWoS packaging disruption delays advanced AI chip packaging",
+            "evidence": "TSMC CoWoS packaging disruption delays advanced AI chip packaging",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "independent_source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "event_status": {
+            "value": "developing",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "confirmation_level": {
+            "value": "single_source",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "extraction_confidence": {
+            "value": 0.7,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "published_at_first": {
+            "value": "2026-09-18T08:10:00+00:00",
+            "evidence": "2026-09-18T08:10:00+00:00",
+            "source_field": "published_at",
+            "basis": "provider_metadata"
+          },
+          "first_seen_at": {
+            "value": "2026-09-18T08:15:00+00:00",
+            "evidence": "2026-09-18T08:15:00+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "last_seen_at": {
+            "value": "2026-09-18T08:15:00+00:00",
+            "evidence": "2026-09-18T08:15:00+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "affected_countries": {
+            "value": [
+              "Taiwan"
+            ],
+            "evidence": "TSMC reported a temporary interruption at CoWoS advanced packaging operations in Taiwan.",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "TSMC reported a temporary interruption at CoWoS advanced packaging operations in Taiwan.",
+                "source_field": "body"
+              }
+            ],
+            "mapping_basis": [
+              {
+                "stated": "Taiwan",
+                "country": "Taiwan"
+              }
+            ]
+          },
+          "primary_country": {
+            "value": "Taiwan",
+            "evidence": "TSMC reported a temporary interruption at CoWoS advanced packaging operations in Taiwan.",
+            "source_field": "body",
+            "basis": "article_location_or_policy_actor"
+          },
+          "location_confidence": {
+            "value": 0.65,
+            "evidence": "TSMC reported a temporary interruption at CoWoS advanced packaging operations in Taiwan.",
+            "source_field": "body",
+            "basis": "heuristic_from_article"
+          },
+          "production_disruption": {
+            "value": false,
+            "evidence": "TSMC said wafer fabrication at its leading-edge logic fabs continued operating normally.",
+            "source_field": "body",
+            "basis": "article_text",
+            "assertion": "negated"
+          },
+          "companies_mentioned": {
+            "value": [
+              "TSMC"
+            ],
+            "evidence": "TSMC CoWoS packaging disruption delays advanced AI chip packaging",
+            "source_field": "headline",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "TSMC CoWoS packaging disruption delays advanced AI chip packaging",
+                "source_field": "headline"
+              }
+            ]
+          },
+          "technologies_mentioned": {
+            "value": [
+              "AI",
+              "CoWoS",
+              "chip packaging",
+              "advanced packaging",
+              "packaging capacity"
+            ],
+            "evidence": "The disruption affected advanced packaging capacity used for high-performance AI chips.",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "TSMC CoWoS packaging disruption delays advanced AI chip packaging",
+                "source_field": "headline"
+              },
+              {
+                "evidence": "A temporary disruption affected TSMC CoWoS advanced packaging operations in Taiwan.",
+                "source_field": "summary"
+              },
+              {
+                "evidence": "The disruption affected advanced packaging capacity used for high-performance AI chips.",
+                "source_field": "body"
+              }
+            ]
+          }
+        },
+        "canonical_headline": "TSMC CoWoS packaging disruption delays advanced AI chip packaging",
+        "event_summary": "TSMC reported a temporary interruption at CoWoS advanced packaging operations in Taiwan.",
+        "keywords": [
+          "production_interruption"
+        ],
+        "created_at": "2026-09-20T16:18:23.605666+00:00",
+        "updated_at": "2026-09-20T16:18:23.605666+00:00",
+        "schema_version": "event_v1"
+      },
+      "candidate_channels": [
+        {
+          "channel_family": "advanced_packaging",
+          "channel_subtype": "unspecified",
+          "confidence": 0.35,
+          "basis": [
+            "event_type",
+            "technologies_mentioned"
+          ],
+          "status": "candidate"
+        }
+      ],
+      "ticker_analysis": [
+        {
+          "ticker": "NVDA",
+          "qualification": "qualified_exposure",
+          "relationship_type": "indirect_exposure_match",
+          "direct_mention": false,
+          "relevance_score": 0.6,
+          "relevance_level": "Qualified exposure",
+          "relevance_components": {
+            "values": {
+              "direct_mention": 0.0,
+              "edge_match": 1.0,
+              "country_match": 1.0,
+              "channel_match": 1.0
+            },
+            "contributions": {
+              "direct_mention": 0.0,
+              "edge_match": 0.3,
+              "country_match": 0.15,
+              "channel_match": 0.15
+            }
+          },
+          "score_method": "relationship_components_v1",
+          "legacy_relevance_score": 0.8,
+          "score_interpretation": "Uncalibrated relationship policy score, not a probability or impact estimate.",
+          "economic_channels": [
+            "advanced_packaging"
+          ],
+          "relationship_paths": [
+            {
+              "edge_id": "2",
+              "ticker": "NVDA",
+              "role": "buyer",
+              "counterparty": "TSMC",
+              "business": "Blackwell B200/GB200; Hopper H100/H200",
+              "channel": "advanced_packaging",
+              "country": "Taiwan",
+              "match_reasons": [
+                "country_match",
+                "channel_match",
+                "eligible_evidence",
+                "point_in_time_valid",
+                "semantic_compatibility"
+              ]
+            }
+          ],
+          "evidence": [
+            {
+              "edge_id": "2",
+              "ticker": "NVDA",
+              "country": "Taiwan",
+              "channel_family": "advanced_packaging",
+              "channel_subtype": "unspecified",
+              "role": "buyer",
+              "product_or_business": "Blackwell B200/GB200; Hopper H100/H200",
+              "counterparty": "TSMC",
+              "facility_or_route": "Taiwan CoWoS operations; exact facility not publicly confirmed",
+              "commodity_or_input": "CoWoS-L; CoWoS advanced packaging",
+              "stage": "operating",
+              "exposure_value": null,
+              "exposure_unit": null,
+              "exposure_band": "high",
+              "evidence_status": "verified",
+              "source_url": "https://www.nvidia.com/en-us/data-center/blackwell-platform/",
+              "source_locator": "NVIDIA GTC 2024; TechInsights HGX B200 teardown, Apr. 2025",
+              "valid_from": "2024-10-01",
+              "valid_to": null,
+              "known_at_utc": "2024-03-18",
+              "confidence": null,
+              "notes": "Blackwell packaging relationship is supported by Blackwell/CoWoS-L technical reporting.",
+              "match_reasons": [
+                "country_match",
+                "channel_match",
+                "eligible_evidence",
+                "point_in_time_valid",
+                "semantic_compatibility"
+              ]
+            }
+          ],
+          "evidence_strength": {
+            "relationship_level": "Strong (curated)",
+            "basis": "existing exposure-record curation status",
+            "independently_verified": false,
+            "article_confirmation": "single_source",
+            "article_source_quality": null,
+            "article_source": "Synthetic Specificity Test",
+            "article_url": null,
+            "note": "Curator-verified relationship is not independent confirmation of this event or its financial impact."
+          },
+          "article_evidence": {
+            "event_type": {
+              "value": "supply_chain",
+              "evidence": "TSMC reported a temporary interruption at CoWoS advanced packaging operations in Taiwan.",
+              "source_field": "body",
+              "basis": "article_text"
+            },
+            "event_subtype": {
+              "value": "production_interruption",
+              "evidence": "TSMC reported a temporary interruption at CoWoS advanced packaging operations in Taiwan.",
+              "source_field": "body",
+              "basis": "article_text"
+            },
+            "event_summary": {
+              "value": "TSMC reported a temporary interruption at CoWoS advanced packaging operations in Taiwan.",
+              "evidence": "TSMC reported a temporary interruption at CoWoS advanced packaging operations in Taiwan.",
+              "source_field": "body",
+              "basis": "article_text"
+            },
+            "keywords": {
+              "value": [
+                "production_interruption"
+              ],
+              "evidence": "TSMC reported a temporary interruption at CoWoS advanced packaging operations in Taiwan.",
+              "source_field": "body",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "TSMC reported a temporary interruption at CoWoS advanced packaging operations in Taiwan.",
+                  "source_field": "body"
+                }
+              ]
+            },
+            "canonical_headline": {
+              "value": "TSMC CoWoS packaging disruption delays advanced AI chip packaging",
+              "evidence": "TSMC CoWoS packaging disruption delays advanced AI chip packaging",
+              "source_field": "headline",
+              "basis": "article_text"
+            },
+            "source_count": {
+              "value": 1,
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "independent_source_count": {
+              "value": 1,
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "event_status": {
+              "value": "developing",
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "confirmation_level": {
+              "value": "single_source",
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "extraction_confidence": {
+              "value": 0.7,
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "published_at_first": {
+              "value": "2026-09-18T08:10:00+00:00",
+              "evidence": "2026-09-18T08:10:00+00:00",
+              "source_field": "published_at",
+              "basis": "provider_metadata"
+            },
+            "first_seen_at": {
+              "value": "2026-09-18T08:15:00+00:00",
+              "evidence": "2026-09-18T08:15:00+00:00",
+              "source_field": "fetched_at",
+              "basis": "provider_metadata"
+            },
+            "last_seen_at": {
+              "value": "2026-09-18T08:15:00+00:00",
+              "evidence": "2026-09-18T08:15:00+00:00",
+              "source_field": "fetched_at",
+              "basis": "provider_metadata"
+            },
+            "affected_countries": {
+              "value": [
+                "Taiwan"
+              ],
+              "evidence": "TSMC reported a temporary interruption at CoWoS advanced packaging operations in Taiwan.",
+              "source_field": "body",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "TSMC reported a temporary interruption at CoWoS advanced packaging operations in Taiwan.",
+                  "source_field": "body"
+                }
+              ],
+              "mapping_basis": [
+                {
+                  "stated": "Taiwan",
+                  "country": "Taiwan"
+                }
+              ]
+            },
+            "primary_country": {
+              "value": "Taiwan",
+              "evidence": "TSMC reported a temporary interruption at CoWoS advanced packaging operations in Taiwan.",
+              "source_field": "body",
+              "basis": "article_location_or_policy_actor"
+            },
+            "location_confidence": {
+              "value": 0.65,
+              "evidence": "TSMC reported a temporary interruption at CoWoS advanced packaging operations in Taiwan.",
+              "source_field": "body",
+              "basis": "heuristic_from_article"
+            },
+            "production_disruption": {
+              "value": false,
+              "evidence": "TSMC said wafer fabrication at its leading-edge logic fabs continued operating normally.",
+              "source_field": "body",
+              "basis": "article_text",
+              "assertion": "negated"
+            },
+            "companies_mentioned": {
+              "value": [
+                "TSMC"
+              ],
+              "evidence": "TSMC CoWoS packaging disruption delays advanced AI chip packaging",
+              "source_field": "headline",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "TSMC CoWoS packaging disruption delays advanced AI chip packaging",
+                  "source_field": "headline"
+                }
+              ]
+            },
+            "technologies_mentioned": {
+              "value": [
+                "AI",
+                "CoWoS",
+                "chip packaging",
+                "advanced packaging",
+                "packaging capacity"
+              ],
+              "evidence": "The disruption affected advanced packaging capacity used for high-performance AI chips.",
+              "source_field": "body",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "TSMC CoWoS packaging disruption delays advanced AI chip packaging",
+                  "source_field": "headline"
+                },
+                {
+                  "evidence": "A temporary disruption affected TSMC CoWoS advanced packaging operations in Taiwan.",
+                  "source_field": "summary"
+                },
+                {
+                  "evidence": "The disruption affected advanced packaging capacity used for high-performance AI chips.",
+                  "source_field": "body"
+                }
+              ]
+            }
+          },
+          "temporal_status": {
+            "status": "eligible_by_record_metadata",
+            "as_of": "2026-09-18T08:15:00+00:00",
+            "article_availability_known": true,
+            "source_dates_independently_verified": false,
+            "note": "Composite or revised sources require per-fact historical provenance review."
+          },
+          "materiality": {
+            "level": "Unknown",
+            "status": "unquantified",
+            "factors": {
+              "event_severity": null,
+              "exposure": [
+                {
+                  "edge_id": "2",
+                  "exposure_value": null,
+                  "exposure_unit": null,
+                  "exposure_band": "high"
+                }
+              ]
+            },
+            "missing_evidence": [
+              "Validated event-specific exposure scale and segment impact"
+            ],
+            "note": "Severity, exposure band and research priority do not establish financial materiality."
+          },
+          "historical_reaction": {
+            "status": "unavailable",
+            "probability": null,
+            "predictions": [],
+            "reason": "No explicit article-to-case mapping supplied.",
+            "disclosure": "Experimental historical association only. Not directional or causal. Retrospective OOS results may use historical backfill; not a live prediction.",
+            "used_for_relevance": false,
+            "used_for_priority": false
+          },
+          "research_priority": {
+            "level": "High",
+            "reasons": [
+              "Qualified relationship with curator-verified supporting exposure evidence."
+            ],
+            "method": "evidence_first_attention_v1",
+            "interpretation": "Analyst attention only; not magnitude, direction or recommendation."
+          },
+          "direction": "Analyst judgment required",
+          "explanation": "NVDA has 1 qualified exposure record(s) through advanced_packaging; inspect the attached relationship paths and sources.",
+          "next_questions": [
+            "Verify the original event report and whether later updates changed the facts.",
+            "Verify the cited relationship and that each supporting fact was known at the analysis time.",
+            "Determine the affected business segment, exposure amount, duration and mitigating capacity."
+          ]
+        }
+      ],
+      "edge_exclusions": [
+        {
+          "event_id": "evt_31863ab11e04c1546f377846",
+          "edge_id": "4",
+          "reason": "non_operating_capacity"
+        },
+        {
+          "event_id": "evt_31863ab11e04c1546f377846",
+          "edge_id": "19",
+          "reason": "blocked_or_hypothesis_evidence"
+        }
+      ],
+      "status": "qualified_matches",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "tsmc_spec_003",
+      "headline": "TSMC announces employee training initiative in Taiwan",
+      "source": "Synthetic Specificity Test",
+      "article_url": null,
+      "gate": {
+        "article_id": "tsmc_spec_003",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": null,
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "rejected",
+      "direction": "Analyst judgment required"
+    }
+  ],
+  "research_queue": [
+    {
+      "article_id": "tsmc_spec_002",
+      "event_id": "evt_31863ab11e04c1546f377846",
+      "ticker": "NVDA",
+      "qualification": "qualified_exposure",
+      "priority": "High",
+      "relevance_score": 0.6,
+      "published_at": "2026-09-18T08:10:00+00:00",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "tsmc_spec_001",
+      "event_id": "evt_f9328baadabe170be4e68b91",
+      "ticker": "NVDA",
+      "qualification": "qualified_exposure",
+      "priority": "High",
+      "relevance_score": 0.6,
+      "published_at": "2026-09-18T08:00:00+00:00",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "tsmc_spec_001",
+      "event_id": "evt_f9328baadabe170be4e68b91",
+      "ticker": "AAPL",
+      "qualification": "qualified_exposure",
+      "priority": "Medium",
+      "relevance_score": 0.6,
+      "published_at": "2026-09-18T08:00:00+00:00",
+      "direction": "Analyst judgment required"
+    }
+  ],
+  "summary": {
+    "articles": 3,
+    "accepted": 2,
+    "rejected": 1,
+    "qualified_pairs": 3,
+    "review_candidates": 0
+  }
+}

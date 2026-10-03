@@ -1,0 +1,453 @@
+{
+  "article_count": 64,
+  "articles": [
+    {
+      "uuid": "4e06cd53-e2df-4181-92f9-71b1b7fdc698",
+      "title": "Missing Carnival Panorama passenger jumped overboard off Mexico's coast",
+      "published_at": "2026-09-21T01:17:24.000Z",
+      "publisher": "Fox News",
+      "_source_topic": "business"
+    },
+    {
+      "uuid": "88d78250-1732-48b3-9ffd-a7f1b9975163",
+      "title": "Confirmed: PBOC leaves Loan Prime Rates unchanged in September",
+      "published_at": "2026-09-21T01:00:55.000Z",
+      "publisher": "FXStreet",
+      "_source_topic": "business"
+    },
+    {
+      "uuid": "f15bf067-b612-4338-8041-9e41218ba6f4",
+      "title": "Nvidia boss rejects AI extinction fears as 'doomsday narratives'",
+      "published_at": "2026-09-21T00:34:53.000Z",
+      "publisher": "BBC",
+      "_source_topic": "business"
+    },
+    {
+      "uuid": "f7c7fc0a-6592-4420-a8c6-f5520d838a3f",
+      "title": "PBOC holds benchmark rate at 3%, steady stance underpins yuan and equity derivatives outlook",
+      "published_at": "2026-09-21T00:32:16.000Z",
+      "publisher": "VT Markets",
+      "_source_topic": "business"
+    },
+    {
+      "uuid": "c88bf857-1c8a-4e70-a81f-81afcfc80bab",
+      "title": "US Businesses Face Unprecedented Challenges Amidst Supply Chain Disruptions and Rising Costs",
+      "published_at": "2026-09-21T00:11:54.000Z",
+      "publisher": "Ratopati",
+      "_source_topic": "business"
+    },
+    {
+      "uuid": "56e31617-ed1c-4f61-b334-66ee7c251c6a",
+      "title": "In the US, shoppers earning $100,000 or more are looking for discounts — Fortune",
+      "published_at": "2026-09-20T23:26:41.000Z",
+      "publisher": "UA.NEWS",
+      "_source_topic": "business"
+    },
+    {
+      "uuid": "7b4acd74-8931-43f9-a0dc-2a186826b80d",
+      "title": "Dollar General CEO says consumers making $100,000 a year don't feel high income anymore",
+      "published_at": "2026-09-20T23:03:00.000Z",
+      "publisher": "Fortune",
+      "_source_topic": "business"
+    },
+    {
+      "uuid": "128f2db9-76dc-456e-9f86-e14625859804",
+      "title": "Clarity Act’s Failure Kicks Off Wave of Blame in Crypto World",
+      "published_at": "2026-09-20T22:40:27.000Z",
+      "publisher": "PYMNTS.com",
+      "_source_topic": "business"
+    },
+    {
+      "uuid": "2f5b2c01-0dbf-439f-bb28-5de4168998ea",
+      "title": "BofA cuts to the chase on AI data center demand",
+      "published_at": "2026-09-20T22:37:00.000Z",
+      "publisher": "star-telegram.com",
+      "_source_topic": "business"
+    },
+    {
+      "uuid": "24b5b7aa-59e9-49ce-8a9f-0fbca0d856a8",
+      "title": "Scammers Turn to Outdated Payment Tech to Steal Benefits",
+      "published_at": "2026-09-20T22:22:46.000Z",
+      "publisher": "PYMNTS.com",
+      "_source_topic": "business"
+    },
+    {
+      "uuid": "ef76f840-4065-4052-82cf-60af67d7e099",
+      "title": "Volatile yen draws intervention watch, other currencies subdued",
+      "published_at": "2026-09-21T02:20:00.000Z",
+      "publisher": "CNBC",
+      "_source_topic": "finance"
+    },
+    {
+      "uuid": "d42abbb8-ee3a-46db-ab9d-af134626ba21",
+      "title": "New Zealand Dollar languishes near two-month low vs USD as bears await break below 0.5700",
+      "published_at": "2026-09-21T01:42:14.000Z",
+      "publisher": "FXStreet",
+      "_source_topic": "finance"
+    },
+    {
+      "uuid": "c96075d5-089e-4218-9151-f7c4ca8b0bc2",
+      "title": "Japanese Yen bulls seem hesitant amid BoJ's dovish rate hike as Fed bets support USD",
+      "published_at": "2026-09-21T01:12:12.000Z",
+      "publisher": "FXStreet",
+      "_source_topic": "finance"
+    },
+    {
+      "uuid": "46c3f81c-f89b-4f6e-a984-6144cbec3079",
+      "title": "Gold Holds Gains as Oil Prices Decline",
+      "published_at": "2026-09-21T01:12:00.000Z",
+      "publisher": "TradingView",
+      "_source_topic": "finance"
+    },
+    {
+      "uuid": "3c4b93df-af24-4820-bbc0-84814d42e95c",
+      "title": "Jane Street bets big on leveraged ETF swaps",
+      "published_at": "2026-09-21T00:56:38.000Z",
+      "publisher": "The Economic Times",
+      "_source_topic": "finance"
+    },
+    {
+      "uuid": "22a1b121-b1b0-445d-a876-2f648102b687",
+      "title": "OCC Opens Three Bank Doors to Stablecoins and AI Agents",
+      "published_at": "2026-09-21T00:22:19.000Z",
+      "publisher": "PYMNTS.com",
+      "_source_topic": "finance"
+    },
+    {
+      "uuid": "5ef21587-a45f-4420-8a2f-d6460f19c585",
+      "title": "Australian Dollar edges lower as Fed hike bets grow ahead of Trump-Xi summit",
+      "published_at": "2026-09-20T23:32:57.000Z",
+      "publisher": "FXStreet",
+      "_source_topic": "finance"
+    },
+    {
+      "uuid": "aefae167-ecf6-409d-9b98-a57a9856b040",
+      "title": "US stock futures up ahead of talks, dollar steady",
+      "published_at": "2026-09-20T22:51:06.000Z",
+      "publisher": "The Edge Malaysia",
+      "_source_topic": "finance"
+    },
+    {
+      "uuid": "04443311-8dc4-460b-afb8-31798e72a0dc",
+      "title": "3 Things You Need to Know Before Buying IonQ Stock",
+      "published_at": "2026-09-20T22:25:47.000Z",
+      "publisher": "The Motley Fool",
+      "_source_topic": "finance"
+    },
+    {
+      "uuid": "19a5f603-4ea7-4c11-8f30-1a958f53a8bd",
+      "title": "Stock futures are little changed after Dow posts third straight losing week: Live updates",
+      "published_at": "2026-09-20T22:04:33.000Z",
+      "publisher": "CNBC",
+      "_source_topic": "finance"
+    },
+    {
+      "uuid": "da45790d-2c14-4b8c-9032-8853b60e78f9",
+      "title": "Bessent: US proposes AI incident alert system in talks with China",
+      "published_at": "2026-09-21T01:49:00.000Z",
+      "publisher": "Yahoo",
+      "_source_topic": "economy"
+    },
+    {
+      "uuid": "454f4948-4b82-41d8-b018-d237061442f4",
+      "title": "Newshour | The German chancellor describes the results of a state election as a \"disaster\"",
+      "published_at": "2026-09-21T01:31:18.000Z",
+      "publisher": "BBC",
+      "_source_topic": "economy"
+    },
+    {
+      "uuid": "ca8d429a-a5d0-42db-879e-9c20a97d5f1c",
+      "title": "IMF Says Global Public Debt at Record High, Governments Falling Short on Deficit Cuts",
+      "published_at": "2026-09-20T22:38:53.000Z",
+      "publisher": "bloomingbit",
+      "_source_topic": "economy"
+    },
+    {
+      "uuid": "c35e9e22-c8cc-4b35-9f7f-fb34d164777b",
+      "title": "Far-right AfD poised to finish atop vote in another German state",
+      "published_at": "2026-09-20T22:03:43.000Z",
+      "publisher": "Yahoo",
+      "_source_topic": "economy"
+    },
+    {
+      "uuid": "220d77d0-cafd-4da3-9922-5e857b4be4b8",
+      "title": "Can Trump and Xi cooperate to guide humanity through the AI revolution? Humanity might depend on it | Alan Finkel",
+      "published_at": "2026-09-20T22:00:00.000Z",
+      "publisher": "The Guardian",
+      "_source_topic": "economy"
+    },
+    {
+      "uuid": "d1ce402a-1254-4f72-afc7-b4c86a9069d6",
+      "title": "Stellar Blade \"Switch 2 vs. PS5\" graphics and framerate comparison",
+      "published_at": "2026-09-21T02:21:27.000Z",
+      "publisher": "GoNintendo",
+      "_source_topic": "technology"
+    },
+    {
+      "uuid": "6e330833-6052-405e-bcba-8f57ff937692",
+      "title": "Lufia is finally coming to PC for the first time ever",
+      "published_at": "2026-09-21T02:06:49.000Z",
+      "publisher": "well-played.com.au",
+      "_source_topic": "technology"
+    },
+    {
+      "uuid": "1ad64d53-2922-4e3f-8be0-61a78647e112",
+      "title": "Good News: Trumpet player sings National Anthem after horn malfunction",
+      "published_at": "2026-09-20T23:02:44.000Z",
+      "publisher": "Yahoo",
+      "_source_topic": "technology"
+    },
+    {
+      "uuid": "b91f69d0-2f6f-47e5-b269-0a4847f04634",
+      "title": "Final Fantasy 7 Revelation Director Teases Playthroughs Will Take Completionists 'Over 100 Hours' to Beat",
+      "published_at": "2026-09-20T20:52:44.000Z",
+      "publisher": "IGN",
+      "_source_topic": "technology"
+    },
+    {
+      "uuid": "1b402b3b-0109-4c50-a926-1c7d690a2bc9",
+      "title": "14 Quirky Mini Gadgets That Make Great Gifts",
+      "published_at": "2026-09-20T20:30:00.000Z",
+      "publisher": "SlashGear",
+      "_source_topic": "technology"
+    },
+    {
+      "uuid": "46b5db65-b43a-4969-92e8-932e0bbed50b",
+      "title": "Which Nvidia GPU Is Equivalent To The PlayStation 5 Pro?",
+      "published_at": "2026-09-20T19:47:00.000Z",
+      "publisher": "bgr.com",
+      "_source_topic": "technology"
+    },
+    {
+      "uuid": "1994edcb-7f13-45ef-bc64-6d8e436ce716",
+      "title": "Beloved Super Nintendo JRPG Receives Its First Re-Release But It’s The Sequel You Gotta Get Excited For",
+      "published_at": "2026-09-20T19:34:44.000Z",
+      "publisher": "Kotaku",
+      "_source_topic": "technology"
+    },
+    {
+      "uuid": "37539590-03fd-466e-b3c1-b87bf651f067",
+      "title": "Arm drop pods - Space Marine reinforcements are coming to 40k in a new round of pre-orders",
+      "published_at": "2026-09-20T19:13:49.000Z",
+      "publisher": "wargamer.com",
+      "_source_topic": "technology"
+    },
+    {
+      "uuid": "018e8fdb-5e05-43c2-91f6-54a5407c1c11",
+      "title": "My 13-year-old refused to share his location with me. I was annoyed — until I realized he had a point.",
+      "published_at": "2026-09-20T18:55:26.000Z",
+      "publisher": "Business Insider",
+      "_source_topic": "technology"
+    },
+    {
+      "uuid": "bcbe8321-9e1d-47c1-8278-c11e6d3cda6c",
+      "title": "The US discusses the approach of the AI singularity — The Hill",
+      "published_at": "2026-09-20T18:35:26.000Z",
+      "publisher": "UA.NEWS",
+      "_source_topic": "technology"
+    },
+    {
+      "uuid": "f7b2ede4-bd84-4bf4-8225-a36e2898009c",
+      "title": "Petrobras Backs New Diesel Subsidy as Fuel Payments Reach $1.9 Billion",
+      "published_at": "2026-09-21T01:56:44.000Z",
+      "publisher": "Crude Oil Prices Today | OilPrice.com",
+      "_source_topic": "energy"
+    },
+    {
+      "uuid": "becbd6f8-e884-465e-9381-3cd937f6c1d9",
+      "title": "Discarded pool chemicals in garbage truck load cause vapor cloud, hours-long hazmat response in Gurnee",
+      "published_at": "2026-09-21T00:43:12.000Z",
+      "publisher": "Lake and McHenry County Scanner",
+      "_source_topic": "energy"
+    },
+    {
+      "uuid": "68363629-7144-4a39-aeac-731cc56e904e",
+      "title": "The iron-air storage solution for solar",
+      "published_at": "2026-09-21T00:36:00.000Z",
+      "publisher": "BusinessLine",
+      "_source_topic": "energy"
+    },
+    {
+      "uuid": "65f92ea6-5206-4b89-b43c-2565d568ad57",
+      "title": "Coal is still the king of global power. Here’s why",
+      "published_at": "2026-09-21T00:21:13.000Z",
+      "publisher": "The Motley Fool Australia",
+      "_source_topic": "energy"
+    },
+    {
+      "uuid": "99d15c7d-ae54-44f8-8cf7-fc95a9a56143",
+      "title": "Big Oil's Production Keeps Soaring Despite Deep Spending Cuts",
+      "published_at": "2026-09-20T23:00:00.000Z",
+      "publisher": "Crude Oil Prices Today | OilPrice.com",
+      "_source_topic": "energy"
+    },
+    {
+      "uuid": "b4a16a41-a6ad-4a1c-b57b-60767956da78",
+      "title": "Here’s how long Corpus Christi tap water will taste or smell ‘musty’",
+      "published_at": "2026-09-20T22:30:00.000Z",
+      "publisher": "caller.com",
+      "_source_topic": "energy"
+    },
+    {
+      "uuid": "f4d8e6ca-1ca9-4a36-9481-79b5b55c4229",
+      "title": "Natural Gas News: Europe’s LNG Demand Keeps U.S. Gas Bulls in the Fight",
+      "published_at": "2026-09-20T21:54:36.000Z",
+      "publisher": "FXEmpire",
+      "_source_topic": "energy"
+    },
+    {
+      "uuid": "408211d5-f212-4618-a13a-11cd065f2ea9",
+      "title": "City issues garbage cart transition update",
+      "published_at": "2026-09-20T21:22:30.000Z",
+      "publisher": "Vicksburg Daily News",
+      "_source_topic": "energy"
+    },
+    {
+      "uuid": "6cdc4aee-ec3b-4f33-a053-aa6726cf0ead",
+      "title": "With this 'little bit', households can help tackle organic waste problem",
+      "published_at": "2026-09-20T21:04:36.000Z",
+      "publisher": "ABC News & Headlines – Australian Broadcasting Corporation",
+      "_source_topic": "energy"
+    },
+    {
+      "uuid": "2bf63975-ca91-4c83-8c94-152e88be1056",
+      "title": "Paratus and Vantris JV clears Petrobras PLSV tender hurdle",
+      "published_at": "2026-09-20T20:48:45.000Z",
+      "publisher": "Splash247",
+      "_source_topic": "energy"
+    },
+    {
+      "uuid": "bc9d07b3-a97d-4901-8e3a-f426a15d355a",
+      "title": "COMMENT | Govt must reveal reasons for Najib's pardon",
+      "published_at": "2026-09-21T02:10:00.000Z",
+      "publisher": "malaysiakini.com",
+      "_source_topic": "politics"
+    },
+    {
+      "uuid": "a990e6fb-b2e8-447b-a7fd-093f3baf9f48",
+      "title": "In Washington, temples to Trump’s ego lie ruined. And another is on the way",
+      "published_at": "2026-09-21T01:49:10.000Z",
+      "publisher": "SMH.com.au",
+      "_source_topic": "politics"
+    },
+    {
+      "uuid": "4a78c634-4e8c-4016-9d40-292cc14bd2d8",
+      "title": "SNAPSHOT | Anwar denies paving way for Najib's pardon; PM celebrates Malacca CM's birthday",
+      "published_at": "2026-09-21T01:10:00.000Z",
+      "publisher": "Malaysiakini",
+      "_source_topic": "politics"
+    },
+    {
+      "uuid": "a2e864fc-e5c0-4ecc-b1ac-29235cbc442b",
+      "title": "Ethiopian armed groups forge alliance against government",
+      "published_at": "2026-09-21T00:44:42.000Z",
+      "publisher": "Al Jazeera",
+      "_source_topic": "politics"
+    },
+    {
+      "uuid": "51430fae-fce4-4421-b968-58c9711ce5c6",
+      "title": "Carney, other Western leaders pleased with deal between U.S., Denmark and Greenland",
+      "published_at": "2026-09-20T23:49:03.000Z",
+      "publisher": "The Globe and Mail",
+      "_source_topic": "politics"
+    },
+    {
+      "uuid": "20b8ab9e-325b-4941-90e8-5937da56a950",
+      "title": "Malaysian King has full discretion to decide on pardons, says PM Anwar",
+      "published_at": "2026-09-20T23:43:00.000Z",
+      "publisher": "The Straits Times",
+      "_source_topic": "politics"
+    },
+    {
+      "uuid": "00c11c05-022e-4175-a499-cfbc8adbe813",
+      "title": "News outlets banned from White House, and Ed Sheeran addresses controversy: Weekend Rundown",
+      "published_at": "2026-09-20T22:02:52.000Z",
+      "publisher": "NBC News",
+      "_source_topic": "politics"
+    },
+    {
+      "uuid": "345cebfe-4392-4647-86eb-d0882c568064",
+      "title": "UNGA 81: Nigeria Retains Front-Row Seat Despite Tinubu’s Absence — Jimoh Ibrahim",
+      "published_at": "2026-09-20T21:24:00.000Z",
+      "publisher": "Head Topics",
+      "_source_topic": "politics"
+    },
+    {
+      "uuid": "1b6c28dc-32e6-455e-98da-8221a8d886c8",
+      "title": "Mamdani and Zelenskyy make Trump’s dance card on U.N. sidelines",
+      "published_at": "2026-09-20T21:09:30.000Z",
+      "publisher": "MS NOW",
+      "_source_topic": "politics"
+    },
+    {
+      "uuid": "dcaec345-1308-4175-a3d8-875baa2ff3a3",
+      "title": "Natasha mourns ex-Kogi Governor Idris",
+      "published_at": "2026-09-20T21:05:46.000Z",
+      "publisher": "The Nation Newspaper",
+      "_source_topic": "politics"
+    },
+    {
+      "uuid": "622f3b75-8c46-449e-ae1e-0aee34ead34e",
+      "title": "Putin's United Russia wins tightly controlled wartime election",
+      "published_at": "2026-09-21T02:03:00.000Z",
+      "publisher": "yahoo.com",
+      "_source_topic": "world"
+    },
+    {
+      "uuid": "cfaecb74-b4de-461d-932f-d26d1cc316ea",
+      "title": "Princess Diana's brother says his bombshell claims against King Charles following her death will 'not be a surprise' to nephews William and Harry",
+      "published_at": "2026-09-21T01:15:00.000Z",
+      "publisher": "pagesix.com",
+      "_source_topic": "world"
+    },
+    {
+      "uuid": "17270f98-6ab2-4d50-9b25-e67a072a4041",
+      "title": "Ukraine war briefing: Russia to ‘intensify’ attacks on Kyiv after Moscow hit with mass drone strikes",
+      "published_at": "2026-09-21T01:14:00.000Z",
+      "publisher": "The Guardian",
+      "_source_topic": "world"
+    },
+    {
+      "uuid": "4cf9f29d-e24b-46e7-9c3d-69fb05a0acdf",
+      "title": "Macron and Carney announce closer France-Canada ties amid Trump tensions",
+      "published_at": "2026-09-21T01:09:00.000Z",
+      "publisher": "The Guardian",
+      "_source_topic": "world"
+    },
+    {
+      "uuid": "dce30ebe-c4f7-4968-a4c1-88468bb5a313",
+      "title": "Trump announced \"very important developments\" in the war with Iran",
+      "published_at": "2026-09-21T00:53:32.000Z",
+      "publisher": "unn.ua",
+      "_source_topic": "world"
+    },
+    {
+      "uuid": "57fd5f27-921d-4fd0-a0d2-7959dc1ca0de",
+      "title": "Russia's elections had few surprises - but how the Kremlin uses the results is far from clear",
+      "published_at": "2026-09-21T00:05:11.000Z",
+      "publisher": "BBC",
+      "_source_topic": "world"
+    },
+    {
+      "uuid": "0dde24c4-7709-42dc-9e3c-5c87111d8a6f",
+      "title": "Macron backs Canada as EU associate member as Carney turns toward Europe",
+      "published_at": "2026-09-20T23:54:38.000Z",
+      "publisher": "Anchorage Daily News",
+      "_source_topic": "world"
+    },
+    {
+      "uuid": "d0122c31-2794-4a15-b76d-d71ecfa4590f",
+      "title": "Final preparations are underway for U.N. General Assembly in NYC, starting Tuesday",
+      "published_at": "2026-09-20T23:36:45.000Z",
+      "publisher": "CBS News",
+      "_source_topic": "world"
+    },
+    {
+      "uuid": "e31d9f1d-9898-4f2a-94ce-2b02208f6fdf",
+      "title": "Polls close in Russian wartime election with ruling party set to dominate",
+      "published_at": "2026-09-20T22:58:41.000Z",
+      "publisher": "Al Jazeera",
+      "_source_topic": "world"
+    }
+  ]
+}

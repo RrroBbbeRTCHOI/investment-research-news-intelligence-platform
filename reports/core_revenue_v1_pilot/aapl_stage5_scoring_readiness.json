@@ -1,0 +1,69 @@
+{
+  "stage": "CRQ V1 Stage 5 - revenue diagnostics and scoring readiness, NOT a quality score",
+  "ticker": "AAPL",
+  "fiscal_year": 2025,
+  "currency": "USD",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+  "reconciliation": "PASS: Stage 2 category totals, Stage 3 category bridge, Stage 4 SEC/FMP periods and AR facts",
+  "operating_category_coverage_pct": 100.0,
+  "operating_category_coverage_not_score": true,
+  "FY2025_revenue_mix": [
+    {
+      "name": "iPhone",
+      "FY2025_revenue_share_pct": 50.36
+    },
+    {
+      "name": "Services",
+      "FY2025_revenue_share_pct": 26.23
+    },
+    {
+      "name": "Wearables, Home and Accessories",
+      "FY2025_revenue_share_pct": 8.58
+    },
+    {
+      "name": "Mac",
+      "FY2025_revenue_share_pct": 8.1
+    },
+    {
+      "name": "iPad",
+      "FY2025_revenue_share_pct": 6.73
+    }
+  ],
+  "revenue_recognition_diagnostics": {
+    "revenue_growth_pct": 6.43,
+    "trade_ar_growth_pct": 19.06,
+    "trade_ar_minus_revenue_growth_pp": 12.63,
+    "trade_ar_growth_investigation_flag": true,
+    "year_end_trade_ar_to_annual_revenue_proxy_days_FY2024": 31.19,
+    "year_end_trade_ar_to_annual_revenue_proxy_days_FY2025": 34.89,
+    "proxy_days_change": 3.7,
+    "proxy_limit": "Year-end trade AR / annual revenue x 365; not average-balance DSO and not proof of misstatement.",
+    "recognized_from_opening_deferred_revenue_FY2025_usd_m": 8229.0,
+    "recognized_from_opening_deferred_revenue_share_pct": 1.98,
+    "deferred_note": "Normal discharge of previously deferred obligations, not a non-core revenue deduction."
+  },
+  "receivables_concentration_SEC_note4": {
+    "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+    "source_locator": "Apple FY2025 Form 10-K, Note 4 - Financial Instruments, Accounts Receivable / Trade Receivables",
+    "FY2025_carrier_share_of_trade_ar_pct": 34.0,
+    "FY2024_carrier_share_of_trade_ar_pct": 38.0,
+    "FY2025_one_customer_share_of_trade_ar_pct": 12.0,
+    "status": "SEC note transcribed; classification/concentration evidence, not proof of collectibility"
+  },
+  "scoring_readiness": {
+    "core_revenue_purity": "CANDIDATE ONLY: all disclosed categories are operating products/services, but category coverage is not a validated transaction-level purity score",
+    "organic_growth_attribution": "UNKNOWN: acquisition/FX-adjusted organic revenue growth bridge not verified",
+    "revenue_recognition_integrity": "UNKNOWN: trade AR divergence triggers investigation but cannot imply an integrity score",
+    "effective_scoring_coverage_pct": 0.0,
+    "overall_CRQ_score": null,
+    "status": "NOT_SCORED",
+    "before_scoring": [
+      "analyst sign-off on core/non-core classification and scoring rubric",
+      "evidence-based organic-growth attribution or explicit unavailable status",
+      "validated revenue-recognition assessment and ≥70% weighted-score coverage"
+    ]
+  },
+  "analyst_note": "FY2025 revenue rose 6.4%, while trade receivables grew 19.1% (+12.6 pp faster). The simple year-end trade-AR/revenue proxy increased by 3.7 days. This merits collection-timing and channel-mix review, not an automatic quality penalty. All disclosed products/services are classified as operating revenue, but organic-growth attribution and recognition-integrity scores remain unverified.",
+  "production_files_modified": false,
+  "api_calls": 0
+}

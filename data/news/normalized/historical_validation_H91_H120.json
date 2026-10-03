@@ -1,0 +1,999 @@
+{
+  "articles": [
+    {
+      "article_id": "historical_H91",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H91",
+      "headline": "Apple agrees to pay $95 million to settle Siri privacy lawsuit",
+      "summary": "Apple agreed to pay $95 million to settle a proposed class action alleging that Siri unintentionally recorded private conversations and disclosed data to third parties.",
+      "body": "Apple agreed to pay $95 million to settle a proposed class action alleging that Siri unintentionally recorded private conversations and disclosed data to third parties. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/legal/apple-pay-95-million-settle-siri-privacy-lawsuit-2025-01-02/",
+      "topics": [
+        "Apple",
+        "Siri",
+        "privacy",
+        "settlement"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2025-01-02",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H92",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H92",
+      "headline": "US appeals court largely upholds Apple victory in Epic Games antitrust case",
+      "summary": "The U.S. Court of Appeals for the Ninth Circuit largely upheld the district court outcome in Epic Games' antitrust dispute with Apple while leaving in place an anti-steering injunction.",
+      "body": "The U.S. Court of Appeals for the Ninth Circuit largely upheld the district court outcome in Epic Games' antitrust dispute with Apple while leaving in place an anti-steering injunction. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "U.S. Supreme Court docket / Ninth Circuit record",
+      "article_url": "https://www.supremecourt.gov/docket/docketfiles/html/public/23-337.html",
+      "topics": [
+        "Apple",
+        "Epic Games",
+        "antitrust",
+        "court ruling"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2023-04-24",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H93",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H93",
+      "headline": "US Supreme Court declines Epic and Apple appeals in App Store dispute",
+      "summary": "The U.S. Supreme Court denied petitions arising from Epic Games v. Apple, leaving the lower-court judgment and anti-steering injunction in place.",
+      "body": "The U.S. Supreme Court denied petitions arising from Epic Games v. Apple, leaving the lower-court judgment and anti-steering injunction in place. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "U.S. Supreme Court",
+      "article_url": "https://www.supremecourt.gov/docket/docketfiles/html/public/23-337.html",
+      "topics": [
+        "Apple",
+        "Epic Games",
+        "Supreme Court",
+        "ruling"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2024-01-16",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H94",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H94",
+      "headline": "Apple ends decade-long electric-car effort, reports say",
+      "summary": "Apple ended its long-running electric-vehicle project and shifted some employees toward artificial-intelligence work. This is intentionally retained as a corporate-strategy boundary candidate.",
+      "body": "Apple ended its long-running electric-vehicle project and shifted some employees toward artificial-intelligence work. This is intentionally retained as a corporate-strategy boundary candidate. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/apple-cancels-electric-car-project-bloomberg-news-reports-2024-02-27/",
+      "topics": [
+        "Apple",
+        "electric vehicle",
+        "product strategy",
+        "project cancellation"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2024-02-27",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H95",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H95",
+      "headline": "EU clears Microsoft's Activision Blizzard acquisition with remedies",
+      "summary": "The European Commission approved Microsoft's proposed acquisition of Activision Blizzard subject to commitments addressing cloud-gaming competition concerns.",
+      "body": "The European Commission approved Microsoft's proposed acquisition of Activision Blizzard subject to commitments addressing cloud-gaming competition concerns. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.investing.com/news/stock-market-news/eu-antitrust-regulators-clear-69-billion-microsoft-activision-deal-3082669",
+      "topics": [
+        "Microsoft",
+        "Activision Blizzard",
+        "acquisition",
+        "regulatory clearance"
+      ],
+      "countries": [
+        "European Union"
+      ],
+      "published_at": "2023-05-15",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H96",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H96",
+      "headline": "UK clears Microsoft's partnership and hiring deal with Inflection AI",
+      "summary": "Britain's Competition and Markets Authority cleared Microsoft's hiring of former Inflection AI staff and associated arrangements after a merger review.",
+      "body": "Britain's Competition and Markets Authority cleared Microsoft's hiring of former Inflection AI staff and associated arrangements after a merger review. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/artificial-intelligence/uk-clears-microsofts-partnership-with-inflection-ai-2024-09-04/",
+      "topics": [
+        "Microsoft",
+        "Inflection AI",
+        "CMA",
+        "clearance"
+      ],
+      "countries": [
+        "United Kingdom"
+      ],
+      "published_at": "2024-09-04",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H97",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H97",
+      "headline": "Microsoft announces layoffs affecting about 6,000 employees",
+      "summary": "Microsoft said it would eliminate less than 3% of its workforce, around 6,000 roles, across levels and geographies.",
+      "body": "Microsoft said it would eliminate less than 3% of its workforce, around 6,000 roles, across levels and geographies. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.investing.com/news/stock-market-news/microsoft-to-lay-off-3-of-workforce-cnbc-reports-4042450",
+      "topics": [
+        "Microsoft",
+        "layoffs",
+        "workforce reduction"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2025-05-13",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H98",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H98",
+      "headline": "Microsoft announces another round of layoffs affecting about 4% of workforce",
+      "summary": "Microsoft said it would cut nearly 4% of its workforce in another organization-wide reduction while controlling costs amid large AI infrastructure spending.",
+      "body": "Microsoft said it would cut nearly 4% of its workforce in another organization-wide reduction while controlling costs amid large AI infrastructure spending. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/business/world-at-work/microsoft-lay-off-many-9000-employees-seattle-times-reports-2025-07-02/",
+      "topics": [
+        "Microsoft",
+        "layoffs",
+        "workforce reduction"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2025-07-02",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H99",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H99",
+      "headline": "Google agrees to $700 million Play Store antitrust settlement",
+      "summary": "Google agreed to pay $700 million and change Play Store practices as part of an antitrust settlement with U.S. states and consumers.",
+      "body": "Google agreed to pay $700 million and change Play Store practices as part of an antitrust settlement with U.S. states and consumers. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.investing.com/news/stock-market-news/google-to-pay-700-million-to-us-consumers-states-in-play-store-settlement-3259441",
+      "topics": [
+        "Google",
+        "Play Store",
+        "antitrust",
+        "settlement"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2023-12-19",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H100",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H100",
+      "headline": "Epic Games wins antitrust jury verdict against Google Play",
+      "summary": "A U.S. jury found for Epic Games in its antitrust case against Google concerning Play Store distribution and billing practices.",
+      "body": "A U.S. jury found for Epic Games in its antitrust case against Google concerning Play Store distribution and billing practices. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.investing.com/news/economy/epic-games-wins-antitrust-case-against-google-over-play-app-store-3255398",
+      "topics": [
+        "Google",
+        "Epic Games",
+        "Play Store",
+        "antitrust ruling"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2023-12-11",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H101",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H101",
+      "headline": "EU top court upholds 2.4 billion euro Google Shopping antitrust fine",
+      "summary": "The Court of Justice of the European Union dismissed Google and Alphabet's appeal and upheld the 2.4 billion euro fine in the Google Shopping case.",
+      "body": "The Court of Justice of the European Union dismissed Google and Alphabet's appeal and upheld the 2.4 billion euro fine in the Google Shopping case. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Court of Justice of the European Union",
+      "article_url": "https://curia.europa.eu/jcms/upload/docs/application/pdf/2024-09/cp240135en.pdf",
+      "topics": [
+        "Google",
+        "Google Shopping",
+        "fine",
+        "court ruling"
+      ],
+      "countries": [
+        "European Union"
+      ],
+      "published_at": "2024-09-10",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H102",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H102",
+      "headline": "Japan orders Google to stop anticompetitive Android practices",
+      "summary": "The Japan Fair Trade Commission issued a cease-and-desist order requiring Google to stop certain restrictive practices involving Android smartphone makers.",
+      "body": "The Japan Fair Trade Commission issued a cease-and-desist order requiring Google to stop certain restrictive practices involving Android smartphone makers. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Japan Fair Trade Commission",
+      "article_url": "https://www.jftc.go.jp/en/pressreleases/yearly-2025/April/250415.html",
+      "topics": [
+        "Google",
+        "Android",
+        "antitrust",
+        "cease and desist"
+      ],
+      "countries": [
+        "Japan"
+      ],
+      "published_at": "2025-04-15",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H103",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H103",
+      "headline": "Amazon agrees to $25 million Alexa children's privacy settlement",
+      "summary": "Amazon agreed to pay $25 million and change Alexa data-deletion practices to settle allegations that it violated children's privacy rules.",
+      "body": "Amazon agreed to pay $25 million and change Alexa data-deletion practices to settle allegations that it violated children's privacy rules. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Federal Trade Commission",
+      "article_url": "https://search.ftc.gov/news-events/news/press-releases/2023/05/ftc-doj-charge-amazon-violating-childrens-privacy-law-keeping-kids-alexa-voice-recordings-forever",
+      "topics": [
+        "Amazon",
+        "Alexa",
+        "FTC",
+        "privacy",
+        "settlement"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2023-05-31",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H104",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H104",
+      "headline": "Amazon completes MGM acquisition",
+      "summary": "Amazon completed its acquisition of MGM, bringing the film and television studio into its entertainment business after regulatory review.",
+      "body": "Amazon completed its acquisition of MGM, bringing the film and television studio into its entertainment business after regulatory review. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Amazon",
+      "article_url": "https://www.aboutamazon.com/news/company-news/amazon-and-mgm-have-signed-an-agreement-for-amazon-to-acquire-mgm",
+      "topics": [
+        "Amazon",
+        "MGM",
+        "acquisition",
+        "entertainment"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2022-03-17",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H105",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H105",
+      "headline": "Amazon settles EU antitrust investigations with binding commitments",
+      "summary": "The European Commission accepted legally binding commitments from Amazon resolving investigations into marketplace seller data, Buy Box and Prime-related practices.",
+      "body": "The European Commission accepted legally binding commitments from Amazon resolving investigations into marketplace seller data, Buy Box and Prime-related practices. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "European Commission",
+      "article_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_22_7777",
+      "topics": [
+        "Amazon",
+        "marketplace",
+        "antitrust",
+        "settlement"
+      ],
+      "countries": [
+        "European Union"
+      ],
+      "published_at": "2022-12-20",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H106",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H106",
+      "headline": "US judge allows FTC Prime enrollment case against Amazon to proceed",
+      "summary": "A U.S. federal court denied Amazon's motions to dismiss the FTC's case alleging deceptive Prime enrollment and cancellation practices.",
+      "body": "A U.S. federal court denied Amazon's motions to dismiss the FTC's case alleging deceptive Prime enrollment and cancellation practices. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Federal Trade Commission",
+      "article_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/2123050-amazoncom-inc-rosca-ftc-v",
+      "topics": [
+        "Amazon",
+        "Prime",
+        "FTC",
+        "court ruling"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2024-05-28",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H107",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H107",
+      "headline": "Meta agrees to $725 million Cambridge Analytica privacy settlement",
+      "summary": "Meta agreed to pay $725 million to settle a class action over Facebook user data shared with third parties including Cambridge Analytica.",
+      "body": "Meta agreed to pay $725 million to settle a class action over Facebook user data shared with third parties including Cambridge Analytica. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.investing.com/news/stock-market-news/facebook-parent-meta-to-pay-725-million-to-settle-lawsuit-relating-to-cambridge-analytica-2969549",
+      "topics": [
+        "Meta",
+        "Facebook",
+        "Cambridge Analytica",
+        "privacy",
+        "settlement"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2022-12-23",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H108",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H108",
+      "headline": "Irish regulator fines Meta over Facebook and Instagram advertising practices",
+      "summary": "Ireland's Data Protection Commission announced fines totaling 390 million euros against Meta over the legal basis used for personalized advertising on Facebook and Instagram.",
+      "body": "Ireland's Data Protection Commission announced fines totaling 390 million euros against Meta over the legal basis used for personalized advertising on Facebook and Instagram. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Data Protection Commission Ireland",
+      "article_url": "https://www.dataprotection.ie/en/news-media/data-protection-commission-announces-conclusion-two-inquiries-meta-ireland",
+      "topics": [
+        "Meta",
+        "Facebook",
+        "Instagram",
+        "privacy",
+        "fine"
+      ],
+      "countries": [
+        "Ireland",
+        "European Union"
+      ],
+      "published_at": "2023-01-04",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H109",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H109",
+      "headline": "Nigeria fines Meta $220 million over consumer and data-law violations",
+      "summary": "Nigeria's competition and consumer watchdog fined Meta $220 million after findings involving data sharing, privacy practices and abuse of market dominance.",
+      "body": "Nigeria's competition and consumer watchdog fined Meta $220 million after findings involving data sharing, privacy practices and abuse of market dominance. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://tech.yahoo.com/general/articles/nigerias-consumer-watchdog-fines-meta-163919296.html",
+      "topics": [
+        "Meta",
+        "Nigeria",
+        "privacy",
+        "competition",
+        "fine"
+      ],
+      "countries": [
+        "Nigeria"
+      ],
+      "published_at": "2024-07-19",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H110",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H110",
+      "headline": "US Justice Department settles housing-ad discrimination case with Meta",
+      "summary": "The U.S. Justice Department filed and simultaneously announced a settlement of a Fair Housing Act case requiring Meta to change how housing advertisements are delivered.",
+      "body": "The U.S. Justice Department filed and simultaneously announced a settlement of a Fair Housing Act case requiring Meta to change how housing advertisements are delivered. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "U.S. Department of Justice",
+      "article_url": "https://www.justice.gov/archives/opa/pr/justice-department-secures-groundbreaking-settlement-agreement-meta-platforms-formerly-known",
+      "topics": [
+        "Meta",
+        "housing ads",
+        "DOJ",
+        "settlement"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2022-06-21",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H111",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H111",
+      "headline": "Nvidia and SoftBank terminate Arm acquisition",
+      "summary": "Nvidia and SoftBank announced the termination of Nvidia's proposed acquisition of Arm because of significant regulatory challenges.",
+      "body": "Nvidia and SoftBank announced the termination of Nvidia's proposed acquisition of Arm because of significant regulatory challenges. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "NVIDIA",
+      "article_url": "https://nvidianews.nvidia.com/news/nvidia-and-softbank-group-announce-termination-of-nvidias-acquisition-of-arm-limited",
+      "topics": [
+        "Nvidia",
+        "Arm",
+        "acquisition terminated"
+      ],
+      "countries": [
+        "United States",
+        "United Kingdom",
+        "Japan"
+      ],
+      "published_at": "2022-02-07",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H112",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H112",
+      "headline": "French competition authority raids Nvidia offices in cloud-computing inquiry",
+      "summary": "France's competition authority conducted a dawn raid in the graphics-card sector; contemporaneous reporting identified Nvidia's French offices as the target.",
+      "body": "France's competition authority conducted a dawn raid in the graphics-card sector; contemporaneous reporting identified Nvidia's French offices as the target. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.investing.com/news/stock-market-news/nvidias-french-offices-raided-in-cloudcomputing-competition-inquiry--wsj-3185651",
+      "topics": [
+        "Nvidia",
+        "France",
+        "antitrust",
+        "raid"
+      ],
+      "countries": [
+        "France"
+      ],
+      "published_at": "2023-09-28",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H113",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H113",
+      "headline": "French competition authority confirms Nvidia antitrust investigation",
+      "summary": "The head of France's competition authority confirmed that an investigation into Nvidia over alleged anticompetitive practices was underway.",
+      "body": "The head of France's competition authority confirmed that an investigation into Nvidia over alleged anticompetitive practices was underway. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.investing.com/news/stock-market-news/french-competition-authority-confirms-investigation-into-nvidia-3518747",
+      "topics": [
+        "Nvidia",
+        "France",
+        "antitrust",
+        "investigation"
+      ],
+      "countries": [
+        "France"
+      ],
+      "published_at": "2024-07-15",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H114",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H114",
+      "headline": "Nvidia agrees to pay $5.5 million to settle SEC crypto-mining disclosure charges",
+      "summary": "The U.S. Securities and Exchange Commission announced that Nvidia would pay $5.5 million to settle charges that it inadequately disclosed the impact of cryptocurrency mining on gaming revenue.",
+      "body": "The U.S. Securities and Exchange Commission announced that Nvidia would pay $5.5 million to settle charges that it inadequately disclosed the impact of cryptocurrency mining on gaming revenue. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "U.S. Securities and Exchange Commission",
+      "article_url": "https://www.sec.gov/newsroom/press-releases/2022-79",
+      "topics": [
+        "Nvidia",
+        "SEC",
+        "crypto mining",
+        "disclosure",
+        "settlement"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2022-05-06",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H115",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H115",
+      "headline": "Tesla recalls about 1.8 million US vehicles over hood-latch issue",
+      "summary": "Tesla recalled about 1.8 million U.S. vehicles because a software issue could fail to detect an unlatched hood.",
+      "body": "Tesla recalled about 1.8 million U.S. vehicles because a software issue could fail to detect an unlatched hood. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/business/autos-transportation/tesla-recall-18-million-us-vehicles-over-hood-issue-2024-07-30/",
+      "topics": [
+        "Tesla",
+        "recall",
+        "hood latch",
+        "vehicle safety"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2024-07-30",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H116",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H116",
+      "headline": "US opens investigation into effectiveness of Tesla Autopilot recall",
+      "summary": "NHTSA opened an investigation into whether Tesla's December 2023 Autopilot recall remedy was adequate following crashes involving vehicles that had received the software update.",
+      "body": "NHTSA opened an investigation into whether Tesla's December 2023 Autopilot recall remedy was adequate following crashes involving vehicles that had received the software update. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/business/autos-transportation/us-opens-probe-into-tesla-autopilot-recall-2024-04-26/",
+      "topics": [
+        "Tesla",
+        "Autopilot",
+        "NHTSA",
+        "investigation"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2024-04-26",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H117",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H117",
+      "headline": "Delaware judge voids Elon Musk's Tesla compensation package",
+      "summary": "A Delaware judge voided Elon Musk's 2018 Tesla compensation package after finding the approval process unfair to shareholders.",
+      "body": "A Delaware judge voided Elon Musk's 2018 Tesla compensation package after finding the approval process unfair to shareholders. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.investing.com/news/stock-market-news/judge-rules-in-favor-of-plaintiffs-challenging-musks-tesla-pay-package-3287515",
+      "topics": [
+        "Tesla",
+        "Elon Musk",
+        "compensation",
+        "court ruling"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2024-01-30",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H118",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H118",
+      "headline": "Tesla settles fatal Autopilot crash lawsuit before trial",
+      "summary": "Tesla settled a lawsuit over a fatal 2018 crash involving a Model X operating on Autopilot shortly before trial was due to begin.",
+      "body": "Tesla settled a lawsuit over a fatal 2018 crash involving a Model X operating on Autopilot shortly before trial was due to begin. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.investing.com/news/stock-market-news/apple-and-doj-discussing-antitrust-settlement--report-3370335",
+      "topics": [
+        "Tesla",
+        "Autopilot",
+        "lawsuit",
+        "settlement"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2024-04-08",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H119",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H119",
+      "headline": "Tesla recalls more than 321,000 US vehicles over tail-light software issue",
+      "summary": "Tesla recalled more than 321,000 U.S. vehicles because a software anomaly could intermittently cause tail lights not to illuminate.",
+      "body": "Tesla recalled more than 321,000 U.S. vehicles because a software anomaly could intermittently cause tail lights not to illuminate. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/business/autos-transportation/tesla-recalls-321000-us-vehicles-over-tail-light-issue-filing-2022-11-19/",
+      "topics": [
+        "Tesla",
+        "recall",
+        "tail lights",
+        "vehicle safety"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2022-11-19",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H120",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H120",
+      "headline": "US opens investigation into Tesla Model Y steering-wheel detachments",
+      "summary": "NHTSA opened a preliminary investigation into certain Tesla Model Y vehicles after reports that steering wheels detached while the vehicles were being driven.",
+      "body": "NHTSA opened a preliminary investigation into certain Tesla Model Y vehicles after reports that steering wheels detached while the vehicles were being driven. This snapshot contains only event-time facts and excludes later outcomes, appeals, subsequent enforcement, later market reaction and hindsight context.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/business/autos-transportation/us-opens-probe-into-tesla-model-y-steering-wheels-that-might-fall-off-2023-03-08/",
+      "topics": [
+        "Tesla",
+        "Model Y",
+        "NHTSA",
+        "investigation"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "published_at": "2023-03-08",
+      "time_precision": "date_only",
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    }
+  ]
+}

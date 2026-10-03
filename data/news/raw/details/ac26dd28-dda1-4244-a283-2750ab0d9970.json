@@ -1,0 +1,30 @@
+{
+  "_ingestion": {
+    "provider": "freenewsapi",
+    "endpoint": "details",
+    "article_uuid": "ac26dd28-dda1-4244-a283-2750ab0d9970",
+    "fetched_at": "2026-09-18T08:11:15.308565+00:00"
+  },
+  "raw_response": {
+    "data": {
+      "uuid": "ac26dd28-dda1-4244-a283-2750ab0d9970",
+      "title": "Week 4 high school football scores: Latest results from the Central Section - Fresno Bee",
+      "thumbnail": "https://www.fresnobee.com/public/latest-news/c3p801/picture317290779/alternates/LANDSCAPE_1200/IMG_6198.jpg",
+      "publisher": "Fresno Bee",
+      "authors": [],
+      "topics": [
+        "custom_search"
+      ],
+      "countries": [
+        "US"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-09-18T07:42:04.000Z",
+      "original_url": "https://www.fresnobee.com/sports/high-school/prep-football/article317290881.html",
+      "incipit": "The Bee’s No. 2-ranked Buchanan and No. 23 Sanger met in a nonleague game on Thursday, Sept. 17, 2026. The Bears won 35-34 in overtime. ANTHONY GALAVIZ ...",
+      "body": "The Bee’s No. 2-ranked Buchanan and No. 23 Sanger met in a nonleague game on Thursday, Sept. 17, 2026. The Bears won 35-34 in overtime. ANTHONY GALAVIZ agalaviz@fresnobee.com Week 4 of high school football in the Central Section is here. Follow along with The Bee with updated scores. Week 4 scores/schedule Thursday Legacy Christian Academy 48, Desert Christian 36, final Buchanan 35, Sanger 34 (OT), final Central East 54, Liberty-Bakersfield 6, final Righetti at Cabrillo Friday Laton at Mojave, 4 p.m. Immanuel Christian at Frazier Mountain, 6 p.m. Alpaugh at Coast Union, 7 p.m. San Luis Obispo at Pioneer Valley, 7 p.m. Riverside Prep at California City, 7 p.m. Turlock at Clovis West, 7 p.m. Dublin at Lompoc, 7 p.m. Santa Maria at Mission Prep, 7 p.m. Kerman at Central, 7 p.m. Trona at Desert, 7 p.m. Rosamond at Mira Monte, 7 p.m. Firebaugh at Woodlake, 7 p.m. Orcutt Academy at Maricopa, 7 p.m. Merced at Madera, 7 p.m. Mammoth at Sierra Lutheran, 7 p.m. Kern Valley at Boron, 7 p.m. Clovis East at Frontier, 7 p.m. Bullard at Clovis, 7 p.m. Summerville at Liberty-Madera Ranchos, 7 p.m. Delhi at Tranquillity, 7 p.m. Valley Oaks Charter at Tehillah Christian Academy, 7 p.m. Washington Union at Sunnyside, 7 p.m. Clovis North at San Ramon Valley, 7 p.m. Arroyo Grande at Santa Ynez, 7 p.m. Morro Bay at St. Joseph, 7 p.m. San Joaquin Memorial at Los Banos, 7 p.m. Fowler at Orosi, 7:15 p.m. Mendota at Corcoran, 7:15 p.m. Orange Cove at Lindsay, 7:15 p.m. Sierra Pacific at Sanger West, 7:30 p.m. Edison at Immanuel, 7:30 p.m. McLane at Wasco, 7:30 p.m. Parlier at Avenal, 7:30 p.m. Bakersfield Christian at Kennedy, 7:30 p.m. Centennial at Hanford, 7:30 p.m. Caruthers at Coalinga, 7:30 p.m. Golden Valley at Taft, 7:30 p.m. McFarland at Sierra, 7:30 p.m. Porterville at Dinuba, 7:30 p.m. Granite Hills at Chavez, 7:30 p.m. South at Highland, 7:30 p.m. Roosevelt at Dos Palos, 7:30 p.m. Bakersfield at Tulare Union, 7:30 p.m. Foothill at Del Oro, 7:30 p.m. Exeter at Strathmore, 7:30 p.m. Bishop Union at Tehachapi, 7:30 p.m. Hoover at West, 7:30 p.m. Selma at Kingsburg, 7:30 p.m. North at Garces, 7:30 p.m. Chowchilla at Fresno, 7:30 p.m. (McLane Stadium) Tulare Western at Shafter, 7:30 p.m. Madera South at Yosemite, 7:30 p.m. Stockdale at Antelope Valley, 7:30 p.m. Delano at East Bakersfield, 7:30 p.m. Saturday Kings Christian at Valley Christian Academy, 6 p.m. Anthony Galaviz writes about breaking news/sports for The Fresno Bee. He covers the Las Vegas Raiders, high schools, boxing, MMA and junior colleges. He’s been with The Bee since 1997 and attended Fresno City College before graduating from Fresno State with a major in journalism and a minor in criminology. Support my work with a digital subscription"
+    }
+  }
+}

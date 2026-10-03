@@ -1,0 +1,219 @@
+{
+  "model_version": "CRQ V1 Stage 7 - experimental redesign NOT production-approved",
+  "candidate_weights": {
+    "purity": 0.4,
+    "recognition": 0.6
+  },
+  "original_weights": {
+    "purity": 0.55,
+    "organic": 0.25,
+    "recognition": 0.2
+  },
+  "reason_for_revision": [
+    "55/25/20: an RRI of zero still allowed an 80 composite.",
+    "Pure disclosed operating category coverage can cluster near 100.",
+    "Low organic share can reflect legitimate acquisitions; attribution is context, not a penalty."
+  ],
+  "organic_growth_policy": "Report independently verified bridge separately; not included in quality score.",
+  "recognition_review_gate": 50,
+  "recognition_review_gate_empirically_calibrated": false,
+  "confirmed_material_recognition_issue": "Manual review required; no automatic score.",
+  "unresolved_trade_AR_flag": "Block automated score pending review, not an automatic penalty.",
+  "AAPL": {
+    "ticker": "AAPL",
+    "fiscal_year": 2025,
+    "reported_revenue_usd": 416161000000.0,
+    "classification_coverage_pct": 100.0,
+    "classification_is_not_purity": true,
+    "trade_ar_growth_investigation_flag": true,
+    "organic_growth_attribution": {
+      "verified_organic_growth_share_pct": null,
+      "status": "UNKNOWN",
+      "quality_penalty": null
+    },
+    "revised_quality_model": {
+      "candidate_score": null,
+      "status": "NOT_SCORED",
+      "components": {
+        "purity": null,
+        "recognition": null
+      },
+      "coverage_pct": 0,
+      "weights": {
+        "purity": 0.4,
+        "recognition": 0.6
+      },
+      "reason": "Trade-AR investigation remains unresolved; not an automatic deduction."
+    },
+    "notes": [
+      "No separately reviewed AAPL evidence supplied; all quality dimensions unscored."
+    ],
+    "model_calibrated": false,
+    "production_scoring_modified": false
+  },
+  "synthetic_scenarios": [
+    {
+      "scenario": "high_purity_high_recognition",
+      "synthetic_only": true,
+      "purity": 100,
+      "recognition": 95,
+      "score": 97.0,
+      "status": "EXPERIMENTAL_CANDIDATE_NOT_PRODUCTION",
+      "reason": "Uncalibrated proposal; no official EQ integration or investment rating."
+    },
+    {
+      "scenario": "recognition_zero_not_masked",
+      "synthetic_only": true,
+      "purity": 100,
+      "recognition": 0,
+      "score": null,
+      "status": "MANUAL_REVIEW_REQUIRED",
+      "reason": "Recognition below experimental 50-point review gate; composite withheld."
+    },
+    {
+      "scenario": "recognition_below_review_gate",
+      "synthetic_only": true,
+      "purity": 100,
+      "recognition": 49,
+      "score": null,
+      "status": "MANUAL_REVIEW_REQUIRED",
+      "reason": "Recognition below experimental 50-point review gate; composite withheld."
+    },
+    {
+      "scenario": "recognition_at_review_gate",
+      "synthetic_only": true,
+      "purity": 100,
+      "recognition": 50,
+      "score": 70.0,
+      "status": "EXPERIMENTAL_CANDIDATE_NOT_PRODUCTION",
+      "reason": "Uncalibrated proposal; no official EQ integration or investment rating."
+    },
+    {
+      "scenario": "purity_low_recognition_high",
+      "synthetic_only": true,
+      "purity": 60,
+      "recognition": 95,
+      "score": 81.0,
+      "status": "EXPERIMENTAL_CANDIDATE_NOT_PRODUCTION",
+      "reason": "Uncalibrated proposal; no official EQ integration or investment rating."
+    },
+    {
+      "scenario": "recognition_missing",
+      "synthetic_only": true,
+      "purity": 100,
+      "recognition": null,
+      "score": null,
+      "status": "NOT_SCORED",
+      "reason": "Source-located, independently reviewed recognition assessment is mandatory."
+    },
+    {
+      "scenario": "purity_missing",
+      "synthetic_only": true,
+      "purity": null,
+      "recognition": 95,
+      "score": null,
+      "status": "NOT_SCORED",
+      "reason": "Independently reviewed operating/non-core revenue split is missing."
+    },
+    {
+      "scenario": "AR_investigation_open",
+      "synthetic_only": true,
+      "purity": 100,
+      "recognition": 95,
+      "score": null,
+      "status": "NOT_SCORED",
+      "reason": "Trade-AR investigation remains unresolved; not an automatic deduction."
+    },
+    {
+      "scenario": "material_recognition_issue",
+      "synthetic_only": true,
+      "purity": 100,
+      "recognition": 95,
+      "score": null,
+      "status": "MANUAL_REVIEW_REQUIRED",
+      "reason": "Confirmed material recognition issue; no automatic CRQ score."
+    }
+  ],
+  "MAG7_evidence_worklist": [
+    {
+      "ticker": "AAPL",
+      "fiscal_year": 2025,
+      "SEC_categories_reconciled": true,
+      "operating_noncore_classification_approved": false,
+      "recognition_rubric_independently_reviewed": false,
+      "receivables_definition_reviewed": true,
+      "organic_growth_attribution": "CONTEXT_ONLY_NOT_SCORE",
+      "candidate_CRQ": null,
+      "next_evidence": "AAPL: independently approve operating/non-core revenue split; investigate Trade AR; document RRI rubric"
+    },
+    {
+      "ticker": "MSFT",
+      "fiscal_year": 2026,
+      "SEC_categories_reconciled": false,
+      "operating_noncore_classification_approved": false,
+      "recognition_rubric_independently_reviewed": false,
+      "receivables_definition_reviewed": false,
+      "organic_growth_attribution": "CONTEXT_ONLY_NOT_SCORE",
+      "candidate_CRQ": null,
+      "next_evidence": "Collect SEC revenue categories, non-core classification, trade-AR definition and a documented recognition review"
+    },
+    {
+      "ticker": "GOOGL",
+      "fiscal_year": 2025,
+      "SEC_categories_reconciled": false,
+      "operating_noncore_classification_approved": false,
+      "recognition_rubric_independently_reviewed": false,
+      "receivables_definition_reviewed": false,
+      "organic_growth_attribution": "CONTEXT_ONLY_NOT_SCORE",
+      "candidate_CRQ": null,
+      "next_evidence": "Collect SEC revenue categories, non-core classification, trade-AR definition and a documented recognition review"
+    },
+    {
+      "ticker": "NVDA",
+      "fiscal_year": 2026,
+      "SEC_categories_reconciled": false,
+      "operating_noncore_classification_approved": false,
+      "recognition_rubric_independently_reviewed": false,
+      "receivables_definition_reviewed": false,
+      "organic_growth_attribution": "CONTEXT_ONLY_NOT_SCORE",
+      "candidate_CRQ": null,
+      "next_evidence": "Collect SEC revenue categories, non-core classification, trade-AR definition and a documented recognition review"
+    },
+    {
+      "ticker": "AMZN",
+      "fiscal_year": 2025,
+      "SEC_categories_reconciled": false,
+      "operating_noncore_classification_approved": false,
+      "recognition_rubric_independently_reviewed": false,
+      "receivables_definition_reviewed": false,
+      "organic_growth_attribution": "CONTEXT_ONLY_NOT_SCORE",
+      "candidate_CRQ": null,
+      "next_evidence": "Collect SEC revenue categories, non-core classification, trade-AR definition and a documented recognition review"
+    },
+    {
+      "ticker": "META",
+      "fiscal_year": 2025,
+      "SEC_categories_reconciled": false,
+      "operating_noncore_classification_approved": false,
+      "recognition_rubric_independently_reviewed": false,
+      "receivables_definition_reviewed": false,
+      "organic_growth_attribution": "CONTEXT_ONLY_NOT_SCORE",
+      "candidate_CRQ": null,
+      "next_evidence": "Collect SEC revenue categories, non-core classification, trade-AR definition and a documented recognition review"
+    },
+    {
+      "ticker": "TSLA",
+      "fiscal_year": 2025,
+      "SEC_categories_reconciled": false,
+      "operating_noncore_classification_approved": false,
+      "recognition_rubric_independently_reviewed": false,
+      "receivables_definition_reviewed": false,
+      "organic_growth_attribution": "CONTEXT_ONLY_NOT_SCORE",
+      "candidate_CRQ": null,
+      "next_evidence": "Collect SEC revenue categories, non-core classification, trade-AR definition and a documented recognition review"
+    }
+  ],
+  "production_use_approved": false,
+  "api_calls": 0,
+  "production_scoring_modified": false
+}

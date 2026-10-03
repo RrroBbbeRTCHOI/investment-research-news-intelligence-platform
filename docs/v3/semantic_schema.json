@@ -1,0 +1,202 @@
+{
+  "type": "object",
+  "properties": {
+    "article_class": {
+      "type": "string",
+      "enum": [
+        "company_event",
+        "commentary",
+        "opinion",
+        "macro_event",
+        "geopolitical_event",
+        "supply_chain_event",
+        "regulatory_event",
+        "technology_event",
+        "general_news",
+        "unrelated_noise"
+      ]
+    },
+    "is_relevant_candidate": {
+      "type": "boolean"
+    },
+    "summary_short": {
+      "type": "string"
+    },
+    "summary_full": {
+      "type": "string"
+    },
+    "primary_country": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "event_type": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "event_subtype": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "countries": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "companies_mentioned": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "direct_ticker_candidates": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "economic_channels": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "candidate_indirect_tickers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "missing_information": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "research_questions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "severity_candidate": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "Unknown",
+        "Low",
+        "Medium",
+        "High",
+        "Critical",
+        null
+      ]
+    },
+    "severity_reason": {
+      "type": "string"
+    },
+    "severity_confidence": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "operational_event": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "fundamental_change_detected": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "llm_confidence": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "citations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "field": {
+            "type": "string",
+            "enum": [
+              "summary_short",
+              "summary_full",
+              "primary_country",
+              "event_type",
+              "event_subtype",
+              "article_class",
+              "economic_channels",
+              "severity_candidate",
+              "operational_event",
+              "fundamental_change_detected",
+              "direct_ticker_candidates"
+            ]
+          },
+          "quote": {
+            "type": "string"
+          },
+          "source_field": {
+            "type": "string",
+            "enum": [
+              "headline",
+              "summary",
+              "body"
+            ]
+          }
+        },
+        "required": [
+          "field",
+          "quote",
+          "source_field"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "article_class",
+    "is_relevant_candidate",
+    "summary_short",
+    "summary_full",
+    "primary_country",
+    "event_type",
+    "event_subtype",
+    "countries",
+    "entities",
+    "companies_mentioned",
+    "direct_ticker_candidates",
+    "economic_channels",
+    "candidate_indirect_tickers",
+    "missing_information",
+    "research_questions",
+    "severity_candidate",
+    "severity_reason",
+    "severity_confidence",
+    "operational_event",
+    "fundamental_change_detected",
+    "llm_confidence",
+    "citations"
+  ],
+  "additionalProperties": false
+}

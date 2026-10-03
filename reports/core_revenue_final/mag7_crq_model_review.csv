@@ -1,0 +1,8 @@
+ticker,fiscal_year,revenue_growth_pct,sec_disclosure_coverage_pct,provider_ar_growth_pct,sec_trade_ar_growth_pct,sec_trade_ar_gap_pp,google_hedging_adjustment_pct,tesla_regulatory_credit_share_pct,candidate_purity,candidate_recognition,candidate_crq,evidence_coverage_pct,status,reasons
+AAPL,2025,6.4255,100.0,10.135410533943201,19.0572,12.6317,,,,,,0,NOT_SCORED,No independently reviewed purity and recognition evidence supplied.
+MSFT,2026,17.7887,100.0,15.694156355053291,,,,,,,,0,NOT_SCORED,No independently reviewed purity and recognition evidence supplied.
+GOOGL,2025,15.0901,100.0,20.149025601834158,,,-0.0315,,,,,0,NOT_SCORED,No independently reviewed purity and recognition evidence supplied.
+NVDA,2026,65.4735,100.0,66.77216561890309,,,,,,,,0,NOT_SCORED,No independently reviewed purity and recognition evidence supplied.
+AMZN,2025,12.3778,100.0,22.142071378334016,,,,,,,,0,NOT_SCORED,No independently reviewed purity and recognition evidence supplied.
+META,2025,22.167,100.0,16.3292926915382,,,,,,,,0,NOT_SCORED,No independently reviewed purity and recognition evidence supplied.
+TSLA,2025,-2.9307,100.0,3.576278859212323,,,,2.1017,,,,0,NOT_SCORED,No independently reviewed purity and recognition evidence supplied.

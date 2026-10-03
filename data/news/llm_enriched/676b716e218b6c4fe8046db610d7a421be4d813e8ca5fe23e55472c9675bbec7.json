@@ -1,0 +1,146 @@
+{
+  "status": "available",
+  "schema_version": "news_semantic_v3_1",
+  "prompt_version": "news_semantics_v3_1_sentence_grounding",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "content_hash": "676b716e218b6c4fe8046db610d7a421be4d813e8ca5fe23e55472c9675bbec7",
+  "article_content_hash": "1c92ab3da68154337088d30ef723b668522899c2f081131ee4adbfbdacd1ab12",
+  "generated_at": "2026-09-25T14:47:27.086960+00:00",
+  "semantic": {
+    "article_class": "supply_chain_event",
+    "is_relevant_candidate": true,
+    "summary_short": "Amazon Web Services suffered a major outage Friday morning that disrupted access to dozens of popular websites and online services.",
+    "summary_full": "Amazon Web Services suffered a major outage Friday morning that disrupted access to dozens of popular websites and online services.",
+    "primary_country": "United States",
+    "event_type": "operational_disruption",
+    "event_subtype": "it_outage",
+    "countries": [
+      "United States"
+    ],
+    "entities": [
+      "Amazon Web Services",
+      "Apple Pay",
+      "DoorDash",
+      "Reddit",
+      "Hulu",
+      "AWS Direct Connect",
+      "Global Accelerator",
+      "Internet Connectivity",
+      "IoT Core",
+      "Amazon API Gateway",
+      "Elastic Compute Cloud",
+      "Elastic Container Service"
+    ],
+    "companies_mentioned": [
+      "Amazon",
+      "Apple",
+      "DoorDash",
+      "Reddit",
+      "Hulu"
+    ],
+    "direct_ticker_candidates": [
+      "AMZN"
+    ],
+    "economic_channels": [
+      "technology_infrastructure",
+      "cloud_computing"
+    ],
+    "candidate_indirect_tickers": [
+      "AAPL",
+      "DASH"
+    ],
+    "missing_information": [
+      "Exact financial impact on Amazon and affected companies",
+      "Root cause beyond connectivity issues in the US-West-2 region"
+    ],
+    "research_questions": [
+      "Were enterprise SLAs breached during the Amazon Web Services outage?",
+      "What was the total duration and full extent of customer disruption?"
+    ],
+    "severity_candidate": "Medium",
+    "severity_reason": "A major outage affected multiple popular websites and online services, but the issue was resolved within a few hours and no customer data was lost.",
+    "severity_confidence": 0.9,
+    "operational_event": true,
+    "fundamental_change_detected": false,
+    "llm_confidence": 0.95,
+    "citations": [
+      {
+        "field": "summary_short",
+        "quote": "Amazon Web Services suffered a major outage Friday morning that disrupted access to dozens of popular websites and online services.",
+        "source_field": "summary"
+      },
+      {
+        "field": "summary_full",
+        "quote": "Amazon Web Services suffered a major outage Friday morning that disrupted access to dozens of popular websites and online services.",
+        "source_field": "summary"
+      },
+      {
+        "field": "primary_country",
+        "quote": "US-West-2 region in Oregon",
+        "source_field": "body"
+      },
+      {
+        "field": "event_type",
+        "quote": "Major outage on Amazon Web Services disrupts access to dozens of popular websites, online services",
+        "source_field": "headline"
+      },
+      {
+        "field": "event_subtype",
+        "quote": "connectivity issues in the US-West-2 region in Oregon.",
+        "source_field": "body"
+      },
+      {
+        "field": "article_class",
+        "quote": "Amazon Web Services experienced a major outage early Friday morning, disrupting access to several popular websites and online services.",
+        "source_field": "body"
+      },
+      {
+        "field": "economic_channels",
+        "quote": "Amazon Web Services",
+        "source_field": "headline"
+      },
+      {
+        "field": "severity_candidate",
+        "quote": "Amazon Web Services suffered a major outage Friday morning that disrupted access to dozens of popular websites and online services.",
+        "source_field": "summary"
+      },
+      {
+        "field": "operational_event",
+        "quote": "Amazon Web Services experienced a major outage early Friday morning, disrupting access to several popular websites and online services.",
+        "source_field": "body"
+      },
+      {
+        "field": "fundamental_change_detected",
+        "quote": "The issue was resolved shortly after 9 a.am.",
+        "source_field": "body"
+      },
+      {
+        "field": "direct_ticker_candidates",
+        "quote": "Amazon Web Services",
+        "source_field": "headline"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "total_tokens": 1422,
+    "estimated_cost_usd": null,
+    "scope": "successful response only; failed-attempt usage unavailable"
+  },
+  "cache_hit": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "success"
+    }
+  ],
+  "attempt_audit_scope": "original enrichment generation; cache reuse makes no new requests",
+  "attempt_count": 1,
+  "retry_count": 0,
+  "fallback_used": false
+}

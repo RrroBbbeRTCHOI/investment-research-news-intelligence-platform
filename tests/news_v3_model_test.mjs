@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+const source=await readFile(new URL('../static/js/news_model.js',import.meta.url),'utf8');
+const {adaptIntelligence,visibleArticles}=await import('data:text/javascript;base64,'+Buffer.from(source).toString('base64'));
+const data=JSON.parse(await readFile(new URL('../data/news/research/news_research_v3_current.json',import.meta.url),'utf8'));
+const events=adaptIntelligence({...data,schema_version:'news_ui_v3',queue:data.research_queue});
+assert.equal(visibleArticles(events,'all').length,21);assert.ok(visibleArticles(events).length<21);
+assert.ok(visibleArticles(events).every(e=>e.feed.state==='surface'));
+assert.ok(!visibleArticles(events).some(e=>e.title.includes('Carnival Panorama')));
+assert.ok(events.every(e=>e.article_url===data.articles.find(a=>a.article_id===e.id).article_url));
+assert.ok(events.every(e=>e.article_summary?.source==='unavailable'));
+assert.equal(visibleArticles([{id:'legacy'}]).length,1);
+console.log('PASS V3 adapter, surface/all retention, source URL identity, honest unavailable summaries and legacy compatibility.');

@@ -1,0 +1,97 @@
+{
+  "_ingestion": {
+    "provider": "freenewsapi",
+    "query_name": "nvidia_test",
+    "fetched_at": "2026-09-18T08:01:19.844517+00:00",
+    "request_params": {
+      "language": "en",
+      "country": "us"
+    }
+  },
+  "raw_response": {
+    "data": [
+      {
+        "uuid": "1ded6a83-874f-4403-be09-a3114f17d326",
+        "title": "Moore: Marriage deficit an economic catastrophe",
+        "published_at": "2026-09-18T07:42:59.000Z",
+        "publisher": "Boston Herald"
+      },
+      {
+        "uuid": "ac26dd28-dda1-4244-a283-2750ab0d9970",
+        "title": "Week 4 high school football scores: Latest results from the Central Section - Fresno Bee",
+        "published_at": "2026-09-18T07:42:04.000Z",
+        "publisher": "Fresno Bee"
+      },
+      {
+        "uuid": "37668565-be1f-455e-9dd1-baf1b8946212",
+        "title": "Anthrax – Cursum Perficio",
+        "published_at": "2026-09-18T07:33:23.000Z",
+        "publisher": "musicOMH"
+      },
+      {
+        "uuid": "94025152-9ebe-40ed-b23a-ab9af67e5f13",
+        "title": "They're not playing our song! Wrong Korean anthem played at field hockey match at Asian Games - WRAL",
+        "published_at": "2026-09-18T07:32:16.000Z",
+        "publisher": "WRAL"
+      },
+      {
+        "uuid": "1021d501-7c98-4f58-abff-901ed7b187e3",
+        "title": "Banana vs pomegranate: Which fruit has more iron and vitamins?",
+        "published_at": "2026-09-18T07:30:00.000Z",
+        "publisher": "The Times of India"
+      },
+      {
+        "uuid": "73b6f1fc-1eb6-41ea-b13b-f976fa82ffbf",
+        "title": "The Portland Thorns defense is one of its worst ever - Equalizer Soccer",
+        "published_at": "2026-09-18T07:29:57.000Z",
+        "publisher": "Equalizer Soccer"
+      },
+      {
+        "uuid": "a0a1e856-9ac3-429e-a7fa-7590332370db",
+        "title": "Prince Harry Steps Out Without Meghan Markle for First Official Outing After UK Return",
+        "published_at": "2026-09-18T07:29:22.000Z",
+        "publisher": "Yahoo"
+      },
+      {
+        "uuid": "06e3a764-8260-4996-8a62-31f7275bb1b1",
+        "title": "Tom Cruise was 'schooled' on football by Taylor Swift at NFL game - yahoo.com",
+        "published_at": "2026-09-18T07:28:33.000Z",
+        "publisher": "yahoo.com"
+      },
+      {
+        "uuid": "5356a0d0-165a-45c1-800b-7ffab9a45023",
+        "title": "What happens when SpaceX Dragon retires? Boeing’s Starliner may become NASA’s primary vehicle to space: Report",
+        "published_at": "2026-09-18T07:28:16.000Z",
+        "publisher": "starlust.org"
+      },
+      {
+        "uuid": "57732ccc-4364-4adc-b4b9-ee904c4acea0",
+        "title": "Beauty shelves to training rooms: How collagen has found a place in sport",
+        "published_at": "2026-09-18T07:25:28.000Z",
+        "publisher": "Business Standard"
+      }
+    ],
+    "meta": {
+      "page_size": 10,
+      "returned": 10,
+      "has_more": true,
+      "order_by": "recent",
+      "filters": {
+        "published_after": null,
+        "published_before": null,
+        "language": "en",
+        "country": "US",
+        "topic": null,
+        "publisher_uuid": null,
+        "author_uuid": null,
+        "q": null,
+        "in_title": null,
+        "in_body": null,
+        "in_subtitle": null
+      },
+      "offset": 0,
+      "next_offset": 10,
+      "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6IjYzMTE0NTM4OWUyZTViN2YxNDJiMDMyZGY2YjQ3ZDBkYTkxZWIyYzhmN2MyZDliOTU2ZDlhOWJlY2RkOTBlZGUiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDktMThUMDc6MjU6MjguMDAwWiIsImxhc3RfaWQiOjI4OTcwMDQyfQ"
+    }
+  }
+}

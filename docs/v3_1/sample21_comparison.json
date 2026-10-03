@@ -1,0 +1,38 @@
+{
+  "before_summary": {
+    "articles": 21,
+    "usable": 21,
+    "discrete_events": 4,
+    "rejected": 0,
+    "qualified_pairs": 1,
+    "review_candidates": 0,
+    "surface": 7,
+    "background": 9,
+    "noise_rejected": 5,
+    "llm_calls": 0,
+    "enrichment_status_counts": {
+      "cheap_noise_filter": 5,
+      "provider_disabled": 16
+    }
+  },
+  "after_summary": {
+    "articles": 21,
+    "usable": 21,
+    "discrete_events": 4,
+    "rejected": 0,
+    "qualified_pairs": 1,
+    "review_candidates": 0,
+    "surface": 7,
+    "background": 9,
+    "noise_rejected": 5,
+    "llm_calls": 0,
+    "cache_hits": 0,
+    "enrichment_success": 0,
+    "enrichment_failure": 16,
+    "enrichment_status_counts": {
+      "cheap_noise_filter": 5,
+      "provider_disabled": 16
+    }
+  },
+  "authority_and_feed_differences": {}
+}

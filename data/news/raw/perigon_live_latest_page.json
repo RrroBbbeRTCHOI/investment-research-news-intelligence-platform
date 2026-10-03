@@ -1,0 +1,1527 @@
+{
+  "_ingestion": {
+    "provider": "perigon",
+    "fetched_at": "2026-09-27T18:03:09.265525+00:00",
+    "window_start": "2026-09-27T17:03:07.256808+00:00",
+    "window_end": "2026-09-27T18:03:07.256808+00:00",
+    "page": 0
+  },
+  "raw_response": {
+    "status": 200,
+    "numResults": 1212,
+    "articles": [
+      {
+        "url": "https://www.timesofisrael.com/hapag-lloyd-revises-offer-as-sale-of-israeli-shipping-giant-zim-hangs-in-the-balance/",
+        "authorsByline": "",
+        "articleId": "c13d5ebe31a6477bb4a786c4b9b99b77",
+        "clusterId": "5d33185b0e15434780e63a39f2ba9f2e",
+        "source": {
+          "domain": "timesofisrael.com",
+          "location": null
+        },
+        "imageUrl": "https://static-cdn.toi-media.com/www/uploads/2026/07/F260501SL33.jpg",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-09-27T18:00:49+00:00",
+        "addDate": "2026-09-27T18:02:58.355830+00:00",
+        "refreshDate": "2026-09-27T18:02:58.355832+00:00",
+        "score": 1.0,
+        "title": "Hapag-Lloyd revises offer as sale of Israeli shipping giant Zim hangs in the balance",
+        "description": "German shipping line vows that improved $4.2 billion deal for Zim, which includes a direct Israel-Far East route, serves Israel's maritime security needs even in emergency situations",
+        "content": "German shipping behemoth Hapag-Lloyd has submitted a sweetened offer to salvage its $4.2 billion bid for Israel’s Zim freighter service, hoping to overcome objections that the acquisition would leave ... [5516 symbols]",
+        "enContentWordCount": 1002,
+        "medium": "Article",
+        "links": [
+          "https://static-cdn.toi-media.com/www/uploads/2026/07/orenzim.jpeg",
+          "https://www.timesofisrael.com/israels-zim-shipping-company-inks-4-2-billion-takeover-deal-by-german-giant/",
+          "https://www.timesofisrael.com/terms",
+          "https://static-cdn.toi-media.com/www/uploads/2023/12/AP23090641413910-e1703860448229.jpg"
+        ],
+        "labels": [],
+        "matchedAuthors": [],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Zim Israel",
+            "weight": 0.115529
+          },
+          {
+            "name": "Israel",
+            "weight": 0.099339105
+          },
+          {
+            "name": "Israel Katz",
+            "weight": 0.09670306
+          },
+          {
+            "name": "Defense Minister Israel Katz",
+            "weight": 0.0884626
+          },
+          {
+            "name": "Israeli shipping giant",
+            "weight": 0.07961611
+          },
+          {
+            "name": "international maritime shipping",
+            "weight": 0.078262195
+          },
+          {
+            "name": "shipping routes",
+            "weight": 0.077734195
+          },
+          {
+            "name": "Zim Israel’s shipping operations",
+            "weight": 0.07491123
+          },
+          {
+            "name": "other shipping companies",
+            "weight": 0.07357665
+          },
+          {
+            "name": "New Zim",
+            "weight": 0.073500276
+          }
+        ],
+        "topics": [],
+        "categories": [
+          {
+            "name": "World"
+          },
+          {
+            "name": "Business"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Company News",
+            "score": 0.8606036305427551
+          },
+          {
+            "name": "/People & Society/Social Sciences/Political Science",
+            "score": 0.6469064354896545
+          },
+          {
+            "name": "/News/Business News/Other",
+            "score": 0.5515737533569336
+          },
+          {
+            "name": "/Business & Industrial/Shipping & Logistics/Freight Transport/Maritime Transport",
+            "score": 0.5192775726318359
+          },
+          {
+            "name": "/News/Politics/Other",
+            "score": 0.46198752522468567
+          },
+          {
+            "name": "/News/World News",
+            "score": 0.4605315029621124
+          }
+        ],
+        "entities": [
+          {
+            "data": "Hapag-Lloyd",
+            "type": "ORG",
+            "mentions": 8
+          },
+          {
+            "data": "Zim",
+            "type": "ORG",
+            "mentions": 5
+          },
+          {
+            "data": "Defense",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "FIMI Opportunity Funds",
+            "type": "ORG",
+            "mentions": 4
+          },
+          {
+            "data": "the State of Israel",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Zim Integrated Shipping Services",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Public Investment Fund",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "The Times of Israel",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Caspi",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Israeli",
+            "type": "NORP",
+            "mentions": 8
+          },
+          {
+            "data": "German",
+            "type": "NORP",
+            "mentions": 3
+          },
+          {
+            "data": "Israel",
+            "type": "GPE",
+            "mentions": 21
+          },
+          {
+            "data": "Germany",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Zim",
+            "type": "GPE",
+            "mentions": 4
+          },
+          {
+            "data": "Qatar",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Saudi Arabia’s",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "US",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Israel Katz",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Rolf Habben Jansen",
+            "type": "PERSON",
+            "mentions": 3
+          },
+          {
+            "data": "Ishay Davidi",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Oren Caspi",
+            "type": "PERSON",
+            "mentions": 4
+          },
+          {
+            "data": "Far East",
+            "type": "LOC",
+            "mentions": 3
+          },
+          {
+            "data": "the Atlantic Ocean",
+            "type": "LOC",
+            "mentions": 2
+          },
+          {
+            "data": "Mediterranean",
+            "type": "LOC",
+            "mentions": 1
+          },
+          {
+            "data": "East Asia",
+            "type": "LOC",
+            "mentions": 2
+          },
+          {
+            "data": "Americas",
+            "type": "LOC",
+            "mentions": 2
+          },
+          {
+            "data": "Pacific",
+            "type": "LOC",
+            "mentions": 1
+          },
+          {
+            "data": "Suez",
+            "type": "LOC",
+            "mentions": 1
+          },
+          {
+            "data": "intra",
+            "type": "LOC",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "e8cc3a4dc010478294a6595f5b90af15",
+            "name": "ZIM Integrated Shipping Services Ltd.",
+            "domains": [
+              "zim.com"
+            ],
+            "symbols": [
+              "ZIM"
+            ]
+          },
+          {
+            "id": "65a3cbaac9894767a6d9cedabc65afeb",
+            "name": "ZIM Corporation",
+            "domains": [
+              "zim.biz"
+            ],
+            "symbols": [
+              "ZIMCF"
+            ]
+          },
+          {
+            "id": "ad44eab70aba4395ab1457119fec03f4",
+            "name": "Hapag-Lloyd Aktiengesellschaft",
+            "domains": [
+              "hapag-lloyd.com"
+            ],
+            "symbols": [
+              "HLAG.DE",
+              "HPGLY"
+            ]
+          },
+          {
+            "id": "3cb4e662846943cba64ef0aaa81cacb5",
+            "name": "Gaci First Investment - Public Investment Fund",
+            "domains": [
+              "pif.gov.sa"
+            ],
+            "symbols": [
+              "PIFKSA"
+            ]
+          }
+        ],
+        "sentiment": {
+          "positive": 0.41726,
+          "negative": 0.23984636,
+          "neutral": 0.3428937
+        },
+        "summary": "German shipping giant Hapag-Lloyd has revised its $4.2 billion bid for Israel's Zim freighter service to overcome objections that the acquisition would leave Israel's main shipper in foreign hands and could put the country in dire strategic and national security straits. The revised offer comes after Israel's Defense Minister Israel Katz joined a list of political leaders objecting to the sale. Hapagg-Loyd CEO Rolf Habben Jansen and Israeli partner FIMI Opportunity Funds presented an improved proposal to strengthen Israel's maritime independence, national security, and supply chain resilience. The improvements include a direct Far East maritime route, expanded state protections to ensure Israel's independence and control over Zim Israel’s fleet and operations, maintaining vessel management and professional expertise in Israel, and safeguards for employees. However, the lion’Share of Zim’�s profitable operations, including shipping routes between East Asia and the Americas, would come under Hapags-L.",
+        "shortSummary": "German shipping giant Hapag-Lloyd has submitted a revised $4.2 billion bid for Israel’s Zim freighter service to address national security and maritime independence concerns.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "7fe7bc44eee24a9eb8a35b27f22cf046",
+        "places": [],
+        "people": [
+          {
+            "wikidataId": "Q487316",
+            "name": "Israel Katz"
+          }
+        ]
+      },
+      {
+        "url": "https://eng.pressbee.net/show4899358.html?title=indigo-flight-suffers-tail-strike-during-2nd-landing-attempt-at-b",
+        "authorsByline": "Business Standard",
+        "articleId": "0f0e09731ab7419994241efbce0f59c2",
+        "clusterId": "fb7b3bc9c309493ea851ea50e4b4dcb8",
+        "source": {
+          "domain": "eng.pressbee.net",
+          "location": null
+        },
+        "imageUrl": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-07/28/thumb/fitandfill/1200X628/1785256413-6604.jpg",
+        "country": "",
+        "language": "en",
+        "pubDate": "2026-09-27T21:00:33+03:00",
+        "addDate": "2026-09-27T18:02:58.427640+00:00",
+        "refreshDate": "2026-09-27T18:02:58.427642+00:00",
+        "score": 1.0,
+        "title": "IndiGo flight suffers tail strike during 2nd landing attempt at Bengaluru ...Middle East",
+        "description": "IndiGo flight suffers tail strike during 2nd landing attempt at BengaluruIndiGo said in a statement that its aircraft operating its Guwahati-Bengaluru...",
+        "content": "Hence then, the article about indigo flight suffers tail strike during 2nd landing attempt at bengaluru was published today ( ) and is available on Business Standard ( Middle East ) The editorial team... [879 symbols]",
+        "enContentWordCount": 157,
+        "medium": "Article",
+        "links": [
+          "https://twitter.com/intent/tweet?text=IndiGo flight suffers tail strike during 2nd landing attempt at Bengaluru &url=https://eng.pressbee.net/show4899358.html",
+          "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feng.pressbee.net%2Fshow4899358.html",
+          "https://eng.pressbee.net/show4898917.html?title=the-1975-barry-manilow-grammy-winning-phenomenon-that-was-first-r",
+          "https://eng.pressbee.net/show4898946.html?title=apple-tv-is-letting-everyone-watch-3-charlie-brown-holiday-classi",
+          "https://play.google.com/store/apps/details?id=net.pressbee",
+          "https://eng.pressbee.net/news/Middle-East",
+          "https://www.business-standard.com/industry/aviation/indigo-flight-suffers-tail-strike-during-2nd-landing-attempt-at-bengaluru-126092700811_1.html",
+          "https://eng.pressbee.net/www/business-standard.com",
+          "http://www.linkedin.com/shareArticle?mini=true&url=https://eng.pressbee.net/show4899358.html&title=&summary=IndiGo flight suffers tail strike during 2nd landing attempt at Bengaluru",
+          "https://eng.pressbee.net/show4898846.html?title=several-arrested-on-suspicion-of-explosives-offensives-near-uk-ai",
+          "https://apps.apple.com/ye/app/%D8%A8%D8%B1%D8%B3-%D8%A8%D9%8A-press-bee/id1571639323"
+        ],
+        "labels": [],
+        "matchedAuthors": [],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "2nd landing attempt",
+            "weight": 0.110137396
+          },
+          {
+            "name": "tail strike",
+            "weight": 0.09953234
+          },
+          {
+            "name": "UK air base",
+            "weight": 0.08994756
+          },
+          {
+            "name": "IndiGo flight",
+            "weight": 0.088163175
+          },
+          {
+            "name": "Charlie Brown",
+            "weight": 0.08313409
+          },
+          {
+            "name": "explosives offensives",
+            "weight": 0.08196633
+          },
+          {
+            "name": "David Cassidy",
+            "weight": 0.080968164
+          },
+          {
+            "name": "indigo flight",
+            "weight": 0.0793795
+          },
+          {
+            "name": "US forces",
+            "weight": 0.07878368
+          },
+          {
+            "name": "Barry Manilow",
+            "weight": 0.07869684
+          }
+        ],
+        "topics": [],
+        "categories": [
+          {
+            "name": "World"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Other",
+            "score": 0.9902915358543396
+          },
+          {
+            "name": "/News/Local News",
+            "score": 0.40969306230545044
+          },
+          {
+            "name": "/Travel & Transportation/Transportation/Air Travel",
+            "score": 0.37662312388420105
+          },
+          {
+            "name": "/Sensitive Subjects/Accidents & Disasters",
+            "score": 0.36658975481987
+          },
+          {
+            "name": "/Sensitive Subjects/War & Conflict",
+            "score": 0.3250918686389923
+          }
+        ],
+        "entities": [
+          {
+            "data": "IndiGo",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Business Standard",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "PressBee",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Apple TV",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Bengaluru",
+            "type": "GPE",
+            "mentions": 3
+          },
+          {
+            "data": "UK",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "US",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Middle East",
+            "type": "LOC",
+            "mentions": 2
+          },
+          {
+            "data": "Barry Manilow",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "David Cassidy",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Charlie Brown",
+            "type": "PERSON",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "166e9234a5ec4ca3b8927f0db96f7a7b",
+            "name": "Business Standard",
+            "domains": [
+              "business-standard.com"
+            ],
+            "symbols": []
+          }
+        ],
+        "sentiment": {
+          "positive": 0.15668437,
+          "negative": 0.35309362,
+          "neutral": 0.49022198
+        },
+        "summary": "IndiGo flight suffers tail strike during 2nd landing attempt at Bengaluru, according to Business Standard (Middle East). This article is edited and verified by PressBee's editorial team, and may have been modified, fully republished, or quoted. The article also discusses several arrests on suspicion of explosives offensives near UK air base used by US forces.",
+        "shortSummary": "IndiGo flight suffers a tail strike during a second landing attempt at Bengaluru, causing significant injuries, while several arrests were made in the Middle East.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [
+          {
+            "country": "in",
+            "state": "KA",
+            "county": "Bangalore North",
+            "city": "Bengaluru"
+          }
+        ],
+        "reprint": true,
+        "reprintGroupId": "9178335ca53f4ccc8398a8fd0148809e",
+        "places": [],
+        "people": [
+          {
+            "wikidataId": "Q302762",
+            "name": "Barry Manilow"
+          },
+          {
+            "wikidataId": "Q457306",
+            "name": "David Cassidy"
+          }
+        ]
+      },
+      {
+        "url": "https://operativmm.az/en/post/bill-gates-says-global-ai-framework-harder-than-cold-war-nuclear-talks/79840",
+        "authorsByline": "OMM Redaksiyası",
+        "articleId": "25f33ce548f846b6a6c19e0f88665779",
+        "clusterId": "d2ea22fa9f9d47cb9c172d36ea8c1345",
+        "source": {
+          "domain": "operativmm.az",
+          "location": null
+        },
+        "imageUrl": "https://operativmm.az/storage/posts/bill-gates-says-global-ai-framework-harder-than-cold-war-nuc-e7b81b.webp?v=1790532001",
+        "country": "",
+        "language": "en",
+        "pubDate": "2026-09-27T22:00:01+04:00",
+        "addDate": "2026-09-27T18:02:35.554889+00:00",
+        "refreshDate": "2026-09-27T18:02:35.554891+00:00",
+        "score": 1.0,
+        "title": "Bill Gates says global AI framework harder than Cold War nuclear talks",
+        "description": "Microsoft co-founder Bill Gates says countries may find it more difficult to agree on global artificial intelligence rules than they did on Cold War-era nuclear arms limitations.",
+        "content": "Microsoft co-founder Bill Gates has warned that reaching an international agreement on artificial intelligence could prove more difficult than Cold War negotiations to limit nuclear weapons, according... [1628 symbols]",
+        "enContentWordCount": 293,
+        "medium": "Article",
+        "links": [],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": null,
+            "name": "OMM Redaksiyası"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Bill Gates",
+            "weight": 0.09483447
+          },
+          {
+            "name": "AI companies",
+            "weight": 0.09035513
+          },
+          {
+            "name": "Microsoft co-founder Bill Gates",
+            "weight": 0.08931977
+          },
+          {
+            "name": "Gates",
+            "weight": 0.087312005
+          },
+          {
+            "name": "Cold War nuclear talks",
+            "weight": 0.087135434
+          },
+          {
+            "name": "AI agents",
+            "weight": 0.08448117
+          },
+          {
+            "name": "Cold War negotiations",
+            "weight": 0.08195311
+          },
+          {
+            "name": "Cold War",
+            "weight": 0.08071334
+          },
+          {
+            "name": "US President Donald Trump",
+            "weight": 0.07996878
+          },
+          {
+            "name": "AI models",
+            "weight": 0.078969575
+          }
+        ],
+        "topics": [
+          {
+            "name": "ESG"
+          },
+          {
+            "name": "Business Leaders"
+          },
+          {
+            "name": "AI"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Politics"
+          },
+          {
+            "name": "World"
+          },
+          {
+            "name": "Tech"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Technology News",
+            "score": 0.9683812260627747
+          },
+          {
+            "name": "/News/Politics/Other",
+            "score": 0.9597620368003845
+          },
+          {
+            "name": "/People & Society/Social Sciences/Political Science",
+            "score": 0.8333246111869812
+          },
+          {
+            "name": "/News/World News",
+            "score": 0.6183196306228638
+          },
+          {
+            "name": "/Law & Government/Government/Executive Branch",
+            "score": 0.5401962399482727
+          },
+          {
+            "name": "/Sensitive Subjects/War & Conflict",
+            "score": 0.516839325428009
+          },
+          {
+            "name": "/Science/Computer Science/Machine Learning & Artificial Intelligence",
+            "score": 0.509337306022644
+          },
+          {
+            "name": "/News/Business News/Company News",
+            "score": 0.38444983959198
+          }
+        ],
+        "entities": [
+          {
+            "data": "Bill Gates",
+            "type": "PERSON",
+            "mentions": 7
+          },
+          {
+            "data": "Donald Trump",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Cold War",
+            "type": "EVENT",
+            "mentions": 3
+          },
+          {
+            "data": "Microsoft",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "NBC News",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Meet the Press",
+            "type": "WORK_OF_ART",
+            "mentions": 1
+          },
+          {
+            "data": "US",
+            "type": "GPE",
+            "mentions": 3
+          },
+          {
+            "data": "the United States",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "China",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Washington",
+            "type": "GPE",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "4de51cf8472b4ce7a5aecdf52a1de4c0",
+            "name": "Microsoft Corporation",
+            "domains": [
+              "microsoft.com"
+            ],
+            "symbols": [
+              "MSF.DE",
+              "MSF.F",
+              "MSFT",
+              "MSFT.NE",
+              "MSF.BR",
+              "4338.HK"
+            ]
+          }
+        ],
+        "sentiment": {
+          "positive": 0.08001122,
+          "negative": 0.64931434,
+          "neutral": 0.27067447
+        },
+        "summary": "Microsoft co-founder, Bill Gates, has warned that reaching an international agreement on artificial intelligence could be more difficult than Cold War negotiations to limit nuclear weapons. His comments were made during an interview on NBC News’ “Meet the Press” and came as US President Donald Trump opposed calls for federal government safeguards on companies developing AI models. Gates argued that monitoring AI companies would not undermine the US in its competition with China's development of advanced technology. He also mentioned several international agreements with US leadership since World War II, including those concerning aviation safety, the ozone layer and nuclear weapons, and stated that the US and its allies had previously acted as “the fair actor” rather than exploiting their technological advantages.",
+        "shortSummary": "Bill Gates warns that global agreement on AI will be more challenging than nuclear disarmament, advocating for stronger regulation and emphasizing the importance of collaborative efforts.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "f552ca26a6794183a1cafe18c3fbffa9",
+        "places": [],
+        "people": [
+          {
+            "wikidataId": "Q22686",
+            "name": "Donald Trump"
+          },
+          {
+            "wikidataId": "Q5284",
+            "name": "Bill Gates"
+          }
+        ]
+      },
+      {
+        "url": "https://www.latimes.com/sports/highschool/story/2026-09-27/la-times-top-25-high-school-football-rankings-week-5",
+        "authorsByline": "By Eric Sondheimer Columnist   Follow",
+        "articleId": "6b9caa67c41b49308d9b687ab092ab9f",
+        "clusterId": "c07d1a5eccca4f3d8ea8a97e802beb49",
+        "source": {
+          "domain": "latimes.com",
+          "paywall": true,
+          "location": {
+            "country": "us",
+            "state": "CA",
+            "city": "Los Angeles",
+            "coordinates": {
+              "lat": 34.0536909,
+              "lon": -118.242766
+            }
+          }
+        },
+        "imageUrl": "https://ca-times.brightspotcdn.com/dims4/default/eef146f/2147483647/strip/true/crop/4535x2381+0+0/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F5c%2F9d%2F30569f034c8aac0cd57c272ea0e2%2Fpalmer.jpeg",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-09-27T18:00:00+00:00",
+        "addDate": "2026-09-27T18:02:52.682685+00:00",
+        "refreshDate": "2026-09-27T18:02:52.682687+00:00",
+        "score": 1.0,
+        "title": "The Times' top 25 high school football rankings",
+        "description": "A look at the top 25 high school football teams in the Southland after Week 5.",
+        "content": "Santa Margarita head coach Carson Palmer leads his No. 1 team against Mater Dei on Friday.\n\nSee more from the L.A. Times in Google Search. Set us as preferred\n\nA look at the top 25 high school footbal... [1541 symbols]",
+        "enContentWordCount": 397,
+        "medium": "Article",
+        "links": [
+          "https://www.latimes.com/sports/highschool/story/2026-09-25/how-top-25-high-school-football-teams-southland-week-5"
+        ],
+        "labels": [
+          {
+            "name": "Non-news"
+          }
+        ],
+        "matchedAuthors": [
+          {
+            "id": "03d7723b232e4999865eb82ac3c1acb5",
+            "name": "Eric Sondheimer"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Friday",
+            "weight": 0.1436482
+          },
+          {
+            "name": "Santa Margarita head coach Carson Palmer",
+            "weight": 0.08733949
+          },
+          {
+            "name": "Mater Dei",
+            "weight": 0.08423595
+          },
+          {
+            "name": "Saddleback College",
+            "weight": 0.07942593
+          },
+          {
+            "name": "Santa Margarita",
+            "weight": 0.07686928
+          },
+          {
+            "name": "Orange Coast College",
+            "weight": 0.076851636
+          },
+          {
+            "name": "Huntington Beach Edison",
+            "weight": 0.075208664
+          },
+          {
+            "name": "Long Beach Millikan",
+            "weight": 0.075208664
+          },
+          {
+            "name": "Sherman Oaks Notre Dame",
+            "weight": 0.07272242
+          },
+          {
+            "name": "ORANGE LUTHERAN",
+            "weight": 0.067623705
+          }
+        ],
+        "topics": [
+          {
+            "name": "Football"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Sports"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Sports News",
+            "score": 0.9924227595329285
+          },
+          {
+            "name": "/Sports/Team Sports/American Football",
+            "score": 0.9381240010261536
+          },
+          {
+            "name": "/Jobs & Education/Education/Primary & Secondary Schooling (K-12)",
+            "score": 0.8080672025680542
+          },
+          {
+            "name": "/Sports/Sport Scores & Statistics",
+            "score": 0.6325027346611023
+          },
+          {
+            "name": "/Sports/College Sports",
+            "score": 0.39606815576553345
+          },
+          {
+            "name": "/News/Local News",
+            "score": 0.33545970916748047
+          }
+        ],
+        "entities": [
+          {
+            "data": "Times",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Santa Margarita",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Mater Dei",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "SANTA MARGARITA",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Saddleback College",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": ". JOHN BOSCO",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "JSerra",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "MATER DEI",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "MISSION VIEJO",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Huntington Beach Edison",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "ORANGE LUTHERAN",
+            "type": "ORG",
+            "mentions": 3
+          },
+          {
+            "data": "Servite",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Orange Coast College",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "CHAMINADE",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Sherman Oaks Notre Dame",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "PALOS VERDES",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Long Beach Millikan",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "JSERRA",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "St. John Bosco",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "CORONA DEL MAR",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Villa Park",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "BISHOP AMAT",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "LA SERNA",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Warren",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Tustin",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "CARSON",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Bishop Amat",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "TUSTIN",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Crean Lutheran",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "LA HABRA",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "HUNTINGTON BEACH",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "El Modena",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "YORBA LINDA",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Carson Palmer",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Southland",
+            "type": "LOC",
+            "mentions": 1
+          },
+          {
+            "data": "Gardena",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Capistrano Valley",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "San Clemente",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "El Dorado",
+            "type": "GPE",
+            "mentions": 1
+          }
+        ],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.13002877,
+          "negative": 0.27688858,
+          "neutral": 0.5930827
+        },
+        "summary": "The L.A. Times has published the top 25 high school football teams in the Southland after Week 5, with Santa Margarita head coach Carson Palmer leading his No. 1 team against Mater Dei. The rankings also reveal that Santa Margerita did not play in their match against MATER Dei at Saddleback College. Other top teams include Mission Viejo (3-1), Orange Lutheran (3/2), CHAMINADE (5-0), and Palos Verdes (5/0).",
+        "shortSummary": "The L.A.T.S.M.A., Santa Margarita leads the top 25 high school football teams in the Southland, with Carson Palmer leading Santa MargARita against Mater Dei.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [
+          {
+            "country": "us",
+            "state": "CA",
+            "county": "El Dorado County"
+          }
+        ],
+        "reprint": false,
+        "reprintGroupId": "99b4833eb5754c3c8e2b0cee08db2751",
+        "places": [],
+        "people": [
+          {
+            "wikidataId": "Q1045461",
+            "name": "Carson Palmer"
+          }
+        ]
+      },
+      {
+        "url": "https://www.countryman.com.au/entertainment/tv/school-holidays-teen-tv-guide-11-shows-to-watch-with-your-teens-and-tweens-c-22920605",
+        "authorsByline": "Clare Rigden",
+        "articleId": "1830b54ffa924fa8b0f531d3885e3de2",
+        "clusterId": "0f378b9335674ac3a4c07c79e8c04cd5",
+        "source": {
+          "domain": "countryman.com.au",
+          "location": null
+        },
+        "imageUrl": "https://images.thewest.com.au/publication/C-22920605/e94cd453d9a916c66f632096110c554236565ab2-16x9-x0y13w1800h1013.jpg?imwidth=1200",
+        "country": "au",
+        "language": "en",
+        "pubDate": "2026-09-27T18:00:00+00:00",
+        "addDate": "2026-09-27T18:02:52.754061+00:00",
+        "refreshDate": "2026-09-27T18:02:52.754063+00:00",
+        "score": 1.0,
+        "title": "11 great shows to watch with your teen or tween",
+        "description": "Here are 11 shows that won’t have either of you gouging out your eyes with secondhand embarrassment.",
+        "content": "Looking for family-friendly TV to watch with your teens and tweens these holidays?\n\nWe’ve got you: here are 11 shows that won’t have either of you gouging out your eyes with secondhand embarrassment.*... [5121 symbols]",
+        "enContentWordCount": 1062,
+        "medium": "Article",
+        "links": [],
+        "labels": [
+          {
+            "name": "Non-news"
+          }
+        ],
+        "matchedAuthors": [
+          {
+            "id": "8b24b18064e84e21b154f09393711218",
+            "name": "Clare Rigden"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "younger family members",
+            "weight": 0.059114072
+          },
+          {
+            "name": "last year",
+            "weight": 0.056949258
+          },
+          {
+            "name": "even years",
+            "weight": 0.055978797
+          },
+          {
+            "name": "Intergenerational family fun",
+            "weight": 0.055504896
+          },
+          {
+            "name": "years",
+            "weight": 0.054833736
+          },
+          {
+            "name": "Big Bang",
+            "weight": 0.050595235
+          },
+          {
+            "name": "outback Australia",
+            "weight": 0.04885824
+          },
+          {
+            "name": "Flying Doctors",
+            "weight": 0.046937432
+          },
+          {
+            "name": "Terrific homegrown Aussie dramas",
+            "weight": 0.046548173
+          },
+          {
+            "name": "Scrubs creator Bill Lawrence",
+            "weight": 0.04613563
+          }
+        ],
+        "topics": [],
+        "categories": [
+          {
+            "name": "Entertainment"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/Arts & Entertainment/TV & Video/TV Shows & Programs",
+            "score": 0.9658995866775513
+          },
+          {
+            "name": "/Arts & Entertainment/TV & Video/TV Guides & Reference",
+            "score": 0.859663724899292
+          }
+        ],
+        "entities": [
+          {
+            "data": "Pritchard",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Kath Day-Knight",
+            "type": "PERSON",
+            "mentions": 2
+          },
+          {
+            "data": "Kim Craig",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Sheldon Cooper",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Jim Parsons",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Frankie Muniz",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Malcolm",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Bryan Cranston",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Hal",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Jane Kaczmarek",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Lois",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Jimmy Carr",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Tina Fey",
+            "type": "PERSON",
+            "mentions": 2
+          },
+          {
+            "data": "Alec Baldwin",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Tracy Morgan",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "The Taskmaster",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Greg Davis",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Alex Horne",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Tom Gleeson",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Tom Cashman",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Jason Sudeikis",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Bill Lawrence",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Brendan Hunt",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Beard",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Joe Kelly",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Y2",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Aussie",
+            "type": "NORP",
+            "mentions": 4
+          },
+          {
+            "data": "British",
+            "type": "NORP",
+            "mentions": 3
+          },
+          {
+            "data": "American",
+            "type": "NORP",
+            "mentions": 1
+          },
+          {
+            "data": "A Country Practice",
+            "type": "WORK_OF_ART",
+            "mentions": 1
+          },
+          {
+            "data": "Water Rats",
+            "type": "WORK_OF_ART",
+            "mentions": 1
+          },
+          {
+            "data": "The Flying Doctors",
+            "type": "WORK_OF_ART",
+            "mentions": 2
+          },
+          {
+            "data": "RFDS",
+            "type": "WORK_OF_ART",
+            "mentions": 1
+          },
+          {
+            "data": "The Big Bang Theory",
+            "type": "WORK_OF_ART",
+            "mentions": 3
+          },
+          {
+            "data": "Malcolm in the Middle",
+            "type": "WORK_OF_ART",
+            "mentions": 1
+          },
+          {
+            "data": "Scrubs",
+            "type": "WORK_OF_ART",
+            "mentions": 1
+          },
+          {
+            "data": "Horrible Histories",
+            "type": "WORK_OF_ART",
+            "mentions": 1
+          },
+          {
+            "data": "Flying Doctors",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Disney Plus",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Apple TV+)",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Samsung",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Australia",
+            "type": "GPE",
+            "mentions": 4
+          },
+          {
+            "data": "UK",
+            "type": "GPE",
+            "mentions": 3
+          },
+          {
+            "data": "New Zealand",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "six hours",
+            "type": "TIME",
+            "mentions": 1
+          },
+          {
+            "data": "late-night",
+            "type": "TIME",
+            "mentions": 1
+          },
+          {
+            "data": "an hour",
+            "type": "TIME",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "c8b168e2577f406f868e1dd273e515a6",
+            "name": "Samsung Electronics Co., Ltd.",
+            "domains": [
+              "samsung.com"
+            ],
+            "symbols": [
+              "SMSD.L",
+              "SMSN.L",
+              "BC94.L",
+              "SMSN.IL",
+              "SMSD.IL",
+              "SSUN.F",
+              "SSU.VI",
+              "SSUN.VI",
+              "005930.KS",
+              "005935.KS",
+              "SSNLF"
+            ]
+          }
+        ],
+        "sentiment": {
+          "positive": 0.28684467,
+          "negative": 0.28881222,
+          "neutral": 0.4243431
+        },
+        "summary": "The list includes 11 shows that are family-friendly for teens and tweens. These include the classic Pritchard-Dunphey-Tucker sitcom, The Big Bang Theory, Malcolm in the Middle, and The Taskmaster. The British version of Tina Fey sitcom, All About All About The Stars, hosted by Jimmy Carr, features 10 well-known British comedians for six hours and features an offbeat sense of humour. The long-running medical sitcom, Malcolm In the Middle (Disney Plus and Apple TV), took a 16-year hiatus before returning to screens earlier this year. The show's original stars, including Frankie Muniz and Bryan Cranston, returned for a four-episode miniseries.",
+        "shortSummary": "A classic family sitcom, classic Aussie dramas like Malcolm in the Middle, and classic sitcoms like Malcolm In the Middle are ideal family-friendly TV for teens and tweens.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "08ca08dcb9ac41c4a6b1cf27706c3c36",
+        "places": [],
+        "people": [
+          {
+            "wikidataId": "Q14539",
+            "name": "Jason Sudeikis"
+          },
+          {
+            "wikidataId": "Q170572",
+            "name": "Alec Baldwin"
+          },
+          {
+            "wikidataId": "Q14542",
+            "name": "Tracy Morgan"
+          },
+          {
+            "wikidataId": "Q23547",
+            "name": "Bryan Cranston"
+          },
+          {
+            "wikidataId": "Q14540",
+            "name": "Tina Fey"
+          },
+          {
+            "wikidataId": "Q190972",
+            "name": "Jim Parsons"
+          },
+          {
+            "wikidataId": "Q310275",
+            "name": "Frankie Muñiz"
+          },
+          {
+            "wikidataId": "Q7815954",
+            "name": "Tom Gleeson"
+          },
+          {
+            "wikidataId": "Q964454",
+            "name": "Jimmy Carr"
+          },
+          {
+            "wikidataId": "Q235214",
+            "name": "Jane Kaczmarek"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "_instructions": "OPTIONAL reviewer worksheet; do not change attestation to force a score. Supply source-located independent judgment, actual SEC category evidence, fiscal-year-aligned amounts, and a documented RRI rubric. Tool cannot independently verify uploaded URLs or reviewer identity. Experimental candidate scores NEVER change production rating.",
+  "AAPL": {
+    "ticker": "AAPL",
+    "fiscal_year": 2025,
+    "review_attestation": "NOT_REVIEWED",
+    "purity": {
+      "source_url": null,
+      "source_locator": null,
+      "reviewer": null,
+      "reviewed_at": null,
+      "reviewer_rationale": null,
+      "confirmed_core_revenue_usd": null,
+      "confirmed_noncore_revenue_usd": null,
+      "unclassified_revenue_usd": null
+    },
+    "recognition": {
+      "source_url": null,
+      "source_locator": null,
+      "reviewer": null,
+      "reviewed_at": null,
+      "reviewer_rationale": null,
+      "rubric_id": null,
+      "documented_reviewer_score": null,
+      "confirmed_material_recognition_issue": null,
+      "ar_investigation_resolved": false,
+      "ar_resolution_source_locator": null
+    },
+    "organic_growth": {
+      "source_url": null,
+      "attribution": null,
+      "context_only_not_scored": true
+    }
+  },
+  "MSFT": {
+    "ticker": "MSFT",
+    "fiscal_year": 2026,
+    "review_attestation": "NOT_REVIEWED",
+    "purity": {
+      "source_url": null,
+      "source_locator": null,
+      "reviewer": null,
+      "reviewed_at": null,
+      "reviewer_rationale": null,
+      "confirmed_core_revenue_usd": null,
+      "confirmed_noncore_revenue_usd": null,
+      "unclassified_revenue_usd": null
+    },
+    "recognition": {
+      "source_url": null,
+      "source_locator": null,
+      "reviewer": null,
+      "reviewed_at": null,
+      "reviewer_rationale": null,
+      "rubric_id": null,
+      "documented_reviewer_score": null,
+      "confirmed_material_recognition_issue": null,
+      "ar_investigation_resolved": false,
+      "ar_resolution_source_locator": null
+    },
+    "organic_growth": {
+      "source_url": null,
+      "attribution": null,
+      "context_only_not_scored": true
+    }
+  },
+  "GOOGL": {
+    "ticker": "GOOGL",
+    "fiscal_year": 2025,
+    "review_attestation": "NOT_REVIEWED",
+    "purity": {
+      "source_url": null,
+      "source_locator": null,
+      "reviewer": null,
+      "reviewed_at": null,
+      "reviewer_rationale": null,
+      "confirmed_core_revenue_usd": null,
+      "confirmed_noncore_revenue_usd": null,
+      "unclassified_revenue_usd": null
+    },
+    "recognition": {
+      "source_url": null,
+      "source_locator": null,
+      "reviewer": null,
+      "reviewed_at": null,
+      "reviewer_rationale": null,
+      "rubric_id": null,
+      "documented_reviewer_score": null,
+      "confirmed_material_recognition_issue": null,
+      "ar_investigation_resolved": false,
+      "ar_resolution_source_locator": null
+    },
+    "organic_growth": {
+      "source_url": null,
+      "attribution": null,
+      "context_only_not_scored": true
+    }
+  },
+  "NVDA": {
+    "ticker": "NVDA",
+    "fiscal_year": 2026,
+    "review_attestation": "NOT_REVIEWED",
+    "purity": {
+      "source_url": null,
+      "source_locator": null,
+      "reviewer": null,
+      "reviewed_at": null,
+      "reviewer_rationale": null,
+      "confirmed_core_revenue_usd": null,
+      "confirmed_noncore_revenue_usd": null,
+      "unclassified_revenue_usd": null
+    },
+    "recognition": {
+      "source_url": null,
+      "source_locator": null,
+      "reviewer": null,
+      "reviewed_at": null,
+      "reviewer_rationale": null,
+      "rubric_id": null,
+      "documented_reviewer_score": null,
+      "confirmed_material_recognition_issue": null,
+      "ar_investigation_resolved": false,
+      "ar_resolution_source_locator": null
+    },
+    "organic_growth": {
+      "source_url": null,
+      "attribution": null,
+      "context_only_not_scored": true
+    }
+  },
+  "AMZN": {
+    "ticker": "AMZN",
+    "fiscal_year": 2025,
+    "review_attestation": "NOT_REVIEWED",
+    "purity": {
+      "source_url": null,
+      "source_locator": null,
+      "reviewer": null,
+      "reviewed_at": null,
+      "reviewer_rationale": null,
+      "confirmed_core_revenue_usd": null,
+      "confirmed_noncore_revenue_usd": null,
+      "unclassified_revenue_usd": null
+    },
+    "recognition": {
+      "source_url": null,
+      "source_locator": null,
+      "reviewer": null,
+      "reviewed_at": null,
+      "reviewer_rationale": null,
+      "rubric_id": null,
+      "documented_reviewer_score": null,
+      "confirmed_material_recognition_issue": null,
+      "ar_investigation_resolved": false,
+      "ar_resolution_source_locator": null
+    },
+    "organic_growth": {
+      "source_url": null,
+      "attribution": null,
+      "context_only_not_scored": true
+    }
+  },
+  "META": {
+    "ticker": "META",
+    "fiscal_year": 2025,
+    "review_attestation": "NOT_REVIEWED",
+    "purity": {
+      "source_url": null,
+      "source_locator": null,
+      "reviewer": null,
+      "reviewed_at": null,
+      "reviewer_rationale": null,
+      "confirmed_core_revenue_usd": null,
+      "confirmed_noncore_revenue_usd": null,
+      "unclassified_revenue_usd": null
+    },
+    "recognition": {
+      "source_url": null,
+      "source_locator": null,
+      "reviewer": null,
+      "reviewed_at": null,
+      "reviewer_rationale": null,
+      "rubric_id": null,
+      "documented_reviewer_score": null,
+      "confirmed_material_recognition_issue": null,
+      "ar_investigation_resolved": false,
+      "ar_resolution_source_locator": null
+    },
+    "organic_growth": {
+      "source_url": null,
+      "attribution": null,
+      "context_only_not_scored": true
+    }
+  },
+  "TSLA": {
+    "ticker": "TSLA",
+    "fiscal_year": 2025,
+    "review_attestation": "NOT_REVIEWED",
+    "purity": {
+      "source_url": null,
+      "source_locator": null,
+      "reviewer": null,
+      "reviewed_at": null,
+      "reviewer_rationale": null,
+      "confirmed_core_revenue_usd": null,
+      "confirmed_noncore_revenue_usd": null,
+      "unclassified_revenue_usd": null
+    },
+    "recognition": {
+      "source_url": null,
+      "source_locator": null,
+      "reviewer": null,
+      "reviewed_at": null,
+      "reviewer_rationale": null,
+      "rubric_id": null,
+      "documented_reviewer_score": null,
+      "confirmed_material_recognition_issue": null,
+      "ar_investigation_resolved": false,
+      "ar_resolution_source_locator": null
+    },
+    "organic_growth": {
+      "source_url": null,
+      "attribution": null,
+      "context_only_not_scored": true
+    }
+  }
+}

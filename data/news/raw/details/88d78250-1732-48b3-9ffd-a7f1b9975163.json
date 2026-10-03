@@ -1,0 +1,45 @@
+{
+  "_ingestion": {
+    "provider": "freenewsapi",
+    "endpoint": "details",
+    "article_uuid": "88d78250-1732-48b3-9ffd-a7f1b9975163",
+    "fetched_at": "2026-09-21T02:54:17.469124+00:00"
+  },
+  "raw_response": {
+    "data": {
+      "uuid": "88d78250-1732-48b3-9ffd-a7f1b9975163",
+      "title": "Confirmed: PBOC leaves Loan Prime Rates unchanged in September",
+      "thumbnail": "https://editorial.fxsstatic.com/images/i/china-people-bank-02.jpg",
+      "publisher": "FXStreet",
+      "authors": [],
+      "topics": [
+        "business",
+        "economy"
+      ],
+      "countries": [
+        "BW",
+        "ET",
+        "GH",
+        "IE",
+        "IL",
+        "KE",
+        "LV",
+        "MY",
+        "NA",
+        "NG",
+        "PK",
+        "UG",
+        "US",
+        "ZA",
+        "ZW"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-09-21T01:00:55.000Z",
+      "original_url": "https://www.fxstreet.com/news/confirmed-pboc-leaves-loan-prime-rates-unchanged-in-september-202609210100",
+      "incipit": "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Monday. The one-year and five-year LPRs were at 3.00% and 3.50%, respectively.",
+      "body": "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Monday. The one-year and five-year LPRs were at 3.00% and 3.50%, respectively. Market reaction to the PBoC interest rate decision At the time of writing, the AUD/USD is trading 0.03% higher on the day to trade at 0.7127. PBOC FAQs The primary monetary policy objectives of the People's Bank of China (PBoC) are to safeguard price stability, including exchange rate stability, and promote economic growth. China’s central bank also aims to implement financial reforms, such as opening and developing the financial market. The PBoC is owned by the state of the People's Republic of China (PRC), so it is not considered an autonomous institution. The Chinese Communist Party (CCP) Committee Secretary, nominated by the Chairman of the State Council, has a key influence on the PBoC’s management and direction, not the governor. However, Mr. Pan Gongsheng currently holds both of these posts. Unlike the Western economies, the PBoC uses a broader set of monetary policy instruments to achieve its objectives. The primary tools include a seven-day Reverse Repo Rate (RRR), Medium-term Lending Facility (MLF), foreign exchange interventions and Reserve Requirement Ratio (RRR). However, The Loan Prime Rate (LPR) is China’s benchmark interest rate. Changes to the LPR directly influence the rates that need to be paid in the market for loans and mortgages and the interest paid on savings. By changing the LPR, China’s central bank can also influence the exchange rates of the Chinese Renminbi. Yes, China has 19 private banks – a small fraction of the financial system. The largest private banks are digital lenders WeBank and MYbank, which are backed by tech giants Tencent and Ant Group, per The Straits Times. In 2014, China allowed domestic lenders fully capitalized by private funds to operate in the state-dominated financial sector."
+    }
+  }
+}

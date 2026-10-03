@@ -1,0 +1,13 @@
+{
+  "provider": "yfinance/Yahoo Finance",
+  "ticker": "MSFT",
+  "start": "2021-08-31",
+  "end_exclusive": "2025-10-20",
+  "auto_adjust": false,
+  "back_adjust": false,
+  "repair": false,
+  "column": "Close",
+  "downloaded_at": "2026-09-20T05:13:00.339277+00:00",
+  "yfinance_version": "1.2.0",
+  "sha256": "d39a7c842ac4a145c75002543e8499236bfffc42cd5287c2ee025399a06738df"
+}

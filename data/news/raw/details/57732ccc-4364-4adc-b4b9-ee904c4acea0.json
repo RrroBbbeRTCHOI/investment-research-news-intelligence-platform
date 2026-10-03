@@ -1,0 +1,45 @@
+{
+  "_ingestion": {
+    "provider": "freenewsapi",
+    "endpoint": "details",
+    "article_uuid": "57732ccc-4364-4adc-b4b9-ee904c4acea0",
+    "fetched_at": "2026-09-18T08:11:27.700513+00:00"
+  },
+  "raw_response": {
+    "data": {
+      "uuid": "57732ccc-4364-4adc-b4b9-ee904c4acea0",
+      "title": "Beauty shelves to training rooms: How collagen has found a place in sport",
+      "thumbnail": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-09/18/full/1789716270-2785.jpg",
+      "publisher": "Business Standard",
+      "authors": [
+        "@bsindia",
+        "Aditya Kaushik"
+      ],
+      "topics": [
+        "business",
+        "nutrition"
+      ],
+      "countries": [
+        "ET",
+        "GB",
+        "ID",
+        "IL",
+        "KE",
+        "MY",
+        "NA",
+        "NG",
+        "PK",
+        "SG",
+        "UG",
+        "US"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-09-18T07:25:28.000Z",
+      "original_url": "https://www.business-standard.com/sports/business/beauty-shelves-to-training-rooms-how-collagen-has-found-a-place-in-sport-126091800488_1.html",
+      "incipit": "Collagen, long associated with skincare and wellness products, is increasingly finding a place in elite sport, where athletes are using it as part of efforts to support joints, tendons and other connective...",
+      "body": "Collagen, long associated with skincare and wellness products, is increasingly finding a place in elite sport, where athletes are using it as part of efforts to support joints, tendons and other connective tissues. The shift represents a new application for an ingredient already established in the consumer health and beauty market. In high-performance sport, however, the focus is less on appearance and more on helping athletes cope with the physical demands of repeated training, competition and rehabilitation. Collagen is generally consumed as peptides or powder, particularly by athletes returning from injury and those competing in sports that place greater loads on the body. Also Read According to a report in The Indian Express, Wayne Lombard, head of athletic performance for the Indian women’s hockey team, said the science around collagen use in sport is still developing. He added that athletes use it because of its potential role in supporting joints and tissues such as ligaments, the meniscus and the labrum. Injury management creates a new sports-nutrition market Collagen is a structural protein found in connective tissues, including tendons, ligaments and cartilage. For elite athletes, maintaining these tissues can be important because training involves repeated mechanical loading and, in some sports, high-impact movements. According to The Indian Express report, Lombard said athletes use collagen to strengthen soft tissues and help keep them in a condition capable of handling repeated physical stress. He also said its use becomes particularly relevant when athletes are recovering from injuries. That puts collagen in a different segment of the sports-supplement market. Rather than being promoted primarily for muscle growth or an immediate performance boost, its use is linked to the broader objective of keeping athletes available for training and competition. Research has examined whether collagen or gelatin consumed before exercise can stimulate collagen synthesis when combined with mechanical loading. However, the evidence is still developing, and collagen should not be treated as a replacement for structured training or rehabilitation. High-performance centres bring supplementation under scrutiny The growing use of collagen also reflects the changing role of sports science in Indian high-performance programmes. At the Inspire Institute of Sport (IIS) in Vijayanagar, supplementation is part of a wider system that places emphasis on nutrition, training and rehabilitation. The centre follows a “food first” approach, encouraging athletes to meet their nutritional requirements through food wherever possible. Samuel Pullinger, head of sport science at IIS Vijayanagar, said collagen is used for joint health and pain management, with supplementation timed around specific phases of training or rehabilitation. Athletes in sports such as rowing, swimming and athletics, particularly the triple jump, are among those using collagen because of the physical loads associated with their disciplines, according to the report. The approach illustrates how sports organisations are increasingly treating supplements as part of an athlete-management programme rather than standalone products. Decisions around their use can involve sports scientists, nutritionists, coaches and medical teams. Timing becomes part of the proposition Another element attracting attention is when collagen is consumed. Pullinger said collagen has a specific window in which it can be particularly useful and suggested consuming it around 45 to 60 minutes before training or a rehabilitation session. He also recommended pairing it with vitamin C. Research has explored this timing principle, with studies suggesting that consuming gelatin or collagen before exercise can increase markers of collagen synthesis. But these studies have generally been small, meaning the findings do not establish that a particular timing protocol will improve sporting results. That distinction is important as collagen moves further into the elite-sport market. The commercial opportunity lies in a more specialised product proposition — supplements designed around training and rehabilitation — rather than presenting collagen as a shortcut to improved performance. Science still puts limits on the claims The expanding use of collagen comes despite an evidence base that is still evolving. Recent research has found potential benefits for tendon adaptation and connective-tissue health, but evidence of a direct improvement in athletic performance or muscle strength is less conclusive. The emerging consensus is that collagen may have a role alongside appropriate mechanical loading, nutrition and rehabilitation, rather than functioning as a performance enhancer on its own. Pullinger also cautioned athletes against viewing collagen as a secret ingredient that could dramatically transform sporting results. For Indian sport, therefore, collagen’s significance may lie less in its promise as a miracle supplement and more in what its growing use says about the professionalisation of athlete care. As high-performance programmes invest more in recovery, injury management and sports science, supplements such as collagen are becoming another tool in the business of keeping elite athletes training and competition-ready."
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "validation_mode": "offline replay of existing Gemini response; no provider/cache operations",
+  "before": {
+    "summary_short": null,
+    "summary_full": null,
+    "source": "unavailable",
+    "notice": "AI summary of the supplied article; not independent verification."
+  },
+  "after": {
+    "summary_short": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+    "summary_full": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+    "source": "ai_source_grounded",
+    "notice": "AI summary of the supplied article; not independent verification."
+  },
+  "summary_audit": {
+    "summary_short": {
+      "value": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+      "status": "source_grounded_candidate",
+      "sentence_validation": [
+        {
+          "sentence": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+          "accepted": true,
+          "supporting_quotes": [
+            "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\"."
+          ],
+          "source_fields": [
+            "summary"
+          ],
+          "reason": "Exact source support with bounded meaning-preserving rewording.",
+          "source_quote": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+          "source_field": "summary"
+        }
+      ],
+      "reason": null
+    },
+    "summary_full": {
+      "value": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+      "status": "source_grounded_candidate",
+      "sentence_validation": [
+        {
+          "sentence": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+          "accepted": true,
+          "supporting_quotes": [
+            "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\"."
+          ],
+          "source_fields": [
+            "summary"
+          ],
+          "reason": "Exact source support with bounded meaning-preserving rewording.",
+          "source_quote": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+          "source_field": "summary"
+        }
+      ],
+      "reason": null
+    }
+  },
+  "confidence": {
+    "value": null,
+    "kind": "qualitative_evidence_components",
+    "source_quality_policy_notice": "Qualitative source-quality policy tier; not a calibrated probability, truth probability, statistical accuracy estimate, or model confidence.",
+    "source_quality": "High",
+    "extraction_self_assessment": 0.95,
+    "relationship_evidence_quality": "Moderate",
+    "interpretation": "Qualitative source policy and relationship evidence; extraction confidence is uncalibrated model self-assessment, not factual accuracy. No composite probability or confidence score is computed."
+  },
+  "ticker": "NVDA",
+  "qualification": "qualified_direct_company_subject",
+  "severity": "Low",
+  "geography": null,
+  "relevance": 0.45,
+  "impact": {
+    "value": null,
+    "magnitude": null,
+    "directional_exposure": null,
+    "surprise": null,
+    "reason": "Event-specific magnitude, direction and surprise not established."
+  },
+  "llm_calls": 0
+}

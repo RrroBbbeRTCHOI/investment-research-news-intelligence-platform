@@ -1,0 +1,890 @@
+{
+  "seen": {
+    "id:perigon:6693c4c489664709a135a286822a15e6": "live_5a2040dbff6119478305ef92",
+    "url:https://economictimes.indiatimes.com/opinion/et-commentary/there-wasnt-much-to-xi-a-red-carpet-a-fragile-truce-and-the-search-for-us-china-stability/articleshow/134523880.cms": "live_5a2040dbff6119478305ef92",
+    "content:2566708e832c4ef1e6645da20f1b187ab0e62f24425cc8f01dfcf0b5639f0f00": "live_5a2040dbff6119478305ef92",
+    "id:perigon:2341dd8f0828497c8d91d9aa6d271e35": "live_bfe2e7b74df6d21637df6f6c",
+    "url:https://aninews.in/news/world/us/oil-will-come-dropping-down-as-soon-as-iran-gives-up-trump-says-war-will-be-over-soon20260927224108": "live_bfe2e7b74df6d21637df6f6c",
+    "content:358ec0e0f541bc810f2e0b635d35a565adfff3aa67726d404bb99b1da45f900a": "live_bfe2e7b74df6d21637df6f6c",
+    "id:perigon:c2322fbc764041f78611c7019c94b2e4": "live_d05dbe76d8db4b4b4ecc1a3e",
+    "url:https://memesita.com/meta-unveils-meta-vr-glasses-and-ai-hardware-at-connect/": "live_d05dbe76d8db4b4b4ecc1a3e",
+    "content:2d48ba1e62d05e711aed77748596d57678523951c9dfd0e5a41ea9446c9d44a6": "live_d05dbe76d8db4b4b4ecc1a3e",
+    "crossurl:4570ae956ae64367ad7ea78c0e1c322d7deeef686cdd69fae936ab1b7b379b45": "live_d05dbe76d8db4b4b4ecc1a3e",
+    "id:perigon:3c835412fff44f449571de673b0b3a57": "live_ab63bb38006ea3b5b5ec17b4",
+    "url:https://benzinga.com/markets/equities/26/09/62012300/top-3-sp-500-stocks-to-watch-this-week-micron-accenture-tesla": "live_ab63bb38006ea3b5b5ec17b4",
+    "content:dbde528c3d0693ad9596a95392c9cc48b778d6091742b1116e39b99bf61f61f0": "live_ab63bb38006ea3b5b5ec17b4",
+    "crossurl:cc8f8d1dbc8456a4c0bde89ac7480eb65e15b6d003951b88e2e2bd07efc66cbf": "live_ab63bb38006ea3b5b5ec17b4",
+    "id:perigon:135f48a70bf548c8b22f167293a1b875": "live_97391d137d6c9977308b33fe",
+    "url:https://gvwire.com/2026/09/27/trump-says-men-arrested-at-uk-air-base-used-by-us-were-looking-to-do-big-damage/": "live_97391d137d6c9977308b33fe",
+    "content:36adfe5280c36d93c29cb75c5a04b613c7e44a4d2058c4cf63b05973b98f924c": "live_97391d137d6c9977308b33fe",
+    "crossurl:23434074d47c4bd885786d102006ce8b67e4e396c6bd9eb1495f514cd63d2ffb": "live_97391d137d6c9977308b33fe"
+  },
+  "pending": {
+    "live_bfe2e7b74df6d21637df6f6c": {
+      "article": {
+        "provider": "perigon",
+        "provider_article_id": "2341dd8f0828497c8d91d9aa6d271e35",
+        "headline": "\"Oil will come dropping down as soon as Iran gives up\": Trump says war will be over \"soon\"",
+        "summary": "Speaking briefly before departing the White House prior to taking off for the Chicago area to attend the Presidents Cup, Trump highlighted energy production trends, claiming that a record volume of oil was extracted overnight, surpassing pre-war production levels.",
+        "body": "Washington, DC [US], September 27 (ANI): US President Donald Trump stated Sunday that global oil prices will decrease further once the conflict with Iran concludes, asserting that fuel costs are alrea... [5924 symbols]",
+        "source": "aninews.in",
+        "article_url": "https://aninews.in/news/world/us/oil-will-come-dropping-down-as-soon-as-iran-gives-up-trump-says-war-will-be-over-soon20260927224108/",
+        "published_at": "2026-09-27T17:11:08.365241+00:00",
+        "fetched_at": "2026-09-27T17:17:05.702926+00:00",
+        "article_id": "live_bfe2e7b74df6d21637df6f6c"
+      },
+      "status": "quota_deferred",
+      "intake": {
+        "content_type": "event",
+        "reason": "Existing V3.2.2 research-intelligence eligibility preserved; final event gate remains authoritative.",
+        "signals": [],
+        "method": "live_content_v3_2_3"
+      }
+    },
+    "live_d05dbe76d8db4b4b4ecc1a3e": {
+      "article": {
+        "provider": "perigon",
+        "provider_article_id": "c2322fbc764041f78611c7019c94b2e4",
+        "headline": "Meta Unveils Meta VR Glasses and AI Hardware at Connect - Memesita",
+        "summary": "At the annual Meta Connect event in Menlo Park, California, CEO Mark Zuckerberg unveiled a broad suite of new hardware, highlighted by the company's next-generation Meta VR…",
+        "body": "At the annual Meta Connect event in Menlo Park, California, CEO Mark Zuckerberg unveiled a broad suite of new hardware, highlighted by the company’s next-generation Meta VR Glasses, according to Reute... [2894 symbols]",
+        "source": "memesita.com",
+        "article_url": "https://www.memesita.com/meta-unveils-meta-vr-glasses-and-ai-hardware-at-connect/",
+        "published_at": "2026-09-27T15:10:50-02:00",
+        "fetched_at": "2026-09-27T17:17:05.702926+00:00",
+        "article_id": "live_d05dbe76d8db4b4b4ecc1a3e"
+      },
+      "status": "quota_deferred",
+      "intake": {
+        "content_type": "event",
+        "reason": "Existing V3.2.2 research-intelligence eligibility preserved; final event gate remains authoritative.",
+        "signals": [],
+        "method": "live_content_v3_2_3"
+      }
+    },
+    "live_ab63bb38006ea3b5b5ec17b4": {
+      "article": {
+        "provider": "perigon",
+        "provider_article_id": "3c835412fff44f449571de673b0b3a57",
+        "headline": "Top Three S&P 500 Stocks to Watch This Week: Micron, Accenture, Tesla - Tesla (NASDAQ:TSLA), Micron Techn",
+        "summary": "The top S&P 500 stocks to watch this week include popular names like Micron (MU), Accenture (ACN) and Tesla (TSLA).",
+        "body": "The S&P 500 Index held steady last week, hovering near its all-time high of 7,820. The index has jumped 22.3% from its low this year, brushing aside the ongoing US-Iran and Russia-Ukraine conflicts as... [2969 symbols]",
+        "source": "benzinga.com",
+        "article_url": "https://www.benzinga.com/markets/equities/26/09/62012300/top-3-sp-500-stocks-to-watch-this-week-micron-accenture-tesla",
+        "published_at": "2026-09-27T13:10:47-04:00",
+        "fetched_at": "2026-09-27T17:17:05.702926+00:00",
+        "article_id": "live_ab63bb38006ea3b5b5ec17b4"
+      },
+      "status": "quota_deferred",
+      "intake": {
+        "content_type": "event",
+        "reason": "Existing V3.2.2 research-intelligence eligibility preserved; final event gate remains authoritative.",
+        "signals": [],
+        "method": "live_content_v3_2_3"
+      }
+    }
+  },
+  "records": {
+    "live_5a2040dbff6119478305ef92": {
+      "article_id": "live_5a2040dbff6119478305ef92",
+      "headline": "There wasn’t much to Xi: A red carpet, a fragile truce and the search for US-China stability - The Economic Times",
+      "source": "economictimes.indiatimes.com",
+      "article_url": "https://economictimes.indiatimes.com/opinion/et-commentary/there-wasnt-much-to-xi-a-red-carpet-a-fragile-truce-and-the-search-for-us-china-stability/articleshow/134523880.cms",
+      "gate": {
+        "article_id": "live_5a2040dbff6119478305ef92",
+        "is_event": true,
+        "gate_reason": "Asserted tariffs event: state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety.",
+        "gate_confidence": 0.8
+      },
+      "event": {
+        "event_id": "evt_1f7f55d68c580000bd73baa9",
+        "canonical_event_id": "evt_1f7f55d68c580000bd73baa9",
+        "article_ids": [
+          "live_5a2040dbff6119478305ef92"
+        ],
+        "source_count": 1,
+        "independent_source_count": 1,
+        "first_seen_at": "2026-09-27T17:17:05.702926+00:00",
+        "last_seen_at": "2026-09-27T17:17:05.702926+00:00",
+        "published_at_first": "2026-09-27T22:43:32+05:30",
+        "event_start_at": null,
+        "event_end_at": null,
+        "time_precision": "unknown",
+        "event_status": "developing",
+        "primary_country": null,
+        "affected_countries": [],
+        "primary_region": null,
+        "affected_regions": [],
+        "city": null,
+        "location_name": null,
+        "latitude": null,
+        "longitude": null,
+        "location_confidence": null,
+        "event_type": "trade_export_control",
+        "event_subtype": "tariffs",
+        "severity_score": null,
+        "severity_confidence": null,
+        "scope": null,
+        "duration_class": "unknown",
+        "event_novelty": null,
+        "physical_damage": null,
+        "production_disruption": null,
+        "capacity_disruption": null,
+        "logistics_disruption": null,
+        "port_disruption": null,
+        "power_disruption": null,
+        "network_disruption": null,
+        "cloud_service_disruption": null,
+        "labor_disruption": null,
+        "supply_shortage": null,
+        "regulatory_change": null,
+        "export_restriction": null,
+        "import_restriction": null,
+        "price_change_explicit": null,
+        "demand_change_explicit": null,
+        "companies_mentioned": [],
+        "tickers_mentioned": [],
+        "suppliers_mentioned": [],
+        "customers_mentioned": [],
+        "industries_mentioned": [],
+        "products_mentioned": [],
+        "technologies_mentioned": [
+          "AI"
+        ],
+        "commodities_mentioned": [],
+        "government_entities": [],
+        "regulators": [],
+        "people_mentioned": [],
+        "supply_channel": null,
+        "demand_channel": null,
+        "cost_channel": null,
+        "revenue_channel": null,
+        "margin_channel": null,
+        "capex_channel": null,
+        "financing_channel": null,
+        "interest_rate_channel": null,
+        "fx_channel": null,
+        "commodity_channel": null,
+        "logistics_channel": null,
+        "energy_channel": null,
+        "regulatory_channel": true,
+        "legal_channel": null,
+        "technology_channel": null,
+        "competition_channel": null,
+        "source_quality": null,
+        "extraction_confidence": 0.7,
+        "confirmation_level": "single_source",
+        "evidence_fields": {
+          "event_type": {
+            "value": "trade_export_control",
+            "evidence": "state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety.",
+            "source_field": "summary",
+            "basis": "article_text"
+          },
+          "event_subtype": {
+            "value": "tariffs",
+            "evidence": "state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety.",
+            "source_field": "summary",
+            "basis": "article_text"
+          },
+          "event_summary": {
+            "value": "state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety.",
+            "evidence": "state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety.",
+            "source_field": "summary",
+            "basis": "article_text"
+          },
+          "keywords": {
+            "value": [
+              "tariffs"
+            ],
+            "evidence": "state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety.",
+            "source_field": "summary",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety.",
+                "source_field": "summary"
+              }
+            ]
+          },
+          "canonical_headline": {
+            "value": "There wasn’t much to Xi: A red carpet, a fragile truce and the search for US-China stability - The Economic Times",
+            "evidence": "There wasn’t much to Xi: A red carpet, a fragile truce and the search for US-China stability - The Economic Times",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "independent_source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "event_status": {
+            "value": "developing",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "confirmation_level": {
+            "value": "single_source",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "extraction_confidence": {
+            "value": 0.7,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "published_at_first": {
+            "value": "2026-09-27T22:43:32+05:30",
+            "evidence": "2026-09-27T22:43:32+05:30",
+            "source_field": "published_at",
+            "basis": "provider_metadata"
+          },
+          "first_seen_at": {
+            "value": "2026-09-27T17:17:05.702926+00:00",
+            "evidence": "2026-09-27T17:17:05.702926+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "last_seen_at": {
+            "value": "2026-09-27T17:17:05.702926+00:00",
+            "evidence": "2026-09-27T17:17:05.702926+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "regulatory_channel": {
+            "value": true,
+            "evidence": "state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety.",
+            "source_field": "summary",
+            "basis": "article_text",
+            "assertion": "affirmed"
+          },
+          "technologies_mentioned": {
+            "value": [
+              "AI"
+            ],
+            "evidence": "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety.",
+            "source_field": "summary",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety.",
+                "source_field": "summary"
+              }
+            ]
+          }
+        },
+        "canonical_headline": "There wasn’t much to Xi: A red carpet, a fragile truce and the search for US-China stability - The Economic Times",
+        "event_summary": "state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety.",
+        "keywords": [
+          "tariffs"
+        ],
+        "created_at": "2026-09-27T17:17:05.702926+00:00",
+        "updated_at": "2026-09-27T17:17:05.702926+00:00",
+        "schema_version": "event_v1",
+        "country": null,
+        "region": null,
+        "location_basis": "unresolved",
+        "coordinate_precision": null
+      },
+      "candidate_channels": [
+        {
+          "channel_family": "regulatory_general",
+          "channel_subtype": "unspecified",
+          "confidence": 0.75,
+          "basis": [
+            "regulatory_channel"
+          ],
+          "status": "candidate"
+        },
+        {
+          "channel_family": "regulatory_export",
+          "channel_subtype": "unspecified",
+          "confidence": 0.75,
+          "basis": [
+            "event_subtype",
+            "event_type"
+          ],
+          "status": "candidate"
+        }
+      ],
+      "ticker_analysis": [],
+      "edge_exclusions": [
+        {
+          "event_id": "evt_1f7f55d68c580000bd73baa9",
+          "edge_id": "4",
+          "reason": "non_operating_capacity"
+        },
+        {
+          "event_id": "evt_1f7f55d68c580000bd73baa9",
+          "edge_id": "19",
+          "reason": "blocked_or_hypothesis_evidence"
+        }
+      ],
+      "status": "actionable_event",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "actionable_event",
+      "published_at": "2026-09-27T22:43:32+05:30",
+      "geography": {
+        "event_country": null,
+        "event_region": null,
+        "event_city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "location_confidence": null,
+        "coordinate_basis": null,
+        "evidence": [],
+        "coordinate_precision": null
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Unknown; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      },
+      "enrichment": {
+        "status": "available",
+        "schema_version": "news_semantic_v3_1",
+        "prompt_version": "news_semantics_v3_1_sentence_grounding",
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "requested_model": "gemini-3.5-flash-lite",
+        "content_hash": "23bde6b72ec185d030f6fc667752d35542d1d0b72a708f6d0dd5021fb74e8427",
+        "article_content_hash": "2566708e832c4ef1e6645da20f1b187ab0e62f24425cc8f01dfcf0b5639f0f00",
+        "generated_at": "2026-09-27T17:17:13.939126+00:00",
+        "semantic": {
+          "article_class": "geopolitical_event",
+          "is_relevant_candidate": true,
+          "summary_short": "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety.",
+          "summary_full": "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety. The ongoing US-Iran war significantly affects the strategic relationship between the two powers. A report highlights the US's dependence on Chinese rare earths for military needs amid supply challenges. Strategic stability efforts were explored but ultimately did not yield significant progress toward a lasting agreement.",
+          "primary_country": "United States",
+          "event_type": "diplomatic_relations",
+          "event_subtype": "summit_or_state_visit",
+          "countries": [
+            "United States",
+            "China",
+            "Iran"
+          ],
+          "entities": [
+            "Xi Jinping",
+            "Washington",
+            "US",
+            "China",
+            "Iran"
+          ],
+          "companies_mentioned": [],
+          "direct_ticker_candidates": [],
+          "economic_channels": [
+            "tariffs",
+            "supply_chain",
+            "geopolitics"
+          ],
+          "candidate_indirect_tickers": [],
+          "missing_information": [
+            "Specific details on the extent of tariff cuts",
+            "Terms of the AI safety dialogue"
+          ],
+          "research_questions": [
+            "What specific tariffs were cut during the visit?",
+            "How will the US-Iran war impact US-China diplomatic efforts moving forward?"
+          ],
+          "severity_candidate": "Medium",
+          "severity_reason": "State visit involved discussions on tariffs and AI safety dialogue, but produced only modest outcomes without a lasting strategic agreement.",
+          "severity_confidence": 0.8,
+          "operational_event": false,
+          "fundamental_change_detected": false,
+          "llm_confidence": 0.95,
+          "citations": [
+            {
+              "field": "summary_short",
+              "quote": "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety.",
+              "source_field": "summary"
+            },
+            {
+              "field": "summary_full",
+              "quote": "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety. The ongoing US-Iran war significantly affects the strategic relationship between the two powers. A report highlights the US's dependence on Chinese rare earths for military needs amid supply challenges. Strategic stability efforts were explored but ultimately did not yield significant progress toward a lasting agreement.",
+              "source_field": "summary"
+            },
+            {
+              "field": "primary_country",
+              "quote": "US",
+              "source_field": "summary"
+            },
+            {
+              "field": "event_type",
+              "quote": "state visit",
+              "source_field": "summary"
+            },
+            {
+              "field": "event_subtype",
+              "quote": "state visit",
+              "source_field": "summary"
+            },
+            {
+              "field": "article_class",
+              "quote": "geopolitical_event",
+              "source_field": "headline"
+            },
+            {
+              "field": "economic_channels",
+              "quote": "tariff cuts",
+              "source_field": "summary"
+            },
+            {
+              "field": "severity_candidate",
+              "quote": "modest tariff cuts",
+              "source_field": "summary"
+            },
+            {
+              "field": "operational_event",
+              "quote": "state visit",
+              "source_field": "summary"
+            },
+            {
+              "field": "fundamental_change_detected",
+              "quote": "did not yield significant progress toward a lasting agreement.",
+              "source_field": "summary"
+            },
+            {
+              "field": "direct_ticker_candidates",
+              "quote": "US-China",
+              "source_field": "headline"
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": null,
+          "output_tokens": null,
+          "total_tokens": 1351,
+          "estimated_cost_usd": null,
+          "scope": "successful response only; failed-attempt usage unavailable"
+        },
+        "cache_hit": false,
+        "attempts": [
+          {
+            "attempt": 1,
+            "provider": "gemini",
+            "model": "gemini-3.5-flash-lite",
+            "status": "success"
+          }
+        ],
+        "attempt_audit_scope": "original enrichment generation; cache reuse makes no new requests",
+        "attempt_count": 1,
+        "retry_count": 0,
+        "fallback_used": false,
+        "point_in_time_note": "Generated at the recorded enrichment time; not evidence the AI output was available when the article was published. Exposure eligibility still uses the original article replay time."
+      },
+      "semantic_validation": {
+        "status": "validated_constraints",
+        "accepted": {
+          "event_type": {
+            "value": "diplomatic_relations",
+            "citations": [
+              {
+                "field": "event_type",
+                "quote": "state visit",
+                "source_field": "summary"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "event_subtype": {
+            "value": "summit_or_state_visit",
+            "citations": [
+              {
+                "field": "event_subtype",
+                "quote": "state visit",
+                "source_field": "summary"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "economic_channels": {
+            "value": [
+              "tariffs",
+              "supply_chain",
+              "geopolitics"
+            ],
+            "citations": [
+              {
+                "field": "economic_channels",
+                "quote": "tariff cuts",
+                "source_field": "summary"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "operational_event": {
+            "value": false,
+            "citations": [
+              {
+                "field": "operational_event",
+                "quote": "state visit",
+                "source_field": "summary"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "fundamental_change_detected": {
+            "value": false,
+            "citations": [
+              {
+                "field": "fundamental_change_detected",
+                "quote": "did not yield significant progress toward a lasting agreement.",
+                "source_field": "summary"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "summary_short": {
+            "value": "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety.",
+            "status": "source_grounded_candidate",
+            "sentence_validation": [
+              {
+                "sentence": "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety."
+                ],
+                "source_fields": [
+                  "summary"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety.",
+                "source_field": "summary"
+              }
+            ],
+            "reason": null
+          },
+          "summary_full": {
+            "value": "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety. The ongoing US-Iran war significantly affects the strategic relationship between the two powers. A report highlights the US's dependence on Chinese rare earths for military needs amid supply challenges. Strategic stability efforts were explored but ultimately did not yield significant progress toward a lasting agreement.",
+            "status": "source_grounded_candidate",
+            "sentence_validation": [
+              {
+                "sentence": "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety. The ongoing US-Iran war significantly affects the strategic relationship between the two powers. A report highlights the US's dependence on Chinese rare earths for military needs amid supply challenges. Strategic stability efforts were explored but ultimately did not yield significant progress toward a lasting agreement."
+                ],
+                "source_fields": [
+                  "summary"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety. The ongoing US-Iran war significantly affects the strategic relationship between the two powers. A report highlights the US's dependence on Chinese rare earths for military needs amid supply challenges. Strategic stability efforts were explored but ultimately did not yield significant progress toward a lasting agreement.",
+                "source_field": "summary"
+              },
+              {
+                "sentence": "The ongoing US-Iran war significantly affects the strategic relationship between the two powers.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety. The ongoing US-Iran war significantly affects the strategic relationship between the two powers. A report highlights the US's dependence on Chinese rare earths for military needs amid supply challenges. Strategic stability efforts were explored but ultimately did not yield significant progress toward a lasting agreement."
+                ],
+                "source_fields": [
+                  "summary"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety. The ongoing US-Iran war significantly affects the strategic relationship between the two powers. A report highlights the US's dependence on Chinese rare earths for military needs amid supply challenges. Strategic stability efforts were explored but ultimately did not yield significant progress toward a lasting agreement.",
+                "source_field": "summary"
+              },
+              {
+                "sentence": "A report highlights the US's dependence on Chinese rare earths for military needs amid supply challenges.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety. The ongoing US-Iran war significantly affects the strategic relationship between the two powers. A report highlights the US's dependence on Chinese rare earths for military needs amid supply challenges. Strategic stability efforts were explored but ultimately did not yield significant progress toward a lasting agreement."
+                ],
+                "source_fields": [
+                  "summary"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety. The ongoing US-Iran war significantly affects the strategic relationship between the two powers. A report highlights the US's dependence on Chinese rare earths for military needs amid supply challenges. Strategic stability efforts were explored but ultimately did not yield significant progress toward a lasting agreement.",
+                "source_field": "summary"
+              },
+              {
+                "sentence": "Strategic stability efforts were explored but ultimately did not yield significant progress toward a lasting agreement.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety. The ongoing US-Iran war significantly affects the strategic relationship between the two powers. A report highlights the US's dependence on Chinese rare earths for military needs amid supply challenges. Strategic stability efforts were explored but ultimately did not yield significant progress toward a lasting agreement."
+                ],
+                "source_fields": [
+                  "summary"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety. The ongoing US-Iran war significantly affects the strategic relationship between the two powers. A report highlights the US's dependence on Chinese rare earths for military needs amid supply challenges. Strategic stability efforts were explored but ultimately did not yield significant progress toward a lasting agreement.",
+                "source_field": "summary"
+              }
+            ],
+            "reason": null
+          }
+        },
+        "summary_validation": {
+          "summary_short": {
+            "value": "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety.",
+            "status": "source_grounded_candidate",
+            "sentence_validation": [
+              {
+                "sentence": "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety."
+                ],
+                "source_fields": [
+                  "summary"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety.",
+                "source_field": "summary"
+              }
+            ],
+            "reason": null
+          },
+          "summary_full": {
+            "value": "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety. The ongoing US-Iran war significantly affects the strategic relationship between the two powers. A report highlights the US's dependence on Chinese rare earths for military needs amid supply challenges. Strategic stability efforts were explored but ultimately did not yield significant progress toward a lasting agreement.",
+            "status": "source_grounded_candidate",
+            "sentence_validation": [
+              {
+                "sentence": "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety. The ongoing US-Iran war significantly affects the strategic relationship between the two powers. A report highlights the US's dependence on Chinese rare earths for military needs amid supply challenges. Strategic stability efforts were explored but ultimately did not yield significant progress toward a lasting agreement."
+                ],
+                "source_fields": [
+                  "summary"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety. The ongoing US-Iran war significantly affects the strategic relationship between the two powers. A report highlights the US's dependence on Chinese rare earths for military needs amid supply challenges. Strategic stability efforts were explored but ultimately did not yield significant progress toward a lasting agreement.",
+                "source_field": "summary"
+              },
+              {
+                "sentence": "The ongoing US-Iran war significantly affects the strategic relationship between the two powers.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety. The ongoing US-Iran war significantly affects the strategic relationship between the two powers. A report highlights the US's dependence on Chinese rare earths for military needs amid supply challenges. Strategic stability efforts were explored but ultimately did not yield significant progress toward a lasting agreement."
+                ],
+                "source_fields": [
+                  "summary"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety. The ongoing US-Iran war significantly affects the strategic relationship between the two powers. A report highlights the US's dependence on Chinese rare earths for military needs amid supply challenges. Strategic stability efforts were explored but ultimately did not yield significant progress toward a lasting agreement.",
+                "source_field": "summary"
+              },
+              {
+                "sentence": "A report highlights the US's dependence on Chinese rare earths for military needs amid supply challenges.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety. The ongoing US-Iran war significantly affects the strategic relationship between the two powers. A report highlights the US's dependence on Chinese rare earths for military needs amid supply challenges. Strategic stability efforts were explored but ultimately did not yield significant progress toward a lasting agreement."
+                ],
+                "source_fields": [
+                  "summary"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety. The ongoing US-Iran war significantly affects the strategic relationship between the two powers. A report highlights the US's dependence on Chinese rare earths for military needs amid supply challenges. Strategic stability efforts were explored but ultimately did not yield significant progress toward a lasting agreement.",
+                "source_field": "summary"
+              },
+              {
+                "sentence": "Strategic stability efforts were explored but ultimately did not yield significant progress toward a lasting agreement.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety. The ongoing US-Iran war significantly affects the strategic relationship between the two powers. A report highlights the US's dependence on Chinese rare earths for military needs amid supply challenges. Strategic stability efforts were explored but ultimately did not yield significant progress toward a lasting agreement."
+                ],
+                "source_fields": [
+                  "summary"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety. The ongoing US-Iran war significantly affects the strategic relationship between the two powers. A report highlights the US's dependence on Chinese rare earths for military needs amid supply challenges. Strategic stability efforts were explored but ultimately did not yield significant progress toward a lasting agreement.",
+                "source_field": "summary"
+              }
+            ],
+            "reason": null
+          }
+        },
+        "rejections": [
+          {
+            "field": "primary_country",
+            "reason": "Citation is not a substantive exact source span."
+          },
+          {
+            "field": "article_class",
+            "reason": "Citation is not a substantive exact source span."
+          }
+        ],
+        "candidate_relationships": [],
+        "classification_arbitration": {
+          "status": "grounded_semantic_candidate",
+          "deterministic": {
+            "article_class": "actionable_event",
+            "event_type": "trade_export_control",
+            "event_subtype": "tariffs"
+          },
+          "semantic_candidate": {
+            "event_type": "diplomatic_relations",
+            "event_subtype": "summit_or_state_visit"
+          },
+          "decision": "classification_conflict",
+          "reason": "Grounded semantic classification conflicts with a specific deterministic classification; final arbitration must resolve the main-event evidence.",
+          "final": {
+            "article_class": "actionable_event",
+            "event_type": "trade_export_control",
+            "event_subtype": "tariffs"
+          },
+          "authority": "This validator exposes grounded candidates only; research_v3 remains final classification authority."
+        },
+        "notice": "Source-grounded AI extraction is not independent fact verification. Candidate fields do not qualify ticker exposure."
+      },
+      "classification_assessment": {
+        "candidates": {
+          "article_class": "geopolitical_event",
+          "event_type": "diplomatic_relations",
+          "event_subtype": "summit_or_state_visit",
+          "operational_event": false,
+          "fundamental_change_detected": false
+        },
+        "source_grounded_candidates": {
+          "event_type": {
+            "value": "diplomatic_relations",
+            "citations": [
+              {
+                "field": "event_type",
+                "quote": "state visit",
+                "source_field": "summary"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "event_subtype": {
+            "value": "summit_or_state_visit",
+            "citations": [
+              {
+                "field": "event_subtype",
+                "quote": "state visit",
+                "source_field": "summary"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "operational_event": {
+            "value": false,
+            "citations": [
+              {
+                "field": "operational_event",
+                "quote": "state visit",
+                "source_field": "summary"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "fundamental_change_detected": {
+            "value": false,
+            "citations": [
+              {
+                "field": "fundamental_change_detected",
+                "quote": "did not yield significant progress toward a lasting agreement.",
+                "source_field": "summary"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          }
+        },
+        "validator_candidate": {
+          "status": "grounded_semantic_candidate",
+          "deterministic": {
+            "article_class": "actionable_event",
+            "event_type": "trade_export_control",
+            "event_subtype": "tariffs"
+          },
+          "semantic_candidate": {
+            "event_type": "diplomatic_relations",
+            "event_subtype": "summit_or_state_visit"
+          },
+          "decision": "classification_conflict",
+          "reason": "Grounded semantic classification conflicts with a specific deterministic classification; final arbitration must resolve the main-event evidence.",
+          "final": {
+            "article_class": "actionable_event",
+            "event_type": "trade_export_control",
+            "event_subtype": "tariffs"
+          },
+          "authority": "This validator exposes grounded candidates only; research_v3 remains final classification authority."
+        },
+        "arbitration": {
+          "decision": "deterministic_only",
+          "reason": "No grounded semantic event candidate maps safely into the existing event taxonomy.",
+          "deterministic": {
+            "article_class": "actionable_event",
+            "event_type": "trade_export_control",
+            "event_subtype": "tariffs"
+          },
+          "canonical_semantic_candidate": null,
+          "final": {
+            "article_class": "actionable_event",
+            "event_type": "trade_export_control",
+            "event_subtype": "tariffs"
+          },
+          "applied": false
+        },
+        "final": {
+          "article_class": "actionable_event",
+          "event_type": "trade_export_control",
+          "event_subtype": "tariffs"
+        },
+        "authority": "Grounded semantic candidates may refine classification only through bounded deterministic arbitration; exposure, severity and financial impact remain independently controlled.",
+        "direct_event_subjects_pre_arbitration": [],
+        "direct_event_subjects_post_arbitration": [],
+        "downstream_relationships_recomputed": false
+      },
+      "article_summary": {
+        "summary_short": "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety.",
+        "summary_full": "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety. The ongoing US-Iran war significantly affects the strategic relationship between the two powers. A report highlights the US's dependence on Chinese rare earths for military needs amid supply challenges. Strategic stability efforts were explored but ultimately did not yield significant progress toward a lasting agreement.",
+        "source": "ai_source_grounded",
+        "notice": "AI summary of the supplied article; not independent verification."
+      },
+      "severity_assessment": {
+        "severity_candidate": "Medium",
+        "severity_reason": "State visit involved discussions on tariffs and AI safety dialogue, but produced only modest outcomes without a lasting strategic agreement.",
+        "severity_confidence": 0.8,
+        "severity_final": "Unknown",
+        "severity_source": "rule",
+        "validation": "LLM candidate retained for audit; final severity requires the existing non-negated article rules.",
+        "rule_evidence": []
+      },
+      "feed": {
+        "state": "surface",
+        "reason": "Potential macro, technology or economic transmission event."
+      },
+      "content_type": "event",
+      "display_type": "event",
+      "intake": {
+        "content_type": "event",
+        "reason": "Existing V3.2.2 research-intelligence eligibility preserved; final event gate remains authoritative.",
+        "signals": [],
+        "method": "live_content_v3_2_3"
+      }
+    }
+  },
+  "usage": {
+    "2026-09-27": 1
+  },
+  "window": {
+    "start": "2026-09-27T16:17:05.702926+00:00",
+    "end": "2026-09-27T17:17:05.702926+00:00",
+    "page": 1
+  }
+}

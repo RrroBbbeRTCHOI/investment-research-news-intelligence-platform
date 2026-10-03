@@ -1,0 +1,198 @@
+{
+  "articles": [
+    {
+      "article_id": "historical_H07",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H07",
+      "headline": "TSMC considering advanced chip packaging capacity in Japan, sources say",
+      "summary": "TSMC was considering adding advanced chip-packaging capacity in Japan as demand for AI-related packaging, including CoWoS, remained strong.",
+      "body": "TSMC was considering building advanced chip-packaging capacity in Japan as demand for AI-related packaging remained strong. The company was expanding CoWoS capacity to support growing demand from advanced AI processors. This historical validation snapshot treats the case as a structural advanced-packaging capacity constraint and expansion signal, not as an acute production shutdown. It excludes later capacity outcomes and later customer demand data.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/tsmc-considering-advanced-chip-packaging-capacity-japan-sources-say-2024-03-17/",
+      "thumbnail": null,
+      "authors": [],
+      "topics": [
+        "technology",
+        "semiconductors",
+        "advanced packaging",
+        "CoWoS"
+      ],
+      "countries": [
+        "Taiwan",
+        "Japan"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2024-03-17",
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "time_precision": "date_only",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H08",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H08",
+      "headline": "Microsoft cloud outage hits users around the world",
+      "summary": "Microsoft suffered a global cloud and networking outage that disrupted Azure and Microsoft 365 services across multiple regions.",
+      "body": "Microsoft experienced a global networking outage that disrupted Azure and Microsoft 365 services, including Teams, Outlook, Exchange Online, SharePoint and OneDrive. Microsoft said the disruption was linked to a networking change and worked to restore services. This historical validation snapshot includes only event-time operational facts and excludes later financial effects.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/microsoft-teams-down-thousands-users-india-downdetector-2023-01-25/",
+      "thumbnail": null,
+      "authors": [],
+      "topics": [
+        "technology",
+        "cloud computing",
+        "network outage",
+        "Azure"
+      ],
+      "countries": [],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2023-01-25T16:41:02Z",
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "time_precision": "exact",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H09",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H09",
+      "headline": "Google says it has resolved global service outage impacting multiple platforms",
+      "summary": "Google suffered a global service disruption affecting Google Cloud and multiple Google services before engineers restored operations.",
+      "body": "Google experienced a global service disruption affecting Google Cloud and several Google services. Third-party services dependent on Google infrastructure were also disrupted. Engineering teams worked to restore services within hours. This historical validation snapshot includes only event-time operational facts and excludes later revenue or financial analysis.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/business/google-cloud-down-thousands-users-downdetector-shows-2025-06-12/",
+      "thumbnail": null,
+      "authors": [],
+      "topics": [
+        "technology",
+        "cloud computing",
+        "infrastructure outage",
+        "Google Cloud"
+      ],
+      "countries": [],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2025-06-12",
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "time_precision": "date_only",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H10",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H10",
+      "headline": "Tesla Germany halts work as Musk calls suspected arson 'extremely dumb'",
+      "summary": "Tesla halted production at its Berlin-area factory after a suspected arson attack on nearby electricity infrastructure cut power to the plant.",
+      "body": "Tesla halted production at its factory near Berlin after a suspected arson attack on nearby electricity infrastructure caused a power outage. The fire did not spread to the Tesla site, but the factory remained without power and production was stopped. This historical validation snapshot includes only event-time operational facts and excludes later loss estimates, restoration dates and later production data.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/business/autos-transportation/tesla-plant-germany-without-power-after-suspected-arson-attack-bz-2024-03-05/",
+      "thumbnail": null,
+      "authors": [],
+      "topics": [
+        "automotive",
+        "manufacturing",
+        "power outage",
+        "Tesla"
+      ],
+      "countries": [
+        "Germany"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2024-03-05T16:45:37Z",
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "time_precision": "exact",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H11",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H11",
+      "headline": "Meta's Facebook, Instagram back up after global outage",
+      "summary": "Meta's Facebook and Instagram experienced a global technical outage that disrupted user access before services were restored.",
+      "body": "Meta-owned Facebook and Instagram experienced a global technical outage that disrupted user access for several hours. Meta acknowledged a technical issue and later restored services. This historical validation snapshot includes only event-time operational facts and excludes later engagement, advertising or financial analysis.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/metas-facebook-instagram-down-thousands-downdetector-shows-2024-03-05/",
+      "thumbnail": null,
+      "authors": [],
+      "topics": [
+        "technology",
+        "social media",
+        "service outage",
+        "Meta"
+      ],
+      "countries": [],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2024-03-05",
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "time_precision": "date_only",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H12",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H12",
+      "headline": "Tesla Cybertruck deliveries hostage to battery production hell",
+      "summary": "Tesla faced a manufacturing bottleneck in 4680 battery-cell production that constrained potential Cybertruck output.",
+      "body": "Tesla faced a manufacturing bottleneck in production of its 4680 battery cells at its Texas operations. The production rate of the cells was not sufficient to support the desired scale of Cybertruck output, making battery manufacturing a constraint on vehicle production. This historical validation snapshot treats the case as a structural manufacturing bottleneck rather than a sudden shutdown and excludes later production outcomes and later delivery figures.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/business/autos-transportation/austin-we-have-problem-tesla-descends-into-battery-hell-2023-12-21/",
+      "thumbnail": null,
+      "authors": [],
+      "topics": [
+        "automotive",
+        "manufacturing",
+        "battery",
+        "4680",
+        "Cybertruck"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2023-12-21",
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "time_precision": "date_only",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    }
+  ]
+}

@@ -1,0 +1,1548 @@
+{
+  "schema_version": "news_research_v1",
+  "generated_at": "2026-09-21T02:57:10.770185+00:00",
+  "knowledge": {
+    "status": "loaded",
+    "workbook": "MAG7_News_Intelligence_Exposure_Knowledge_Layer_V1.xlsx",
+    "edge_count": 27,
+    "message": "Loaded raw exposure rows; each match still requires evidence and temporal checks."
+  },
+  "policies": {
+    "relevance": "relationship_components_v1",
+    "priority": "evidence_first_attention_v1",
+    "historical_ml_role": "optional_retrospective_context_only",
+    "queue_order": "priority, relationship relevance, publication recency, stable IDs",
+    "direction": "Analyst judgment required"
+  },
+  "articles": [
+    {
+      "article_id": "freenewsapi_4e06cd53-e2df-4181-92f9-71b1b7fdc698",
+      "headline": "Missing Carnival Panorama passenger jumped overboard off Mexico's coast",
+      "source": "Fox News",
+      "article_url": "https://www.foxnews.com/travel/missing-carnival-panorama-passenger-jumped-overboard-mexicos-coast",
+      "gate": {
+        "article_id": "freenewsapi_4e06cd53-e2df-4181-92f9-71b1b7fdc698",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": null,
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "rejected",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "freenewsapi_88d78250-1732-48b3-9ffd-a7f1b9975163",
+      "headline": "Confirmed: PBOC leaves Loan Prime Rates unchanged in September",
+      "source": "FXStreet",
+      "article_url": "https://www.fxstreet.com/news/confirmed-pboc-leaves-loan-prime-rates-unchanged-in-september-202609210100",
+      "gate": {
+        "article_id": "freenewsapi_88d78250-1732-48b3-9ffd-a7f1b9975163",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": null,
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "rejected",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "freenewsapi_f15bf067-b612-4338-8041-9e41218ba6f4",
+      "headline": "Nvidia boss rejects AI extinction fears as 'doomsday narratives'",
+      "source": "BBC",
+      "article_url": "https://www.bbc.com/news/articles/cr5ye7p13jg7o",
+      "gate": {
+        "article_id": "freenewsapi_f15bf067-b612-4338-8041-9e41218ba6f4",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": null,
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "rejected",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "freenewsapi_ef76f840-4065-4052-82cf-60af67d7e099",
+      "headline": "Volatile yen draws intervention watch, other currencies subdued",
+      "source": "CNBC",
+      "article_url": "https://www.cnbc.com/2026/09/21/volatile-yen-draws-intervention-watch-other-currencies-subdued.html",
+      "gate": {
+        "article_id": "freenewsapi_ef76f840-4065-4052-82cf-60af67d7e099",
+        "is_event": true,
+        "gate_reason": "Asserted rate_decision event: nal with its unanimous decision to raise its policy rate.",
+        "gate_confidence": 0.8
+      },
+      "event": {
+        "event_id": "evt_9b792a7b551b72af10d5a752",
+        "canonical_event_id": "evt_9b792a7b551b72af10d5a752",
+        "article_ids": [
+          "freenewsapi_ef76f840-4065-4052-82cf-60af67d7e099"
+        ],
+        "source_count": 1,
+        "independent_source_count": 1,
+        "first_seen_at": "2026-09-21T02:54:20.647314+00:00",
+        "last_seen_at": "2026-09-21T02:54:20.647314+00:00",
+        "published_at_first": "2026-09-21T02:20:00.000Z",
+        "event_start_at": null,
+        "event_end_at": null,
+        "time_precision": "unknown",
+        "event_status": "developing",
+        "primary_country": null,
+        "affected_countries": [],
+        "primary_region": null,
+        "affected_regions": [],
+        "city": null,
+        "location_name": null,
+        "latitude": null,
+        "longitude": null,
+        "location_confidence": null,
+        "event_type": "macro_monetary",
+        "event_subtype": "rate_decision",
+        "severity_score": null,
+        "severity_confidence": null,
+        "scope": null,
+        "duration_class": "unknown",
+        "event_novelty": null,
+        "physical_damage": null,
+        "production_disruption": null,
+        "capacity_disruption": null,
+        "logistics_disruption": null,
+        "port_disruption": null,
+        "power_disruption": null,
+        "network_disruption": null,
+        "cloud_service_disruption": null,
+        "labor_disruption": null,
+        "supply_shortage": null,
+        "regulatory_change": null,
+        "export_restriction": null,
+        "import_restriction": null,
+        "price_change_explicit": null,
+        "demand_change_explicit": null,
+        "companies_mentioned": [],
+        "tickers_mentioned": [],
+        "suppliers_mentioned": [],
+        "customers_mentioned": [],
+        "industries_mentioned": [],
+        "products_mentioned": [],
+        "technologies_mentioned": [],
+        "commodities_mentioned": [],
+        "government_entities": [
+          "Federal Reserve"
+        ],
+        "regulators": [
+          "Federal Reserve"
+        ],
+        "people_mentioned": [],
+        "supply_channel": null,
+        "demand_channel": null,
+        "cost_channel": null,
+        "revenue_channel": null,
+        "margin_channel": null,
+        "capex_channel": null,
+        "financing_channel": null,
+        "interest_rate_channel": true,
+        "fx_channel": null,
+        "commodity_channel": null,
+        "logistics_channel": null,
+        "energy_channel": null,
+        "regulatory_channel": null,
+        "legal_channel": null,
+        "technology_channel": null,
+        "competition_channel": null,
+        "source_quality": null,
+        "extraction_confidence": 0.7,
+        "confirmation_level": "single_source",
+        "evidence_fields": {
+          "event_type": {
+            "value": "macro_monetary",
+            "evidence": "nal with its unanimous decision to raise its policy rate.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_subtype": {
+            "value": "rate_decision",
+            "evidence": "nal with its unanimous decision to raise its policy rate.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_summary": {
+            "value": "nal with its unanimous decision to raise its policy rate.",
+            "evidence": "nal with its unanimous decision to raise its policy rate.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "keywords": {
+            "value": [
+              "rate_decision"
+            ],
+            "evidence": "nal with its unanimous decision to raise its policy rate.",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "nal with its unanimous decision to raise its policy rate.",
+                "source_field": "body"
+              }
+            ]
+          },
+          "canonical_headline": {
+            "value": "Volatile yen draws intervention watch, other currencies subdued",
+            "evidence": "Volatile yen draws intervention watch, other currencies subdued",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "independent_source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "event_status": {
+            "value": "developing",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "confirmation_level": {
+            "value": "single_source",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "extraction_confidence": {
+            "value": 0.7,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "published_at_first": {
+            "value": "2026-09-21T02:20:00.000Z",
+            "evidence": "2026-09-21T02:20:00.000Z",
+            "source_field": "published_at",
+            "basis": "provider_metadata"
+          },
+          "first_seen_at": {
+            "value": "2026-09-21T02:54:20.647314+00:00",
+            "evidence": "2026-09-21T02:54:20.647314+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "last_seen_at": {
+            "value": "2026-09-21T02:54:20.647314+00:00",
+            "evidence": "2026-09-21T02:54:20.647314+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "interest_rate_channel": {
+            "value": true,
+            "evidence": "nal with its unanimous decision to raise its policy rate.",
+            "source_field": "body",
+            "basis": "article_text",
+            "assertion": "affirmed"
+          },
+          "government_entities": {
+            "value": [
+              "Federal Reserve"
+            ],
+            "evidence": "Apart from the BOJ, the Federal Reserve and the European Central Bank raised rates this month, with both warn",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "Apart from the BOJ, the Federal Reserve and the European Central Bank raised rates this month, with both warn",
+                "source_field": "body"
+              }
+            ]
+          },
+          "regulators": {
+            "value": [
+              "Federal Reserve"
+            ],
+            "evidence": "Apart from the BOJ, the Federal Reserve and the European Central Bank raised rates this month, with both warn",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "Apart from the BOJ, the Federal Reserve and the European Central Bank raised rates this month, with both warn",
+                "source_field": "body"
+              }
+            ]
+          }
+        },
+        "canonical_headline": "Volatile yen draws intervention watch, other currencies subdued",
+        "event_summary": "nal with its unanimous decision to raise its policy rate.",
+        "keywords": [
+          "rate_decision"
+        ],
+        "created_at": "2026-09-21T02:57:10.770185+00:00",
+        "updated_at": "2026-09-21T02:57:10.770185+00:00",
+        "schema_version": "event_v1"
+      },
+      "candidate_channels": [
+        {
+          "channel_family": "interest_rates",
+          "channel_subtype": "unspecified",
+          "confidence": 0.75,
+          "basis": [
+            "interest_rate_channel"
+          ],
+          "status": "candidate"
+        }
+      ],
+      "ticker_analysis": [],
+      "edge_exclusions": [
+        {
+          "event_id": "evt_9b792a7b551b72af10d5a752",
+          "edge_id": "4",
+          "reason": "non_operating_capacity"
+        },
+        {
+          "event_id": "evt_9b792a7b551b72af10d5a752",
+          "edge_id": "19",
+          "reason": "blocked_or_hypothesis_evidence"
+        }
+      ],
+      "status": "no_qualified_match",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "freenewsapi_d42abbb8-ee3a-46db-ab9d-af134626ba21",
+      "headline": "New Zealand Dollar languishes near two-month low vs USD as bears await break below 0.5700",
+      "source": "FXStreet",
+      "article_url": "https://www.fxstreet.com/news/new-zealand-dollar-languishes-near-two-month-low-vs-usd-as-bears-await-break-below-05700-202609210142",
+      "gate": {
+        "article_id": "freenewsapi_d42abbb8-ee3a-46db-ab9d-af134626ba21",
+        "is_event": true,
+        "gate_reason": "Asserted rate_cut event: On the contrary, lower interest rates tend to weaken NZD.",
+        "gate_confidence": 0.8
+      },
+      "event": {
+        "event_id": "evt_0dfe27790ecc1e24941e24a6",
+        "canonical_event_id": "evt_0dfe27790ecc1e24941e24a6",
+        "article_ids": [
+          "freenewsapi_d42abbb8-ee3a-46db-ab9d-af134626ba21"
+        ],
+        "source_count": 1,
+        "independent_source_count": 1,
+        "first_seen_at": "2026-09-21T02:54:22.149837+00:00",
+        "last_seen_at": "2026-09-21T02:54:22.149837+00:00",
+        "published_at_first": "2026-09-21T01:42:14.000Z",
+        "event_start_at": null,
+        "event_end_at": null,
+        "time_precision": "unknown",
+        "event_status": "developing",
+        "primary_country": null,
+        "affected_countries": [],
+        "primary_region": null,
+        "affected_regions": [],
+        "city": null,
+        "location_name": null,
+        "latitude": null,
+        "longitude": null,
+        "location_confidence": null,
+        "event_type": "macro_monetary",
+        "event_subtype": "rate_cut",
+        "severity_score": null,
+        "severity_confidence": null,
+        "scope": null,
+        "duration_class": "unknown",
+        "event_novelty": null,
+        "physical_damage": null,
+        "production_disruption": null,
+        "capacity_disruption": null,
+        "logistics_disruption": null,
+        "port_disruption": null,
+        "power_disruption": null,
+        "network_disruption": null,
+        "cloud_service_disruption": null,
+        "labor_disruption": null,
+        "supply_shortage": null,
+        "regulatory_change": null,
+        "export_restriction": null,
+        "import_restriction": null,
+        "price_change_explicit": null,
+        "demand_change_explicit": null,
+        "companies_mentioned": [],
+        "tickers_mentioned": [],
+        "suppliers_mentioned": [],
+        "customers_mentioned": [],
+        "industries_mentioned": [],
+        "products_mentioned": [],
+        "technologies_mentioned": [
+          "AI"
+        ],
+        "commodities_mentioned": [
+          "oil"
+        ],
+        "government_entities": [
+          "Federal Reserve"
+        ],
+        "regulators": [
+          "Federal Reserve"
+        ],
+        "people_mentioned": [],
+        "supply_channel": null,
+        "demand_channel": null,
+        "cost_channel": null,
+        "revenue_channel": null,
+        "margin_channel": null,
+        "capex_channel": null,
+        "financing_channel": null,
+        "interest_rate_channel": true,
+        "fx_channel": null,
+        "commodity_channel": null,
+        "logistics_channel": null,
+        "energy_channel": null,
+        "regulatory_channel": null,
+        "legal_channel": null,
+        "technology_channel": null,
+        "competition_channel": null,
+        "source_quality": null,
+        "extraction_confidence": 0.7,
+        "confirmation_level": "single_source",
+        "evidence_fields": {
+          "event_type": {
+            "value": "macro_monetary",
+            "evidence": "On the contrary, lower interest rates tend to weaken NZD.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_subtype": {
+            "value": "rate_cut",
+            "evidence": "On the contrary, lower interest rates tend to weaken NZD.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_summary": {
+            "value": "On the contrary, lower interest rates tend to weaken NZD.",
+            "evidence": "On the contrary, lower interest rates tend to weaken NZD.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "keywords": {
+            "value": [
+              "rate_cut"
+            ],
+            "evidence": "On the contrary, lower interest rates tend to weaken NZD.",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "On the contrary, lower interest rates tend to weaken NZD.",
+                "source_field": "body"
+              }
+            ]
+          },
+          "canonical_headline": {
+            "value": "New Zealand Dollar languishes near two-month low vs USD as bears await break below 0.5700",
+            "evidence": "New Zealand Dollar languishes near two-month low vs USD as bears await break below 0.5700",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "independent_source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "event_status": {
+            "value": "developing",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "confirmation_level": {
+            "value": "single_source",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "extraction_confidence": {
+            "value": 0.7,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "published_at_first": {
+            "value": "2026-09-21T01:42:14.000Z",
+            "evidence": "2026-09-21T01:42:14.000Z",
+            "source_field": "published_at",
+            "basis": "provider_metadata"
+          },
+          "first_seen_at": {
+            "value": "2026-09-21T02:54:22.149837+00:00",
+            "evidence": "2026-09-21T02:54:22.149837+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "last_seen_at": {
+            "value": "2026-09-21T02:54:22.149837+00:00",
+            "evidence": "2026-09-21T02:54:22.149837+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "interest_rate_channel": {
+            "value": true,
+            "evidence": "On the contrary, lower interest rates tend to weaken NZD.",
+            "source_field": "body",
+            "basis": "article_text",
+            "assertion": "affirmed"
+          },
+          "government_entities": {
+            "value": [
+              "Federal Reserve"
+            ],
+            "evidence": "In contrast, the US Federal Reserve (Fed) maintained a relatively hawkish stance and signaled at least on",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "In contrast, the US Federal Reserve (Fed) maintained a relatively hawkish stance and signaled at least on",
+                "source_field": "body"
+              }
+            ]
+          },
+          "regulators": {
+            "value": [
+              "Federal Reserve"
+            ],
+            "evidence": "In contrast, the US Federal Reserve (Fed) maintained a relatively hawkish stance and signaled at least on",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "In contrast, the US Federal Reserve (Fed) maintained a relatively hawkish stance and signaled at least on",
+                "source_field": "body"
+              }
+            ]
+          },
+          "commodities_mentioned": {
+            "value": [
+              "oil"
+            ],
+            "evidence": "nts from Saudi Arabia dragged oil prices to an over one-week low, helping alleviate immediate fears of ",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "nts from Saudi Arabia dragged oil prices to an over one-week low, helping alleviate immediate fears of ",
+                "source_field": "body"
+              }
+            ]
+          },
+          "technologies_mentioned": {
+            "value": [
+              "AI"
+            ],
+            "evidence": "(The technical analysis of this story was written with the help of an AI tool.",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "(The technical analysis of this story was written with the help of an AI tool.",
+                "source_field": "body"
+              }
+            ]
+          }
+        },
+        "canonical_headline": "New Zealand Dollar languishes near two-month low vs USD as bears await break below 0.5700",
+        "event_summary": "On the contrary, lower interest rates tend to weaken NZD.",
+        "keywords": [
+          "rate_cut"
+        ],
+        "created_at": "2026-09-21T02:57:10.770185+00:00",
+        "updated_at": "2026-09-21T02:57:10.770185+00:00",
+        "schema_version": "event_v1"
+      },
+      "candidate_channels": [
+        {
+          "channel_family": "interest_rates",
+          "channel_subtype": "unspecified",
+          "confidence": 0.75,
+          "basis": [
+            "interest_rate_channel"
+          ],
+          "status": "candidate"
+        }
+      ],
+      "ticker_analysis": [],
+      "edge_exclusions": [
+        {
+          "event_id": "evt_0dfe27790ecc1e24941e24a6",
+          "edge_id": "4",
+          "reason": "non_operating_capacity"
+        },
+        {
+          "event_id": "evt_0dfe27790ecc1e24941e24a6",
+          "edge_id": "19",
+          "reason": "blocked_or_hypothesis_evidence"
+        }
+      ],
+      "status": "no_qualified_match",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "freenewsapi_c96075d5-089e-4218-9151-f7c4ca8b0bc2",
+      "headline": "Japanese Yen bulls seem hesitant amid BoJ's dovish rate hike as Fed bets support USD",
+      "source": "FXStreet",
+      "article_url": "https://www.fxstreet.com/news/japanese-yen-bulls-seem-hesitant-amid-bojs-dovish-rate-hike-as-fed-bets-support-usd-202609210112",
+      "gate": {
+        "article_id": "freenewsapi_c96075d5-089e-4218-9151-f7c4ca8b0bc2",
+        "is_event": true,
+        "gate_reason": "Asserted rate_decision event: xpected, the Japanese central bank raised the short-term interest rate to a 31-year high on Friday and reiterated that it will continue raising rates ",
+        "gate_confidence": 0.8
+      },
+      "event": {
+        "event_id": "evt_535a71a25cd34cc2ffde4e0f",
+        "canonical_event_id": "evt_535a71a25cd34cc2ffde4e0f",
+        "article_ids": [
+          "freenewsapi_c96075d5-089e-4218-9151-f7c4ca8b0bc2"
+        ],
+        "source_count": 1,
+        "independent_source_count": 1,
+        "first_seen_at": "2026-09-21T02:54:23.660114+00:00",
+        "last_seen_at": "2026-09-21T02:54:23.660114+00:00",
+        "published_at_first": "2026-09-21T01:12:12.000Z",
+        "event_start_at": null,
+        "event_end_at": null,
+        "time_precision": "unknown",
+        "event_status": "developing",
+        "primary_country": null,
+        "affected_countries": [],
+        "primary_region": null,
+        "affected_regions": [],
+        "city": null,
+        "location_name": null,
+        "latitude": null,
+        "longitude": null,
+        "location_confidence": null,
+        "event_type": "macro_monetary",
+        "event_subtype": "rate_decision",
+        "severity_score": null,
+        "severity_confidence": null,
+        "scope": null,
+        "duration_class": "unknown",
+        "event_novelty": null,
+        "physical_damage": null,
+        "production_disruption": null,
+        "capacity_disruption": null,
+        "logistics_disruption": null,
+        "port_disruption": null,
+        "power_disruption": null,
+        "network_disruption": null,
+        "cloud_service_disruption": null,
+        "labor_disruption": null,
+        "supply_shortage": null,
+        "regulatory_change": null,
+        "export_restriction": null,
+        "import_restriction": null,
+        "price_change_explicit": null,
+        "demand_change_explicit": null,
+        "companies_mentioned": [],
+        "tickers_mentioned": [],
+        "suppliers_mentioned": [],
+        "customers_mentioned": [],
+        "industries_mentioned": [],
+        "products_mentioned": [],
+        "technologies_mentioned": [
+          "AI"
+        ],
+        "commodities_mentioned": [],
+        "government_entities": [
+          "Federal Reserve"
+        ],
+        "regulators": [
+          "Federal Reserve"
+        ],
+        "people_mentioned": [],
+        "supply_channel": null,
+        "demand_channel": null,
+        "cost_channel": null,
+        "revenue_channel": null,
+        "margin_channel": null,
+        "capex_channel": null,
+        "financing_channel": null,
+        "interest_rate_channel": true,
+        "fx_channel": null,
+        "commodity_channel": null,
+        "logistics_channel": null,
+        "energy_channel": null,
+        "regulatory_channel": null,
+        "legal_channel": null,
+        "technology_channel": null,
+        "competition_channel": null,
+        "source_quality": null,
+        "extraction_confidence": 0.7,
+        "confirmation_level": "single_source",
+        "evidence_fields": {
+          "event_type": {
+            "value": "macro_monetary",
+            "evidence": "xpected, the Japanese central bank raised the short-term interest rate to a 31-year high on Friday and reiterated that it will continue raising rates ",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_subtype": {
+            "value": "rate_decision",
+            "evidence": "xpected, the Japanese central bank raised the short-term interest rate to a 31-year high on Friday and reiterated that it will continue raising rates ",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_summary": {
+            "value": "xpected, the Japanese central bank raised the short-term interest rate to a 31-year high on Friday and reiterated that it will continue raising rates ",
+            "evidence": "xpected, the Japanese central bank raised the short-term interest rate to a 31-year high on Friday and reiterated that it will continue raising rates ",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "keywords": {
+            "value": [
+              "rate_decision"
+            ],
+            "evidence": "xpected, the Japanese central bank raised the short-term interest rate to a 31-year high on Friday and reiterated that it will continue raising rates ",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "xpected, the Japanese central bank raised the short-term interest rate to a 31-year high on Friday and reiterated that it will continue raising rates ",
+                "source_field": "body"
+              }
+            ]
+          },
+          "canonical_headline": {
+            "value": "Japanese Yen bulls seem hesitant amid BoJ's dovish rate hike as Fed bets support USD",
+            "evidence": "Japanese Yen bulls seem hesitant amid BoJ's dovish rate hike as Fed bets support USD",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "independent_source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "event_status": {
+            "value": "developing",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "confirmation_level": {
+            "value": "single_source",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "extraction_confidence": {
+            "value": 0.7,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "published_at_first": {
+            "value": "2026-09-21T01:12:12.000Z",
+            "evidence": "2026-09-21T01:12:12.000Z",
+            "source_field": "published_at",
+            "basis": "provider_metadata"
+          },
+          "first_seen_at": {
+            "value": "2026-09-21T02:54:23.660114+00:00",
+            "evidence": "2026-09-21T02:54:23.660114+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "last_seen_at": {
+            "value": "2026-09-21T02:54:23.660114+00:00",
+            "evidence": "2026-09-21T02:54:23.660114+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "interest_rate_channel": {
+            "value": true,
+            "evidence": "xpected, the Japanese central bank raised the short-term interest rate to a 31-year high on Friday and reiterated that it will continue raising rates ",
+            "source_field": "body",
+            "basis": "article_text",
+            "assertion": "affirmed"
+          },
+          "government_entities": {
+            "value": [
+              "Federal Reserve"
+            ],
+            "evidence": "Adding to this, the US Federal Reserve's (Fed) hawkish outlook , signaling at least one more follow-up rate ",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "Adding to this, the US Federal Reserve's (Fed) hawkish outlook , signaling at least one more follow-up rate ",
+                "source_field": "body"
+              }
+            ]
+          },
+          "regulators": {
+            "value": [
+              "Federal Reserve"
+            ],
+            "evidence": "Adding to this, the US Federal Reserve's (Fed) hawkish outlook , signaling at least one more follow-up rate ",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "Adding to this, the US Federal Reserve's (Fed) hawkish outlook , signaling at least one more follow-up rate ",
+                "source_field": "body"
+              }
+            ]
+          },
+          "technologies_mentioned": {
+            "value": [
+              "AI"
+            ],
+            "evidence": "(The technical analysis of this story was written with the help of an AI tool.",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "(The technical analysis of this story was written with the help of an AI tool.",
+                "source_field": "body"
+              }
+            ]
+          }
+        },
+        "canonical_headline": "Japanese Yen bulls seem hesitant amid BoJ's dovish rate hike as Fed bets support USD",
+        "event_summary": "xpected, the Japanese central bank raised the short-term interest rate to a 31-year high on Friday and reiterated that it will continue raising rates ",
+        "keywords": [
+          "rate_decision"
+        ],
+        "created_at": "2026-09-21T02:57:10.770185+00:00",
+        "updated_at": "2026-09-21T02:57:10.770185+00:00",
+        "schema_version": "event_v1"
+      },
+      "candidate_channels": [
+        {
+          "channel_family": "interest_rates",
+          "channel_subtype": "unspecified",
+          "confidence": 0.75,
+          "basis": [
+            "interest_rate_channel"
+          ],
+          "status": "candidate"
+        }
+      ],
+      "ticker_analysis": [],
+      "edge_exclusions": [
+        {
+          "event_id": "evt_535a71a25cd34cc2ffde4e0f",
+          "edge_id": "4",
+          "reason": "non_operating_capacity"
+        },
+        {
+          "event_id": "evt_535a71a25cd34cc2ffde4e0f",
+          "edge_id": "19",
+          "reason": "blocked_or_hypothesis_evidence"
+        }
+      ],
+      "status": "no_qualified_match",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "freenewsapi_da45790d-2c14-4b8c-9032-8853b60e78f9",
+      "headline": "Bessent: US proposes AI incident alert system in talks with China",
+      "source": "Yahoo",
+      "article_url": "https://www.yahoo.com/news/politics/articles/bessent-us-proposes-ai-incident-014924679.html",
+      "gate": {
+        "article_id": "freenewsapi_da45790d-2c14-4b8c-9032-8853b60e78f9",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": null,
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "rejected",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "freenewsapi_454f4948-4b82-41d8-b018-d237061442f4",
+      "headline": "Newshour | The German chancellor describes the results of a state election as a \"disaster\"",
+      "source": "BBC",
+      "article_url": "https://www.bbc.com/audio/play/w1730bn6n9bwg4y",
+      "gate": {
+        "article_id": "freenewsapi_454f4948-4b82-41d8-b018-d237061442f4",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": null,
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "rejected",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "freenewsapi_ca8d429a-a5d0-42db-879e-9c20a97d5f1c",
+      "headline": "IMF Says Global Public Debt at Record High, Governments Falling Short on Deficit Cuts",
+      "source": "bloomingbit",
+      "article_url": "https://en.bloomingbit.io/feed/news/120693",
+      "gate": {
+        "article_id": "freenewsapi_ca8d429a-a5d0-42db-879e-9c20a97d5f1c",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": null,
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "rejected",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "freenewsapi_d1ce402a-1254-4f72-afc7-b4c86a9069d6",
+      "headline": "Stellar Blade \"Switch 2 vs. PS5\" graphics and framerate comparison",
+      "source": "GoNintendo",
+      "article_url": "https://gonintendo.com/contents/65255-stellar-blade-switch-2-vs-ps5-graphics-and-framerate-comparison",
+      "gate": {
+        "article_id": "freenewsapi_d1ce402a-1254-4f72-afc7-b4c86a9069d6",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": null,
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "rejected",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "freenewsapi_6e330833-6052-405e-bcba-8f57ff937692",
+      "headline": "Lufia is finally coming to PC for the first time ever",
+      "source": "well-played.com.au",
+      "article_url": "https://www.well-played.com.au/lufia-1-2-sinistrals-saga-announced-pc-switch-ps5/",
+      "gate": {
+        "article_id": "freenewsapi_6e330833-6052-405e-bcba-8f57ff937692",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": null,
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "rejected",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "freenewsapi_1ad64d53-2922-4e3f-8be0-61a78647e112",
+      "headline": "Good News: Trumpet player sings National Anthem after horn malfunction",
+      "source": "Yahoo",
+      "article_url": "https://www.yahoo.com/news/videos/good-news-trumpet-player-sings-230244752.html",
+      "gate": {
+        "article_id": "freenewsapi_1ad64d53-2922-4e3f-8be0-61a78647e112",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": null,
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "rejected",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "freenewsapi_f7b2ede4-bd84-4bf4-8225-a36e2898009c",
+      "headline": "Petrobras Backs New Diesel Subsidy as Fuel Payments Reach $1.9 Billion",
+      "source": "Crude Oil Prices Today | OilPrice.com",
+      "article_url": "https://oilprice.com/Company-News/Petrobras-Backs-New-Diesel-Subsidy-as-Fuel-Payments-Reach-19-Billion.html",
+      "gate": {
+        "article_id": "freenewsapi_f7b2ede4-bd84-4bf4-8225-a36e2898009c",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": null,
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "rejected",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "freenewsapi_becbd6f8-e884-465e-9381-3cd937f6c1d9",
+      "headline": "Discarded pool chemicals in garbage truck load cause vapor cloud, hours-long hazmat response in Gurnee",
+      "source": "Lake and McHenry County Scanner",
+      "article_url": "https://www.lakemchenryscanner.com/2026/09/20/discarded-pool-chemicals-in-garbage-truck-load-cause-vapor-cloud-hours-long-hazmat-response-in-gurnee/",
+      "gate": {
+        "article_id": "freenewsapi_becbd6f8-e884-465e-9381-3cd937f6c1d9",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": null,
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "rejected",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "freenewsapi_68363629-7144-4a39-aeac-731cc56e904e",
+      "headline": "The iron-air storage solution for solar",
+      "source": "BusinessLine",
+      "article_url": "https://www.thehindubusinessline.com/business-tech/the-iron-air-storage-solution-for-solar/article71488881.ece",
+      "gate": {
+        "article_id": "freenewsapi_68363629-7144-4a39-aeac-731cc56e904e",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": null,
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "rejected",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "freenewsapi_bc9d07b3-a97d-4901-8e3a-f426a15d355a",
+      "headline": "COMMENT | Govt must reveal reasons for Najib's pardon",
+      "source": "malaysiakini.com",
+      "article_url": "https://www.malaysiakini.com/columns/885402-comment-govt-must-reveal-reasons-for-najibs-pardon",
+      "gate": {
+        "article_id": "freenewsapi_bc9d07b3-a97d-4901-8e3a-f426a15d355a",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": null,
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "rejected",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "freenewsapi_a990e6fb-b2e8-447b-a7fd-093f3baf9f48",
+      "headline": "In Washington, temples to Trump’s ego lie ruined. And another is on the way",
+      "source": "SMH.com.au",
+      "article_url": "https://www.smh.com.au/world/north-america/in-washington-temples-to-trump-s-ego-lie-ruined-and-another-is-on-the-way-20260921-p60yzq.html",
+      "gate": {
+        "article_id": "freenewsapi_a990e6fb-b2e8-447b-a7fd-093f3baf9f48",
+        "is_event": true,
+        "gate_reason": "Asserted ruling event: folding covers the signage where a court ordered the Trump administration to remove Donald Trump’s name.",
+        "gate_confidence": 0.8
+      },
+      "event": {
+        "event_id": "evt_807ac14d6979c7125f04c5d8",
+        "canonical_event_id": "evt_807ac14d6979c7125f04c5d8",
+        "article_ids": [
+          "freenewsapi_a990e6fb-b2e8-447b-a7fd-093f3baf9f48"
+        ],
+        "source_count": 1,
+        "independent_source_count": 1,
+        "first_seen_at": "2026-09-21T02:54:40.714495+00:00",
+        "last_seen_at": "2026-09-21T02:54:40.714495+00:00",
+        "published_at_first": "2026-09-21T01:49:10.000Z",
+        "event_start_at": null,
+        "event_end_at": null,
+        "time_precision": "unknown",
+        "event_status": "developing",
+        "primary_country": null,
+        "affected_countries": [],
+        "primary_region": null,
+        "affected_regions": [],
+        "city": null,
+        "location_name": null,
+        "latitude": null,
+        "longitude": null,
+        "location_confidence": null,
+        "event_type": "legal_antitrust",
+        "event_subtype": "ruling",
+        "severity_score": null,
+        "severity_confidence": null,
+        "scope": null,
+        "duration_class": "unknown",
+        "event_novelty": null,
+        "physical_damage": null,
+        "production_disruption": null,
+        "capacity_disruption": null,
+        "logistics_disruption": null,
+        "port_disruption": null,
+        "power_disruption": null,
+        "network_disruption": null,
+        "cloud_service_disruption": null,
+        "labor_disruption": null,
+        "supply_shortage": null,
+        "regulatory_change": null,
+        "export_restriction": null,
+        "import_restriction": null,
+        "price_change_explicit": null,
+        "demand_change_explicit": null,
+        "companies_mentioned": [],
+        "tickers_mentioned": [],
+        "suppliers_mentioned": [],
+        "customers_mentioned": [],
+        "industries_mentioned": [],
+        "products_mentioned": [],
+        "technologies_mentioned": [],
+        "commodities_mentioned": [],
+        "government_entities": [],
+        "regulators": [],
+        "people_mentioned": [],
+        "supply_channel": null,
+        "demand_channel": null,
+        "cost_channel": null,
+        "revenue_channel": null,
+        "margin_channel": null,
+        "capex_channel": null,
+        "financing_channel": null,
+        "interest_rate_channel": null,
+        "fx_channel": null,
+        "commodity_channel": null,
+        "logistics_channel": null,
+        "energy_channel": null,
+        "regulatory_channel": null,
+        "legal_channel": true,
+        "technology_channel": null,
+        "competition_channel": null,
+        "source_quality": null,
+        "extraction_confidence": 0.7,
+        "confirmation_level": "single_source",
+        "evidence_fields": {
+          "event_type": {
+            "value": "legal_antitrust",
+            "evidence": "folding covers the signage where a court ordered the Trump administration to remove Donald Trump’s name.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_subtype": {
+            "value": "ruling",
+            "evidence": "folding covers the signage where a court ordered the Trump administration to remove Donald Trump’s name.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_summary": {
+            "value": "folding covers the signage where a court ordered the Trump administration to remove Donald Trump’s name.",
+            "evidence": "folding covers the signage where a court ordered the Trump administration to remove Donald Trump’s name.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "keywords": {
+            "value": [
+              "ruling"
+            ],
+            "evidence": "folding covers the signage where a court ordered the Trump administration to remove Donald Trump’s name.",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "folding covers the signage where a court ordered the Trump administration to remove Donald Trump’s name.",
+                "source_field": "body"
+              }
+            ]
+          },
+          "canonical_headline": {
+            "value": "In Washington, temples to Trump’s ego lie ruined. And another is on the way",
+            "evidence": "In Washington, temples to Trump’s ego lie ruined. And another is on the way",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "independent_source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "event_status": {
+            "value": "developing",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "confirmation_level": {
+            "value": "single_source",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "extraction_confidence": {
+            "value": 0.7,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "published_at_first": {
+            "value": "2026-09-21T01:49:10.000Z",
+            "evidence": "2026-09-21T01:49:10.000Z",
+            "source_field": "published_at",
+            "basis": "provider_metadata"
+          },
+          "first_seen_at": {
+            "value": "2026-09-21T02:54:40.714495+00:00",
+            "evidence": "2026-09-21T02:54:40.714495+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "last_seen_at": {
+            "value": "2026-09-21T02:54:40.714495+00:00",
+            "evidence": "2026-09-21T02:54:40.714495+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "legal_channel": {
+            "value": true,
+            "evidence": "folding covers the signage where a court ordered the Trump administration to remove Donald Trump’s name.",
+            "source_field": "body",
+            "basis": "article_text",
+            "assertion": "affirmed"
+          }
+        },
+        "canonical_headline": "In Washington, temples to Trump’s ego lie ruined. And another is on the way",
+        "event_summary": "folding covers the signage where a court ordered the Trump administration to remove Donald Trump’s name.",
+        "keywords": [
+          "ruling"
+        ],
+        "created_at": "2026-09-21T02:57:10.770185+00:00",
+        "updated_at": "2026-09-21T02:57:10.770185+00:00",
+        "schema_version": "event_v1"
+      },
+      "candidate_channels": [
+        {
+          "channel_family": "legal_antitrust",
+          "channel_subtype": "unspecified",
+          "confidence": 0.75,
+          "basis": [
+            "legal_channel"
+          ],
+          "status": "candidate"
+        }
+      ],
+      "ticker_analysis": [],
+      "edge_exclusions": [
+        {
+          "event_id": "evt_807ac14d6979c7125f04c5d8",
+          "edge_id": "4",
+          "reason": "non_operating_capacity"
+        },
+        {
+          "event_id": "evt_807ac14d6979c7125f04c5d8",
+          "edge_id": "19",
+          "reason": "blocked_or_hypothesis_evidence"
+        }
+      ],
+      "status": "no_qualified_match",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "freenewsapi_4a78c634-4e8c-4016-9d40-292cc14bd2d8",
+      "headline": "SNAPSHOT | Anwar denies paving way for Najib's pardon; PM celebrates Malacca CM's birthday",
+      "source": "Malaysiakini",
+      "article_url": "https://www.malaysiakini.com/news/885415-snapshot-anwar-denies-paving-way-for-najibs-pardon-pm-celebrates-malacca-cms-birthday",
+      "gate": {
+        "article_id": "freenewsapi_4a78c634-4e8c-4016-9d40-292cc14bd2d8",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": null,
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "rejected",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "freenewsapi_622f3b75-8c46-449e-ae1e-0aee34ead34e",
+      "headline": "Putin's United Russia wins tightly controlled wartime election",
+      "source": "yahoo.com",
+      "article_url": "https://www.yahoo.com/news/world/articles/putins-united-russia-wins-tightly-020337735.html",
+      "gate": {
+        "article_id": "freenewsapi_622f3b75-8c46-449e-ae1e-0aee34ead34e",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": null,
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "rejected",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "freenewsapi_cfaecb74-b4de-461d-932f-d26d1cc316ea",
+      "headline": "Princess Diana's brother says his bombshell claims against King Charles following her death will 'not be a surprise' to nephews William and Harry",
+      "source": "pagesix.com",
+      "article_url": "https://pagesix.com/2026/09/20/royal-family/princess-dianas-brother-says-his-bombshell-claims-against-king-charles-following-her-death-will-not-be-a-surprise-to-nephews-william-and-harry/",
+      "gate": {
+        "article_id": "freenewsapi_cfaecb74-b4de-461d-932f-d26d1cc316ea",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": null,
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "rejected",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "freenewsapi_17270f98-6ab2-4d50-9b25-e67a072a4041",
+      "headline": "Ukraine war briefing: Russia to ‘intensify’ attacks on Kyiv after Moscow hit with mass drone strikes",
+      "source": "The Guardian",
+      "article_url": "https://www.theguardian.com/world/2026/sep/21/ukraine-war-briefing-russia-intensify-attacks-kyiv",
+      "gate": {
+        "article_id": "freenewsapi_17270f98-6ab2-4d50-9b25-e67a072a4041",
+        "is_event": true,
+        "gate_reason": "Asserted conflict event: Moscow illegally annexed after the war began ,",
+        "gate_confidence": 0.8
+      },
+      "event": {
+        "event_id": "evt_a57a5890562059c85dc0c800",
+        "canonical_event_id": "evt_a57a5890562059c85dc0c800",
+        "article_ids": [
+          "freenewsapi_17270f98-6ab2-4d50-9b25-e67a072a4041"
+        ],
+        "source_count": 1,
+        "independent_source_count": 1,
+        "first_seen_at": "2026-09-21T02:54:46.753079+00:00",
+        "last_seen_at": "2026-09-21T02:54:46.753079+00:00",
+        "published_at_first": "2026-09-21T01:14:00.000Z",
+        "event_start_at": null,
+        "event_end_at": null,
+        "time_precision": "unknown",
+        "event_status": "developing",
+        "primary_country": null,
+        "affected_countries": [],
+        "primary_region": null,
+        "affected_regions": [],
+        "city": null,
+        "location_name": null,
+        "latitude": null,
+        "longitude": null,
+        "location_confidence": null,
+        "event_type": "geopolitical_conflict",
+        "event_subtype": "conflict",
+        "severity_score": null,
+        "severity_confidence": null,
+        "scope": null,
+        "duration_class": "unknown",
+        "event_novelty": null,
+        "physical_damage": null,
+        "production_disruption": null,
+        "capacity_disruption": null,
+        "logistics_disruption": null,
+        "port_disruption": null,
+        "power_disruption": null,
+        "network_disruption": null,
+        "cloud_service_disruption": null,
+        "labor_disruption": null,
+        "supply_shortage": null,
+        "regulatory_change": null,
+        "export_restriction": null,
+        "import_restriction": null,
+        "price_change_explicit": null,
+        "demand_change_explicit": null,
+        "companies_mentioned": [],
+        "tickers_mentioned": [],
+        "suppliers_mentioned": [],
+        "customers_mentioned": [],
+        "industries_mentioned": [],
+        "products_mentioned": [],
+        "technologies_mentioned": [],
+        "commodities_mentioned": [
+          "oil"
+        ],
+        "government_entities": [],
+        "regulators": [],
+        "people_mentioned": [],
+        "supply_channel": null,
+        "demand_channel": null,
+        "cost_channel": null,
+        "revenue_channel": null,
+        "margin_channel": null,
+        "capex_channel": null,
+        "financing_channel": null,
+        "interest_rate_channel": null,
+        "fx_channel": null,
+        "commodity_channel": null,
+        "logistics_channel": null,
+        "energy_channel": null,
+        "regulatory_channel": null,
+        "legal_channel": null,
+        "technology_channel": null,
+        "competition_channel": null,
+        "source_quality": null,
+        "extraction_confidence": 0.7,
+        "confirmation_level": "single_source",
+        "evidence_fields": {
+          "event_type": {
+            "value": "geopolitical_conflict",
+            "evidence": "Moscow illegally annexed after the war began ,",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_subtype": {
+            "value": "conflict",
+            "evidence": "Moscow illegally annexed after the war began ,",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_summary": {
+            "value": "Moscow illegally annexed after the war began ,",
+            "evidence": "Moscow illegally annexed after the war began ,",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "keywords": {
+            "value": [
+              "conflict"
+            ],
+            "evidence": "Moscow illegally annexed after the war began ,",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "Moscow illegally annexed after the war began ,",
+                "source_field": "body"
+              }
+            ]
+          },
+          "canonical_headline": {
+            "value": "Ukraine war briefing: Russia to ‘intensify’ attacks on Kyiv after Moscow hit with mass drone strikes",
+            "evidence": "Ukraine war briefing: Russia to ‘intensify’ attacks on Kyiv after Moscow hit with mass drone strikes",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "independent_source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "event_status": {
+            "value": "developing",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "confirmation_level": {
+            "value": "single_source",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "extraction_confidence": {
+            "value": 0.7,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "published_at_first": {
+            "value": "2026-09-21T01:14:00.000Z",
+            "evidence": "2026-09-21T01:14:00.000Z",
+            "source_field": "published_at",
+            "basis": "provider_metadata"
+          },
+          "first_seen_at": {
+            "value": "2026-09-21T02:54:46.753079+00:00",
+            "evidence": "2026-09-21T02:54:46.753079+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "last_seen_at": {
+            "value": "2026-09-21T02:54:46.753079+00:00",
+            "evidence": "2026-09-21T02:54:46.753079+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "commodities_mentioned": {
+            "value": [
+              "oil"
+            ],
+            "evidence": "g from what appeared to be an oil refinery.",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "g from what appeared to be an oil refinery.",
+                "source_field": "body"
+              }
+            ]
+          }
+        },
+        "canonical_headline": "Ukraine war briefing: Russia to ‘intensify’ attacks on Kyiv after Moscow hit with mass drone strikes",
+        "event_summary": "Moscow illegally annexed after the war began ,",
+        "keywords": [
+          "conflict"
+        ],
+        "created_at": "2026-09-21T02:57:10.770185+00:00",
+        "updated_at": "2026-09-21T02:57:10.770185+00:00",
+        "schema_version": "event_v1"
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [
+        {
+          "event_id": "evt_a57a5890562059c85dc0c800",
+          "edge_id": "4",
+          "reason": "non_operating_capacity"
+        },
+        {
+          "event_id": "evt_a57a5890562059c85dc0c800",
+          "edge_id": "19",
+          "reason": "blocked_or_hypothesis_evidence"
+        }
+      ],
+      "status": "no_qualified_match",
+      "direction": "Analyst judgment required"
+    }
+  ],
+  "research_queue": [],
+  "summary": {
+    "articles": 21,
+    "accepted": 5,
+    "rejected": 16,
+    "qualified_pairs": 0,
+    "review_candidates": 0
+  }
+}

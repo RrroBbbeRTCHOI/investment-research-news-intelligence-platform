@@ -1,0 +1,128 @@
+{
+  "status": "available",
+  "schema_version": "news_semantic_v3_1",
+  "prompt_version": "news_semantics_v3_1_sentence_grounding",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "content_hash": "0bb6231c05c50c53bdb28c3ea889103bcc25026ff6edb60b36ec3256ef02c05f",
+  "article_content_hash": "417439e1fc0e812e4300087a2a4402551c24fa5f3ab90b16e28395afaccd9ee3",
+  "generated_at": "2026-09-25T14:46:56.056738+00:00",
+  "semantic": {
+    "article_class": "macro_event",
+    "is_relevant_candidate": true,
+    "summary_short": "Consumer prices rose 0.4% in August, as expected; core inflation was higher than estimated",
+    "summary_full": "Consumer prices rose 0.4% in August, as expected; core inflation was higher than estimated. The all-items consumer price index was expected to rise 0.4% in August, with core, excluding food and energy, showing a 0.2% gain, according to the Dow Jones consensus.",
+    "primary_country": "United States",
+    "event_type": "Inflation",
+    "event_subtype": "Consumer Price Index",
+    "countries": [
+      "United States"
+    ],
+    "entities": [
+      "Federal Reserve",
+      "Bureau of Labor Statistics",
+      "Dow Jones"
+    ],
+    "companies_mentioned": [],
+    "direct_ticker_candidates": [],
+    "economic_channels": [
+      "Inflation",
+      "Interest Rates",
+      "Consumer Prices"
+    ],
+    "candidate_indirect_tickers": [],
+    "missing_information": [],
+    "research_questions": [
+      "How will the Federal Reserve vote on its key interest rate at the upcoming policy meeting?"
+    ],
+    "severity_candidate": "Medium",
+    "severity_reason": "Consumer prices rose by 0.4% in August and core inflation came in higher than estimated, serving as a key inflation indicator ahead of the Federal Reserve policy meeting.",
+    "severity_confidence": 0.9,
+    "operational_event": false,
+    "fundamental_change_detected": false,
+    "llm_confidence": 1.0,
+    "citations": [
+      {
+        "field": "summary_short",
+        "quote": "Consumer prices rose 0.4% in August, as expected; core inflation was higher than estimated",
+        "source_field": "headline"
+      },
+      {
+        "field": "summary_full",
+        "quote": "Consumer prices rose 0.4% in August, as expected; core inflation was higher than estimated",
+        "source_field": "headline"
+      },
+      {
+        "field": "summary_full",
+        "quote": "The all-items consumer price index was expected to rise 0.4% in August, with core, excluding food and energy, showing a 0.2% gain, according to the Dow Jones consensus.",
+        "source_field": "summary"
+      },
+      {
+        "field": "primary_country",
+        "quote": "Federal Reserve",
+        "source_field": "body"
+      },
+      {
+        "field": "event_type",
+        "quote": "Consumer prices rose 0.4% in August, as expected; core inflation was higher than estimated",
+        "source_field": "headline"
+      },
+      {
+        "field": "event_subtype",
+        "quote": "consumer price index",
+        "source_field": "summary"
+      },
+      {
+        "field": "article_class",
+        "quote": "Consumer prices rose 0.4% in August, as expected; core inflation was higher than estimated",
+        "source_field": "headline"
+      },
+      {
+        "field": "economic_channels",
+        "quote": "core inflation was higher than estimated",
+        "source_field": "headline"
+      },
+      {
+        "field": "severity_candidate",
+        "quote": "Consumer prices rose by 0.4% in August, as expected, but core inflation was higher than estimated.",
+        "source_field": "body"
+      },
+      {
+        "field": "operational_event",
+        "quote": "Consumer prices rose by 0.4% in August, as expected, but core inflation was higher than estimated.",
+        "source_field": "body"
+      },
+      {
+        "field": "fundamental_change_detected",
+        "quote": "Consumer prices rose by 0.4% in August, as expected, but core inflation was higher than estimated.",
+        "source_field": "body"
+      },
+      {
+        "field": "direct_ticker_candidates",
+        "quote": "Federal Reserve",
+        "source_field": "body"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "total_tokens": 1442,
+    "estimated_cost_usd": null,
+    "scope": "successful response only; failed-attempt usage unavailable"
+  },
+  "cache_hit": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "success"
+    }
+  ],
+  "attempt_audit_scope": "original enrichment generation; cache reuse makes no new requests",
+  "attempt_count": 1,
+  "retry_count": 0,
+  "fallback_used": false
+}

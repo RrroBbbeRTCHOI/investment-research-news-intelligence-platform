@@ -1,0 +1,79 @@
+{
+  "model": "CRQ V1 Stage 4 - recognition evidence / field-definition audit (not a score)",
+  "ticker": "AAPL",
+  "fiscal_year": 2025,
+  "currency": "USD",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+  "source_locators": {
+    "ar": "AAPL FY2025 Form 10-K, Consolidated Balance Sheets, p.31 (PDF p.35)",
+    "revenue": "AAPL FY2025 Form 10-K, Note 2 - Revenue, pp.35-36 (PDF pp.39-40)",
+    "recognition": "AAPL FY2025 Form 10-K, Note 2 - Revenue, pp.35-36 (PDF pp.39-40)"
+  },
+  "reconciliation": {
+    "prior_stages": "MATCH",
+    "FY2025_fmp_sec": "MATCH",
+    "FY2024_fmp_sec": "MATCH"
+  },
+  "annual_metrics": {
+    "revenue": {
+      "FY2024_usd_m": 391035,
+      "FY2025_usd_m": 416161,
+      "yoy_growth_pct": 6.426
+    },
+    "trade_accounts_receivable": {
+      "FY2024_usd_m": 33410,
+      "FY2025_usd_m": 39777,
+      "yoy_growth_pct": 19.057
+    },
+    "vendor_nontrade_receivables": {
+      "FY2024_usd_m": 32833,
+      "FY2025_usd_m": 33180,
+      "yoy_growth_pct": 1.057
+    },
+    "trade_plus_vendor_receivables": {
+      "FY2024_usd_m": 66243,
+      "FY2025_usd_m": 72957,
+      "yoy_growth_pct": 10.135
+    }
+  },
+  "fmp_receivables": {
+    "field": "netReceivables",
+    "FY2025_usd": 72957000000.0,
+    "yoy_growth_pct": 10.135410533943201,
+    "definition_reconciliation": "MATCHES_TRADE_PLUS_VENDOR_NONTRADE_FY2025_AND_GROWTH",
+    "warning": "Do not label provider netReceivables as trade AR without resolving its definition."
+  },
+  "recognition_diagnostics": {
+    "trade_ar_minus_revenue_growth_pp": 12.632,
+    "combined_ar_minus_revenue_growth_pp": 3.71,
+    "trade_ar_gap_investigation_threshold_pp": 10.0,
+    "trade_ar_gap_flag": true,
+    "year_end_trade_ar_to_revenue_proxy_days": {
+      "FY2024": 31.19,
+      "FY2025": 34.89,
+      "note": "Year-end AR/revenue x365 is a simple exposure proxy, not average-AR DSO."
+    },
+    "recognized_from_opening_deferred_revenue": {
+      "FY2025_usd_m": 8229,
+      "FY2024_usd_m": 7728,
+      "FY2025_pct_of_total_revenue": 1.977,
+      "note": "Normally recognized delivery of previously deferred obligations; not intrinsically non-core revenue."
+    },
+    "SEC_recognition_policy_observations": [
+      "Products are generally recognized when control transfers (usually shipment); services as delivered over time.",
+      "Bundled hardware and services use relative stand-alone selling prices; bundled-service revenue is deferred.",
+      "Third-party App Store applications are reported net; recognized Services sales are retained commissions."
+    ],
+    "interpretation": "Trade AR grew faster than net sales: investigate billing mix, collection timing, terms, and other disclosed drivers. This alone neither establishes recognition irregularity nor warrants a numeric quality penalty."
+  },
+  "score": {
+    "core_revenue_purity": null,
+    "organic_growth_attribution": null,
+    "revenue_recognition_integrity": null,
+    "overall_CRQ": null,
+    "status": "NOT_SCORED",
+    "reason": "SEC field-definition audit and investigation flags are evidence, not a validated scoring rubric."
+  },
+  "supersedes": "Stage 3 receivables-growth comparison when interpreting *trade* receivables; Stage 3 remains a historical pilot record.",
+  "production_files_modified": false
+}

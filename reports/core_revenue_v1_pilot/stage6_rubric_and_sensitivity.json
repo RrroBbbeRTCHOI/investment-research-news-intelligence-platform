@@ -1,0 +1,393 @@
+{
+  "stage": "CRQ Stage 6: uncalibrated rubric, sensitivity & MAG7 readiness",
+  "status": "DESIGN_UNDER_REVIEW_NOT_PRODUCTION_APPROVED",
+  "original_weights": {
+    "purity": 0.55,
+    "organic": 0.25,
+    "recognition": 0.2
+  },
+  "tested_weights": {
+    "V1_55_25_20": {
+      "purity": 0.55,
+      "organic": 0.25,
+      "recognition": 0.2
+    },
+    "purity_minus10_organic_plus10": {
+      "purity": 0.45,
+      "organic": 0.35,
+      "recognition": 0.2
+    },
+    "purity_plus10_organic_minus10": {
+      "purity": 0.65,
+      "organic": 0.15,
+      "recognition": 0.2
+    },
+    "recognition_plus10_purity_minus10": {
+      "purity": 0.45,
+      "organic": 0.25,
+      "recognition": 0.3
+    },
+    "recognition_plus25_purity_minus25": {
+      "purity": 0.3,
+      "organic": 0.25,
+      "recognition": 0.45
+    }
+  },
+  "rubric": {
+    "purity": "100 x approved documented core revenue / reconciled reported revenue; requires explicit reviewed core/noncore split; 100% product/segment classification is NOT purity.",
+    "organic": "100 x documented organic core-revenue increment / positive total core-revenue increment; positive, fully reconciled bridge only; acquisition growth is not inherently low quality.",
+    "recognition": "0-100 reviewer-assigned score under a documented, approved recognition rubric and source-located evidence; NEVER derived mechanically from AR divergence or absence of reported issues.",
+    "gates": [
+      "purity independently verified and scored",
+      "at least 70% scored weighted coverage",
+      "unresolved AR investigation plus missing recognition: block score",
+      "confirmed material recognition issue: block automatic score",
+      "same ticker, FY, currency and reconciled revenue periods"
+    ]
+  },
+  "synthetic_scenarios": [
+    {
+      "scenario": "all_dimensions_strong",
+      "hypothetical_only": true,
+      "components": {
+        "purity": 100,
+        "organic": 100,
+        "recognition": 92
+      },
+      "base_score": 98.4,
+      "coverage_pct": 100.0,
+      "status": "EXPERIMENTAL_COMPLETE",
+      "reason": "Candidate rubric only; requires calibration and human sign-off; never a production Earnings Quality score.",
+      "alternative_scores": {
+        "V1_55_25_20": 98.4,
+        "purity_minus10_organic_plus10": 98.4,
+        "purity_plus10_organic_minus10": 98.4,
+        "recognition_plus10_purity_minus10": 97.6,
+        "recognition_plus25_purity_minus25": 96.4
+      },
+      "sensitivity_min": 96.4,
+      "sensitivity_max": 98.4,
+      "sensitivity_span": 2.0
+    },
+    {
+      "scenario": "moderate_acquisition_contribution",
+      "hypothetical_only": true,
+      "components": {
+        "purity": 95,
+        "organic": 66.667,
+        "recognition": 85
+      },
+      "base_score": 85.92,
+      "coverage_pct": 100.0,
+      "status": "EXPERIMENTAL_COMPLETE",
+      "reason": "Candidate rubric only; requires calibration and human sign-off; never a production Earnings Quality score.",
+      "alternative_scores": {
+        "V1_55_25_20": 85.92,
+        "purity_minus10_organic_plus10": 83.08,
+        "purity_plus10_organic_minus10": 88.75,
+        "recognition_plus10_purity_minus10": 84.92,
+        "recognition_plus25_purity_minus25": 83.42
+      },
+      "sensitivity_min": 83.08,
+      "sensitivity_max": 88.75,
+      "sensitivity_span": 5.67
+    },
+    {
+      "scenario": "acquisition_led_growth",
+      "hypothetical_only": true,
+      "components": {
+        "purity": 95,
+        "organic": 13.333,
+        "recognition": 70
+      },
+      "base_score": 69.58,
+      "coverage_pct": 100.0,
+      "status": "EXPERIMENTAL_COMPLETE",
+      "reason": "Candidate rubric only; requires calibration and human sign-off; never a production Earnings Quality score.",
+      "alternative_scores": {
+        "V1_55_25_20": 69.58,
+        "purity_minus10_organic_plus10": 61.42,
+        "purity_plus10_organic_minus10": 77.75,
+        "recognition_plus10_purity_minus10": 67.08,
+        "recognition_plus25_purity_minus25": 63.33
+      },
+      "sensitivity_min": 61.42,
+      "sensitivity_max": 77.75,
+      "sensitivity_span": 16.33
+    },
+    {
+      "scenario": "recognition_zero_but_other_dimensions_max",
+      "hypothetical_only": true,
+      "components": {
+        "purity": 100,
+        "organic": 100,
+        "recognition": 0
+      },
+      "base_score": 80.0,
+      "coverage_pct": 100.0,
+      "status": "EXPERIMENTAL_COMPLETE",
+      "reason": "Candidate rubric only; requires calibration and human sign-off; never a production Earnings Quality score.",
+      "alternative_scores": {
+        "V1_55_25_20": 80.0,
+        "purity_minus10_organic_plus10": 80.0,
+        "purity_plus10_organic_minus10": 80.0,
+        "recognition_plus10_purity_minus10": 70.0,
+        "recognition_plus25_purity_minus25": 55.0
+      },
+      "sensitivity_min": 55.0,
+      "sensitivity_max": 80.0,
+      "sensitivity_span": 25.0
+    },
+    {
+      "scenario": "unreviewed_recognition_no_flag",
+      "hypothetical_only": true,
+      "components": {
+        "purity": 98,
+        "organic": 100
+      },
+      "base_score": 98.62,
+      "coverage_pct": 80.0,
+      "status": "EXPERIMENTAL_PROVISIONAL",
+      "reason": "Candidate rubric only; requires calibration and human sign-off; never a production Earnings Quality score.",
+      "alternative_scores": {
+        "V1_55_25_20": 98.62,
+        "purity_minus10_organic_plus10": 98.87,
+        "purity_plus10_organic_minus10": 98.38,
+        "recognition_plus10_purity_minus10": 98.71,
+        "recognition_plus25_purity_minus25": null
+      },
+      "sensitivity_min": 98.38,
+      "sensitivity_max": 98.87,
+      "sensitivity_span": 0.49
+    },
+    {
+      "scenario": "unreviewed_recognition_AR_flag",
+      "hypothetical_only": true,
+      "components": {
+        "purity": 98,
+        "organic": 100
+      },
+      "base_score": null,
+      "coverage_pct": 80.0,
+      "status": "NOT_SCORED",
+      "reason": "Unresolved receivables investigation and unreviewed recognition; composite withheld.",
+      "alternative_scores": {
+        "V1_55_25_20": null,
+        "purity_minus10_organic_plus10": null,
+        "purity_plus10_organic_minus10": null,
+        "recognition_plus10_purity_minus10": null,
+        "recognition_plus25_purity_minus25": null
+      },
+      "sensitivity_min": null,
+      "sensitivity_max": null,
+      "sensitivity_span": null
+    },
+    {
+      "scenario": "no_positive_growth_organic_unknown",
+      "hypothetical_only": true,
+      "components": {
+        "purity": 94,
+        "recognition": 80
+      },
+      "base_score": 90.27,
+      "coverage_pct": 75.0,
+      "status": "EXPERIMENTAL_PROVISIONAL",
+      "reason": "Candidate rubric only; requires calibration and human sign-off; never a production Earnings Quality score.",
+      "alternative_scores": {
+        "V1_55_25_20": 90.27,
+        "purity_minus10_organic_plus10": null,
+        "purity_plus10_organic_minus10": 90.71,
+        "recognition_plus10_purity_minus10": 88.4,
+        "recognition_plus25_purity_minus25": 85.6
+      },
+      "sensitivity_min": 85.6,
+      "sensitivity_max": 90.71,
+      "sensitivity_span": 5.11
+    },
+    {
+      "scenario": "purity_not_verified",
+      "hypothetical_only": true,
+      "components": {
+        "organic": 100,
+        "recognition": 90
+      },
+      "base_score": null,
+      "coverage_pct": 45.0,
+      "status": "NOT_SCORED",
+      "reason": "Core revenue purity is mandatory; classification coverage alone is not purity.",
+      "alternative_scores": {
+        "V1_55_25_20": null,
+        "purity_minus10_organic_plus10": null,
+        "purity_plus10_organic_minus10": null,
+        "recognition_plus10_purity_minus10": null,
+        "recognition_plus25_purity_minus25": null
+      },
+      "sensitivity_min": null,
+      "sensitivity_max": null,
+      "sensitivity_span": null
+    },
+    {
+      "scenario": "confirmed_material_recognition_issue",
+      "hypothetical_only": true,
+      "components": {
+        "purity": 100,
+        "organic": 100,
+        "recognition": 30
+      },
+      "base_score": null,
+      "coverage_pct": 100.0,
+      "status": "NOT_SCORED",
+      "reason": "Confirmed material recognition issue: manual investigation and model review required.",
+      "alternative_scores": {
+        "V1_55_25_20": null,
+        "purity_minus10_organic_plus10": null,
+        "purity_plus10_organic_minus10": null,
+        "recognition_plus10_purity_minus10": null,
+        "recognition_plus25_purity_minus25": null
+      },
+      "sensitivity_min": null,
+      "sensitivity_max": null,
+      "sensitivity_span": null
+    }
+  ],
+  "model_risks_and_required_revisions": [
+    "V1 assigns 55% to core-revenue purity: companies with entirely ordinary operating sales can cluster near 100 and the component may not discriminate.",
+    "Recognition score 0 still yields V1 overall 80 when purity and organic are 100. The 20% weight can mask a major weakness; do not approve V1 for production without validation/revision.",
+    "A large acquired-business contribution is not inherently low-quality revenue. Organic attribution is a descriptive origin measure, not automatically a quality verdict.",
+    "Missing recognition data can inflate a renormalized provisional score. Show coverage and never label an incomplete score Very Strong/Strong.",
+    "AR growth divergence and year-end AR/revenue proxy trigger inquiry only; they never generate an automatic numerical integrity penalty.",
+    "Thresholds and weighting are analyst-designed hypotheses; cross-company evidence and empirical calibration remain outstanding."
+  ],
+  "MAG7_readiness": [
+    {
+      "ticker": "AAPL",
+      "fiscal_year": 2025,
+      "financial_data_available": true,
+      "periods_aligned": true,
+      "revenue_growth_pct": 6.425511782832749,
+      "provider_receivables_growth_pct": 10.135410533943201,
+      "provider_AR_definition_warning": "Do not infer trade AR from FMP normalized receivables.",
+      "SEC_category_reconciliation": "PASS",
+      "classification_coverage_pct": 100.0,
+      "purity_score": null,
+      "organic_score": null,
+      "recognition_score": null,
+      "overall_CRQ": null,
+      "scoring_status": "NOT_SCORED",
+      "unresolved_trade_AR_investigation": true
+    },
+    {
+      "ticker": "MSFT",
+      "fiscal_year": 2026,
+      "financial_data_available": true,
+      "periods_aligned": true,
+      "revenue_growth_pct": 17.788686799846666,
+      "provider_receivables_growth_pct": 15.694156355053291,
+      "provider_AR_definition_warning": "Do not infer trade AR from FMP normalized receivables.",
+      "SEC_category_reconciliation": "NOT_YET_REVIEWED",
+      "classification_coverage_pct": null,
+      "purity_score": null,
+      "organic_score": null,
+      "recognition_score": null,
+      "overall_CRQ": null,
+      "scoring_status": "NOT_SCORED",
+      "unresolved_trade_AR_investigation": null
+    },
+    {
+      "ticker": "GOOGL",
+      "fiscal_year": 2025,
+      "financial_data_available": true,
+      "periods_aligned": true,
+      "revenue_growth_pct": 15.090081081544371,
+      "provider_receivables_growth_pct": 20.149025601834158,
+      "provider_AR_definition_warning": "Do not infer trade AR from FMP normalized receivables.",
+      "SEC_category_reconciliation": "NOT_YET_REVIEWED",
+      "classification_coverage_pct": null,
+      "purity_score": null,
+      "organic_score": null,
+      "recognition_score": null,
+      "overall_CRQ": null,
+      "scoring_status": "NOT_SCORED",
+      "unresolved_trade_AR_investigation": null
+    },
+    {
+      "ticker": "NVDA",
+      "fiscal_year": 2026,
+      "financial_data_available": true,
+      "periods_aligned": true,
+      "revenue_growth_pct": 65.47353579009479,
+      "provider_receivables_growth_pct": 66.77216561890309,
+      "provider_AR_definition_warning": "Do not infer trade AR from FMP normalized receivables.",
+      "SEC_category_reconciliation": "NOT_YET_REVIEWED",
+      "classification_coverage_pct": null,
+      "purity_score": null,
+      "organic_score": null,
+      "recognition_score": null,
+      "overall_CRQ": null,
+      "scoring_status": "NOT_SCORED",
+      "unresolved_trade_AR_investigation": null
+    },
+    {
+      "ticker": "AMZN",
+      "fiscal_year": 2025,
+      "financial_data_available": true,
+      "periods_aligned": true,
+      "revenue_growth_pct": 12.377754683294695,
+      "provider_receivables_growth_pct": 22.142071378334016,
+      "provider_AR_definition_warning": "Do not infer trade AR from FMP normalized receivables.",
+      "SEC_category_reconciliation": "NOT_YET_REVIEWED",
+      "classification_coverage_pct": null,
+      "purity_score": null,
+      "organic_score": null,
+      "recognition_score": null,
+      "overall_CRQ": null,
+      "scoring_status": "NOT_SCORED",
+      "unresolved_trade_AR_investigation": null
+    },
+    {
+      "ticker": "META",
+      "fiscal_year": 2025,
+      "financial_data_available": true,
+      "periods_aligned": true,
+      "revenue_growth_pct": 22.167038498246217,
+      "provider_receivables_growth_pct": 16.3292926915382,
+      "provider_AR_definition_warning": "Do not infer trade AR from FMP normalized receivables.",
+      "SEC_category_reconciliation": "NOT_YET_REVIEWED",
+      "classification_coverage_pct": null,
+      "purity_score": null,
+      "organic_score": null,
+      "recognition_score": null,
+      "overall_CRQ": null,
+      "scoring_status": "NOT_SCORED",
+      "unresolved_trade_AR_investigation": null
+    },
+    {
+      "ticker": "TSLA",
+      "fiscal_year": 2025,
+      "financial_data_available": true,
+      "periods_aligned": true,
+      "revenue_growth_pct": -2.930699150373628,
+      "provider_receivables_growth_pct": 3.576278859212323,
+      "provider_AR_definition_warning": "Do not infer trade AR from FMP normalized receivables.",
+      "SEC_category_reconciliation": "NOT_YET_REVIEWED",
+      "classification_coverage_pct": null,
+      "purity_score": null,
+      "organic_score": null,
+      "recognition_score": null,
+      "overall_CRQ": null,
+      "scoring_status": "NOT_SCORED",
+      "unresolved_trade_AR_investigation": null
+    }
+  ],
+  "AAPL": {
+    "sec_FMP_reconciled": true,
+    "category_coverage_pct": 100.0,
+    "unresolved_trade_AR_flag": true,
+    "CRQ_score": null,
+    "status": "NOT_SCORED",
+    "reason": "Category coverage and AR diagnostics do not establish independently verified purity, organic attribution and recognition integrity."
+  },
+  "conclusion": "The baseline 55/25/20 design is not approved for production: purity can be nondiscriminating and a recognition score of zero is masked when other scores are high. Resolve/reweight with actual reviewed filings and calibration before adding the sixth Earnings Quality component.",
+  "api_calls": 0,
+  "production_scoring_modified": false
+}

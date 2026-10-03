@@ -1,0 +1,135 @@
+{
+  "status": "available",
+  "schema_version": "news_semantic_v3_1",
+  "prompt_version": "news_semantics_v3_1_sentence_grounding",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "content_hash": "ab32ec64dfc2a617d7f7b4794adbc0bda42485822e4083581acc1422dfc40fad",
+  "article_content_hash": "98f8e4df5cf430e171c9bbf3c9f04f7031364e2e4ff967af5a7f7c7034e58739",
+  "generated_at": "2026-09-25T14:47:33.514984+00:00",
+  "semantic": {
+    "article_class": "company_event",
+    "is_relevant_candidate": true,
+    "summary_short": "Microsoft 365 outage on July 23, 2026, knocked out Teams, SharePoint, OneDrive, and Copilot Chat for nearly five hours after a bug in Azure’s automated maintenance system removed IP routes from more devices than engineers intended, severing a West US datacenter from Microsoft’s global network and",
+    "summary_full": "Microsoft 365 outage on July 23, 2026, knocked out Teams, SharePoint, OneDrive, and Copilot Chat for nearly five hours after a bug in Azure’s automated maintenance system removed IP routes from more devices than engineers intended, severing a West US datacenter from Microsoft’s global network and",
+    "primary_country": "United States",
+    "event_type": "operational_disruption",
+    "event_subtype": "IT outage",
+    "countries": [
+      "United States"
+    ],
+    "entities": [
+      "Microsoft 365",
+      "Azure",
+      "Teams",
+      "SharePoint",
+      "OneDrive",
+      "Copilot Chat",
+      "Downdetector",
+      "IncidentHub"
+    ],
+    "companies_mentioned": [
+      "Microsoft"
+    ],
+    "direct_ticker_candidates": [
+      "MSFT"
+    ],
+    "economic_channels": [
+      "IT and cloud infrastructure",
+      "Software services"
+    ],
+    "candidate_indirect_tickers": [],
+    "missing_information": [
+      "Total financial impact",
+      "Exact number of affected business customers"
+    ],
+    "research_questions": [
+      "Were enterprise SLAs breached during the five-hour outage?",
+      "What specific changes were made to Azure's automated maintenance software to prevent future route removal errors?"
+    ],
+    "severity_candidate": "Medium",
+    "severity_reason": "The outage caused a nearly five-hour disruption to major Microsoft 365 cloud services affecting users across North America and cascading into downstream SaaS platforms.",
+    "severity_confidence": 0.9,
+    "operational_event": true,
+    "fundamental_change_detected": false,
+    "llm_confidence": 0.95,
+    "citations": [
+      {
+        "field": "summary_short",
+        "quote": "Microsoft 365 outage on July 23, 2026, knocked out Teams, SharePoint, OneDrive, and Copilot Chat for nearly five hours after a bug in Azure’s automated maintenance system removed IP routes from more devices than engineers intended, severing a West US datacenter from Microsoft’s global network and",
+        "source_field": "summary"
+      },
+      {
+        "field": "summary_full",
+        "quote": "Microsoft 365 outage on July 23, 2026, knocked out Teams, SharePoint, OneDrive, and Copilot Chat for nearly five hours after a bug in Azure’s automated maintenance system removed IP routes from more devices than engineers intended, severing a West US datacenter from Microsoft’s global network and",
+        "source_field": "summary"
+      },
+      {
+        "field": "primary_country",
+        "quote": "West US",
+        "source_field": "body"
+      },
+      {
+        "field": "event_type",
+        "quote": "Outage",
+        "source_field": "headline"
+      },
+      {
+        "field": "event_subtype",
+        "quote": "automated network maintenance system was hit by a bug",
+        "source_field": "body"
+      },
+      {
+        "field": "article_class",
+        "quote": "Microsoft 365 Outage: Azure Maintenance Bug Wiped IP Routes, Taking Down Teams for Hours",
+        "source_field": "headline"
+      },
+      {
+        "field": "economic_channels",
+        "quote": "disrupted Teams, SharePoint, OneDrive, Copilot Chat, and more than a dozen other cloud services across North America",
+        "source_field": "body"
+      },
+      {
+        "field": "severity_candidate",
+        "quote": "disruption that lasted nearly five hours",
+        "source_field": "body"
+      },
+      {
+        "field": "operational_event",
+        "quote": "Microsoft's automated network maintenance system was hit by a bug that caused it to remove IP routes from far more devices than intended",
+        "source_field": "body"
+      },
+      {
+        "field": "fundamental_change_detected",
+        "quote": "The bug was not in the network hardware itself but in the software layer that translates human maintenance requests into machine-readable instructions.",
+        "source_field": "body"
+      },
+      {
+        "field": "direct_ticker_candidates",
+        "quote": "Microsoft",
+        "source_field": "headline"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "total_tokens": 1714,
+    "estimated_cost_usd": null,
+    "scope": "successful response only; failed-attempt usage unavailable"
+  },
+  "cache_hit": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "success"
+    }
+  ],
+  "attempt_audit_scope": "original enrichment generation; cache reuse makes no new requests",
+  "attempt_count": 1,
+  "retry_count": 0,
+  "fallback_used": false
+}

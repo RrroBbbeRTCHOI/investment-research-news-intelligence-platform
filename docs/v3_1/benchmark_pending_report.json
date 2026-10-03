@@ -1,0 +1,87 @@
+{
+  "benchmark_sha256": "35db3926aadd747e603db123eaaaa8eb83884eba88bc53562728a2a97bdc0080",
+  "runs": {
+    "data/news/research/news_research_v3_current.json": {
+      "prediction_sha256": "7a1af705e92015c96cb5aed4e34f0e378dd9e1d0f2da6d5150e6d50aa57ee16b",
+      "human_verified_articles": 0,
+      "pending_articles": 51,
+      "predictions_without_feed_state": 0,
+      "metrics": {
+        "noise_rejection_precision": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null
+        },
+        "noise_rejection_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null
+        },
+        "event_classification_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null
+        },
+        "country_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null
+        },
+        "event_type_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null
+        },
+        "severity_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null
+        },
+        "severity_coverage": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null
+        },
+        "exposure_path_validation_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null
+        },
+        "direct_ticker_precision": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null
+        },
+        "direct_ticker_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null
+        },
+        "direct_ticker_labelled_articles": 0,
+        "indirect_exposure_precision": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null
+        },
+        "indirect_exposure_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null
+        },
+        "indirect_exposure_labelled_articles": 0,
+        "economic_channel_precision": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null
+        },
+        "economic_channel_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null
+        },
+        "economic_channel_labelled_articles": 0
+      },
+      "interpretation": "Null denominator is no estimate. Noise = not surface (background or reject). No aggregate score. Paths use exact ticker/edge identity; reviewed labels must verify the economic chain."
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "_ingestion": {
+    "provider": "freenewsapi",
+    "query_name": "mag7_live_topic_finance_20260921",
+    "fetched_at": "2026-09-21T02:51:42.158751+00:00",
+    "request_params": {
+      "topic": "finance",
+      "language": "en",
+      "country": "us"
+    }
+  },
+  "raw_response": {
+    "data": [
+      {
+        "uuid": "ef76f840-4065-4052-82cf-60af67d7e099",
+        "title": "Volatile yen draws intervention watch, other currencies subdued",
+        "published_at": "2026-09-21T02:20:00.000Z",
+        "publisher": "CNBC"
+      },
+      {
+        "uuid": "d42abbb8-ee3a-46db-ab9d-af134626ba21",
+        "title": "New Zealand Dollar languishes near two-month low vs USD as bears await break below 0.5700",
+        "published_at": "2026-09-21T01:42:14.000Z",
+        "publisher": "FXStreet"
+      },
+      {
+        "uuid": "c96075d5-089e-4218-9151-f7c4ca8b0bc2",
+        "title": "Japanese Yen bulls seem hesitant amid BoJ's dovish rate hike as Fed bets support USD",
+        "published_at": "2026-09-21T01:12:12.000Z",
+        "publisher": "FXStreet"
+      },
+      {
+        "uuid": "46c3f81c-f89b-4f6e-a984-6144cbec3079",
+        "title": "Gold Holds Gains as Oil Prices Decline",
+        "published_at": "2026-09-21T01:12:00.000Z",
+        "publisher": "TradingView"
+      },
+      {
+        "uuid": "3c4b93df-af24-4820-bbc0-84814d42e95c",
+        "title": "Jane Street bets big on leveraged ETF swaps",
+        "published_at": "2026-09-21T00:56:38.000Z",
+        "publisher": "The Economic Times"
+      },
+      {
+        "uuid": "22a1b121-b1b0-445d-a876-2f648102b687",
+        "title": "OCC Opens Three Bank Doors to Stablecoins and AI Agents",
+        "published_at": "2026-09-21T00:22:19.000Z",
+        "publisher": "PYMNTS.com"
+      },
+      {
+        "uuid": "5ef21587-a45f-4420-8a2f-d6460f19c585",
+        "title": "Australian Dollar edges lower as Fed hike bets grow ahead of Trump-Xi summit",
+        "published_at": "2026-09-20T23:32:57.000Z",
+        "publisher": "FXStreet"
+      },
+      {
+        "uuid": "aefae167-ecf6-409d-9b98-a57a9856b040",
+        "title": "US stock futures up ahead of talks, dollar steady",
+        "published_at": "2026-09-20T22:51:06.000Z",
+        "publisher": "The Edge Malaysia"
+      },
+      {
+        "uuid": "04443311-8dc4-460b-afb8-31798e72a0dc",
+        "title": "3 Things You Need to Know Before Buying IonQ Stock",
+        "published_at": "2026-09-20T22:25:47.000Z",
+        "publisher": "The Motley Fool"
+      },
+      {
+        "uuid": "19a5f603-4ea7-4c11-8f30-1a958f53a8bd",
+        "title": "Stock futures are little changed after Dow posts third straight losing week: Live updates",
+        "published_at": "2026-09-20T22:04:33.000Z",
+        "publisher": "CNBC"
+      }
+    ],
+    "meta": {
+      "page_size": 10,
+      "returned": 10,
+      "has_more": true,
+      "order_by": "recent",
+      "filters": {
+        "published_after": null,
+        "published_before": null,
+        "language": "en",
+        "country": "US",
+        "topic": "finance",
+        "publisher_uuid": null,
+        "author_uuid": null,
+        "q": null,
+        "in_title": null,
+        "in_body": null,
+        "in_subtitle": null
+      },
+      "offset": 0,
+      "next_offset": 10,
+      "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6ImU4ZDU1MGVmNTUyYzE2YTAyODM0Mzg4MWI2MThmZDU5NzU0M2E0MWIzOWU0MmNlNjhjM2U2NzU3ZjFlOWE2ZjUiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDktMjBUMjI6MDQ6MzMuMDAwWiIsImxhc3RfaWQiOjI5NDA3ODUyfQ"
+    }
+  }
+}

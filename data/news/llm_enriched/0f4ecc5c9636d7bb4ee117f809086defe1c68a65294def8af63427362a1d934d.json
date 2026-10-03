@@ -1,0 +1,134 @@
+{
+  "status": "available",
+  "schema_version": "news_semantic_v3_1",
+  "prompt_version": "news_semantics_v3_1_sentence_grounding",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "content_hash": "0f4ecc5c9636d7bb4ee117f809086defe1c68a65294def8af63427362a1d934d",
+  "article_content_hash": "b7179c54d28ac420fca150c77bd8e4b48c951d7f5827d3ed3bbf6b4333a04aba",
+  "generated_at": "2026-09-25T13:35:01.487823+00:00",
+  "semantic": {
+    "article_class": "macro_event",
+    "is_relevant_candidate": true,
+    "summary_short": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+    "summary_full": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+    "primary_country": "New Zealand",
+    "event_type": "foreign_exchange",
+    "event_subtype": "currency_fluctuation",
+    "countries": [
+      "New Zealand",
+      "United States",
+      "Saudi Arabia",
+      "Iran",
+      "China",
+      "Yemen"
+    ],
+    "entities": [
+      "Reserve Bank of New Zealand",
+      "US Federal Reserve",
+      "Nordea",
+      "Houthis",
+      "Donald Trump",
+      "Xi Jinping"
+    ],
+    "companies_mentioned": [
+      "Nordea"
+    ],
+    "direct_ticker_candidates": [],
+    "economic_channels": [
+      "Foreign Exchange",
+      "Monetary Policy",
+      "Geopolitics",
+      "Commodity Prices"
+    ],
+    "candidate_indirect_tickers": [],
+    "missing_information": [],
+    "research_questions": [
+      "How will the meeting between US President Donald Trump and Chinese President Xi Jinping impact antipodean currencies?"
+    ],
+    "severity_candidate": "Low",
+    "severity_reason": "Currency fluctuation and macroeconomic commentary involving standard foreign exchange movements without direct corporate disaster or systemic failure.",
+    "severity_confidence": 0.9,
+    "operational_event": false,
+    "fundamental_change_detected": false,
+    "llm_confidence": 0.95,
+    "citations": [
+      {
+        "field": "summary_short",
+        "quote": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+        "source_field": "summary"
+      },
+      {
+        "field": "summary_full",
+        "quote": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+        "source_field": "summary"
+      },
+      {
+        "field": "primary_country",
+        "quote": "The New Zealand Dollar (NZD) continues with its relative underperformance on the back of the Reserve Bank of New Zealand's (RBNZ) dovish rate hike amid weak domestic growth.",
+        "source_field": "body"
+      },
+      {
+        "field": "event_type",
+        "quote": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+        "source_field": "summary"
+      },
+      {
+        "field": "event_subtype",
+        "quote": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+        "source_field": "summary"
+      },
+      {
+        "field": "article_class",
+        "quote": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+        "source_field": "summary"
+      },
+      {
+        "field": "economic_channels",
+        "quote": "The New Zealand Dollar (NZD) continues with its relative underperformance on the back of the Reserve Bank of New Zealand's (RBNZ) dovish rate hike amid weak domestic growth.",
+        "source_field": "body"
+      },
+      {
+        "field": "severity_candidate",
+        "quote": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+        "source_field": "summary"
+      },
+      {
+        "field": "operational_event",
+        "quote": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+        "source_field": "summary"
+      },
+      {
+        "field": "fundamental_change_detected",
+        "quote": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+        "source_field": "summary"
+      },
+      {
+        "field": "direct_ticker_candidates",
+        "quote": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+        "source_field": "summary"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "total_tokens": 2903,
+    "estimated_cost_usd": null,
+    "scope": "successful response only; failed-attempt usage unavailable"
+  },
+  "cache_hit": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "success"
+    }
+  ],
+  "attempt_audit_scope": "original enrichment generation; cache reuse makes no new requests",
+  "attempt_count": 1,
+  "retry_count": 0,
+  "fallback_used": false
+}

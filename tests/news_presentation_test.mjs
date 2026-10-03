@@ -1,0 +1,25 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+const load=async path=>JSON.parse(await readFile(new URL(path,import.meta.url),'utf8'));
+const moduleFrom=async path=>import('data:text/javascript;base64,'+Buffer.from(await readFile(new URL(path,import.meta.url),'utf8')).toString('base64'));
+const {present,human,policyValue,relationshipLabel}=await moduleFrom('../static/js/news_presentation.js');
+const {adaptIntelligence,hasCoordinates}=await moduleFrom('../static/js/news_model.js');
+const current=await load('../data/news/research/news_research_v2_current.json');
+const articles=adaptIntelligence({...current,schema_version:'news_ui_v2',queue:current.research_queue});
+const e=articles.find(a=>a.title.startsWith('Nvidia boss')),t=e.analyses[0],before=JSON.stringify(e);
+const p=present(e,t);
+assert.deepEqual(p.metrics.map(x=>x[1]),['High','Low','Moderate','Low']);assert.equal(p.impact,'Not yet quantified');assert.deepEqual(p.reasons,[t.analyst_interpretation,t.relevance?.reason||t.relevance?.interpretation,e.severity?.reason,t.evidence_assessment?.reason,t.financial_materiality?.reason].filter((v,i,a)=>typeof v==='string'&&v.trim()&&a.indexOf(v)===i));assert.equal(p.scores[0][1],'0.15');assert.equal(p.history,null);assert.equal(p.location,'Unknown');assert.equal(hasCoordinates(e),false);assert.equal(JSON.stringify(e),before);
+const layoff={...e,event:{event_subtype:'workforce_reduction'},severity:{level:'Medium',score:.5}};
+const lt={...t,ticker:'AAPL',relationship_type:'direct_event_subject',qualification:'qualified_direct_event_subject',research_priority:{level:'Medium',score:.5}};
+const lp=present(layoff,lt);assert.deepEqual(lp.metrics.map(x=>x[1]),['High','Medium','Moderate','Medium']);assert.equal(lp.classification,'Workforce / Restructuring');assert.deepEqual(lp.gaps,lt.next_questions||[]);assert.deepEqual(lp.paths,[]);
+const mention={...t,relationship_type:'direct_mention',qualification:'candidate_requires_review',relevance:{level:'Mention only',relationship_score:null},relevance_score:.15,research_priority:{level:'Review',score:null}};
+const mp=present(e,mention);assert.equal(mp.status,'Review');assert.equal(mp.scores[0][1],'Not assigned');assert.equal(mp.scores[2][1],'Not assigned');assert.equal(mp.metrics[3][1],'Review');assert.deepEqual(mp.paths,[]);assert.notEqual(relationshipLabel(mention),relationshipLabel(lt));
+const global=articles.find(a=>!a.analyses.length&&hasCoordinates(a));const gp=present(global);assert.equal(gp.metrics[0][1],'No match');assert.equal(gp.metrics[1][1],global.severity.level);assert.equal(gp.locationNote,'Country Approximation');assert.equal(gp.status,'No watchlist match');assert.deepEqual(gp.channels,[]);
+for(const value of [null,undefined,NaN,Infinity,'0.15'])assert.equal(policyValue(value),'Not assigned');assert.equal(policyValue(0),'0');assert.equal(human('general_news'),'General News');
+const multi={...e,analyses:[t,lt,mention]};assert.equal(multi.analyses.map(t=>present(multi,t)).length,3);
+const indirect={...t,relationship_type:'indirect_exposure_match',relationship_paths:[{edge_id:'2',ticker:'NVDA',counterparty:'TSMC',channel:'advanced_packaging'}]};assert.deepEqual(present(e,indirect).paths[0].steps,[e.title,'TSMC','Advanced Packaging','NVDA']);assert.deepEqual(present(e,{...indirect,relationship_paths:[]}).paths,[]);
+const supplied={...t,relevance_components:{contributions:{channel:.15}},historical_context:{available:true,details:{status:'retrospective_oos_diagnostic',predictions:[{model:'B0',threshold:.02,n_train:30}]}}};assert.deepEqual(present(e,supplied).components.relationship,supplied.relevance_components);assert.deepEqual(present(e,supplied).history,supplied.historical_context);assert.equal(p.components.relationship,undefined);
+assert.equal(present({...e,event:null,classification:'general_news'},null).gaps.length,0);
+console.log('PASS: A–H presentation contracts, immutability, null/zero distinction, supported paths, actual components and historical data.');
+
+const channelOnly=present({...layoff,event:{event_subtype:'low_severity_event'},classification:'low_severity_event'},{...lt,direct_event_evidence:{channel:'workforce_reduction'},economic_channels:['workforce_reduction']});assert.equal(channelOnly.classification,'Low Severity Event');assert.deepEqual(channelOnly.reasons,lp.reasons);

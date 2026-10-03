@@ -1,0 +1,922 @@
+"""V2 attention policies: article semantics only, never market outcomes."""
+
+import re
+
+from .event_gate import (
+    clauses,
+    assertion_status,
+    HISTORICAL,
+)
+
+
+SEVERITY_SCORES = {
+    "Low": .2,
+    "Medium": .5,
+    "High": .8,
+    "Critical": 1.,
+    "Unknown": None,
+}
+
+PRIORITY_SCORES = {
+    "Low": .2,
+    "Medium": .5,
+    "High": .8,
+    "Urgent": 1.,
+    "Review": None,
+}
+
+
+# Explicit relationship x event seriousness table;
+# editable, not trained.
+PRIORITY_TABLE = {
+    "High": {
+        "Low": "Low",
+        "Medium": "Medium",
+        "High": "High",
+        "Critical": "Urgent",
+        "Unknown": "Review",
+    },
+
+    "Medium": {
+        "Low": "Low",
+        "Medium": "Medium",
+        "High": "High",
+        "Critical": "High",
+        "Unknown": "Review",
+    },
+
+    "Low": {
+        "Low": "Low",
+        "Medium": "Review",
+        "High": "Review",
+        "Critical": "Review",
+        "Unknown": "Review",
+    },
+
+    "Mention only": {
+        key: "Review"
+        for key in SEVERITY_SCORES
+    },
+
+    "None": {
+        "Low": "Low",
+        "Medium": "Review",
+        "High": "Review",
+        "Critical": "Review",
+        "Unknown": "Review",
+    },
+}
+
+
+# =========================================================
+# GEOPOLITICAL SEVERITY
+# =========================================================
+#
+# V3.1.3
+#
+# Important:
+#
+# A geopolitical label alone does NOT establish High
+# severity.
+#
+# High severity requires explicit current physical
+# disruption involving a strategically important route.
+#
+# This is event-level severity only.
+#
+# It does NOT establish:
+#
+# - ticker relevance
+# - financial impact
+# - price direction
+# - expected return
+#
+# =========================================================
+
+
+CRITICAL_GEOPOLITICAL_ROUTE = re.compile(
+    r"\bStrait of Hormuz\b",
+    re.I,
+)
+
+
+GEOPOLITICAL_PHYSICAL_DISRUPTION = re.compile(
+    r"\b(?:"
+    r"blockade|"
+    r"blocked|"
+    r"blocking|"
+    r"closure|"
+    r"closed|"
+
+    r"fires?\s+at\s+(?:a\s+|the\s+)?tanker|"
+
+    r"tanker"
+    r"(?:\s+\w+){0,3}\s+"
+    r"(?:hit|attacked|struck|damaged)|"
+
+    r"ship"
+    r"(?:\s+\w+){0,3}\s+"
+    r"(?:hit|attacked|struck|damaged)"
+    r")\b",
+    re.I,
+)
+
+
+# =========================================================
+# COMMON SPECULATION / MODALITY GUARD
+# =========================================================
+
+
+SPECULATIVE_ACTION = re.compile(
+    r"\b(?:"
+    r"plans?|"
+    r"propos\w*|"
+    r"expects?|"
+    r"expected|"
+    r"forecast\w*|"
+    r"consider\w*|"
+    r"discuss\w*|"
+    r"risk of|"
+    r"may|"
+    r"might|"
+    r"could"
+    r")\b",
+    re.I,
+)
+
+
+# =========================================================
+# REGULATORY / EXPORT-CONTROL SEVERITY
+# =========================================================
+#
+# V3.1.4
+#
+# Medium severity is supported only when BOTH:
+#
+# 1. export controls / export restrictions are actively
+#    intensified, tightened, expanded, imposed or take
+#    effect;
+#
+# AND
+#
+# 2. the company takes a concrete operational response,
+#    such as tightening customer approvals or restricting
+#    shipments / sales / orders / access.
+#
+# Mere discussion or commentary about export controls
+# does NOT establish Medium severity.
+#
+# Existing explicit government bans / blocks /
+# prohibitions remain eligible for High under the
+# existing regulatory_force rule.
+#
+# =========================================================
+
+
+EXPORT_CONTROL_ESCALATION = re.compile(
+    r"\b(?:"
+
+    # export controls first:
+    # "export controls intensify"
+    # "export restrictions tightened"
+    r"(?:export controls?|"
+    r"export restrictions?|"
+    r"export[- ]license restrictions?)"
+    r".{0,45}"
+    r"(?:"
+    r"intensif(?:y|ies|ied)|"
+    r"tighten(?:s|ed)?|"
+    r"expand(?:s|ed)?|"
+    r"impos(?:e|es|ed)|"
+    r"take effect|"
+    r"takes effect|"
+    r"come into force|"
+    r"comes into force"
+    r")"
+
+    r"|"
+
+    # action first:
+    # "tightened export controls"
+    # "expanded export restrictions"
+    r"(?:"
+    r"intensified|"
+    r"tightened|"
+    r"expanded|"
+    r"imposed"
+    r")"
+    r".{0,45}"
+    r"(?:export controls?|"
+    r"export restrictions?|"
+    r"export[- ]license restrictions?)"
+
+    r")\b",
+    re.I,
+)
+
+
+CONCRETE_REGULATORY_RESPONSE = re.compile(
+    r"\b(?:"
+    r"tightens?|"
+    r"restricts?|"
+    r"limits?|"
+    r"suspends?|"
+    r"halts?|"
+    r"stops?"
+    r")\b"
+    r".{0,55}"
+    r"\b(?:"
+    r"customer approvals?|"
+    r"shipments?|"
+    r"sales?|"
+    r"orders?|"
+    r"access"
+    r")\b",
+    re.I,
+)
+
+
+
+# =========================================================
+# SUSTAINED SERVICE OUTAGE SEVERITY
+# =========================================================
+#
+# V3.1.6
+#
+# Medium severity requires all of:
+#
+# 1. an actual outage / service disruption;
+# 2. a concrete service-unavailability consequence;
+# 3. meaningful duration measured in hours;
+# 4. affirmed, non-speculative language.
+#
+# Mere maintenance, intermittent issues, or hypothetical
+# future downtime do NOT establish Medium severity.
+#
+# Existing widespread / nationwide / prolonged outage
+# rules remain eligible for High.
+# =========================================================
+
+
+SUSTAINED_SERVICE_OUTAGE = re.compile(
+    r"\b(?:"
+    r"outage|"
+    r"service disruption|"
+    r"network disruption"
+    r")\b",
+    re.I,
+)
+
+
+SERVICE_UNAVAILABILITY_IMPACT = re.compile(
+    r"\b(?:"
+    r"takes?|"
+    r"taking|"
+    r"took|"
+    r"knocks?|"
+    r"knocked|"
+    r"brings?|"
+    r"brought"
+    r")\b"
+    r".{0,55}"
+    r"\b(?:"
+    r"down|"
+    r"offline|"
+    r"unavailable"
+    r")\b",
+    re.I,
+)
+
+
+MEANINGFUL_OUTAGE_DURATION = re.compile(
+    r"\b(?:"
+    r"for\s+"
+    r"(?:several|multiple|many|a\s+few|\d+)?\s*"
+    r"hours?"
+    r"|"
+    r"(?:several|multiple|many|\d+)\s+hours?"
+    r")\b",
+    re.I,
+)
+
+
+def supported_geopolitical_route_disruption(
+    clause,
+):
+    """
+    Detect an affirmed physical disruption involving
+    a strategically important international route.
+
+    Current bounded implementation:
+        Strait of Hormuz
+
+    The location and physical action must both appear
+    in the same current article clause.
+    """
+
+    route = CRITICAL_GEOPOLITICAL_ROUTE.search(
+        clause
+    )
+
+    action = GEOPOLITICAL_PHYSICAL_DISRUPTION.search(
+        clause
+    )
+
+    if not route or not action:
+        return False
+
+    # Do not convert hypothetical / planned escalation
+    # into confirmed High severity.
+    evidence_end = max(
+        route.end(),
+        action.end(),
+    )
+
+    if SPECULATIVE_ACTION.search(
+        clause[:evidence_end]
+    ):
+        return False
+
+    if (
+        assertion_status(
+            clause,
+            route.start(),
+            route.end(),
+        )
+        != "affirmed"
+    ):
+        return False
+
+    if (
+        assertion_status(
+            clause,
+            action.start(),
+            action.end(),
+        )
+        != "affirmed"
+    ):
+        return False
+
+    return True
+
+
+def supported_regulatory_operational_response(
+    clause,
+):
+    """
+    Detect an affirmed export-control escalation that
+    is accompanied by a concrete company operational
+    response.
+
+    Example:
+        Nvidia tightens customer approvals as
+        US chip export controls intensify.
+
+    This supports Medium event severity.
+
+    It does NOT establish:
+        - financial impact
+        - stock direction
+        - expected return
+        - ticker relationship by itself
+    """
+
+    export_control = EXPORT_CONTROL_ESCALATION.search(
+        clause
+    )
+
+    company_response = CONCRETE_REGULATORY_RESPONSE.search(
+        clause
+    )
+
+    if not export_control or not company_response:
+        return False
+
+    evidence_end = max(
+        export_control.end(),
+        company_response.end(),
+    )
+
+    # Future / hypothetical regulatory scenarios must
+    # not be treated as confirmed operational impact.
+    if SPECULATIVE_ACTION.search(
+        clause[:evidence_end]
+    ):
+        return False
+
+    if (
+        assertion_status(
+            clause,
+            export_control.start(),
+            export_control.end(),
+        )
+        != "affirmed"
+    ):
+        return False
+
+    if (
+        assertion_status(
+            clause,
+            company_response.start(),
+            company_response.end(),
+        )
+        != "affirmed"
+    ):
+        return False
+
+    return True
+
+
+
+def supported_sustained_service_outage(
+    clause,
+):
+    """
+    Detect an affirmed service outage that caused
+    concrete unavailability for a meaningful duration.
+
+    Example:
+        Azure outage took down Microsoft Teams
+        for several hours.
+
+    This supports Medium event severity.
+
+    It does NOT establish:
+        - financial impact
+        - stock direction
+        - expected return
+        - ticker relationship
+    """
+
+    outage = SUSTAINED_SERVICE_OUTAGE.search(
+        clause
+    )
+
+    impact = SERVICE_UNAVAILABILITY_IMPACT.search(
+        clause
+    )
+
+    duration = MEANINGFUL_OUTAGE_DURATION.search(
+        clause
+    )
+
+    if not outage or not impact or not duration:
+        return False
+
+
+    evidence_end = max(
+        outage.end(),
+        impact.end(),
+        duration.end(),
+    )
+
+
+    # Reuse existing speculation/modality protection.
+    if SPECULATIVE_ACTION.search(
+        clause[:evidence_end]
+    ):
+        return False
+
+
+    if (
+        assertion_status(
+            clause,
+            outage.start(),
+            outage.end(),
+        )
+        != "affirmed"
+    ):
+        return False
+
+
+    if (
+        assertion_status(
+            clause,
+            impact.start(),
+            impact.end(),
+        )
+        != "affirmed"
+    ):
+        return False
+
+
+    if (
+        assertion_status(
+            clause,
+            duration.start(),
+            duration.end(),
+        )
+        != "affirmed"
+    ):
+        return False
+
+
+    return True
+
+
+def severity(
+    article,
+    classification,
+):
+    """
+    Maximum supported severity rule.
+
+    Absence of established scale never means harmless.
+
+    Severity describes the seriousness of the reported
+    event itself, not its expected financial impact on
+    any security.
+    """
+
+    supported = []
+
+
+    # =====================================================
+    # EXISTING GENERAL ARTICLE RULES
+    # =====================================================
+
+    rules = [
+        (
+            "Critical",
+            "scope",
+            r"\b(?:nationwide|countrywide)\b"
+            r".{0,60}"
+            r"\b(?:complete shutdown|total outage|evacuation)\b",
+        ),
+
+        (
+            "High",
+            "production_impact",
+            r"\b(?:major|complete|total)\b"
+            r".{0,55}"
+            r"\b(?:production|fabrication|factory|fab)\b"
+            r".{0,35}"
+            r"\b(?:halt|shutdown|suspension|stopped)\b",
+        ),
+
+        (
+            "High",
+            "regulatory_force",
+            r"\b(?:government|regulator|authority|US)\b"
+            r".{0,55}"
+            r"\b(?:bans?|blocks?|prohibits?)\b"
+            r".{0,65}"
+            r"\bexports?\b",
+        ),
+
+        (
+            "High",
+            "operational_disruption",
+            r"\b(?:nationwide|widespread|multi-day|prolonged)\b"
+            r".{0,45}"
+            r"\b(?:disruption|outage|shutdown)\b",
+        ),
+
+        (
+            "Medium",
+            "operational_disruption",
+            r"\b(?:oil exports?|oil shipments?|production|"
+            r"fabrication|packaging|power|services?)\b"
+            r".{0,40}"
+            r"\b(?:disruption|disrupted|interruption|halt|"
+            r"outage|suspended)\b",
+        ),
+
+        (
+            "Medium",
+            "regulatory_force",
+            r"\b(?:imposed|expanded|tightened|announced)\b"
+            r".{0,60}"
+            r"\b(?:export[- ]license restrictions|"
+            r"export restrictions|export controls)\b",
+        ),
+
+        (
+            "Medium",
+            "workforce_scope",
+            r"\b(?:layoffs?|job cuts|cuts jobs|"
+            r"workforce reduction)\b",
+        ),
+    ]
+
+
+    for (
+        field,
+        _,
+        clause,
+    ) in clauses(
+        article
+    ):
+
+        if HISTORICAL.search(
+            clause
+        ):
+            continue
+
+
+        # -------------------------------------------------
+        # Current-year / historical safety
+        # -------------------------------------------------
+
+        years = re.findall(
+            r"\b(?:19|20)\d{2}\b",
+            clause,
+        )
+
+        year = str(
+            article.get(
+                "published_at"
+            )
+            or ""
+        )[:4]
+
+        if (
+            years
+            and year.isdigit()
+            and max(
+                map(
+                    int,
+                    years,
+                )
+            )
+            < int(year)
+        ):
+            continue
+
+
+        # -------------------------------------------------
+        # V3.1.3
+        # Critical-route geopolitical disruption
+        # -------------------------------------------------
+
+        if supported_geopolitical_route_disruption(
+            clause
+        ):
+
+            supported.append(
+                {
+                    "level":
+                        "High",
+
+                    "component":
+                        "geopolitical_critical_route_disruption",
+
+                    "evidence":
+                        clause,
+
+                    "source_field":
+                        field,
+                }
+            )
+
+
+        # -------------------------------------------------
+        # V3.1.4
+        # Active export-control escalation +
+        # concrete company operational response
+        # -------------------------------------------------
+
+        if supported_regulatory_operational_response(
+            clause
+        ):
+
+            supported.append(
+                {
+                    "level":
+                        "Medium",
+
+                    "component":
+                        "regulatory_operational_response",
+
+                    "evidence":
+                        clause,
+
+                    "source_field":
+                        field,
+                }
+            )
+
+
+        # -------------------------------------------------
+        # V3.1.6
+        # Sustained service outage
+        # -------------------------------------------------
+
+        if supported_sustained_service_outage(
+            clause
+        ):
+
+            supported.append(
+                {
+                    "level":
+                        "Medium",
+
+                    "component":
+                        "sustained_service_outage",
+
+                    "evidence":
+                        clause,
+
+                    "source_field":
+                        field,
+                }
+            )
+
+
+        # -------------------------------------------------
+        # Existing severity rules
+        # -------------------------------------------------
+
+        for (
+            level,
+            component,
+            pattern,
+        ) in rules:
+
+            match = re.search(
+                pattern,
+                clause,
+                re.I,
+            )
+
+            if (
+                match
+                and SPECULATIVE_ACTION.search(
+                    clause[
+                        :match.end()
+                    ]
+                )
+            ):
+                continue
+
+            if (
+                match
+                and assertion_status(
+                    clause,
+                    match.start(),
+                    match.end(),
+                )
+                == "affirmed"
+            ):
+
+                supported.append(
+                    {
+                        "level":
+                            level,
+
+                        "component":
+                            component,
+
+                        "evidence":
+                            clause,
+
+                        "source_field":
+                            field,
+                    }
+                )
+
+
+    # =====================================================
+    # FINAL SEVERITY
+    # =====================================================
+
+    if supported:
+
+        winner = max(
+            supported,
+            key=lambda item:
+                SEVERITY_SCORES[
+                    item["level"]
+                ],
+        )
+
+        level = (
+            winner[
+                "level"
+            ]
+        )
+
+        reason = (
+            "Explicit article evidence supports "
+            + winner[
+                "component"
+            ]
+            + ". Scale beyond this evidence "
+              "is not inferred."
+        )
+
+
+    elif classification in (
+        "commentary",
+        "opinion",
+        "product_discussion",
+    ):
+
+        level = (
+            "Low"
+        )
+
+        reason = (
+            "Company discussion/opinion with no "
+            "supported operational or binding-action "
+            "escalation."
+        )
+
+
+    else:
+
+        level = (
+            "Unknown"
+        )
+
+        reason = (
+            "No supported severity rule establishes "
+            "event scale."
+        )
+
+
+    return {
+        "level":
+            level,
+
+        "score":
+            SEVERITY_SCORES[
+                level
+            ],
+
+        "components":
+            supported,
+
+        "reason":
+            reason,
+
+        # Keep existing identifier for compatibility.
+        "method":
+            "article_severity_policy_v2",
+
+        "interpretation":
+            (
+                "Internal ordinal policy score; "
+                "not probability or financial impact."
+            ),
+    }
+
+
+def priority(
+    relevance,
+    severity_level,
+    evidence,
+):
+
+    level = (
+        PRIORITY_TABLE[
+            relevance
+        ][
+            severity_level
+        ]
+    )
+
+    if (
+        evidence
+        in (
+            "Mention only",
+            "Unavailable",
+            "Weak",
+        )
+        and level
+        in (
+            "High",
+            "Urgent",
+        )
+    ):
+
+        level = (
+            "Review"
+        )
+
+    return {
+        "level":
+            level,
+
+        "score":
+            PRIORITY_SCORES[
+                level
+            ],
+
+        "method":
+            "attention_policy_v2",
+
+        "reason":
+            (
+                f"Relationship {relevance}; "
+                f"severity {severity_level}; "
+                f"evidence {evidence}."
+            ),
+
+        "interpretation":
+            (
+                "Analyst attention only. "
+                "No direction, expected return "
+                "or ML input."
+            ),
+    }

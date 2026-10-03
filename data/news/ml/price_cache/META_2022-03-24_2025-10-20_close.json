@@ -1,0 +1,13 @@
+{
+  "provider": "yfinance/Yahoo Finance",
+  "ticker": "META",
+  "start": "2022-03-24",
+  "end_exclusive": "2025-10-20",
+  "auto_adjust": false,
+  "back_adjust": false,
+  "repair": false,
+  "column": "Close",
+  "downloaded_at": "2026-09-20T04:58:42.505544+00:00",
+  "yfinance_version": "1.2.0",
+  "sha256": "2e7d14d63d7ff0bd169c32e43f4ff5f9e3ed34ddd82b4872657015a5a713f3eb"
+}

@@ -1,0 +1,110 @@
+{
+  "status": "available",
+  "schema_version": "news_semantic_v3_1",
+  "prompt_version": "news_semantics_v3_1_sentence_grounding",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "content_hash": "5dad94b677b88aca5259cbd3b43732457d7ae384ee95b3c543d737b6bb0cb2f9",
+  "article_content_hash": "049145ad743c00c3be8267537fb33235ec8148f81d097e0e32a7f1a6c038e922",
+  "generated_at": "2026-09-27T10:05:15.013413+00:00",
+  "semantic": {
+    "article_class": "general_news",
+    "is_relevant_candidate": false,
+    "summary_short": "Apple TV dropped the “Plus” from its name, but its number of must-see series continues to grow.",
+    "summary_full": "Apple TV dropped the “Plus” from its name, but its number of must-see series continues to grow. The sci-fi TV shows on Apple TV are mind-bending, genre defining and thoroughly entertaining.",
+    "primary_country": "United States",
+    "event_type": null,
+    "event_subtype": null,
+    "countries": [
+      "United States"
+    ],
+    "entities": [
+      "Apple TV",
+      "CNET"
+    ],
+    "companies_mentioned": [
+      "Apple"
+    ],
+    "direct_ticker_candidates": [
+      "AAPL"
+    ],
+    "economic_channels": [],
+    "candidate_indirect_tickers": [],
+    "missing_information": [],
+    "research_questions": [],
+    "severity_candidate": "Low",
+    "severity_reason": "This is a general media streaming catalog and entertainment article containing no material operational or financial disruptions.",
+    "severity_confidence": 1.0,
+    "operational_event": false,
+    "fundamental_change_detected": false,
+    "llm_confidence": 1.0,
+    "citations": [
+      {
+        "field": "summary_short",
+        "quote": "Apple TV dropped the “Plus” from its name, but its number of must-see series continues to grow.",
+        "source_field": "body"
+      },
+      {
+        "field": "summary_full",
+        "quote": "Apple TV dropped the “Plus” from its name, but its number of must-see series continues to grow.",
+        "source_field": "body"
+      },
+      {
+        "field": "summary_full",
+        "quote": "The sci-fi TV shows on Apple TV are mind-bending, genre defining and thoroughly entertaining.",
+        "source_field": "summary"
+      },
+      {
+        "field": "primary_country",
+        "quote": "Apple TV",
+        "source_field": "headline"
+      },
+      {
+        "field": "article_class",
+        "quote": "Apple TV: The 16 Best Sci-Fi Shows to Stream Right Now - CNET",
+        "source_field": "headline"
+      },
+      {
+        "field": "severity_candidate",
+        "quote": "Apple TV: The 16 Best Sci-Fi Shows to Stream Right Now - CNET",
+        "source_field": "headline"
+      },
+      {
+        "field": "operational_event",
+        "quote": "Apple TV dropped the “Plus” from its name, but its number of must-see series continues to grow.",
+        "source_field": "body"
+      },
+      {
+        "field": "fundamental_change_detected",
+        "quote": "Apple TV dropped the “Plus” from its name, but its number of must-see series continues to grow.",
+        "source_field": "body"
+      },
+      {
+        "field": "direct_ticker_candidates",
+        "quote": "Apple",
+        "source_field": "headline"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "total_tokens": 1114,
+    "estimated_cost_usd": null,
+    "scope": "successful response only; failed-attempt usage unavailable"
+  },
+  "cache_hit": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "success"
+    }
+  ],
+  "attempt_audit_scope": "original enrichment generation; cache reuse makes no new requests",
+  "attempt_count": 1,
+  "retry_count": 0,
+  "fallback_used": false
+}

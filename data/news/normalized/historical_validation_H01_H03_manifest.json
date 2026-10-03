@@ -1,0 +1,93 @@
+{
+  "dataset_name": "Historical Validation H01-H03",
+  "purpose": "Real historical case validation for frozen News Intelligence Backend V1.2.1",
+  "important": [
+    "This manifest is not yet pipeline-ready because full original article bodies are intentionally not reproduced here.",
+    "Populate body from your licensed/original news provider or historical API before running the event pipeline.",
+    "Keep event-time snapshot separate from later outcome/context."
+  ],
+  "cases": [
+    {
+      "case_id": "H01",
+      "event_date": "2024-04-03",
+      "published_at": "2024-04-03T14:44:52Z",
+      "headline": "TSMC halts work at construction sites in Taiwan after earthquake",
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/world/asia-pacific/tsmc-halts-work-construction-sites-taiwan-after-earthquake-2024-04-03/",
+      "article_id": "historical_H01",
+      "summary": "A 7.2-magnitude earthquake struck Taiwan. TSMC said it suspended work at construction sites in Taiwan, was evaluating the impact, and would resume operations after inspections.",
+      "body": null,
+      "body_status": "REQUIRED_FROM_ORIGINAL_PROVIDER",
+      "later_context_excluded": true,
+      "expected_qa": {
+        "expected_accept": true,
+        "expected_event_family": "natural_disaster",
+        "expected_event_subtype": "earthquake",
+        "expected_primary_geography": "Taiwan",
+        "expected_mag7": [
+          "NVDA",
+          "AAPL"
+        ],
+        "expected_relevance": "indirect"
+      },
+      "notes": "Do not inject later recovery percentages, later financial losses, or later guidance into the event-time article snapshot."
+    },
+    {
+      "case_id": "H02",
+      "event_date": "2023-10-17",
+      "published_at": "2023-10-17T23:49:00Z",
+      "headline": "Nvidia details advanced AI chips blocked by new export controls",
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/technology/nvidia-may-be-forced-shift-out-some-countries-after-new-us-export-curbs-2023-10-17/",
+      "article_id": "historical_H02",
+      "summary": "Nvidia said new U.S. export restrictions would block sales of its A800 and H800 AI chips designed for China and would also restrict other products.",
+      "body": null,
+      "body_status": "REQUIRED_FROM_ORIGINAL_PROVIDER",
+      "later_context_excluded": true,
+      "expected_qa": {
+        "expected_accept": true,
+        "expected_event_family": "trade_export_control",
+        "expected_event_subtype": "export_controls",
+        "expected_primary_geography": "United States",
+        "expected_affected_geographies": [
+          "China"
+        ],
+        "expected_mag7": [
+          "NVDA"
+        ],
+        "expected_relevance": "direct"
+      },
+      "notes": "Use event-time article content only. Do not add later policy changes or later revenue effects."
+    },
+    {
+      "case_id": "H03",
+      "event_date": "2025-10-20",
+      "published_at": "2025-10-20",
+      "time_precision": "date_only",
+      "headline": "Amazon cloud outage: online services hit, recovery uneven",
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/business/retail-consumer/amazon-cloud-outage-online-services-hit-recovery-uneven-2025-10-20/",
+      "article_id": "historical_H03",
+      "summary": "AWS suffered a widespread outage centered on US-EAST-1 that disrupted many third-party services and Amazon services before operations returned toward normal.",
+      "body": null,
+      "body_status": "REQUIRED_FROM_ORIGINAL_PROVIDER",
+      "later_context_excluded": true,
+      "expected_qa": {
+        "expected_accept": true,
+        "expected_event_family": "infrastructure_outage",
+        "expected_event_subtype": "outage",
+        "expected_primary_geography": "United States",
+        "expected_mag7": [
+          "AMZN"
+        ],
+        "expected_relevance": "direct",
+        "negative_control_mag7": [
+          "MSFT",
+          "GOOGL",
+          "META"
+        ]
+      },
+      "notes": "MSFT, GOOGL and META are negative controls here; cloud competition alone is not an exposure relationship."
+    }
+  ]
+}

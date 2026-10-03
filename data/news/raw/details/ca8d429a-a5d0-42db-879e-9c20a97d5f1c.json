@@ -1,0 +1,51 @@
+{
+  "_ingestion": {
+    "provider": "freenewsapi",
+    "endpoint": "details",
+    "article_uuid": "ca8d429a-a5d0-42db-879e-9c20a97d5f1c",
+    "fetched_at": "2026-09-21T02:54:28.353804+00:00"
+  },
+  "raw_response": {
+    "data": {
+      "uuid": "ca8d429a-a5d0-42db-879e-9c20a97d5f1c",
+      "title": "IMF Says Global Public Debt at Record High, Governments Falling Short on Deficit Cuts",
+      "thumbnail": "https://media.bloomingbit.io/news/028e6a9f-da3e-4107-90c8-9c8548a8800a.webp",
+      "publisher": "bloomingbit",
+      "authors": [
+        "@bloomingbit_io"
+      ],
+      "topics": [
+        "business",
+        "economy"
+      ],
+      "countries": [
+        "AU",
+        "BW",
+        "ET",
+        "GB",
+        "GH",
+        "ID",
+        "KE",
+        "LV",
+        "MY",
+        "NA",
+        "NG",
+        "NZ",
+        "PH",
+        "SG",
+        "TZ",
+        "UG",
+        "US",
+        "ZA",
+        "ZW"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-09-20T22:38:53.000Z",
+      "original_url": "https://en.bloomingbit.io/feed/news/120693",
+      "incipit": "The IMF said global **public debt** is projected to exceed 100% of **GDP** by 2029 and that countries need **fiscal consolidation**. Georgieva said U.S. **fiscal deficits** and **debt** are not sustainable and stressed the need for a gradual reduction. The IMF said persistent **inflation** and the possibility of further **interest-rate hikes** could increase government borrowing costs and **debt burdens**.",
+      "body": "Suehyeon Lee Summary The IMF said global public debt is projected to exceed 100% of GDP by 2029 and that countries need fiscal consolidation . Georgieva said U.S. fiscal deficits and debt are not sustainable and stressed the need for a gradual reduction. The IMF said persistent inflation and the possibility of further interest-rate hikes could increase government borrowing costs and debt burdens . Forecast Trend Report by Period Photo: ChatGPT The International Monetary Fund urged governments to accelerate efforts to reduce fiscal deficits and debt as global public debt has climbed to a record high. Bloomberg reported on September 20 that IMF Managing Director Kristalina Georgieva, speaking at the Qatar Economic Forum in New York, said she had long warned that fiscal consolidation was essential. While awareness of the issue is rising, actual policy action remains insufficient, she said. The IMF projects global public debt will exceed 100% of gross domestic product by 2029. That would come two years earlier than previously expected, with rising debt in the U.S. and China cited as the main reason. Georgieva singled out the U.S. fiscal position. She said she has repeatedly urged close scrutiny of the country's finances and, through conversations with Treasury Secretary Scott Bessent, confirmed there is recognition that the current trajectory is not sustainable and that the U.S. needs to gradually reduce its fiscal deficit and debt. Last month, Georgieva also warned that the rising debt path of major advanced economies, including the U.S., required a policy response. She also said high inflation and interest rates could increase debt burdens across countries. Inflation remains \"persistent,\" Georgieva said, adding that central banks around the world may need to follow the Federal Reserve and the European Central Bank in raising benchmark interest rates. Any further increases would raise government borrowing costs and interest payments on existing debt. Georgieva also referred to the economic shock from energy and transport disruptions in the Middle East. She said commodity-producing countries such as Qatar, Kuwait and Iraq are being affected and could face a sharp economic contraction. Still, she said Qatar's fiscal buffers built up over time are protecting the economy for now. The IMF forecasts Qatar's economy will contract 8.6% this year, a sharp reversal from the 6.1% growth it had projected before the war with Iran. Longer-term uncertainty surrounding the liquefied natural gas market was also cited as a risk to Qatar's economy. Georgieva said monetary policy in emerging markets is now comparable to, or in some cases stronger than, that in advanced economies, again emphasizing the need for fiscal discipline in developed countries where debt has risen sharply. Suehyeon Lee shlee@bloomingbit.io I'm reporter Suehyeon Lee, your Web3 Moderator."
+    }
+  }
+}

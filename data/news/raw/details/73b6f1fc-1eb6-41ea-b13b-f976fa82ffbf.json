@@ -1,0 +1,30 @@
+{
+  "_ingestion": {
+    "provider": "freenewsapi",
+    "endpoint": "details",
+    "article_uuid": "73b6f1fc-1eb6-41ea-b13b-f976fa82ffbf",
+    "fetched_at": "2026-09-18T08:11:21.742899+00:00"
+  },
+  "raw_response": {
+    "data": {
+      "uuid": "73b6f1fc-1eb6-41ea-b13b-f976fa82ffbf",
+      "title": "The Portland Thorns defense is one of its worst ever - Equalizer Soccer",
+      "thumbnail": "https://equalizersoccer.com/wp-content/uploads/2026/09/2nd_34-Large-1000x600.jpeg",
+      "publisher": "Equalizer Soccer",
+      "authors": [],
+      "topics": [
+        "custom_search"
+      ],
+      "countries": [
+        "US"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-09-18T07:29:57.000Z",
+      "original_url": "https://equalizersoccer.com/2026/09/17/portland-thorns-defense-worst-ever-nwsl-data-analysis/",
+      "incipit": "Photo Credit: Mary Grace Grabill / Chicago Stars FC Not many teams would have been able to top Angel City’s 2024 feat of dropping 20 points from winning or drawing positions. This season’s Portland Thorns...",
+      "body": "Photo Credit: Mary Grace Grabill / Chicago Stars FC Not many teams would have been able to top Angel City’s 2024 feat of dropping 20 points from winning or drawing positions. This season’s Portland Thorns have done just that, and in the same amount of games. Sunday’s at-the-death equalizer from the visiting Chicago Stars brought the Thorns’ dropped points total to 23, an astounding figure. If they’d managed to hold onto even half of those, they would be Shield contenders. Instead, they are scrapping to keep their playoff position. Everyone knows why. While it may be true that the North Carolina Courage have produced a worse defensive record than the Thorns, it is also true that the Houston Dash have produced a better one. The Courage haven’t dropped so many results, either. There’s no hiding the 2026 Thorns’ ugly defensive struggles. Indeed, the club is on track for their worst defensive season in a decade. Access the best women’s soccer coverage all year long Start your FREE, 7-day trial of The Equalizer Extra for industry-leading reporting and insight on the USWNT, NWSL and beyond."
+    }
+  }
+}

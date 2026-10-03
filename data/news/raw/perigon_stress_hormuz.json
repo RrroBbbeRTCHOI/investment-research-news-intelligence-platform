@@ -1,0 +1,1215 @@
+{
+  "_ingestion": {
+    "provider": "perigon",
+    "query_name": "stress_hormuz",
+    "query": "\"Hormuz\" AND (\"oil\" OR \"shipping\" OR \"disruption\")",
+    "fetched_at": "2026-09-25T14:05:36.058621+00:00"
+  },
+  "raw_response": {
+    "status": 200,
+    "numResults": 10000,
+    "articles": [
+      {
+        "url": "https://au.investing.com/news/stock-market-news/hsbc-cuts-twilio-to-reduce-says-muse-rally-has-gone-too-far-4659486",
+        "authorsByline": "Sam Boughedda",
+        "articleId": "9c2fd2700aab40e38053dd09a3c98f63",
+        "clusterId": "a08616fc4129480cbac5172e4cab4e77",
+        "source": {
+          "domain": "au.investing.com",
+          "location": {
+            "country": "il",
+            "county": "Tel Aviv Subdistrict",
+            "city": "Tel Aviv-Yafo",
+            "coordinates": {
+              "lat": 32.0852997,
+              "lon": 34.7818064
+            }
+          }
+        },
+        "imageUrl": "https://content-media.investing.com/news/LYNXNPEC9N0NC_L.jpg",
+        "country": "au",
+        "language": "en",
+        "pubDate": "2026-09-25T14:00:10+00:00",
+        "addDate": "2026-09-25T14:04:24.328468+00:00",
+        "refreshDate": "2026-09-25T14:04:24.328471+00:00",
+        "score": 1.0,
+        "title": "HSBC cuts Twilio to Reduce, says Muse rally has gone too far By Investing",
+        "description": "HSBC cuts Twilio to Reduce, says Muse rally has gone too far",
+        "content": "Oil dips after sharp gains as U.S., Iran reportedly explore Hormuz deal",
+        "enContentWordCount": 13,
+        "medium": "Article",
+        "links": [],
+        "labels": [
+          {
+            "name": "Low Content"
+          }
+        ],
+        "matchedAuthors": [
+          {
+            "id": null,
+            "name": "Sam Boughedda"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Muse rally",
+            "weight": 0.16880889
+          },
+          {
+            "name": "sharp gains",
+            "weight": 0.16880889
+          },
+          {
+            "name": "Hormuz deal",
+            "weight": 0.1393507
+          },
+          {
+            "name": "Iran",
+            "weight": 0.13156866
+          },
+          {
+            "name": "Muse",
+            "weight": 0.13156866
+          },
+          {
+            "name": "U.S.",
+            "weight": 0.1311149
+          },
+          {
+            "name": "Twilio",
+            "weight": 0.121442124
+          },
+          {
+            "name": "Hormuz",
+            "weight": 0.110493064
+          },
+          {
+            "name": "HSBC",
+            "weight": 0.098169364
+          },
+          {
+            "name": "Oil",
+            "weight": 0.098169364
+          }
+        ],
+        "topics": [],
+        "categories": [],
+        "taxonomies": [],
+        "entities": [
+          {
+            "data": "HSBC",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Twilio",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Muse",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "U.S.",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Iran",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Hormuz",
+            "type": "GPE",
+            "mentions": 1
+          }
+        ],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.174482,
+          "negative": 0.57941383,
+          "neutral": 0.24610412
+        },
+        "summary": "",
+        "shortSummary": "",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [
+          {
+            "country": "ir",
+            "state": "22",
+            "county": "Qeshm County",
+            "city": "دهستان هرمز"
+          }
+        ],
+        "reprint": true,
+        "reprintGroupId": "31e89b40dd554d2fa6763b9be2e209fb",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://www.news18.com/amp/agency-feeds/iran-suggests-deal-to-reopen-the-strait-of-hormuz-in-7-days-10353204.html",
+        "authorsByline": "News18",
+        "articleId": "cb477b78cbe042d3b8ea4b39ecdaa0fa",
+        "clusterId": "f29c91c9dcf347c28ad4ff3142577435",
+        "source": {
+          "domain": "news18.com",
+          "location": {
+            "country": "in",
+            "county": "Dadri",
+            "city": "Noida",
+            "coordinates": {
+              "lat": 28.5707841,
+              "lon": 77.3271074
+            }
+          }
+        },
+        "imageUrl": "",
+        "country": "in",
+        "language": "en",
+        "pubDate": "2026-09-25T19:30:08+05:30",
+        "addDate": "2026-09-25T14:03:04.146959+00:00",
+        "refreshDate": "2026-09-25T14:03:04.146960+00:00",
+        "score": 1.0,
+        "title": "Iran suggests deal to reopen the Strait of Hormuz in 7 days",
+        "description": "Iran suggests deal to reopen the Strait of Hormuz in 7 days",
+        "content": "Iran’s Foreign Minister Abbas Araghchi detailed the proposal in a private gathering on Thursday on the sidelines of the UN General Assembly in New York, according to one attendee.\n\nDubai, Sep 25 (AP) ... [2166 symbols]",
+        "enContentWordCount": 400,
+        "medium": "Article",
+        "links": [],
+        "labels": [],
+        "matchedAuthors": [],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Iranian oil sales",
+            "weight": 0.08147528
+          },
+          {
+            "name": "US President Donald Trump",
+            "weight": 0.080193296
+          },
+          {
+            "name": "high oil prices",
+            "weight": 0.0757906
+          },
+          {
+            "name": "Iran",
+            "weight": 0.07306966
+          },
+          {
+            "name": "President Masoud Pezeshkian",
+            "weight": 0.07089108
+          },
+          {
+            "name": "other Iranian officials",
+            "weight": 0.06488426
+          },
+          {
+            "name": "Abbas Araghchi",
+            "weight": 0.06339737
+          },
+          {
+            "name": "UN",
+            "weight": 0.06338813
+          },
+          {
+            "name": "Masoud Pezeshkian",
+            "weight": 0.062493406
+          },
+          {
+            "name": "US",
+            "weight": 0.062213488
+          }
+        ],
+        "topics": [],
+        "categories": [
+          {
+            "name": "World"
+          },
+          {
+            "name": "Politics"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Politics/Other",
+            "score": 0.9740425944328308
+          },
+          {
+            "name": "/People & Society/Social Sciences/Political Science",
+            "score": 0.9678993225097656
+          },
+          {
+            "name": "/News/World News",
+            "score": 0.9525741338729858
+          },
+          {
+            "name": "/Sensitive Subjects/War & Conflict",
+            "score": 0.949669361114502
+          },
+          {
+            "name": "/Law & Government/Military/Other",
+            "score": 0.6325027346611023
+          },
+          {
+            "name": "/Law & Government/Government/Other",
+            "score": 0.45132648944854736
+          }
+        ],
+        "entities": [
+          {
+            "data": "Iran",
+            "type": "GPE",
+            "mentions": 6
+          },
+          {
+            "data": "New York",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Dubai",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "the United States",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Lebanon",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "US",
+            "type": "GPE",
+            "mentions": 3
+          },
+          {
+            "data": "Qatar",
+            "type": "GPE",
+            "mentions": 2
+          },
+          {
+            "data": "the Strait of Hormuz",
+            "type": "LOC",
+            "mentions": 2
+          },
+          {
+            "data": "Abbas Araghchi",
+            "type": "PERSON",
+            "mentions": 3
+          },
+          {
+            "data": "Trita Parsi",
+            "type": "PERSON",
+            "mentions": 2
+          },
+          {
+            "data": "Donald Trump",
+            "type": "PERSON",
+            "mentions": 3
+          },
+          {
+            "data": "Masoud Pezeshkian",
+            "type": "PERSON",
+            "mentions": 4
+          },
+          {
+            "data": "Marco Rubio",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "the UN General Assembly",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Quincy Institute",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "UN",
+            "type": "ORG",
+            "mentions": 3
+          },
+          {
+            "data": "State",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "AP",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Iranian",
+            "type": "NORP",
+            "mentions": 4
+          },
+          {
+            "data": "Memorandum of Understanding",
+            "type": "LAW",
+            "mentions": 1
+          },
+          {
+            "data": "early Friday",
+            "type": "TIME",
+            "mentions": 1
+          },
+          {
+            "data": "hours",
+            "type": "TIME",
+            "mentions": 1
+          }
+        ],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.2732215,
+          "negative": 0.23970845,
+          "neutral": 0.48707
+        },
+        "summary": "Iran's Foreign Minister, Abbas Araghchi, has proposed a deal to reopen the Strait of Hormuz and resume talks on its nuclear programme if the US lifts its naval blockade, waives sanctions on Iranian oil sales, and observes a ceasefire that would include Lebanon. The proposal was made at a private gathering on the sidelines of the UN General Assembly in New York. Trita Parsi, executive vice president of the Quincy Institute think tank, suggested that a speedy agreement could help US President Donald Trump ahead of November's midterm elections. There are concerns about whether Iran's hard-liners will accept compromises championed by moderates like President Masoud Pezeshkian.",
+        "shortSummary": "Iran's Foreign Minister Abbas Araghchi proposed reopening the Strait of Hormuz and resuming nuclear talks with the United States within seven days, aiming to boost political benefits.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": true,
+        "reprintGroupId": "96247124a32c4b318cd06a72d79fa5d6",
+        "places": [],
+        "people": [
+          {
+            "wikidataId": "Q324546",
+            "name": "Marco Rubio"
+          },
+          {
+            "wikidataId": "Q5933752",
+            "name": "Masoud Pezeshkian"
+          },
+          {
+            "wikidataId": "Q22686",
+            "name": "Donald Trump"
+          }
+        ]
+      },
+      {
+        "url": "https://wutv29.com/news/nation-world/iran-proposes-reopening-strait-hormuz-resuming-nuclear-talks-if-us-lifts-blockade-sanctions-iranian-oil-sales-ceasefire-lebanon-abbas-araghchi-foreign-minister-un-unga-trump-midterms-cost-of-living-oil-pricesmarco-rubio",
+        "authorsByline": "CAITLYN FROLO | The National News Desk",
+        "articleId": "69d8940041fd4e41989c452b63f4d1d7",
+        "clusterId": "f29c91c9dcf347c28ad4ff3142577435",
+        "source": {
+          "domain": "wutv29.com",
+          "paywall": false,
+          "location": {
+            "country": "us",
+            "state": "NY",
+            "county": "Erie County",
+            "city": "Buffalo",
+            "coordinates": {
+              "lat": 42.8867166,
+              "lon": -78.8783922
+            }
+          }
+        },
+        "imageUrl": "https://wutv29.com/resources/media2/16x9/5000/1320/0x261/90/29503d52-b60c-4185-a5a1-435e3b6c5ee9-GettyImages22899080213.jpg",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-09-25T09:58:52-04:00",
+        "addDate": "2026-09-25T14:05:01.512937+00:00",
+        "refreshDate": "2026-09-25T14:05:01.512939+00:00",
+        "score": 1.0,
+        "title": "Iran proposes reopening Strait, resuming nuclear talks if US lifts blockade",
+        "description": "Iran has proposed reopening the Strait of Hormuz and restarting talks over its nuclear program within seven days if the United States agrees to several things.",
+        "content": "Iran has proposed reopening the Strait of Hormuz and restarting talks over its nuclear program within seven days if the United States agrees to several things.\n\nTehran is asking the U.S. to lift its n... [2425 symbols]",
+        "enContentWordCount": 422,
+        "medium": "Article",
+        "links": [
+          "https://thenationaldesk.com/news/americas-news-now/president-donald-trump-touts-very-good-iran-talks-followed-combative-un-united-nations-general-assembly-speech-new-york-us-iranian-envoys-delegation-middle-east-nuclear-weapons-islamic-republic#",
+          "https://thenationaldesk.com/news/americas-news-now/iran-talks-ukraine-war-take-center-stage-on-day-2-of-un-united-nations-general-assembly-new-york-world-leaders-iranian-president-masoud-pezeshkian-qatari-mediators-strait-of-hormuz-ukrainian-president-volodymyr-zelenskyy-russia-war-putin#",
+          "https://thenationaldesk.com/top-videos/president-donald-trump-heads-to-un-united-nations-general-assembly-as-iran-war-ai-artificial-intelligence-fears-and-oil-turmoil-strait-of-hormuz-dominate-agenda-world-leaders-new-york-city-global-energy-markets-russia-ukraine-denmark-greenland#"
+        ],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": "2ecfc9e6fbe14648b2d2a8e4f7f31ac7",
+            "name": "Caitlyn Frolo"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Iranian oil sales",
+            "weight": 0.07868624
+          },
+          {
+            "name": "other Iranian officials",
+            "weight": 0.07706789
+          },
+          {
+            "name": "Iranian Foreign Minister Abbas Araghchi",
+            "weight": 0.07426716
+          },
+          {
+            "name": "elevated oil prices",
+            "weight": 0.07186045
+          },
+          {
+            "name": "President Donald Trump",
+            "weight": 0.06867116
+          },
+          {
+            "name": "President Trump",
+            "weight": 0.06713923
+          },
+          {
+            "name": "President Masoud Pezeshkian",
+            "weight": 0.0668147
+          },
+          {
+            "name": "nuclear talks",
+            "weight": 0.06449638
+          },
+          {
+            "name": "more oil",
+            "weight": 0.06411688
+          },
+          {
+            "name": "Iran",
+            "weight": 0.0635909
+          }
+        ],
+        "topics": [
+          {
+            "name": "ESG"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Politics"
+          },
+          {
+            "name": "World"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Politics/Other",
+            "score": 0.9647889137268066
+          },
+          {
+            "name": "/News/World News",
+            "score": 0.9605836272239685
+          },
+          {
+            "name": "/People & Society/Social Sciences/Political Science",
+            "score": 0.9600626826286316
+          },
+          {
+            "name": "/Sensitive Subjects/War & Conflict",
+            "score": 0.957912266254425
+          },
+          {
+            "name": "/Law & Government/Military/Other",
+            "score": 0.7164170742034912
+          },
+          {
+            "name": "/Business & Industrial/Aerospace & Defense/Other",
+            "score": 0.31933361291885376
+          }
+        ],
+        "entities": [
+          {
+            "data": "Iran",
+            "type": "GPE",
+            "mentions": 6
+          },
+          {
+            "data": "US",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "the United States",
+            "type": "GPE",
+            "mentions": 3
+          },
+          {
+            "data": "Tehran",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "U.S.",
+            "type": "GPE",
+            "mentions": 2
+          },
+          {
+            "data": "Lebanon",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "New York",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Qatar",
+            "type": "GPE",
+            "mentions": 2
+          },
+          {
+            "data": "Strait",
+            "type": "LOC",
+            "mentions": 3
+          },
+          {
+            "data": "Iranian",
+            "type": "NORP",
+            "mentions": 4
+          },
+          {
+            "data": "the U.N. General Assembly",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Quincy Institute",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "the United Nations",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "State",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "The Associated Press",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Abbas Araghchi",
+            "type": "PERSON",
+            "mentions": 3
+          },
+          {
+            "data": "Trita Parsi",
+            "type": "PERSON",
+            "mentions": 2
+          },
+          {
+            "data": "Donald Trump",
+            "type": "PERSON",
+            "mentions": 3
+          },
+          {
+            "data": "Masoud Pezeshkian",
+            "type": "PERSON",
+            "mentions": 4
+          },
+          {
+            "data": "Marco Rubio",
+            "type": "PERSON",
+            "mentions": 2
+          },
+          {
+            "data": "early Friday",
+            "type": "TIME",
+            "mentions": 1
+          },
+          {
+            "data": "hours",
+            "type": "TIME",
+            "mentions": 1
+          }
+        ],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.18330999,
+          "negative": 0.37274528,
+          "neutral": 0.44394472
+        },
+        "summary": "Iran has proposed to reopen the Strait of Hormuz and restarting nuclear talks within seven days if the United States agrees to several key measures, including lifting its naval blockade, waiving sanctions on Iranian oil sales, and observing a ceasefire that would include Lebanon. The proposal was made by Iranian Foreign Minister Abbas Araghchi at a gathering on the sidelines of the U.N. General Assembly. The agreement closely resembles a June agreement that collapsed after Iran resumed attacks on shipping in the Strait. There is suspicion that Iran could use this agreement to export more oil and reduce economic pressure.",
+        "shortSummary": "Iran proposes reopening the Strait of Hormuz and resuming nuclear talks with the United States within seven days, aiming to boost political stability and economic stability.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [
+          {
+            "country": "us",
+            "state": "NY",
+            "city": "Buffalo"
+          }
+        ],
+        "reprint": true,
+        "reprintGroupId": "764e4ca9871b4c8e970c8c0f836f5294",
+        "places": [],
+        "people": [
+          {
+            "wikidataId": "Q22686",
+            "name": "Donald Trump"
+          },
+          {
+            "wikidataId": "Q5933752",
+            "name": "Masoud Pezeshkian"
+          },
+          {
+            "wikidataId": "Q324546",
+            "name": "Marco Rubio"
+          }
+        ]
+      },
+      {
+        "url": "https://fox11online.com/news/nation-world/iran-proposes-reopening-strait-hormuz-resuming-nuclear-talks-if-us-lifts-blockade-sanctions-iranian-oil-sales-ceasefire-lebanon-abbas-araghchi-foreign-minister-un-unga-trump-midterms-cost-of-living-oil-pricesmarco-rubio",
+        "authorsByline": "CAITLYN FROLO | The National News Desk",
+        "articleId": "5171b35682144bcf8385dc60395610bb",
+        "clusterId": "f29c91c9dcf347c28ad4ff3142577435",
+        "source": {
+          "domain": "fox11online.com",
+          "location": {
+            "country": "us",
+            "state": "WI",
+            "county": "Brown County",
+            "city": "Green Bay",
+            "coordinates": {
+              "lat": 44.5126379,
+              "lon": -88.0125794
+            }
+          }
+        },
+        "imageUrl": "https://fox11online.com/resources/media2/16x9/5000/1320/0x261/90/29503d52-b60c-4185-a5a1-435e3b6c5ee9-GettyImages22899080213.jpg",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-09-25T09:58:52-04:00",
+        "addDate": "2026-09-25T14:03:12.052809+00:00",
+        "refreshDate": "2026-09-25T14:03:12.052810+00:00",
+        "score": 1.0,
+        "title": "Iran proposes reopening Strait, resuming nuclear talks if US lifts blockade",
+        "description": "Iran has proposed reopening the Strait of Hormuz and restarting talks over its nuclear program within seven days if the United States agrees to several things.",
+        "content": "Iran has proposed reopening the Strait of Hormuz and restarting talks over its nuclear program within seven days if the United States agrees to several things.\n\nTehran is asking the U.S. to lift its n... [2425 symbols]",
+        "enContentWordCount": 422,
+        "medium": "Article",
+        "links": [
+          "https://thenationaldesk.com/news/americas-news-now/iran-talks-ukraine-war-take-center-stage-on-day-2-of-un-united-nations-general-assembly-new-york-world-leaders-iranian-president-masoud-pezeshkian-qatari-mediators-strait-of-hormuz-ukrainian-president-volodymyr-zelenskyy-russia-war-putin#",
+          "https://thenationaldesk.com/news/americas-news-now/president-donald-trump-touts-very-good-iran-talks-followed-combative-un-united-nations-general-assembly-speech-new-york-us-iranian-envoys-delegation-middle-east-nuclear-weapons-islamic-republic#",
+          "https://thenationaldesk.com/top-videos/president-donald-trump-heads-to-un-united-nations-general-assembly-as-iran-war-ai-artificial-intelligence-fears-and-oil-turmoil-strait-of-hormuz-dominate-agenda-world-leaders-new-york-city-global-energy-markets-russia-ukraine-denmark-greenland#"
+        ],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": "2ecfc9e6fbe14648b2d2a8e4f7f31ac7",
+            "name": "Caitlyn Frolo"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Iranian oil sales",
+            "weight": 0.07868624
+          },
+          {
+            "name": "other Iranian officials",
+            "weight": 0.07706789
+          },
+          {
+            "name": "Iranian Foreign Minister Abbas Araghchi",
+            "weight": 0.07426716
+          },
+          {
+            "name": "elevated oil prices",
+            "weight": 0.07186045
+          },
+          {
+            "name": "President Donald Trump",
+            "weight": 0.06867116
+          },
+          {
+            "name": "President Trump",
+            "weight": 0.06713923
+          },
+          {
+            "name": "President Masoud Pezeshkian",
+            "weight": 0.0668147
+          },
+          {
+            "name": "nuclear talks",
+            "weight": 0.06449638
+          },
+          {
+            "name": "more oil",
+            "weight": 0.06411688
+          },
+          {
+            "name": "Iran",
+            "weight": 0.0635909
+          }
+        ],
+        "topics": [
+          {
+            "name": "ESG"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Politics"
+          },
+          {
+            "name": "World"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Politics/Other",
+            "score": 0.9647889137268066
+          },
+          {
+            "name": "/News/World News",
+            "score": 0.9605836272239685
+          },
+          {
+            "name": "/People & Society/Social Sciences/Political Science",
+            "score": 0.9600626826286316
+          },
+          {
+            "name": "/Sensitive Subjects/War & Conflict",
+            "score": 0.957912266254425
+          },
+          {
+            "name": "/Law & Government/Military/Other",
+            "score": 0.7164170742034912
+          },
+          {
+            "name": "/Business & Industrial/Aerospace & Defense/Other",
+            "score": 0.31933361291885376
+          }
+        ],
+        "entities": [
+          {
+            "data": "Iran",
+            "type": "GPE",
+            "mentions": 6
+          },
+          {
+            "data": "US",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "the United States",
+            "type": "GPE",
+            "mentions": 3
+          },
+          {
+            "data": "Tehran",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "U.S.",
+            "type": "GPE",
+            "mentions": 2
+          },
+          {
+            "data": "Lebanon",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "New York",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Qatar",
+            "type": "GPE",
+            "mentions": 2
+          },
+          {
+            "data": "Strait",
+            "type": "LOC",
+            "mentions": 3
+          },
+          {
+            "data": "Iranian",
+            "type": "NORP",
+            "mentions": 4
+          },
+          {
+            "data": "the U.N. General Assembly",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Quincy Institute",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "the United Nations",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "State",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "The Associated Press",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Abbas Araghchi",
+            "type": "PERSON",
+            "mentions": 3
+          },
+          {
+            "data": "Trita Parsi",
+            "type": "PERSON",
+            "mentions": 2
+          },
+          {
+            "data": "Donald Trump",
+            "type": "PERSON",
+            "mentions": 3
+          },
+          {
+            "data": "Masoud Pezeshkian",
+            "type": "PERSON",
+            "mentions": 4
+          },
+          {
+            "data": "Marco Rubio",
+            "type": "PERSON",
+            "mentions": 2
+          },
+          {
+            "data": "early Friday",
+            "type": "TIME",
+            "mentions": 1
+          },
+          {
+            "data": "hours",
+            "type": "TIME",
+            "mentions": 1
+          }
+        ],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.18330999,
+          "negative": 0.37274528,
+          "neutral": 0.44394472
+        },
+        "summary": "Iran has proposed to reopen the Strait of Hormuz and restarting nuclear talks within seven days if the United States agrees to several key measures, including lifting its naval blockade, waiving sanctions on Iranian oil sales, and observing a ceasefire that would include Lebanon. The proposal was made by Iranian Foreign Minister Abbas Araghchi at a gathering on the sidelines of the U.N. General Assembly. The agreement closely resembles a June agreement that collapsed after Iran resumed attacks on shipping in the Strait. There is suspicion that Iran could use this agreement to export more oil and reduce economic pressure.",
+        "shortSummary": "Iran proposes reopening the Strait of Hormuz and resuming nuclear talks with the United States within seven days, aiming to boost political stability and economic stability.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": true,
+        "reprintGroupId": "764e4ca9871b4c8e970c8c0f836f5294",
+        "places": [],
+        "people": [
+          {
+            "wikidataId": "Q22686",
+            "name": "Donald Trump"
+          },
+          {
+            "wikidataId": "Q324546",
+            "name": "Marco Rubio"
+          },
+          {
+            "wikidataId": "Q5933752",
+            "name": "Masoud Pezeshkian"
+          }
+        ]
+      },
+      {
+        "url": "https://abcnews4.com/news/nation-world/iran-proposes-reopening-strait-hormuz-resuming-nuclear-talks-if-us-lifts-blockade-sanctions-iranian-oil-sales-ceasefire-lebanon-abbas-araghchi-foreign-minister-un-unga-trump-midterms-cost-of-living-oil-pricesmarco-rubio",
+        "authorsByline": "CAITLYN FROLO | The National News Desk",
+        "articleId": "93f8da050137450ba9630788e908299f",
+        "clusterId": "f29c91c9dcf347c28ad4ff3142577435",
+        "source": {
+          "domain": "abcnews4.com",
+          "location": null
+        },
+        "imageUrl": "https://abcnews4.com/resources/media2/16x9/5000/1320/0x261/90/29503d52-b60c-4185-a5a1-435e3b6c5ee9-GettyImages22899080213.jpg",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-09-25T09:58:52-04:00",
+        "addDate": "2026-09-25T14:03:49.629918+00:00",
+        "refreshDate": "2026-09-25T14:03:49.629920+00:00",
+        "score": 1.0,
+        "title": "Iran proposes reopening Strait, resuming nuclear talks if US lifts blockade",
+        "description": "Iran has proposed reopening the Strait of Hormuz and restarting talks over its nuclear program within seven days if the United States agrees to several things.",
+        "content": "Iran has proposed reopening the Strait of Hormuz and restarting talks over its nuclear program within seven days if the United States agrees to several things.\n\nTehran is asking the U.S. to lift its n... [2425 symbols]",
+        "enContentWordCount": 422,
+        "medium": "Article",
+        "links": [
+          "https://thenationaldesk.com/news/americas-news-now/president-donald-trump-touts-very-good-iran-talks-followed-combative-un-united-nations-general-assembly-speech-new-york-us-iranian-envoys-delegation-middle-east-nuclear-weapons-islamic-republic#",
+          "https://thenationaldesk.com/top-videos/president-donald-trump-heads-to-un-united-nations-general-assembly-as-iran-war-ai-artificial-intelligence-fears-and-oil-turmoil-strait-of-hormuz-dominate-agenda-world-leaders-new-york-city-global-energy-markets-russia-ukraine-denmark-greenland#",
+          "https://thenationaldesk.com/news/americas-news-now/iran-talks-ukraine-war-take-center-stage-on-day-2-of-un-united-nations-general-assembly-new-york-world-leaders-iranian-president-masoud-pezeshkian-qatari-mediators-strait-of-hormuz-ukrainian-president-volodymyr-zelenskyy-russia-war-putin#"
+        ],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": "2ecfc9e6fbe14648b2d2a8e4f7f31ac7",
+            "name": "Caitlyn Frolo"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Iranian oil sales",
+            "weight": 0.07868624
+          },
+          {
+            "name": "other Iranian officials",
+            "weight": 0.07706789
+          },
+          {
+            "name": "Iranian Foreign Minister Abbas Araghchi",
+            "weight": 0.07426716
+          },
+          {
+            "name": "elevated oil prices",
+            "weight": 0.07186045
+          },
+          {
+            "name": "President Donald Trump",
+            "weight": 0.06867116
+          },
+          {
+            "name": "President Trump",
+            "weight": 0.06713923
+          },
+          {
+            "name": "President Masoud Pezeshkian",
+            "weight": 0.0668147
+          },
+          {
+            "name": "nuclear talks",
+            "weight": 0.06449638
+          },
+          {
+            "name": "more oil",
+            "weight": 0.06411688
+          },
+          {
+            "name": "Iran",
+            "weight": 0.0635909
+          }
+        ],
+        "topics": [
+          {
+            "name": "ESG"
+          }
+        ],
+        "categories": [
+          {
+            "name": "World"
+          },
+          {
+            "name": "Politics"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Politics/Other",
+            "score": 0.9648551344871521
+          },
+          {
+            "name": "/News/World News",
+            "score": 0.9603611826896667
+          },
+          {
+            "name": "/People & Society/Social Sciences/Political Science",
+            "score": 0.9597620368003845
+          },
+          {
+            "name": "/Sensitive Subjects/War & Conflict",
+            "score": 0.957912266254425
+          },
+          {
+            "name": "/Law & Government/Military/Other",
+            "score": 0.7170118689537048
+          },
+          {
+            "name": "/Business & Industrial/Aerospace & Defense/Other",
+            "score": 0.32167303562164307
+          }
+        ],
+        "entities": [
+          {
+            "data": "Iran",
+            "type": "GPE",
+            "mentions": 6
+          },
+          {
+            "data": "US",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "the United States",
+            "type": "GPE",
+            "mentions": 3
+          },
+          {
+            "data": "Tehran",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "U.S.",
+            "type": "GPE",
+            "mentions": 2
+          },
+          {
+            "data": "Lebanon",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "New York",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Qatar",
+            "type": "GPE",
+            "mentions": 2
+          },
+          {
+            "data": "Strait",
+            "type": "LOC",
+            "mentions": 3
+          },
+          {
+            "data": "Iranian",
+            "type": "NORP",
+            "mentions": 4
+          },
+          {
+            "data": "the U.N. General Assembly",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Quincy Institute",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "the United Nations",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "State",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "The Associated Press",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Abbas Araghchi",
+            "type": "PERSON",
+            "mentions": 3
+          },
+          {
+            "data": "Trita Parsi",
+            "type": "PERSON",
+            "mentions": 2
+          },
+          {
+            "data": "Donald Trump",
+            "type": "PERSON",
+            "mentions": 3
+          },
+          {
+            "data": "Masoud Pezeshkian",
+            "type": "PERSON",
+            "mentions": 4
+          },
+          {
+            "data": "Marco Rubio",
+            "type": "PERSON",
+            "mentions": 2
+          },
+          {
+            "data": "early Friday",
+            "type": "TIME",
+            "mentions": 1
+          },
+          {
+            "data": "hours",
+            "type": "TIME",
+            "mentions": 1
+          }
+        ],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.18421906,
+          "negative": 0.37213272,
+          "neutral": 0.4436482
+        },
+        "summary": "Iran has proposed to reopen the Strait of Hormuz and restart nuclear talks within seven days if the United States agrees to several conditions, including lifting its naval blockade, waiving sanctions on Iranian oil sales, and observing a ceasefire that would include Lebanon. The proposal was made by Iranian Foreign Minister Abbas Araghchi at a gathering on the sidelines of the U.N. General Assembly. Trita Parsi, executive vice president of the Quincy Institute think tank, suggested that a rapid agreement could help President Donald Trump ahead of November's midterm elections. The offer closely resembles a June agreement, which collapsed after Iran resumed attacks on shipping in the Strait. There is suspicion that Iran could use this agreement to export more oil and reduce economic pressure.",
+        "shortSummary": "Iran proposes reopening the Strait of Hormuz and resuming nuclear talks with the United States within seven days, aiming to boost political stability and economic stability.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": true,
+        "reprintGroupId": "764e4ca9871b4c8e970c8c0f836f5294",
+        "places": [],
+        "people": [
+          {
+            "wikidataId": "Q324546",
+            "name": "Marco Rubio"
+          },
+          {
+            "wikidataId": "Q22686",
+            "name": "Donald Trump"
+          },
+          {
+            "wikidataId": "Q5933752",
+            "name": "Masoud Pezeshkian"
+          }
+        ]
+      }
+    ]
+  }
+}

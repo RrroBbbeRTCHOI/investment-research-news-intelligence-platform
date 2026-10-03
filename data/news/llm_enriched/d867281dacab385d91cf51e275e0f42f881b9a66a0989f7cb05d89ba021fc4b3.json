@@ -1,0 +1,127 @@
+{
+  "status": "available",
+  "schema_version": "news_semantic_v3_1",
+  "prompt_version": "news_semantics_v3_1_sentence_grounding",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "content_hash": "d867281dacab385d91cf51e275e0f42f881b9a66a0989f7cb05d89ba021fc4b3",
+  "article_content_hash": "c030e599b0493b67654cc66ce043595f16812dd9cb1285ef824a3e1a080ee44c",
+  "generated_at": "2026-09-27T14:02:13.118167+00:00",
+  "semantic": {
+    "article_class": "technology_event",
+    "is_relevant_candidate": true,
+    "summary_short": "India ranks in the “low” category of temporal AI adoption curves despite high search interest.",
+    "summary_full": "India ranks in the “low” category of the AI adoption curve despite indicating a high search interest in the technology, according to a recent study based on Google AI usage data.",
+    "primary_country": "India",
+    "event_type": "technology_adoption",
+    "event_subtype": "adoption_survey",
+    "countries": [
+      "India"
+    ],
+    "entities": [
+      "Google"
+    ],
+    "companies_mentioned": [
+      "Google"
+    ],
+    "direct_ticker_candidates": [
+      "GOOGL",
+      "GOOG"
+    ],
+    "economic_channels": [
+      "technology_infrastructure"
+    ],
+    "candidate_indirect_tickers": [],
+    "missing_information": [
+      "Exact methodology of the study",
+      "Quantitative metrics of infrastructure barriers"
+    ],
+    "research_questions": [
+      "What specific infrastructure barriers are limiting AI adoption in India according to the study?"
+    ],
+    "severity_candidate": "Low",
+    "severity_reason": "The article reports general statistical rankings on AI adoption in emerging markets without indicating direct, severe corporate operational impacts or financial damage for specific entities.",
+    "severity_confidence": 0.8,
+    "operational_event": false,
+    "fundamental_change_detected": false,
+    "llm_confidence": 0.95,
+    "citations": [
+      {
+        "field": "summary_short",
+        "quote": "India ranks in the “low” category of the AI adoption curve despite indicating a high search interest in the technology, according to a recent study based on Google AI usage data.",
+        "source_field": "body"
+      },
+      {
+        "field": "summary_full",
+        "quote": "India ranks in the “low” category of the AI adoption curve despite indicating a high search interest in the technology, according to a recent study based on Google AI usage data.",
+        "source_field": "body"
+      },
+      {
+        "field": "primary_country",
+        "quote": "India",
+        "source_field": "headline"
+      },
+      {
+        "field": "event_type",
+        "quote": "AI adoption",
+        "source_field": "headline"
+      },
+      {
+        "field": "event_subtype",
+        "quote": "study",
+        "source_field": "body"
+      },
+      {
+        "field": "article_class",
+        "quote": "AI adoption",
+        "source_field": "headline"
+      },
+      {
+        "field": "economic_channels",
+        "quote": "infrastructure barriers",
+        "source_field": "summary"
+      },
+      {
+        "field": "severity_candidate",
+        "quote": "low",
+        "source_field": "headline"
+      },
+      {
+        "field": "operational_event",
+        "quote": "AI adoption",
+        "source_field": "headline"
+      },
+      {
+        "field": "fundamental_change_detected",
+        "quote": "AI adoption",
+        "source_field": "headline"
+      },
+      {
+        "field": "direct_ticker_candidates",
+        "quote": "Google",
+        "source_field": "body"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "total_tokens": 1156,
+    "estimated_cost_usd": null,
+    "scope": "successful response only; failed-attempt usage unavailable"
+  },
+  "cache_hit": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "success"
+    }
+  ],
+  "attempt_audit_scope": "original enrichment generation; cache reuse makes no new requests",
+  "attempt_count": 1,
+  "retry_count": 0,
+  "fallback_used": false
+}

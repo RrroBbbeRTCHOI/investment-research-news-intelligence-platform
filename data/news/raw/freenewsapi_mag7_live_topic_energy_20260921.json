@@ -1,0 +1,98 @@
+{
+  "_ingestion": {
+    "provider": "freenewsapi",
+    "query_name": "mag7_live_topic_energy_20260921",
+    "fetched_at": "2026-09-21T02:51:44.884955+00:00",
+    "request_params": {
+      "topic": "energy",
+      "language": "en",
+      "country": "us"
+    }
+  },
+  "raw_response": {
+    "data": [
+      {
+        "uuid": "f7b2ede4-bd84-4bf4-8225-a36e2898009c",
+        "title": "Petrobras Backs New Diesel Subsidy as Fuel Payments Reach $1.9 Billion",
+        "published_at": "2026-09-21T01:56:44.000Z",
+        "publisher": "Crude Oil Prices Today | OilPrice.com"
+      },
+      {
+        "uuid": "becbd6f8-e884-465e-9381-3cd937f6c1d9",
+        "title": "Discarded pool chemicals in garbage truck load cause vapor cloud, hours-long hazmat response in Gurnee",
+        "published_at": "2026-09-21T00:43:12.000Z",
+        "publisher": "Lake and McHenry County Scanner"
+      },
+      {
+        "uuid": "68363629-7144-4a39-aeac-731cc56e904e",
+        "title": "The iron-air storage solution for solar",
+        "published_at": "2026-09-21T00:36:00.000Z",
+        "publisher": "BusinessLine"
+      },
+      {
+        "uuid": "65f92ea6-5206-4b89-b43c-2565d568ad57",
+        "title": "Coal is still the king of global power. Here’s why",
+        "published_at": "2026-09-21T00:21:13.000Z",
+        "publisher": "The Motley Fool Australia"
+      },
+      {
+        "uuid": "99d15c7d-ae54-44f8-8cf7-fc95a9a56143",
+        "title": "Big Oil's Production Keeps Soaring Despite Deep Spending Cuts",
+        "published_at": "2026-09-20T23:00:00.000Z",
+        "publisher": "Crude Oil Prices Today | OilPrice.com"
+      },
+      {
+        "uuid": "b4a16a41-a6ad-4a1c-b57b-60767956da78",
+        "title": "Here’s how long Corpus Christi tap water will taste or smell ‘musty’",
+        "published_at": "2026-09-20T22:30:00.000Z",
+        "publisher": "caller.com"
+      },
+      {
+        "uuid": "f4d8e6ca-1ca9-4a36-9481-79b5b55c4229",
+        "title": "Natural Gas News: Europe’s LNG Demand Keeps U.S. Gas Bulls in the Fight",
+        "published_at": "2026-09-20T21:54:36.000Z",
+        "publisher": "FXEmpire"
+      },
+      {
+        "uuid": "408211d5-f212-4618-a13a-11cd065f2ea9",
+        "title": "City issues garbage cart transition update",
+        "published_at": "2026-09-20T21:22:30.000Z",
+        "publisher": "Vicksburg Daily News"
+      },
+      {
+        "uuid": "6cdc4aee-ec3b-4f33-a053-aa6726cf0ead",
+        "title": "With this 'little bit', households can help tackle organic waste problem",
+        "published_at": "2026-09-20T21:04:36.000Z",
+        "publisher": "ABC News & Headlines – Australian Broadcasting Corporation"
+      },
+      {
+        "uuid": "2bf63975-ca91-4c83-8c94-152e88be1056",
+        "title": "Paratus and Vantris JV clears Petrobras PLSV tender hurdle",
+        "published_at": "2026-09-20T20:48:45.000Z",
+        "publisher": "Splash247"
+      }
+    ],
+    "meta": {
+      "page_size": 10,
+      "returned": 10,
+      "has_more": true,
+      "order_by": "recent",
+      "filters": {
+        "published_after": null,
+        "published_before": null,
+        "language": "en",
+        "country": "US",
+        "topic": "energy",
+        "publisher_uuid": null,
+        "author_uuid": null,
+        "q": null,
+        "in_title": null,
+        "in_body": null,
+        "in_subtitle": null
+      },
+      "offset": 0,
+      "next_offset": 10,
+      "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6ImNmMzZkZjQzNDYxYjE2ZDcxYTQ2YTk0NWJlOGU3YTNjMzdlYjAyNDRiZjAxZmQ2NjJhOWI1NmY5YjkyMDVmNjIiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDktMjBUMjA6NDg6NDUuMDAwWiIsImxhc3RfaWQiOjI5NDAxMDQyfQ"
+    }
+  }
+}

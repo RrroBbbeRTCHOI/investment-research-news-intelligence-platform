@@ -1,0 +1,2058 @@
+{
+  "_ingestion": {
+    "provider": "perigon",
+    "query_name": "stress_nvidia_export_controls",
+    "query": "\"Nvidia\" AND (\"export controls\" OR \"China\")",
+    "fetched_at": "2026-09-25T14:05:32.008192+00:00"
+  },
+  "raw_response": {
+    "status": 200,
+    "numResults": 10000,
+    "articles": [
+      {
+        "url": "https://eng.pressbee.net/show4896618.html?title=meetkai-takes-sovereign-ai-built-on-nvidia-to-six-countries",
+        "authorsByline": "PR Newswire",
+        "articleId": "9bdf1862404e4a198785bfaf95876eb6",
+        "clusterId": "5761911cbc9644e4a4a2c5bb7bead31e",
+        "source": {
+          "domain": "eng.pressbee.net",
+          "location": null
+        },
+        "imageUrl": "https://mmx.prnewswire.com/media/MS1996513/meetkai-veon.jpg?id=OA2971290&p=facebook",
+        "country": "",
+        "language": "en",
+        "pubDate": "2026-09-25T16:56:37+03:00",
+        "addDate": "2026-09-25T13:59:32.368639+00:00",
+        "refreshDate": "2026-09-25T13:59:32.368640+00:00",
+        "score": 1.0,
+        "title": "MeetKai Takes Sovereign AI built on NVIDIA to Six Countries ...Middle East",
+        "description": "MeetKai Takes Sovereign AI built on NVIDIA to Six CountriesA Sovereign AI tender win in Brazil and the first national-scale AI...",
+        "content": "A Sovereign AI tender win in Brazil and the first national-scale AI factory in Ukraine open a six-country rollout with SERPRO, VEON and Kyivstar LOS ANGELES and SANTA CLARA, Calif., Sept. 25, 2026 /PR... [993 symbols]",
+        "enContentWordCount": 179,
+        "medium": "Article",
+        "links": [
+          "https://eng.pressbee.net/show4896034.html?title=fairwinds-credit-union-data-breach-investigation-edelson-lechtzin",
+          "https://apps.apple.com/ye/app/%D8%A8%D8%B1%D8%B3-%D8%A8%D9%8A-press-bee/id1571639323",
+          "https://eng.pressbee.net/www/prnewswire.com",
+          "https://eng.pressbee.net/news/Middle-East",
+          "https://twitter.com/intent/tweet?text=MeetKai Takes Sovereign AI built on NVIDIA to Six Countries &url=https://eng.pressbee.net/show4896618.html",
+          "https://play.google.com/store/apps/details?id=net.pressbee",
+          "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feng.pressbee.net%2Fshow4896618.html",
+          "https://eng.pressbee.net/show4895986.html?title=california-waste-solutions-to-play-major-role-with-ai-optical-sor",
+          "http://www.linkedin.com/shareArticle?mini=true&url=https://eng.pressbee.net/show4896618.html&title=&summary=MeetKai Takes Sovereign AI built on NVIDIA to Six Countries",
+          "https://www.prnewswire.com/news-releases/meetkai-takes-sovereign-ai-built-on-nvidia-to-six-countries-302890312.html",
+          "https://eng.pressbee.net/show4896329.html?title=how-china-is-conquering-high-tech-markets-once-controlled-by-the-"
+        ],
+        "labels": [
+          {
+            "name": "Press Release"
+          }
+        ],
+        "matchedAuthors": [],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Sovereign AI",
+            "weight": 0.10238865
+          },
+          {
+            "name": "AI Optical Sorters",
+            "weight": 0.09921257
+          },
+          {
+            "name": "SANTA CLARA",
+            "weight": 0.07568535
+          },
+          {
+            "name": "California Waste Solutions",
+            "weight": 0.074458666
+          },
+          {
+            "name": "PressBee",
+            "weight": 0.073707774
+          },
+          {
+            "name": "Illegal Dumping",
+            "weight": 0.073299944
+          },
+          {
+            "name": "LOS ANGELES",
+            "weight": 0.07306809
+          },
+          {
+            "name": "Middle East",
+            "weight": 0.07009758
+          },
+          {
+            "name": "enough information",
+            "weight": 0.06842781
+          },
+          {
+            "name": "Major Role",
+            "weight": 0.06766846
+          }
+        ],
+        "topics": [
+          {
+            "name": "AI"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Tech"
+          },
+          {
+            "name": "Business"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Company News",
+            "score": 0.9947799444198608
+          },
+          {
+            "name": "/News/Technology News",
+            "score": 0.9808759689331055
+          },
+          {
+            "name": "/News/Business News/Other",
+            "score": 0.8386797904968262
+          },
+          {
+            "name": "/Science/Computer Science/Machine Learning & Artificial Intelligence",
+            "score": 0.6531268954277039
+          }
+        ],
+        "entities": [
+          {
+            "data": "MeetKai",
+            "type": "ORG",
+            "mentions": 3
+          },
+          {
+            "data": "NVIDIA",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "SERPRO",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "VEON",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "meetkai",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "nvidia",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "PR Newswire",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "PressBee",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Middle East",
+            "type": "LOC",
+            "mentions": 2
+          },
+          {
+            "data": "Brazil",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Ukraine",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Kyivstar",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "LOS ANGELES",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "SANTA CLARA",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Calif.",
+            "type": "GPE",
+            "mentions": 2
+          },
+          {
+            "data": "Oakland",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "China",
+            "type": "GPE",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "94bbd0512cd04cc4b7041d78d9d4cf73",
+            "name": "NVIDIA Corporation",
+            "domains": [
+              "nvidia.com"
+            ],
+            "symbols": [
+              "NVD.DE",
+              "NVD.F",
+              "NVDA",
+              "NVDA.NE"
+            ]
+          },
+          {
+            "id": "91df1a686a22432787ab7d6045d760d1",
+            "name": "MeetKai",
+            "domains": [
+              "meetkai.com"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "cb388b53130b41ce88d084833895ab00",
+            "name": "VEON Ltd.",
+            "domains": [
+              "veon.com"
+            ],
+            "symbols": [
+              "VEON",
+              "VEON.AS"
+            ]
+          }
+        ],
+        "sentiment": {
+          "positive": 0.37830317,
+          "negative": 0.05601053,
+          "neutral": 0.5656863
+        },
+        "summary": "MeetKai has announced a six-country rollout of its Sovereign AI stack, built on NVIDIA, by which it will compete with SERPRO, VEON and Kyivstar. This follows a successful Sovereign AI tender win in Brazil and the first national-scale AI factory in Ukraine. The announcement was published on PR Newswire (Middle East) and may have been modified, fully republished, or quoted.",
+        "shortSummary": "MeetKai takes sovereign AI built on NVIDIA technology to six countries, following a successful acquisition in Brazil and Ukraine, with a six-country rollout announced.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": true,
+        "reprintGroupId": "23cdd4c3df7440608aec231ab1b71ac3",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://ca.advfn.com/stock-market/NASDAQ/VEON/stock-news/99375827/meetkai-takes-sovereign-ai-built-on-nvidia-to-six",
+        "authorsByline": "PR Newswire (US)",
+        "articleId": "93963d6f51d844ffb00cbd30fe6d564d",
+        "clusterId": "ab0525a7e0864049992f02d719ec3233",
+        "source": {
+          "domain": "ca.advfn.com",
+          "location": {
+            "country": "gb",
+            "city": "London",
+            "coordinates": {
+              "lat": 51.5073219,
+              "lon": -0.1276474
+            }
+          }
+        },
+        "imageUrl": "https://ca.advfn.com/p.php?pid=staticchart&s=NASDAQ:VEON&p=5&t=52",
+        "country": "ca",
+        "language": "en",
+        "pubDate": "2026-09-25T08:53:00-05:00",
+        "addDate": "2026-09-25T14:04:49.432143+00:00",
+        "refreshDate": "2026-09-25T14:04:49.432145+00:00",
+        "score": 1.0,
+        "title": "MeetKai Takes Sovereign AI built on NVIDIA to Six Countries",
+        "description": "MeetKai Takes Sovereign AI built on NVIDIA to Six CountriesPR NewswireLOS ANGELES and SANTA CLARA, Calif., Sept. 25, 2026  A Sovereign AI tender win in Brazil and the first national-scale AI factory i...",
+        "content": "A Sovereign AI tender win in Brazil and the first national-scale AI factory in Ukraine open a six-country rollout with SERPRO, VEON and Kyivstar\n\nLOS ANGELES and SANTA CLARA, Calif., Sept. 25, 2026 /P... [6479 symbols]",
+        "enContentWordCount": 1113,
+        "medium": "Article",
+        "links": [],
+        "labels": [
+          {
+            "name": "Press Release"
+          }
+        ],
+        "matchedAuthors": [],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Sovereign AI",
+            "weight": 0.09883881
+          },
+          {
+            "name": "NVIDIA AI infrastructure",
+            "weight": 0.08929512
+          },
+          {
+            "name": "national AI platforms",
+            "weight": 0.083950676
+          },
+          {
+            "name": "NVIDIA accelerated computing",
+            "weight": 0.08316703
+          },
+          {
+            "name": "AI",
+            "weight": 0.08082936
+          },
+          {
+            "name": "NVIDIA infrastructure",
+            "weight": 0.07992875
+          },
+          {
+            "name": "NVIDIA AI Enterprise software",
+            "weight": 0.07639376
+          },
+          {
+            "name": "sovereign sites",
+            "weight": 0.07636975
+          },
+          {
+            "name": "NVIDIA technology",
+            "weight": 0.07201167
+          },
+          {
+            "name": "MeetKais sovereign AI platform",
+            "weight": 0.070343025
+          }
+        ],
+        "topics": [
+          {
+            "name": "AI"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Business"
+          },
+          {
+            "name": "Tech"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Company News",
+            "score": 0.9933071732521057
+          },
+          {
+            "name": "/News/Technology News",
+            "score": 0.9845753908157349
+          },
+          {
+            "name": "/Science/Computer Science/Machine Learning & Artificial Intelligence",
+            "score": 0.7082125544548035
+          }
+        ],
+        "entities": [
+          {
+            "data": "MeetKai",
+            "type": "ORG",
+            "mentions": 18
+          },
+          {
+            "data": "NVIDIA",
+            "type": "ORG",
+            "mentions": 20
+          },
+          {
+            "data": "SERPRO",
+            "type": "ORG",
+            "mentions": 4
+          },
+          {
+            "data": "VEON",
+            "type": "ORG",
+            "mentions": 8
+          },
+          {
+            "data": "Kyivstar",
+            "type": "ORG",
+            "mentions": 5
+          },
+          {
+            "data": "KYIV",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Global AI Initiatives",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Brazil",
+            "type": "GPE",
+            "mentions": 7
+          },
+          {
+            "data": "Ukraine",
+            "type": "GPE",
+            "mentions": 10
+          },
+          {
+            "data": "Kyivstar",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "LOS ANGELES",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "SANTA CLARA",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Calif.",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Pakistan",
+            "type": "GPE",
+            "mentions": 3
+          },
+          {
+            "data": "Kazakhstan",
+            "type": "GPE",
+            "mentions": 3
+          },
+          {
+            "data": "Uzbekistan",
+            "type": "GPE",
+            "mentions": 3
+          },
+          {
+            "data": "Bangladesh",
+            "type": "GPE",
+            "mentions": 3
+          },
+          {
+            "data": "Egypt",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "MK-A1 SOVIA",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "SERPRO",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Inception",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Smart Africa",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "James Kaplan",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Calista Redmond",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Latin America",
+            "type": "LOC",
+            "mentions": 1
+          },
+          {
+            "data": "the Western hemisphere's",
+            "type": "LOC",
+            "mentions": 1
+          },
+          {
+            "data": "Africa",
+            "type": "LOC",
+            "mentions": 1
+          },
+          {
+            "data": "Ukrainian",
+            "type": "NORP",
+            "mentions": 4
+          },
+          {
+            "data": "Brazilian",
+            "type": "NORP",
+            "mentions": 2
+          },
+          {
+            "data": "Ukrainian",
+            "type": "LANGUAGE",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "a4ae5173330b48aea3c0ac0f814a27d8",
+            "name": "Serviço Federal de Processamento de Dados",
+            "domains": [
+              "serpro.gov.br"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "94bbd0512cd04cc4b7041d78d9d4cf73",
+            "name": "NVIDIA Corporation",
+            "domains": [
+              "nvidia.com"
+            ],
+            "symbols": [
+              "NVD.DE",
+              "NVD.F",
+              "NVDA",
+              "NVDA.NE"
+            ]
+          },
+          {
+            "id": "91df1a686a22432787ab7d6045d760d1",
+            "name": "MeetKai",
+            "domains": [
+              "meetkai.com"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "cb388b53130b41ce88d084833895ab00",
+            "name": "VEON Ltd.",
+            "domains": [
+              "veon.com"
+            ],
+            "symbols": [
+              "VEON",
+              "VEON.AS"
+            ]
+          },
+          {
+            "id": "1e260246811e4d00acfad037fe671866",
+            "name": "Kyivstar",
+            "domains": [
+              "kyivstar.ua"
+            ],
+            "symbols": []
+          }
+        ],
+        "sentiment": {
+          "positive": 0.43828043,
+          "negative": 0.07468862,
+          "neutral": 0.48703098
+        },
+        "summary": "MeetKai has announced a six-country rollout of its Sovereign AI stack, built on NVIDIA, across Brazil, Ukraine, Pakistan, Kazakhstan, Uzbekistan and Bangladesh. The move comes after a Sovereign AI tender win in Brazil and the first national-scale AI factory in Ukraine. MeetKai's sovereign AI platform and locally trained models will run on NVIDIA accelerated computing. The company builds its stack on NVIDIA at every layer, ensuring repeatable design that a model built for one country and a deployment pattern can both be repeated at the next site without dependency on foreign cloud services. A sovereign AI data center in Ukraine, designed to run in isolated environments, is expected to provide services to Ukrainian ministries, energy and transport operators, banks and defense-adjacent civil agencies.",
+        "shortSummary": "MeetKai has launched a six-country rollout of sovereign AI platforms using NVIDIA accelerated computing, leveraging Brazil's largest sovereign AI tender and Ukraine's first national-scale AI factory.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": true,
+        "reprintGroupId": "23cdd4c3df7440608aec231ab1b71ac3",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://www.mangaloremirror.com/strategic-spotlight-ai-driven-investment-surge-reshapes-the-electronic-chemicals-and-materials-indu-dexf1/",
+        "authorsByline": "Editorial Team",
+        "articleId": "ce71e379c166442ea586b4269d96666b",
+        "clusterId": "412b263abab94f408cb031fd96b1fff7",
+        "source": {
+          "domain": "mangaloremirror.com",
+          "location": null
+        },
+        "imageUrl": "https://www.mangaloremirror.com/wp-content/uploads/2026/08/mm_brand_news_banner_1787659580632.jpg",
+        "country": "",
+        "language": "en",
+        "pubDate": "2026-09-25T13:50:21+00:00",
+        "addDate": "2026-09-25T13:53:06.303060+00:00",
+        "refreshDate": "2026-09-25T13:53:06.303062+00:00",
+        "score": 1.0,
+        "title": "Strategic Spotlight: AI-Driven Investment Surge Reshapes the Electronic Chemicals and Materials Industry - Mangaloremirror",
+        "description": "The electronic chemicals and materials industry is undergoing a structural realignment driven by artificial intelligence — from hyperscale data center buildouts and national semiconductor strategies to AI-accelerated mat...",
+        "content": "In a major strategic development, the electronic chemicals and materials industry is undergoing a structural realignment driven by artificial intelligence — from hyperscale data center buildouts and n... [4231 symbols]",
+        "enContentWordCount": 632,
+        "medium": "Article",
+        "links": [],
+        "labels": [],
+        "matchedAuthors": [],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "electronic materials",
+            "weight": 0.09633142
+          },
+          {
+            "name": "AI infrastructure investment",
+            "weight": 0.0906595
+          },
+          {
+            "name": "automotive AI",
+            "weight": 0.08988904
+          },
+          {
+            "name": "AI",
+            "weight": 0.087865725
+          },
+          {
+            "name": "AI Impact",
+            "weight": 0.087177895
+          },
+          {
+            "name": "Galaxy AI",
+            "weight": 0.08681997
+          },
+          {
+            "name": "AI adoption",
+            "weight": 0.0867789
+          },
+          {
+            "name": "committed AI infrastructure capital",
+            "weight": 0.086127415
+          },
+          {
+            "name": "advanced packaging materials",
+            "weight": 0.08299471
+          },
+          {
+            "name": "cyclical materials markets",
+            "weight": 0.077306345
+          }
+        ],
+        "topics": [
+          {
+            "name": "AI"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Business"
+          },
+          {
+            "name": "Tech"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Financial Markets News",
+            "score": 0.8757869601249695
+          },
+          {
+            "name": "/News/Business News/Company News",
+            "score": 0.8652240633964539
+          },
+          {
+            "name": "/News/Business News/Other",
+            "score": 0.8080672025680542
+          },
+          {
+            "name": "/News/Technology News",
+            "score": 0.7130321860313416
+          },
+          {
+            "name": "/Computers & Electronics/Software/Business & Productivity Software",
+            "score": 0.47840696573257446
+          },
+          {
+            "name": "/Science/Computer Science/Machine Learning & Artificial Intelligence",
+            "score": 0.45181018114089966
+          },
+          {
+            "name": "/Business & Industrial/Advertising & Marketing/Marketing",
+            "score": 0.39793843030929565
+          }
+        ],
+        "entities": [
+          {
+            "data": "BCC Research’s",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Samsung",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "NVIDIA",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "SK Group’s",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Microsoft",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Entegris",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Merck KGaA",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Shin-Etsu Chemical",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Mitsubishi Chemical Group",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Galaxy AI",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Resonac",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "U.S.",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "China",
+            "type": "GPE",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "4de51cf8472b4ce7a5aecdf52a1de4c0",
+            "name": "Microsoft Corporation",
+            "domains": [
+              "microsoft.com"
+            ],
+            "symbols": [
+              "MSF.DE",
+              "MSF.F",
+              "MSFT",
+              "MSFT.NE",
+              "MSF.BR",
+              "4338.HK"
+            ]
+          },
+          {
+            "id": "d423e456689a423b90a43d0f9b99177e",
+            "name": "Mitsubishi Chemical Group Corporation",
+            "domains": [
+              "mcgc.com"
+            ],
+            "symbols": [
+              "4188.T",
+              "MTLHY",
+              "MTLHF"
+            ]
+          },
+          {
+            "id": "94bbd0512cd04cc4b7041d78d9d4cf73",
+            "name": "NVIDIA Corporation",
+            "domains": [
+              "nvidia.com"
+            ],
+            "symbols": [
+              "NVD.DE",
+              "NVD.F",
+              "NVDA",
+              "NVDA.NE"
+            ]
+          },
+          {
+            "id": "8eb45b45eca9463690e9306ab064eaca",
+            "name": "Shin-Etsu Chemical Co., Ltd.",
+            "domains": [
+              "shinetsu.co.jp"
+            ],
+            "symbols": [
+              "4063.T",
+              "SHECF",
+              "SHECY"
+            ]
+          },
+          {
+            "id": "b4aebd6e8b21474ea6f6f2019789b5aa",
+            "name": "Entegris, Inc.",
+            "domains": [
+              "entegris.com"
+            ],
+            "symbols": [
+              "ENTG"
+            ]
+          },
+          {
+            "id": "3a5143bfad5440c184ca45079b7d4cf7",
+            "name": "BCC Co., Ltd.",
+            "domains": [
+              "e-bcc.jp"
+            ],
+            "symbols": [
+              "7376.T"
+            ]
+          },
+          {
+            "id": "9bf8c19d14434f708c697a56c116ff03",
+            "name": "SK Group",
+            "domains": [
+              "sk.com"
+            ],
+            "symbols": []
+          }
+        ],
+        "sentiment": {
+          "positive": 0.6316663,
+          "negative": 0.05806961,
+          "neutral": 0.31026405
+        },
+        "summary": "The Electronic Chemicals and Materials industry is undergoing a structural realignment driven by artificial intelligence (AI), according to BCC Research's latest analysis. The study focuses on how AI adoption is redefining demand dynamics, R&D productivity, and competitive positioning across the global electronic materials value chain. This includes hyperscale data center buildouts, national semiconductor strategies, and AI-accelerated materials discovery. Samsung plans to double its Galaxy AI-enabled device base from 400 million to 800 million units in 2026, while automotive AI and software-defined vehicle expansion is driving demand for automotive-grade processors, power electronics, and advanced packaging materials. However, challenges include U.S. export controls forcing suppliers to invest in geographic diversification and AI supply chain traceability, supply concentration in critical mineral and precursor chemical geographies, and financial sustainability risks introducing demand volatility through the materials supply chain. Investors should monitor PFAS regulatory timelines, export control evolution, and hyperscale free cash flow dynamics as primary risk factors.",
+        "shortSummary": "AI-driven investment in electronic chemicals and materials is transforming demand and R&D, driven by hyperscale data center expansion, but sustainability and supply chain risks remain significant.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "73c51f16b31a4daa911ad449ce7df36f",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://www.marketbeat.com/articles/nvidias-next-ai-chip-ramp-could-open-the-door-to-another-major-stock-move/",
+        "authorsByline": "Thomas Hughes",
+        "articleId": "fc8dd70883be4daa88883113c612e909",
+        "clusterId": "83a47def17d741afa4e5d1ab7ca16203",
+        "source": {
+          "domain": "marketbeat.com",
+          "location": {
+            "country": "us",
+            "state": "SD",
+            "county": "Minnehaha County",
+            "city": "Sioux Falls",
+            "coordinates": {
+              "lat": 43.5460587,
+              "lon": -96.7313928
+            }
+          }
+        },
+        "imageUrl": "https://www.marketbeat.com/logos/articles/med_20260924111912_image.png",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-09-25T13:50:00+00:00",
+        "addDate": "2026-09-25T13:54:17.650083+00:00",
+        "refreshDate": "2026-09-25T13:54:17.650085+00:00",
+        "score": 1.0,
+        "title": "NVIDIA’s Next AI Chip Ramp Could Open the Door to Another Major Stock Move",
+        "description": "NVIDIA's forecast to double chip volume, near-unanimous analyst Buy ratings, and rising price targets underscore a bullish outlook, with OEMs like Dell and HPE also poised to benefit.",
+        "content": "For NVIDIA investors, this means the potential for persistent upgrades to revenue and earnings targets, sentiment, and price targets—a bullish cycle for the stock price outlook. As it stands, 55 analy... [5224 symbols]",
+        "enContentWordCount": 961,
+        "medium": "Article",
+        "links": [
+          "https://www.marketbeat.com/stocks/NASDAQ/NVDA/chart/",
+          "https://www.marketbeat.com/articles/these-3-stocks-sit-at-the-center-of-nvidias-cybersecurity-push/",
+          "https://www.marketbeat.com/stocks/NASDAQ/SMCI/",
+          "https://www.marketbeat.com/stocks/NASDAQ/NVDA/#marketrank",
+          "https://www.marketbeat.com/stocks/NASDAQ/NVDA/earnings/",
+          "https://www.marketbeat.com/stocks/NYSE/HPE/",
+          "https://www.marketbeat.com/stocks/NYSE/DELL/",
+          "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/",
+          "https://www.marketbeat.com/newsletter/PDFoffer.aspx?offer=top5&RegistrationCode=ArticlePage-ShouldYouInvest",
+          "https://www.marketbeat.com/stocks/NYSE/ORCL/",
+          "https://www.marketbeat.com/stocks/NASDAQ/CSCO/",
+          "https://www.marketbeat.com/articles/oracles-ai-spending-is-still-huge-but-the-payoff-is-starting-to-show-in-earnings/",
+          "https://marketbeat.com/newsletter/pdfoffer.aspx?offer=highyield&RegistrationCode=ArticlePage-FreeReport",
+          "https://www.google.com/preferences/source?q=marketbeat.com",
+          "https://www.marketbeat.com/manage/watchlists/?AddSymbols=NASDAQ:NVDA",
+          "https://www.marketbeat.com/stocks/NASDAQ/NVDA/",
+          "https://www.marketbeat.com/articles/nvidia-just-named-ais-next-bottleneckand-these-3-stocks-sit-right-in-it/",
+          "https://www.marketbeat.com/stocks/NASDAQ/CSCO/financials/"
+        ],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": null,
+            "name": "Thomas Hughes"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "NVIDIA",
+            "weight": 0.084825285
+          },
+          {
+            "name": "NVIDIA technology",
+            "weight": 0.084412284
+          },
+          {
+            "name": "NVIDIA investors",
+            "weight": 0.08400612
+          },
+          {
+            "name": "NVIDIA customers",
+            "weight": 0.08227116
+          },
+          {
+            "name": "NVIDIA’s latest growth outlook",
+            "weight": 0.057915557
+          },
+          {
+            "name": "subsequent earnings reports",
+            "weight": 0.05783756
+          },
+          {
+            "name": "earnings",
+            "weight": 0.05683191
+          },
+          {
+            "name": "Price targets",
+            "weight": 0.055371612
+          },
+          {
+            "name": "price targets",
+            "weight": 0.055371612
+          },
+          {
+            "name": "NVIDIA’s Next AI Chip Ramp",
+            "weight": 0.05362383
+          }
+        ],
+        "topics": [
+          {
+            "name": "Markets"
+          },
+          {
+            "name": "AI"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Business"
+          },
+          {
+            "name": "Tech"
+          },
+          {
+            "name": "Finance"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Company News",
+            "score": 0.9702399373054504
+          },
+          {
+            "name": "/News/Business News/Financial Markets News",
+            "score": 0.9585376977920532
+          },
+          {
+            "name": "/News/Technology News",
+            "score": 0.907312273979187
+          },
+          {
+            "name": "/Finance/Investing/Stocks & Bonds",
+            "score": 0.8991213440895081
+          },
+          {
+            "name": "/Computers & Electronics/Computer Hardware/Computer Components",
+            "score": 0.49218809604644775
+          }
+        ],
+        "entities": [
+          {
+            "data": "NVIDIA",
+            "type": "ORG",
+            "mentions": 23
+          },
+          {
+            "data": "Advanced Micro Devices",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Oracle",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "NASDAQ",
+            "type": "ORG",
+            "mentions": 3
+          },
+          {
+            "data": "Dell Technologies NYSE",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "DELL",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Hewlett Packard Enterprise",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "HPE",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Super Micro Computer",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "SMCI",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Cisco Systems",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "CSCO",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "MarketBeat",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Vera Rubin",
+            "type": "PRODUCT",
+            "mentions": 2
+          },
+          {
+            "data": "China",
+            "type": "GPE",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "5e8158ec039740e79bc2673ac8aab7c0",
+            "name": "Dell Technologies Inc.",
+            "domains": [
+              "dell.com"
+            ],
+            "symbols": [
+              "DELL"
+            ]
+          },
+          {
+            "id": "94bbd0512cd04cc4b7041d78d9d4cf73",
+            "name": "NVIDIA Corporation",
+            "domains": [
+              "nvidia.com"
+            ],
+            "symbols": [
+              "NVD.DE",
+              "NVD.F",
+              "NVDA",
+              "NVDA.NE"
+            ]
+          },
+          {
+            "id": "e7e32fc01ffd4df08ad05b7f49833334",
+            "name": "Super Micro Computer, Inc.",
+            "domains": [
+              "supermicro.com"
+            ],
+            "symbols": [
+              "SMCI",
+              "SMCI.NE"
+            ]
+          },
+          {
+            "id": "48242474d7124995a9cc4824948dcbd8",
+            "name": "Hewlett Packard Enterprise Company",
+            "domains": [
+              "hpe.com"
+            ],
+            "symbols": [
+              "2HP.DE",
+              "0J51.L",
+              "HPE"
+            ]
+          },
+          {
+            "id": "ba705c3266ac40bbbdd0a82b1d321c53",
+            "name": "Cisco Systems, Inc.",
+            "domains": [
+              "cisco.com"
+            ],
+            "symbols": [
+              "CIS.DE",
+              "CSCO",
+              "CSCO.TO",
+              "CSCO.NE",
+              "CIS.BR",
+              "4333.HK"
+            ]
+          },
+          {
+            "id": "b197732527b64024bd04bece3567566f",
+            "name": "Oracle Corporation",
+            "domains": [
+              "oracle.com"
+            ],
+            "symbols": [
+              "ORC.DE",
+              "ORCL",
+              "ORCL.SW"
+            ]
+          },
+          {
+            "id": "5aa0618f4d7643fba5fb84a93708d4a9",
+            "name": "Advanced Micro Devices, Inc.",
+            "domains": [
+              "amd.com"
+            ],
+            "symbols": [
+              "AMD",
+              "AMD.DE",
+              "AMD.SW"
+            ]
+          }
+        ],
+        "sentiment": {
+          "positive": 0.46033278,
+          "negative": 0.077532694,
+          "neutral": 0.46213448
+        },
+        "summary": "NVIDIA's next AI Chip Ramp could open the door to another major stock move, as the company continues to upgrade its revenue and earnings targets, sentiment, and price targets. The company's price-to-earnings (P/E) ratio aligns with the S&P 500 average as of late September, but fails to price in the company's dominance. If NVIDIA continues to grow on all cylinders and exceed its earnings forecast, its stock price could rise by several hundred percentage points over the next few years, potentially as much as 500%. The company’s growth outlook also supports the case that it could retain its dominant position in AI, particularly for advanced workloads. The companies benefiting most from NVIDIA’�s sales forecast include Dell Technologies, Hewlett Packard Enterprise, Super Micro Computer, and Cisco Systems. However, the company”s future sales are self-financing, allowing it to self-fundish and investing in supply supply chain growth. Key risks for NVIDIA are credit-related, as well as its self-funding growth, capacity, capacity and new technology, capacity capacity, and future capacity.",
+        "shortSummary": "NVIDIA’s recent growth and acquisition prospects predict significant price increases, driven by strong revenue and earnings forecasts, but risks remain as significant as previously thought.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "681d74b1e94741b5a9aa9be78c1505ac",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://www.globenewswire.com/news-release/2026/09/25/3369159/0/en/ai-driven-investment-surge-reshapes-the-electronic-chemicals-and-materials-industry.html",
+        "authorsByline": "BCC Research LLC",
+        "articleId": "7a45e9b0aaa34491a3911fa0a723a645",
+        "clusterId": "7cbf49dec3944b6b9bc46de31390b593",
+        "source": {
+          "domain": "globenewswire.com",
+          "location": {
+            "country": "us",
+            "state": "CA",
+            "county": "Orange County",
+            "city": "Lake Forest",
+            "coordinates": {
+              "lat": 33.6204926,
+              "lon": -117.6940304
+            }
+          }
+        },
+        "imageUrl": "https://ml.globenewswire.com/Resource/Download/d0c282b6-d496-45a8-a941-33fa5c3e824c",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-09-25T13:44:10+00:00",
+        "addDate": "2026-09-25T13:50:43.021064+00:00",
+        "refreshDate": "2026-09-25T13:50:43.021066+00:00",
+        "score": 1.0,
+        "title": "AI-Driven Investment Surge Reshapes the Electronic Chemicals and Materials Industry",
+        "description": "“AI is helping semiconductor makers improve yields, detect defects earlier and accelerate the discovery of next-generation materials.”...",
+        "content": "Boston, Sept. 25, 2026 (GLOBE NEWSWIRE) -- The electronic chemicals and materials industry is undergoing a structural realignment driven by artificial intelligence — from hyperscale data center buildo... [7547 symbols]",
+        "enContentWordCount": 1181,
+        "medium": "Article",
+        "links": [
+          "https://www.globenewswire.com/Tracker?data=FPKInB61_4kGBCAFP6OoA9mtviugzfxBeZCHhYLMx_f2Z1O62nbsM6VSBv6Ju-zB4-8rSOfbDOsn5Z6RZZYSy1IoWd2Ew-OyifsPmeoV7MJGIEecXMXGePLdaaS59FDKMr7j7ZGIRwFSG8ZsTup4MZO_Ykag5QyaBNEmqOTqKdkfqoLironiCH83qxWLWweMkavXmaFoVfEEqK-lK_1sDBIMpxmjE5za6zC3Qn48puNm78U78PGaQLw-qs_w7pUooZs8oYibLVHDFA7-VMc564ygVlYltd4tvGxYoqnTms0ZnZcyF-U2FxG6RfO4lqCFgGXn-8v2Rg76rE404rSeZ4DYLc44o9_CFTZ0qYDNNcPVK906Y9dTGf1kXEbV0I_zkK65XeYE6C0Q_77UlENTOTGWbQAycELEgxG36TD_cSA=",
+          "https://www.globenewswire.com/Tracker?data=if2oAanoH1MJoVB6ZRWd3riRMe3wrPbT1H_CoTi97lTjsz49X2J-Muirx4CGNC1cUiWp86T2ZIjPwXbG_CWPNTIds3mlQCva8pml4w-mdiU=",
+          "https://www.globenewswire.com/Tracker?data=kaVTcKxK9cWa7empfGs3tjYBRV91NnzH99WTVWK2NOuFfrGJ6wIFEfAS5vZ_ekwh_skQmuintpO15f62utJkmFjnEnlz5fsf6beCm2fuoEgVZRafXyBgIgdZ-qjj42BE5JIMECa3vGvs5wtxAXX2Gs6lJ3ihlqdatwuEczj0PoIk4Scc7repRa6HMFOnBcpc",
+          "https://www.globenewswire.com/Tracker?data=LMJ_ILs-4R7fA_jhRC5FgXfry6O7nR756w67uvrs7HOYdweMvoU6m24o-TzafuApBvuEF3ZXau14k6P8nxJyTGauNAmdGzZN-Ukx97AoXNXDIzfrhG8HERdScxR0mb4uxTCe2GuXKeJAj-lmLhK-q3f0jJWg_KJspuzV9IbHqVmEOXfXTY-t3paLsNHMQbtY",
+          "https://www.globenewswire.com/Tracker?data=FPKInB61_4kGBCAFP6OoA9mtviugzfxBeZCHhYLMx_f2Z1O62nbsM6VSBv6Ju-zB4-8rSOfbDOsn5Z6RZZYSyxr3lOTrNktJJaYygw2Zp58DBRT40g7Scz5ZdbCQfMic1g9ZrbT1LHeE8I-YQA94DB-le1ZFffKFWalBKCbMvSSSQ4QRuskpva7XWcC1OaQz01hnO5W9hGZ4_QLWHBp3NuojLioJSmECjgyIDH_1AlxYjMPVWP21Wjng5KyJL3bTenxEvddgrTRzWvZBN3FBVFTR98XUc7Fy_zxlmgutkXAEBrm0HWgxEC_AFrAbpC-MyiYFXMAhBoEutJwobq3RZXmff-k6Azm7nb8YEeoBPL5jJPyJL7yABcLp8EM-pxsc"
+        ],
+        "labels": [
+          {
+            "name": "Press Release"
+          }
+        ],
+        "matchedAuthors": [],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "semiconductor materials discovery",
+            "weight": 0.08575279
+          },
+          {
+            "name": "new AI initiatives",
+            "weight": 0.08148065
+          },
+          {
+            "name": "electronic materials",
+            "weight": 0.08092811
+          },
+          {
+            "name": "AI",
+            "weight": 0.080134876
+          },
+          {
+            "name": "automotive AI",
+            "weight": 0.079780445
+          },
+          {
+            "name": "AI infrastructure investment",
+            "weight": 0.079634145
+          },
+          {
+            "name": "advanced packaging materials",
+            "weight": 0.079153575
+          },
+          {
+            "name": "AI Impact",
+            "weight": 0.078847684
+          },
+          {
+            "name": "AI accelerators",
+            "weight": 0.07810406
+          },
+          {
+            "name": "AI adoption",
+            "weight": 0.07783686
+          }
+        ],
+        "topics": [
+          {
+            "name": "AI"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Tech"
+          },
+          {
+            "name": "Business"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Financial Markets News",
+            "score": 0.9714016318321228
+          },
+          {
+            "name": "/News/Business News/Company News",
+            "score": 0.9600626826286316
+          },
+          {
+            "name": "/News/Business News/Other",
+            "score": 0.8975157737731934
+          },
+          {
+            "name": "/News/Technology News",
+            "score": 0.8709269165992737
+          },
+          {
+            "name": "/Science/Computer Science/Machine Learning & Artificial Intelligence",
+            "score": 0.5404084920883179
+          },
+          {
+            "name": "/Business & Industrial/Advertising & Marketing/Marketing",
+            "score": 0.38664764165878296
+          },
+          {
+            "name": "/Finance/Investing/Stocks & Bonds",
+            "score": 0.35488012433052063
+          },
+          {
+            "name": "/Computers & Electronics/Software/Business & Productivity Software",
+            "score": 0.31048527359962463
+          }
+        ],
+        "entities": [
+          {
+            "data": "Boston",
+            "type": "GPE",
+            "mentions": 2
+          },
+          {
+            "data": "U.S.",
+            "type": "GPE",
+            "mentions": 5
+          },
+          {
+            "data": "South Korea",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Japan",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "China",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "MA",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "GLOBE NEWSWIRE",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "BCC Research's",
+            "type": "ORG",
+            "mentions": 4
+          },
+          {
+            "data": "Alphabet",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Amazon",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Meta Platforms",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Microsoft",
+            "type": "ORG",
+            "mentions": 3
+          },
+          {
+            "data": "OpenAI",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Oracle",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "SoftBank",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "MGX",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Texas Instruments",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "TSMC",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Samsung",
+            "type": "ORG",
+            "mentions": 4
+          },
+          {
+            "data": "SK Group",
+            "type": "ORG",
+            "mentions": 4
+          },
+          {
+            "data": "Resonac",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "2026 Vision",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "SEMI",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "SandboxAQ",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Air Liquide",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "the European Commission",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "SK hynix",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "NVIDIA",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Applied Materials",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Lam Research",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "KLA",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Tokyo Electron",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "JSR Corp.",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Merck KGaA",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Entegris",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Shin-Etsu Chemical",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "BASF",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Linde",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Air Products",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "ASML",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Infineon",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Micron Technology",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Intel",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Qualcomm",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Siemens",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Honeywell",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Cadence Design Systems",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Synopsys",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Dow",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Stargate",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Galaxy AI",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Resonac",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Entegris",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "CHIPS Act",
+            "type": "LAW",
+            "mentions": 1
+          },
+          {
+            "data": "German",
+            "type": "NORP",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "d423e456689a423b90a43d0f9b99177e",
+            "name": "Mitsubishi Chemical Group Corporation",
+            "domains": [
+              "mcgc.com"
+            ],
+            "symbols": [
+              "4188.T",
+              "MTLHY",
+              "MTLHF"
+            ]
+          },
+          {
+            "id": "14644fd7eae44bb896c5203326d84d36",
+            "name": "Applied Materials, Inc.",
+            "domains": [
+              "appliedmaterials.com"
+            ],
+            "symbols": [
+              "0R1A.IL",
+              "AP2.DE",
+              "AMAT",
+              "4336.HK"
+            ]
+          },
+          {
+            "id": "344b746df80a4a99b39d7ddd46b31548",
+            "name": "Tokyo Electron Limited",
+            "domains": [
+              "tel.com"
+            ],
+            "symbols": [
+              "8035.T",
+              "TOELY"
+            ]
+          },
+          {
+            "id": "b8270d0a68134f14abb4f48adaba87a4",
+            "name": "Dow Inc.",
+            "domains": [
+              "dow.com"
+            ],
+            "symbols": [
+              "DOW"
+            ]
+          },
+          {
+            "id": "2a221b70add74bdeb7d16ca3efe408b9",
+            "name": "SandboxAQ",
+            "domains": [
+              "sandboxaq.com"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "435e0daa7ea443ba89f0dd39e95dd71d",
+            "name": "Amazon.com, Inc.",
+            "domains": [
+              "amazon.com"
+            ],
+            "symbols": [
+              "AMZ.DE",
+              "AMZN"
+            ]
+          },
+          {
+            "id": "d01e3dd1551846ee87f434e3c004b359",
+            "name": "Siemens Limited",
+            "domains": [
+              "siemens.com"
+            ],
+            "symbols": [
+              "SIEMENS.NS"
+            ]
+          },
+          {
+            "id": "d02f5aaf27334bee99a673559a824cd4",
+            "name": "L'Air Liquide S.A.",
+            "domains": [
+              "airliquide.com"
+            ],
+            "symbols": [
+              "AI.PA",
+              "AI.VI",
+              "AIL.DE",
+              "AIQUY",
+              "AIQUF"
+            ]
+          },
+          {
+            "id": "31f51cd2d4084d4787ee383fa571bbf0",
+            "name": "JSR Corporation",
+            "domains": [
+              "jsr.co.jp"
+            ],
+            "symbols": [
+              "JSCPF",
+              "JSCPY"
+            ]
+          },
+          {
+            "id": "3a5143bfad5440c184ca45079b7d4cf7",
+            "name": "BCC Co., Ltd.",
+            "domains": [
+              "e-bcc.jp"
+            ],
+            "symbols": [
+              "7376.T"
+            ]
+          },
+          {
+            "id": "806457af1fd9418db78388760f52c06f",
+            "name": "Alphabet Inc.",
+            "domains": [
+              "abc.xyz"
+            ],
+            "symbols": [
+              "ABEA.F",
+              "ABEA.DE",
+              "ABEC.F",
+              "ABEC.DE",
+              "GOOGL.SW",
+              "GOOGL",
+              "GOOG",
+              "GOOG.NE"
+            ]
+          },
+          {
+            "id": "e732257f11e64164a4f892a38afb5c2a",
+            "name": "KLA Corporation",
+            "domains": [
+              "kla.com"
+            ],
+            "symbols": [
+              "0JPO.L",
+              "KLAC"
+            ]
+          },
+          {
+            "id": "5985872d662c4a3f941a9c581a9fce71",
+            "name": "Apple Inc.",
+            "domains": [
+              "apple.com"
+            ],
+            "symbols": [
+              "APC.F",
+              "APC.DE",
+              "AAPL",
+              "AAPL.MX",
+              "AAPL.NE",
+              "AAPL.DE"
+            ]
+          },
+          {
+            "id": "9ebe0895b1c44225affe3de4d518f8d6",
+            "name": "Honeywell International Inc.",
+            "domains": [
+              "honeywell.com"
+            ],
+            "symbols": [
+              "ALD.DE",
+              "HON",
+              "HON.L"
+            ]
+          },
+          {
+            "id": "94bbd0512cd04cc4b7041d78d9d4cf73",
+            "name": "NVIDIA Corporation",
+            "domains": [
+              "nvidia.com"
+            ],
+            "symbols": [
+              "NVD.DE",
+              "NVD.F",
+              "NVDA",
+              "NVDA.NE"
+            ]
+          },
+          {
+            "id": "4de51cf8472b4ce7a5aecdf52a1de4c0",
+            "name": "Microsoft Corporation",
+            "domains": [
+              "microsoft.com"
+            ],
+            "symbols": [
+              "MSF.DE",
+              "MSF.F",
+              "MSFT",
+              "MSFT.NE",
+              "MSF.BR",
+              "4338.HK"
+            ]
+          },
+          {
+            "id": "6d688831f698495281098a1d24465e33",
+            "name": "OpenAI",
+            "domains": [
+              "openai.com"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "085a8881b04a4c83926fc4559e3bbe00",
+            "name": "Texas Instruments Incorporated",
+            "domains": [
+              "ti.com"
+            ],
+            "symbols": [
+              "0R2H.L",
+              "TII.DE",
+              "TXN",
+              "TXN.BA"
+            ]
+          },
+          {
+            "id": "c84b2281b92e410b8f154504342a9574",
+            "name": "Showa Denko",
+            "domains": [
+              "resonac.com"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "9bf8c19d14434f708c697a56c116ff03",
+            "name": "SK Group",
+            "domains": [
+              "sk.com"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "2c85df6dddc2444aa34e2e60791ab2cb",
+            "name": "Linde plc",
+            "domains": [
+              "linde.com"
+            ],
+            "symbols": [
+              "LIN.DE",
+              "LIN",
+              "LIN.SW"
+            ]
+          },
+          {
+            "id": "b4aebd6e8b21474ea6f6f2019789b5aa",
+            "name": "Entegris, Inc.",
+            "domains": [
+              "entegris.com"
+            ],
+            "symbols": [
+              "ENTG"
+            ]
+          },
+          {
+            "id": "4b328f7bf98d4e2cbf83b1c10355ab38",
+            "name": "Taiwan Semiconductor Manufacturing Company Limited",
+            "domains": [
+              "tsmc.com"
+            ],
+            "symbols": [
+              "TSFA.F",
+              "2330.TW",
+              "TSM"
+            ]
+          },
+          {
+            "id": "05c3bd85a7dd4e499ec46c642bf0a6f4",
+            "name": "Micron Technology, Inc.",
+            "domains": [
+              "micron.com"
+            ],
+            "symbols": [
+              "MTE.DE",
+              "MU",
+              "MU.TO"
+            ]
+          },
+          {
+            "id": "1e91ceea04e04d43aacf8d32114b5b5f",
+            "name": "QUALCOMM Incorporated",
+            "domains": [
+              "qualcomm.com"
+            ],
+            "symbols": [
+              "QCI.DE",
+              "QCOM"
+            ]
+          },
+          {
+            "id": "8eb45b45eca9463690e9306ab064eaca",
+            "name": "Shin-Etsu Chemical Co., Ltd.",
+            "domains": [
+              "shinetsu.co.jp"
+            ],
+            "symbols": [
+              "4063.T",
+              "SHECF",
+              "SHECY"
+            ]
+          },
+          {
+            "id": "42c02bb01003487ebfc524e65ef0c02e",
+            "name": "Intel Corporation",
+            "domains": [
+              "intel.com"
+            ],
+            "symbols": [
+              "INL.F",
+              "INL.DE",
+              "INTC",
+              "INTC.NE",
+              "INCO.BR",
+              "4335.HK"
+            ]
+          },
+          {
+            "id": "e2d069e363c146df89dec2a5a93c782c",
+            "name": "Air Products and Chemicals, Inc.",
+            "domains": [
+              "airproducts.com"
+            ],
+            "symbols": [
+              "0HBH.L",
+              "APD"
+            ]
+          },
+          {
+            "id": "12d940d7322f42b0ad5ed8afb1d553e7",
+            "name": "Synopsys, Inc.",
+            "domains": [
+              "synopsys.com"
+            ],
+            "symbols": [
+              "0LBP.L",
+              "SNPS"
+            ]
+          },
+          {
+            "id": "b197732527b64024bd04bece3567566f",
+            "name": "Oracle Corporation",
+            "domains": [
+              "oracle.com"
+            ],
+            "symbols": [
+              "ORC.DE",
+              "ORCL",
+              "ORCL.SW"
+            ]
+          },
+          {
+            "id": "79ac905d71b74100a0bb06ee94a668ee",
+            "name": "Meta Platforms, Inc.",
+            "domains": [
+              "meta.com"
+            ],
+            "symbols": [
+              "META",
+              "FB2A.DE"
+            ]
+          },
+          {
+            "id": "4fad1bd4b34544feba82a99e3d3eea1b",
+            "name": "SK hynix Inc.",
+            "domains": [
+              "skhynix.com"
+            ],
+            "symbols": [
+              "HY9H.F",
+              "000660.KS",
+              "SKHY"
+            ]
+          },
+          {
+            "id": "203ad72c17484c45a35d03578c0ca94c",
+            "name": "Lam Research Corporation",
+            "domains": [
+              "lamresearch.com"
+            ],
+            "symbols": [
+              "0JT5.L",
+              "LAR0.DE",
+              "LRCX",
+              "LRCX.BA",
+              "LAR.DE"
+            ]
+          },
+          {
+            "id": "98e46d757a3149d29ce4d555b17e37f9",
+            "name": "Infineon Technologies AG",
+            "domains": [
+              "infineon.com"
+            ],
+            "symbols": [
+              "IFX.DE",
+              "IFX.SW",
+              "IFNNY",
+              "IFNNF"
+            ]
+          },
+          {
+            "id": "69aef57c3df84a478675cac3481c81b4",
+            "name": "SoftBank Group Corp.",
+            "domains": [
+              "group.softbank"
+            ],
+            "symbols": [
+              "9984.T",
+              "SFTBY"
+            ]
+          },
+          {
+            "id": "b0553666855b4a64b93a19011238c5bd",
+            "name": "ASML Holding N.V.",
+            "domains": [
+              "asml.com"
+            ],
+            "symbols": [
+              "ASML.AS",
+              "ASME.DE",
+              "ASML.WA",
+              "ASML",
+              "ASMLF",
+              "0QNI.L"
+            ]
+          },
+          {
+            "id": "6096f6b735a74d5fbd08c986fb8189cf",
+            "name": "Cadence Design Systems, Inc.",
+            "domains": [
+              "cadence.com"
+            ],
+            "symbols": [
+              "0HS2.L",
+              "CDS.DE",
+              "CDNS"
+            ]
+          }
+        ],
+        "sentiment": {
+          "positive": 0.750578,
+          "negative": 0.030056233,
+          "neutral": 0.21936585
+        },
+        "summary": "The Electronic Chemicals and Materials Industry is undergoing a structural realignment driven by artificial intelligence, driven by the rise of investment in the electronic chemicals and materials industry. BCC Research's latest analysis, \"AI Impact on Electronic Chemical and Materials Market - BCC Pulse Report,\" details how AI adoption is redefining demand dynamics, R&D productivity, and competitive positioning across the global electronic materials value chain. Hyperscale capital expenditure is reaching historic scale, with companies such as Alphabet, Amazon, Meta Platforms, and Microsoft planning to spend approximately $650 billion in 2026 on chip-packed data centers, while the $500 billion Stargate initiative, led by OpenAI, Oracle, SoftBank, and MGX, is funding multiple AI data center campuses across the U.S. This increased spending is driving demand for advanced packaging materials, specialty gases, CMP slurries, photoresists, high-density substrates, and thermal management materials. Texas Instruments and TSMC have committed over $60 billion and TSMA have committed $100 billion to expand U.K. semiconductor manufacturing. GenAI chips are expected to reach over $500bn in revenue by end of 2026, representing approximately 50% of global semiconductor sales. Government funding is also directly targeting next-generation materials development. Emerging technologies are transforming materials production and discovery, with emerging technologies including AI-driven process analytics, predictive maintenance, and digital twins becoming core operational tools for leading suppliers. However, challenges remain significant.",
+        "shortSummary": "AI-driven investment is reshaping the electronic chemicals and materials industry, driving significant changes in materials production, R&D, and competitiveness, driven by aggressive HBM and AI-enabled materials discovery initiatives.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "b7cbb66b7de54654801411398fcda3cc",
+        "places": [],
+        "people": []
+      }
+    ]
+  }
+}

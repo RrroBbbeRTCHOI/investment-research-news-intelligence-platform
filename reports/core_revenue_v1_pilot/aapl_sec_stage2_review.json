@@ -1,0 +1,114 @@
+{
+  "model": "CRQ V1 - stage 2 SEC evidence pilot",
+  "ticker": "AAPL",
+  "fiscal_year": 2025,
+  "currency": "USD",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+  "source_locators": {
+    "category_revenue": "Apple FY2025 10-K, Item 7, Products and Services Performance, p.23 (PDF p.27)",
+    "consolidated_revenue": "Apple FY2025 10-K, Consolidated Statements of Operations, p.30 (PDF p.34)",
+    "recognition_policy": "Apple FY2025 10-K, Note 2 - Revenue, pp.35-36 (PDF pp.39-40)"
+  },
+  "fmp_reconciliation": {
+    "FY2025_FMP_usd": 416161000000.0,
+    "FY2025_SEC_usd": 416161000000,
+    "FY2024_FMP_usd": 391035000000.0,
+    "FY2024_SEC_usd": 391035000000,
+    "status": "MATCH"
+  },
+  "revenue_categories": [
+    {
+      "name": "iPhone",
+      "FY2025_usd_millions": 209586,
+      "FY2024_usd_millions": 201183,
+      "FY2025_share_of_consolidated_pct": 50.362,
+      "FY2025_yoy_growth_pct": 4.177,
+      "business_classification": "reported_operating_products_or_services",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_locator": "Apple FY2025 10-K, Item 7, Products and Services Performance, p.23 (PDF p.27)"
+    },
+    {
+      "name": "Mac",
+      "FY2025_usd_millions": 33708,
+      "FY2024_usd_millions": 29984,
+      "FY2025_share_of_consolidated_pct": 8.1,
+      "FY2025_yoy_growth_pct": 12.42,
+      "business_classification": "reported_operating_products_or_services",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_locator": "Apple FY2025 10-K, Item 7, Products and Services Performance, p.23 (PDF p.27)"
+    },
+    {
+      "name": "iPad",
+      "FY2025_usd_millions": 28023,
+      "FY2024_usd_millions": 26694,
+      "FY2025_share_of_consolidated_pct": 6.734,
+      "FY2025_yoy_growth_pct": 4.979,
+      "business_classification": "reported_operating_products_or_services",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_locator": "Apple FY2025 10-K, Item 7, Products and Services Performance, p.23 (PDF p.27)"
+    },
+    {
+      "name": "Wearables, Home and Accessories",
+      "FY2025_usd_millions": 35686,
+      "FY2024_usd_millions": 37005,
+      "FY2025_share_of_consolidated_pct": 8.575,
+      "FY2025_yoy_growth_pct": -3.564,
+      "business_classification": "reported_operating_products_or_services",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_locator": "Apple FY2025 10-K, Item 7, Products and Services Performance, p.23 (PDF p.27)"
+    },
+    {
+      "name": "Services",
+      "FY2025_usd_millions": 109158,
+      "FY2024_usd_millions": 96169,
+      "FY2025_share_of_consolidated_pct": 26.23,
+      "FY2025_yoy_growth_pct": 13.506,
+      "business_classification": "reported_operating_products_or_services",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_locator": "Apple FY2025 10-K, Item 7, Products and Services Performance, p.23 (PDF p.27)"
+    }
+  ],
+  "revenue_classification": {
+    "reported_total_usd": 416161000000,
+    "documented_operating_categories_usd": 416161000000,
+    "disclosure_classification_coverage_pct": 100.0,
+    "provisional_core_revenue_purity_pct": 100.0,
+    "qualifier": "All five disclosed categories are ordinary operating products/services. This is classification-level coverage, not transaction-level validation or evidence that every dollar is non-recurring-free."
+  },
+  "organic_growth_attribution": {
+    "status": "NOT_SCORED",
+    "reason": "This filing alone does not disclose a verified, quantified organic-vs-acquired revenue-growth bridge."
+  },
+  "revenue_recognition_integrity": {
+    "status": "NOT_SCORED",
+    "score": null,
+    "observations": [
+      {
+        "topic": "policy",
+        "finding": "Products: control generally transfers on shipment; Services: recognition over time as delivered.",
+        "source_locator": "Apple FY2025 10-K, Note 2 - Revenue, pp.35-36 (PDF pp.39-40)"
+      },
+      {
+        "topic": "bundled_services",
+        "finding": "Revenue is allocated using relative stand-alone selling prices; bundled-service portion is deferred.",
+        "source_locator": "Apple FY2025 10-K, Note 2 - Revenue, pp.35-36 (PDF pp.39-40)"
+      },
+      {
+        "topic": "third_party_apps",
+        "finding": "App Store third-party applications are reported net, with Services sales representing retained commission.",
+        "source_locator": "Apple FY2025 10-K, Note 2 - Revenue, pp.35-36 (PDF pp.39-40)"
+      },
+      {
+        "topic": "receivables",
+        "finding": "Prior MAG7 pilot receivables-growth divergence is an investigation signal, not proof of incorrect recognition.",
+        "source_locator": "MAG7 pilot FMP period-aligned balance/income statements"
+      }
+    ],
+    "reason": "Disclosure of accounting policy is not proof of compliance or a numeric integrity score; further evidence/rubric required."
+  },
+  "CRQ_overall_score": null,
+  "CRQ_status": "NOT_SCORED",
+  "scoring_note": "Do not promote this candidate to an official Earnings Quality subscore: the mandatory audit/rubric sign-off and >=70% component scoring coverage have not been met.",
+  "receivables_growth_pct": 10.135410533943201,
+  "revenue_growth_pct": 6.425511782832749
+}

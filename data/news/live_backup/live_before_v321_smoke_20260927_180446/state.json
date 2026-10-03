@@ -1,0 +1,903 @@
+{
+  "seen": {
+    "id:perigon:eefff9ef7ac340158751abf81076bf09": "live_5e3004b0b0b3f792bb4a9853",
+    "url:https://www.europesays.com/us/1086349/": "live_5e3004b0b0b3f792bb4a9853",
+    "content:263c7db3ffe50fd7ae3e61c2420fe84c058f2e286e75ad1344bc0e8eb088c6a2": "live_5e3004b0b0b3f792bb4a9853",
+    "id:perigon:0e6cbf4bd6e5467dadf571a71a127360": "live_ade0431d831fec2c0c7de3d0",
+    "url:https://time.news/india-opts-to-bowl-first-against-west-indies-in-first-odi-in-thiruvananthapuram/": "live_ade0431d831fec2c0c7de3d0",
+    "content:dd80c074ff96dea7a5ed6ed3207c73dcdaa56d7e0fefaff225ac04972edcf23d": "live_ade0431d831fec2c0c7de3d0",
+    "id:perigon:697b1ae06a294e018f550a87840f4d59": "live_faea333cc861176a22aef299",
+    "url:https://thenewsmill.com/2026/09/namami-gange-leads-cleanliness-drive-at-namo-ghat-to-boost-tourism/": "live_faea333cc861176a22aef299",
+    "content:f2e081ede02a897d49abfc6e360b0ca22e4cb5560a2dc37a8d0cb15c213d3d88": "live_faea333cc861176a22aef299",
+    "id:perigon:6b34518148174c558c960ac8c23d27ce": "live_6e74f026316bf0206e09e207",
+    "url:https://eng.pressbee.net/show4898891.html?title=minecraft-still-gains-around-300-000-new-players-a-day-xbox-boss-": "live_6e74f026316bf0206e09e207",
+    "content:b080738cb66a42088b30b80e189114f471c3455a423707b3d4bf43000e868d8c": "live_6e74f026316bf0206e09e207",
+    "id:perigon:7ad159049c4c419ba64d6dc1c77eaf8c": "live_662d0567296d98cb55481b64",
+    "url:https://www.europesays.com/us/1086343/": "live_662d0567296d98cb55481b64",
+    "content:62a1ec303433e664ee16435435d463a82d79c8f7a110f302bd0bae7c0a61feee": "live_662d0567296d98cb55481b64"
+  },
+  "pending": {
+    "live_6e74f026316bf0206e09e207": {
+      "article": {
+        "provider": "perigon",
+        "provider_article_id": "6b34518148174c558c960ac8c23d27ce",
+        "headline": "Minecraft still gains around 300,000 new players a day, Xbox boss reveals ...Middle East",
+        "summary": "Minecraft still gains around 300,000 new players a day, Xbox boss revealsMore than 300,000 try Minecraft for the first time every single...",
+        "body": "More than 300,000 try Minecraft for the first time every single day.\n\nHence then, the article about minecraft still gains around 300 000 new players a day xbox boss reveals was published today ( ) and... [699 symbols]",
+        "source": "eng.pressbee.net",
+        "article_url": "https://eng.pressbee.net/show4898891.html?title=minecraft-still-gains-around-300-000-new-players-a-day-xbox-boss-",
+        "published_at": "2026-09-27T12:37:07+03:00",
+        "fetched_at": "2026-09-27T09:41:58.448151+00:00",
+        "article_id": "live_6e74f026316bf0206e09e207"
+      },
+      "status": "pending"
+    },
+    "live_662d0567296d98cb55481b64": {
+      "article": {
+        "provider": "perigon",
+        "provider_article_id": "7ad159049c4c419ba64d6dc1c77eaf8c",
+        "headline": "New research finds 485 chemicals in US pesticide products linked to breast cancer - United States",
+        "summary": "Paper raises questions about safety of food and other products as early onset breast cancer rates surge worldwide",
+        "body": "New research has identified at least 485 chemicals used in US pesticide products that are linked to breast cancer, raising questions about the safety of food and other products at a time when early on... [4907 symbols]",
+        "source": "europesays.com",
+        "article_url": "https://www.europesays.com/us/1086343/",
+        "published_at": "2026-09-27T09:33:44+00:00",
+        "fetched_at": "2026-09-27T09:41:58.448151+00:00",
+        "article_id": "live_662d0567296d98cb55481b64"
+      },
+      "status": "pending"
+    },
+    "live_faea333cc861176a22aef299": {
+      "article": {
+        "provider": "perigon",
+        "provider_article_id": "697b1ae06a294e018f550a87840f4d59",
+        "headline": "Namami Gange leads cleanliness drive at Namo Ghat to boost tourism",
+        "summary": "Namami Gange held a cleanliness drive at Namo Ghat in Varanasi on World Tourism Day, linking clean rivers with tourism growth and river conservation.",
+        "body": "On September 27, Namami Gange organised a cleanliness drive at the renowned Namo Ghat in Varanasi, Uttar Pradesh, coinciding with World Tourism Day. The initiative aimed to promote the purification of... [2064 symbols]",
+        "source": "thenewsmill.com",
+        "article_url": "https://thenewsmill.com/2026/09/namami-gange-leads-cleanliness-drive-at-namo-ghat-to-boost-tourism/",
+        "published_at": "2026-09-27T15:07:36+05:30",
+        "fetched_at": "2026-09-27T09:41:58.448151+00:00",
+        "article_id": "live_faea333cc861176a22aef299"
+      },
+      "status": "quota_deferred"
+    }
+  },
+  "records": {
+    "live_5e3004b0b0b3f792bb4a9853": {
+      "article_id": "live_5e3004b0b0b3f792bb4a9853",
+      "headline": "EA Sports FC 27 Review - United States",
+      "source": "europesays.com",
+      "article_url": "https://www.europesays.com/us/1086349/",
+      "gate": {
+        "article_id": "live_5e3004b0b0b3f792bb4a9853",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_b5ffe5caeaaef5a93c6e",
+        "event_type": "general_news",
+        "event_subtype": "general_news",
+        "published_at_first": "2026-09-27T09:38:12+00:00",
+        "country": null,
+        "region": null,
+        "city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "coordinate_precision": null,
+        "primary_country": null
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "general_news",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "general_news",
+      "published_at": "2026-09-27T09:38:12+00:00",
+      "geography": {
+        "event_country": null,
+        "event_region": null,
+        "event_city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "location_confidence": null,
+        "coordinate_basis": null,
+        "evidence": [],
+        "coordinate_precision": null
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Unknown; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      },
+      "enrichment": {
+        "status": "available",
+        "schema_version": "news_semantic_v3_1",
+        "prompt_version": "news_semantics_v3_1_sentence_grounding",
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "requested_model": "gemini-3.5-flash-lite",
+        "content_hash": "aaa4f230f195dd9432ce9c1e67d2302866d22ab18f05d2617de03848cea15bec",
+        "article_content_hash": "263c7db3ffe50fd7ae3e61c2420fe84c058f2e286e75ad1344bc0e8eb088c6a2",
+        "generated_at": "2026-09-27T09:42:05.958531+00:00",
+        "semantic": {
+          "article_class": "opinion",
+          "is_relevant_candidate": true,
+          "summary_short": "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise.",
+          "summary_full": "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise.",
+          "primary_country": "United States",
+          "event_type": "product_review",
+          "event_subtype": "video_game_review",
+          "countries": [
+            "United States"
+          ],
+          "entities": [
+            "EA Sports",
+            "FC 27"
+          ],
+          "companies_mentioned": [
+            "Electronic Arts"
+          ],
+          "direct_ticker_candidates": [
+            "EA"
+          ],
+          "economic_channels": [
+            "consumer_discretionary",
+            "video_games"
+          ],
+          "candidate_indirect_tickers": [],
+          "missing_information": [
+            "Financial sales figures of the game"
+          ],
+          "research_questions": [
+            "How will consumer reception of EA Sports FC 27 impact Electronic Arts' overall revenue?"
+          ],
+          "severity_candidate": "Low",
+          "severity_reason": "The article is a video game review expressing critical opinions on a game's features, representing standard product release commentary with minimal direct corporate financial impact.",
+          "severity_confidence": 0.8,
+          "operational_event": false,
+          "fundamental_change_detected": false,
+          "llm_confidence": 0.95,
+          "citations": [
+            {
+              "field": "summary_short",
+              "quote": "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise.",
+              "source_field": "summary"
+            },
+            {
+              "field": "summary_full",
+              "quote": "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise.",
+              "source_field": "summary"
+            },
+            {
+              "field": "primary_country",
+              "quote": "United States",
+              "source_field": "headline"
+            },
+            {
+              "field": "article_class",
+              "quote": "EA Sports FC 27 Review",
+              "source_field": "headline"
+            },
+            {
+              "field": "event_type",
+              "quote": "Review",
+              "source_field": "headline"
+            },
+            {
+              "field": "economic_channels",
+              "quote": "EA Sports",
+              "source_field": "summary"
+            },
+            {
+              "field": "severity_candidate",
+              "quote": "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise.",
+              "source_field": "summary"
+            },
+            {
+              "field": "operational_event",
+              "quote": "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise.",
+              "source_field": "summary"
+            },
+            {
+              "field": "fundamental_change_detected",
+              "quote": "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise.",
+              "source_field": "summary"
+            },
+            {
+              "field": "direct_ticker_candidates",
+              "quote": "EA Sports",
+              "source_field": "summary"
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": null,
+          "output_tokens": null,
+          "total_tokens": 1171,
+          "estimated_cost_usd": null,
+          "scope": "successful response only; failed-attempt usage unavailable"
+        },
+        "cache_hit": false,
+        "attempts": [
+          {
+            "attempt": 1,
+            "provider": "gemini",
+            "model": "gemini-3.5-flash-lite",
+            "status": "success"
+          }
+        ],
+        "attempt_audit_scope": "original enrichment generation; cache reuse makes no new requests",
+        "attempt_count": 1,
+        "retry_count": 0,
+        "fallback_used": false,
+        "point_in_time_note": "Generated at the recorded enrichment time; not evidence the AI output was available when the article was published. Exposure eligibility still uses the original article replay time."
+      },
+      "semantic_validation": {
+        "status": "validated_constraints",
+        "accepted": {
+          "article_class": {
+            "value": "opinion",
+            "citations": [
+              {
+                "field": "article_class",
+                "quote": "EA Sports FC 27 Review",
+                "source_field": "headline"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "economic_channels": {
+            "value": [
+              "consumer_discretionary",
+              "video_games"
+            ],
+            "citations": [
+              {
+                "field": "economic_channels",
+                "quote": "EA Sports",
+                "source_field": "summary"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "operational_event": {
+            "value": false,
+            "citations": [
+              {
+                "field": "operational_event",
+                "quote": "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise.",
+                "source_field": "summary"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "fundamental_change_detected": {
+            "value": false,
+            "citations": [
+              {
+                "field": "fundamental_change_detected",
+                "quote": "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise.",
+                "source_field": "summary"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "summary_short": {
+            "value": "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise.",
+            "status": "source_grounded_candidate",
+            "sentence_validation": [
+              {
+                "sentence": "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise."
+                ],
+                "source_fields": [
+                  "summary"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise.",
+                "source_field": "summary"
+              }
+            ],
+            "reason": null
+          },
+          "summary_full": {
+            "value": "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise.",
+            "status": "source_grounded_candidate",
+            "sentence_validation": [
+              {
+                "sentence": "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise."
+                ],
+                "source_fields": [
+                  "summary"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise.",
+                "source_field": "summary"
+              }
+            ],
+            "reason": null
+          }
+        },
+        "summary_validation": {
+          "summary_short": {
+            "value": "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise.",
+            "status": "source_grounded_candidate",
+            "sentence_validation": [
+              {
+                "sentence": "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise."
+                ],
+                "source_fields": [
+                  "summary"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise.",
+                "source_field": "summary"
+              }
+            ],
+            "reason": null
+          },
+          "summary_full": {
+            "value": "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise.",
+            "status": "source_grounded_candidate",
+            "sentence_validation": [
+              {
+                "sentence": "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise."
+                ],
+                "source_fields": [
+                  "summary"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise.",
+                "source_field": "summary"
+              }
+            ],
+            "reason": null
+          }
+        },
+        "rejections": [
+          {
+            "field": "event_type",
+            "reason": "Citation is not a substantive exact source span."
+          },
+          {
+            "field": "primary_country",
+            "reason": "Country failed deterministic event-geography validation; contextual location is not event location."
+          }
+        ],
+        "candidate_relationships": [
+          {
+            "ticker": "EA",
+            "kind": "direct_ticker_candidates",
+            "state": "rejected",
+            "reason": "No eligible matching exposure/action evidence; candidate cannot qualify itself.",
+            "edge_ids": []
+          }
+        ],
+        "classification_arbitration": {
+          "status": "grounded_semantic_candidate",
+          "deterministic": {
+            "article_class": "general_news",
+            "event_type": "general_news",
+            "event_subtype": "general_news"
+          },
+          "semantic_candidate": {
+            "article_class": "opinion"
+          },
+          "decision": "classification_conflict",
+          "reason": "Grounded semantic classification conflicts with a specific deterministic classification; final arbitration must resolve the main-event evidence.",
+          "final": {
+            "article_class": "general_news",
+            "event_type": "general_news",
+            "event_subtype": "general_news"
+          },
+          "authority": "This validator exposes grounded candidates only; research_v3 remains final classification authority."
+        },
+        "notice": "Source-grounded AI extraction is not independent fact verification. Candidate fields do not qualify ticker exposure."
+      },
+      "classification_assessment": {
+        "candidates": {
+          "article_class": "opinion",
+          "event_type": "product_review",
+          "event_subtype": "video_game_review",
+          "operational_event": false,
+          "fundamental_change_detected": false
+        },
+        "source_grounded_candidates": {
+          "article_class": {
+            "value": "opinion",
+            "citations": [
+              {
+                "field": "article_class",
+                "quote": "EA Sports FC 27 Review",
+                "source_field": "headline"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "operational_event": {
+            "value": false,
+            "citations": [
+              {
+                "field": "operational_event",
+                "quote": "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise.",
+                "source_field": "summary"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "fundamental_change_detected": {
+            "value": false,
+            "citations": [
+              {
+                "field": "fundamental_change_detected",
+                "quote": "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise.",
+                "source_field": "summary"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          }
+        },
+        "validator_candidate": {
+          "status": "grounded_semantic_candidate",
+          "deterministic": {
+            "article_class": "general_news",
+            "event_type": "general_news",
+            "event_subtype": "general_news"
+          },
+          "semantic_candidate": {
+            "article_class": "opinion"
+          },
+          "decision": "classification_conflict",
+          "reason": "Grounded semantic classification conflicts with a specific deterministic classification; final arbitration must resolve the main-event evidence.",
+          "final": {
+            "article_class": "general_news",
+            "event_type": "general_news",
+            "event_subtype": "general_news"
+          },
+          "authority": "This validator exposes grounded candidates only; research_v3 remains final classification authority."
+        },
+        "arbitration": {
+          "decision": "deterministic_only",
+          "reason": "No grounded semantic event candidate maps safely into the existing event taxonomy.",
+          "deterministic": {
+            "article_class": "general_news",
+            "event_type": "general_news",
+            "event_subtype": "general_news"
+          },
+          "canonical_semantic_candidate": null,
+          "final": {
+            "article_class": "general_news",
+            "event_type": "general_news",
+            "event_subtype": "general_news"
+          },
+          "applied": false
+        },
+        "final": {
+          "article_class": "general_news",
+          "event_type": "general_news",
+          "event_subtype": "general_news"
+        },
+        "authority": "Grounded semantic candidates may refine classification only through bounded deterministic arbitration; exposure, severity and financial impact remain independently controlled.",
+        "direct_event_subjects_pre_arbitration": [],
+        "direct_event_subjects_post_arbitration": [],
+        "downstream_relationships_recomputed": false
+      },
+      "article_summary": {
+        "summary_short": "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise.",
+        "summary_full": "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise.",
+        "source": "ai_source_grounded",
+        "notice": "AI summary of the supplied article; not independent verification."
+      },
+      "severity_assessment": {
+        "severity_candidate": "Low",
+        "severity_reason": "The article is a video game review expressing critical opinions on a game's features, representing standard product release commentary with minimal direct corporate financial impact.",
+        "severity_confidence": 0.8,
+        "severity_final": "Unknown",
+        "severity_source": "rule",
+        "validation": "LLM candidate retained for audit; final severity requires the existing non-negated article rules.",
+        "rule_evidence": []
+      },
+      "feed": {
+        "state": "background",
+        "reason": "No identified watchlist or economic trigger; retained for review."
+      }
+    },
+    "live_ade0431d831fec2c0c7de3d0": {
+      "article_id": "live_ade0431d831fec2c0c7de3d0",
+      "headline": "India Opts to Bowl First Against West Indies in First ODI in Thiruvananthapuram",
+      "source": "time.news",
+      "article_url": "https://time.news/india-opts-to-bowl-first-against-west-indies-in-first-odi-in-thiruvananthapuram/",
+      "gate": {
+        "article_id": "live_ade0431d831fec2c0c7de3d0",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_b78539054fb51914bf50",
+        "event_type": "general_news",
+        "event_subtype": "general_news",
+        "published_at_first": "2026-09-27T12:37:47+03:00",
+        "country": "India",
+        "region": null,
+        "city": null,
+        "latitude": 22.686852,
+        "longitude": 79.358105,
+        "location_basis": "explicit_article_location",
+        "coordinate_precision": "country_approximation",
+        "primary_country": "India"
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "general_news",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "general_news",
+      "published_at": "2026-09-27T12:37:47+03:00",
+      "geography": {
+        "event_country": "India",
+        "event_region": null,
+        "event_city": null,
+        "latitude": 22.686852,
+        "longitude": 79.358105,
+        "location_basis": "explicit_article_location",
+        "location_confidence": "Article-supported country; exact site unresolved",
+        "coordinate_basis": "Natural Earth country label point (existing map)",
+        "evidence": [
+          {
+            "country": "India",
+            "city": null,
+            "region": null,
+            "source_field": "headline",
+            "evidence": "India Opts to Bowl First Against West Indies in First ODI in Thiruvananthapuram"
+          }
+        ],
+        "coordinate_precision": "country_approximation"
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Unknown; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      },
+      "enrichment": {
+        "status": "available",
+        "schema_version": "news_semantic_v3_1",
+        "prompt_version": "news_semantics_v3_1_sentence_grounding",
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "requested_model": "gemini-3.5-flash-lite",
+        "content_hash": "b9e53ef07c06c71c264b5d674a344365097f3a68f056bac330e355914cc887f6",
+        "article_content_hash": "dd80c074ff96dea7a5ed6ed3207c73dcdaa56d7e0fefaff225ac04972edcf23d",
+        "generated_at": "2026-09-27T09:42:10.360425+00:00",
+        "semantic": {
+          "article_class": "unrelated_noise",
+          "is_relevant_candidate": false,
+          "summary_short": "India Opts to Bowl First Against West Indies in First ODI in Thiruvananthapuram",
+          "summary_full": "India Opts to Bowl First Against West Indies in First ODI in Thiruvananthapuram",
+          "primary_country": "India",
+          "event_type": null,
+          "event_subtype": null,
+          "countries": [
+            "India"
+          ],
+          "entities": [
+            "West Indies",
+            "Shubman Gill",
+            "Greenfield International Stadium",
+            "Thiruvananthapuram"
+          ],
+          "companies_mentioned": [],
+          "direct_ticker_candidates": [],
+          "economic_channels": [],
+          "candidate_indirect_tickers": [],
+          "missing_information": [],
+          "research_questions": [],
+          "severity_candidate": "Unknown",
+          "severity_reason": "This is a sports news report about a cricket match, containing no material financial, economic, or corporate events.",
+          "severity_confidence": 1.0,
+          "operational_event": false,
+          "fundamental_change_detected": false,
+          "llm_confidence": 1.0,
+          "citations": [
+            {
+              "field": "summary_short",
+              "quote": "India Opts to Bowl First Against West Indies in First ODI in Thiruvananthapuram",
+              "source_field": "headline"
+            },
+            {
+              "field": "summary_full",
+              "quote": "India Opts to Bowl First Against West Indies in First ODI in Thiruvananthapuram",
+              "source_field": "headline"
+            },
+            {
+              "field": "primary_country",
+              "quote": "India",
+              "source_field": "headline"
+            },
+            {
+              "field": "article_class",
+              "quote": "India Opts to Bowl First Against West Indies in First ODI in Thiruvananthapuram",
+              "source_field": "headline"
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": null,
+          "output_tokens": null,
+          "total_tokens": 843,
+          "estimated_cost_usd": null,
+          "scope": "successful response only; failed-attempt usage unavailable"
+        },
+        "cache_hit": false,
+        "attempts": [
+          {
+            "attempt": 1,
+            "provider": "gemini",
+            "model": "gemini-3.5-flash-lite",
+            "status": "success"
+          }
+        ],
+        "attempt_audit_scope": "original enrichment generation; cache reuse makes no new requests",
+        "attempt_count": 1,
+        "retry_count": 0,
+        "fallback_used": false,
+        "point_in_time_note": "Generated at the recorded enrichment time; not evidence the AI output was available when the article was published. Exposure eligibility still uses the original article replay time."
+      },
+      "semantic_validation": {
+        "status": "validated_constraints",
+        "accepted": {
+          "article_class": {
+            "value": "unrelated_noise",
+            "citations": [
+              {
+                "field": "article_class",
+                "quote": "India Opts to Bowl First Against West Indies in First ODI in Thiruvananthapuram",
+                "source_field": "headline"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "summary_short": {
+            "value": "India Opts to Bowl First Against West Indies in First ODI in Thiruvananthapuram",
+            "status": "source_grounded_candidate",
+            "sentence_validation": [
+              {
+                "sentence": "India Opts to Bowl First Against West Indies in First ODI in Thiruvananthapuram",
+                "accepted": true,
+                "supporting_quotes": [
+                  "India Opts to Bowl First Against West Indies in First ODI in Thiruvananthapuram"
+                ],
+                "source_fields": [
+                  "headline"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "India Opts to Bowl First Against West Indies in First ODI in Thiruvananthapuram",
+                "source_field": "headline"
+              }
+            ],
+            "reason": null
+          },
+          "summary_full": {
+            "value": "India Opts to Bowl First Against West Indies in First ODI in Thiruvananthapuram",
+            "status": "source_grounded_candidate",
+            "sentence_validation": [
+              {
+                "sentence": "India Opts to Bowl First Against West Indies in First ODI in Thiruvananthapuram",
+                "accepted": true,
+                "supporting_quotes": [
+                  "India Opts to Bowl First Against West Indies in First ODI in Thiruvananthapuram"
+                ],
+                "source_fields": [
+                  "headline"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "India Opts to Bowl First Against West Indies in First ODI in Thiruvananthapuram",
+                "source_field": "headline"
+              }
+            ],
+            "reason": null
+          }
+        },
+        "summary_validation": {
+          "summary_short": {
+            "value": "India Opts to Bowl First Against West Indies in First ODI in Thiruvananthapuram",
+            "status": "source_grounded_candidate",
+            "sentence_validation": [
+              {
+                "sentence": "India Opts to Bowl First Against West Indies in First ODI in Thiruvananthapuram",
+                "accepted": true,
+                "supporting_quotes": [
+                  "India Opts to Bowl First Against West Indies in First ODI in Thiruvananthapuram"
+                ],
+                "source_fields": [
+                  "headline"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "India Opts to Bowl First Against West Indies in First ODI in Thiruvananthapuram",
+                "source_field": "headline"
+              }
+            ],
+            "reason": null
+          },
+          "summary_full": {
+            "value": "India Opts to Bowl First Against West Indies in First ODI in Thiruvananthapuram",
+            "status": "source_grounded_candidate",
+            "sentence_validation": [
+              {
+                "sentence": "India Opts to Bowl First Against West Indies in First ODI in Thiruvananthapuram",
+                "accepted": true,
+                "supporting_quotes": [
+                  "India Opts to Bowl First Against West Indies in First ODI in Thiruvananthapuram"
+                ],
+                "source_fields": [
+                  "headline"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "India Opts to Bowl First Against West Indies in First ODI in Thiruvananthapuram",
+                "source_field": "headline"
+              }
+            ],
+            "reason": null
+          }
+        },
+        "rejections": [
+          {
+            "field": "primary_country",
+            "reason": "Citation is not a substantive exact source span."
+          }
+        ],
+        "candidate_relationships": [],
+        "classification_arbitration": {
+          "status": "grounded_semantic_candidate",
+          "deterministic": {
+            "article_class": "general_news",
+            "event_type": "general_news",
+            "event_subtype": "general_news"
+          },
+          "semantic_candidate": {
+            "article_class": "unrelated_noise"
+          },
+          "decision": "classification_conflict",
+          "reason": "Grounded semantic classification conflicts with a specific deterministic classification; final arbitration must resolve the main-event evidence.",
+          "final": {
+            "article_class": "general_news",
+            "event_type": "general_news",
+            "event_subtype": "general_news"
+          },
+          "authority": "This validator exposes grounded candidates only; research_v3 remains final classification authority."
+        },
+        "notice": "Source-grounded AI extraction is not independent fact verification. Candidate fields do not qualify ticker exposure."
+      },
+      "classification_assessment": {
+        "candidates": {
+          "article_class": "unrelated_noise",
+          "event_type": null,
+          "event_subtype": null,
+          "operational_event": false,
+          "fundamental_change_detected": false
+        },
+        "source_grounded_candidates": {
+          "article_class": {
+            "value": "unrelated_noise",
+            "citations": [
+              {
+                "field": "article_class",
+                "quote": "India Opts to Bowl First Against West Indies in First ODI in Thiruvananthapuram",
+                "source_field": "headline"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          }
+        },
+        "validator_candidate": {
+          "status": "grounded_semantic_candidate",
+          "deterministic": {
+            "article_class": "general_news",
+            "event_type": "general_news",
+            "event_subtype": "general_news"
+          },
+          "semantic_candidate": {
+            "article_class": "unrelated_noise"
+          },
+          "decision": "classification_conflict",
+          "reason": "Grounded semantic classification conflicts with a specific deterministic classification; final arbitration must resolve the main-event evidence.",
+          "final": {
+            "article_class": "general_news",
+            "event_type": "general_news",
+            "event_subtype": "general_news"
+          },
+          "authority": "This validator exposes grounded candidates only; research_v3 remains final classification authority."
+        },
+        "arbitration": {
+          "decision": "deterministic_only",
+          "reason": "No grounded semantic event candidate maps safely into the existing event taxonomy.",
+          "deterministic": {
+            "article_class": "general_news",
+            "event_type": "general_news",
+            "event_subtype": "general_news"
+          },
+          "canonical_semantic_candidate": null,
+          "final": {
+            "article_class": "general_news",
+            "event_type": "general_news",
+            "event_subtype": "general_news"
+          },
+          "applied": false
+        },
+        "final": {
+          "article_class": "general_news",
+          "event_type": "general_news",
+          "event_subtype": "general_news"
+        },
+        "authority": "Grounded semantic candidates may refine classification only through bounded deterministic arbitration; exposure, severity and financial impact remain independently controlled.",
+        "direct_event_subjects_pre_arbitration": [],
+        "direct_event_subjects_post_arbitration": [],
+        "downstream_relationships_recomputed": false
+      },
+      "article_summary": {
+        "summary_short": "India Opts to Bowl First Against West Indies in First ODI in Thiruvananthapuram",
+        "summary_full": "India Opts to Bowl First Against West Indies in First ODI in Thiruvananthapuram",
+        "source": "ai_source_grounded",
+        "notice": "AI summary of the supplied article; not independent verification."
+      },
+      "severity_assessment": {
+        "severity_candidate": "Unknown",
+        "severity_reason": "This is a sports news report about a cricket match, containing no material financial, economic, or corporate events.",
+        "severity_confidence": 1.0,
+        "severity_final": "Unknown",
+        "severity_source": "rule",
+        "validation": "LLM candidate retained for audit; final severity requires the existing non-negated article rules.",
+        "rule_evidence": []
+      },
+      "feed": {
+        "state": "background",
+        "reason": "No identified watchlist or economic trigger; retained for review."
+      }
+    }
+  },
+  "usage": {
+    "2026-09-27": 2
+  },
+  "window": {
+    "start": "2026-09-27T08:41:58.448151+00:00",
+    "end": "2026-09-27T09:41:58.448151+00:00",
+    "page": 1
+  }
+}

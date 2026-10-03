@@ -1,0 +1,276 @@
+{% set quality = company.earnings_quality_diagnostics %}
+
+<div id="earnings-quality-audit" class="flex flex-col gap-4 pb-2">
+
+    <div class="meridian-section-intro"><span class="meridian-eyebrow">EARNINGS QUALITY</span><h2>Are reported profits supported by the core business?</h2><p>The production model assesses six independent dimensions. Expand a component to inspect its explanation.</p></div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="metric-card">
+            <div class="metric-label">Earnings Quality Score</div>
+            <div class="metric-value" data-audit-field="score">
+                {{ quality.score }}
+                {% if quality.score_raw is not none %}
+                <span class="text-[12px] text-on-surface-variant">/ 100</span>
+                {% endif %}
+            </div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-label">Existing Model Classification</div>
+            <div class="metric-value" data-audit-field="classification">
+                {{ quality.classification }}
+            </div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-label">Component Availability</div>
+            <div class="metric-value" data-audit-field="availability">
+                {{ quality.available_components }} / {{ quality.total_components }}
+            </div>
+            <div class="text-[11px] text-on-surface-variant mt-2">Available component scores</div>
+        </div>
+    </div>
+
+    <div class="bg-surface-container-low border border-outline-variant rounded p-4 text-[12px] leading-5 text-on-surface-variant">
+        The score and classification come from the existing Earnings Quality model.
+        The model combines available component scores and renormalizes their weights.
+        An unavailable component is not a zero score or evidence of poor earnings quality.
+        These scores do not by themselves establish why earnings changed or whether profits are repeatable.
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+        {% for component in quality.components %}
+        <details class="audit-quality-component" data-audit-component="{{ component.key }}">
+            <summary><span>{{ component.label }}</span><strong data-audit-field="component-score">
+                {{ component.score }}
+                {% if component.score_raw is not none %}
+                <small>/ 100</small>
+                {% endif %}
+            </strong></summary>
+            <div class="meridian-quality-explanation">
+                {{ component.note }}
+                {% if component.effective_weight is not none %}
+                Effective weight: {{ '%.1f%%'|format(component.effective_weight * 100) }};
+                contribution to overall score: {{ '%.2f'|format(component.weighted_score_contribution) }} points.
+                {% endif %}
+                {% if component.score_raw is none and component.key != "core_revenue" %}
+                This component is unavailable in the current report; no conclusion is drawn from missing data.
+                {% endif %}
+            </div>
+        </details>
+        {% endfor %}
+    </div>
+
+    <details class="meridian-deep-evidence meridian-quality-evidence">
+    <summary>Open detailed evidence, attribution and audit inputs</summary>
+    <div class="bg-surface-container-low border border-outline-variant rounded p-4">
+        <div class="metric-label">Weighted Positive Non-Core Contribution</div>
+        <div class="metric-value mt-2" data-audit-field="non-core-contribution">
+            {{ quality.weighted_positive_non_core }}
+        </div>
+        <div class="text-[11px] leading-5 text-on-surface-variant mt-3">
+            The model's weighted measure of identified positive non-core items divided by
+            the absolute value of pretax income. It is not the total non-operating income share,
+            not the total non-core earnings share, and not a complete accounting decomposition
+            of core versus non-core earnings. Do not subtract this measure from 100% to infer a core earnings share.
+            Negative items are tracked separately by the underlying model.
+        </div>
+        <div class="text-[11px] leading-5 text-on-surface-variant mt-2">
+            A zero value does not establish that no non-core items exist. The frozen scoring summary does not
+            expose item-level source text or period-alignment checks; assess it as a model measure,
+            not a verified current-period accounting attribution.
+            {% if quality.weighted_positive_non_core_raw is none %}
+            This measure is unavailable in the current report.
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="bg-surface-container-low border border-outline-variant rounded p-4" id="moat1-interpretation">
+        <div class="metric-label">Evidence-based interpretation · rules {{ quality.research_analysis.rule_version }}</div>
+        <div class="metric-value">{{ quality.research_analysis.interpretation.state }}</div>
+        <p class="text-[12px] leading-6 mt-3">{{ quality.research_analysis.interpretation.summary }}</p>
+        <p class="text-[11px] text-on-surface-variant mt-2">{{ quality.research_analysis.interpretation.limitations | join(' ') }}</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+            <div><div class="metric-label">Observed strengths</div>
+                {% for item in quality.research_analysis.interpretation.strengths %}<p class="text-[12px] leading-5 mt-2">{{ item }}</p>
+                {% else %}<p class="text-[12px] mt-2">No supported strength conclusion available.</p>{% endfor %}
+            </div>
+            <div><div class="metric-label">Concerns / investigation priorities</div>
+                {% for item in quality.research_analysis.interpretation.concerns %}<p class="text-[12px] leading-5 mt-2">{{ item }}</p>
+                {% else %}<p class="text-[12px] mt-2">No validated concern triggered; incomplete evidence is not an all-clear.</p>{% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-surface-container-low border border-outline-variant rounded p-4 overflow-x-auto">
+        <div class="metric-label mb-3">Aligned annual growth comparison · reported FCF, not modeled FCFF</div>
+        <table class="w-full text-[12px] text-left" id="moat1-growth">
+            <thead><tr><th class="p-2">Metric</th><th class="p-2">Prior / current period</th><th class="p-2">Growth</th><th class="p-2">State</th></tr></thead>
+            <tbody>{% for name, metric in quality.growth_decomposition.items() %}
+                <tr class="border-t border-outline-variant">
+                    <td class="p-2">{{ {'ocf_growth': 'Operating Cash Flow Growth', 'fcf_growth': 'Free Cash Flow Growth'}.get(name, name.replace('_', ' ').title()) }}</td>
+                    <td class="p-2">{{ metric.previous.period if metric.previous else 'Unavailable' }} / {{ metric.current.period if metric.current else 'Unavailable' }}{% if metric.current %}<div class="text-[11px] text-on-surface-variant">{{ metric.current.source }} · {{ metric.current.source_field }} · {{ metric.current.currency }} · {{ metric.availability }}</div>{% endif %}</td>
+                    <td class="p-2 font-data-mono">{{ '%.1f%%'|format(metric.value * 100) if metric.value is not none else 'Unavailable / N/M' }}</td>
+                    <td class="p-2">{{ metric.status }}{% if metric.reason %} · {{ metric.reason }}{% endif %}</td>
+                </tr>
+            {% endfor %}</tbody>
+        </table>
+        <p class="text-[11px] text-on-surface-variant mt-3">Growth gaps of at least 10 percentage points trigger investigation, not causal attribution. Diagnostic financial history uses FMP; frozen component scores retain their original Yahoo / SEC inputs.</p>
+    </div>
+
+    <div class="bg-surface-container-low border border-outline-variant rounded p-4 overflow-x-auto" id="eq2-attribution">
+        <div class="metric-label mb-3">Earnings Growth Bridge / Attribution · V2</div>
+        <table class="w-full text-left text-[12px]"><thead><tr><th>Bridge</th><th>Gap</th><th>Attribution</th><th>Evidence</th></tr></thead>
+        <tbody>{% for bridge in quality.research_analysis.attribution.bridges %}
+        <tr class="border-t border-outline-variant"><td class="p-2">{{ bridge.from.replace('_',' ').title() }} → {{ bridge.to.replace('_',' ').title() }}</td>
+            <td class="p-2">{{ '%+.1f pp'|format(bridge.gap_pp) if bridge.gap_pp is not none else 'Unavailable / N/M' }} · {{ bridge.investigation_priority }}</td>
+            <td class="p-2">{{ bridge.attribution }}<p class="mt-2">{{ bridge.summary }}</p></td>
+            <td class="p-2">{{ bridge.evidence_strength }}<p>{{ bridge.drivers | join(', ') }}</p><details><summary>Reconciliation / sources</summary><pre class="text-[10px] whitespace-pre-wrap break-words">{{ bridge | tojson(indent=2) }}</pre></details></td>
+        </tr>{% endfor %}</tbody></table>
+        <p class="text-[11px] mt-3">Supported attribution means a validated arithmetic bridge. A subtotal is not a complete economic explanation; components may overlap.</p>
+    </div>
+
+    <div class="bg-surface-container-low border border-outline-variant rounded p-4 overflow-x-auto">
+        <div class="metric-label mb-3">Cash support · period-matched diagnostic ratios</div>
+        <table class="w-full text-left text-[12px]">
+            <thead><tr><th class="p-2">Period</th><th class="p-2">OCF / Net Income</th><th class="p-2">Accrual ratio</th><th class="p-2">Interpretation</th></tr></thead>
+            <tbody>{% for row in quality.cash_support.history %}
+            <tr class="border-t border-outline-variant"><td class="p-2">{{ row.period }}<div class="text-[11px] text-on-surface-variant">{% for name, item in row.inputs.items() %}{{ name }}: {{ item.source if item else 'Unavailable' }}{% if item %} · {{ item.currency }}{% endif %}{% if not loop.last %}<br>{% endif %}{% endfor %}</div></td>
+                <td class="p-2">{{ '%.2fx'|format(row.cash_conversion) if row.cash_conversion is not none else 'Unavailable' }}<div class="text-[11px]">{{ row.cash_conversion_availability }}</div></td>
+                <td class="p-2">{{ '%.2f%%'|format(row.accrual_ratio * 100) if row.accrual_ratio is not none else 'Unavailable' }}<div class="text-[11px]">{{ row.accrual_availability }}</div></td>
+                <td class="p-2">{{ row.status }}{% if row.reason %} · {{ row.reason }}{% endif %}</td>
+            </tr>{% endfor %}</tbody>
+        </table>
+    </div>
+
+    <div class="bg-surface-container-low border border-outline-variant rounded p-4">
+        <div class="metric-label">Identified non-core evidence</div>
+        <p class="text-[12px] mt-2">{{ quality.identified_non_core_items.availability }} · {{ quality.identified_non_core_items.reason }}</p>
+        <p class="text-[11px] text-on-surface-variant mt-2">Legacy weighted scoring remains unchanged. The validation below is a separate evidence assessment; absence of validated items does not establish immateriality.</p>
+        <div class="metric-label mt-4">Reported Statement Observations</div>
+        {% for item in quality.identified_non_core_items.statement_items %}
+        <div class="mt-3 border-t border-outline-variant pt-3 text-[12px]">
+            <div>{{ item.item_name }} · {{ item.period }} · {{ item.source }} · {{ item.category }}</div>
+            <div class="font-data-mono mt-1">{{ item.currency }} {{ '{:,.0f}'.format(item.amount) if item.amount is not none else 'Unavailable' }}{% if item.signed_contribution is not none %} · {{ '%.2f%%'|format(item.signed_contribution * 100) }} relative to matched positive pretax income{% endif %}</div>
+            <p class="mt-1">{{ item.availability }} · {{ item.confidence }} · {{ item.note }}</p>
+            <p class="text-[11px] mt-1">{{ item.aggregation }}</p>
+            <details class="mt-2"><summary class="cursor-pointer">Statement evidence</summary><pre class="text-[11px] whitespace-pre-wrap break-words mt-2">{{ item.evidence | tojson(indent=2) }}</pre></details>
+        </div>
+        {% endfor %}
+        <div class="metric-label mt-4">Validated Structured SEC Table Evidence</div>
+        {% for event in quality.identified_non_core_items.validated_events %}
+        <div class="mt-3 border-t border-outline-variant pt-3 text-[12px]">
+            <div>{{ event.evidence.source_field }} · {{ event.topic }} · {{ event.period }} · {{ event.direction }} · {{ event.materiality }}</div>
+            <div class="font-data-mono mt-1">{{ event.currency }} {{ '{:,.0f}'.format(event.event_amount) }} · {{ '%.2f%%'|format(event.signed_contribution * 100) }} of matched positive pretax income</div>
+            <a class="text-primary" href="{{ event.evidence.url }}" target="_blank" rel="noopener noreferrer">SEC source · {{ event.evidence.accession }} · table {{ event.evidence.table_index }}</a>
+            <p class="text-[11px] mt-1">{{ event.availability }} · {{ event.confidence }} · Matched filing period only; this does not explain current growth.</p><details class="mt-2"><summary class="cursor-pointer">Source evidence</summary><p class="text-[11px] mt-2">{{ event.evidence.quote }}</p></details>
+        </div>
+        {% else %}<p class="text-[12px] mt-3">Unknown / Insufficient Evidence</p>{% endfor %}
+    </div>
+
+    <div class="bg-surface-container-low border border-outline-variant rounded p-4">
+        <div class="metric-label">Validated Narrative SEC Evidence</div>
+        <p class="text-[11px] mt-2">{{ quality.identified_non_core_items.narrative_aggregation_warning }}</p>
+        {% for event in quality.identified_non_core_items.narrative_events %}
+        <div class="mt-3 border-t border-outline-variant pt-3 text-[12px]">
+            <div>{{ event.topics | join(', ') }} · {{ event.evidence_status }} · Classifier level {{ event.final_classifier_level }}</div>
+            <div class="mt-1">{{ event.source }} · Filing report date: {{ event.report_date or 'Unavailable' }}{% if event.fiscal_year %} · Explicit fiscal year: {{ event.fiscal_year }}{% endif %}</div>
+            <p class="leading-6 mt-2">{{ event.context }}</p>
+            <p class="text-[11px] mt-2">{{ event.confidence }} · {{ event.validation_reason }}</p>
+            <p class="text-[11px] mt-1">Event amount / materiality: Unavailable; detected amounts are not attributed to the event.</p>
+            <a class="text-primary" href="{{ event.filing_url }}" target="_blank" rel="noopener noreferrer">SEC filing · {{ event.accession_number }}</a>
+        </div>
+        {% else %}<p class="text-[12px] mt-3">Unknown / Insufficient Evidence · {{ quality.identified_non_core_items.narrative_reason }}</p>{% endfor %}
+        <details class="mt-3 text-[12px]"><summary>Rejected / Insufficient Narrative Evidence</summary>
+            <pre class="text-[10px] whitespace-pre-wrap break-words">{{ quality.identified_non_core_items.rejected_narrative_events | tojson(indent=2) }}</pre>
+        </details>
+    </div>
+
+    <div class="bg-surface-container-low border border-outline-variant rounded p-4" id="eq2-families">
+        <div class="metric-label">Evidence Families · staged research validation</div>
+        <p class="text-[11px] mt-2">Levels 0–1: candidate/context; 2: actual discussion; 3: period aligned; 4: amount supported; 5: matched numerical evidence. This research layer does not modify legacy scores.</p>
+        {% for family in quality.research_analysis.event_families %}
+        <details class="mt-3 text-[12px] border-t border-outline-variant pt-2">
+            <summary>{{ family.event_label }} · FY {{ family.fiscal_year or 'Unknown' }} · {{ family.recurrence_status }}</summary>
+            <p class="mt-2">{{ family.recurrence_note }} {{ family.scope_warning }}</p>
+            <p>Amount: {{ family.currency or '' }} {{ '{:,.0f}'.format(family.validated_amount) if family.validated_amount is not none else 'Unavailable' }} · {{ family.amount_status }}</p>
+            {% for event in family.source_evidence %}
+            <div class="mt-3"><div>{{ event.source }} · {{ event.validation_status }} · Level {{ event.validation_level }} · Event period {{ event.period or 'Unknown' }}</div>
+                <div>Filing date {{ event.filing_date or 'Unknown' }} · Report date {{ event.report_date or 'Unknown' }} · {{ event.amount_confidence }}</div>
+                <p class="leading-6 mt-2">{{ event.raw_text }}</p>
+                {% if event.source_url %}<a class="text-primary" href="{{ event.source_url }}" target="_blank" rel="noopener noreferrer">Source · {{ event.accession or event.evidence_id }}</a>{% endif %}
+            </div>{% endfor %}
+        </details>
+        {% else %}<p class="text-[12px] mt-3">Unknown / Insufficient Evidence</p>{% endfor %}
+        <details class="text-[12px] mt-3"><summary>All normalized evidence, including policy / rejected candidates</summary><pre class="text-[10px] whitespace-pre-wrap break-words">{{ quality.research_analysis.evidence | tojson(indent=2) }}</pre></details>
+    </div>
+
+    <div class="bg-surface-container-low border border-outline-variant rounded p-4" id="eq2-core-revenue">
+        <div class="metric-label">Core Revenue Quality · evidence only</div>
+        <div class="metric-value">{{ quality.research_analysis.core_revenue.status }}</div>
+        <p class="text-[12px] mt-2">{{ quality.research_analysis.core_revenue.confidence }}</p>
+        {% for item in quality.research_analysis.core_revenue.observations %}<p class="text-[12px] mt-2">{{ item }}</p>{% endfor %}
+        {% for item in quality.research_analysis.core_revenue.limitations %}<p class="text-[11px] mt-2">{{ item }}</p>{% endfor %}
+    </div>
+
+    <div class="bg-surface-container-low border border-outline-variant rounded p-4" id="eq2-operating-quality">
+        <div class="metric-label">Operating Margin / ROIC Trend · evidence only</div>
+        <p class="text-[12px] mt-2">Margin: {{ quality.research_analysis.margin_quality.status }} · {{ quality.research_analysis.margin_quality.note }}</p>
+        <p class="text-[12px] mt-2">ROIC: {{ quality.research_analysis.roic_trend.status }} · {{ quality.research_analysis.roic_trend.note }}</p>
+        <details class="text-[12px] mt-3"><summary>Historical inputs</summary><pre class="text-[10px] whitespace-pre-wrap break-words">{{ quality.research_analysis.margin_quality | tojson(indent=2) }}
+{{ quality.research_analysis.roic_trend | tojson(indent=2) }}</pre></details>
+    </div>
+
+    <div class="bg-surface-container-low border border-outline-variant rounded p-4" id="eq2-fcf">
+        <div class="metric-label">OCF / CapEx / FCF Explanation</div>
+        <p class="text-[12px] mt-2">{{ quality.research_analysis.attribution.fcf.status }} · {{ quality.research_analysis.attribution.fcf.summary }}</p>
+        <p class="text-[11px] mt-2">{{ quality.research_analysis.attribution.fcf.limitation }}</p>
+        <details class="text-[12px] mt-3"><summary>FCF arithmetic / detailed working-capital observations</summary><pre class="text-[10px] whitespace-pre-wrap break-words">{{ quality.research_analysis.attribution.fcf | tojson(indent=2) }}
+{{ quality.research_analysis.working_capital | tojson(indent=2) }}</pre></details>
+    </div>
+
+    <div class="bg-surface-container-low border border-outline-variant rounded p-4">
+        <div class="metric-label">Working capital / reported FCF bridge</div>
+        <p class="text-[12px] mt-2">{{ quality.working_capital.reconciliation }}{% if quality.working_capital.reason %} · {{ quality.working_capital.reason }}{% endif %}</p>
+        {% for period in quality.working_capital.periods %}
+        <details class="mt-3 text-[12px]"><summary class="cursor-pointer">{{ period.period }} · reported fields and reconciliation residuals</summary>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-2 mt-2">{% for name, item in period.details.items() %}
+            <div>{{ name.replace('_', ' ') }}: {{ '{:,.0f}'.format(item.value) if item and item.value is not none else 'Unavailable' }}{% if item %} · {{ item.currency }} · {{ item.source_field }}{% endif %}</div>
+            {% endfor %}</div><pre class="text-[11px] whitespace-pre-wrap mt-2">{{ period.residuals | tojson(indent=2) }}</pre>
+        </details>{% endfor %}
+    </div>
+
+    <div class="bg-surface-container-low border border-outline-variant rounded p-4">
+        <div class="metric-label">Deterministic diagnostics and audit inputs</div>
+        {% for diagnostic in quality.diagnostics %}
+        <details class="mt-3 text-[12px]" data-rule-id="{{ diagnostic.rule_id }}">
+            <summary class="cursor-pointer">{{ diagnostic.rule_id }} v{{ diagnostic.rule_version }} · {{ diagnostic.severity }} · {{ diagnostic.availability }}</summary>
+            <p class="leading-6 mt-2">{{ diagnostic.statement }}</p>
+            {% if diagnostic.reason %}<p class="mt-2">{{ diagnostic.reason }}</p>{% endif %}
+            <pre class="text-[10px] whitespace-pre-wrap break-words mt-2">{{ diagnostic | tojson(indent=2) }}</pre>
+        </details>{% endfor %}
+        <details class="mt-4 text-[12px]"><summary class="cursor-pointer">Financial input provenance / legacy SEC events / rejected evidence</summary>
+            <pre class="text-[10px] whitespace-pre-wrap break-words mt-2">{{ quality.legacy_model_inputs | tojson(indent=2) }}</pre>
+            <pre class="text-[10px] whitespace-pre-wrap break-words mt-2">{{ quality.inputs | tojson(indent=2) }}</pre>
+            <pre class="text-[10px] whitespace-pre-wrap break-words mt-2">{{ quality.identified_non_core_items | tojson(indent=2) }}</pre>
+        </details>
+    </div>
+    </details>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="metric-card">
+            <div class="metric-label">Fundamental Score</div>
+            <div class="metric-value">{{ company.fundamental_score }}</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-label">Research Score</div>
+            <div class="metric-value">{{ company.research_score }}</div>
+        </div>
+    </div>
+
+    <div class="bg-surface-container-low border border-outline-variant rounded p-4">
+        <div class="metric-label mb-2">Research Interpretation</div>
+        <div class="text-[13px] leading-6 text-on-surface-variant">
+            {{ company.recommendation_explanation }}
+        </div>
+    </div>
+
+</div>

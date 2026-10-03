@@ -1,0 +1,5 @@
+PASS: real articles, no-match/rejected, direct/indirect, multiple tickers, empty/malformed, coordinates, Unknown/unavailable, unmodified direction and no demo quotes.
+PASS: V2 human relevance, separate severity, unmatched geography, policy-score disclosure.
+PASS: A–H presentation contracts, immutability, null/zero distinction, supported paths, actual components and historical data.
+PASS: independent severity / qualification / selection, hollow Unknown, mention distinction, human tooltip, missing/zero scores, deterministic checklist and no invented components.
+PASS V3 adapter, surface/all retention, source URL identity, honest unavailable summaries and legacy compatibility.

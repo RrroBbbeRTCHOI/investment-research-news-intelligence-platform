@@ -1,0 +1,49 @@
+{
+  "_ingestion": {
+    "provider": "freenewsapi",
+    "endpoint": "details",
+    "article_uuid": "f7b2ede4-bd84-4bf4-8225-a36e2898009c",
+    "fetched_at": "2026-09-21T02:54:34.414775+00:00"
+  },
+  "raw_response": {
+    "data": {
+      "uuid": "f7b2ede4-bd84-4bf4-8225-a36e2898009c",
+      "title": "Petrobras Backs New Diesel Subsidy as Fuel Payments Reach $1.9 Billion",
+      "thumbnail": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-20_5nmd1zdbmv.jpg",
+      "publisher": "Crude Oil Prices Today | OilPrice.com",
+      "authors": [],
+      "topics": [
+        "energy"
+      ],
+      "countries": [
+        "AU",
+        "BW",
+        "CA",
+        "ET",
+        "GH",
+        "ID",
+        "IE",
+        "IL",
+        "KE",
+        "LV",
+        "MY",
+        "NA",
+        "NZ",
+        "PH",
+        "PK",
+        "TZ",
+        "UG",
+        "US",
+        "ZA",
+        "ZW"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-09-21T01:56:44.000Z",
+      "original_url": "https://oilprice.com/Company-News/Petrobras-Backs-New-Diesel-Subsidy-as-Fuel-Payments-Reach-19-Billion.html",
+      "incipit": "Home Energy Company News By Charles Kennedy - Sep 20, 2026, 8:56 PM CDT Brazilian state-controlled oil giant Petrobras said it received R$448...",
+      "body": "Home Energy Company News By Charles Kennedy - Sep 20, 2026, 8:56 PM CDT Brazilian state-controlled oil giant Petrobras said it received R$448 million ($85 million) under a federal gasoline subsidy program, pushing the company's cumulative receipts from government fuel-support measures to R$9.9 billion, or roughly $1.9 billion. The latest payment covers gasoline sold between July 16 and July 31 under Provisional Measure 1,358, Petrobras said. The legislation created temporary subsidies for petroleum-derived fuels in response to the impact of international energy-market disruptions. The R$9.9 billion total includes subsidies paid to Petrobras for diesel, gasoline and liquefied petroleum gas. The gasoline program itself has since expired. Provisional Measure 1,358 ceased to be effective on September 9, according to Brazil's Congress, prompting Petrobras to discontinue a R$0.44-per-liter gasoline discount from September 10. At the same time, Brazil is expanding support for diesel. Petrobras said its board approved participation in a new subsidy established under Provisional Measure 1,391, which covers producers and importers of road diesel. The program provides R$1.00 per liter of diesel A for 30 days, with the possibility of extending the measure for another 30 days. The new subsidy is designed to support diesel supply during instability linked to geopolitical disruptions, according to the legislation. Crucially for Petrobras, the new program can operate alongside an earlier diesel subsidy under Provisional Measure 1,363, which provides R$1.12 per liter. Petrobras said benefits under the two programs are cumulative, potentially giving eligible volumes support from both mechanisms. Petrobras has already adjusted its diesel pricing mechanism following the introduction of the new R$1.00 subsidy. From September 17, the company raised its diesel A sales price to distributors by R$1.00 per liter while simultaneously applying an equivalent subsidy-backed discount, leaving the effective price impact offset by the government support. Formal participation in the latest program remains subject to the applicable regulatory process, Petrobras said. The subsidies give Petrobras another buffer against sharp international fuel-price movements while allowing Brazil to limit their immediate transmission into domestic prices. The company said its commercial strategy continues to focus on market share, refinery optimization and profitability rather than automatically passing short-term changes in international prices and exchange rates through to Brazilian consumers. For investors, the rising subsidy payments are significant because they allow government fuel-price support to be financed through the federal budget rather than requiring Petrobras itself to absorb the full cost of below-market discounts. By Charles Kennedy for Oilprice.com More Top Reads From Oilprice.com Oil Prices Head for Weekly Loss as Saudi Export Fears Ease Germany Weighs Market Incentives to Boost Record Low Gas Storage Level TTF Gas Hits $92.95 as Gulf Tensions Weigh on Energy Markets Back to homepage Charles Kennedy Charles is a writer for Oilprice.com More Info EXXON Mobil -0.35 Open 57.81 Trading Vol. 6.96M Previous Vol. 241.7B BUY 57.15 Sell 57.00"
+    }
+  }
+}

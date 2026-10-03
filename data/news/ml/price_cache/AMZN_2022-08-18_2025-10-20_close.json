@@ -1,0 +1,13 @@
+{
+  "provider": "yfinance/Yahoo Finance",
+  "ticker": "AMZN",
+  "start": "2022-08-18",
+  "end_exclusive": "2025-10-20",
+  "auto_adjust": false,
+  "back_adjust": false,
+  "repair": false,
+  "column": "Close",
+  "downloaded_at": "2026-09-19T09:11:03.372994+00:00",
+  "yfinance_version": "1.2.0",
+  "sha256": "eeb822a71e920e574d3cf70400b4fae0c8acef0fe82d2ebfd74e2b77d504ba1b"
+}

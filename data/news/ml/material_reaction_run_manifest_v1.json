@@ -1,0 +1,148 @@
+{
+  "run_at": "2026-09-20T05:22:54.781379+00:00",
+  "input_name": "historical_market_reaction_H01_H120_v4.csv",
+  "input_sha256": "d2123bb28ae48002d2e7f0260c9ab66901c5a7f7269cd58c5e013631b1d094b9",
+  "n_eligible": 70,
+  "n_events": 70,
+  "min_train": 10,
+  "thresholds": [
+    {
+      "threshold": 0.02,
+      "positive": 41,
+      "negative": 29
+    },
+    {
+      "threshold": 0.03,
+      "positive": 24,
+      "negative": 46
+    },
+    {
+      "threshold": 0.04,
+      "positive": 16,
+      "negative": 54
+    }
+  ],
+  "versions": {
+    "python": "3.13.0",
+    "numpy": "2.4.2",
+    "pandas": "3.0.1",
+    "sklearn": "1.8.0",
+    "yfinance": "1.2.0"
+  },
+  "model": {
+    "penalty": "l2",
+    "C": 1.0,
+    "solver": "liblinear",
+    "max_iter": 3000,
+    "random_state": 0
+  },
+  "prices": [
+    {
+      "provider": "yfinance/Yahoo Finance",
+      "ticker": "AAPL",
+      "start": "2021-08-31",
+      "end_exclusive": "2025-10-20",
+      "auto_adjust": false,
+      "back_adjust": false,
+      "repair": false,
+      "column": "Close",
+      "downloaded_at": "2026-09-20T05:12:55.894211+00:00",
+      "yfinance_version": "1.2.0",
+      "sha256": "dcea2c55b47b4cb8cefe203200551f40d35f0b6c1c8ee64a80c653246a47397a"
+    },
+    {
+      "provider": "yfinance/Yahoo Finance",
+      "ticker": "AMZN",
+      "start": "2021-08-31",
+      "end_exclusive": "2025-10-20",
+      "auto_adjust": false,
+      "back_adjust": false,
+      "repair": false,
+      "column": "Close",
+      "downloaded_at": "2026-09-20T05:12:56.982346+00:00",
+      "yfinance_version": "1.2.0",
+      "sha256": "c6c087a61be61edcb244612f47a23af7b90915883f33b1b4c043fd37b8f571c8"
+    },
+    {
+      "provider": "yfinance/Yahoo Finance",
+      "ticker": "GOOGL",
+      "start": "2021-08-31",
+      "end_exclusive": "2025-10-20",
+      "auto_adjust": false,
+      "back_adjust": false,
+      "repair": false,
+      "column": "Close",
+      "downloaded_at": "2026-09-20T05:12:58.107535+00:00",
+      "yfinance_version": "1.2.0",
+      "sha256": "743055dd0c97e4a4c8f5280a4210a7c7d29d439615437ad788963a676eba9d6e"
+    },
+    {
+      "provider": "yfinance/Yahoo Finance",
+      "ticker": "META",
+      "start": "2021-08-31",
+      "end_exclusive": "2025-10-20",
+      "auto_adjust": false,
+      "back_adjust": false,
+      "repair": false,
+      "column": "Close",
+      "downloaded_at": "2026-09-20T05:12:59.204473+00:00",
+      "yfinance_version": "1.2.0",
+      "sha256": "4cc65e321ee1b540a6818e7f22013bece3ea212f6091837d3fd6166fecd76125"
+    },
+    {
+      "provider": "yfinance/Yahoo Finance",
+      "ticker": "MSFT",
+      "start": "2021-08-31",
+      "end_exclusive": "2025-10-20",
+      "auto_adjust": false,
+      "back_adjust": false,
+      "repair": false,
+      "column": "Close",
+      "downloaded_at": "2026-09-20T05:13:00.339277+00:00",
+      "yfinance_version": "1.2.0",
+      "sha256": "d39a7c842ac4a145c75002543e8499236bfffc42cd5287c2ee025399a06738df"
+    },
+    {
+      "provider": "yfinance/Yahoo Finance",
+      "ticker": "NVDA",
+      "start": "2021-08-31",
+      "end_exclusive": "2025-10-20",
+      "auto_adjust": false,
+      "back_adjust": false,
+      "repair": false,
+      "column": "Close",
+      "downloaded_at": "2026-09-20T05:13:01.662008+00:00",
+      "yfinance_version": "1.2.0",
+      "sha256": "7d1f3e9b8add35a841139cb6a869b2b96e5a854a398798972569b68098748ec1"
+    },
+    {
+      "provider": "yfinance/Yahoo Finance",
+      "ticker": "QQQ",
+      "start": "2021-08-31",
+      "end_exclusive": "2025-10-20",
+      "auto_adjust": false,
+      "back_adjust": false,
+      "repair": false,
+      "column": "Close",
+      "downloaded_at": "2026-09-20T05:13:02.842696+00:00",
+      "yfinance_version": "1.2.0",
+      "sha256": "6dfb97f212667f09233834b67109b1b8db568cbbe730df7313bf01b13ecbc012"
+    },
+    {
+      "provider": "yfinance/Yahoo Finance",
+      "ticker": "TSLA",
+      "start": "2021-08-31",
+      "end_exclusive": "2025-10-20",
+      "auto_adjust": false,
+      "back_adjust": false,
+      "repair": false,
+      "column": "Close",
+      "downloaded_at": "2026-09-20T05:13:04.063695+00:00",
+      "yfinance_version": "1.2.0",
+      "sha256": "abdf51b0f162f80de26248eba820e97a8075c6668a8b2411b5a38a2bce9cb53f"
+    }
+  ],
+  "missing_numeric_cells": 0,
+  "descriptive_encoded_features": 37,
+  "source_unchanged": true
+}

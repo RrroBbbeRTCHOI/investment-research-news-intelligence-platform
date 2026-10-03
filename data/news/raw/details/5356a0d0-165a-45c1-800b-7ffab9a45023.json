@@ -1,0 +1,33 @@
+{
+  "_ingestion": {
+    "provider": "freenewsapi",
+    "endpoint": "details",
+    "article_uuid": "5356a0d0-165a-45c1-800b-7ffab9a45023",
+    "fetched_at": "2026-09-18T08:11:26.225181+00:00"
+  },
+  "raw_response": {
+    "data": {
+      "uuid": "5356a0d0-165a-45c1-800b-7ffab9a45023",
+      "title": "What happens when SpaceX Dragon retires? Boeing’s Starliner may become NASA’s primary vehicle to space: Report",
+      "thumbnail": "https://d3hedi16gruj5j.cloudfront.net/817467/uploads/00ad2740-b31c-11f1-b15c-f12d60761d14_1200_630.jpeg",
+      "publisher": "starlust.org",
+      "authors": [
+        "Harsh Vardhan"
+      ],
+      "topics": [
+        "science",
+        "space"
+      ],
+      "countries": [
+        "US"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-09-18T07:28:16.000Z",
+      "original_url": "https://starlust.org/what-happens-when-space-x-dragon-retires-boeings-starliner-may-become-nas-as-primary-vehicle-to-space-report/",
+      "incipit": "NASA is likely to order two additional Starliner crewed missions to the station as SpaceX is looking to retire the Dragon spacecraft. NASA is reportedly mulling over awarding more missions to...",
+      "body": "NASA is likely to order two additional Starliner crewed missions to the station as SpaceX is looking to retire the Dragon spacecraft. NASA is reportedly mulling over awarding more missions to Boeing’s Starliner as the agency is looking for alternatives to SpaceX ’s Dragon spacecraft. Dragon has been NASA's primary source of transportation for crew and cargo to the International Space Station (ISS), but its potential retirement in a few years has prompted the agency to think about investing in other reliable partners. This artist's illustration shows the SpaceX Crew Dragon spacecraft docking with the International Space Station. (Representative Image Source: NASA) According to Ars Technica , NASA is likely to order two additional Starliner crewed missions to the station and help it fix the spacecraft’s problems in order to certify it for launch on a new rocket. SpaceX is reportedly looking to retire the Crew Dragon spacecraft by 2030, as the company wants to pool its resources into developing Starship for NASA’s Artemis program and future missions to Mars. CEO Elon Musk even said last month that improving Starship’s launch rate would also require winding down the Falcon 9 rocket —the primary launcher for crew and cargo missions to the space station. Boeing's Starliner spacecraft docked at the International Space Station, July 3, 2024. (Image Source: NASA) SpaceX President and Chief Operating Officer Gwynne Shotwell believes that Boeing should step up and launch missions for NASA, hinting that Starliner may have to fill in for Dragon when it retires. “We’re not retiring it today, for sure,” Shotwell said on the All-in-One podcast and brought up Boeing, which has been entrusted with key missions by NASA in the past. “There is another provider, Boeing has been paid, I think, probably more than we have been paid to develop their human capsule. So we’re just gonna let them have some business. They should fly their capsule. The government paid a lot of money for that.” A SpaceX Dragon cargo spacecraft with its nosecone open approaches the ISS. (Image Source: NASA) Boeing and SpaceX were first awarded contracts for crew launch services by NASA in 2014. Under the Commercial Crew Transportation Capability contract, Boeing received $4.2 billion, whereas SpaceX received $2.6 billion. Despite receiving significantly lower funding than its competitor, SpaceX reached the finish line first by launching astronauts to the station in May 2020 under the Demo-2 mission. It marked the first time astronauts had flown to space from American soil on an American rocket since the conclusion of the Space Shuttle Program in 2011. NASA’s Boeing Crew Flight Test Commander Butch Wilmore (L) and Pilot Suni Williams walk out of the Operations and Checkout Building on June 05, 2024, in Cape Canaveral, Florida. (Image Source: Joe Raedle/Getty Images) Starliner, on the other hand, has been fraught with technical problems. Boeing has launched Starliner thrice to date, one of which was the infamous crew test flight, which, originally planned as an eight-to-14-day mission, had the astronauts stay on the space station for nine months due to several issues with the spacecraft. Launched on June 5, 2024, the test flight had former NASA astronauts Barry Wilmore and Sunita Williams on board. While Starliner was on Earth, it faced a helium leak at the launch pad, and when it reached space, the spacecraft faced thruster issues, which made docking with the space station a near-fatal task. This problem forced NASA to abandon Starliner and bring the duo home on a Dragon spacecraft, and the agency later declared the mission a ‘Type A’ failure . According to Ars, NASA may provide funding to fix Starliner’s thruster problem and certify it for a new rocket, which could be United Launch Alliance’s Vulcan or Blue Origin’s New Glenn. However, it remains to be seen how much funding NASA is willing to provide Boeing to ensure it delivers on the next mission. More on Starlust SpaceX Falcon 9 booster landing team wins first ever Neil Armstrong Space Prize for rocket reusability SpaceX CEO Elon Musk confirms Flight 15 will be caught; Flight 14 to launch on September 22, 2026"
+    }
+  }
+}

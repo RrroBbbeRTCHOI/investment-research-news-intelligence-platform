@@ -1,0 +1,119 @@
+{
+  "status": "available",
+  "schema_version": "news_semantic_v3_1",
+  "prompt_version": "news_semantics_v3_1_sentence_grounding",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "content_hash": "f5517b3a1ecfa21a2e816346d7b4bb8f81e10a10969733463713a5e3403afc4f",
+  "article_content_hash": "8fc7fdd5e0a2fd9803625306e6e9c66609240d28e5ba627949ec54fc7f7c390b",
+  "generated_at": "2026-09-27T10:05:10.303280+00:00",
+  "semantic": {
+    "article_class": "macro_event",
+    "is_relevant_candidate": true,
+    "summary_short": "Wall St Week Ahead-Jobs report, inflation data to test US rate path, economic strength",
+    "summary_full": "Wall St Week Ahead-Jobs report, inflation data to test US rate path, economic strength",
+    "primary_country": "United States",
+    "event_type": "Economic Data Release",
+    "event_subtype": "Employment and Inflation Data",
+    "countries": [
+      "United States"
+    ],
+    "entities": [
+      "Wall St"
+    ],
+    "companies_mentioned": [],
+    "direct_ticker_candidates": [],
+    "economic_channels": [
+      "Interest Rates",
+      "Inflation",
+      "Employment"
+    ],
+    "candidate_indirect_tickers": [],
+    "missing_information": [
+      "Specific actual data releases",
+      "Market reaction results"
+    ],
+    "research_questions": [
+      "What do the upcoming employment and inflation reports show?"
+    ],
+    "severity_candidate": "Low",
+    "severity_reason": "Scheduled macroeconomic data releases are routine market events without immediate direct corporate disruption.",
+    "severity_confidence": 0.8,
+    "operational_event": false,
+    "fundamental_change_detected": false,
+    "llm_confidence": 0.95,
+    "citations": [
+      {
+        "field": "summary_short",
+        "quote": "Wall St Week Ahead-Jobs report, inflation data to test US rate path, economic strength",
+        "source_field": "headline"
+      },
+      {
+        "field": "summary_full",
+        "quote": "Wall St Week Ahead-Jobs report, inflation data to test US rate path, economic strength",
+        "source_field": "headline"
+      },
+      {
+        "field": "primary_country",
+        "quote": "US",
+        "source_field": "headline"
+      },
+      {
+        "field": "event_type",
+        "quote": "Jobs report, inflation data",
+        "source_field": "headline"
+      },
+      {
+        "field": "event_subtype",
+        "quote": "Jobs report, inflation data to test US rate path",
+        "source_field": "headline"
+      },
+      {
+        "field": "article_class",
+        "quote": "Wall St Week Ahead-Jobs report, inflation data to test US rate path, economic strength",
+        "source_field": "headline"
+      },
+      {
+        "field": "economic_channels",
+        "quote": "inflation data to test US rate path",
+        "source_field": "headline"
+      },
+      {
+        "field": "severity_candidate",
+        "quote": "Jobs report, inflation data to test US rate path, economic strength",
+        "source_field": "headline"
+      },
+      {
+        "field": "operational_event",
+        "quote": "Investors will sift through reports on employment and inflation in the coming week to assess chances of a sharper trajectory of interest rate hikes",
+        "source_field": "body"
+      },
+      {
+        "field": "fundamental_change_detected",
+        "quote": "Investors will sift through reports on employment and inflation in the coming week to assess chances of a sharper trajectory of interest rate hikes",
+        "source_field": "body"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "total_tokens": 1141,
+    "estimated_cost_usd": null,
+    "scope": "successful response only; failed-attempt usage unavailable"
+  },
+  "cache_hit": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "success"
+    }
+  ],
+  "attempt_audit_scope": "original enrichment generation; cache reuse makes no new requests",
+  "attempt_count": 1,
+  "retry_count": 0,
+  "fallback_used": false
+}

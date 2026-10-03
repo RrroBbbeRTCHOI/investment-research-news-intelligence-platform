@@ -1,0 +1,1127 @@
+{
+  "_ingestion": {
+    "provider": "perigon",
+    "query_name": "nvidia_test",
+    "query": "\"Nvidia\"",
+    "fetched_at": "2026-09-25T14:03:54.320074+00:00"
+  },
+  "raw_response": {
+    "status": 200,
+    "numResults": 10000,
+    "articles": [
+      {
+        "url": "https://www.fool.com/investing/2026/09/25/the-magnificent-seven-stocks-heres-the-1-im-buying/",
+        "authorsByline": "Stefon Walters",
+        "articleId": "350b3d9d42f6446d8817894d6007b597",
+        "clusterId": "4273a8cd5d584ec08c1282b342872413",
+        "source": {
+          "domain": "fool.com",
+          "location": {
+            "country": "us",
+            "state": "VA",
+            "city": "Alexandria",
+            "coordinates": {
+              "lat": 38.8051095,
+              "lon": -77.0470229
+            }
+          }
+        },
+        "imageUrl": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F887707%2Fgoogl.png&w=1200&op=resize",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-09-25T14:00:00+00:00",
+        "addDate": "2026-09-25T14:02:24.248465+00:00",
+        "refreshDate": "2026-09-25T14:02:24.248466+00:00",
+        "score": 1.0,
+        "title": "The \"Magnificent Seven\" Stocks: Here's the 1 I'm Buying Hand Over Fist Right Now",
+        "description": "It's too good a value to pass up on right now.",
+        "content": "The \"Magnificent Seven\" stocks consist of Nvidia, Apple, Microsoft , Amazon , Alphabet , Meta Platforms, and Tesla. The term was coined in 2023 when the group drove much of the market's growth.\n\nTheir... [3593 symbols]",
+        "enContentWordCount": 697,
+        "medium": "Article",
+        "links": [
+          "https://www.fool.com/quote/nasdaq/msft/",
+          "https://www.fool.com/investing/stock-market/market-sectors/information-technology/ai-stocks/",
+          "https://www.fool.com/quote/nasdaq/amzn/",
+          "https://www.fool.com/mms/mark/a-sa-moneyball?aid=11076&source=isaedibut0000004",
+          "https://www.fool.com/quote/nasdaq/googl/",
+          "https://www.fool.com/investing/how-to-invest/stocks/magnificent-seven/"
+        ],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": null,
+            "name": "Stefon Walters"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "AI",
+            "weight": 0.09122319
+          },
+          {
+            "name": "AI models",
+            "weight": 0.091058634
+          },
+          {
+            "name": "other companies",
+            "weight": 0.08728261
+          },
+          {
+            "name": "Alphabet",
+            "weight": 0.082369655
+          },
+          {
+            "name": "great companies",
+            "weight": 0.08230966
+          },
+          {
+            "name": "companies",
+            "weight": 0.07832083
+          },
+          {
+            "name": "Google Cloud",
+            "weight": 0.07630993
+          },
+          {
+            "name": "Google Search",
+            "weight": 0.064611375
+          },
+          {
+            "name": "Google",
+            "weight": 0.06327462
+          },
+          {
+            "name": "growth trajectory",
+            "weight": 0.06307001
+          }
+        ],
+        "topics": [
+          {
+            "name": "Markets"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Business"
+          },
+          {
+            "name": "Finance"
+          },
+          {
+            "name": "Tech"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Company News",
+            "score": 0.9777138829231262
+          },
+          {
+            "name": "/News/Business News/Financial Markets News",
+            "score": 0.9626730680465698
+          },
+          {
+            "name": "/Finance/Investing/Stocks & Bonds",
+            "score": 0.9252299070358276
+          },
+          {
+            "name": "/News/Technology News",
+            "score": 0.5760650634765625
+          },
+          {
+            "name": "/Autos & Vehicles/Motor Vehicles (By Brand)/Tesla Motors",
+            "score": 0.3858373761177063
+          }
+        ],
+        "entities": [
+          {
+            "data": "Nvidia",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Apple",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Microsoft",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Amazon",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Alphabet",
+            "type": "ORG",
+            "mentions": 11
+          },
+          {
+            "data": "Meta Platforms",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Tesla",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Google",
+            "type": "ORG",
+            "mentions": 4
+          },
+          {
+            "data": "OpenAI",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Anthropic",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Taiwan Semiconductor Manufacturing",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Tensor Processing Units",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Azure",
+            "type": "PRODUCT",
+            "mentions": 3
+          },
+          {
+            "data": "Gemini",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "ChatGPT",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Claude",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Google Search",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Google Cloud",
+            "type": "PRODUCT",
+            "mentions": 3
+          },
+          {
+            "data": "AWS",
+            "type": "PRODUCT",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "eeee660a046242b8bf99f45fdc95cc32",
+            "name": "Tesla, Inc.",
+            "domains": [
+              "tesla.com"
+            ],
+            "symbols": [
+              "TL0.DE",
+              "TSLA",
+              "TSLA.NE"
+            ]
+          },
+          {
+            "id": "806457af1fd9418db78388760f52c06f",
+            "name": "Alphabet Inc.",
+            "domains": [
+              "abc.xyz"
+            ],
+            "symbols": [
+              "ABEA.F",
+              "ABEA.DE",
+              "ABEC.F",
+              "ABEC.DE",
+              "GOOGL.SW",
+              "GOOGL",
+              "GOOG",
+              "GOOG.NE"
+            ]
+          },
+          {
+            "id": "435e0daa7ea443ba89f0dd39e95dd71d",
+            "name": "Amazon.com, Inc.",
+            "domains": [
+              "amazon.com"
+            ],
+            "symbols": [
+              "AMZ.DE",
+              "AMZN"
+            ]
+          },
+          {
+            "id": "79ac905d71b74100a0bb06ee94a668ee",
+            "name": "Meta Platforms, Inc.",
+            "domains": [
+              "meta.com"
+            ],
+            "symbols": [
+              "META",
+              "FB2A.DE"
+            ]
+          },
+          {
+            "id": "5985872d662c4a3f941a9c581a9fce71",
+            "name": "Apple Inc.",
+            "domains": [
+              "apple.com"
+            ],
+            "symbols": [
+              "APC.F",
+              "APC.DE",
+              "AAPL",
+              "AAPL.MX",
+              "AAPL.NE",
+              "AAPL.DE"
+            ]
+          },
+          {
+            "id": "94bbd0512cd04cc4b7041d78d9d4cf73",
+            "name": "NVIDIA Corporation",
+            "domains": [
+              "nvidia.com"
+            ],
+            "symbols": [
+              "NVD.DE",
+              "NVD.F",
+              "NVDA",
+              "NVDA.NE"
+            ]
+          },
+          {
+            "id": "f1d262a1353b4567858f806721fe8cb8",
+            "name": "Google",
+            "domains": [
+              "about.google"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "4b328f7bf98d4e2cbf83b1c10355ab38",
+            "name": "Taiwan Semiconductor Manufacturing Company Limited",
+            "domains": [
+              "tsmc.com"
+            ],
+            "symbols": [
+              "TSFA.F",
+              "2330.TW",
+              "TSM"
+            ]
+          },
+          {
+            "id": "4de51cf8472b4ce7a5aecdf52a1de4c0",
+            "name": "Microsoft Corporation",
+            "domains": [
+              "microsoft.com"
+            ],
+            "symbols": [
+              "MSF.DE",
+              "MSF.F",
+              "MSFT",
+              "MSFT.NE",
+              "MSF.BR",
+              "4338.HK"
+            ]
+          },
+          {
+            "id": "3e470e759f7640fdbf5d22e2dffa277c",
+            "name": "Anthropic",
+            "domains": [
+              "anthropic.com"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "6d688831f698495281098a1d24465e33",
+            "name": "OpenAI",
+            "domains": [
+              "openai.com"
+            ],
+            "symbols": []
+          }
+        ],
+        "sentiment": {
+          "positive": 0.5463371,
+          "negative": 0.079635106,
+          "neutral": 0.3740278
+        },
+        "summary": "The \"Magnificent Seven\" stocks, which were coined in 2023, are seven of the world's 11 most valuable public companies, including Nvidia, Apple, Microsoft, Amazon, Alphabet, Meta Platforms, and Tesla. Each stock has a legitimate investing case, with Google's parent company, Alphabet. Alphabet's advantage is that it is a vertically integrated AI company with its hands in most parts of the AI ecosystem. The company builds its own advanced AI chips, including Tensor Processing Units (TPUs), and Google DeepMind, a research arm that focuses on creating safe and responsible AI systems. Google Cloud is the third-largest cloud platform in the world, providing critical infrastructure for companies to build, scale, and run their own AI applications. Despite this, Alphabet's stock trades at 17.6 times earnings, the lowest of the Magnificent Seven stocks, and well below its five-year average.",
+        "shortSummary": "The Magnificent Seven stocks, comprised of Nvidia, Apple, Microsoft, and Amazon, are well-positioned as investments due to Alphabet's vertically integrated AI business and strong growth prospects.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "9deee8404de347deb2e685955be0b637",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://www.fool.com/investing/2026/09/25/3-stocks-to-buy-and-hold-for-the-next-decade/",
+        "authorsByline": "Neil Rozenbaum",
+        "articleId": "dc03be25d4b54e6a81af5aee3749525b",
+        "clusterId": "0cad394657ee434ca41ad0a0025eb82b",
+        "source": {
+          "domain": "fool.com",
+          "location": {
+            "country": "us",
+            "state": "VA",
+            "city": "Alexandria",
+            "coordinates": {
+              "lat": 38.8051095,
+              "lon": -77.0470229
+            }
+          }
+        },
+        "imageUrl": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F889010%2Fgettyimages-1213370681.jpg&w=1200&op=resize",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-09-25T14:00:00+00:00",
+        "addDate": "2026-09-25T14:02:40.205559+00:00",
+        "refreshDate": "2026-09-25T14:02:40.205560+00:00",
+        "score": 1.0,
+        "title": "3 Stocks to Buy and Hold for the Next Decade",
+        "description": "Picking stocks for the next decade requires a different lens than picking for the next earnings report, and these 3 names pass the test.",
+        "content": "In this video, I will cover Nvidia , Amazon, and Meta as long-term buys, and touch on AMD and the early success of Meta's Muse product. Watch the short video to learn more, consider subscribing, and c... [340 symbols]",
+        "enContentWordCount": 75,
+        "medium": "Article",
+        "links": [
+          "https://www.fool.com/quote/nasdaq/nvda/"
+        ],
+        "labels": [
+          {
+            "name": "Opinion"
+          }
+        ],
+        "matchedAuthors": [
+          {
+            "id": null,
+            "name": "Neil Rozenbaum"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Stock prices",
+            "weight": 0.118640445
+          },
+          {
+            "name": "Meta",
+            "weight": 0.11380688
+          },
+          {
+            "name": "Sep.",
+            "weight": 0.087424524
+          },
+          {
+            "name": "Amazon",
+            "weight": 0.08643004
+          },
+          {
+            "name": "AMD",
+            "weight": 0.085307784
+          },
+          {
+            "name": "Nvidia",
+            "weight": 0.080064714
+          },
+          {
+            "name": "Metas Muse product",
+            "weight": 0.07690963
+          },
+          {
+            "name": "long-term buys",
+            "weight": 0.0754934
+          },
+          {
+            "name": "Muse",
+            "weight": 0.0735009
+          },
+          {
+            "name": "the short video",
+            "weight": 0.06862859
+          }
+        ],
+        "topics": [
+          {
+            "name": "Markets"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Tech"
+          },
+          {
+            "name": "Finance"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Financial Markets News",
+            "score": 0.9889705181121826
+          },
+          {
+            "name": "/Finance/Investing/Stocks & Bonds",
+            "score": 0.9821512699127197
+          },
+          {
+            "name": "/News/Business News/Company News",
+            "score": 0.8992984294891357
+          }
+        ],
+        "entities": [
+          {
+            "data": "Nvidia",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Amazon",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Meta",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "AMD",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Muse",
+            "type": "PRODUCT",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "8e697b9407a64158a6ca974ac96c74b6",
+            "name": "Meta",
+            "domains": [
+              "meta.com",
+              "facebook.com",
+              "instagram.com",
+              "whatsapp.com"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "5aa0618f4d7643fba5fb84a93708d4a9",
+            "name": "Advanced Micro Devices, Inc.",
+            "domains": [
+              "amd.com"
+            ],
+            "symbols": [
+              "AMD",
+              "AMD.DE",
+              "AMD.SW"
+            ]
+          },
+          {
+            "id": "94bbd0512cd04cc4b7041d78d9d4cf73",
+            "name": "NVIDIA Corporation",
+            "domains": [
+              "nvidia.com"
+            ],
+            "symbols": [
+              "NVD.DE",
+              "NVD.F",
+              "NVDA",
+              "NVDA.NE"
+            ]
+          },
+          {
+            "id": "435e0daa7ea443ba89f0dd39e95dd71d",
+            "name": "Amazon.com, Inc.",
+            "domains": [
+              "amazon.com"
+            ],
+            "symbols": [
+              "AMZ.DE",
+              "AMZN"
+            ]
+          }
+        ],
+        "sentiment": {
+          "positive": 0.29629645,
+          "negative": 0.066566154,
+          "neutral": 0.6371374
+        },
+        "summary": "In this video, I discuss Nvidia, Amazon, and Meta as long-term buys and discuss AMD and Meta's success in developing their own products. The stock prices used for these analyses were from the trading day of Sep. 21, 2026. The video was published on Sep. 22, 2025.",
+        "shortSummary": "In this video, I discuss long-term investments in Nvidia, Amazon, and Meta, focusing on AMD, Amazon.com, and the success of Meta's Muse product.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "7face77f02e44c8fb7a7c5ea1c9d2e4b",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://finance.yahoo.com/markets/article/amd-ceo-lisa-su-is-having-a-september-to-remember-135902902.html",
+        "authorsByline": "Brian Sozzi",
+        "articleId": "ff2543c54e3f4edbbf8a19f694369ca5",
+        "clusterId": "0e8f205e994b485ca74d7ca08cc1bca1",
+        "source": {
+          "domain": "finance.yahoo.com",
+          "location": {
+            "country": "us",
+            "state": "CA",
+            "county": "Santa Clara County",
+            "city": "Sunnyvale",
+            "coordinates": {
+              "lat": 37.3688301,
+              "lon": -122.036349
+            }
+          }
+        },
+        "imageUrl": "https://s.yimg.com/lo/mysterio/api/782065212f92abd5c4c01f2dc35da60e7b5d3bcd51c8b5f755fddddbc751f639/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-09%2F563c444f-0065-4a95-891c-62d64cd2d3f9",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-09-25T13:59:02+00:00",
+        "addDate": "2026-09-25T14:03:30.397348+00:00",
+        "refreshDate": "2026-09-25T14:03:30.397350+00:00",
+        "score": 1.0,
+        "title": "AMD CEO Lisa Su is having a September to remember",
+        "description": "AMD CEO Lisa Su is getting her due after years of flying under the radar.",
+        "content": "AMD (AMD) CEO Lisa Su is getting her due and becoming one of the most well-respected CEOs in tech after years of flying under the radar.\n\nNo doubt she is having a September to remember.\n\nSu was photog... [2571 symbols]",
+        "enContentWordCount": 509,
+        "medium": "Article",
+        "links": [
+          "https://finance.yahoo.com/markets/article/over-30-ceos-scored-an-invite-to-the-us-china-state-dinner--and-these-4-got-a-spot-at-the-head-table-134400923.html",
+          "https://finance.yahoo.com/quote/TSLA/",
+          "https://finance.yahoo.com/markets/article/amd-stock-soars-to-new-record-as-semiconductors-bounce-chart-of-the-day-161627271.html",
+          "https://finance.yahoo.com/videos/series/sozzi-unleashed/",
+          "https://s.yimg.com/lo/mysterio/api/9cc489e4ca101deb61009e8e07efd24f1b8bdd0f9e0a83970eabcb3ece524282/lightyear_networkapi/resizefit_w960%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-09%2F563c444f-0065-4a95-891c-62d64cd2d3f9",
+          "https://finance.yahoo.com/quote/NVDA/",
+          "https://finance.yahoo.com/quote/AMD/",
+          "https://finance.yahoo.com/quote/SPCX/",
+          "https://finance.yahoo.com/technology/article/amd-launches-helios-system-in-direct-challenge-to-nvidias-ai-dominance-183000104.html",
+          "https://finance.yahoo.com/quote/MSFT/",
+          "https://twitter.com/x/status/2102816699309576508",
+          "https://finance.yahoo.com/plus/alphaspace/?.done=https%3A%2F%2Falphaspace.finance.yahoo.com%2F%3Fview%3Danalysis%26ticker%3DAMD&ncid=100003562"
+        ],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": "8680c144cca7483ea5fb95d934ba1709",
+            "name": "Brian Sozzi"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "AMD CEO Lisa Su",
+            "weight": 0.10049848
+          },
+          {
+            "name": "AMD stock",
+            "weight": 0.08391759
+          },
+          {
+            "name": "year",
+            "weight": 0.0778689
+          },
+          {
+            "name": "years",
+            "weight": 0.0778689
+          },
+          {
+            "name": "Lisa Su",
+            "weight": 0.07709707
+          },
+          {
+            "name": "AMD",
+            "weight": 0.07698775
+          },
+          {
+            "name": "President Trump",
+            "weight": 0.07621307
+          },
+          {
+            "name": "first lady Melania Trump",
+            "weight": 0.07553126
+          },
+          {
+            "name": "EPYC server CPUs",
+            "weight": 0.072188154
+          },
+          {
+            "name": "Azure AI services",
+            "weight": 0.070768684
+          }
+        ],
+        "topics": [
+          {
+            "name": "Markets"
+          },
+          {
+            "name": "Business Leaders"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Finance"
+          },
+          {
+            "name": "Business"
+          },
+          {
+            "name": "Tech"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Company News",
+            "score": 0.9509603977203369
+          },
+          {
+            "name": "/News/Technology News",
+            "score": 0.9498556852340698
+          },
+          {
+            "name": "/News/Business News/Other",
+            "score": 0.4832521677017212
+          },
+          {
+            "name": "/Autos & Vehicles/Motor Vehicles (By Brand)/Tesla Motors",
+            "score": 0.4029206335544586
+          },
+          {
+            "name": "/Arts & Entertainment/Celebrities & Entertainment News",
+            "score": 0.33567744493484497
+          }
+        ],
+        "entities": [
+          {
+            "data": "AMD",
+            "type": "ORG",
+            "mentions": 10
+          },
+          {
+            "data": "Tesla",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "TSLA",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "SpaceX",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "SPCX",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Nvidia",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "NVDA",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "the New York Stock Exchange",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "non-GAAP earnings",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Microsoft",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "MSFT",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Azure",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Lisa Su",
+            "type": "PERSON",
+            "mentions": 6
+          },
+          {
+            "data": "Daniel Lin",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Trump",
+            "type": "PERSON",
+            "mentions": 4
+          },
+          {
+            "data": "Xi Jinping",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Elon Musk",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Jensen Huang",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Lori",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Chinese",
+            "type": "NORP",
+            "mentions": 1
+          },
+          {
+            "data": "EPYC",
+            "type": "PRODUCT",
+            "mentions": 2
+          },
+          {
+            "data": "Instinct AI",
+            "type": "PRODUCT",
+            "mentions": 2
+          },
+          {
+            "data": "Helios",
+            "type": "PRODUCT",
+            "mentions": 2
+          }
+        ],
+        "companies": [
+          {
+            "id": "5aa0618f4d7643fba5fb84a93708d4a9",
+            "name": "Advanced Micro Devices, Inc.",
+            "domains": [
+              "amd.com"
+            ],
+            "symbols": [
+              "AMD",
+              "AMD.DE",
+              "AMD.SW"
+            ]
+          },
+          {
+            "id": "6341175da4eb4343a45655b3978a9904",
+            "name": "Space Exploration Technologies Corp.",
+            "domains": [
+              "spacex.com"
+            ],
+            "symbols": [
+              "SPCX",
+              "SPCX.TO"
+            ]
+          },
+          {
+            "id": "eeee660a046242b8bf99f45fdc95cc32",
+            "name": "Tesla, Inc.",
+            "domains": [
+              "tesla.com"
+            ],
+            "symbols": [
+              "TL0.DE",
+              "TSLA",
+              "TSLA.NE"
+            ]
+          },
+          {
+            "id": "4de51cf8472b4ce7a5aecdf52a1de4c0",
+            "name": "Microsoft Corporation",
+            "domains": [
+              "microsoft.com"
+            ],
+            "symbols": [
+              "MSF.DE",
+              "MSF.F",
+              "MSFT",
+              "MSFT.NE",
+              "MSF.BR",
+              "4338.HK"
+            ]
+          },
+          {
+            "id": "94bbd0512cd04cc4b7041d78d9d4cf73",
+            "name": "NVIDIA Corporation",
+            "domains": [
+              "nvidia.com"
+            ],
+            "symbols": [
+              "NVD.DE",
+              "NVD.F",
+              "NVDA",
+              "NVDA.NE"
+            ]
+          }
+        ],
+        "sentiment": {
+          "positive": 0.87801677,
+          "negative": 0.03078661,
+          "neutral": 0.09119656
+        },
+        "summary": "AMD (AMD) CEO Lisa Su has had a remarkable September, with her rise to prominence as one of the most respected CEOs in tech. Su was pictured with her husband, Daniel Lin, at President Trump's table at the state dinner with Chinese President Xi Jinping and sat next to Tesla (TSLA) CEO Elon Musk and SpaceX CEO Elon Mus. The company's market cap crossed the $1 trillion mark for the first time on Monday, and shares are expected to close above that level later this week. AMD's stock is up 193% year to date, surpassing the 22% gain for Nvidia. The chipmaker also unveiled its next-generation AI chips, including the Instinct MI450 Series GPUs and the 6th Gen EPYC Venice CPUs. The new chips are designed to power AMD's new Helios rack-scale AI systems.",
+        "shortSummary": "AMD CEO Lisa Su had a stellar September, with record revenue and significant wins, including meeting President Trump and being inducted into the Wall of Titans.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "25bd4053f4bb40d0a1031bdb4aed52c1",
+        "places": [],
+        "people": [
+          {
+            "wikidataId": "Q15031",
+            "name": "Xi Jinping"
+          },
+          {
+            "wikidataId": "Q305177",
+            "name": "Jensen Huang"
+          },
+          {
+            "wikidataId": "Q317521",
+            "name": "Elon Musk"
+          },
+          {
+            "wikidataId": "Q432473",
+            "name": "Melania Trump"
+          },
+          {
+            "wikidataId": "Q18207172",
+            "name": "Lisa Su"
+          }
+        ]
+      },
+      {
+        "url": "https://uk.marketscreener.com/news/nscale-raises-3-36-billion-in-pre-ipo-round-ce785adfde88fe21",
+        "authorsByline": "MT Newswires",
+        "articleId": "a5691e5e254b4551ad7d4b6b807dba41",
+        "clusterId": "e6974fb35a0b4af09cdc858d1c819a88",
+        "source": {
+          "domain": "uk.marketscreener.com",
+          "location": null
+        },
+        "imageUrl": "",
+        "country": "gb",
+        "language": "en",
+        "pubDate": "2026-09-25T14:58:32+01:00",
+        "addDate": "2026-09-25T14:02:24.090486+00:00",
+        "refreshDate": "2026-09-25T14:02:24.090487+00:00",
+        "score": 1.0,
+        "title": "Nscale Raises $3.36 Billion in Pre-IPO Round",
+        "description": "Nvidia  and Microsoft -backed AI data center developer Nscale raised $3.36 billion in a pre-IPO financing round led by Third Point, Bloomberg reported Friday.\nThe financing includes a $2.36 billion...",
+        "content": "This article is reserved for our members.",
+        "enContentWordCount": 8,
+        "medium": "Article",
+        "links": [
+          "https://uk.marketscreener.com/login/linkedin/",
+          "https://uk.marketscreener.com/signup?utm_campaign=member_paywall_member_T0002&utm_content=[article-id]_T0002&utm_source=paywall&utm_medium=article",
+          "https://uk.marketscreener.com/login/google/",
+          "https://uk.marketscreener.com/login/apple/",
+          "https://uk.marketscreener.com/login/"
+        ],
+        "labels": [
+          {
+            "name": "Low Content"
+          }
+        ],
+        "matchedAuthors": [],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Pre-IPO Round",
+            "weight": 0.27400887
+          },
+          {
+            "name": "Nscale",
+            "weight": 0.14701815
+          },
+          {
+            "name": "This article",
+            "weight": 0.07698004
+          },
+          {
+            "name": "our members",
+            "weight": 0.07698004
+          }
+        ],
+        "topics": [
+          {
+            "name": "Markets"
+          },
+          {
+            "name": "IPO"
+          }
+        ],
+        "categories": [],
+        "taxonomies": [],
+        "entities": [
+          {
+            "data": "Nscale",
+            "type": "ORG",
+            "mentions": 1
+          }
+        ],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.13481632,
+          "negative": 0.18652102,
+          "neutral": 0.6786626
+        },
+        "summary": "",
+        "shortSummary": "",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": true,
+        "reprintGroupId": "7f43f40c40724260afdcb955393527c9",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://in.marketscreener.com/news/nscale-raises-3-36-billion-in-pre-ipo-round-ce785adfde88fe21",
+        "authorsByline": "MT Newswires",
+        "articleId": "05bdcf04268c43f2967e10f5e88dbf45",
+        "clusterId": "e6974fb35a0b4af09cdc858d1c819a88",
+        "source": {
+          "domain": "in.marketscreener.com",
+          "location": null
+        },
+        "imageUrl": "",
+        "country": "in",
+        "language": "en",
+        "pubDate": "2026-09-25T19:28:32+05:30",
+        "addDate": "2026-09-25T14:01:55.738759+00:00",
+        "refreshDate": "2026-09-25T14:01:55.738762+00:00",
+        "score": 1.0,
+        "title": "Nscale Raises $3.36 Billion in Pre-IPO Round",
+        "description": "Nvidia  and Microsoft -backed AI data center developer Nscale raised $3.36 billion in a pre-IPO financing round led by Third Point, Bloomberg reported Friday.\nThe financing includes a $2.36 billion...",
+        "content": "This article is reserved for our members.",
+        "enContentWordCount": 8,
+        "medium": "Article",
+        "links": [
+          "https://in.marketscreener.com/login/apple/",
+          "https://in.marketscreener.com/login/google/",
+          "https://in.marketscreener.com/login/linkedin/",
+          "https://in.marketscreener.com/signup?utm_campaign=member_paywall_member_T0002&utm_content=[article-id]_T0002&utm_source=paywall&utm_medium=article",
+          "https://in.marketscreener.com/login/"
+        ],
+        "labels": [
+          {
+            "name": "Low Content"
+          }
+        ],
+        "matchedAuthors": [],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Pre-IPO Round",
+            "weight": 0.27400887
+          },
+          {
+            "name": "Nscale",
+            "weight": 0.14701815
+          },
+          {
+            "name": "This article",
+            "weight": 0.07698004
+          },
+          {
+            "name": "our members",
+            "weight": 0.07698004
+          }
+        ],
+        "topics": [
+          {
+            "name": "Markets"
+          },
+          {
+            "name": "IPO"
+          }
+        ],
+        "categories": [],
+        "taxonomies": [],
+        "entities": [
+          {
+            "data": "Nscale",
+            "type": "ORG",
+            "mentions": 1
+          }
+        ],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.13481632,
+          "negative": 0.18652102,
+          "neutral": 0.6786626
+        },
+        "summary": "",
+        "shortSummary": "",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": true,
+        "reprintGroupId": "7f43f40c40724260afdcb955393527c9",
+        "places": [],
+        "people": []
+      }
+    ]
+  }
+}

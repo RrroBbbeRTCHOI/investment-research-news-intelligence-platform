@@ -1,0 +1,101 @@
+{
+  "articles": [
+    {
+      "article_id": "historical_H01",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H01",
+      "headline": "TSMC halts work at construction sites in Taiwan after earthquake",
+      "summary": "A 7.2-magnitude earthquake struck Taiwan. TSMC said it suspended work at construction sites in Taiwan, was assessing the impact, and would resume work after inspections.",
+      "body": "A 7.2-magnitude earthquake struck Taiwan. TSMC said it suspended work at construction sites in Taiwan while it assessed the impact and conducted safety inspections. The company said work would resume after inspections. This historical validation snapshot intentionally includes only facts available in the event-time report and excludes later recovery figures, later financial-loss estimates, and later guidance.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/world/asia-pacific/tsmc-halts-work-construction-sites-taiwan-after-earthquake-2024-04-03/",
+      "thumbnail": null,
+      "authors": [],
+      "topics": [
+        "technology",
+        "semiconductors",
+        "earthquake"
+      ],
+      "countries": [
+        "Taiwan"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2024-04-03T14:44:52Z",
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "time_precision": "exact",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H02",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H02",
+      "headline": "Nvidia details advanced AI chips blocked by new export controls",
+      "summary": "New U.S. export controls restricted Nvidia sales of advanced AI chips including A800 and H800 products designed for China.",
+      "body": "New U.S. export restrictions were announced affecting Nvidia advanced AI chips sold to China. Nvidia said the rules would restrict products including its A800 and H800 chips, which had been designed for the China market under earlier rules. This historical validation snapshot excludes later policy changes and later revenue effects.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/nvidia-may-be-forced-shift-out-some-countries-after-new-us-export-curbs-2023-10-17/",
+      "thumbnail": null,
+      "authors": [],
+      "topics": [
+        "technology",
+        "semiconductors",
+        "export controls"
+      ],
+      "countries": [
+        "United States",
+        "China"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2023-10-17T23:49:00Z",
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "time_precision": "exact",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H03",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H03",
+      "headline": "Amazon cloud outage: online services hit, recovery uneven",
+      "summary": "AWS suffered a widespread outage centered on its US-EAST-1 region, disrupting Amazon and third-party online services before service recovery.",
+      "body": "Amazon Web Services suffered a widespread outage centered on the US-EAST-1 region in Northern Virginia. The disruption affected Amazon services and many third-party online services. AWS worked to restore service and operations later returned toward normal. This snapshot is intended for historical backend validation and does not treat competitor cloud companies as automatically exposed.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/business/retail-consumer/amazons-cloud-unit-reports-outage-several-websites-down-2025-10-20/",
+      "thumbnail": null,
+      "authors": [],
+      "topics": [
+        "technology",
+        "cloud computing",
+        "infrastructure outage"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2025-10-20T00:00:00Z",
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "time_precision": "date_only",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    }
+  ]
+}

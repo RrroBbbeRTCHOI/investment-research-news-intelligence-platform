@@ -1,0 +1,98 @@
+{
+  "_ingestion": {
+    "provider": "freenewsapi",
+    "query_name": "mag7_live_topic_business_20260921",
+    "fetched_at": "2026-09-21T02:51:41.254534+00:00",
+    "request_params": {
+      "topic": "business",
+      "language": "en",
+      "country": "us"
+    }
+  },
+  "raw_response": {
+    "data": [
+      {
+        "uuid": "4e06cd53-e2df-4181-92f9-71b1b7fdc698",
+        "title": "Missing Carnival Panorama passenger jumped overboard off Mexico's coast",
+        "published_at": "2026-09-21T01:17:24.000Z",
+        "publisher": "Fox News"
+      },
+      {
+        "uuid": "88d78250-1732-48b3-9ffd-a7f1b9975163",
+        "title": "Confirmed: PBOC leaves Loan Prime Rates unchanged in September",
+        "published_at": "2026-09-21T01:00:55.000Z",
+        "publisher": "FXStreet"
+      },
+      {
+        "uuid": "f15bf067-b612-4338-8041-9e41218ba6f4",
+        "title": "Nvidia boss rejects AI extinction fears as 'doomsday narratives'",
+        "published_at": "2026-09-21T00:34:53.000Z",
+        "publisher": "BBC"
+      },
+      {
+        "uuid": "f7c7fc0a-6592-4420-a8c6-f5520d838a3f",
+        "title": "PBOC holds benchmark rate at 3%, steady stance underpins yuan and equity derivatives outlook",
+        "published_at": "2026-09-21T00:32:16.000Z",
+        "publisher": "VT Markets"
+      },
+      {
+        "uuid": "c88bf857-1c8a-4e70-a81f-81afcfc80bab",
+        "title": "US Businesses Face Unprecedented Challenges Amidst Supply Chain Disruptions and Rising Costs",
+        "published_at": "2026-09-21T00:11:54.000Z",
+        "publisher": "Ratopati"
+      },
+      {
+        "uuid": "56e31617-ed1c-4f61-b334-66ee7c251c6a",
+        "title": "In the US, shoppers earning $100,000 or more are looking for discounts — Fortune",
+        "published_at": "2026-09-20T23:26:41.000Z",
+        "publisher": "UA.NEWS"
+      },
+      {
+        "uuid": "7b4acd74-8931-43f9-a0dc-2a186826b80d",
+        "title": "Dollar General CEO says consumers making $100,000 a year don't feel high income anymore",
+        "published_at": "2026-09-20T23:03:00.000Z",
+        "publisher": "Fortune"
+      },
+      {
+        "uuid": "128f2db9-76dc-456e-9f86-e14625859804",
+        "title": "Clarity Act’s Failure Kicks Off Wave of Blame in Crypto World",
+        "published_at": "2026-09-20T22:40:27.000Z",
+        "publisher": "PYMNTS.com"
+      },
+      {
+        "uuid": "2f5b2c01-0dbf-439f-bb28-5de4168998ea",
+        "title": "BofA cuts to the chase on AI data center demand",
+        "published_at": "2026-09-20T22:37:00.000Z",
+        "publisher": "star-telegram.com"
+      },
+      {
+        "uuid": "24b5b7aa-59e9-49ce-8a9f-0fbca0d856a8",
+        "title": "Scammers Turn to Outdated Payment Tech to Steal Benefits",
+        "published_at": "2026-09-20T22:22:46.000Z",
+        "publisher": "PYMNTS.com"
+      }
+    ],
+    "meta": {
+      "page_size": 10,
+      "returned": 10,
+      "has_more": true,
+      "order_by": "recent",
+      "filters": {
+        "published_after": null,
+        "published_before": null,
+        "language": "en",
+        "country": "US",
+        "topic": "business",
+        "publisher_uuid": null,
+        "author_uuid": null,
+        "q": null,
+        "in_title": null,
+        "in_body": null,
+        "in_subtitle": null
+      },
+      "offset": 0,
+      "next_offset": 10,
+      "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6ImRkZWUxNTJmYTI0ZGMxZmExMjdhMjViYzBhN2Q5YTJhOTNlZjM4ZWU0ODEwZWVmMjY3MWNmMjBkODIyN2E1MmYiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDktMjBUMjI6MjI6NDYuMDAwWiIsImxhc3RfaWQiOjI5NDI0ODExfQ"
+    }
+  }
+}

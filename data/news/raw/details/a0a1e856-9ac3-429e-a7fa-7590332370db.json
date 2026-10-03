@@ -1,0 +1,37 @@
+{
+  "_ingestion": {
+    "provider": "freenewsapi",
+    "endpoint": "details",
+    "article_uuid": "a0a1e856-9ac3-429e-a7fa-7590332370db",
+    "fetched_at": "2026-09-18T08:11:23.279870+00:00"
+  },
+  "raw_response": {
+    "data": {
+      "uuid": "a0a1e856-9ac3-429e-a7fa-7590332370db",
+      "title": "Prince Harry Steps Out Without Meghan Markle for First Official Outing After UK Return",
+      "thumbnail": "https://s.yimg.com/lo/mysterio/api/8b9cf5a3f55e057b29089bfa0aeeebe43e7b61310c0f605c938acb8c1a5e2990/lightyear_networkapi/resizefill_w640_h360%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmandatory_995%2Fe691b541260dc5572c52a37add27c192.jpg",
+      "publisher": "Yahoo",
+      "authors": [
+        "Shazmeen Navrange"
+      ],
+      "topics": [
+        "celebrities"
+      ],
+      "countries": [
+        "BW",
+        "GH",
+        "IL",
+        "LV",
+        "US",
+        "ZW"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-09-18T07:29:22.000Z",
+      "original_url": "https://www.yahoo.com/entertainment/celebrity/articles/prince-harry-steps-without-meghan-072922355.html",
+      "incipit": "Prince Harry made his first official UK outing as he attended the Invictus Spirit Gala Dinner &amp; Awards. The Duke of Sussex arrived alone, without his wife, Meghan Markle. The couple relocated from their...",
+      "body": "Prince Harry made his first official UK outing as he attended the Invictus Spirit Gala Dinner &amp; Awards. The Duke of Sussex arrived alone, without his wife, Meghan Markle . The couple relocated from their Montecito home on August 26 and are currently staying at a non-royal base outside London. Prince Harry's solo appearance during his latest UK visit Prince Harry made a solo appearance at the Invictus Spirit Gala Dinner &amp; Awards at the Old Royal Naval College in Greenwich, London. For the event, he sported a black tuxedo with a bow tie and military medals near his suit pocket. He also wore his Royal Victorian Order medal beneath the bow tie. He was also asked about his thoughts on being back in the UK. He said to PEOPLE , \"Good. It's good to be back on British soil.\" In addition, it was reported that he took selfies and photos with other guests, including two former Invictus competitors. Recently, a source told HELLO! that Meghan Markle was also spotted on a solo drive in the Cotswolds. It was reported that she was driving a large SUV and that Harry wasn't present. This was a rare sighting of Markle behind the wheel since the Sussexes returned to the UK. Both solo outings come amid the family making waves for their kids' recent school change and over their escalating tensions with Buckingham Palace over the recently released guidance letter. It's understood that Archie and Lilibet have changed schools within a few days of joining due to security concerns. Meanwhile, Buckingham Palace recently issued a letter that clarified the Sussexes' working status. The letter stated that they are private individuals and that any of their charitable work is personal, not connected to the royal family. It was reported that Markle and Harry particularly took issue with the word \"private citizens,\" as they preferred being labeled as public figures. The post Prince Harry Steps Out Without Meghan Markle for First Official Outing After UK Return appeared first on Mandatory ."
+    }
+  }
+}

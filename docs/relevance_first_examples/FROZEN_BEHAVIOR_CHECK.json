@@ -1,0 +1,57 @@
+{
+  "data/news/normalized/freenewsapi_articles_normalized.json": {
+    "articles": 10,
+    "sha256": "d99900155de8363b58e3217ece4ff1aee88081621fc1702e52f22cee02eab5d8",
+    "unchanged": true
+  },
+  "data/news/normalized/historical_validation_H01_H03.json": {
+    "articles": 3,
+    "sha256": "a1ea5cc4318fb24f785871bae04983b09b61ba4a7c86c9af977a66f991fd84cb",
+    "unchanged": true
+  },
+  "data/news/normalized/historical_validation_H04_H06.json": {
+    "articles": 3,
+    "sha256": "afd226953a022a75d47107f71fe6f0aef5dad66e6a261eb258a0ad10f7cadfc0",
+    "unchanged": true
+  },
+  "data/news/normalized/historical_validation_H07_H12.json": {
+    "articles": 6,
+    "sha256": "2f324d4e86b9f496a6e0bca42be266260192b925986591b5b9977db2f34d57fb",
+    "unchanged": true
+  },
+  "data/news/normalized/historical_validation_H13_H30.json": {
+    "articles": 18,
+    "sha256": "ee45e7f68d4357c61f17a2dba013b948144df738fb897b0b69230d80c58bd329",
+    "unchanged": true
+  },
+  "data/news/normalized/historical_validation_H31_H60.json": {
+    "articles": 30,
+    "sha256": "a83fa87e8c8df6b7defb95673c49bb565a14c244a4e843b6bf50ce5e50f78828",
+    "unchanged": true
+  },
+  "data/news/normalized/historical_validation_H61_H90.json": {
+    "articles": 30,
+    "sha256": "05eb0bbe501c329f16dbc6576f1cb360028810fa86c0315786acb551fd2bc2c7",
+    "unchanged": true
+  },
+  "data/news/normalized/historical_validation_H91_H120.json": {
+    "articles": 30,
+    "sha256": "9c7b74240f8dcdf171ef20b3b5439710f3147503a7378bfa8f3e4c3f052386cc",
+    "unchanged": true
+  },
+  "data/news/normalized/positive_control_articles.json": {
+    "articles": 5,
+    "sha256": "38f2be0a0e09ca0e92df4aef309a6482c97fc585bc54ad285faeb9db362dd314",
+    "unchanged": true
+  },
+  "data/news/normalized/stress_test_articles.json": {
+    "articles": 8,
+    "sha256": "b171960aaa8e91906ae9861144b55922cfab8168ab79958b2573bb1753581a91",
+    "unchanged": true
+  },
+  "data/news/normalized/tsmc_specificity_test.json": {
+    "articles": 3,
+    "sha256": "8f03230a888a562f60d5fe929cca3d8781410726bd56bba30ef057eb597f3d4e",
+    "unchanged": true
+  }
+}

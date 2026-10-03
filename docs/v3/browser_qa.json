@@ -1,0 +1,15 @@
+{
+  "provider_mode": "none",
+  "surface_cards": 7,
+  "all_wire_cards": 21,
+  "markers": 10,
+  "source_links": {
+    "separate_from_button": true,
+    "target": "_blank",
+    "rel": "noopener noreferrer",
+    "click_did_not_change_selected_article": true,
+    "external_page_load_not_verified": true
+  },
+  "summary": "unavailable honestly labelled",
+  "geometry": "original 3-column layout"
+}

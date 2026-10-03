@@ -1,0 +1,41 @@
+{
+  "viewport": "1280x720",
+  "right_panel_width": 330,
+  "unknown_marker": {
+    "selectable": true,
+    "background": "transparent",
+    "selected_outline": "solid white"
+  },
+  "medium_unmatched": {
+    "severity": "Medium",
+    "watchlist": "No match",
+    "priority": "Review"
+  },
+  "nvda": {
+    "relevance": "High",
+    "severity": "Low",
+    "priority": "Low",
+    "qualified_indicator": true
+  },
+  "aapl": {
+    "relevance": "High",
+    "severity": "Medium",
+    "priority": "Medium",
+    "checklist_rows": 5
+  },
+  "mention_only": {
+    "qualified_indicator": false,
+    "exposure_path": false,
+    "relationship_policy_score": "0.15",
+    "severity_policy_score": "Not assigned",
+    "priority_policy_score": "Not assigned"
+  },
+  "multiple_tickers": [
+    "AAPL",
+    "NVDA"
+  ],
+  "all_secondary_details_initially_closed": true,
+  "evidence_body_preserved": true,
+  "raw_enums_absent_from_primary_text": true,
+  "tooltip": "Japan / Apple cuts jobs at its operations in Japan / Severity: Medium / Watchlist: AAPL"
+}

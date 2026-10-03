@@ -1,0 +1,34 @@
+{
+  "_ingestion": {
+    "provider": "freenewsapi",
+    "endpoint": "details",
+    "article_uuid": "6e330833-6052-405e-bcba-8f57ff937692",
+    "fetched_at": "2026-09-21T02:54:31.392457+00:00"
+  },
+  "raw_response": {
+    "data": {
+      "uuid": "6e330833-6052-405e-bcba-8f57ff937692",
+      "title": "Lufia is finally coming to PC for the first time ever",
+      "thumbnail": "https://www.well-played.com.au/wp-content/uploads/2026/09/senseserp-1789956010.jpg",
+      "publisher": "well-played.com.au",
+      "authors": [
+        "@WellPlayed_AU",
+        "Darcy Mullane"
+      ],
+      "topics": [
+        "gaming",
+        "technology"
+      ],
+      "countries": [
+        "US"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-09-21T02:06:49.000Z",
+      "original_url": "https://www.well-played.com.au/lufia-1-2-sinistrals-saga-announced-pc-switch-ps5/",
+      "incipit": "Taito is bringing the two original Lufia games to PC for the first time in the series’ history, as part of a four-platform collection announced overnight. The publisher confirmed Lufia I &amp; II The...",
+      "body": "Taito is bringing the two original Lufia games to PC for the first time in the series’ history, as part of a four-platform collection announced overnight. The publisher confirmed Lufia I &amp; II The Sinistrals Saga for PC, PS5, Switch 2 and Switch during the PC Gaming Show Tokyo Direct, with a planned launch in 2027. The official Steam page lists Taito as both developer and publisher and confirms the 2027 window. The collection packages 1993’s Lufia &amp; the Fortress of Doom and its 1995 prequel Lufia II: Rise of the Sinistrals as a single purchase. A first for a series stuck on old hardware The collection is the first official PC release for a series that previously lived only on SNES and DS hardware. The original Lufia &amp; the Fortress of Doom released in Japan and North America in 1993 and skipped Europe entirely, and secondhand SNES cartridges of the game reportedly run into the hundreds of pounds. For players who never wanted to pay that, the Steam release is the first legitimate way to play it in decades. Taito producer Yuichi Toyama says the project began four or five years ago, after the team started looking into the rights following years of fan demand for a revival. Clear River Games will publish the collection in the west, and its producer James Wragg described the goal as “emulation as close to the original game as possible”. What’s in the package Both games are being sold together, so the whole Sinistrals story is playable without hunting a physical copy. Lufia II is the prequel in story terms despite the numbering, and follows Maxim, a young man who would later be hailed as a hero of legend, and his companions’ battle against destiny. Its 99-floor, procedurally generated Ancient Cave, which resets players to level one, is cited by Taito as pioneering roguelike design decades before the genre went mainstream. A physical release has been confirmed, though the detail so far applies to the Switch versions. No Australian price has been announced, and no specific release date beyond the 2027 window. One oddity: the Steam wishlist page at one stage showed a date of 16 November 2026, which conflicts with every stated 2027 figure; the store page itself says 2027. Wishlist it and wait, or keep an eye out closer to the date."
+    }
+  }
+}

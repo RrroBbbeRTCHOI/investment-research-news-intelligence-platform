@@ -1,0 +1,2 @@
+# Full application and offline regression runtime
+-r tests/requirements.txt

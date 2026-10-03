@@ -1,0 +1,131 @@
+{
+  "status": "available",
+  "schema_version": "news_semantic_v3_1",
+  "prompt_version": "news_semantics_v3_1_sentence_grounding",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "content_hash": "23bde6b72ec185d030f6fc667752d35542d1d0b72a708f6d0dd5021fb74e8427",
+  "article_content_hash": "2566708e832c4ef1e6645da20f1b187ab0e62f24425cc8f01dfcf0b5639f0f00",
+  "generated_at": "2026-09-27T17:17:13.939126+00:00",
+  "semantic": {
+    "article_class": "geopolitical_event",
+    "is_relevant_candidate": true,
+    "summary_short": "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety.",
+    "summary_full": "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety. The ongoing US-Iran war significantly affects the strategic relationship between the two powers. A report highlights the US's dependence on Chinese rare earths for military needs amid supply challenges. Strategic stability efforts were explored but ultimately did not yield significant progress toward a lasting agreement.",
+    "primary_country": "United States",
+    "event_type": "diplomatic_relations",
+    "event_subtype": "summit_or_state_visit",
+    "countries": [
+      "United States",
+      "China",
+      "Iran"
+    ],
+    "entities": [
+      "Xi Jinping",
+      "Washington",
+      "US",
+      "China",
+      "Iran"
+    ],
+    "companies_mentioned": [],
+    "direct_ticker_candidates": [],
+    "economic_channels": [
+      "tariffs",
+      "supply_chain",
+      "geopolitics"
+    ],
+    "candidate_indirect_tickers": [],
+    "missing_information": [
+      "Specific details on the extent of tariff cuts",
+      "Terms of the AI safety dialogue"
+    ],
+    "research_questions": [
+      "What specific tariffs were cut during the visit?",
+      "How will the US-Iran war impact US-China diplomatic efforts moving forward?"
+    ],
+    "severity_candidate": "Medium",
+    "severity_reason": "State visit involved discussions on tariffs and AI safety dialogue, but produced only modest outcomes without a lasting strategic agreement.",
+    "severity_confidence": 0.8,
+    "operational_event": false,
+    "fundamental_change_detected": false,
+    "llm_confidence": 0.95,
+    "citations": [
+      {
+        "field": "summary_short",
+        "quote": "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety.",
+        "source_field": "summary"
+      },
+      {
+        "field": "summary_full",
+        "quote": "During Xi Jinping's state visit to Washington, leaders announced modest tariff cuts and a new dialogue on AI safety. The ongoing US-Iran war significantly affects the strategic relationship between the two powers. A report highlights the US's dependence on Chinese rare earths for military needs amid supply challenges. Strategic stability efforts were explored but ultimately did not yield significant progress toward a lasting agreement.",
+        "source_field": "summary"
+      },
+      {
+        "field": "primary_country",
+        "quote": "US",
+        "source_field": "summary"
+      },
+      {
+        "field": "event_type",
+        "quote": "state visit",
+        "source_field": "summary"
+      },
+      {
+        "field": "event_subtype",
+        "quote": "state visit",
+        "source_field": "summary"
+      },
+      {
+        "field": "article_class",
+        "quote": "geopolitical_event",
+        "source_field": "headline"
+      },
+      {
+        "field": "economic_channels",
+        "quote": "tariff cuts",
+        "source_field": "summary"
+      },
+      {
+        "field": "severity_candidate",
+        "quote": "modest tariff cuts",
+        "source_field": "summary"
+      },
+      {
+        "field": "operational_event",
+        "quote": "state visit",
+        "source_field": "summary"
+      },
+      {
+        "field": "fundamental_change_detected",
+        "quote": "did not yield significant progress toward a lasting agreement.",
+        "source_field": "summary"
+      },
+      {
+        "field": "direct_ticker_candidates",
+        "quote": "US-China",
+        "source_field": "headline"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "total_tokens": 1351,
+    "estimated_cost_usd": null,
+    "scope": "successful response only; failed-attempt usage unavailable"
+  },
+  "cache_hit": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "success"
+    }
+  ],
+  "attempt_audit_scope": "original enrichment generation; cache reuse makes no new requests",
+  "attempt_count": 1,
+  "retry_count": 0,
+  "fallback_used": false
+}

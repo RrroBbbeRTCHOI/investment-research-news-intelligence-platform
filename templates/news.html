@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <title>News Intelligence · Meridian</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/news.css') }}?v=1">
+  <script type="importmap">{"imports":{"three":"{{ url_for('static', filename='vendor/three/three.module.js') }}"}}</script>
+  <script defer src="{{ url_for('static', filename='vendor/d3.min.js') }}"></script>
+  <script type="module" src="{{ url_for('static', filename='js/news_ui.js') }}?v=1"></script>
+</head>
+<body>
+<header class="global-header">
+  <a class="wordmark" href="/news" aria-label="Meridian News Intelligence home"><span class="brand-mark">M</span> MERIDIAN <strong>INTELLIGENCE</strong></a>
+  <span class="live-tag"><i></i> NEWS <span class="muted">WORKSPACE</span></span>
+  <nav aria-label="Main navigation"><a href="/research">Research</a><a href="/news" aria-current="page">News Intelligence</a></nav>
+  <span class="header-mode">BACKEND SNAPSHOT</span><time id="utc-clock">— UTC</time><button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle appearance" aria-pressed="false">☼</button>
+</header>
+<main class="workspace" id="workspace">
+  <aside class="news-panel" aria-label="News list">
+    <div class="panel-heading"><h1><span class="status-dot"></span><span class="expanded-only">NEWS FEED</span></h1><span id="news-count" class="expanded-only count">—</span><button id="collapse-news" class="icon-button" aria-label="Collapse news list" aria-expanded="true" aria-controls="news-body">‹</button></div>
+    <div id="news-body" class="news-body">
+      <div class="feed-tools expanded-only"><span>GLOBAL WIRE</span><select id="news-view" aria-label="News feed view"><option value="surface">All Research</option><option value="events">Events</option><option value="outlook">Outlook</option><option value="all">All Global Wire</option></select></div>
+      <label class="search expanded-only"><span>⌕</span><input id="news-search" type="search" placeholder="Search events or tickers" aria-label="Search events or tickers"></label>
+      <div id="news-list" class="news-list" aria-label="Events"></div>
+      <div id="empty-news" hidden>No matching events.</div>
+    </div>
+    <footer class="feed-footer expanded-only"><span class="status-dot"></span> Loading backend snapshot…</footer>
+  </aside>
+  <section class="center-panel" aria-label="Global intelligence map">
+    <div class="time-strip">
+      <div class="world-clocks"><span>NY <time data-zone="America/New_York" title="New York">—</time></span><span>LDN <time data-zone="Europe/London" title="London">—</time></span><span>HK <time data-zone="Asia/Hong_Kong" title="Hong Kong">—</time></span></div>
+      <button id="position-toggle" class="position-monitor" aria-expanded="false" aria-controls="position-editor" title="Edit position — quotes unavailable"><span class="demo-label">NO QUOTE</span> <strong id="position-symbol">AAPL</strong><span id="position-price">Unavailable</span><span id="position-summary">Cost 215 · Qty 10</span><span id="position-pnl" class="positive">Unavailable</span><span id="position-percent" class="positive">Unavailable</span><span>⌄</span></button>
+    </div>
+    <form id="position-editor" class="position-editor" hidden>
+      <div class="editor-heading"><strong>POSITION MONITOR</strong><button type="button" id="position-close" aria-label="Close position editor">×</button></div>
+      <p>Manual USD positions, saved in this browser. Quotes are delayed; unsupported tickers remain unavailable.</p>
+      <div id="positions-list"></div>
+      <label>Ticker<input id="position-ticker" value="AAPL" maxlength="12" required pattern="[A-Za-z0-9.^-]{1,12}"></label>
+      <label>Cost per share ($)<input id="position-cost" type="number" min="0" step="any" value="215" required></label>
+      <label>Quantity (long position)<input id="position-quantity" type="number" min="0" step="any" value="10" required></label>
+      <button type="submit" class="primary-button">Save position</button><p id="position-feedback" role="status"></p>
+    </form>
+    <div class="globe-stage" id="globe-stage">
+      <div class="map-heading"><span class="eyebrow">GLOBAL EVENT MONITOR</span><h2>The world, in context.</h2><p>Geopolitics. Markets. Portfolio exposure.</p></div>
+      <div id="globe" aria-label="Interactive 3D globe" tabindex="0" role="region" aria-describedby="globe-help"></div>
+      <div id="globe-state" role="status">Preparing local world map…</div>
+      <div id="map-tooltip" class="map-tooltip" hidden></div>
+      <div class="map-tools"><button id="globe-reset" class="icon-button" aria-label="Reset globe view" title="Reset view">◎</button><button id="globe-in" class="icon-button" aria-label="Zoom in">+</button><button id="globe-out" class="icon-button" aria-label="Zoom out">−</button></div>
+      <div class="map-bottom"><div class="map-legend"><span><i class="urgent"></i>Critical / High</span><span><i class="medium"></i>Medium</span><span><i class="low"></i>Low</span><span><i class="unknown"></i>Unknown</span><span><i class="watchlist-key"></i>Watchlist-linked</span><span><i class="selected-key"></i>Selected</span></div><span id="country-selection">No country selected</span></div>
+      <p id="globe-help">Drag to rotate · Scroll to zoom · Select a country or event<span>Keyboard: arrows to rotate · + / − to zoom</span></p>
+    </div>
+    <div class="market-strip" aria-label="Major market indices — quotes unavailable"><span class="tape-label">MARKETS <small>NO QUOTES</small></span><div class="market-window"><div id="market-tape" class="market-tape"></div></div><button id="tape-toggle" aria-label="Pause market tape" aria-pressed="false">Ⅱ</button></div>
+  </section>
+  <aside class="right-panel" aria-label="Event analysis and Bloomberg live">
+    <section class="analysis-content" aria-labelledby="analysis-heading">
+      <div class="analysis-top"><h2 id="analysis-heading">EVENT INTELLIGENCE</h2><span>BACKEND</span></div>
+      <div id="analysis" aria-live="polite" aria-atomic="true"><p class="muted">Select an event to inspect its potential impact.</p></div>
+    </section>
+    <section class="bloomberg-live" aria-labelledby="bloomberg-title">
+      <div class="broadcast-heading"><h2 id="bloomberg-title">BLOOMBERG BUSINESS NEWS</h2><span class="live-tag"><i></i> LIVE</span></div>
+      <div class="video-frame" id="video-frame"><div class="video-placeholder"><span class="broadcast-icon">▷</span><strong>Business News Live</strong><span>Bloomberg · 24/7 broadcast</span><button id="load-live" class="primary-button">Load live player</button></div></div>
+      <div class="broadcast-footer"><span id="video-status">External stream · click to load</span><button id="video-fallback" hidden>Player help</button><a href="https://www.youtube.com/watch?v=QB5BNdBFujE" target="_blank" rel="noopener noreferrer">Watch live ↗</a></div>
+    </section>
+  </aside>
+</main>
+<noscript><div class="noscript">JavaScript is required for the interactive News workspace. <a href="/research">Open Research</a>.</div></noscript>
+</body>
+</html>

@@ -1,0 +1,122 @@
+{
+  "status": "available",
+  "schema_version": "news_semantic_v3_1",
+  "prompt_version": "news_semantics_v3_1_sentence_grounding",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "content_hash": "aaa4f230f195dd9432ce9c1e67d2302866d22ab18f05d2617de03848cea15bec",
+  "article_content_hash": "263c7db3ffe50fd7ae3e61c2420fe84c058f2e286e75ad1344bc0e8eb088c6a2",
+  "generated_at": "2026-09-27T09:42:05.958531+00:00",
+  "semantic": {
+    "article_class": "opinion",
+    "is_relevant_candidate": true,
+    "summary_short": "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise.",
+    "summary_full": "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise.",
+    "primary_country": "United States",
+    "event_type": "product_review",
+    "event_subtype": "video_game_review",
+    "countries": [
+      "United States"
+    ],
+    "entities": [
+      "EA Sports",
+      "FC 27"
+    ],
+    "companies_mentioned": [
+      "Electronic Arts"
+    ],
+    "direct_ticker_candidates": [
+      "EA"
+    ],
+    "economic_channels": [
+      "consumer_discretionary",
+      "video_games"
+    ],
+    "candidate_indirect_tickers": [],
+    "missing_information": [
+      "Financial sales figures of the game"
+    ],
+    "research_questions": [
+      "How will consumer reception of EA Sports FC 27 impact Electronic Arts' overall revenue?"
+    ],
+    "severity_candidate": "Low",
+    "severity_reason": "The article is a video game review expressing critical opinions on a game's features, representing standard product release commentary with minimal direct corporate financial impact.",
+    "severity_confidence": 0.8,
+    "operational_event": false,
+    "fundamental_change_detected": false,
+    "llm_confidence": 0.95,
+    "citations": [
+      {
+        "field": "summary_short",
+        "quote": "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise.",
+        "source_field": "summary"
+      },
+      {
+        "field": "summary_full",
+        "quote": "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise.",
+        "source_field": "summary"
+      },
+      {
+        "field": "primary_country",
+        "quote": "United States",
+        "source_field": "headline"
+      },
+      {
+        "field": "article_class",
+        "quote": "EA Sports FC 27 Review",
+        "source_field": "headline"
+      },
+      {
+        "field": "event_type",
+        "quote": "Review",
+        "source_field": "headline"
+      },
+      {
+        "field": "economic_channels",
+        "quote": "EA Sports",
+        "source_field": "summary"
+      },
+      {
+        "field": "severity_candidate",
+        "quote": "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise.",
+        "source_field": "summary"
+      },
+      {
+        "field": "operational_event",
+        "quote": "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise.",
+        "source_field": "summary"
+      },
+      {
+        "field": "fundamental_change_detected",
+        "quote": "EA Sports stands on shaky ground with a new open-world hub, but the realistic, intuitive Tactics system shows promise.",
+        "source_field": "summary"
+      },
+      {
+        "field": "direct_ticker_candidates",
+        "quote": "EA Sports",
+        "source_field": "summary"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "total_tokens": 1171,
+    "estimated_cost_usd": null,
+    "scope": "successful response only; failed-attempt usage unavailable"
+  },
+  "cache_hit": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "success"
+    }
+  ],
+  "attempt_audit_scope": "original enrichment generation; cache reuse makes no new requests",
+  "attempt_count": 1,
+  "retry_count": 0,
+  "fallback_used": false
+}

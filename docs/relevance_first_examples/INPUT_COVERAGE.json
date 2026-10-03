@@ -1,0 +1,90 @@
+[
+  {
+    "input": "data/news/normalized/freenewsapi_articles_normalized.json",
+    "articles": 10,
+    "accepted": 0,
+    "rejected": 10,
+    "qualified_pairs": 0,
+    "review_candidates": 0
+  },
+  {
+    "input": "data/news/normalized/historical_validation_H01_H03.json",
+    "articles": 3,
+    "accepted": 3,
+    "rejected": 0,
+    "qualified_pairs": 2,
+    "review_candidates": 0
+  },
+  {
+    "input": "data/news/normalized/historical_validation_H04_H06.json",
+    "articles": 3,
+    "accepted": 3,
+    "rejected": 0,
+    "qualified_pairs": 2,
+    "review_candidates": 1
+  },
+  {
+    "input": "data/news/normalized/historical_validation_H07_H12.json",
+    "articles": 6,
+    "accepted": 4,
+    "rejected": 2,
+    "qualified_pairs": 0,
+    "review_candidates": 4
+  },
+  {
+    "input": "data/news/normalized/historical_validation_H13_H30.json",
+    "articles": 18,
+    "accepted": 15,
+    "rejected": 3,
+    "qualified_pairs": 0,
+    "review_candidates": 15
+  },
+  {
+    "input": "data/news/normalized/historical_validation_H31_H60.json",
+    "articles": 30,
+    "accepted": 28,
+    "rejected": 2,
+    "qualified_pairs": 2,
+    "review_candidates": 28
+  },
+  {
+    "input": "data/news/normalized/historical_validation_H61_H90.json",
+    "articles": 30,
+    "accepted": 12,
+    "rejected": 18,
+    "qualified_pairs": 1,
+    "review_candidates": 11
+  },
+  {
+    "input": "data/news/normalized/historical_validation_H91_H120.json",
+    "articles": 30,
+    "accepted": 7,
+    "rejected": 23,
+    "qualified_pairs": 0,
+    "review_candidates": 7
+  },
+  {
+    "input": "data/news/normalized/positive_control_articles.json",
+    "articles": 5,
+    "accepted": 5,
+    "rejected": 0,
+    "qualified_pairs": 3,
+    "review_candidates": 0
+  },
+  {
+    "input": "data/news/normalized/stress_test_articles.json",
+    "articles": 8,
+    "accepted": 7,
+    "rejected": 1,
+    "qualified_pairs": 3,
+    "review_candidates": 2
+  },
+  {
+    "input": "data/news/normalized/tsmc_specificity_test.json",
+    "articles": 3,
+    "accepted": 2,
+    "rejected": 1,
+    "qualified_pairs": 3,
+    "review_candidates": 0
+  }
+]

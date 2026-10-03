@@ -1,0 +1,41 @@
+{
+  "_ingestion": {
+    "provider": "freenewsapi",
+    "endpoint": "details",
+    "article_uuid": "ef76f840-4065-4052-82cf-60af67d7e099",
+    "fetched_at": "2026-09-21T02:54:20.647314+00:00"
+  },
+  "raw_response": {
+    "data": {
+      "uuid": "ef76f840-4065-4052-82cf-60af67d7e099",
+      "title": "Volatile yen draws intervention watch, other currencies subdued",
+      "thumbnail": "https://image.cnbcfm.com/api/v1/image/108359099-1788542469376-gettyimages-2168972349-currency.jpeg?v=1789956541&w=1920&h=1080",
+      "publisher": "CNBC",
+      "authors": [
+        "Reuters"
+      ],
+      "topics": [
+        "business",
+        "economy",
+        "finance"
+      ],
+      "countries": [
+        "BW",
+        "GH",
+        "IL",
+        "LV",
+        "MY",
+        "NA",
+        "US",
+        "ZW"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-09-21T02:20:00.000Z",
+      "original_url": "https://www.cnbc.com/2026/09/21/volatile-yen-draws-intervention-watch-other-currencies-subdued.html",
+      "incipit": "Markets focused on the yen on Monday following a sharp drop last week that spurred speculation of a rate check, while investors pondered rate outlooks after hikes from major central banks last week.",
+      "body": "Currency markets focused on the yen on Monday following a sharp drop last week that spurred speculation of a rate check from Tokyo, while investors pondered interest-rate outlooks after a wave of hikes from major central banks last week. Sheldon Cooper | Lightrocket | Getty Images Currency markets focused on the yen on Monday following a sharp drop last week that spurred speculation of a rate check from Tokyo, while investors pondered interest-rate outlooks after a wave of hikes from major central banks last week. The yen was a touch firmer at 156.64 per US dollar after dropping 2% last week. Japan markets were closed for a three-day holiday, leading to low liquidity while keeping traders on alert for an official intervention to prop up the volatile currency. The Bank of Japan raised rates on Friday to their highest level in 31 years to 1.25%, yet the widely expected move did not boost the yen as two dissenting votes and a lack of explicitly hawkish guidance disappointed investors. That led to the yen sharply declining before the Nikkei newspaper reported that Japanese officials conducted rate checks. A rate check involves authorities asking banks for currency quotes to gauge market conditions, which traders view as a precursor to currency intervention. Apart from the BOJ, the Federal Reserve and the European Central Bank raised rates this month, with both warning further tightening might be needed to tackle inflation due to the almost seven-month-long war in the Middle East. Fred Neumann, chief Asia economist at HSBC, said the BOJ's messaging has become all the harder because the Fed delivered a hawkish signal with its unanimous decision to raise its policy rate. The yen had firmed to its strongest level in seven months in early September as traders wagered on a faster pace of BOJ hikes and early signs of repatriation by Japanese investors but has since surrendered some of those gains. \"The bar thus remains high for the BOJ to convince markets of its hawkish tilt and anchor expectations when it comes to the yen,\" Neumann said. \"In the coming weeks and months, investors may again test the resolve of the BOJ to push rates higher and match the Fed's tightening.\" The euro was little changed at $1.1482 after voting projections showed the far-right Alternative for Germany (AfD) took first place in state elections in northeastern Germany, in a blow to Chancellor Friedrich Merz's conservative party. ING economists said the results clearly echo the low popularity of the entire federal government, and of Chancellor Friedrich Merz in particular. \"Years of economic stagnation helped produce that fragmentation. Now the fragmentation will make the stagnation harder to escape,\" they said in a note. The dollar index , which tracks the US currency against six major peers, was steady at 100.23 after gaining more than 1% last week following the Fed's rate hike, as the central bank signalled more increases could be coming. Traders are currently pricing in a 55% chance of a rate hike at the Fed's next meeting in October, up from 42.5% a week earlier, the CME FedWatch tool showed. \"We do not think that the midterm elections are going to be a limiting factor in the Fed delivering another hike in October,\" said Thomas Simons, chief US economist at Jefferies. \"Whether there is another hike in December will come down to the data and geopolitical developments. Looking to 2027, the path of rates will come down to what happens with the labor market. We would say rate cuts are likely in second half of 2027.\" In other currencies, sterling last bought $1.339 in early trading. The Australian dollar fetched $0.7129, while the New Zealand dollar was at $0.5721."
+    }
+  }
+}

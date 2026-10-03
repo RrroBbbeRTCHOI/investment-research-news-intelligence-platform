@@ -1,0 +1,13 @@
+{
+  "provider": "yfinance/Yahoo Finance",
+  "ticker": "TSLA",
+  "start": "2022-08-18",
+  "end_exclusive": "2025-10-20",
+  "auto_adjust": false,
+  "back_adjust": false,
+  "repair": false,
+  "column": "Close",
+  "downloaded_at": "2026-09-19T09:11:05.470199+00:00",
+  "yfinance_version": "1.2.0",
+  "sha256": "f45f959c1fa63a62c908b96e28f6c6bb5b9b088aa6f79d588a3826686689c4a3"
+}

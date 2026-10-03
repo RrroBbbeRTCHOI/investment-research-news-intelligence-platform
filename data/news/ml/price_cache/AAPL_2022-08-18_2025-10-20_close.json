@@ -1,0 +1,13 @@
+{
+  "provider": "yfinance/Yahoo Finance",
+  "ticker": "AAPL",
+  "start": "2022-08-18",
+  "end_exclusive": "2025-10-20",
+  "auto_adjust": false,
+  "back_adjust": false,
+  "repair": false,
+  "column": "Close",
+  "downloaded_at": "2026-09-19T09:11:03.074084+00:00",
+  "yfinance_version": "1.2.0",
+  "sha256": "ce84de86f9841c582d89ec855545c078b90223426bdf9b23a6e3bb9c0b37f968"
+}

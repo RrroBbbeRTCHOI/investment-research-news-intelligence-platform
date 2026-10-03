@@ -1,0 +1,2 @@
+# Needed only when reading an Exposure Knowledge Layer XLSX workbook.
+openpyxl>=3.1,<4

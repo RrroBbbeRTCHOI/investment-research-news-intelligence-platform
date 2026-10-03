@@ -1,0 +1,317 @@
+[
+  {
+    "headline": "Apple cuts jobs in second layoff round in two months, report says",
+    "fixture_kind": "headline semantic test with controlled supporting body; no live fetch",
+    "classification": "low_severity_event",
+    "geography": {
+      "event_country": null,
+      "event_region": null,
+      "event_city": null,
+      "latitude": null,
+      "longitude": null,
+      "location_basis": "unresolved",
+      "location_confidence": null,
+      "coordinate_basis": null,
+      "evidence": [],
+      "coordinate_precision": null
+    },
+    "severity": {
+      "level": "Medium",
+      "score": 0.5,
+      "components": [
+        {
+          "level": "Medium",
+          "component": "workforce_scope",
+          "evidence": "Apple cuts jobs in second layoff round in two months, report says",
+          "source_field": "headline"
+        },
+        {
+          "level": "Medium",
+          "component": "workforce_scope",
+          "evidence": "Apple cuts jobs in second layoff round in two months, report says The report describes the company and the current situation.",
+          "source_field": "body"
+        }
+      ],
+      "reason": "Explicit article evidence supports workforce_scope. Scale beyond this evidence is not inferred.",
+      "method": "article_severity_policy_v2",
+      "interpretation": "Internal ordinal policy score; not probability or financial impact."
+    },
+    "tickers": [
+      {
+        "ticker": "AAPL",
+        "relationship_type": "direct_event_subject",
+        "relevance": {
+          "level": "High",
+          "relationship_score": 0.15,
+          "reason": "AAPL is the explicit company/action subject of the cited article clause.",
+          "interpretation": "Uncalibrated relationship policy score; not probability or expected return."
+        },
+        "financial_materiality": {
+          "level": "Not yet quantified",
+          "reason": "No validated event-specific financial amount/denominator established.",
+          "legacy": {
+            "level": "Unknown"
+          }
+        },
+        "research_priority": {
+          "level": "Medium",
+          "score": 0.5,
+          "method": "attention_policy_v2",
+          "reason": "Relationship High; severity Medium; evidence Moderate.",
+          "interpretation": "Analyst attention only. No direction, expected return or ML input."
+        },
+        "direction": "Analyst judgment required"
+      }
+    ]
+  },
+  {
+    "headline": "Apple Fitness+ Layoffs Reported Ahead of Potential 'Major' Changes",
+    "fixture_kind": "headline semantic test with controlled supporting body; no live fetch",
+    "classification": "low_severity_event",
+    "geography": {
+      "event_country": null,
+      "event_region": null,
+      "event_city": null,
+      "latitude": null,
+      "longitude": null,
+      "location_basis": "unresolved",
+      "location_confidence": null,
+      "coordinate_basis": null,
+      "evidence": [],
+      "coordinate_precision": null
+    },
+    "severity": {
+      "level": "Medium",
+      "score": 0.5,
+      "components": [
+        {
+          "level": "Medium",
+          "component": "workforce_scope",
+          "evidence": "Apple Fitness+ Layoffs Reported Ahead of Potential 'Major' Changes",
+          "source_field": "headline"
+        },
+        {
+          "level": "Medium",
+          "component": "workforce_scope",
+          "evidence": "Apple Fitness+ Layoffs Reported Ahead of Potential 'Major' Changes The report describes the company and the current situation.",
+          "source_field": "body"
+        }
+      ],
+      "reason": "Explicit article evidence supports workforce_scope. Scale beyond this evidence is not inferred.",
+      "method": "article_severity_policy_v2",
+      "interpretation": "Internal ordinal policy score; not probability or financial impact."
+    },
+    "tickers": [
+      {
+        "ticker": "AAPL",
+        "relationship_type": "direct_event_subject",
+        "relevance": {
+          "level": "High",
+          "relationship_score": 0.15,
+          "reason": "AAPL is the explicit company/action subject of the cited article clause.",
+          "interpretation": "Uncalibrated relationship policy score; not probability or expected return."
+        },
+        "financial_materiality": {
+          "level": "Not yet quantified",
+          "reason": "No validated event-specific financial amount/denominator established.",
+          "legacy": {
+            "level": "Unknown"
+          }
+        },
+        "research_priority": {
+          "level": "Medium",
+          "score": 0.5,
+          "method": "attention_policy_v2",
+          "reason": "Relationship High; severity Medium; evidence Moderate.",
+          "interpretation": "Analyst attention only. No direction, expected return or ML input."
+        },
+        "direction": "Analyst judgment required"
+      }
+    ]
+  },
+  {
+    "headline": "Nvidia boss rejects AI extinction fears as 'doomsday narratives'",
+    "fixture_kind": "headline semantic test with controlled supporting body; no live fetch",
+    "classification": "commentary",
+    "geography": {
+      "event_country": null,
+      "event_region": null,
+      "event_city": null,
+      "latitude": null,
+      "longitude": null,
+      "location_basis": "unresolved",
+      "location_confidence": null,
+      "coordinate_basis": null,
+      "evidence": [],
+      "coordinate_precision": null
+    },
+    "severity": {
+      "level": "Low",
+      "score": 0.2,
+      "components": [],
+      "reason": "Company discussion/opinion with no supported operational or binding-action escalation.",
+      "method": "article_severity_policy_v2",
+      "interpretation": "Internal ordinal policy score; not probability or financial impact."
+    },
+    "tickers": [
+      {
+        "ticker": "NVDA",
+        "relationship_type": "direct_company_subject",
+        "relevance": {
+          "level": "High",
+          "relationship_score": 0.15,
+          "reason": "NVDA is the explicit company/action subject of the cited article clause.",
+          "interpretation": "Uncalibrated relationship policy score; not probability or expected return."
+        },
+        "financial_materiality": {
+          "level": "Not yet quantified",
+          "reason": "No validated event-specific financial amount/denominator established.",
+          "legacy": {
+            "level": "Unknown"
+          }
+        },
+        "research_priority": {
+          "level": "Low",
+          "score": 0.2,
+          "method": "attention_policy_v2",
+          "reason": "Relationship High; severity Low; evidence Moderate.",
+          "interpretation": "Analyst attention only. No direction, expected return or ML input."
+        },
+        "direction": "Analyst judgment required"
+      }
+    ]
+  },
+  {
+    "headline": "S&P 500 Future Prediction: Nvidia, CPI, Oil and Fed Rate Hike in Focus",
+    "fixture_kind": "headline semantic test with controlled supporting body; no live fetch",
+    "classification": "opinion",
+    "geography": {
+      "event_country": null,
+      "event_region": null,
+      "event_city": null,
+      "latitude": null,
+      "longitude": null,
+      "location_basis": "unresolved",
+      "location_confidence": null,
+      "coordinate_basis": null,
+      "evidence": [],
+      "coordinate_precision": null
+    },
+    "severity": {
+      "level": "Low",
+      "score": 0.2,
+      "components": [],
+      "reason": "Company discussion/opinion with no supported operational or binding-action escalation.",
+      "method": "article_severity_policy_v2",
+      "interpretation": "Internal ordinal policy score; not probability or financial impact."
+    },
+    "tickers": [
+      {
+        "ticker": "NVDA",
+        "relationship_type": "direct_mention",
+        "relevance": {
+          "level": "Mention only",
+          "relationship_score": 0.15,
+          "reason": "Company is mentioned; no qualified relationship established.",
+          "interpretation": "Uncalibrated relationship policy score; not probability or expected return."
+        },
+        "financial_materiality": {
+          "level": "Insufficient evidence",
+          "reason": "No validated event-specific financial amount/denominator established.",
+          "legacy": {
+            "level": "Unknown"
+          }
+        },
+        "research_priority": {
+          "level": "Review",
+          "score": null,
+          "method": "attention_policy_v2",
+          "reason": "Relationship Mention only; severity Low; evidence Mention only.",
+          "interpretation": "Analyst attention only. No direction, expected return or ML input."
+        },
+        "direction": "Analyst judgment required"
+      }
+    ]
+  },
+  {
+    "headline": "Pool chemical vapor cloud causes hazmat response in Gurnee",
+    "fixture_kind": "headline semantic test with controlled supporting body; no live fetch",
+    "classification": "general_news",
+    "geography": {
+      "event_country": "United States",
+      "event_region": null,
+      "event_city": "Gurnee",
+      "latitude": 39.538479,
+      "longitude": -97.482602,
+      "location_basis": "explicit_article_location",
+      "location_confidence": "Article-supported country; exact site unresolved",
+      "coordinate_basis": "Natural Earth country label point (existing map)",
+      "evidence": [
+        {
+          "country": "United States",
+          "city": "Gurnee",
+          "region": null,
+          "source_field": "headline",
+          "evidence": "Pool chemical vapor cloud causes hazmat response in Gurnee"
+        }
+      ],
+      "coordinate_precision": "country_approximation"
+    },
+    "severity": {
+      "level": "Unknown",
+      "score": null,
+      "components": [],
+      "reason": "No supported severity rule establishes event scale.",
+      "method": "article_severity_policy_v2",
+      "interpretation": "Internal ordinal policy score; not probability or financial impact."
+    },
+    "tickers": []
+  },
+  {
+    "headline": "Saudi oil export disruption interrupts shipments",
+    "fixture_kind": "headline semantic test with controlled supporting body; no live fetch",
+    "classification": "actionable_event",
+    "geography": {
+      "event_country": "Saudi Arabia",
+      "event_region": null,
+      "event_city": null,
+      "latitude": 23.806908,
+      "longitude": 44.6996,
+      "location_basis": "explicit_article_location",
+      "location_confidence": "Article-supported country; exact site unresolved",
+      "coordinate_basis": "Natural Earth country label point (existing map)",
+      "evidence": [
+        {
+          "country": "Saudi Arabia",
+          "city": null,
+          "region": null,
+          "source_field": "headline",
+          "evidence": "Saudi oil export disruption interrupts shipments"
+        }
+      ],
+      "coordinate_precision": "country_approximation"
+    },
+    "severity": {
+      "level": "Medium",
+      "score": 0.5,
+      "components": [
+        {
+          "level": "Medium",
+          "component": "operational_disruption",
+          "evidence": "Saudi oil export disruption interrupts shipments",
+          "source_field": "headline"
+        },
+        {
+          "level": "Medium",
+          "component": "operational_disruption",
+          "evidence": "Saudi oil export disruption interrupts shipments The report describes the company and the current situation.",
+          "source_field": "body"
+        }
+      ],
+      "reason": "Explicit article evidence supports operational_disruption. Scale beyond this evidence is not inferred.",
+      "method": "article_severity_policy_v2",
+      "interpretation": "Internal ordinal policy score; not probability or financial impact."
+    },
+    "tickers": []
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "_ingestion": {
+    "provider": "freenewsapi",
+    "endpoint": "details",
+    "article_uuid": "1ad64d53-2922-4e3f-8be0-61a78647e112",
+    "fetched_at": "2026-09-21T02:54:32.899500+00:00"
+  },
+  "raw_response": {
+    "data": {
+      "uuid": "1ad64d53-2922-4e3f-8be0-61a78647e112",
+      "title": "Good News: Trumpet player sings National Anthem after horn malfunction",
+      "thumbnail": "https://s.yimg.com/lo/mysterio/api/dfdc88cafcd70adef945e7f1d2c023b167096f1885411e6695f4b7b277abfb28/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnbcu_713%2F33a53a40d623146d490dfa86718603f0.jpg",
+      "publisher": "Yahoo",
+      "authors": [
+        "NBC"
+      ],
+      "topics": [
+        "technology"
+      ],
+      "countries": [
+        "US"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-09-20T23:02:44.000Z",
+      "original_url": "https://www.yahoo.com/news/videos/good-news-trumpet-player-sings-230244752.html",
+      "incipit": "At Saturday night's Arizona Diamondbacks game, trumpet player Jesse McGuire made an incredible recovery while performing the Star-Spangled Banner after his horn malfunctioned, choosing to finish the song...",
+      "body": "At Saturday night's Arizona Diamondbacks game, trumpet player Jesse McGuire made an incredible recovery while performing the Star-Spangled Banner after his horn malfunctioned, choosing to finish the song while singing. NBC News' Hallie Jackson has the story."
+    }
+  }
+}

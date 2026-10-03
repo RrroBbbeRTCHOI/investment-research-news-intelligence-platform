@@ -1,0 +1,32 @@
+{
+  "_ingestion": {
+    "provider": "freenewsapi",
+    "endpoint": "details",
+    "article_uuid": "94025152-9ebe-40ed-b23a-ab9af67e5f13",
+    "fetched_at": "2026-09-18T08:11:18.379154+00:00"
+  },
+  "raw_response": {
+    "data": {
+      "uuid": "94025152-9ebe-40ed-b23a-ab9af67e5f13",
+      "title": "They're not playing our song! Wrong Korean anthem played at field hockey match at Asian Games - WRAL",
+      "thumbnail": "https://images.wral.com/e44fefdd-1c65-523e-b7e6-f1e8f3c1b6dd",
+      "publisher": "WRAL",
+      "authors": [
+        "@wral"
+      ],
+      "topics": [
+        "custom_search"
+      ],
+      "countries": [
+        "US"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-09-18T07:32:16.000Z",
+      "original_url": "https://www.wral.com/news/ap/52507-theyre-not-playing-our-song-wrong-korean-anthem-played-at-field-hockey-match-at-asian-games/",
+      "incipit": "NAGOYA, Japan (AP) — South Korean field hockey players were perplexed Friday when the national anthem of North Korea was played — instead of their own — before a men’s field hockey match against Bangladesh at the Asian Games.",
+      "body": "NAGOYA, Japan (AP) — South Korean field hockey players were perplexed Friday when the national anthem of North Korea was played — instead of their own — before a men’s field hockey match against Bangladesh at the Asian Games. Posted 9/18/2026, 7:28:16 AM A North Korean offical wears their national flag during a ceremony for the Asian Games at the athletes village in Nagoya, Japan, Friday, Sept. 18, 2026. (AP Photo/Dita Alangkara) NAGOYA, Japan (AP) — South Korean field hockey players were perplexed Friday when the national anthem of North Korea was played — instead of their own — before a men’s field hockey match against Bangladesh at the Asian Games. South Korean players looked on, unsure of how to respond. Many South Korean players stood at attention, some ran their hands through their hair, and some left their right hand over their heart as the music played. Other WRAL Top Stories Organizers quickly corrected the problem and played the correct anthem. South Korea won the match 5-0. The Asian Games open officially on Saturday. Some matches have been played before the official opening to accommodate a crowded schedule which features more than 11,000 athletes, more than the Summer Olympics. ___ See full AP coverage of Asian sports here Copyright 2026 by The Associated Press. All rights reserved. This material may not be published, broadcast, rewritten or redistributed."
+    }
+  }
+}

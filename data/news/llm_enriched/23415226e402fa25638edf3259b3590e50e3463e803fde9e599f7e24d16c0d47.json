@@ -1,0 +1,140 @@
+{
+  "status": "available",
+  "schema_version": "news_semantic_v3_1",
+  "prompt_version": "news_semantics_v3_1_sentence_grounding",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "content_hash": "23415226e402fa25638edf3259b3590e50e3463e803fde9e599f7e24d16c0d47",
+  "article_content_hash": "1508c44f91f8d98fa2a7e52ccb3b6c126a659347db7cbc9476b6a8b1969dbe09",
+  "generated_at": "2026-09-25T14:47:03.307998+00:00",
+  "semantic": {
+    "article_class": "regulatory_event",
+    "is_relevant_candidate": true,
+    "summary_short": "Nvidia (NASDAQ:NVDA) has reportedly reduced by more than half the number of authorised customers in Asia permitted to purchase its artificial intelligence chips, as the company strengthens compliance measures in response to tighter US export controls, according to a report by the Financial Times citing people familiar with the matter.",
+    "summary_full": "Nvidia (NASDAQ:NVDA) has reportedly reduced by more than half the number of authorised customers in Asia permitted to purchase its artificial intelligence chips, as the company strengthens compliance measures in response to tighter US export controls, according to a report by the Financial Times citing people familiar with the matter. The changes are part of broader efforts to prevent advanced semiconductor technology from reaching restricted destinations, particularly China.",
+    "primary_country": "United States",
+    "event_type": "Regulatory Compliance",
+    "event_subtype": "Export Controls",
+    "countries": [
+      "United States",
+      "China"
+    ],
+    "entities": [
+      "Financial Times",
+      "US prosecutors",
+      "Washington"
+    ],
+    "companies_mentioned": [
+      "Nvidia",
+      "Supermicro"
+    ],
+    "direct_ticker_candidates": [
+      "NVDA"
+    ],
+    "economic_channels": [
+      "Semiconductor Export Restrictions",
+      "Customer Approvals",
+      "Compliance Measures"
+    ],
+    "candidate_indirect_tickers": [
+      "SMCI"
+    ],
+    "missing_information": [
+      "Exact names of the removed Asian customers",
+      "Full details of the updated compliance verification process"
+    ],
+    "research_questions": [
+      "How will the reduction in authorized customers impact Nvidia's near-term revenue in Asia?",
+      "What specific compliance criteria are being applied to Asian customers following the tighter US export controls?"
+    ],
+    "severity_candidate": "Medium",
+    "severity_reason": "Nvidia has tightened approvals and removed over half of its authorized customers in Asia to comply with stricter US export controls, which could impact regional sales and distribution channels.",
+    "severity_confidence": 0.85,
+    "operational_event": true,
+    "fundamental_change_detected": true,
+    "llm_confidence": 0.95,
+    "citations": [
+      {
+        "field": "summary_short",
+        "quote": "Nvidia (NASDAQ:NVDA) has reportedly reduced by more than half the number of authorised customers in Asia permitted to purchase its artificial intelligence chips, as the company strengthens compliance measures in response to tighter US export controls, according to a report by the Financial Times citing people familiar with the matter.",
+        "source_field": "summary"
+      },
+      {
+        "field": "summary_full",
+        "quote": "Nvidia (NASDAQ:NVDA) has reportedly reduced by more than half the number of authorised customers in Asia permitted to purchase its artificial intelligence chips, as the company strengthens compliance measures in response to tighter US export controls, according to a report by the Financial Times citing people familiar with the matter.",
+        "source_field": "summary"
+      },
+      {
+        "field": "summary_full",
+        "quote": "The changes are part of broader efforts to prevent advanced semiconductor technology from reaching restricted destinations, particularly China.",
+        "source_field": "summary"
+      },
+      {
+        "field": "primary_country",
+        "quote": "US",
+        "source_field": "headline"
+      },
+      {
+        "field": "event_type",
+        "quote": "Export Controls",
+        "source_field": "headline"
+      },
+      {
+        "field": "event_subtype",
+        "quote": "Export Controls",
+        "source_field": "headline"
+      },
+      {
+        "field": "article_class",
+        "quote": "Export Controls",
+        "source_field": "headline"
+      },
+      {
+        "field": "economic_channels",
+        "quote": "compliance measures",
+        "source_field": "summary"
+      },
+      {
+        "field": "severity_candidate",
+        "quote": "reduced by more than half the number of authorised customers in Asia permitted to purchase its artificial intelligence chips",
+        "source_field": "summary"
+      },
+      {
+        "field": "operational_event",
+        "quote": "reduced by more than half the number of authorised customers in Asia",
+        "source_field": "summary"
+      },
+      {
+        "field": "fundamental_change_detected",
+        "quote": "reduced by more than half the number of authorised customers in Asia",
+        "source_field": "summary"
+      },
+      {
+        "field": "direct_ticker_candidates",
+        "quote": "NVDA",
+        "source_field": "headline"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "total_tokens": 1575,
+    "estimated_cost_usd": null,
+    "scope": "successful response only; failed-attempt usage unavailable"
+  },
+  "cache_hit": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "success"
+    }
+  ],
+  "attempt_audit_scope": "original enrichment generation; cache reuse makes no new requests",
+  "attempt_count": 1,
+  "retry_count": 0,
+  "fallback_used": false
+}

@@ -1,0 +1,3594 @@
+{
+  "articles": [
+    {
+      "article_id": "stress_v1_ST01_dfbdde28ff504f1ea3e07aa83382d063",
+      "provider": "perigon",
+      "provider_article_id": "dfbdde28ff504f1ea3e07aa83382d063",
+      "headline": "Divided Fed holds interest rates steady, but three members voted to hike",
+      "summary": "The Federal Reserve on Wednesday released its latest interest rate decision.",
+      "body": "The Federal Reserve voted to keep its key interest rate steady despite opposition from three regional presidents, Beth Hammack of Cleveland, Neel Kashkari of Minneapolis, and Lorie Logan of Dallas, who had expressed a desire for higher rates. Despite increasing support among some officials for a rate increase, the Federal Open Market Committee voted 9-3 to leave the federal funds rate in a range between 3.5% and 3.75%. The dissenting votes challenged Chairman Kevin Warsh's ability to provide clear road signs on where monetary policy is headed, leading to an unusually high level of uncertainty for the meeting. The post-meeting statement stated that the three dissenters preferred to raise the target range for the federal funding rate by a ¼ percentage point.",
+      "source": "cnbc.com",
+      "article_url": "https://www.cnbc.com/2026/07/29/fed-rate-decision-july-2026.html",
+      "thumbnail": "https://image.cnbcfm.com/api/v1/image/108323438-17817219452026-06-17t184334z_1004410400_rc2uvlapzzno_rtrmadp_0_usa-fed.jpeg?v=1782491057&w=1920&h=1080",
+      "authors": [
+        "Jeff Cox"
+      ],
+      "topics": [
+        "Markets",
+        "Finance",
+        "higher rates",
+        "interest rates",
+        "rates",
+        "other Fed officials",
+        "Fed",
+        "Divided Fed",
+        "New York Fed",
+        "New York Fed Chair John Williams",
+        "higher energy costs",
+        "inflation"
+      ],
+      "countries": [],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-07-29T18:00:17+00:00",
+      "fetched_at": "2026-07-29T18:22:11.429671+00:00",
+      "has_full_text": false,
+      "raw_listing": {
+        "_benchmark": true,
+        "_benchmark_name": "stress_test_v1",
+        "_benchmark_case_id": "ST01",
+        "_benchmark_category": "macro_monetary_policy",
+        "_frozen_sha256": "b1221d624a401507d6edf18688a31b7b6000c9a67935aa9c86f612d82b5e6f3f",
+        "text_basis": "perigon_provider_summary",
+        "full_text_verified": false,
+        "content_preview_truncated": true,
+        "original_content_chars": 218,
+        "normalized_summary_chars": 76,
+        "normalized_body_chars": 766,
+        "articleId": "dfbdde28ff504f1ea3e07aa83382d063",
+        "title": "Divided Fed holds interest rates steady, but three members voted to hike",
+        "pubDate": "2026-07-29T18:00:17+00:00",
+        "domain": "cnbc.com",
+        "clusterId": "8b1d37020b3b4d629af4c1a452a86752",
+        "reprint": false,
+        "provider_country_metadata": "us"
+      },
+      "raw_detail": {
+        "url": "https://www.cnbc.com/2026/07/29/fed-rate-decision-july-2026.html",
+        "authorsByline": "Jeff Cox",
+        "articleId": "dfbdde28ff504f1ea3e07aa83382d063",
+        "clusterId": "8b1d37020b3b4d629af4c1a452a86752",
+        "source": {
+          "domain": "cnbc.com",
+          "paywall": false,
+          "location": {
+            "country": "us",
+            "state": "NJ",
+            "county": "Bergen County",
+            "city": "Englewood Cliffs",
+            "coordinates": {
+              "lat": 40.8853773,
+              "lon": -73.9523597
+            }
+          }
+        },
+        "imageUrl": "https://image.cnbcfm.com/api/v1/image/108323438-17817219452026-06-17t184334z_1004410400_rc2uvlapzzno_rtrmadp_0_usa-fed.jpeg?v=1782491057&w=1920&h=1080",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-07-29T18:00:17+00:00",
+        "addDate": "2026-07-29T18:22:11.429671+00:00",
+        "refreshDate": "2026-09-18T16:43:32.797952+00:00",
+        "score": 184.9446,
+        "title": "Divided Fed holds interest rates steady, but three members voted to hike",
+        "description": "The Federal Reserve on Wednesday released its latest interest rate decision.",
+        "content": "All of the \"no\" votes came from regional presidents – Beth Hammack of Cleveland, Neel Kashkari of Minneapolis and Lorie Logan of Dallas, who had been the most explicit about the need for higher rates ... [3996 symbols]",
+        "enContentWordCount": 724,
+        "medium": "Article",
+        "links": [],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": "d866acdb89754874b0c6b34a96066280",
+            "name": "Jeff Cox"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "higher rates",
+            "weight": 0.1055684
+          },
+          {
+            "name": "interest rates",
+            "weight": 0.09201442
+          },
+          {
+            "name": "rates",
+            "weight": 0.08988533
+          },
+          {
+            "name": "other Fed officials",
+            "weight": 0.0839302
+          },
+          {
+            "name": "Fed",
+            "weight": 0.077605344
+          },
+          {
+            "name": "Divided Fed",
+            "weight": 0.07596033
+          },
+          {
+            "name": "New York Fed",
+            "weight": 0.07366515
+          },
+          {
+            "name": "New York Fed Chair John Williams",
+            "weight": 0.0697265
+          },
+          {
+            "name": "higher energy costs",
+            "weight": 0.068535626
+          },
+          {
+            "name": "inflation",
+            "weight": 0.06424378
+          }
+        ],
+        "topics": [
+          {
+            "name": "Markets"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Finance"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/Law & Government/Government/Other",
+            "score": 0.9669140577316284
+          },
+          {
+            "name": "/News/Business News/Economy News",
+            "score": 0.9626730680465698
+          },
+          {
+            "name": "/News/Business News/Fiscal Policy News",
+            "score": 0.9324532747268677
+          },
+          {
+            "name": "/Finance/Banking/Other",
+            "score": 0.47816330194473267
+          },
+          {
+            "name": "/News/Business News/Financial Markets News",
+            "score": 0.44866785407066345
+          },
+          {
+            "name": "/People & Society/Social Sciences/Economics",
+            "score": 0.42919009923934937
+          },
+          {
+            "name": "/News/Politics/Other",
+            "score": 0.35667070746421814
+          }
+        ],
+        "entities": [
+          {
+            "data": "Fed",
+            "type": "ORG",
+            "mentions": 12
+          },
+          {
+            "data": "the Federal Open Market Committee",
+            "type": "ORG",
+            "mentions": 3
+          },
+          {
+            "data": "Capitol Hill",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "FOMC",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Beth Hammack",
+            "type": "PERSON",
+            "mentions": 2
+          },
+          {
+            "data": "Neel Kashkari",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Lorie Logan",
+            "type": "PERSON",
+            "mentions": 2
+          },
+          {
+            "data": "Kevin Warsh",
+            "type": "PERSON",
+            "mentions": 7
+          },
+          {
+            "data": "Donald Trump",
+            "type": "PERSON",
+            "mentions": 2
+          },
+          {
+            "data": "Christopher Waller",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "John Williams",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Cleveland",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Minneapolis",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Dallas",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "WASHINGTON",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "U.S.",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Iran",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "the Middle East",
+            "type": "LOC",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "8a3bb3cbad734d0a86a2499f792022f9",
+            "name": "CME Group Inc.",
+            "domains": [
+              "cmegroup.com"
+            ],
+            "symbols": [
+              "0HR2.L",
+              "CME"
+            ]
+          }
+        ],
+        "sentiment": {
+          "positive": 0.1213676,
+          "negative": 0.5428705,
+          "neutral": 0.33576182
+        },
+        "summary": "The Federal Reserve voted to keep its key interest rate steady despite opposition from three regional presidents, Beth Hammack of Cleveland, Neel Kashkari of Minneapolis, and Lorie Logan of Dallas, who had expressed a desire for higher rates. Despite increasing support among some officials for a rate increase, the Federal Open Market Committee voted 9-3 to leave the federal funds rate in a range between 3.5% and 3.75%. The dissenting votes challenged Chairman Kevin Warsh's ability to provide clear road signs on where monetary policy is headed, leading to an unusually high level of uncertainty for the meeting. The post-meeting statement stated that the three dissenters preferred to raise the target range for the federal funding rate by a ¼ percentage point.",
+        "shortSummary": "The Federal Reserve held interest rates steady despite opposition from regional presidents and policymakers, with some advocating a rate hike to address inflation.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "0e8124dd291e4198b85e41386deb7a1f",
+        "places": [],
+        "people": [
+          {
+            "wikidataId": "Q1287635",
+            "name": "Neel Kashkari"
+          },
+          {
+            "wikidataId": "Q22686",
+            "name": "Donald Trump"
+          },
+          {
+            "wikidataId": "Q6397725",
+            "name": "Kevin Warsh"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "stress_v1_ST02_0b7de0537f3b48d6bcfdc39bd0da406d",
+      "provider": "perigon",
+      "provider_article_id": "0b7de0537f3b48d6bcfdc39bd0da406d",
+      "headline": "Consumer prices rose 0.4% in August, as expected; core inflation was higher than estimated",
+      "summary": "The all-items consumer price index was expected to rise 0.4% in August, with core, excluding food and energy, showing a 0.2% gain, according to the Dow Jones consensus.",
+      "body": "Consumer prices rose by 0.4% in August, as expected, but core inflation was higher than estimated. This could determine whether the Federal Reserve will raise interest rates next week. The consumer price index rose by a seasonally adjusted 0.3%, putting the 12-month increase at 3.4%, according to the Bureau of Labor Statistics. However, stripping out volatile food and energy prices, core CPI posted a 0.2% monthly gain, 0.1 percentage point higher than forecast. The core annual rate came in at 2.4%. This is the final major inflation indicator the Fed will see before its policy meeting, which concludes with a vote on its key interest rate.",
+      "source": "cnbc.com",
+      "article_url": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
+      "thumbnail": "https://image.cnbcfm.com/api/v1/image/108361506-1789075747878-gettyimages-2294572885-l1082562_copy_o5wqs065.jpeg?v=1789075971&w=1920&h=1080",
+      "authors": [
+        "Jeff Cox"
+      ],
+      "topics": [
+        "Inflation",
+        "Finance",
+        "Consumer prices",
+        "core inflation",
+        "interest rates",
+        "next week",
+        "core CPI",
+        "Prices",
+        "breaking news",
+        "August",
+        "Dow Jones",
+        "Labor Statistics"
+      ],
+      "countries": [],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-09-11T12:32:19+00:00",
+      "fetched_at": "2026-09-11T12:38:41.018552+00:00",
+      "has_full_text": false,
+      "raw_listing": {
+        "_benchmark": true,
+        "_benchmark_name": "stress_test_v1",
+        "_benchmark_case_id": "ST02",
+        "_benchmark_category": "macro_inflation",
+        "_frozen_sha256": "fdd94a836317706cb96fd7523faa40f8aaab7177b80215f8100294c5841ddc20",
+        "text_basis": "perigon_provider_summary",
+        "full_text_verified": false,
+        "content_preview_truncated": true,
+        "original_content_chars": 217,
+        "normalized_summary_chars": 168,
+        "normalized_body_chars": 645,
+        "articleId": "0b7de0537f3b48d6bcfdc39bd0da406d",
+        "title": "Consumer prices rose 0.4% in August, as expected; core inflation was higher than estimated",
+        "pubDate": "2026-09-11T12:32:19+00:00",
+        "domain": "cnbc.com",
+        "clusterId": "94f27406dfda483f9c37ad03ba392c60",
+        "reprint": false,
+        "provider_country_metadata": "us"
+      },
+      "raw_detail": {
+        "url": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
+        "authorsByline": "Jeff Cox",
+        "articleId": "0b7de0537f3b48d6bcfdc39bd0da406d",
+        "clusterId": "94f27406dfda483f9c37ad03ba392c60",
+        "source": {
+          "domain": "cnbc.com",
+          "paywall": false,
+          "location": {
+            "country": "us",
+            "state": "NJ",
+            "county": "Bergen County",
+            "city": "Englewood Cliffs",
+            "coordinates": {
+              "lat": 40.8853773,
+              "lon": -73.9523597
+            }
+          }
+        },
+        "imageUrl": "https://image.cnbcfm.com/api/v1/image/108361506-1789075747878-gettyimages-2294572885-l1082562_copy_o5wqs065.jpeg?v=1789075971&w=1920&h=1080",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-09-11T12:32:19+00:00",
+        "addDate": "2026-09-11T12:38:41.018552+00:00",
+        "refreshDate": "2026-09-23T18:46:05.953349+00:00",
+        "score": 142.2941,
+        "title": "Consumer prices rose 0.4% in August, as expected; core inflation was higher than estimated",
+        "description": "The all-items consumer price index was expected to rise 0.4% in August, with core, excluding food and energy, showing a 0.2% gain, according to the Dow Jones consensus.",
+        "content": "Prices for a wide swath of goods and services continued to climb in August, according to a report Friday that could be the deciding factor on whether the Federal Reserve raises interest rates next wee... [849 symbols]",
+        "enContentWordCount": 163,
+        "medium": "Article",
+        "links": [],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": "d866acdb89754874b0c6b34a96066280",
+            "name": "Jeff Cox"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Consumer prices",
+            "weight": 0.1049783
+          },
+          {
+            "name": "core inflation",
+            "weight": 0.103030995
+          },
+          {
+            "name": "interest rates",
+            "weight": 0.09852697
+          },
+          {
+            "name": "next week",
+            "weight": 0.09738641
+          },
+          {
+            "name": "core CPI",
+            "weight": 0.092163265
+          },
+          {
+            "name": "Prices",
+            "weight": 0.09195393
+          },
+          {
+            "name": "breaking news",
+            "weight": 0.07856742
+          },
+          {
+            "name": "August",
+            "weight": 0.074201845
+          },
+          {
+            "name": "Dow Jones",
+            "weight": 0.07261394
+          },
+          {
+            "name": "Labor Statistics",
+            "weight": 0.07218216
+          }
+        ],
+        "topics": [
+          {
+            "name": "Inflation"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Finance"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Economy News",
+            "score": 0.9893474578857422
+          },
+          {
+            "name": "/People & Society/Social Sciences/Economics",
+            "score": 0.8221890926361084
+          },
+          {
+            "name": "/News/Business News/Other",
+            "score": 0.6901415586471558
+          }
+        ],
+        "entities": [
+          {
+            "data": "the Federal Reserve",
+            "type": "ORG",
+            "mentions": 3
+          },
+          {
+            "data": "Dow Jones",
+            "type": "ORG",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "64c8c8d7dec44420a7d080251c725f96",
+            "name": "Dow Jones & Company",
+            "domains": [
+              "dowjones.com"
+            ],
+            "symbols": []
+          }
+        ],
+        "sentiment": {
+          "positive": 0.61669016,
+          "negative": 0.14086533,
+          "neutral": 0.24244453
+        },
+        "summary": "Consumer prices rose by 0.4% in August, as expected, but core inflation was higher than estimated. This could determine whether the Federal Reserve will raise interest rates next week. The consumer price index rose by a seasonally adjusted 0.3%, putting the 12-month increase at 3.4%, according to the Bureau of Labor Statistics. However, stripping out volatile food and energy prices, core CPI posted a 0.2% monthly gain, 0.1 percentage point higher than forecast. The core annual rate came in at 2.4%. This is the final major inflation indicator the Fed will see before its policy meeting, which concludes with a vote on its key interest rate.",
+        "shortSummary": "In August, consumer prices rose 0.4% as expected, with core inflation higher than forecast, potentially influencing the Federal Reserve's interest rate decision next week.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "f6138a2ca7e144ebb2b4c4a12e6e0b17",
+        "places": [],
+        "people": []
+      }
+    },
+    {
+      "article_id": "stress_v1_ST03_5964056afdd442d698678f1e5bbbfc3b",
+      "provider": "perigon",
+      "provider_article_id": "5964056afdd442d698678f1e5bbbfc3b",
+      "headline": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+      "summary": "Nvidia (NASDAQ:NVDA) has reportedly reduced by more than half the number of authorised customers in Asia permitted to purchase its artificial intelligence chips, as the company strengthens compliance measures in response to tighter US export controls, according to a report by the Financial Times citing people familiar with the matter. The changes are part of broader efforts to prevent advanced semiconductor technology from reaching restricted destinations, particularly China.",
+      "body": "Nvidia (NASDAQ:NVDA) has increased its Asian customer approval system to more than half of its customers, removing over half of the number of authorised customers in Asia. The move is part of a broader effort to prevent advanced semiconductor technology from reaching restricted destinations, particularly China. This comes after US prosecutors charged a co-founder of Supermicro and two employees with helping smuggle approximately $2.5 billion worth of Nvidia chips into China. The increased scrutiny of semiconductor exports reflects an increase in Washington's efforts to close potential loopholes in its restrictions on advanced AI technology.",
+      "source": "finance.yahoo.com",
+      "article_url": "https://finance.yahoo.com/technology/ai/articles/nvidia-tightens-asian-customer-approvals-105148051.html?_guc_consent_skip=1784028465",
+      "thumbnail": "https://s.yimg.com/lo/mysterio/api/C418B8AE3037A6A71537F62977F4D67EE0155851B1CEED441E5D140EDEBE737D/subgraphmysterio/resizefill_w1200_h659;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Finvestorshub_458%2F37b4c89e702c8b687753e7981fd44b26",
+      "authors": [
+        "Fiona Craig"
+      ],
+      "topics": [
+        "Asian",
+        "AI",
+        "Business",
+        "World",
+        "Tech",
+        "US Chip Export Controls",
+        "tighter US export controls",
+        "semiconductor exports",
+        "Nvidia chips",
+        "export controls",
+        "advanced artificial intelligence chips",
+        "Asian Customer Approvals",
+        "advanced semiconductor technology",
+        "Nvidia processors",
+        "export regulations"
+      ],
+      "countries": [],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-07-14T10:51:48+00:00",
+      "fetched_at": "2026-07-14T12:14:02.516660+00:00",
+      "has_full_text": false,
+      "raw_listing": {
+        "_benchmark": true,
+        "_benchmark_name": "stress_test_v1",
+        "_benchmark_case_id": "ST03",
+        "_benchmark_category": "regulatory_export_controls",
+        "_frozen_sha256": "a1c8d0a051ea966dd3323d9ffed28cdc64ddbfdc52285fa061e77a26b32cd23a",
+        "text_basis": "perigon_provider_summary",
+        "full_text_verified": false,
+        "content_preview_truncated": true,
+        "original_content_chars": 218,
+        "normalized_summary_chars": 480,
+        "normalized_body_chars": 648,
+        "articleId": "5964056afdd442d698678f1e5bbbfc3b",
+        "title": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+        "pubDate": "2026-07-14T10:51:48+00:00",
+        "domain": "finance.yahoo.com",
+        "clusterId": "f88bc2f25ab54d038fa469ffebaab4b6",
+        "reprint": false,
+        "provider_country_metadata": "us"
+      },
+      "raw_detail": {
+        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-tightens-asian-customer-approvals-105148051.html?_guc_consent_skip=1784028465",
+        "authorsByline": "Fiona Craig",
+        "articleId": "5964056afdd442d698678f1e5bbbfc3b",
+        "clusterId": "f88bc2f25ab54d038fa469ffebaab4b6",
+        "source": {
+          "domain": "finance.yahoo.com",
+          "location": {
+            "country": "us",
+            "state": "CA",
+            "county": "Santa Clara County",
+            "city": "Sunnyvale",
+            "coordinates": {
+              "lat": 37.3688301,
+              "lon": -122.036349
+            }
+          }
+        },
+        "imageUrl": "https://s.yimg.com/lo/mysterio/api/C418B8AE3037A6A71537F62977F4D67EE0155851B1CEED441E5D140EDEBE737D/subgraphmysterio/resizefill_w1200_h659;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Finvestorshub_458%2F37b4c89e702c8b687753e7981fd44b26",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-07-14T10:51:48+00:00",
+        "addDate": "2026-07-14T12:14:02.516660+00:00",
+        "refreshDate": "2026-07-14T12:14:02.516663+00:00",
+        "score": 184.62328,
+        "title": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+        "description": "Nvidia (NASDAQ:NVDA) has reportedly reduced by more than half the number of authorised customers in Asia permitted to purchase its artificial intelligence chips, as the company strengthens compliance measures in response to tighter US export controls, according to a report by the Financial Times citing people familiar with the matter. The changes are part of broader efforts to prevent advanced semiconductor technology from reaching restricted destinations, particularly China.",
+        "content": "Nvidia (NASDAQ:NVDA) has reportedly reduced by more than half the number of authorised customers in Asia permitted to purchase its artificial intelligence chips, as the company strengthens compliance ... [2176 symbols]",
+        "enContentWordCount": 336,
+        "medium": "Article",
+        "links": [
+          "https://s.yimg.com/lo/mysterio/api/42A827E1EF23260D7B7C4F13AD3AE48BC0A3549388C260DF72E7E99D9AD1CC55/subgraphmysterio/resizefit_w960;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Finvestorshub_458%2F37b4c89e702c8b687753e7981fd44b26"
+        ],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": null,
+            "name": "Fiona Craig"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "US Chip Export Controls",
+            "weight": 0.11157836
+          },
+          {
+            "name": "tighter US export controls",
+            "weight": 0.10242663
+          },
+          {
+            "name": "semiconductor exports",
+            "weight": 0.09756702
+          },
+          {
+            "name": "Nvidia chips",
+            "weight": 0.09509842
+          },
+          {
+            "name": "export controls",
+            "weight": 0.09305675
+          },
+          {
+            "name": "advanced artificial intelligence chips",
+            "weight": 0.087395705
+          },
+          {
+            "name": "Asian Customer Approvals",
+            "weight": 0.0867862
+          },
+          {
+            "name": "advanced semiconductor technology",
+            "weight": 0.08641651
+          },
+          {
+            "name": "Nvidia processors",
+            "weight": 0.08592132
+          },
+          {
+            "name": "export regulations",
+            "weight": 0.084398255
+          }
+        ],
+        "topics": [
+          {
+            "name": "Asian"
+          },
+          {
+            "name": "AI"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Business"
+          },
+          {
+            "name": "World"
+          },
+          {
+            "name": "Tech"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Company News",
+            "score": 0.9836598634719849
+          },
+          {
+            "name": "/News/Technology News",
+            "score": 0.9621787071228027
+          },
+          {
+            "name": "/News/Business News/Financial Markets News",
+            "score": 0.7207615375518799
+          },
+          {
+            "name": "/Computers & Electronics/Computer Hardware/Computer Components",
+            "score": 0.6672561168670654
+          },
+          {
+            "name": "/Computers & Electronics/Electronics & Electrical/Electronic Components",
+            "score": 0.3143661916255951
+          }
+        ],
+        "entities": [
+          {
+            "data": "Nvidia",
+            "type": "ORG",
+            "mentions": 7
+          },
+          {
+            "data": "NVDA",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "NASDAQ",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "the Financial Times",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Supermicro",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "the US Department of Justice",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Asian",
+            "type": "NORP",
+            "mentions": 2
+          },
+          {
+            "data": "Chinese",
+            "type": "NORP",
+            "mentions": 1
+          },
+          {
+            "data": "US",
+            "type": "GPE",
+            "mentions": 4
+          },
+          {
+            "data": "China",
+            "type": "GPE",
+            "mentions": 4
+          },
+          {
+            "data": "Singapore",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Malaysia",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Japan",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Washington",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Taiwan",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "The United States",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Asia",
+            "type": "LOC",
+            "mentions": 2
+          },
+          {
+            "data": "H200 AI",
+            "type": "PRODUCT",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "94bbd0512cd04cc4b7041d78d9d4cf73",
+            "name": "NVIDIA Corporation",
+            "domains": [
+              "nvidia.com"
+            ],
+            "symbols": [
+              "NVD.DE",
+              "NVDA"
+            ]
+          },
+          {
+            "id": "e7e32fc01ffd4df08ad05b7f49833334",
+            "name": "Super Micro Computer, Inc.",
+            "domains": [
+              "supermicro.com"
+            ],
+            "symbols": [
+              "SMCI"
+            ]
+          }
+        ],
+        "sentiment": {
+          "positive": 0.058602568,
+          "negative": 0.7489184,
+          "neutral": 0.19247906
+        },
+        "summary": "Nvidia (NASDAQ:NVDA) has increased its Asian customer approval system to more than half of its customers, removing over half of the number of authorised customers in Asia. The move is part of a broader effort to prevent advanced semiconductor technology from reaching restricted destinations, particularly China. This comes after US prosecutors charged a co-founder of Supermicro and two employees with helping smuggle approximately $2.5 billion worth of Nvidia chips into China. The increased scrutiny of semiconductor exports reflects an increase in Washington's efforts to close potential loopholes in its restrictions on advanced AI technology.",
+        "shortSummary": "Nvidia has reduced customer approval for its AI chips in Asia by over half due to increased US export controls, targeting restricted destinations like China.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "3f00acc30c63454c9f33e347c1721c0c",
+        "places": [],
+        "people": []
+      }
+    },
+    {
+      "article_id": "stress_v1_ST04_c1099c00ab9449058b3e7776c401a008",
+      "provider": "perigon",
+      "provider_article_id": "c1099c00ab9449058b3e7776c401a008",
+      "headline": "US Probes Apex Logistics Over Alleged Nvidia AI Chip Smuggling",
+      "summary": "The US government is investigating Singapore-based Apex Logistics for its suspected role in smuggling Nvidia Corp. AI chips to China, people familiar with the matter said, in what may result in the first action against a transportation company for allegedly participating in the illegal semiconductor trade.",
+      "body": "The US government is investigating Singapore-based Apex Logistics for suspected involvement in smuggling Nvidia Corp. AI chips to China. This may result in the first action against a transportation company for allegedly participating in the illegal semiconductor trade. Authorities are investigating whether Apex may have transported AI systems made by Super Micro Computer Inc. in violation of US export restrictions. The chips are the industrial standard for training and running AI models, and firms like Super Micro assemble them into servers that are installed in data centers.",
+      "source": "bloomberg.com",
+      "article_url": "https://www.bloomberg.com/news/articles/2026-08-27/us-probes-apex-logistics-over-alleged-nvidia-ai-chip-smuggling?srnd=phx-ai",
+      "thumbnail": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iprn_zkTnYxg/v0/1200x800.jpg",
+      "authors": [
+        "Mackenzie Hawkins, Kari Soo Lindberg"
+      ],
+      "topics": [
+        "Smuggling",
+        "AI",
+        "Business",
+        "World",
+        "Tech",
+        "Nvidia Corp. AI chips",
+        "Alleged Nvidia AI Chip Smuggling",
+        "AI models",
+        "AI systems",
+        "Apex Logistics",
+        "Nvidia chips",
+        "Super Micro Computer Inc.",
+        "Super Micro",
+        "US export restrictions",
+        "Nvidia Corp."
+      ],
+      "countries": [],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-08-27T03:54:17.955000+00:00",
+      "fetched_at": "2026-08-27T04:32:08.662840+00:00",
+      "has_full_text": false,
+      "raw_listing": {
+        "_benchmark": true,
+        "_benchmark_name": "stress_test_v1",
+        "_benchmark_case_id": "ST04",
+        "_benchmark_category": "regulatory_enforcement",
+        "_frozen_sha256": "c532a7180a28d7a54e236f57d9e4a43decd48f33062316f99edea571150ed0f4",
+        "text_basis": "perigon_provider_summary",
+        "full_text_verified": false,
+        "content_preview_truncated": true,
+        "original_content_chars": 217,
+        "normalized_summary_chars": 307,
+        "normalized_body_chars": 582,
+        "articleId": "c1099c00ab9449058b3e7776c401a008",
+        "title": "US Probes Apex Logistics Over Alleged Nvidia AI Chip Smuggling",
+        "pubDate": "2026-08-27T03:54:17.955000+00:00",
+        "domain": "bloomberg.com",
+        "clusterId": "3ffa9af6bf69484ca623983460ec960a",
+        "reprint": false,
+        "provider_country_metadata": "us"
+      },
+      "raw_detail": {
+        "url": "https://www.bloomberg.com/news/articles/2026-08-27/us-probes-apex-logistics-over-alleged-nvidia-ai-chip-smuggling?srnd=phx-ai",
+        "authorsByline": "Mackenzie Hawkins, Kari Soo Lindberg",
+        "articleId": "c1099c00ab9449058b3e7776c401a008",
+        "clusterId": "3ffa9af6bf69484ca623983460ec960a",
+        "source": {
+          "domain": "bloomberg.com",
+          "paywall": true,
+          "location": {
+            "country": "us",
+            "state": "NY",
+            "city": "New York",
+            "coordinates": {
+              "lat": 40.7127281,
+              "lon": -74.0060152
+            }
+          }
+        },
+        "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iprn_zkTnYxg/v0/1200x800.jpg",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-08-27T03:54:17.955000+00:00",
+        "addDate": "2026-08-27T04:32:08.662840+00:00",
+        "refreshDate": "2026-09-18T06:53:30.884448+00:00",
+        "score": 174.32654,
+        "title": "US Probes Apex Logistics Over Alleged Nvidia AI Chip Smuggling",
+        "description": "The US government is investigating Singapore-based Apex Logistics for its suspected role in smuggling Nvidia Corp. AI chips to China, people familiar with the matter said, in what may result in the first action against a transportation company for allegedly participating in the illegal semiconductor trade.",
+        "content": "The US government is investigating Singapore-based Apex Logistics for its suspected role in smuggling Nvidia Corp. AI chips to China, people familiar with the matter said, in what may result in the fi... [712 symbols]",
+        "enContentWordCount": 118,
+        "medium": "Article",
+        "links": [
+          "https://www.bloomberg.com/quote/NVDA:US",
+          "https://www.bloomberg.com/quote/SMCI:US"
+        ],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": "d789482d729343d9bdcb26043af92d3b",
+            "name": "Mackenzie Hawkins"
+          },
+          {
+            "id": "f6e7d0ab896b4f4bac20d7f579e545b2",
+            "name": "Kari Lindberg"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Nvidia Corp. AI chips",
+            "weight": 0.13924919
+          },
+          {
+            "name": "Alleged Nvidia AI Chip Smuggling",
+            "weight": 0.13378513
+          },
+          {
+            "name": "AI models",
+            "weight": 0.11680614
+          },
+          {
+            "name": "AI systems",
+            "weight": 0.116718926
+          },
+          {
+            "name": "Apex Logistics",
+            "weight": 0.1157248
+          },
+          {
+            "name": "Nvidia chips",
+            "weight": 0.115706414
+          },
+          {
+            "name": "Super Micro Computer Inc.",
+            "weight": 0.11515309
+          },
+          {
+            "name": "Super Micro",
+            "weight": 0.10957066
+          },
+          {
+            "name": "US export restrictions",
+            "weight": 0.10322298
+          },
+          {
+            "name": "Nvidia Corp.",
+            "weight": 0.09951205
+          }
+        ],
+        "topics": [
+          {
+            "name": "Smuggling"
+          },
+          {
+            "name": "AI"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Business"
+          },
+          {
+            "name": "World"
+          },
+          {
+            "name": "Tech"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Technology News",
+            "score": 0.9808759689331055
+          },
+          {
+            "name": "/News/Business News/Company News",
+            "score": 0.9653811454772949
+          },
+          {
+            "name": "/News/Business News/Other",
+            "score": 0.4409506320953369
+          },
+          {
+            "name": "/Science/Computer Science/Machine Learning & Artificial Intelligence",
+            "score": 0.33111974596977234
+          },
+          {
+            "name": "/Computers & Electronics/Computer Security/Network Security",
+            "score": 0.3242354094982147
+          }
+        ],
+        "entities": [
+          {
+            "data": "US",
+            "type": "GPE",
+            "mentions": 3
+          },
+          {
+            "data": "Singapore",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "China",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Apex Logistics",
+            "type": "ORG",
+            "mentions": 3
+          },
+          {
+            "data": "Nvidia",
+            "type": "ORG",
+            "mentions": 3
+          },
+          {
+            "data": "Super Micro Computer Inc.",
+            "type": "ORG",
+            "mentions": 2
+          }
+        ],
+        "companies": [
+          {
+            "id": "e7e32fc01ffd4df08ad05b7f49833334",
+            "name": "Super Micro Computer, Inc.",
+            "domains": [
+              "supermicro.com"
+            ],
+            "symbols": [
+              "SMCI",
+              "SMCI.NE"
+            ]
+          },
+          {
+            "id": "ccf0e57ce9c141b98ab711248a13ad31",
+            "name": "Apex International Co., Ltd.",
+            "domains": [
+              "apex-intl.com.tw"
+            ],
+            "symbols": [
+              "4927.TW"
+            ]
+          },
+          {
+            "id": "94bbd0512cd04cc4b7041d78d9d4cf73",
+            "name": "NVIDIA Corporation",
+            "domains": [
+              "nvidia.com"
+            ],
+            "symbols": [
+              "NVD.DE",
+              "NVD.F",
+              "NVDA",
+              "NVDA.NE"
+            ]
+          }
+        ],
+        "sentiment": {
+          "positive": 0.05764622,
+          "negative": 0.6053987,
+          "neutral": 0.33695513
+        },
+        "summary": "The US government is investigating Singapore-based Apex Logistics for suspected involvement in smuggling Nvidia Corp. AI chips to China. This may result in the first action against a transportation company for allegedly participating in the illegal semiconductor trade. Authorities are investigating whether Apex may have transported AI systems made by Super Micro Computer Inc. in violation of US export restrictions. The chips are the industrial standard for training and running AI models, and firms like Super Micro assemble them into servers that are installed in data centers.",
+        "shortSummary": "The US government is investigating Singapore-based Apex Logistics for allegedly smuggling Nvidia AI chips to China, potentially violating export restrictions.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "26417241c7e14bc09d35e02d64956f2a",
+        "places": [],
+        "people": []
+      }
+    },
+    {
+      "article_id": "stress_v1_ST05_904695ffdc3e4a2c872e463cc9003011",
+      "provider": "perigon",
+      "provider_article_id": "904695ffdc3e4a2c872e463cc9003011",
+      "headline": "TSMC Opens Kaohsiung Supplier Campus to Close Packaging Validation Gap",
+      "summary": "TSMC advanced packaging supplier campus in Kaohsiung’s Baipu Industrial Park will co-locate materials suppliers alongside TSMC engineers in shared cleanrooms, boosting CoWoS packaging validation efficiency by 25-50% and accelerating the AI chip supply chain ramp at Chiayi, Longtan, and Tongluo",
+      "body": "Taiwan Semiconductor Manufacturing Co. (TSMC) has opened a dedicated materials and equipment supplier campus in Kaohsiung's Baipu Industrial Park, designed to reduce the time it takes to qualify the next generation of materials needed to build AI chips. The campus will be the first in Taiwan specifically dedicated to co-locating advanced packaging materials and technology suppliers alongside TSMC's own engineers, and is expected to improve packaging validation efficiency by 25 to 50 percent. The site will include two buildings with modular cleanroom facilities designed for reconfiguration as packaging technologies evolve. Small laboratories will serve as joint testing and R&D spaces for TSMC and its packaging materials, and a dedicated training center for advanced packaging specialists. The goal is to build a world-class packaging talent base while connecting local suppliers directly with global supply chains.",
+      "source": "techtimes.com",
+      "article_url": "https://www.techtimes.com/articles/326313/20260902/tsmc-opens-kaohsiung-supplier-campus-close-packaging-validation-gap.htm",
+      "thumbnail": "https://d.techtimes.com/en/full/474409/2-nanometer-fabrication-plant-taiwan-semiconductor-manufacturing-company.jpg",
+      "authors": [
+        "Caleb Pittmann"
+      ],
+      "topics": [
+        "Tech",
+        "Business",
+        "advanced packaging materials",
+        "new packaging materials",
+        "physical CoWoS packaging capacity",
+        "materials suppliers",
+        "packaging capacity",
+        "advanced packaging",
+        "CoWoS packaging slots",
+        "traditional packaging supply chains",
+        "Kaohsiung Supplier Campus",
+        "packaging technologies"
+      ],
+      "countries": [],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-09-02T10:42:18-04:00",
+      "fetched_at": "2026-09-02T14:48:07.987048+00:00",
+      "has_full_text": false,
+      "raw_listing": {
+        "_benchmark": true,
+        "_benchmark_name": "stress_test_v1",
+        "_benchmark_case_id": "ST05",
+        "_benchmark_category": "semiconductor_supply_chain",
+        "_frozen_sha256": "6c9b2df4783efcab5c6e226385eebf5674384c187d6d85c0b8fa864595cc9f2a",
+        "text_basis": "perigon_provider_summary",
+        "full_text_verified": false,
+        "content_preview_truncated": true,
+        "original_content_chars": 219,
+        "normalized_summary_chars": 294,
+        "normalized_body_chars": 923,
+        "articleId": "904695ffdc3e4a2c872e463cc9003011",
+        "title": "TSMC Opens Kaohsiung Supplier Campus to Close Packaging Validation Gap",
+        "pubDate": "2026-09-02T10:42:18-04:00",
+        "domain": "techtimes.com",
+        "clusterId": "dba49bbc012c45e29a58f5e7caa0e575",
+        "reprint": false,
+        "provider_country_metadata": "us"
+      },
+      "raw_detail": {
+        "url": "https://www.techtimes.com/articles/326313/20260902/tsmc-opens-kaohsiung-supplier-campus-close-packaging-validation-gap.htm",
+        "authorsByline": "Caleb Pittmann",
+        "articleId": "904695ffdc3e4a2c872e463cc9003011",
+        "clusterId": "dba49bbc012c45e29a58f5e7caa0e575",
+        "source": {
+          "domain": "techtimes.com",
+          "location": {
+            "country": "us",
+            "state": "NY",
+            "city": "New York",
+            "coordinates": {
+              "lat": 40.7127281,
+              "lon": -74.0060152
+            }
+          }
+        },
+        "imageUrl": "https://d.techtimes.com/en/full/474409/2-nanometer-fabrication-plant-taiwan-semiconductor-manufacturing-company.jpg",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-09-02T10:42:18-04:00",
+        "addDate": "2026-09-02T14:48:07.987048+00:00",
+        "refreshDate": "2026-09-02T14:48:07.987050+00:00",
+        "score": 129.76505,
+        "title": "TSMC Opens Kaohsiung Supplier Campus to Close Packaging Validation Gap",
+        "description": "TSMC advanced packaging supplier campus in Kaohsiung’s Baipu Industrial Park will co-locate materials suppliers alongside TSMC engineers in shared cleanrooms, boosting CoWoS packaging validation efficiency by 25-50% and accelerating the AI chip supply chain ramp at Chiayi, Longtan, and Tongluo",
+        "content": "Taiwan Semiconductor Manufacturing Co. on Tuesday revealed that it is establishing a dedicated materials and equipment supplier campus inside Kaohsiung's Baipu Industrial Park — a facility designed no... [14563 symbols]",
+        "enContentWordCount": 2404,
+        "medium": "Article",
+        "links": [
+          "https://finance.biggo.com/news/ac97f0a8-22db-42ef-bc0d-53dea11b2ccb",
+          "https://www.techtimes.com/articles/326056/20260831/semicon-taiwan-2026-kicks-off-ai-chips-bottleneck-wires-connecting-them.htm",
+          "https://siliconanalysts.com/analysis/foundry-allocation-status-q1-2026",
+          "https://finance.biggo.com/news/b93d6948-619b-4de5-bc33-f1e7fe904d37",
+          "https://focustaiwan.tw/business/202609020006",
+          "https://www.trendforce.com/news/2026/06/15/news-tsmc-cowos-supply-demand-gap-reportedly-seen-narrowing-from-20-to-10-by-end-2026-as-capacity-expands/",
+          "https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm",
+          "https://www.taipeitimes.com/News/biz/archives/2026/07/13/2003860634",
+          "https://www.theregister.com/2023/07/26/tsmc_29b_chip_plant_taiwan/",
+          "https://www.techtimes.com/articles/321754/20260728/ai-supply-crisis-moves-upstream-advanced-packaging-becomes-binding-constraint.htm",
+          "https://en.wikipedia.org/wiki/Southern_Taiwan_Semiconductor_Corridor",
+          "https://esg.tsmc.com/en-US/articles/393",
+          "https://www.techtimes.com/articles/325773/20260827/semiconductor-supply-chain-closes-fluoropolymer-gap-nichias-builds-pfa-tube-plant-hsinchu.htm"
+        ],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": null,
+            "name": "Caleb Pittmann"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "advanced packaging materials",
+            "weight": 0.08375907
+          },
+          {
+            "name": "new packaging materials",
+            "weight": 0.08262351
+          },
+          {
+            "name": "physical CoWoS packaging capacity",
+            "weight": 0.079014376
+          },
+          {
+            "name": "materials suppliers",
+            "weight": 0.07759709
+          },
+          {
+            "name": "packaging capacity",
+            "weight": 0.07676618
+          },
+          {
+            "name": "advanced packaging",
+            "weight": 0.07146416
+          },
+          {
+            "name": "CoWoS packaging slots",
+            "weight": 0.071379125
+          },
+          {
+            "name": "traditional packaging supply chains",
+            "weight": 0.07063932
+          },
+          {
+            "name": "Kaohsiung Supplier Campus",
+            "weight": 0.07021816
+          },
+          {
+            "name": "packaging technologies",
+            "weight": 0.06880964
+          }
+        ],
+        "topics": [],
+        "categories": [
+          {
+            "name": "Tech"
+          },
+          {
+            "name": "Business"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Company News",
+            "score": 0.9871788024902344
+          },
+          {
+            "name": "/News/Technology News",
+            "score": 0.8615382313728333
+          },
+          {
+            "name": "/Business & Industrial/Manufacturing/Other",
+            "score": 0.8311430811882019
+          },
+          {
+            "name": "/News/Business News/Other",
+            "score": 0.37937837839126587
+          },
+          {
+            "name": "/Computers & Electronics/Computer Hardware/Computer Components",
+            "score": 0.33545970916748047
+          },
+          {
+            "name": "/Computers & Electronics/Electronics & Electrical/Electronic Components",
+            "score": 0.3345894515514374
+          }
+        ],
+        "entities": [
+          {
+            "data": "TSMC",
+            "type": "ORG",
+            "mentions": 33
+          },
+          {
+            "data": "Taiwan Semiconductor Manufacturing Co.",
+            "type": "ORG",
+            "mentions": 3
+          },
+          {
+            "data": "Ministry of Economic Affairs",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Nvidia",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "AMD",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "AT&S",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Nikkei Asia",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "National Science and Technology Council",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Chiayi",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Tongluo",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Baipu",
+            "type": "ORG",
+            "mentions": 10
+          },
+          {
+            "data": "Porter's",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Marshall's",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "TrendForce",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Wikipedia",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Kaohsiung",
+            "type": "GPE",
+            "mentions": 8
+          },
+          {
+            "data": "Taiwan",
+            "type": "GPE",
+            "mentions": 14
+          },
+          {
+            "data": "Baipu",
+            "type": "GPE",
+            "mentions": 6
+          },
+          {
+            "data": "Longtan",
+            "type": "GPE",
+            "mentions": 2
+          },
+          {
+            "data": "Tongluo",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Zhunan",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Japan",
+            "type": "GPE",
+            "mentions": 3
+          },
+          {
+            "data": "the United States",
+            "type": "GPE",
+            "mentions": 2
+          },
+          {
+            "data": "Chiayi",
+            "type": "GPE",
+            "mentions": 3
+          },
+          {
+            "data": "Pingtung",
+            "type": "GPE",
+            "mentions": 2
+          },
+          {
+            "data": "Hsinchu",
+            "type": "GPE",
+            "mentions": 2
+          },
+          {
+            "data": "Miaoli",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Arizona",
+            "type": "GPE",
+            "mentions": 3
+          },
+          {
+            "data": "Germany",
+            "type": "GPE",
+            "mentions": 2
+          },
+          {
+            "data": "Baipu Industrial Park",
+            "type": "FAC",
+            "mentions": 3
+          },
+          {
+            "data": "Chiayi",
+            "type": "FAC",
+            "mentions": 6
+          },
+          {
+            "data": "Pingtung Science Park",
+            "type": "FAC",
+            "mentions": 1
+          },
+          {
+            "data": "Tongluo Science Park",
+            "type": "FAC",
+            "mentions": 4
+          },
+          {
+            "data": "Longtan Phase 3",
+            "type": "FAC",
+            "mentions": 2
+          },
+          {
+            "data": "the 3D IC Global Summit",
+            "type": "EVENT",
+            "mentions": 3
+          },
+          {
+            "data": "SEMICON Taiwan 2026",
+            "type": "EVENT",
+            "mentions": 1
+          },
+          {
+            "data": "Jun He",
+            "type": "PERSON",
+            "mentions": 3
+          },
+          {
+            "data": "Michael Mertin",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Wu Cheng-wen",
+            "type": "PERSON",
+            "mentions": 2
+          },
+          {
+            "data": "H100",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "MI-series",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Baipu",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Europe",
+            "type": "LOC",
+            "mentions": 1
+          },
+          {
+            "data": "Japanese",
+            "type": "NORP",
+            "mentions": 2
+          },
+          {
+            "data": "Taiwanese",
+            "type": "NORP",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "4b328f7bf98d4e2cbf83b1c10355ab38",
+            "name": "Taiwan Semiconductor Manufacturing Company Limited",
+            "domains": [
+              "tsmc.com"
+            ],
+            "symbols": [
+              "TSFA.F",
+              "2330.TW",
+              "TSM"
+            ]
+          },
+          {
+            "id": "94bbd0512cd04cc4b7041d78d9d4cf73",
+            "name": "NVIDIA Corporation",
+            "domains": [
+              "nvidia.com"
+            ],
+            "symbols": [
+              "NVD.DE",
+              "NVD.F",
+              "NVDA",
+              "NVDA.NE"
+            ]
+          },
+          {
+            "id": "5aa0618f4d7643fba5fb84a93708d4a9",
+            "name": "Advanced Micro Devices, Inc.",
+            "domains": [
+              "amd.com"
+            ],
+            "symbols": [
+              "AMD",
+              "AMD.DE",
+              "AMD.SW"
+            ]
+          }
+        ],
+        "sentiment": {
+          "positive": 0.3434173,
+          "negative": 0.11525527,
+          "neutral": 0.5413275
+        },
+        "summary": "Taiwan Semiconductor Manufacturing Co. (TSMC) has opened a dedicated materials and equipment supplier campus in Kaohsiung's Baipu Industrial Park, designed to reduce the time it takes to qualify the next generation of materials needed to build AI chips. The campus will be the first in Taiwan specifically dedicated to co-locating advanced packaging materials and technology suppliers alongside TSMC's own engineers, and is expected to improve packaging validation efficiency by 25 to 50 percent. The site will include two buildings with modular cleanroom facilities designed for reconfiguration as packaging technologies evolve. Small laboratories will serve as joint testing and R&D spaces for TSMC and its packaging materials, and a dedicated training center for advanced packaging specialists. The goal is to build a world-class packaging talent base while connecting local suppliers directly with global supply chains.",
+        "shortSummary": "TSMC is establishing a dedicated materials and equipment campus in Kaohsiung to reduce packaging validation time, enhancing AI chip production efficiency by up to 50%.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [
+          {
+            "country": "tw",
+            "state": "KHH",
+            "city": "Kaohsiung"
+          }
+        ],
+        "reprint": false,
+        "reprintGroupId": "8bb40ed130d94654ac99f479c5899853",
+        "places": [],
+        "people": []
+      }
+    },
+    {
+      "article_id": "stress_v1_ST06_b4aea7ad2f90413ba77a7be85d1e09a1",
+      "provider": "perigon",
+      "provider_article_id": "b4aea7ad2f90413ba77a7be85d1e09a1",
+      "headline": "Microsoft Maia 300 Seeks 300,000 TSMC Units; Nvidia Controls 60% of Packaging Queue",
+      "summary": "Microsoft Maia 300 targets 300,000 TSMC units for 2027 delivery, but Nvidia’s 60 percent grip on CoWoS advanced packaging - the mandatory final assembly step every AI accelerator requires - means Microsoft must negotiate within a fully booked queue with 52-to-78-week lead times and compete against",
+      "body": "Microsoft is negotiating with Taiwan Semiconductor Manufacturing Co. (TSMC) to secure production capacity for over 300,000 units of its next-generation Maia 300 AI accelerator, with delivery set for 2027 and a public reveal planned as soon as September. However, the challenge is that every AI accelerator depends on a single packaging process controlled exclusively by TSMC, which is already dominated by Nvidia. The CoWoS, a 2.5D packaging technology developed by TSM, is the single global supply constraint on the AI accelerator market. Nvidia alone holds roughly 60 percent of TSMC's CoWSO allocation, with the top three customers accounting for more than 85 percent of total capacity. Despite doubling CoWOS capacity annually since 2023, demand has consistently outrun this expansion.",
+      "source": "techtimes.com",
+      "article_url": "https://www.techtimes.com/articles/323878/20260811/microsoft-maia-300-seeks-300000-tsmc-units-nvidia-controls-60-packaging-queue.htm",
+      "thumbnail": "https://d.techtimes.com/en/full/472164/sign-seen-microsoft-headquarters-july-3-2024.jpg",
+      "authors": [
+        "William Chan"
+      ],
+      "topics": [
+        "AI",
+        "Business",
+        "Tech",
+        "Microsoft Maia",
+        "Azure Maia",
+        "Maia",
+        "Trainium chips",
+        "custom chips",
+        "Microsoft",
+        "chip design",
+        "Chip",
+        "chip",
+        "multiple chip platforms"
+      ],
+      "countries": [],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-08-11T08:17:44-04:00",
+      "fetched_at": "2026-08-11T12:52:54.135591+00:00",
+      "has_full_text": false,
+      "raw_listing": {
+        "_benchmark": true,
+        "_benchmark_name": "stress_test_v1",
+        "_benchmark_case_id": "ST06",
+        "_benchmark_category": "advanced_packaging_dependency",
+        "_frozen_sha256": "5f625ce8024f30f86c2da7c4f36275492f6dde083f0649b6c1711301ff46a68d",
+        "text_basis": "perigon_provider_summary",
+        "full_text_verified": false,
+        "content_preview_truncated": true,
+        "original_content_chars": 219,
+        "normalized_summary_chars": 298,
+        "normalized_body_chars": 789,
+        "articleId": "b4aea7ad2f90413ba77a7be85d1e09a1",
+        "title": "Microsoft Maia 300 Seeks 300,000 TSMC Units; Nvidia Controls 60% of Packaging Queue",
+        "pubDate": "2026-08-11T08:17:44-04:00",
+        "domain": "techtimes.com",
+        "clusterId": "ed24594e1bb043a7b0fb1bc38be38e6e",
+        "reprint": false,
+        "provider_country_metadata": "us"
+      },
+      "raw_detail": {
+        "url": "https://www.techtimes.com/articles/323878/20260811/microsoft-maia-300-seeks-300000-tsmc-units-nvidia-controls-60-packaging-queue.htm",
+        "authorsByline": "William Chan",
+        "articleId": "b4aea7ad2f90413ba77a7be85d1e09a1",
+        "clusterId": "ed24594e1bb043a7b0fb1bc38be38e6e",
+        "source": {
+          "domain": "techtimes.com",
+          "location": {
+            "country": "us",
+            "state": "NY",
+            "city": "New York",
+            "coordinates": {
+              "lat": 40.7127281,
+              "lon": -74.0060152
+            }
+          }
+        },
+        "imageUrl": "https://d.techtimes.com/en/full/472164/sign-seen-microsoft-headquarters-july-3-2024.jpg",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-08-11T08:17:44-04:00",
+        "addDate": "2026-08-11T12:52:54.135591+00:00",
+        "refreshDate": "2026-08-11T12:52:54.135596+00:00",
+        "score": 113.3929,
+        "title": "Microsoft Maia 300 Seeks 300,000 TSMC Units; Nvidia Controls 60% of Packaging Queue",
+        "description": "Microsoft Maia 300 targets 300,000 TSMC units for 2027 delivery, but Nvidia’s 60 percent grip on CoWoS advanced packaging - the mandatory final assembly step every AI accelerator requires - means Microsoft must negotiate within a fully booked queue with 52-to-78-week lead times and compete against",
+        "content": "Microsoft is negotiating with Taiwan Semiconductor Manufacturing Co. to lock in production capacity for more than 300,000 units of its next-generation Maia 300 AI accelerator, with delivery targeted f... [14627 symbols]",
+        "enContentWordCount": 2561,
+        "medium": "Article",
+        "links": [
+          "https://tech.yahoo.com/ai/copilot/articles/microsoft-plans-unveil-maia-300-130901466.html",
+          "https://www.techtimes.com/articles/321754/20260728/ai-supply-crisis-moves-upstream-advanced-packaging-becomes-binding-constraint.htm",
+          "https://www.techtimes.com/articles/317072/20260524/anthropic-microsoft-negotiate-maia-200-chip-deal-claude-could-become-custom-silicons-first.htm",
+          "https://www.techtimes.com/articles/323238/20260805/anthropic-confirms-house-chip-team-co-design-bet-could-cut-claude-inference-costs-half.htm",
+          "https://agentmarketcap.ai/blog/2026/04/17/ai-inference-overtakes-training-two-thirds-2026-compute",
+          "https://www.techtimes.com/articles/322505/20260731/mediatek-q2-mobile-revenue-falls-20-5b-ai-bet-targets-broadcom-dominance.htm",
+          "https://stocktwits.com/news-articles/markets/equity/microsoft-to-reportedly-hike-production-of-ai-chips/cZojwJgRJO6",
+          "https://www.cnbc.com/2026/07/29/microsoft-msft-q4-earnings-report-2026.html",
+          "https://qz.com/microsoft-maia-300-ai-chip-unveil-fall-tsmc-081026",
+          "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+          "https://windowsforum.com/windows-news.4/nvidia-under-pressure-amazon-google-and-microsoft-ramp-up-custom-ai-chips-for-2026.423617/",
+          "https://finance.yahoo.com/technology/ai/articles/microsoft-plans-maia-300-chip-140432692.html",
+          "https://semiconductorx.com/packaging-cowos.html",
+          "https://www.techzine.eu/blogs/devices/139731/microsofts-azure-maia-chief-on-the-complex-future-of-ai-compute/",
+          "https://www.techtimes.com/articles/320142/20260711/tsmc-q2-earnings-july-16-three-cowos-signals-that-test-ais-spending-ceiling.htm",
+          "https://siliconanalysts.com/analysis/foundry-allocation-status-q1-2026"
+        ],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": null,
+            "name": "William Chan"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Microsoft Maia",
+            "weight": 0.09473204
+          },
+          {
+            "name": "Azure Maia",
+            "weight": 0.08209436
+          },
+          {
+            "name": "Maia",
+            "weight": 0.07505939
+          },
+          {
+            "name": "Trainium chips",
+            "weight": 0.070345804
+          },
+          {
+            "name": "custom chips",
+            "weight": 0.06975678
+          },
+          {
+            "name": "Microsoft",
+            "weight": 0.06679834
+          },
+          {
+            "name": "chip design",
+            "weight": 0.06632305
+          },
+          {
+            "name": "Chip",
+            "weight": 0.064902104
+          },
+          {
+            "name": "chip",
+            "weight": 0.064902104
+          },
+          {
+            "name": "multiple chip platforms",
+            "weight": 0.063876376
+          }
+        ],
+        "topics": [
+          {
+            "name": "AI"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Business"
+          },
+          {
+            "name": "Tech"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Technology News",
+            "score": 0.9809125065803528
+          },
+          {
+            "name": "/News/Business News/Company News",
+            "score": 0.9667260646820068
+          },
+          {
+            "name": "/Computers & Electronics/Computer Hardware/Computer Components",
+            "score": 0.7115311622619629
+          },
+          {
+            "name": "/Computers & Electronics/Electronics & Electrical/Electronic Components",
+            "score": 0.4050956964492798
+          }
+        ],
+        "entities": [
+          {
+            "data": "Microsoft",
+            "type": "ORG",
+            "mentions": 35
+          },
+          {
+            "data": "TSMC",
+            "type": "ORG",
+            "mentions": 18
+          },
+          {
+            "data": "Nvidia",
+            "type": "ORG",
+            "mentions": 14
+          },
+          {
+            "data": "Taiwan Semiconductor Manufacturing Co.",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "The Information",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Reuters",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Google",
+            "type": "ORG",
+            "mentions": 8
+          },
+          {
+            "data": "Amazon",
+            "type": "ORG",
+            "mentions": 10
+          },
+          {
+            "data": "AMD",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Broadcom",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "J.P. Morgan",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Wall",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "SK Hynix",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "TechTimes",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Marvell Technology",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Anthropic",
+            "type": "ORG",
+            "mentions": 12
+          },
+          {
+            "data": "Maia",
+            "type": "ORG",
+            "mentions": 4
+          },
+          {
+            "data": "Azure",
+            "type": "ORG",
+            "mentions": 3
+          },
+          {
+            "data": "Claude",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Maia 300",
+            "type": "PRODUCT",
+            "mentions": 42
+          },
+          {
+            "data": "H100",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "H200",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "B100",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "B200",
+            "type": "PRODUCT",
+            "mentions": 2
+          },
+          {
+            "data": "Rubin",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "MI300",
+            "type": "PRODUCT",
+            "mentions": 2
+          },
+          {
+            "data": "TPU",
+            "type": "PRODUCT",
+            "mentions": 3
+          },
+          {
+            "data": "Trainium",
+            "type": "PRODUCT",
+            "mentions": 9
+          },
+          {
+            "data": "N3",
+            "type": "PRODUCT",
+            "mentions": 2
+          },
+          {
+            "data": "Azure Maia",
+            "type": "PRODUCT",
+            "mentions": 7
+          },
+          {
+            "data": "Blackwell",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "OpenAI",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Microsoft 365",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Anthropic",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Tensor Processing Units",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Graviton",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Nitro",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Claude",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Taiwan",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Arizona",
+            "type": "GPE",
+            "mentions": 2
+          },
+          {
+            "data": "Iowa",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "US",
+            "type": "GPE",
+            "mentions": 2
+          },
+          {
+            "data": "C.C. Wei",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Andrew Wall",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Satya Nadella",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Jensen Huang's",
+            "type": "PERSON",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "f1d262a1353b4567858f806721fe8cb8",
+            "name": "Google",
+            "domains": [
+              "about.google"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "94bbd0512cd04cc4b7041d78d9d4cf73",
+            "name": "NVIDIA Corporation",
+            "domains": [
+              "nvidia.com"
+            ],
+            "symbols": [
+              "NVD.DE",
+              "NVDA"
+            ]
+          },
+          {
+            "id": "3e470e759f7640fdbf5d22e2dffa277c",
+            "name": "Anthropic",
+            "domains": [
+              "anthropic.com"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "4de51cf8472b4ce7a5aecdf52a1de4c0",
+            "name": "Microsoft Corporation",
+            "domains": [
+              "microsoft.com"
+            ],
+            "symbols": [
+              "4338.HK",
+              "MSF.BR",
+              "MSF.DE",
+              "MSFT"
+            ]
+          },
+          {
+            "id": "435e0daa7ea443ba89f0dd39e95dd71d",
+            "name": "Amazon.com, Inc.",
+            "domains": [
+              "aboutamazon.com"
+            ],
+            "symbols": [
+              "AMZ.DE",
+              "AMZN"
+            ]
+          },
+          {
+            "id": "4b328f7bf98d4e2cbf83b1c10355ab38",
+            "name": "Taiwan Semiconductor Manufacturing Company Limited",
+            "domains": [
+              "tsmc.com"
+            ],
+            "symbols": [
+              "2330.TW",
+              "TSM"
+            ]
+          },
+          {
+            "id": "5aa0618f4d7643fba5fb84a93708d4a9",
+            "name": "Advanced Micro Devices, Inc.",
+            "domains": [
+              "amd.com"
+            ],
+            "symbols": [
+              "AMD",
+              "AMD.DE",
+              "AMD.SW"
+            ]
+          },
+          {
+            "id": "d39ab78fbc5d4d4089e1b697f53bf7e1",
+            "name": "Broadcom Inc.",
+            "domains": [
+              "broadcom.com"
+            ],
+            "symbols": [
+              "0YXG.L",
+              "AVGO",
+              "AVGOP"
+            ]
+          },
+          {
+            "id": "bd81f9d15d244f3988ec4d59f7b3b854",
+            "name": "Marvell Technology, Inc.",
+            "domains": [
+              "marvell.com"
+            ],
+            "symbols": [
+              "MRVL"
+            ]
+          },
+          {
+            "id": "4fad1bd4b34544feba82a99e3d3eea1b",
+            "name": "SK hynix Inc.",
+            "domains": [
+              "skhynix.com"
+            ],
+            "symbols": [
+              "000660.KS",
+              "HY9H.F"
+            ]
+          }
+        ],
+        "sentiment": {
+          "positive": 0.12889324,
+          "negative": 0.2926006,
+          "neutral": 0.5785062
+        },
+        "summary": "Microsoft is negotiating with Taiwan Semiconductor Manufacturing Co. (TSMC) to secure production capacity for over 300,000 units of its next-generation Maia 300 AI accelerator, with delivery set for 2027 and a public reveal planned as soon as September. However, the challenge is that every AI accelerator depends on a single packaging process controlled exclusively by TSMC, which is already dominated by Nvidia. The CoWoS, a 2.5D packaging technology developed by TSM, is the single global supply constraint on the AI accelerator market. Nvidia alone holds roughly 60 percent of TSMC's CoWSO allocation, with the top three customers accounting for more than 85 percent of total capacity. Despite doubling CoWOS capacity annually since 2023, demand has consistently outrun this expansion.",
+        "shortSummary": "Microsoft is negotiating with TSMC to secure 300,000 units of CoWoS packaging for its next-generation AI accelerator, aiming for production in 2027 despite current supply constraints.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "cb3a22e5ebbb4c11ac4de98c38e17b72",
+        "places": [],
+        "people": [
+          {
+            "wikidataId": "Q7426870",
+            "name": "Satya Nadella"
+          },
+          {
+            "wikidataId": "Q305177",
+            "name": "Jensen Huang"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "stress_v1_ST07_331d0a271d0a4bfe9f3ec9ff1c8152d8",
+      "provider": "perigon",
+      "provider_article_id": "331d0a271d0a4bfe9f3ec9ff1c8152d8",
+      "headline": "Major outage on Amazon Web Services disrupts access to dozens of popular websites, online services",
+      "summary": "Amazon Web Services suffered a major outage Friday morning that disrupted access to dozens of popular websites and online services.",
+      "body": "Amazon Web Services experienced a major outage early Friday morning, disrupting access to several popular websites and online services. The outage began around 6:40 a.m. ET and affected services including Apple Pay, DoorDash, Reddit and Hulu. The disruption was caused by connectivity issues in the US-West-2 region in Oregon. The affected services included AWS Direct Connect, Global Accelerator, Internet Connectivity, IoT Core, Amazon API Gateway, Elastic Compute Cloud and Elastic Container Service. Despite the disruption, no customer data was lost or Amazon's broader global network failed. The issue was resolved shortly after 9 a.am.",
+      "source": "nypost.com",
+      "article_url": "https://nypost.com/2026/07/24/business/major-outage-on-amazon-web-services-disrupts-access-to-dozens-of-popular-websites-online-services/",
+      "thumbnail": "https://nypost.com/wp-content/uploads/sites/2/2026/07/int-comp.jpg?quality=75&strip=all&w=1200",
+      "authors": [
+        "Ariel Zilber"
+      ],
+      "topics": [
+        "Tech",
+        "service issues",
+        "online services",
+        "multiple services",
+        "service interruptions",
+        "impacted services",
+        "services",
+        "Amazon Web Services",
+        "Amazon API Gateway",
+        "AWS Direct Connect",
+        "popular websites"
+      ],
+      "countries": [],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-07-24T15:55:23+00:00",
+      "fetched_at": "2026-07-24T15:58:38.809706+00:00",
+      "has_full_text": false,
+      "raw_listing": {
+        "_benchmark": true,
+        "_benchmark_name": "stress_test_v1",
+        "_benchmark_case_id": "ST07",
+        "_benchmark_category": "cloud_infrastructure_outage",
+        "_frozen_sha256": "e80f21a49aa53a6086afef46264688f635cd1a8bce25cf7f09d64f64e5844510",
+        "text_basis": "perigon_provider_summary",
+        "full_text_verified": false,
+        "content_preview_truncated": true,
+        "original_content_chars": 218,
+        "normalized_summary_chars": 131,
+        "normalized_body_chars": 641,
+        "articleId": "331d0a271d0a4bfe9f3ec9ff1c8152d8",
+        "title": "Major outage on Amazon Web Services disrupts access to dozens of popular websites, online services",
+        "pubDate": "2026-07-24T15:55:23+00:00",
+        "domain": "nypost.com",
+        "clusterId": "132bc18329da419db74e36a4bfc036c0",
+        "reprint": false,
+        "provider_country_metadata": "us"
+      },
+      "raw_detail": {
+        "url": "https://nypost.com/2026/07/24/business/major-outage-on-amazon-web-services-disrupts-access-to-dozens-of-popular-websites-online-services/",
+        "authorsByline": "Ariel Zilber",
+        "articleId": "331d0a271d0a4bfe9f3ec9ff1c8152d8",
+        "clusterId": "132bc18329da419db74e36a4bfc036c0",
+        "source": {
+          "domain": "nypost.com",
+          "paywall": false,
+          "location": {
+            "country": "us",
+            "state": "NY",
+            "city": "New York",
+            "coordinates": {
+              "lat": 40.7127281,
+              "lon": -74.0060152
+            }
+          }
+        },
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/07/int-comp.jpg?quality=75&strip=all&w=1200",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-07-24T15:55:23+00:00",
+        "addDate": "2026-07-24T15:58:38.809706+00:00",
+        "refreshDate": "2026-09-22T18:12:28.302981+00:00",
+        "score": 163.46764,
+        "title": "Major outage on Amazon Web Services disrupts access to dozens of popular websites, online services",
+        "description": "Amazon Web Services suffered a major outage Friday morning that disrupted access to dozens of popular websites and online services.",
+        "content": "See more of our coverage in your search results.\n\nAmazon Web Services suffered a major outage Friday morning that disrupted access to dozens of popular websites and online services.\n\nProblems began ar... [1451 symbols]",
+        "enContentWordCount": 243,
+        "medium": "Article",
+        "links": [
+          "https://nypost.com/2026/07/23/business/chatgpt-kept-florida-pastor-from-seeking-emergency-care-before-near-fatal-medical-crisis-lawsuit-alleges/",
+          "https://nypost.com/2026/07/23/business/south-korean-ai-billionaire-faces-1-billion-divorce-payout-after-marriage-of-the-century-crumbles-amid-affair-with-younger-woman/",
+          "https://health.aws.amazon.com/health/status",
+          "https://nypost.com/2026/07/24/business/mamdanis-muni-bond-problem-is-slowly-worsening-heres-how-it-could-come-to-a-head/"
+        ],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": "56fe42fb9ae94ee4b7781167c7ff9845",
+            "name": "Ariel Zilber"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "service issues",
+            "weight": 0.10495213
+          },
+          {
+            "name": "online services",
+            "weight": 0.101728655
+          },
+          {
+            "name": "multiple services",
+            "weight": 0.10100537
+          },
+          {
+            "name": "service interruptions",
+            "weight": 0.10072688
+          },
+          {
+            "name": "impacted services",
+            "weight": 0.10069605
+          },
+          {
+            "name": "services",
+            "weight": 0.09750255
+          },
+          {
+            "name": "Amazon Web Services",
+            "weight": 0.09656571
+          },
+          {
+            "name": "Amazon API Gateway",
+            "weight": 0.09264573
+          },
+          {
+            "name": "AWS Direct Connect",
+            "weight": 0.09196711
+          },
+          {
+            "name": "popular websites",
+            "weight": 0.08934175
+          }
+        ],
+        "topics": [],
+        "categories": [
+          {
+            "name": "Tech"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Company News",
+            "score": 0.8912444114685059
+          },
+          {
+            "name": "/News/Technology News",
+            "score": 0.8653379082679749
+          },
+          {
+            "name": "/Internet & Telecom/Mobile & Wireless/Mobile Apps & Add-Ons",
+            "score": 0.30311259627342224
+          }
+        ],
+        "entities": [
+          {
+            "data": "Amazon Web Services",
+            "type": "ORG",
+            "mentions": 5
+          },
+          {
+            "data": "Apple Pay",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Reddit",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Hulu",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Downdetector",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "AWS",
+            "type": "ORG",
+            "mentions": 5
+          },
+          {
+            "data": "morning",
+            "type": "TIME",
+            "mentions": 1
+          },
+          {
+            "data": "around 6:40 a.m. ET",
+            "type": "TIME",
+            "mentions": 1
+          },
+          {
+            "data": "shortly after 9 a.m. ET",
+            "type": "TIME",
+            "mentions": 1
+          },
+          {
+            "data": "DoorDash",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Direct Connect",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Global Accelerator",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Internet Connectivity",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "IoT Core",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Elastic Compute Cloud",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Elastic Container Service",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "PlayStation",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "US-West-2 region",
+            "type": "LOC",
+            "mentions": 1
+          },
+          {
+            "data": "Oregon",
+            "type": "GPE",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "e4d74ce7f47f46a2bddd0302376b2b31",
+            "name": "Amazon Web Services",
+            "domains": [
+              "aws.amazon.com"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "07c61b44f83d474d96f88b1bae1ab1a3",
+            "name": "Reddit, Inc.",
+            "domains": [
+              "redditinc.com"
+            ],
+            "symbols": [
+              "RDDT"
+            ]
+          },
+          {
+            "id": "435e0daa7ea443ba89f0dd39e95dd71d",
+            "name": "Amazon.com, Inc.",
+            "domains": [
+              "aboutamazon.com"
+            ],
+            "symbols": [
+              "AMZ.DE",
+              "AMZN"
+            ]
+          }
+        ],
+        "sentiment": {
+          "positive": 0.03393457,
+          "negative": 0.8165583,
+          "neutral": 0.1495072
+        },
+        "summary": "Amazon Web Services experienced a major outage early Friday morning, disrupting access to several popular websites and online services. The outage began around 6:40 a.m. ET and affected services including Apple Pay, DoorDash, Reddit and Hulu. The disruption was caused by connectivity issues in the US-West-2 region in Oregon. The affected services included AWS Direct Connect, Global Accelerator, Internet Connectivity, IoT Core, Amazon API Gateway, Elastic Compute Cloud and Elastic Container Service. Despite the disruption, no customer data was lost or Amazon's broader global network failed. The issue was resolved shortly after 9 a.am.",
+        "shortSummary": "Amazon Web Services experienced a major outage affecting dozens of popular websites and online services due to regional connectivity issues, prompting apologies from companies and users.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "21ef21d0e9bb4965b32a6c2782adf3dc",
+        "places": [],
+        "people": []
+      }
+    },
+    {
+      "article_id": "stress_v1_ST08_9b901bc54a3a41458f5a01e53c0643a4",
+      "provider": "perigon",
+      "provider_article_id": "9b901bc54a3a41458f5a01e53c0643a4",
+      "headline": "Microsoft 365 Outage: Azure Maintenance Bug Wiped IP Routes, Taking Down Teams for Hours",
+      "summary": "Microsoft 365 outage on July 23, 2026, knocked out Teams, SharePoint, OneDrive, and Copilot Chat for nearly five hours after a bug in Azure’s automated maintenance system removed IP routes from more devices than engineers intended, severing a West US datacenter from Microsoft’s global network and",
+      "body": "Microsoft's automated network maintenance system was hit by a bug that caused it to remove IP routes from far more devices than intended during a routine maintenance event on July 23, causing a disruption that lasted nearly five hours. The bug affected a West US Azure datacenter from Microsoft's global wide-area network and disrupted Teams, SharePoint, OneDrive, Copilot Chat, and more than a dozen other cloud services across North America. The outage generated 2,403 user reports on Downdetector by 11:11 a.m. ET, 83 times the platform's typical baseline of 29 reports. IncidentHub detected cascading outages in at least 19 downstream SaaS platforms whose infrastructure routes through Azure's West US region, and 16 of these services still had open incidents after Microsoft declared full recovery. The issue was identified in Microsoft's Post Incident Review (PIR). The bug was not in the network hardware itself but in the software layer that translates human maintenance requests into machine-readable instructions. The failure initially appeared to be \"large-scale route churn\" in the WAN, which can indicate a misconfigured or buggy automation system.",
+      "source": "techtimes.com",
+      "article_url": "https://www.techtimes.com/articles/321568/20260725/microsoft-365-outage-azure-maintenance-bug-wiped-ip-routes-taking-down-teams-hours.htm",
+      "thumbnail": "https://d.techtimes.com/en/full/469856/azure-data-center.png",
+      "authors": [
+        "Adrian Parham"
+      ],
+      "topics": [
+        "Tech",
+        "Microsoft",
+        "Microsoft Teams",
+        "Microsoft Sentinel",
+        "Microsoft Graph",
+        "Microsoft Defender customers",
+        "Microsoft Loop pages",
+        "Microsoft Service Health alerts",
+        "Azure West US",
+        "Azure infrastructure",
+        "Microsofts automated network maintenance request conversion system"
+      ],
+      "countries": [],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-07-25T10:27:08-04:00",
+      "fetched_at": "2026-07-25T14:36:46.007115+00:00",
+      "has_full_text": false,
+      "raw_listing": {
+        "_benchmark": true,
+        "_benchmark_name": "stress_test_v1",
+        "_benchmark_case_id": "ST08",
+        "_benchmark_category": "cloud_infrastructure_outage",
+        "_frozen_sha256": "8dc7218c8ba7fc46ca71dc2d662bb426fe551d02bff5083cd096c29d2b659200",
+        "text_basis": "perigon_provider_summary",
+        "full_text_verified": false,
+        "content_preview_truncated": true,
+        "original_content_chars": 219,
+        "normalized_summary_chars": 297,
+        "normalized_body_chars": 1161,
+        "articleId": "9b901bc54a3a41458f5a01e53c0643a4",
+        "title": "Microsoft 365 Outage: Azure Maintenance Bug Wiped IP Routes, Taking Down Teams for Hours",
+        "pubDate": "2026-07-25T10:27:08-04:00",
+        "domain": "techtimes.com",
+        "clusterId": "f867026dd69c4d8b869eeb96bc45d229",
+        "reprint": false,
+        "provider_country_metadata": "us"
+      },
+      "raw_detail": {
+        "url": "https://www.techtimes.com/articles/321568/20260725/microsoft-365-outage-azure-maintenance-bug-wiped-ip-routes-taking-down-teams-hours.htm",
+        "authorsByline": "Adrian Parham",
+        "articleId": "9b901bc54a3a41458f5a01e53c0643a4",
+        "clusterId": "f867026dd69c4d8b869eeb96bc45d229",
+        "source": {
+          "domain": "techtimes.com",
+          "location": {
+            "country": "us",
+            "state": "NY",
+            "city": "New York",
+            "coordinates": {
+              "lat": 40.7127281,
+              "lon": -74.0060152
+            }
+          }
+        },
+        "imageUrl": "https://d.techtimes.com/en/full/469856/azure-data-center.png",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-07-25T10:27:08-04:00",
+        "addDate": "2026-07-25T14:36:46.007115+00:00",
+        "refreshDate": "2026-07-25T14:36:46.007117+00:00",
+        "score": 92.5127,
+        "title": "Microsoft 365 Outage: Azure Maintenance Bug Wiped IP Routes, Taking Down Teams for Hours",
+        "description": "Microsoft 365 outage on July 23, 2026, knocked out Teams, SharePoint, OneDrive, and Copilot Chat for nearly five hours after a bug in Azure’s automated maintenance system removed IP routes from more devices than engineers intended, severing a West US datacenter from Microsoft’s global network and",
+        "content": "Microsoft's automated network maintenance system contained a bug that caused it to remove IP routes from far more devices than intended during a routine maintenance event on July 23 — stranding a West... [15094 symbols]",
+        "enContentWordCount": 2526,
+        "medium": "Article",
+        "links": [
+          "https://blog.incidenthub.cloud/azure-west-us-outage-jul-23-2026",
+          "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-outage-affects-teams-sharepoint-and-other-services/",
+          "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-massive-microsoft-365-outage-on-maintenance-bug/",
+          "https://www.techtimes.com/articles/314250/20260123/microsoft-365-outage-cripples-outlook-teams-millions-struggle-work-online.htm",
+          "https://azure.status.microsoft/en-us/status/history/",
+          "https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services",
+          "https://www.techtimes.com/articles/318290/20260612/microsoft-copilot-fails-twice-june-enterprise-it-has-no-sla-protection-ai-downtime.htm"
+        ],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": null,
+            "name": "Adrian Parham"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Microsoft",
+            "weight": 0.08216579
+          },
+          {
+            "name": "Microsoft Teams",
+            "weight": 0.081949316
+          },
+          {
+            "name": "Microsoft Sentinel",
+            "weight": 0.07900294
+          },
+          {
+            "name": "Microsoft Graph",
+            "weight": 0.07885165
+          },
+          {
+            "name": "Microsoft Defender customers",
+            "weight": 0.077957444
+          },
+          {
+            "name": "Microsoft Loop pages",
+            "weight": 0.074336365
+          },
+          {
+            "name": "Microsoft Service Health alerts",
+            "weight": 0.07247642
+          },
+          {
+            "name": "Azure West US",
+            "weight": 0.06981716
+          },
+          {
+            "name": "Azure infrastructure",
+            "weight": 0.061048467
+          },
+          {
+            "name": "Microsofts automated network maintenance request conversion system",
+            "weight": 0.060153186
+          }
+        ],
+        "topics": [],
+        "categories": [
+          {
+            "name": "Tech"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Technology News",
+            "score": 0.840520977973938
+          },
+          {
+            "name": "/News/Business News/Company News",
+            "score": 0.6524628400802612
+          },
+          {
+            "name": "/Computers & Electronics/Software/Business & Productivity Software",
+            "score": 0.5741560459136963
+          },
+          {
+            "name": "/Computers & Electronics/Enterprise Technology/Other",
+            "score": 0.5554653406143188
+          },
+          {
+            "name": "/Internet & Telecom/Web Services/Cloud Storage",
+            "score": 0.4943964183330536
+          },
+          {
+            "name": "/Computers & Electronics/Computer Security/Network Security",
+            "score": 0.371934711933136
+          }
+        ],
+        "entities": [
+          {
+            "data": "Microsoft",
+            "type": "ORG",
+            "mentions": 54
+          },
+          {
+            "data": "Downdetector",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "BleepingComputer",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "IncidentHub",
+            "type": "ORG",
+            "mentions": 6
+          },
+          {
+            "data": "Azure",
+            "type": "ORG",
+            "mentions": 7
+          },
+          {
+            "data": "Datadog",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "MongoDB Cloud",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Wiz",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Ellucian Cloud's",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "MeridianLink",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "TechTimes",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Azure",
+            "type": "PRODUCT",
+            "mentions": 18
+          },
+          {
+            "data": "Teams",
+            "type": "PRODUCT",
+            "mentions": 5
+          },
+          {
+            "data": "SharePoint",
+            "type": "PRODUCT",
+            "mentions": 3
+          },
+          {
+            "data": "OneDrive",
+            "type": "PRODUCT",
+            "mentions": 2
+          },
+          {
+            "data": "Copilot Chat",
+            "type": "PRODUCT",
+            "mentions": 2
+          },
+          {
+            "data": "MO1437424",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Downdetector",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "The Microsoft 365 Admin Center",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Power Automate",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "ExpressRoute",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Log Analytics",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Sentinel",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Power BI Embedded",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "VPN Gateway",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Defender",
+            "type": "PRODUCT",
+            "mentions": 2
+          },
+          {
+            "data": "Threat Explorer",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Advanced Hunting",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Exchange Online",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Slack",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "PagerDuty",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "365",
+            "type": "PRODUCT",
+            "mentions": 2
+          },
+          {
+            "data": "Hours",
+            "type": "TIME",
+            "mentions": 6
+          },
+          {
+            "data": "10:44 a.m. ET",
+            "type": "TIME",
+            "mentions": 5
+          },
+          {
+            "data": "3:41 p.m. ET",
+            "type": "TIME",
+            "mentions": 3
+          },
+          {
+            "data": "11:11 a.m.",
+            "type": "TIME",
+            "mentions": 2
+          },
+          {
+            "data": "10:45 a.m.",
+            "type": "TIME",
+            "mentions": 1
+          },
+          {
+            "data": "noon to",
+            "type": "TIME",
+            "mentions": 1
+          },
+          {
+            "data": "2:26 p.m. ET",
+            "type": "TIME",
+            "mentions": 1
+          },
+          {
+            "data": "a few minutes",
+            "type": "TIME",
+            "mentions": 1
+          },
+          {
+            "data": "West US",
+            "type": "LOC",
+            "mentions": 8
+          },
+          {
+            "data": "North America",
+            "type": "LOC",
+            "mentions": 1
+          },
+          {
+            "data": "East US",
+            "type": "LOC",
+            "mentions": 1
+          },
+          {
+            "data": "US",
+            "type": "GPE",
+            "mentions": 2
+          },
+          {
+            "data": "Hrishikesh Barua",
+            "type": "PERSON",
+            "mentions": 2
+          }
+        ],
+        "companies": [
+          {
+            "id": "4de51cf8472b4ce7a5aecdf52a1de4c0",
+            "name": "Microsoft Corporation",
+            "domains": [
+              "microsoft.com"
+            ],
+            "symbols": [
+              "4338.HK",
+              "MSF.BR",
+              "MSF.DE",
+              "MSFT"
+            ]
+          },
+          {
+            "id": "f8bd8ee1d871480b8e479869dd08cc64",
+            "name": "Datadog, Inc.",
+            "domains": [
+              "datadoghq.com"
+            ],
+            "symbols": [
+              "DDOG"
+            ]
+          },
+          {
+            "id": "90b634bf95dd4133bd51871c0ec58e74",
+            "name": "MeridianLink, Inc.",
+            "domains": [
+              "meridianlink.com"
+            ],
+            "symbols": [
+              "MLNK"
+            ]
+          },
+          {
+            "id": "2e2632aaa23548549c5532bb108de319",
+            "name": "Wiz (company)",
+            "domains": [
+              "wiz.io"
+            ],
+            "symbols": []
+          }
+        ],
+        "sentiment": {
+          "positive": 0.047921624,
+          "negative": 0.67590415,
+          "neutral": 0.2761742
+        },
+        "summary": "Microsoft's automated network maintenance system was hit by a bug that caused it to remove IP routes from far more devices than intended during a routine maintenance event on July 23, causing a disruption that lasted nearly five hours. The bug affected a West US Azure datacenter from Microsoft's global wide-area network and disrupted Teams, SharePoint, OneDrive, Copilot Chat, and more than a dozen other cloud services across North America. The outage generated 2,403 user reports on Downdetector by 11:11 a.m. ET, 83 times the platform's typical baseline of 29 reports. IncidentHub detected cascading outages in at least 19 downstream SaaS platforms whose infrastructure routes through Azure's West US region, and 16 of these services still had open incidents after Microsoft declared full recovery. The issue was identified in Microsoft's Post Incident Review (PIR). The bug was not in the network hardware itself but in the software layer that translates human maintenance requests into machine-readable instructions. The failure initially appeared to be \"large-scale route churn\" in the WAN, which can indicate a misconfigured or buggy automation system.",
+        "shortSummary": "Microsoft's automated network maintenance system caused a major outage, blocking Teams, SharePoint, and Copilot Chat for nearly five hours due to a bug.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "081636aaf6994b99b7762fd16af1623e",
+        "places": [],
+        "people": []
+      }
+    },
+    {
+      "article_id": "stress_v1_ST09_1f00f61492f14bfeb4580c1a678ca601",
+      "provider": "perigon",
+      "provider_article_id": "1f00f61492f14bfeb4580c1a678ca601",
+      "headline": "Strait of Hormuz: US fires at tanker as new Iran blockade begins",
+      "summary": "The US military targeted an unladen oil tanker which it said was heading for the key Iranian oil terminal on Kharg island.",
+      "body": "The US has reintroduced a naval blockade of Iranian ports, following allegations of Iranian attacks on commercial vessels in the Strait of Hormuz. The blockade was in place between 13 April and 18 June, with the US redirecting more than 140 vessels and disabling nine ships during this period. It is unclear if this particular vessel, Belma, changed its course after being warned about its potential violations. The sanctions were lifted after a ceasefire deal was reached in June, and experts estimate that Iran exported at least 74 million barrels of oil worth up to $6bn before they were reimposed.",
+      "source": "bbc.com",
+      "article_url": "https://www.bbc.com/news/articles/clyqwkegqk0o",
+      "thumbnail": "https://ichef.bbci.co.uk/news/1024/branded_news/796a/live/75bc39a0-8107-11f1-b976-0b9c15b0ccfc.png",
+      "authors": [
+        "Thomas Copeland"
+      ],
+      "topics": [
+        "World",
+        "Iranian oil",
+        "new Iran blockade",
+        "Iranian ports",
+        "Nuclear Iran",
+        "key US sanctions",
+        "US Central Command",
+        "US enforcement",
+        "alleged Iranian attacks",
+        "US",
+        "oil"
+      ],
+      "countries": [],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-07-16T12:09:26.960000+00:00",
+      "fetched_at": "2026-07-16T12:38:20.450256+00:00",
+      "has_full_text": false,
+      "raw_listing": {
+        "_benchmark": true,
+        "_benchmark_name": "stress_test_v1",
+        "_benchmark_case_id": "ST09",
+        "_benchmark_category": "geopolitics_energy_shipping",
+        "_frozen_sha256": "2154a71598f5cb7aec4e979eaa799a2276bcc61125cac1e0dbeb09d5c47c96db",
+        "text_basis": "perigon_provider_summary",
+        "full_text_verified": false,
+        "content_preview_truncated": true,
+        "original_content_chars": 218,
+        "normalized_summary_chars": 122,
+        "normalized_body_chars": 601,
+        "articleId": "1f00f61492f14bfeb4580c1a678ca601",
+        "title": "Strait of Hormuz: US fires at tanker as new Iran blockade begins",
+        "pubDate": "2026-07-16T12:09:26.960000+00:00",
+        "domain": "bbc.com",
+        "clusterId": "8671371ce49344c89b773e776fee8b1e",
+        "reprint": false,
+        "provider_country_metadata": "us"
+      },
+      "raw_detail": {
+        "url": "https://www.bbc.com/news/articles/clyqwkegqk0o",
+        "authorsByline": "Thomas Copeland",
+        "articleId": "1f00f61492f14bfeb4580c1a678ca601",
+        "clusterId": "8671371ce49344c89b773e776fee8b1e",
+        "source": {
+          "domain": "bbc.com",
+          "paywall": false,
+          "location": {
+            "country": "gb",
+            "state": "",
+            "county": "",
+            "city": "London",
+            "coordinates": {
+              "lat": 51.5073219,
+              "lon": -0.1276474
+            }
+          }
+        },
+        "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/796a/live/75bc39a0-8107-11f1-b976-0b9c15b0ccfc.png",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-07-16T12:09:26.960000+00:00",
+        "addDate": "2026-07-16T12:38:20.450256+00:00",
+        "refreshDate": "2026-09-24T10:13:25.677632+00:00",
+        "score": 188.37498,
+        "title": "Strait of Hormuz: US fires at tanker as new Iran blockade begins",
+        "description": "The US military targeted an unladen oil tanker which it said was heading for the key Iranian oil terminal on Kharg island.",
+        "content": "US Central Command (Centcom) said on Wednesday that Belma \"ignored multiple warnings\" as it was heading towards the Kharg Island oil terminal and an aircraft disabled the tanker by \"firing Hellfire mi... [1612 symbols]",
+        "enContentWordCount": 301,
+        "medium": "Article",
+        "links": [],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": null,
+            "name": "Thomas Copeland"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Iranian oil",
+            "weight": 0.11217053
+          },
+          {
+            "name": "new Iran blockade",
+            "weight": 0.11058863
+          },
+          {
+            "name": "Iranian ports",
+            "weight": 0.09535812
+          },
+          {
+            "name": "Nuclear Iran",
+            "weight": 0.09211979
+          },
+          {
+            "name": "key US sanctions",
+            "weight": 0.09161872
+          },
+          {
+            "name": "US Central Command",
+            "weight": 0.0914036
+          },
+          {
+            "name": "US enforcement",
+            "weight": 0.090775646
+          },
+          {
+            "name": "alleged Iranian attacks",
+            "weight": 0.088802814
+          },
+          {
+            "name": "US",
+            "weight": 0.08871509
+          },
+          {
+            "name": "oil",
+            "weight": 0.086745024
+          }
+        ],
+        "topics": [],
+        "categories": [
+          {
+            "name": "World"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/World News",
+            "score": 0.9675332307815552
+          },
+          {
+            "name": "/Sensitive Subjects/War & Conflict",
+            "score": 0.9605096578598022
+          },
+          {
+            "name": "/People & Society/Social Sciences/Political Science",
+            "score": 0.9458011984825134
+          },
+          {
+            "name": "/News/Politics/Other",
+            "score": 0.8842393159866333
+          },
+          {
+            "name": "/Law & Government/Military/Other",
+            "score": 0.6925380229949951
+          },
+          {
+            "name": "/News/Other",
+            "score": 0.3937346339225769
+          },
+          {
+            "name": "/Business & Industrial/Energy & Utilities/Oil & Gas",
+            "score": 0.3145767152309418
+          }
+        ],
+        "entities": [
+          {
+            "data": "US",
+            "type": "GPE",
+            "mentions": 6
+          },
+          {
+            "data": "Iran",
+            "type": "GPE",
+            "mentions": 4
+          },
+          {
+            "data": "Tehran",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Pakistan",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "US Central Command",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Centcom",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "MarineTraffic",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "United Against Nuclear Iran",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "UANI",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "TankerTrackers.com",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Belma",
+            "type": "PRODUCT",
+            "mentions": 2
+          },
+          {
+            "data": "Hellfire",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Fuyao",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Kharg Island",
+            "type": "FAC",
+            "mentions": 1
+          },
+          {
+            "data": "Donald Trump",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Iranian",
+            "type": "NORP",
+            "mentions": 4
+          },
+          {
+            "data": "the Strait of Hormuz",
+            "type": "LOC",
+            "mentions": 2
+          },
+          {
+            "data": "Gulf",
+            "type": "LOC",
+            "mentions": 1
+          }
+        ],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.062535144,
+          "negative": 0.6906162,
+          "neutral": 0.2468487
+        },
+        "summary": "The US has reintroduced a naval blockade of Iranian ports, following allegations of Iranian attacks on commercial vessels in the Strait of Hormuz. The blockade was in place between 13 April and 18 June, with the US redirecting more than 140 vessels and disabling nine ships during this period. It is unclear if this particular vessel, Belma, changed its course after being warned about its potential violations. The sanctions were lifted after a ceasefire deal was reached in June, and experts estimate that Iran exported at least 74 million barrels of oil worth up to $6bn before they were reimposed.",
+        "shortSummary": "The US fired Hellfire missiles at a tanker in the Strait of Hormuz, violating multiple warnings and prompting a new Iran blockade.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "0fb7af83867a420193e2d59b4f06e108",
+        "places": [
+          {
+            "osmId": "2389143",
+            "city": "جزیره خارک",
+            "county": "Bushehr County",
+            "state": "Bushehr Province",
+            "country": "Iran",
+            "countryCode": "ir",
+            "coordinates": {
+              "lat": 29.240594299999998,
+              "lon": 50.31172927653904
+            }
+          }
+        ],
+        "people": [
+          {
+            "wikidataId": "Q22686",
+            "name": "Donald Trump"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "stress_v1_ST10_0e9eac2b14924963ad21b50afe8628dc",
+      "provider": "perigon",
+      "provider_article_id": "0e9eac2b14924963ad21b50afe8628dc",
+      "headline": "Authorities: Another tanker hit in the Strait of Hormuz",
+      "summary": "Another ship has been attacked in the Strait of Hormuz, UK Maritime Trade Operations (UKMTO) reported on Monday, citing military sources. The organization posted on its website that \"a tanker conducti...",
+      "body": "UK Maritime Trade Operations (UKMTO) reported that another ship has been hit by an unknown projectile in the Strait of Hormuz, causing two crew members to be slightly injured and no environmental damage. The attack occurred during an inbound transit from Iran, which is largely blocking traffic through the strait as part of its ongoing conflict with the US. This disruption to shipping is causing severe disruption to the global trade in oil, gas, and fertilizer. The US military has successfully escorted ships along the Omani coast through the passage between the Gulf and the Gulf of Oman.",
+      "source": "yahoo.com",
+      "article_url": "https://www.yahoo.com/news/world/articles/authorities-another-tanker-hit-strait-104851349.html",
+      "thumbnail": "https://s.yimg.com/lo/mysterio/api/8c397313d1d1c6576e4b32384f7dbbaf7dcdc4062ff5aeb3f48c0a9c92029b81/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fdpa_international_526%2F3383b6c33cdbcb1d7e339fcd87a27877.jpg",
+      "authors": [
+        "DPA"
+      ],
+      "topics": [
+        "World",
+        "Environment",
+        "UK Maritime Trade Operations",
+        "severe disruption",
+        "ships",
+        "environmental damage",
+        "US media",
+        "US",
+        "Hormuz",
+        "Gulf",
+        "military sources",
+        "part"
+      ],
+      "countries": [],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-09-21T10:48:51+00:00",
+      "fetched_at": "2026-09-21T11:04:25.684487+00:00",
+      "has_full_text": false,
+      "raw_listing": {
+        "_benchmark": true,
+        "_benchmark_name": "stress_test_v1",
+        "_benchmark_case_id": "ST10",
+        "_benchmark_category": "geopolitics_physical_disruption",
+        "_frozen_sha256": "f89e3c77cd620e374d40f2ac1a40c15b502ae76db0b3ead9870a7d92c6c00258",
+        "text_basis": "perigon_provider_summary",
+        "full_text_verified": false,
+        "content_preview_truncated": true,
+        "original_content_chars": 217,
+        "normalized_summary_chars": 203,
+        "normalized_body_chars": 593,
+        "articleId": "0e9eac2b14924963ad21b50afe8628dc",
+        "title": "Authorities: Another tanker hit in the Strait of Hormuz",
+        "pubDate": "2026-09-21T10:48:51+00:00",
+        "domain": "yahoo.com",
+        "clusterId": "197f714dfc054081a87c1d38544afb74",
+        "reprint": false,
+        "provider_country_metadata": "us"
+      },
+      "raw_detail": {
+        "url": "https://www.yahoo.com/news/world/articles/authorities-another-tanker-hit-strait-104851349.html",
+        "authorsByline": "DPA",
+        "articleId": "0e9eac2b14924963ad21b50afe8628dc",
+        "clusterId": "197f714dfc054081a87c1d38544afb74",
+        "source": {
+          "domain": "yahoo.com",
+          "paywall": false,
+          "location": {
+            "country": "us",
+            "state": "CA",
+            "county": "Santa Clara County",
+            "city": "Sunnyvale",
+            "coordinates": {
+              "lat": 37.3688301,
+              "lon": -122.036349
+            }
+          }
+        },
+        "imageUrl": "https://s.yimg.com/lo/mysterio/api/8c397313d1d1c6576e4b32384f7dbbaf7dcdc4062ff5aeb3f48c0a9c92029b81/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fdpa_international_526%2F3383b6c33cdbcb1d7e339fcd87a27877.jpg",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-09-21T10:48:51+00:00",
+        "addDate": "2026-09-21T11:04:25.684487+00:00",
+        "refreshDate": "2026-09-21T11:04:25.684491+00:00",
+        "score": 181.25754,
+        "title": "Authorities: Another tanker hit in the Strait of Hormuz",
+        "description": "Another ship has been attacked in the Strait of Hormuz, UK Maritime Trade Operations (UKMTO) reported on Monday, citing military sources. The organization posted on its website that \"a tanker conducti...",
+        "content": "Another ship has been attacked in the Strait of Hormuz, UK Maritime Trade Operations (UKMTO) reported on Monday, citing military sources.\n\nThe organization posted on its website that \"a tanker conduct... [814 symbols]",
+        "enContentWordCount": 148,
+        "medium": "Article",
+        "links": [],
+        "labels": [],
+        "matchedAuthors": [],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "UK Maritime Trade Operations",
+            "weight": 0.09944786
+          },
+          {
+            "name": "severe disruption",
+            "weight": 0.089514524
+          },
+          {
+            "name": "ships",
+            "weight": 0.088045284
+          },
+          {
+            "name": "environmental damage",
+            "weight": 0.08499849
+          },
+          {
+            "name": "US media",
+            "weight": 0.08481983
+          },
+          {
+            "name": "US",
+            "weight": 0.07655727
+          },
+          {
+            "name": "Hormuz",
+            "weight": 0.07456382
+          },
+          {
+            "name": "Gulf",
+            "weight": 0.071896866
+          },
+          {
+            "name": "military sources",
+            "weight": 0.0694159
+          },
+          {
+            "name": "part",
+            "weight": 0.06631404
+          }
+        ],
+        "topics": [],
+        "categories": [
+          {
+            "name": "World"
+          },
+          {
+            "name": "Environment"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Other",
+            "score": 0.8128673434257507
+          },
+          {
+            "name": "/Business & Industrial/Shipping & Logistics/Freight Transport/Maritime Transport",
+            "score": 0.601593554019928
+          },
+          {
+            "name": "/News/World News",
+            "score": 0.5959630012512207
+          },
+          {
+            "name": "/Sensitive Subjects/War & Conflict",
+            "score": 0.5060421824455261
+          },
+          {
+            "name": "/Business & Industrial/Energy & Utilities/Oil & Gas",
+            "score": 0.4641728699207306
+          },
+          {
+            "name": "/People & Society/Social Sciences/Political Science",
+            "score": 0.35488012433052063
+          },
+          {
+            "name": "/Sensitive Subjects/Accidents & Disasters",
+            "score": 0.33982762694358826
+          }
+        ],
+        "entities": [
+          {
+            "data": "the Strait of Hormuz",
+            "type": "LOC",
+            "mentions": 2
+          },
+          {
+            "data": "Gulf",
+            "type": "LOC",
+            "mentions": 2
+          },
+          {
+            "data": "UK Maritime Trade Operations",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "UKMTO",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Iran",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "US",
+            "type": "GPE",
+            "mentions": 3
+          },
+          {
+            "data": "Omani",
+            "type": "NORP",
+            "mentions": 1
+          }
+        ],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.053574674,
+          "negative": 0.7690369,
+          "neutral": 0.17738846
+        },
+        "summary": "UK Maritime Trade Operations (UKMTO) reported that another ship has been hit by an unknown projectile in the Strait of Hormuz, causing two crew members to be slightly injured and no environmental damage. The attack occurred during an inbound transit from Iran, which is largely blocking traffic through the strait as part of its ongoing conflict with the US. This disruption to shipping is causing severe disruption to the global trade in oil, gas, and fertilizer. The US military has successfully escorted ships along the Omani coast through the passage between the Gulf and the Gulf of Oman.",
+        "shortSummary": "A tanker was attacked in the Strait of Hormuz, injuring two crew members and causing severe disruption to global shipping, according to UK Maritime Trade Operations.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "f0d6125b9f2d4a88a57854d218a679ca",
+        "places": [],
+        "people": []
+      }
+    },
+    {
+      "article_id": "stress_v1_ST11_freenewsapi_f15bf067-b612-4338-8041-9e41218ba6f4",
+      "provider": "freenewsapi",
+      "provider_article_id": "f15bf067-b612-4338-8041-9e41218ba6f4",
+      "headline": "Nvidia boss rejects AI extinction fears as 'doomsday narratives'",
+      "summary": "minutes agoOsmond ChiaBusiness reporterBloomberg via Getty ImagesNvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".\"2030...",
+      "body": "8 minutes ago Osmond Chia Business reporter Bloomberg via Getty Images Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\". \"2030 is not going to be the end of the world. There is 0% chance that's going to be the end of the world\", Huang said in an interview with CBS News, the BBC's US partner. Huang added: \"Scaring people is unnecessary. It is irresponsible.\" Warnings from researchers in recent weeks about potential risks posed by the technology escalated the debate about AI safety, with some industry executives calling for a slowdown in developing models. Coxon's concerns sparked debate about the technology's risks, including calls by top executives like Anthropic boss Dario Amodei and OpenAI's Sam Altman urging for AI's development to slow down. Huang said that such predictions are \"not grounded in science\", adding that it is in Nvidia's best interest to ensure the industry builds its products responsibly. \"Our company's success is directly connected to the safe deployment of products and services,\" he said. \"If we don't continue to do that, our value would be diminished.\" Huang suggested AI firms talking about a \"slow down\" could be seeking liability protections for harms their products may cause. \"Go and read between the lines,\" he said. \"They're actually not asking for more laws. They're asking to be relieved of the laws we do have, and I think that that's a problem.\" Nvidia is a key player in the industry, developing cutting edge computer chips that are crucial for making AI models. Last week, Huang appeared at a UK summit hosted by King Charles, who warned tech leaders of the \"existential dangers\" of AI. \"The task before you is not merely to advance technology, but to ensure that it remains firmly in the service of humanity, community and the natural world,\" the King told the group. Trump made a surprise phone call to Huang while the Nvidia boss was speaking on stage at a tech conference in Los Angeles on 14 September. During the call, Trump criticised calls to slow the pace of AI development and dismissed fears as a \"hoax\".",
+      "source": "BBC",
+      "article_url": "https://www.bbc.com/news/articles/cr5ye7p13jg7o",
+      "thumbnail": "https://ichef.bbci.co.uk/news/1024/branded_news/ba1f/live/38ae4b30-b54a-11f1-a718-f1288d239f82.jpg",
+      "authors": [
+        "Osmond Chia"
+      ],
+      "topics": [
+        "business"
+      ],
+      "countries": [
+        "BW",
+        "GH",
+        "ID",
+        "IL",
+        "IN",
+        "KE",
+        "LV",
+        "NA",
+        "TZ",
+        "UG",
+        "US",
+        "ZW"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-09-21T00:34:53.000Z",
+      "fetched_at": "2026-09-21T02:54:19.037314+00:00",
+      "has_full_text": true,
+      "raw_listing": {
+        "uuid": "f15bf067-b612-4338-8041-9e41218ba6f4",
+        "title": "Nvidia boss rejects AI extinction fears as 'doomsday narratives'",
+        "published_at": "2026-09-21T00:34:53.000Z",
+        "publisher": "BBC",
+        "_source_topic": "business",
+        "_benchmark": true,
+        "_benchmark_name": "stress_test_v1",
+        "_benchmark_case_id": "ST11",
+        "_benchmark_category": "company_commentary_control",
+        "_frozen_sha256": "ed9ed2ac9e6f2066c532923a4b7b7727db285e8ee8c7b4f8c29937a5ffebc3ad",
+        "text_basis": "existing_normalized_article",
+        "full_text_verified": true
+      },
+      "raw_detail": {
+        "uuid": "f15bf067-b612-4338-8041-9e41218ba6f4",
+        "title": "Nvidia boss rejects AI extinction fears as 'doomsday narratives'",
+        "thumbnail": "https://ichef.bbci.co.uk/news/1024/branded_news/ba1f/live/38ae4b30-b54a-11f1-a718-f1288d239f82.jpg",
+        "publisher": "BBC",
+        "authors": [
+          "Osmond Chia"
+        ],
+        "topics": [
+          "business"
+        ],
+        "countries": [
+          "BW",
+          "GH",
+          "ID",
+          "IL",
+          "IN",
+          "KE",
+          "LV",
+          "NA",
+          "TZ",
+          "UG",
+          "US",
+          "ZW"
+        ],
+        "languages": [
+          "en"
+        ],
+        "published_at": "2026-09-21T00:34:53.000Z",
+        "original_url": "https://www.bbc.com/news/articles/cr5ye7p13jg7o",
+        "incipit": "minutes agoOsmond ChiaBusiness reporterBloomberg via Getty ImagesNvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".\"2030...",
+        "body": "8 minutes ago Osmond Chia Business reporter Bloomberg via Getty Images Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\". \"2030 is not going to be the end of the world. There is 0% chance that's going to be the end of the world\", Huang said in an interview with CBS News, the BBC's US partner. Huang added: \"Scaring people is unnecessary. It is irresponsible.\" Warnings from researchers in recent weeks about potential risks posed by the technology escalated the debate about AI safety, with some industry executives calling for a slowdown in developing models. Coxon's concerns sparked debate about the technology's risks, including calls by top executives like Anthropic boss Dario Amodei and OpenAI's Sam Altman urging for AI's development to slow down. Huang said that such predictions are \"not grounded in science\", adding that it is in Nvidia's best interest to ensure the industry builds its products responsibly. \"Our company's success is directly connected to the safe deployment of products and services,\" he said. \"If we don't continue to do that, our value would be diminished.\" Huang suggested AI firms talking about a \"slow down\" could be seeking liability protections for harms their products may cause. \"Go and read between the lines,\" he said. \"They're actually not asking for more laws. They're asking to be relieved of the laws we do have, and I think that that's a problem.\" Nvidia is a key player in the industry, developing cutting edge computer chips that are crucial for making AI models. Last week, Huang appeared at a UK summit hosted by King Charles, who warned tech leaders of the \"existential dangers\" of AI. \"The task before you is not merely to advance technology, but to ensure that it remains firmly in the service of humanity, community and the natural world,\" the King told the group. Trump made a surprise phone call to Huang while the Nvidia boss was speaking on stage at a tech conference in Los Angeles on 14 September. During the call, Trump criticised calls to slow the pace of AI development and dismissed fears as a \"hoax\"."
+      }
+    },
+    {
+      "article_id": "stress_v1_ST12_freenewsapi_4e06cd53-e2df-4181-92f9-71b1b7fdc698",
+      "provider": "freenewsapi",
+      "provider_article_id": "4e06cd53-e2df-4181-92f9-71b1b7fdc698",
+      "headline": "Missing Carnival Panorama passenger jumped overboard off Mexico's coast",
+      "summary": "NEWYou can now listen to Fox News articles! A passenger traveling on a Carnival Panorama cruise jumped overboard as the ship was wrapping up the last full day of a week-long sailing.The cruise departed Long...",
+      "body": "NEW You can now listen to Fox News articles! A passenger traveling on a Carnival Panorama cruise jumped overboard as the ship was wrapping up the last full day of a week-long sailing. The cruise departed Long Beach, California, on September 13 and was headed back there from Puerto Vallarta, Mexico , when a male passenger jumped overboard, according to the cruise line. \"Carnival Cruise Line confirmed Saturday that a male guest aboard Carnival Panorama jumped overboard while the ship was sailing from Puerto Vallarta, Mexico to Long Beach, California,\" a Carnival Cruise Line spokesperson told Fox News Digital. CRUISE PASSENGER HAILED AS HERO AFTER JUMPING INTO WATER TO SAVE 84-YEAR-OLD MAN A passenger traveling on a Carnival Panorama cruise jumped overboard as the ship was wrapping up the last full day of a week-long sailing. (Brittany Murray/MediaNews Group/Long Beach Press-Telegram) \"When notified of a missing guest, the ship's team initiated search and investigation procedures, including reviewing CCTV footage and notifying both the U.S. and Mexico Coast Guards,\" the statement continued. The spokesperson said the company is providing support to the family who was traveling with the guest. \"Our thoughts and prayers are with them and their loved ones,\" the statement reads. CARNIVAL CRUISE PASSENGER, 67, FOUND DEAD WHILE SNORKELING OFF THE COAST OF AUSTRALIA DURING EXCURSION Carnival Panorama sails near Los Cabos, Baja California Sur, Mexico, on Aug. 3, 2023. (ALFREDO ESTRELLA/AFP via Getty Images) According to a Reddit user who said they were aboard the sailing, announcements regarding a missing guest were heard at around 11 a.m. on Saturday. Carnival Panorama had departed from its last port of call on the sail, Puerto Vallarta, at 8 p.m. on Thursday. The call for the missing guest was repeated several times over the next several hours. At about 3 p.m., the ship reportedly turned around. Another announcement was made at about 3:30 p.m. that there would be a shipwide search, and all guests were told to return to their staterooms. Security visited each of the staterooms to scan guests' ship identification cards, which is a standard procedure in the event of a search. Carnival Panorama had departed from its last port of call on the sail, Puerto Vallarta, at 8 p.m. on Thursday. (Brittany Murray/MediaNews Group/Long Beach Press-Telegram via Getty Images) An hour later, another announcement suggested the search was continuing, and guests were instructed to remain in their staterooms. At around 5 p.m., the captain and cruise director said the guest had been confirmed overboard after a review of onboard cameras, adding that local authorities would continue the search and rescue operation and guests were no longer required to stay in their staterooms. CLICK HERE TO DOWNLOAD THE FOX NEWS APP The family and traveling companions of the missing guest were notified of his disappearance and were offered support from the care team. Shortly after 7 p.m., guests were told that the ship was expected to reach Long Beach at 9 a.m. Fox News' Jessica Mekles contributed to this report.",
+      "source": "Fox News",
+      "article_url": "https://www.foxnews.com/travel/missing-carnival-panorama-passenger-jumped-overboard-mexicos-coast",
+      "thumbnail": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/03/1024/512/the-carnival-panorama-cruise-ship-itinerary-changes.jpg?ve=1&tl=1",
+      "authors": [
+        "Landon Mion"
+      ],
+      "topics": [
+        "business",
+        "travel"
+      ],
+      "countries": [
+        "AU",
+        "CA",
+        "GH",
+        "IE",
+        "KE",
+        "NG",
+        "NZ",
+        "UG",
+        "US",
+        "ZA"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-09-21T01:17:24.000Z",
+      "fetched_at": "2026-09-21T02:54:15.964836+00:00",
+      "has_full_text": true,
+      "raw_listing": {
+        "uuid": "4e06cd53-e2df-4181-92f9-71b1b7fdc698",
+        "title": "Missing Carnival Panorama passenger jumped overboard off Mexico's coast",
+        "published_at": "2026-09-21T01:17:24.000Z",
+        "publisher": "Fox News",
+        "_source_topic": "business",
+        "_benchmark": true,
+        "_benchmark_name": "stress_test_v1",
+        "_benchmark_case_id": "ST12",
+        "_benchmark_category": "irrelevant_noise_control",
+        "_frozen_sha256": "042b20447a079b04842d9d7eaff90f9819e5d02b0e03df24e745c242eb6aa859",
+        "text_basis": "existing_normalized_article",
+        "full_text_verified": true
+      },
+      "raw_detail": {
+        "uuid": "4e06cd53-e2df-4181-92f9-71b1b7fdc698",
+        "title": "Missing Carnival Panorama passenger jumped overboard off Mexico's coast",
+        "thumbnail": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/03/1024/512/the-carnival-panorama-cruise-ship-itinerary-changes.jpg?ve=1&tl=1",
+        "publisher": "Fox News",
+        "authors": [
+          "Landon Mion"
+        ],
+        "topics": [
+          "business",
+          "travel"
+        ],
+        "countries": [
+          "AU",
+          "CA",
+          "GH",
+          "IE",
+          "KE",
+          "NG",
+          "NZ",
+          "UG",
+          "US",
+          "ZA"
+        ],
+        "languages": [
+          "en"
+        ],
+        "published_at": "2026-09-21T01:17:24.000Z",
+        "original_url": "https://www.foxnews.com/travel/missing-carnival-panorama-passenger-jumped-overboard-mexicos-coast",
+        "incipit": "NEWYou can now listen to Fox News articles! A passenger traveling on a Carnival Panorama cruise jumped overboard as the ship was wrapping up the last full day of a week-long sailing.The cruise departed Long...",
+        "body": "NEW You can now listen to Fox News articles! A passenger traveling on a Carnival Panorama cruise jumped overboard as the ship was wrapping up the last full day of a week-long sailing. The cruise departed Long Beach, California, on September 13 and was headed back there from Puerto Vallarta, Mexico , when a male passenger jumped overboard, according to the cruise line. \"Carnival Cruise Line confirmed Saturday that a male guest aboard Carnival Panorama jumped overboard while the ship was sailing from Puerto Vallarta, Mexico to Long Beach, California,\" a Carnival Cruise Line spokesperson told Fox News Digital. CRUISE PASSENGER HAILED AS HERO AFTER JUMPING INTO WATER TO SAVE 84-YEAR-OLD MAN A passenger traveling on a Carnival Panorama cruise jumped overboard as the ship was wrapping up the last full day of a week-long sailing. (Brittany Murray/MediaNews Group/Long Beach Press-Telegram) \"When notified of a missing guest, the ship's team initiated search and investigation procedures, including reviewing CCTV footage and notifying both the U.S. and Mexico Coast Guards,\" the statement continued. The spokesperson said the company is providing support to the family who was traveling with the guest. \"Our thoughts and prayers are with them and their loved ones,\" the statement reads. CARNIVAL CRUISE PASSENGER, 67, FOUND DEAD WHILE SNORKELING OFF THE COAST OF AUSTRALIA DURING EXCURSION Carnival Panorama sails near Los Cabos, Baja California Sur, Mexico, on Aug. 3, 2023. (ALFREDO ESTRELLA/AFP via Getty Images) According to a Reddit user who said they were aboard the sailing, announcements regarding a missing guest were heard at around 11 a.m. on Saturday. Carnival Panorama had departed from its last port of call on the sail, Puerto Vallarta, at 8 p.m. on Thursday. The call for the missing guest was repeated several times over the next several hours. At about 3 p.m., the ship reportedly turned around. Another announcement was made at about 3:30 p.m. that there would be a shipwide search, and all guests were told to return to their staterooms. Security visited each of the staterooms to scan guests' ship identification cards, which is a standard procedure in the event of a search. Carnival Panorama had departed from its last port of call on the sail, Puerto Vallarta, at 8 p.m. on Thursday. (Brittany Murray/MediaNews Group/Long Beach Press-Telegram via Getty Images) An hour later, another announcement suggested the search was continuing, and guests were instructed to remain in their staterooms. At around 5 p.m., the captain and cruise director said the guest had been confirmed overboard after a review of onboard cameras, adding that local authorities would continue the search and rescue operation and guests were no longer required to stay in their staterooms. CLICK HERE TO DOWNLOAD THE FOX NEWS APP The family and traveling companions of the missing guest were notified of his disappearance and were offered support from the care team. Shortly after 7 p.m., guests were told that the ship was expected to reach Long Beach at 9 a.m. Fox News' Jessica Mekles contributed to this report."
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "provider": "yfinance/Yahoo Finance",
+  "ticker": "NVDA",
+  "start": "2021-08-31",
+  "end_exclusive": "2025-10-20",
+  "auto_adjust": false,
+  "back_adjust": false,
+  "repair": false,
+  "column": "Close",
+  "downloaded_at": "2026-09-20T05:13:01.662008+00:00",
+  "yfinance_version": "1.2.0",
+  "sha256": "7d1f3e9b8add35a841139cb6a869b2b96e5a854a398798972569b68098748ec1"
+}

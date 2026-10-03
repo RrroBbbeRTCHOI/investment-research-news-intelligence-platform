@@ -1,0 +1,2390 @@
+{
+  "schema_version": "news_research_v3",
+  "generated_at": "2026-09-25T13:34:36.669677+00:00",
+  "knowledge": {
+    "status": "loaded",
+    "workbook": "MAG7_News_Intelligence_Exposure_Knowledge_Layer_V1.xlsx",
+    "edge_count": 27,
+    "message": "Loaded raw exposure rows; each match still requires evidence and temporal checks."
+  },
+  "policies": {
+    "direction": "Analyst judgment required",
+    "severity": "article_severity_policy_v2",
+    "priority": "attention_policy_v2",
+    "historical_ml_role": "optional_retrospective_context_only",
+    "v3": "Candidate extraction never directly qualifies exposure; source-grounding is not fact verification."
+  },
+  "articles": [
+    {
+      "article_id": "freenewsapi_4e06cd53-e2df-4181-92f9-71b1b7fdc698",
+      "headline": "Missing Carnival Panorama passenger jumped overboard off Mexico's coast",
+      "source": "Fox News",
+      "article_url": "https://www.foxnews.com/travel/missing-carnival-panorama-passenger-jumped-overboard-mexicos-coast",
+      "gate": {
+        "article_id": "freenewsapi_4e06cd53-e2df-4181-92f9-71b1b7fdc698",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_47a367b6168a5a84f0c9",
+        "event_type": "general_news",
+        "event_subtype": "general_news",
+        "published_at_first": "2026-09-21T01:17:24.000Z",
+        "country": "Mexico",
+        "region": null,
+        "city": null,
+        "latitude": 23.919988,
+        "longitude": -102.289448,
+        "location_basis": "explicit_article_location",
+        "coordinate_precision": "country_approximation",
+        "primary_country": "Mexico"
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "general_news",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "general_news",
+      "published_at": "2026-09-21T01:17:24.000Z",
+      "geography": {
+        "event_country": "Mexico",
+        "event_region": null,
+        "event_city": null,
+        "latitude": 23.919988,
+        "longitude": -102.289448,
+        "location_basis": "explicit_article_location",
+        "location_confidence": "Article-supported country; exact site unresolved",
+        "coordinate_basis": "Natural Earth country label point (existing map)",
+        "evidence": [
+          {
+            "country": "Mexico",
+            "city": null,
+            "region": null,
+            "source_field": "headline",
+            "evidence": "Missing Carnival Panorama passenger jumped overboard off Mexico's coast"
+          }
+        ],
+        "coordinate_precision": "country_approximation"
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Unknown; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      },
+      "enrichment": {
+        "status": "skipped",
+        "reason": "cheap_noise_filter",
+        "semantic": null,
+        "point_in_time_note": "Generated at the recorded enrichment time; not evidence the AI output was available when the article was published. Exposure eligibility still uses the original article replay time."
+      },
+      "semantic_validation": {
+        "status": "unavailable",
+        "accepted": {},
+        "rejections": [],
+        "candidate_relationships": []
+      },
+      "classification_assessment": {
+        "candidates": {
+          "article_class": null,
+          "event_type": null,
+          "event_subtype": null,
+          "operational_event": null,
+          "fundamental_change_detected": null
+        },
+        "source_grounded_candidates": {},
+        "final": {
+          "article_class": "general_news",
+          "event_type": "general_news",
+          "event_subtype": "general_news"
+        },
+        "authority": "existing deterministic classification; candidate fields never override final fields"
+      },
+      "article_summary": {
+        "summary_short": null,
+        "summary_full": null,
+        "source": "unavailable",
+        "notice": "AI summary of the supplied article; not independent verification."
+      },
+      "severity_assessment": {
+        "severity_candidate": null,
+        "severity_reason": null,
+        "severity_confidence": null,
+        "severity_final": "Unknown",
+        "severity_source": "rule",
+        "validation": "LLM candidate retained for audit; final severity requires the existing non-negated article rules.",
+        "rule_evidence": []
+      },
+      "feed": {
+        "state": "reject",
+        "reason": "Narrow non-economic headline pattern without a watchlist subject."
+      }
+    },
+    {
+      "article_id": "freenewsapi_88d78250-1732-48b3-9ffd-a7f1b9975163",
+      "headline": "Confirmed: PBOC leaves Loan Prime Rates unchanged in September",
+      "source": "FXStreet",
+      "article_url": "https://www.fxstreet.com/news/confirmed-pboc-leaves-loan-prime-rates-unchanged-in-september-202609210100",
+      "gate": {
+        "article_id": "freenewsapi_88d78250-1732-48b3-9ffd-a7f1b9975163",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_83ef50c1c9a21ee9e129",
+        "event_type": "general_news",
+        "event_subtype": "general_news",
+        "published_at_first": "2026-09-21T01:00:55.000Z",
+        "country": null,
+        "region": null,
+        "city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "coordinate_precision": null,
+        "primary_country": null
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "general_news",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "general_news",
+      "published_at": "2026-09-21T01:00:55.000Z",
+      "geography": {
+        "event_country": null,
+        "event_region": null,
+        "event_city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "location_confidence": null,
+        "coordinate_basis": null,
+        "evidence": [],
+        "coordinate_precision": null
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Unknown; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      },
+      "enrichment": {
+        "status": "available",
+        "schema_version": "news_semantic_v3_1",
+        "prompt_version": "news_semantics_v3_1_sentence_grounding",
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "requested_model": "gemini-3.5-flash-lite",
+        "content_hash": "239e7eee8e673795435596321a0e3dbbd19ca3012d6cac907c79bcaacf1bbc96",
+        "article_content_hash": "9dfc8c46c9107c231c1d64f0903a633b95d2989b7c2d784e3cd605aecfb945e3",
+        "generated_at": "2026-09-25T13:34:43.381462+00:00",
+        "semantic": {
+          "article_class": "macro_event",
+          "is_relevant_candidate": true,
+          "summary_short": "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Monday.",
+          "summary_full": "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Monday. The one-year and five-year LPRs were at 3.00% and 3.50%, respectively.",
+          "primary_country": "China",
+          "event_type": "Monetary Policy",
+          "event_subtype": "Interest Rate Decision",
+          "countries": [
+            "China"
+          ],
+          "entities": [
+            "People’s Bank of China",
+            "PBOC"
+          ],
+          "companies_mentioned": [
+            "Tencent",
+            "Ant Group"
+          ],
+          "direct_ticker_candidates": [],
+          "economic_channels": [
+            "Monetary Policy",
+            "Interest Rates"
+          ],
+          "candidate_indirect_tickers": [
+            "FXI",
+            "ASHR"
+          ],
+          "missing_information": [],
+          "research_questions": [
+            "Will future PBOC meetings lead to changes in the Loan Prime Rates?"
+          ],
+          "severity_candidate": "Low",
+          "severity_reason": "The central bank left interest rates unchanged as expected, representing a continuation of existing monetary policy rather than a disruptive shock.",
+          "severity_confidence": 0.9,
+          "operational_event": false,
+          "fundamental_change_detected": false,
+          "llm_confidence": 0.95,
+          "citations": [
+            {
+              "field": "summary_short",
+              "quote": "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Monday.",
+              "source_field": "summary"
+            },
+            {
+              "field": "summary_full",
+              "quote": "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Monday.",
+              "source_field": "summary"
+            },
+            {
+              "field": "summary_full",
+              "quote": "The one-year and five-year LPRs were at 3.00% and 3.50%, respectively.",
+              "source_field": "summary"
+            },
+            {
+              "field": "primary_country",
+              "quote": "China",
+              "source_field": "summary"
+            },
+            {
+              "field": "event_type",
+              "quote": "monetary policy",
+              "source_field": "body"
+            },
+            {
+              "field": "event_subtype",
+              "quote": "interest rate decision",
+              "source_field": "body"
+            },
+            {
+              "field": "article_class",
+              "quote": "Confirmed: PBOC leaves Loan Prime Rates unchanged in September",
+              "source_field": "headline"
+            },
+            {
+              "field": "economic_channels",
+              "quote": "Loan Prime Rate (LPR)",
+              "source_field": "body"
+            },
+            {
+              "field": "severity_candidate",
+              "quote": "unchanged",
+              "source_field": "headline"
+            },
+            {
+              "field": "operational_event",
+              "quote": "announced to leave its Loan Prime Rates (LPRs) unchanged on Monday.",
+              "source_field": "summary"
+            },
+            {
+              "field": "fundamental_change_detected",
+              "quote": "announced to leave its Loan Prime Rates (LPRs) unchanged on Monday.",
+              "source_field": "summary"
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": null,
+          "output_tokens": null,
+          "total_tokens": 1678,
+          "estimated_cost_usd": null,
+          "scope": "successful response only; failed-attempt usage unavailable"
+        },
+        "cache_hit": false,
+        "attempts": [
+          {
+            "attempt": 1,
+            "provider": "gemini",
+            "model": "gemini-3.5-flash-lite",
+            "status": "success"
+          }
+        ],
+        "attempt_audit_scope": "original enrichment generation; cache reuse makes no new requests",
+        "attempt_count": 1,
+        "retry_count": 0,
+        "fallback_used": false,
+        "point_in_time_note": "Generated at the recorded enrichment time; not evidence the AI output was available when the article was published. Exposure eligibility still uses the original article replay time."
+      },
+      "semantic_validation": {
+        "status": "validated_constraints",
+        "accepted": {
+          "economic_channels": {
+            "value": [
+              "Monetary Policy",
+              "Interest Rates"
+            ],
+            "citations": [
+              {
+                "field": "economic_channels",
+                "quote": "Loan Prime Rate (LPR)",
+                "source_field": "body"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "operational_event": {
+            "value": false,
+            "citations": [
+              {
+                "field": "operational_event",
+                "quote": "announced to leave its Loan Prime Rates (LPRs) unchanged on Monday.",
+                "source_field": "summary"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "fundamental_change_detected": {
+            "value": false,
+            "citations": [
+              {
+                "field": "fundamental_change_detected",
+                "quote": "announced to leave its Loan Prime Rates (LPRs) unchanged on Monday.",
+                "source_field": "summary"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "summary_short": {
+            "value": "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Monday.",
+            "status": "source_grounded_candidate",
+            "sentence_validation": [
+              {
+                "sentence": "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Monday.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Monday."
+                ],
+                "source_fields": [
+                  "summary"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Monday.",
+                "source_field": "summary"
+              }
+            ],
+            "reason": null
+          },
+          "summary_full": {
+            "value": "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Monday. The one-year and five-year LPRs were at 3.00% and 3.50%, respectively.",
+            "status": "source_grounded_candidate",
+            "sentence_validation": [
+              {
+                "sentence": "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Monday.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Monday."
+                ],
+                "source_fields": [
+                  "summary"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Monday.",
+                "source_field": "summary"
+              },
+              {
+                "sentence": "The one-year and five-year LPRs were at 3.00% and 3.50%, respectively.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "The one-year and five-year LPRs were at 3.00% and 3.50%, respectively."
+                ],
+                "source_fields": [
+                  "summary"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "The one-year and five-year LPRs were at 3.00% and 3.50%, respectively.",
+                "source_field": "summary"
+              }
+            ],
+            "reason": null
+          }
+        },
+        "summary_validation": {
+          "summary_short": {
+            "value": "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Monday.",
+            "status": "source_grounded_candidate",
+            "sentence_validation": [
+              {
+                "sentence": "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Monday.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Monday."
+                ],
+                "source_fields": [
+                  "summary"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Monday.",
+                "source_field": "summary"
+              }
+            ],
+            "reason": null
+          },
+          "summary_full": {
+            "value": "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Monday. The one-year and five-year LPRs were at 3.00% and 3.50%, respectively.",
+            "status": "source_grounded_candidate",
+            "sentence_validation": [
+              {
+                "sentence": "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Monday.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Monday."
+                ],
+                "source_fields": [
+                  "summary"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Monday.",
+                "source_field": "summary"
+              },
+              {
+                "sentence": "The one-year and five-year LPRs were at 3.00% and 3.50%, respectively.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "The one-year and five-year LPRs were at 3.00% and 3.50%, respectively."
+                ],
+                "source_fields": [
+                  "summary"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "The one-year and five-year LPRs were at 3.00% and 3.50%, respectively.",
+                "source_field": "summary"
+              }
+            ],
+            "reason": null
+          }
+        },
+        "rejections": [
+          {
+            "field": "primary_country",
+            "reason": "Citation is not a substantive exact source span."
+          },
+          {
+            "field": "article_class",
+            "reason": "Source quote does not independently validate candidate classification; retained in AI audit only."
+          },
+          {
+            "field": "event_type",
+            "reason": "Source quote does not independently validate candidate classification; retained in AI audit only."
+          },
+          {
+            "field": "event_subtype",
+            "reason": "Source quote does not independently validate candidate classification; retained in AI audit only."
+          }
+        ],
+        "candidate_relationships": [
+          {
+            "ticker": "FXI",
+            "kind": "candidate_indirect_tickers",
+            "state": "rejected",
+            "reason": "No eligible matching exposure/action evidence; candidate cannot qualify itself.",
+            "edge_ids": []
+          },
+          {
+            "ticker": "ASHR",
+            "kind": "candidate_indirect_tickers",
+            "state": "rejected",
+            "reason": "No eligible matching exposure/action evidence; candidate cannot qualify itself.",
+            "edge_ids": []
+          }
+        ],
+        "notice": "Source-grounded AI extraction is not independent fact verification. Candidate fields do not qualify ticker exposure."
+      },
+      "classification_assessment": {
+        "candidates": {
+          "article_class": "macro_event",
+          "event_type": "Monetary Policy",
+          "event_subtype": "Interest Rate Decision",
+          "operational_event": false,
+          "fundamental_change_detected": false
+        },
+        "source_grounded_candidates": {
+          "operational_event": {
+            "value": false,
+            "citations": [
+              {
+                "field": "operational_event",
+                "quote": "announced to leave its Loan Prime Rates (LPRs) unchanged on Monday.",
+                "source_field": "summary"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "fundamental_change_detected": {
+            "value": false,
+            "citations": [
+              {
+                "field": "fundamental_change_detected",
+                "quote": "announced to leave its Loan Prime Rates (LPRs) unchanged on Monday.",
+                "source_field": "summary"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          }
+        },
+        "final": {
+          "article_class": "general_news",
+          "event_type": "general_news",
+          "event_subtype": "general_news"
+        },
+        "authority": "existing deterministic classification; candidate fields never override final fields"
+      },
+      "article_summary": {
+        "summary_short": "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Monday.",
+        "summary_full": "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Monday. The one-year and five-year LPRs were at 3.00% and 3.50%, respectively.",
+        "source": "ai_source_grounded",
+        "notice": "AI summary of the supplied article; not independent verification."
+      },
+      "severity_assessment": {
+        "severity_candidate": "Low",
+        "severity_reason": "The central bank left interest rates unchanged as expected, representing a continuation of existing monetary policy rather than a disruptive shock.",
+        "severity_confidence": 0.9,
+        "severity_final": "Unknown",
+        "severity_source": "rule",
+        "validation": "LLM candidate retained for audit; final severity requires the existing non-negated article rules.",
+        "rule_evidence": []
+      },
+      "feed": {
+        "state": "surface",
+        "reason": "Potential macro, technology or economic transmission event."
+      }
+    },
+    {
+      "article_id": "freenewsapi_f15bf067-b612-4338-8041-9e41218ba6f4",
+      "headline": "Nvidia boss rejects AI extinction fears as 'doomsday narratives'",
+      "source": "BBC",
+      "article_url": "https://www.bbc.com/news/articles/cr5ye7p13jg7o",
+      "gate": {
+        "article_id": "freenewsapi_f15bf067-b612-4338-8041-9e41218ba6f4",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_73ff4902cc61c5139b9c",
+        "event_type": "commentary",
+        "event_subtype": "commentary",
+        "published_at_first": "2026-09-21T00:34:53.000Z",
+        "country": null,
+        "region": null,
+        "city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "coordinate_precision": null,
+        "primary_country": null
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [
+        {
+          "ticker": "NVDA",
+          "qualification": "qualified_direct_company_subject",
+          "relationship_type": "direct_company_subject",
+          "relevance_score": 0.15,
+          "relevance_level": "Mention only",
+          "evidence": [],
+          "economic_channels": [],
+          "relationship_paths": [],
+          "evidence_strength": {
+            "relationship_level": "Direct article evidence",
+            "basis": "Explicit company subject; no independent confirmation inferred."
+          },
+          "materiality": {
+            "level": "Unknown"
+          },
+          "historical_reaction": {
+            "status": "unavailable",
+            "reason": "No compatible archived event binding.",
+            "predictions": []
+          },
+          "explanation": "NVDA is the explicit company/action subject of the cited article clause.",
+          "next_questions": [
+            "Verify the original report and any company confirmation.",
+            "Determine event-specific scale and financial exposure."
+          ],
+          "direct_event_evidence": {
+            "relationship_type": "direct_company_subject",
+            "evidence": "Nvidia boss rejects AI extinction fears as 'doomsday narratives'",
+            "source_field": "headline",
+            "channel": null
+          },
+          "relevance": {
+            "level": "High",
+            "relationship_score": 0.15,
+            "reason": "NVDA is the explicit company/action subject of the cited article clause.",
+            "interpretation": "Uncalibrated relationship policy score; not probability or expected return."
+          },
+          "evidence_assessment": {
+            "level": "Moderate",
+            "reason": "Explicit company subject; no independent confirmation inferred."
+          },
+          "financial_materiality": {
+            "level": "Not yet quantified",
+            "reason": "No validated event-specific financial amount/denominator established.",
+            "legacy": {
+              "level": "Unknown"
+            }
+          },
+          "research_priority": {
+            "level": "Low",
+            "score": 0.2,
+            "method": "attention_policy_v2",
+            "reason": "Relationship High; severity Low; evidence Moderate.",
+            "interpretation": "Analyst attention only. No direction, expected return or ML input."
+          },
+          "historical_context": {
+            "available": false,
+            "disclosure": "Retrospective context only; not a live directional prediction.",
+            "details": {
+              "status": "unavailable",
+              "reason": "No compatible archived event binding.",
+              "predictions": []
+            }
+          },
+          "direction": "Analyst judgment required",
+          "quantitative": {
+            "relevance": {
+              "value": 0.45,
+              "kind": "normalized_heuristic",
+              "method": "weighted_supported_relationship_terms_v3",
+              "weights": {
+                "mention": 0.1,
+                "direct_subject": 0.35,
+                "eligible_edge": 0.35,
+                "channel": 0.1,
+                "country": 0.05,
+                "counterparty": 0.05
+              },
+              "inputs": {
+                "mention": 1.0,
+                "direct_subject": 1.0,
+                "eligible_edge": 0.0,
+                "channel": 0.0,
+                "country": 0.0,
+                "counterparty": 0.0
+              },
+              "contributions": {
+                "mention": 0.1,
+                "direct_subject": 0.35,
+                "eligible_edge": 0.0,
+                "channel": 0.0,
+                "country": 0.0,
+                "counterparty": 0.0
+              },
+              "interpretation": "Not P(relevant); not calibrated or a financial-impact estimate."
+            },
+            "confidence": {
+              "value": null,
+              "kind": "qualitative_evidence_components",
+              "source_quality_policy_notice": "Qualitative source-quality policy tier; not a calibrated probability, truth probability, statistical accuracy estimate, or model confidence.",
+              "source_quality": "High",
+              "extraction_self_assessment": 1.0,
+              "relationship_evidence_quality": "Moderate",
+              "interpretation": "Qualitative source policy and relationship evidence; extraction confidence is uncalibrated model self-assessment, not factual accuracy. No composite probability or confidence score is computed."
+            },
+            "time_decay": {
+              "value": 0.3501813398526688,
+              "age_hours": 108.99546379916667,
+              "half_life_hours": 72.0,
+              "lambda_per_hour": 0.009627044174443685,
+              "as_of": "2026-09-25T13:34:36.669677+00:00",
+              "interpretation": "Recency factor, not causal impact; future/invalid publication time gives null."
+            },
+            "impact": {
+              "value": null,
+              "magnitude": null,
+              "directional_exposure": null,
+              "surprise": null,
+              "reason": "Event-specific magnitude, direction and surprise not established."
+            }
+          },
+          "analyst_interpretation": "NVDA is the article's direct company subject. The current classification is management commentary; no confirmed operational, regulatory or financial change is established by the available validation. No measurable fundamental impact has been established."
+        }
+      ],
+      "edge_exclusions": [],
+      "status": "commentary",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "commentary",
+      "published_at": "2026-09-21T00:34:53.000Z",
+      "geography": {
+        "event_country": null,
+        "event_region": null,
+        "event_city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "location_confidence": null,
+        "coordinate_basis": null,
+        "evidence": [],
+        "coordinate_precision": null
+      },
+      "severity": {
+        "level": "Low",
+        "score": 0.2,
+        "components": [],
+        "reason": "Company discussion/opinion with no supported operational or binding-action escalation.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Low",
+        "score": 0.2,
+        "method": "attention_policy_v2",
+        "reason": "Relationship High; severity Low; evidence Moderate.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      },
+      "enrichment": {
+        "status": "available",
+        "schema_version": "news_semantic_v3_1",
+        "prompt_version": "news_semantics_v3_1_sentence_grounding",
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "requested_model": "gemini-3.5-flash-lite",
+        "content_hash": "9b782560d78cc7b70abbc4f4f109ea7d2c9a95df672a9c2a9a428ef1a3561de7",
+        "article_content_hash": "89c239505149f3886b58c382adc2e34fa2d3a0f90518367ec5aa6a398985521a",
+        "generated_at": "2026-09-25T13:34:48.210722+00:00",
+        "semantic": {
+          "article_class": "opinion",
+          "is_relevant_candidate": false,
+          "summary_short": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+          "summary_full": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\". \"2030 is not going to be the end of the world. There is 0% chance that's going to be the end of the world\", Huang said in an interview with CBS News, the BBC's US partner.",
+          "primary_country": null,
+          "event_type": null,
+          "event_subtype": null,
+          "countries": [],
+          "entities": [
+            "Jensen Huang",
+            "Nvidia",
+            "CBS News",
+            "Anthropic",
+            "Dario Amodei",
+            "OpenAI",
+            "Sam Altman",
+            "King Charles",
+            "Trump"
+          ],
+          "companies_mentioned": [
+            "Nvidia",
+            "Anthropic",
+            "OpenAI"
+          ],
+          "direct_ticker_candidates": [
+            "NVDA"
+          ],
+          "economic_channels": [],
+          "candidate_indirect_tickers": [],
+          "missing_information": [],
+          "research_questions": [],
+          "severity_candidate": "Low",
+          "severity_reason": "The article discusses executive commentary and opinions regarding AI safety debates and existential risk predictions, presenting no operational disruptions or fundamental company changes.",
+          "severity_confidence": 0.9,
+          "operational_event": false,
+          "fundamental_change_detected": false,
+          "llm_confidence": 1.0,
+          "citations": [
+            {
+              "field": "summary_short",
+              "quote": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+              "source_field": "body"
+            },
+            {
+              "field": "summary_full",
+              "quote": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+              "source_field": "body"
+            },
+            {
+              "field": "summary_full",
+              "quote": "\"2030 is not going to be the end of the world. There is 0% chance that's going to be the end of the world\", Huang said in an interview with CBS News, the BBC's US partner.",
+              "source_field": "body"
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": null,
+          "output_tokens": null,
+          "total_tokens": 1359,
+          "estimated_cost_usd": null,
+          "scope": "successful response only; failed-attempt usage unavailable"
+        },
+        "cache_hit": false,
+        "attempts": [
+          {
+            "attempt": 1,
+            "provider": "gemini",
+            "model": "gemini-3.5-flash-lite",
+            "status": "success"
+          }
+        ],
+        "attempt_audit_scope": "original enrichment generation; cache reuse makes no new requests",
+        "attempt_count": 1,
+        "retry_count": 0,
+        "fallback_used": false,
+        "point_in_time_note": "Generated at the recorded enrichment time; not evidence the AI output was available when the article was published. Exposure eligibility still uses the original article replay time."
+      },
+      "semantic_validation": {
+        "status": "validated_constraints",
+        "accepted": {
+          "summary_short": {
+            "value": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+            "status": "source_grounded_candidate",
+            "sentence_validation": [
+              {
+                "sentence": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+                "accepted": true,
+                "supporting_quotes": [
+                  "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\"."
+                ],
+                "source_fields": [
+                  "body"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+                "source_field": "body"
+              }
+            ],
+            "reason": null
+          },
+          "summary_full": {
+            "value": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\". \"2030 is not going to be the end of the world. There is 0% chance that's going to be the end of the world\", Huang said in an interview with CBS News, the BBC's US partner.",
+            "status": "source_grounded_candidate",
+            "sentence_validation": [
+              {
+                "sentence": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+                "accepted": true,
+                "supporting_quotes": [
+                  "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\"."
+                ],
+                "source_fields": [
+                  "body"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+                "source_field": "body"
+              },
+              {
+                "sentence": "\"2030 is not going to be the end of the world.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "\"2030 is not going to be the end of the world. There is 0% chance that's going to be the end of the world\", Huang said in an interview with CBS News, the BBC's US partner."
+                ],
+                "source_fields": [
+                  "body"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "\"2030 is not going to be the end of the world. There is 0% chance that's going to be the end of the world\", Huang said in an interview with CBS News, the BBC's US partner.",
+                "source_field": "body"
+              },
+              {
+                "sentence": "There is 0% chance that's going to be the end of the world\", Huang said in an interview with CBS News, the BBC's US partner.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "\"2030 is not going to be the end of the world. There is 0% chance that's going to be the end of the world\", Huang said in an interview with CBS News, the BBC's US partner."
+                ],
+                "source_fields": [
+                  "body"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "\"2030 is not going to be the end of the world. There is 0% chance that's going to be the end of the world\", Huang said in an interview with CBS News, the BBC's US partner.",
+                "source_field": "body"
+              }
+            ],
+            "reason": null
+          }
+        },
+        "summary_validation": {
+          "summary_short": {
+            "value": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+            "status": "source_grounded_candidate",
+            "sentence_validation": [
+              {
+                "sentence": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+                "accepted": true,
+                "supporting_quotes": [
+                  "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\"."
+                ],
+                "source_fields": [
+                  "body"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+                "source_field": "body"
+              }
+            ],
+            "reason": null
+          },
+          "summary_full": {
+            "value": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\". \"2030 is not going to be the end of the world. There is 0% chance that's going to be the end of the world\", Huang said in an interview with CBS News, the BBC's US partner.",
+            "status": "source_grounded_candidate",
+            "sentence_validation": [
+              {
+                "sentence": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+                "accepted": true,
+                "supporting_quotes": [
+                  "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\"."
+                ],
+                "source_fields": [
+                  "body"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+                "source_field": "body"
+              },
+              {
+                "sentence": "\"2030 is not going to be the end of the world.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "\"2030 is not going to be the end of the world. There is 0% chance that's going to be the end of the world\", Huang said in an interview with CBS News, the BBC's US partner."
+                ],
+                "source_fields": [
+                  "body"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "\"2030 is not going to be the end of the world. There is 0% chance that's going to be the end of the world\", Huang said in an interview with CBS News, the BBC's US partner.",
+                "source_field": "body"
+              },
+              {
+                "sentence": "There is 0% chance that's going to be the end of the world\", Huang said in an interview with CBS News, the BBC's US partner.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "\"2030 is not going to be the end of the world. There is 0% chance that's going to be the end of the world\", Huang said in an interview with CBS News, the BBC's US partner."
+                ],
+                "source_fields": [
+                  "body"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "\"2030 is not going to be the end of the world. There is 0% chance that's going to be the end of the world\", Huang said in an interview with CBS News, the BBC's US partner.",
+                "source_field": "body"
+              }
+            ],
+            "reason": null
+          }
+        },
+        "rejections": [],
+        "candidate_relationships": [
+          {
+            "ticker": "NVDA",
+            "kind": "direct_ticker_candidates",
+            "state": "qualified",
+            "reason": "Existing deterministic result supports relationship.",
+            "edge_ids": []
+          }
+        ],
+        "notice": "Source-grounded AI extraction is not independent fact verification. Candidate fields do not qualify ticker exposure."
+      },
+      "classification_assessment": {
+        "candidates": {
+          "article_class": "opinion",
+          "event_type": null,
+          "event_subtype": null,
+          "operational_event": false,
+          "fundamental_change_detected": false
+        },
+        "source_grounded_candidates": {},
+        "final": {
+          "article_class": "commentary",
+          "event_type": "commentary",
+          "event_subtype": "commentary"
+        },
+        "authority": "existing deterministic classification; candidate fields never override final fields"
+      },
+      "article_summary": {
+        "summary_short": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+        "summary_full": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\". \"2030 is not going to be the end of the world. There is 0% chance that's going to be the end of the world\", Huang said in an interview with CBS News, the BBC's US partner.",
+        "source": "ai_source_grounded",
+        "notice": "AI summary of the supplied article; not independent verification."
+      },
+      "severity_assessment": {
+        "severity_candidate": "Low",
+        "severity_reason": "The article discusses executive commentary and opinions regarding AI safety debates and existential risk predictions, presenting no operational disruptions or fundamental company changes.",
+        "severity_confidence": 0.9,
+        "severity_final": "Low",
+        "severity_source": "rule",
+        "validation": "LLM candidate retained for audit; final severity requires the existing non-negated article rules.",
+        "rule_evidence": []
+      },
+      "feed": {
+        "state": "surface",
+        "reason": "Deterministically qualified watchlist relationship."
+      }
+    },
+    {
+      "article_id": "freenewsapi_ef76f840-4065-4052-82cf-60af67d7e099",
+      "headline": "Volatile yen draws intervention watch, other currencies subdued",
+      "source": "CNBC",
+      "article_url": "https://www.cnbc.com/2026/09/21/volatile-yen-draws-intervention-watch-other-currencies-subdued.html",
+      "gate": {
+        "article_id": "freenewsapi_ef76f840-4065-4052-82cf-60af67d7e099",
+        "is_event": true,
+        "gate_reason": "Asserted rate_decision event: nal with its unanimous decision to raise its policy rate.",
+        "gate_confidence": 0.8
+      },
+      "event": {
+        "event_id": "evt_9b792a7b551b72af10d5a752",
+        "canonical_event_id": "evt_9b792a7b551b72af10d5a752",
+        "article_ids": [
+          "freenewsapi_ef76f840-4065-4052-82cf-60af67d7e099"
+        ],
+        "source_count": 1,
+        "independent_source_count": 1,
+        "first_seen_at": "2026-09-21T02:54:20.647314+00:00",
+        "last_seen_at": "2026-09-21T02:54:20.647314+00:00",
+        "published_at_first": "2026-09-21T02:20:00.000Z",
+        "event_start_at": null,
+        "event_end_at": null,
+        "time_precision": "unknown",
+        "event_status": "developing",
+        "primary_country": null,
+        "affected_countries": [],
+        "primary_region": null,
+        "affected_regions": [],
+        "city": null,
+        "location_name": null,
+        "latitude": null,
+        "longitude": null,
+        "location_confidence": null,
+        "event_type": "macro_monetary",
+        "event_subtype": "rate_decision",
+        "severity_score": null,
+        "severity_confidence": null,
+        "scope": null,
+        "duration_class": "unknown",
+        "event_novelty": null,
+        "physical_damage": null,
+        "production_disruption": null,
+        "capacity_disruption": null,
+        "logistics_disruption": null,
+        "port_disruption": null,
+        "power_disruption": null,
+        "network_disruption": null,
+        "cloud_service_disruption": null,
+        "labor_disruption": null,
+        "supply_shortage": null,
+        "regulatory_change": null,
+        "export_restriction": null,
+        "import_restriction": null,
+        "price_change_explicit": null,
+        "demand_change_explicit": null,
+        "companies_mentioned": [],
+        "tickers_mentioned": [],
+        "suppliers_mentioned": [],
+        "customers_mentioned": [],
+        "industries_mentioned": [],
+        "products_mentioned": [],
+        "technologies_mentioned": [],
+        "commodities_mentioned": [],
+        "government_entities": [
+          "Federal Reserve"
+        ],
+        "regulators": [
+          "Federal Reserve"
+        ],
+        "people_mentioned": [],
+        "supply_channel": null,
+        "demand_channel": null,
+        "cost_channel": null,
+        "revenue_channel": null,
+        "margin_channel": null,
+        "capex_channel": null,
+        "financing_channel": null,
+        "interest_rate_channel": true,
+        "fx_channel": null,
+        "commodity_channel": null,
+        "logistics_channel": null,
+        "energy_channel": null,
+        "regulatory_channel": null,
+        "legal_channel": null,
+        "technology_channel": null,
+        "competition_channel": null,
+        "source_quality": null,
+        "extraction_confidence": 0.7,
+        "confirmation_level": "single_source",
+        "evidence_fields": {
+          "event_type": {
+            "value": "macro_monetary",
+            "evidence": "nal with its unanimous decision to raise its policy rate.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_subtype": {
+            "value": "rate_decision",
+            "evidence": "nal with its unanimous decision to raise its policy rate.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_summary": {
+            "value": "nal with its unanimous decision to raise its policy rate.",
+            "evidence": "nal with its unanimous decision to raise its policy rate.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "keywords": {
+            "value": [
+              "rate_decision"
+            ],
+            "evidence": "nal with its unanimous decision to raise its policy rate.",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "nal with its unanimous decision to raise its policy rate.",
+                "source_field": "body"
+              }
+            ]
+          },
+          "canonical_headline": {
+            "value": "Volatile yen draws intervention watch, other currencies subdued",
+            "evidence": "Volatile yen draws intervention watch, other currencies subdued",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "independent_source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "event_status": {
+            "value": "developing",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "confirmation_level": {
+            "value": "single_source",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "extraction_confidence": {
+            "value": 0.7,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "published_at_first": {
+            "value": "2026-09-21T02:20:00.000Z",
+            "evidence": "2026-09-21T02:20:00.000Z",
+            "source_field": "published_at",
+            "basis": "provider_metadata"
+          },
+          "first_seen_at": {
+            "value": "2026-09-21T02:54:20.647314+00:00",
+            "evidence": "2026-09-21T02:54:20.647314+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "last_seen_at": {
+            "value": "2026-09-21T02:54:20.647314+00:00",
+            "evidence": "2026-09-21T02:54:20.647314+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "interest_rate_channel": {
+            "value": true,
+            "evidence": "nal with its unanimous decision to raise its policy rate.",
+            "source_field": "body",
+            "basis": "article_text",
+            "assertion": "affirmed"
+          },
+          "government_entities": {
+            "value": [
+              "Federal Reserve"
+            ],
+            "evidence": "Apart from the BOJ, the Federal Reserve and the European Central Bank raised rates this month, with both warn",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "Apart from the BOJ, the Federal Reserve and the European Central Bank raised rates this month, with both warn",
+                "source_field": "body"
+              }
+            ]
+          },
+          "regulators": {
+            "value": [
+              "Federal Reserve"
+            ],
+            "evidence": "Apart from the BOJ, the Federal Reserve and the European Central Bank raised rates this month, with both warn",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "Apart from the BOJ, the Federal Reserve and the European Central Bank raised rates this month, with both warn",
+                "source_field": "body"
+              }
+            ]
+          }
+        },
+        "canonical_headline": "Volatile yen draws intervention watch, other currencies subdued",
+        "event_summary": "nal with its unanimous decision to raise its policy rate.",
+        "keywords": [
+          "rate_decision"
+        ],
+        "created_at": "2026-09-25T13:34:36.669677+00:00",
+        "updated_at": "2026-09-25T13:34:36.669677+00:00",
+        "schema_version": "event_v1",
+        "country": null,
+        "region": null,
+        "location_basis": "unresolved",
+        "coordinate_precision": null
+      },
+      "candidate_channels": [
+        {
+          "channel_family": "interest_rates",
+          "channel_subtype": "unspecified",
+          "confidence": 0.75,
+          "basis": [
+            "interest_rate_channel"
+          ],
+          "status": "candidate"
+        }
+      ],
+      "ticker_analysis": [],
+      "edge_exclusions": [
+        {
+          "event_id": "evt_9b792a7b551b72af10d5a752",
+          "edge_id": "4",
+          "reason": "non_operating_capacity"
+        },
+        {
+          "event_id": "evt_9b792a7b551b72af10d5a752",
+          "edge_id": "19",
+          "reason": "blocked_or_hypothesis_evidence"
+        }
+      ],
+      "status": "macro_event",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "macro_event",
+      "published_at": "2026-09-21T02:20:00.000Z",
+      "geography": {
+        "event_country": null,
+        "event_region": null,
+        "event_city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "location_confidence": null,
+        "coordinate_basis": null,
+        "evidence": [],
+        "coordinate_precision": null
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Unknown; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      },
+      "enrichment": {
+        "status": "available",
+        "schema_version": "news_semantic_v3_1",
+        "prompt_version": "news_semantics_v3_1_sentence_grounding",
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "requested_model": "gemini-3.5-flash-lite",
+        "content_hash": "b89b4abe1eb6d95574a30c2e79affbd088f9aab0633b89aa293ae224b57636f9",
+        "article_content_hash": "d89224e4139f51a2be65d3bcdbc7c015845fb3135096f431c4b8cb0a2f444c90",
+        "generated_at": "2026-09-25T13:34:54.847787+00:00",
+        "semantic": {
+          "article_class": "macro_event",
+          "is_relevant_candidate": true,
+          "summary_short": "Volatile yen draws intervention watch, other currencies subdued",
+          "summary_full": "Volatile yen draws intervention watch, other currencies subdued Markets focused on the yen on Monday following a sharp drop last week that spurred speculation of a rate check, while investors pondered rate outlooks after hikes from major central banks last week.",
+          "primary_country": "Japan",
+          "event_type": "monetary_policy",
+          "event_subtype": "currency_intervention",
+          "countries": [
+            "Japan",
+            "United States",
+            "Germany"
+          ],
+          "entities": [
+            "Bank of Japan",
+            "Federal Reserve",
+            "European Central Bank",
+            "Alternative for Germany"
+          ],
+          "companies_mentioned": [
+            "HSBC",
+            "Jefferies"
+          ],
+          "direct_ticker_candidates": [],
+          "economic_channels": [
+            "foreign_exchange",
+            "interest_rates",
+            "central_banks"
+          ],
+          "candidate_indirect_tickers": [
+            "USD",
+            "EUR",
+            "GBP",
+            "AUD",
+            "NZD"
+          ],
+          "missing_information": [
+            "Exact timing of potential official currency intervention by Japanese authorities"
+          ],
+          "research_questions": [
+            "Will Japanese authorities intervene in currency markets to support the yen?"
+          ],
+          "severity_candidate": "Medium",
+          "severity_reason": "The article reports heightened market volatility in the yen and speculation of an official currency intervention following a rate hike by the Bank of Japan.",
+          "severity_confidence": 0.8,
+          "operational_event": false,
+          "fundamental_change_detected": false,
+          "llm_confidence": 0.95,
+          "citations": [
+            {
+              "field": "summary_short",
+              "quote": "Volatile yen draws intervention watch, other currencies subdued",
+              "source_field": "headline"
+            },
+            {
+              "field": "summary_full",
+              "quote": "Volatile yen draws intervention watch, other currencies subdued",
+              "source_field": "headline"
+            },
+            {
+              "field": "summary_full",
+              "quote": "Markets focused on the yen on Monday following a sharp drop last week that spurred speculation of a rate check, while investors pondered rate outlooks after hikes from major central banks last week.",
+              "source_field": "summary"
+            },
+            {
+              "field": "primary_country",
+              "quote": "Japan",
+              "source_field": "body"
+            },
+            {
+              "field": "event_type",
+              "quote": "rate checks",
+              "source_field": "body"
+            },
+            {
+              "field": "event_subtype",
+              "quote": "currency intervention",
+              "source_field": "body"
+            },
+            {
+              "field": "article_class",
+              "quote": "Volatile yen draws intervention watch, other currencies subdued",
+              "source_field": "headline"
+            },
+            {
+              "field": "economic_channels",
+              "quote": "Currency markets",
+              "source_field": "body"
+            },
+            {
+              "field": "severity_candidate",
+              "quote": "volatile currency",
+              "source_field": "body"
+            },
+            {
+              "field": "operational_event",
+              "quote": "Currency markets focused on the yen on Monday following a sharp drop last week",
+              "source_field": "body"
+            },
+            {
+              "field": "fundamental_change_detected",
+              "quote": "The Bank of Japan raised rates on Friday to their highest level in 31 years to 1.25%",
+              "source_field": "body"
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": null,
+          "output_tokens": null,
+          "total_tokens": 1970,
+          "estimated_cost_usd": null,
+          "scope": "successful response only; failed-attempt usage unavailable"
+        },
+        "cache_hit": false,
+        "attempts": [
+          {
+            "attempt": 1,
+            "provider": "gemini",
+            "model": "gemini-3.5-flash-lite",
+            "status": "success"
+          }
+        ],
+        "attempt_audit_scope": "original enrichment generation; cache reuse makes no new requests",
+        "attempt_count": 1,
+        "retry_count": 0,
+        "fallback_used": false,
+        "point_in_time_note": "Generated at the recorded enrichment time; not evidence the AI output was available when the article was published. Exposure eligibility still uses the original article replay time."
+      },
+      "semantic_validation": {
+        "status": "validated_constraints",
+        "accepted": {
+          "article_class": {
+            "value": "macro_event",
+            "citations": [
+              {
+                "field": "article_class",
+                "quote": "Volatile yen draws intervention watch, other currencies subdued",
+                "source_field": "headline"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "economic_channels": {
+            "value": [
+              "foreign_exchange",
+              "interest_rates",
+              "central_banks"
+            ],
+            "citations": [
+              {
+                "field": "economic_channels",
+                "quote": "Currency markets",
+                "source_field": "body"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "operational_event": {
+            "value": false,
+            "citations": [
+              {
+                "field": "operational_event",
+                "quote": "Currency markets focused on the yen on Monday following a sharp drop last week",
+                "source_field": "body"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "fundamental_change_detected": {
+            "value": false,
+            "citations": [
+              {
+                "field": "fundamental_change_detected",
+                "quote": "The Bank of Japan raised rates on Friday to their highest level in 31 years to 1.25%",
+                "source_field": "body"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "summary_short": {
+            "value": "Volatile yen draws intervention watch, other currencies subdued",
+            "status": "source_grounded_candidate",
+            "sentence_validation": [
+              {
+                "sentence": "Volatile yen draws intervention watch, other currencies subdued",
+                "accepted": true,
+                "supporting_quotes": [
+                  "Volatile yen draws intervention watch, other currencies subdued"
+                ],
+                "source_fields": [
+                  "headline"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "Volatile yen draws intervention watch, other currencies subdued",
+                "source_field": "headline"
+              }
+            ],
+            "reason": null
+          }
+        },
+        "summary_validation": {
+          "summary_short": {
+            "value": "Volatile yen draws intervention watch, other currencies subdued",
+            "status": "source_grounded_candidate",
+            "sentence_validation": [
+              {
+                "sentence": "Volatile yen draws intervention watch, other currencies subdued",
+                "accepted": true,
+                "supporting_quotes": [
+                  "Volatile yen draws intervention watch, other currencies subdued"
+                ],
+                "source_fields": [
+                  "headline"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "Volatile yen draws intervention watch, other currencies subdued",
+                "source_field": "headline"
+              }
+            ],
+            "reason": null
+          },
+          "summary_full": {
+            "value": null,
+            "status": "rejected",
+            "sentence_validation": [
+              {
+                "sentence": "Volatile yen draws intervention watch, other currencies subdued Markets focused on the yen on Monday following a sharp drop last week that spurred speculation of a rate check, while investors pondered rate outlooks after hikes from major central banks last week.",
+                "accepted": false,
+                "supporting_quotes": [],
+                "source_fields": [],
+                "reason": "No sufficient exact source support: unsupported claim, attribution, modality or negation."
+              }
+            ],
+            "reason": "No summary sentences have sufficient source support."
+          }
+        },
+        "rejections": [
+          {
+            "field": "primary_country",
+            "reason": "Citation is not a substantive exact source span."
+          },
+          {
+            "field": "summary_full",
+            "reason": "No summary sentences have sufficient source support."
+          },
+          {
+            "field": "event_type",
+            "reason": "Source quote does not independently validate candidate classification; retained in AI audit only."
+          },
+          {
+            "field": "event_subtype",
+            "reason": "Source quote does not independently validate candidate classification; retained in AI audit only."
+          }
+        ],
+        "candidate_relationships": [
+          {
+            "ticker": "USD",
+            "kind": "candidate_indirect_tickers",
+            "state": "rejected",
+            "reason": "No eligible matching exposure/action evidence; candidate cannot qualify itself.",
+            "edge_ids": []
+          },
+          {
+            "ticker": "EUR",
+            "kind": "candidate_indirect_tickers",
+            "state": "rejected",
+            "reason": "No eligible matching exposure/action evidence; candidate cannot qualify itself.",
+            "edge_ids": []
+          },
+          {
+            "ticker": "GBP",
+            "kind": "candidate_indirect_tickers",
+            "state": "rejected",
+            "reason": "No eligible matching exposure/action evidence; candidate cannot qualify itself.",
+            "edge_ids": []
+          },
+          {
+            "ticker": "AUD",
+            "kind": "candidate_indirect_tickers",
+            "state": "rejected",
+            "reason": "No eligible matching exposure/action evidence; candidate cannot qualify itself.",
+            "edge_ids": []
+          },
+          {
+            "ticker": "NZD",
+            "kind": "candidate_indirect_tickers",
+            "state": "rejected",
+            "reason": "No eligible matching exposure/action evidence; candidate cannot qualify itself.",
+            "edge_ids": []
+          }
+        ],
+        "notice": "Source-grounded AI extraction is not independent fact verification. Candidate fields do not qualify ticker exposure."
+      },
+      "classification_assessment": {
+        "candidates": {
+          "article_class": "macro_event",
+          "event_type": "monetary_policy",
+          "event_subtype": "currency_intervention",
+          "operational_event": false,
+          "fundamental_change_detected": false
+        },
+        "source_grounded_candidates": {
+          "article_class": {
+            "value": "macro_event",
+            "citations": [
+              {
+                "field": "article_class",
+                "quote": "Volatile yen draws intervention watch, other currencies subdued",
+                "source_field": "headline"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "operational_event": {
+            "value": false,
+            "citations": [
+              {
+                "field": "operational_event",
+                "quote": "Currency markets focused on the yen on Monday following a sharp drop last week",
+                "source_field": "body"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "fundamental_change_detected": {
+            "value": false,
+            "citations": [
+              {
+                "field": "fundamental_change_detected",
+                "quote": "The Bank of Japan raised rates on Friday to their highest level in 31 years to 1.25%",
+                "source_field": "body"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          }
+        },
+        "final": {
+          "article_class": "macro_event",
+          "event_type": "macro_monetary",
+          "event_subtype": "rate_decision"
+        },
+        "authority": "existing deterministic classification; candidate fields never override final fields"
+      },
+      "article_summary": {
+        "summary_short": "Volatile yen draws intervention watch, other currencies subdued",
+        "summary_full": null,
+        "source": "ai_source_grounded",
+        "notice": "AI summary of the supplied article; not independent verification."
+      },
+      "severity_assessment": {
+        "severity_candidate": "Medium",
+        "severity_reason": "The article reports heightened market volatility in the yen and speculation of an official currency intervention following a rate hike by the Bank of Japan.",
+        "severity_confidence": 0.8,
+        "severity_final": "Unknown",
+        "severity_source": "rule",
+        "validation": "LLM candidate retained for audit; final severity requires the existing non-negated article rules.",
+        "rule_evidence": []
+      },
+      "feed": {
+        "state": "surface",
+        "reason": "Source-grounded semantic economic-event candidate; relationship still independently validated."
+      }
+    },
+    {
+      "article_id": "freenewsapi_d42abbb8-ee3a-46db-ab9d-af134626ba21",
+      "headline": "New Zealand Dollar languishes near two-month low vs USD as bears await break below 0.5700",
+      "source": "FXStreet",
+      "article_url": "https://www.fxstreet.com/news/new-zealand-dollar-languishes-near-two-month-low-vs-usd-as-bears-await-break-below-05700-202609210142",
+      "gate": {
+        "article_id": "freenewsapi_d42abbb8-ee3a-46db-ab9d-af134626ba21",
+        "is_event": true,
+        "gate_reason": "Asserted rate_cut event: On the contrary, lower interest rates tend to weaken NZD.",
+        "gate_confidence": 0.8
+      },
+      "event": {
+        "event_id": "evt_0dfe27790ecc1e24941e24a6",
+        "canonical_event_id": "evt_0dfe27790ecc1e24941e24a6",
+        "article_ids": [
+          "freenewsapi_d42abbb8-ee3a-46db-ab9d-af134626ba21"
+        ],
+        "source_count": 1,
+        "independent_source_count": 1,
+        "first_seen_at": "2026-09-21T02:54:22.149837+00:00",
+        "last_seen_at": "2026-09-21T02:54:22.149837+00:00",
+        "published_at_first": "2026-09-21T01:42:14.000Z",
+        "event_start_at": null,
+        "event_end_at": null,
+        "time_precision": "unknown",
+        "event_status": "developing",
+        "primary_country": "New Zealand",
+        "affected_countries": [],
+        "primary_region": null,
+        "affected_regions": [],
+        "city": null,
+        "location_name": null,
+        "latitude": -39.759,
+        "longitude": 172.787,
+        "location_confidence": null,
+        "event_type": "macro_monetary",
+        "event_subtype": "rate_cut",
+        "severity_score": null,
+        "severity_confidence": null,
+        "scope": null,
+        "duration_class": "unknown",
+        "event_novelty": null,
+        "physical_damage": null,
+        "production_disruption": null,
+        "capacity_disruption": null,
+        "logistics_disruption": null,
+        "port_disruption": null,
+        "power_disruption": null,
+        "network_disruption": null,
+        "cloud_service_disruption": null,
+        "labor_disruption": null,
+        "supply_shortage": null,
+        "regulatory_change": null,
+        "export_restriction": null,
+        "import_restriction": null,
+        "price_change_explicit": null,
+        "demand_change_explicit": null,
+        "companies_mentioned": [],
+        "tickers_mentioned": [],
+        "suppliers_mentioned": [],
+        "customers_mentioned": [],
+        "industries_mentioned": [],
+        "products_mentioned": [],
+        "technologies_mentioned": [
+          "AI"
+        ],
+        "commodities_mentioned": [
+          "oil"
+        ],
+        "government_entities": [
+          "Federal Reserve"
+        ],
+        "regulators": [
+          "Federal Reserve"
+        ],
+        "people_mentioned": [],
+        "supply_channel": null,
+        "demand_channel": null,
+        "cost_channel": null,
+        "revenue_channel": null,
+        "margin_channel": null,
+        "capex_channel": null,
+        "financing_channel": null,
+        "interest_rate_channel": true,
+        "fx_channel": null,
+        "commodity_channel": null,
+        "logistics_channel": null,
+        "energy_channel": null,
+        "regulatory_channel": null,
+        "legal_channel": null,
+        "technology_channel": null,
+        "competition_channel": null,
+        "source_quality": null,
+        "extraction_confidence": 0.7,
+        "confirmation_level": "single_source",
+        "evidence_fields": {
+          "event_type": {
+            "value": "macro_monetary",
+            "evidence": "On the contrary, lower interest rates tend to weaken NZD.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_subtype": {
+            "value": "rate_cut",
+            "evidence": "On the contrary, lower interest rates tend to weaken NZD.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_summary": {
+            "value": "On the contrary, lower interest rates tend to weaken NZD.",
+            "evidence": "On the contrary, lower interest rates tend to weaken NZD.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "keywords": {
+            "value": [
+              "rate_cut"
+            ],
+            "evidence": "On the contrary, lower interest rates tend to weaken NZD.",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "On the contrary, lower interest rates tend to weaken NZD.",
+                "source_field": "body"
+              }
+            ]
+          },
+          "canonical_headline": {
+            "value": "New Zealand Dollar languishes near two-month low vs USD as bears await break below 0.5700",
+            "evidence": "New Zealand Dollar languishes near two-month low vs USD as bears await break below 0.5700",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "independent_source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "event_status": {
+            "value": "developing",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "confirmation_level": {
+            "value": "single_source",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "extraction_confidence": {
+            "value": 0.7,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "published_at_first": {
+            "value": "2026-09-21T01:42:14.000Z",
+            "evidence": "2026-09-21T01:42:14.000Z",
+            "source_field": "published_at",
+            "basis": "provider_metadata"
+          },
+          "first_seen_at": {
+            "value": "2026-09-21T02:54:22.149837+00:00",
+            "evidence": "2026-09-21T02:54:22.149837+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "last_seen_at": {
+            "value": "2026-09-21T02:54:22.149837+00:00",
+            "evidence": "2026-09-21T02:54:22.149837+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "interest_rate_channel": {
+            "value": true,
+            "evidence": "On the contrary, lower interest rates tend to weaken NZD.",
+            "source_field": "body",
+            "basis": "article_text",
+            "assertion": "affirmed"
+          },
+          "government_entities": {
+            "value": [
+              "Federal Reserve"
+            ],
+            "evidence": "In contrast, the US Federal Reserve (Fed) maintained a relatively hawkish stance and signaled at least on",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "In contrast, the US Federal Reserve (Fed) maintained a relatively hawkish stance and signaled at least on",
+                "source_field": "body"
+              }
+            ]
+          },
+          "regulators": {
+            "value": [
+              "Federal Reserve"
+            ],
+            "evidence": "In contrast, the US Federal Reserve (Fed) maintained a relatively hawkish stance and signaled at least on",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "In contrast, the US Federal Reserve (Fed) maintained a relatively hawkish stance and signaled at least on",
+                "source_field": "body"
+              }
+            ]
+          },
+          "commodities_mentioned": {
+            "value": [
+              "oil"
+            ],
+            "evidence": "nts from Saudi Arabia dragged oil prices to an over one-week low, helping alleviate immediate fears of ",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "nts from Saudi Arabia dragged oil prices to an over one-week low, helping alleviate immediate fears of ",
+                "source_field": "body"
+              }
+            ]
+          },
+          "technologies_mentioned": {
+            "value": [
+              "AI"
+            ],
+            "evidence": "(The technical analysis of this story was written with the help of an AI tool.",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "(The technical analysis of this story was written with the help of an AI tool.",
+                "source_field": "body"
+              }
+            ]
+          }
+        },
+        "canonical_headline": "New Zealand Dollar languishes near two-month low vs USD as bears await break below 0.5700",
+        "event_summary": "On the contrary, lower interest rates tend to weaken NZD.",
+        "keywords": [
+          "rate_cut"
+        ],
+        "created_at": "2026-09-25T13:34:36.669677+00:00",
+        "updated_at": "2026-09-25T13:34:36.669677+00:00",
+        "schema_version": "event_v1",
+        "country": "New Zealand",
+        "region": null,
+        "location_basis": "explicit_article_location",
+        "coordinate_precision": "country_approximation"
+      },
+      "candidate_channels": [
+        {
+          "channel_family": "interest_rates",
+          "channel_subtype": "unspecified",
+          "confidence": 0.75,
+          "basis": [
+            "interest_rate_channel"
+          ],
+          "status": "candidate"
+        }
+      ],
+      "ticker_analysis": [],
+      "edge_exclusions": [
+        {
+          "event_id": "evt_0dfe27790ecc1e24941e24a6",
+          "edge_id": "4",
+          "reason": "non_operating_capacity"
+        },
+        {
+          "event_id": "evt_0dfe27790ecc1e24941e24a6",
+          "edge_id": "19",
+          "reason": "blocked_or_hypothesis_evidence"
+        }
+      ],
+      "status": "macro_event",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "macro_event",
+      "published_at": "2026-09-21T01:42:14.000Z",
+      "geography": {
+        "event_country": "New Zealand",
+        "event_region": null,
+        "event_city": null,
+        "latitude": -39.759,
+        "longitude": 172.787,
+        "location_basis": "explicit_article_location",
+        "location_confidence": "Article-supported country; exact site unresolved",
+        "coordinate_basis": "Natural Earth country label point (existing map)",
+        "evidence": [
+          {
+            "country": "New Zealand",
+            "city": null,
+            "region": null,
+            "source_field": "headline",
+            "evidence": "New Zealand Dollar languishes near two-month low vs USD as bears await break below 0.5700"
+          }
+        ],
+        "coordinate_precision": "country_approximation"
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Unknown; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      },
+      "enrichment": {
+        "status": "available",
+        "schema_version": "news_semantic_v3_1",
+        "prompt_version": "news_semantics_v3_1_sentence_grounding",
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "requested_model": "gemini-3.5-flash-lite",
+        "content_hash": "0f4ecc5c9636d7bb4ee117f809086defe1c68a65294def8af63427362a1d934d",
+        "article_content_hash": "b7179c54d28ac420fca150c77bd8e4b48c951d7f5827d3ed3bbf6b4333a04aba",
+        "generated_at": "2026-09-25T13:35:01.487823+00:00",
+        "semantic": {
+          "article_class": "macro_event",
+          "is_relevant_candidate": true,
+          "summary_short": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+          "summary_full": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+          "primary_country": "New Zealand",
+          "event_type": "foreign_exchange",
+          "event_subtype": "currency_fluctuation",
+          "countries": [
+            "New Zealand",
+            "United States",
+            "Saudi Arabia",
+            "Iran",
+            "China",
+            "Yemen"
+          ],
+          "entities": [
+            "Reserve Bank of New Zealand",
+            "US Federal Reserve",
+            "Nordea",
+            "Houthis",
+            "Donald Trump",
+            "Xi Jinping"
+          ],
+          "companies_mentioned": [
+            "Nordea"
+          ],
+          "direct_ticker_candidates": [],
+          "economic_channels": [
+            "Foreign Exchange",
+            "Monetary Policy",
+            "Geopolitics",
+            "Commodity Prices"
+          ],
+          "candidate_indirect_tickers": [],
+          "missing_information": [],
+          "research_questions": [
+            "How will the meeting between US President Donald Trump and Chinese President Xi Jinping impact antipodean currencies?"
+          ],
+          "severity_candidate": "Low",
+          "severity_reason": "Currency fluctuation and macroeconomic commentary involving standard foreign exchange movements without direct corporate disaster or systemic failure.",
+          "severity_confidence": 0.9,
+          "operational_event": false,
+          "fundamental_change_detected": false,
+          "llm_confidence": 0.95,
+          "citations": [
+            {
+              "field": "summary_short",
+              "quote": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+              "source_field": "summary"
+            },
+            {
+              "field": "summary_full",
+              "quote": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+              "source_field": "summary"
+            },
+            {
+              "field": "primary_country",
+              "quote": "The New Zealand Dollar (NZD) continues with its relative underperformance on the back of the Reserve Bank of New Zealand's (RBNZ) dovish rate hike amid weak domestic growth.",
+              "source_field": "body"
+            },
+            {
+              "field": "event_type",
+              "quote": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+              "source_field": "summary"
+            },
+            {
+              "field": "event_subtype",
+              "quote": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+              "source_field": "summary"
+            },
+            {
+              "field": "article_class",
+              "quote": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+              "source_field": "summary"
+            },
+            {
+              "field": "economic_channels",
+              "quote": "The New Zealand Dollar (NZD) continues with its relative underperformance on the back of the Reserve Bank of New Zealand's (RBNZ) dovish rate hike amid weak domestic growth.",
+              "source_field": "body"
+            },
+            {
+              "field": "severity_candidate",
+              "quote": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+              "source_field": "summary"
+            },
+            {
+              "field": "operational_event",
+              "quote": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+              "source_field": "summary"
+            },
+            {
+              "field": "fundamental_change_detected",
+              "quote": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+              "source_field": "summary"
+            },
+            {
+              "field": "direct_ticker_candidates",
+              "quote": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+              "source_field": "summary"
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": null,
+          "output_tokens": null,
+          "total_tokens": 2903,
+          "estimated_cost_usd": null,
+          "scope": "successful response only; failed-attempt usage unavailable"
+        },
+        "cache_hit": false,
+        "attempts": [
+          {
+            "attempt": 1,
+            "provider": "gemini",
+            "model": "gemini-3.5-flash-lite",
+            "status": "success"
+          }
+        ],
+        "attempt_audit_scope": "original enrichment generation; cache reuse makes no new requests",
+        "attempt_count": 1,
+        "retry_count": 0,
+        "fallback_used": false,
+        "point_in_time_note": "Generated at the recorded enrichment time; not evidence the AI output was available when the article was published. Exposure eligibility still uses the original article replay time."
+      },
+      "semantic_validation": {
+        "status": "validated_constraints",
+        "accepted": {
+          "article_class": {
+            "value": "macro_event",
+            "citations": [
+              {
+                "field": "article_class",
+                "quote": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+                "source_field": "summary"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "economic_channels": {
+            "value": [
+              "Foreign Exchange",
+              "Monetary Policy",
+              "Geopolitics",
+              "Commodity Prices"
+            ],
+            "citations": [
+              {
+                "field": "economic_channels",
+                "quote": "The New Zealand Dollar (NZD) continues with its relative underperformance on the back of the Reserve Bank of New Zealand's (RBNZ) dovish rate hike amid weak domestic growth.",
+                "source_field": "body"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "operational_event": {
+            "value": false,
+            "citations": [
+              {
+                "field": "operational_event",
+                "quote": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+                "source_field": "summary"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "fundamental_change_detected": {
+            "value": false,
+            "citations": [
+              {
+                "field": "fundamental_change_detected",
+                "quote": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+                "source_field": "summary"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "summary_short": {
+            "value": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+            "status": "source_grounded_candidate",
+            "sentence_validation": [
+              {
+                "sentence": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week."
+                ],
+                "source_fields": [
+                  "summary"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+                "source_field": "summary"
+              }
+            ],
+            "reason": null
+          },
+          "summary_full": {
+            "value": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+            "status": "source_grounded_candidate",
+            "sentence_validation": [
+              {
+                "sentence": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week."
+                ],
+                "source_fields": [
+                  "summary"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+                "source_field": "summary"
+              }
+            ],
+            "reason": null
+          }
+        },
+        "summary_validation": {
+          "summary_short": {
+            "value": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+            "status": "source_grounded_candidate",
+            "sentence_validation": [
+              {
+                "sentence": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week."
+                ],
+                "source_fields": [
+                  "summary"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+                "source_field": "summary"
+              }
+            ],
+            "reason": null
+          },
+          "summary_full": {
+            "value": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+            "status": "source_grounded_candidate",
+            "sentence_validation": [
+              {
+                "sentence": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week."
+                ],
+                "source_fields": [
+                  "summary"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+                "source_field": "summary"
+              }
+            ],
+            "reason": null
+          }
+        },
+        "rejections": [
+          {
+            "field": "event_type",
+            "reason": "Source quote does not independently validate candidate classification; retained in AI audit only."
+          },
+          {
+            "field": "event_subtype",
+            "reason": "Source quote does not independently validate candidate classification; retained in AI audit only."
+          },
+          {
+            "field": "primary_country",
+            "reason": "Country failed deterministic event-geography validation; contextual location is not event location."
+          }
+        ],
+        "candidate_relationships": [],
+        "notice": "Source-grounded AI extraction is not independent fact verification. Candidate fields do not qualify ticker exposure."
+      },
+      "classification_assessment": {
+        "candidates": {
+          "article_class": "macro_event",
+          "event_type": "foreign_exchange",
+          "event_subtype": "currency_fluctuation",
+          "operational_event": false,
+          "fundamental_change_detected": false
+        },
+        "source_grounded_candidates": {
+          "article_class": {
+            "value": "macro_event",
+            "citations": [
+              {
+                "field": "article_class",
+                "quote": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+                "source_field": "summary"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "operational_event": {
+            "value": false,
+            "citations": [
+              {
+                "field": "operational_event",
+                "quote": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+                "source_field": "summary"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "fundamental_change_detected": {
+            "value": false,
+            "citations": [
+              {
+                "field": "fundamental_change_detected",
+                "quote": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+                "source_field": "summary"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          }
+        },
+        "final": {
+          "article_class": "macro_event",
+          "event_type": "macro_monetary",
+          "event_subtype": "rate_cut"
+        },
+        "authority": "existing deterministic classification; candidate fields never override final fields"
+      },
+      "article_summary": {
+        "summary_short": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+        "summary_full": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+        "source": "ai_source_grounded",
+        "notice": "AI summary of the supplied article; not independent verification."
+      },
+      "severity_assessment": {
+        "severity_candidate": "Low",
+        "severity_reason": "Currency fluctuation and macroeconomic commentary involving standard foreign exchange movements without direct corporate disaster or systemic failure.",
+        "severity_confidence": 0.9,
+        "severity_final": "Unknown",
+        "severity_source": "rule",
+        "validation": "LLM candidate retained for audit; final severity requires the existing non-negated article rules.",
+        "rule_evidence": []
+      },
+      "feed": {
+        "state": "surface",
+        "reason": "Source-grounded semantic economic-event candidate; relationship still independently validated."
+      }
+    }
+  ],
+  "research_queue": [
+    {
+      "article_id": "freenewsapi_f15bf067-b612-4338-8041-9e41218ba6f4",
+      "event_id": "article_73ff4902cc61c5139b9c",
+      "ticker": "NVDA",
+      "qualification": "qualified_direct_company_subject",
+      "priority": "Low",
+      "direction": "Analyst judgment required"
+    }
+  ],
+  "summary": {
+    "articles": 5,
+    "usable": 5,
+    "discrete_events": 2,
+    "rejected": 0,
+    "qualified_pairs": 1,
+    "review_candidates": 0,
+    "surface": 4,
+    "background": 0,
+    "noise_rejected": 1,
+    "llm_calls": 4,
+    "cache_hits": 0,
+    "enrichment_success": 4,
+    "enrichment_failure": 0,
+    "enrichment_status_counts": {
+      "cheap_noise_filter": 1,
+      "available": 4
+    }
+  }
+}

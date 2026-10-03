@@ -1,0 +1,2303 @@
+{
+  "historical_validation_H31_H60.json:historical_H36": {
+    "before": {
+      "gate": {
+        "article_id": "historical_H36",
+        "is_event": true,
+        "gate_reason": "Asserted ruling event: Britain's competition regulator blocked Microsoft's proposed acquisition of Activision Blizzard over cloud-gaming compe",
+        "gate_confidence": 0.8
+      },
+      "event": {
+        "event_id": "evt_2a688fe4baa9a52373f1219e",
+        "canonical_event_id": "evt_2a688fe4baa9a52373f1219e",
+        "article_ids": [
+          "historical_H36"
+        ],
+        "source_count": 1,
+        "independent_source_count": 1,
+        "first_seen_at": null,
+        "last_seen_at": null,
+        "published_at_first": "2023-04-26",
+        "event_start_at": null,
+        "event_end_at": null,
+        "time_precision": "unknown",
+        "event_status": "developing",
+        "primary_country": null,
+        "affected_countries": [],
+        "primary_region": null,
+        "affected_regions": [],
+        "city": null,
+        "location_name": null,
+        "latitude": null,
+        "longitude": null,
+        "location_confidence": null,
+        "event_type": "legal_antitrust",
+        "event_subtype": "ruling",
+        "severity_score": null,
+        "severity_confidence": null,
+        "scope": null,
+        "duration_class": "unknown",
+        "event_novelty": null,
+        "physical_damage": null,
+        "production_disruption": null,
+        "capacity_disruption": null,
+        "logistics_disruption": null,
+        "port_disruption": null,
+        "power_disruption": null,
+        "network_disruption": null,
+        "cloud_service_disruption": null,
+        "labor_disruption": null,
+        "supply_shortage": null,
+        "regulatory_change": null,
+        "export_restriction": null,
+        "import_restriction": null,
+        "price_change_explicit": null,
+        "demand_change_explicit": null,
+        "companies_mentioned": [
+          "Microsoft"
+        ],
+        "tickers_mentioned": [
+          "MSFT"
+        ],
+        "suppliers_mentioned": [],
+        "customers_mentioned": [],
+        "industries_mentioned": [],
+        "products_mentioned": [],
+        "technologies_mentioned": [],
+        "commodities_mentioned": [],
+        "government_entities": [],
+        "regulators": [],
+        "people_mentioned": [],
+        "supply_channel": null,
+        "demand_channel": null,
+        "cost_channel": null,
+        "revenue_channel": null,
+        "margin_channel": null,
+        "capex_channel": null,
+        "financing_channel": null,
+        "interest_rate_channel": null,
+        "fx_channel": null,
+        "commodity_channel": null,
+        "logistics_channel": null,
+        "energy_channel": null,
+        "regulatory_channel": null,
+        "legal_channel": null,
+        "technology_channel": null,
+        "competition_channel": true,
+        "source_quality": null,
+        "extraction_confidence": 0.7,
+        "confirmation_level": "single_source",
+        "evidence_fields": {
+          "event_type": {
+            "value": "legal_antitrust",
+            "evidence": "Britain's competition regulator blocked Microsoft's proposed acquisition of Activision Blizzard over cloud-gaming compe",
+            "source_field": "summary",
+            "basis": "article_text"
+          },
+          "event_subtype": {
+            "value": "ruling",
+            "evidence": "Britain's competition regulator blocked Microsoft's proposed acquisition of Activision Blizzard over cloud-gaming compe",
+            "source_field": "summary",
+            "basis": "article_text"
+          },
+          "event_summary": {
+            "value": "Britain's competition regulator blocked Microsoft's proposed acquisition of Activision Blizzard over cloud-gaming compe",
+            "evidence": "Britain's competition regulator blocked Microsoft's proposed acquisition of Activision Blizzard over cloud-gaming compe",
+            "source_field": "summary",
+            "basis": "article_text"
+          },
+          "keywords": {
+            "value": [
+              "ruling"
+            ],
+            "evidence": "Britain's competition regulator blocked Microsoft's proposed acquisition of Activision Blizzard over cloud-gaming compe",
+            "source_field": "summary",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "Britain's competition regulator blocked Microsoft's proposed acquisition of Activision Blizzard over cloud-gaming compe",
+                "source_field": "summary"
+              }
+            ]
+          },
+          "canonical_headline": {
+            "value": "UK blocks Microsoft's $69 billion Activision deal over cloud gaming concerns",
+            "evidence": "UK blocks Microsoft's $69 billion Activision deal over cloud gaming concerns",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "independent_source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "event_status": {
+            "value": "developing",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "confirmation_level": {
+            "value": "single_source",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "extraction_confidence": {
+            "value": 0.7,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "published_at_first": {
+            "value": "2023-04-26",
+            "evidence": "2023-04-26",
+            "source_field": "published_at",
+            "basis": "provider_metadata"
+          },
+          "competition_channel": {
+            "value": true,
+            "evidence": "Britain's competition regulator blocked Microsoft's proposed acquisition of Activision Blizzard over cloud-gaming compe",
+            "source_field": "summary",
+            "basis": "article_text",
+            "assertion": "affirmed"
+          },
+          "companies_mentioned": {
+            "value": [
+              "Microsoft"
+            ],
+            "evidence": "UK blocks Microsoft's $69 billion Activision deal over cloud gaming concerns",
+            "source_field": "headline",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "UK blocks Microsoft's $69 billion Activision deal over cloud gaming concerns",
+                "source_field": "headline"
+              }
+            ]
+          },
+          "tickers_mentioned": {
+            "value": [
+              "MSFT"
+            ],
+            "evidence": "UK blocks Microsoft's $69 billion Activision deal over cloud gaming concerns",
+            "source_field": "headline",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "UK blocks Microsoft's $69 billion Activision deal over cloud gaming concerns",
+                "source_field": "headline"
+              }
+            ]
+          }
+        },
+        "canonical_headline": "UK blocks Microsoft's $69 billion Activision deal over cloud gaming concerns",
+        "event_summary": "Britain's competition regulator blocked Microsoft's proposed acquisition of Activision Blizzard over cloud-gaming compe",
+        "keywords": [
+          "ruling"
+        ],
+        "created_at": "2026-09-21T00:00:00Z",
+        "updated_at": "2026-09-21T00:00:00Z",
+        "schema_version": "event_v1"
+      },
+      "channels": {
+        "event_id": "evt_2a688fe4baa9a52373f1219e",
+        "candidate_channels": []
+      },
+      "matches": [
+        [
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "ticker": "AAPL",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2023-04-26T23:59:59.999999+00:00"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "ticker": "MSFT",
+            "matched": false,
+            "relevance_score": 0.15,
+            "matched_edges": [],
+            "direct_mention": true,
+            "relevance_components": {
+              "direct_mention": 1.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2023-04-26T23:59:59.999999+00:00"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "ticker": "GOOGL",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2023-04-26T23:59:59.999999+00:00"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "ticker": "AMZN",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2023-04-26T23:59:59.999999+00:00"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "ticker": "NVDA",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2023-04-26T23:59:59.999999+00:00"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "ticker": "META",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2023-04-26T23:59:59.999999+00:00"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "ticker": "TSLA",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2023-04-26T23:59:59.999999+00:00"
+          }
+        ],
+        [
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "1",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "2",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "3",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "4",
+            "reason": "non_operating_capacity"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "5",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "6",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "7",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "8",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "9",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "10",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "12",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "13",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "14",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "15",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "16",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "17",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "18",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "19",
+            "reason": "blocked_or_hypothesis_evidence"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "20",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "21",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "22",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "24",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "25",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "26",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "27",
+            "reason": "future_known_at"
+          }
+        ]
+      ]
+    },
+    "after": {
+      "gate": {
+        "article_id": "historical_H36",
+        "is_event": true,
+        "gate_reason": "Asserted ruling event: The UK Competition and Markets Authority blocked Microsoft's proposed acquisition of Activision Blizzard, concluding that propos",
+        "gate_confidence": 0.8
+      },
+      "event": {
+        "event_id": "evt_2a688fe4baa9a52373f1219e",
+        "canonical_event_id": "evt_2a688fe4baa9a52373f1219e",
+        "article_ids": [
+          "historical_H36"
+        ],
+        "source_count": 1,
+        "independent_source_count": 1,
+        "first_seen_at": null,
+        "last_seen_at": null,
+        "published_at_first": "2023-04-26",
+        "event_start_at": null,
+        "event_end_at": null,
+        "time_precision": "unknown",
+        "event_status": "developing",
+        "primary_country": "United Kingdom",
+        "affected_countries": [
+          "United Kingdom"
+        ],
+        "primary_region": null,
+        "affected_regions": [],
+        "city": null,
+        "location_name": null,
+        "latitude": null,
+        "longitude": null,
+        "location_confidence": 0.65,
+        "event_type": "legal_antitrust",
+        "event_subtype": "ruling",
+        "severity_score": null,
+        "severity_confidence": null,
+        "scope": null,
+        "duration_class": "unknown",
+        "event_novelty": null,
+        "physical_damage": null,
+        "production_disruption": null,
+        "capacity_disruption": null,
+        "logistics_disruption": null,
+        "port_disruption": null,
+        "power_disruption": null,
+        "network_disruption": null,
+        "cloud_service_disruption": null,
+        "labor_disruption": null,
+        "supply_shortage": null,
+        "regulatory_change": null,
+        "export_restriction": null,
+        "import_restriction": null,
+        "price_change_explicit": null,
+        "demand_change_explicit": null,
+        "companies_mentioned": [
+          "Microsoft"
+        ],
+        "tickers_mentioned": [
+          "MSFT"
+        ],
+        "suppliers_mentioned": [],
+        "customers_mentioned": [],
+        "industries_mentioned": [],
+        "products_mentioned": [],
+        "technologies_mentioned": [],
+        "commodities_mentioned": [],
+        "government_entities": [],
+        "regulators": [],
+        "people_mentioned": [],
+        "supply_channel": null,
+        "demand_channel": null,
+        "cost_channel": null,
+        "revenue_channel": null,
+        "margin_channel": null,
+        "capex_channel": null,
+        "financing_channel": null,
+        "interest_rate_channel": null,
+        "fx_channel": null,
+        "commodity_channel": null,
+        "logistics_channel": null,
+        "energy_channel": null,
+        "regulatory_channel": null,
+        "legal_channel": null,
+        "technology_channel": null,
+        "competition_channel": true,
+        "source_quality": null,
+        "extraction_confidence": 0.7,
+        "confirmation_level": "single_source",
+        "evidence_fields": {
+          "event_type": {
+            "value": "legal_antitrust",
+            "evidence": "The UK Competition and Markets Authority blocked Microsoft's proposed acquisition of Activision Blizzard, concluding that propos",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_subtype": {
+            "value": "ruling",
+            "evidence": "The UK Competition and Markets Authority blocked Microsoft's proposed acquisition of Activision Blizzard, concluding that propos",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_summary": {
+            "value": "The UK Competition and Markets Authority blocked Microsoft's proposed acquisition of Activision Blizzard, concluding that propos",
+            "evidence": "The UK Competition and Markets Authority blocked Microsoft's proposed acquisition of Activision Blizzard, concluding that propos",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "keywords": {
+            "value": [
+              "ruling"
+            ],
+            "evidence": "The UK Competition and Markets Authority blocked Microsoft's proposed acquisition of Activision Blizzard, concluding that propos",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "The UK Competition and Markets Authority blocked Microsoft's proposed acquisition of Activision Blizzard, concluding that propos",
+                "source_field": "body"
+              }
+            ]
+          },
+          "canonical_headline": {
+            "value": "UK blocks Microsoft's $69 billion Activision deal over cloud gaming concerns",
+            "evidence": "UK blocks Microsoft's $69 billion Activision deal over cloud gaming concerns",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "independent_source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "event_status": {
+            "value": "developing",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "confirmation_level": {
+            "value": "single_source",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "extraction_confidence": {
+            "value": 0.7,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "published_at_first": {
+            "value": "2023-04-26",
+            "evidence": "2023-04-26",
+            "source_field": "published_at",
+            "basis": "provider_metadata"
+          },
+          "affected_countries": {
+            "value": [
+              "United Kingdom"
+            ],
+            "evidence": "The UK Competition and Markets Authority blocked Microsoft's proposed acquisition of Activision Blizzard, concluding that propos",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "The UK Competition and Markets Authority blocked Microsoft's proposed acquisition of Activision Blizzard, concluding that propos",
+                "source_field": "body"
+              }
+            ],
+            "mapping_basis": [
+              {
+                "stated": "UK",
+                "country": "United Kingdom"
+              }
+            ]
+          },
+          "primary_country": {
+            "value": "United Kingdom",
+            "evidence": "The UK Competition and Markets Authority blocked Microsoft's proposed acquisition of Activision Blizzard, concluding that proposed remedies did not adequately address competition concerns in cloud gaming.",
+            "source_field": "body",
+            "basis": "article_location_or_policy_actor"
+          },
+          "location_confidence": {
+            "value": 0.65,
+            "evidence": "The UK Competition and Markets Authority blocked Microsoft's proposed acquisition of Activision Blizzard, concluding that propos",
+            "source_field": "body",
+            "basis": "heuristic_from_article"
+          },
+          "competition_channel": {
+            "value": true,
+            "evidence": "The UK Competition and Markets Authority blocked Microsoft's proposed acquisition of Activision Blizzard, concluding that propos",
+            "source_field": "body",
+            "basis": "article_text",
+            "assertion": "affirmed"
+          },
+          "companies_mentioned": {
+            "value": [
+              "Microsoft"
+            ],
+            "evidence": "UK blocks Microsoft's $69 billion Activision deal over cloud gaming concerns",
+            "source_field": "headline",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "UK blocks Microsoft's $69 billion Activision deal over cloud gaming concerns",
+                "source_field": "headline"
+              }
+            ]
+          },
+          "tickers_mentioned": {
+            "value": [
+              "MSFT"
+            ],
+            "evidence": "UK blocks Microsoft's $69 billion Activision deal over cloud gaming concerns",
+            "source_field": "headline",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "UK blocks Microsoft's $69 billion Activision deal over cloud gaming concerns",
+                "source_field": "headline"
+              }
+            ]
+          }
+        },
+        "canonical_headline": "UK blocks Microsoft's $69 billion Activision deal over cloud gaming concerns",
+        "event_summary": "The UK Competition and Markets Authority blocked Microsoft's proposed acquisition of Activision Blizzard, concluding that propos",
+        "keywords": [
+          "ruling"
+        ],
+        "created_at": "2026-09-21T00:00:00Z",
+        "updated_at": "2026-09-21T00:00:00Z",
+        "schema_version": "event_v1"
+      },
+      "channels": {
+        "event_id": "evt_2a688fe4baa9a52373f1219e",
+        "candidate_channels": []
+      },
+      "matches": [
+        [
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "ticker": "AAPL",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2023-04-26T23:59:59.999999+00:00"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "ticker": "MSFT",
+            "matched": false,
+            "relevance_score": 0.15,
+            "matched_edges": [],
+            "direct_mention": true,
+            "relevance_components": {
+              "direct_mention": 1.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2023-04-26T23:59:59.999999+00:00"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "ticker": "GOOGL",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2023-04-26T23:59:59.999999+00:00"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "ticker": "AMZN",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2023-04-26T23:59:59.999999+00:00"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "ticker": "NVDA",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2023-04-26T23:59:59.999999+00:00"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "ticker": "META",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2023-04-26T23:59:59.999999+00:00"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "ticker": "TSLA",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2023-04-26T23:59:59.999999+00:00"
+          }
+        ],
+        [
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "1",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "2",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "3",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "4",
+            "reason": "non_operating_capacity"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "5",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "6",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "7",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "8",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "9",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "10",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "12",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "13",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "14",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "15",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "16",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "17",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "18",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "19",
+            "reason": "blocked_or_hypothesis_evidence"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "20",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "21",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "22",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "24",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "25",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "26",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a688fe4baa9a52373f1219e",
+            "edge_id": "27",
+            "reason": "future_known_at"
+          }
+        ]
+      ]
+    }
+  },
+  "historical_validation_H61_H90.json:historical_H63": {
+    "before": {
+      "gate": {
+        "article_id": "historical_H63",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": null,
+      "channels": null,
+      "matches": null
+    },
+    "after": {
+      "gate": {
+        "article_id": "historical_H63",
+        "is_event": true,
+        "gate_reason": "Asserted ruling event: The EU's top court issued a final judgment confirming the European Commission's decision that Ireland had",
+        "gate_confidence": 0.8
+      },
+      "event": {
+        "event_id": "evt_19e23b6e43e896e6617a31ea",
+        "canonical_event_id": "evt_19e23b6e43e896e6617a31ea",
+        "article_ids": [
+          "historical_H63"
+        ],
+        "source_count": 1,
+        "independent_source_count": 1,
+        "first_seen_at": null,
+        "last_seen_at": null,
+        "published_at_first": "2024-09-10",
+        "event_start_at": null,
+        "event_end_at": null,
+        "time_precision": "unknown",
+        "event_status": "developing",
+        "primary_country": "Ireland",
+        "affected_countries": [
+          "Ireland"
+        ],
+        "primary_region": null,
+        "affected_regions": [],
+        "city": null,
+        "location_name": null,
+        "latitude": null,
+        "longitude": null,
+        "location_confidence": 0.65,
+        "event_type": "legal_antitrust",
+        "event_subtype": "ruling",
+        "severity_score": null,
+        "severity_confidence": null,
+        "scope": null,
+        "duration_class": "unknown",
+        "event_novelty": null,
+        "physical_damage": null,
+        "production_disruption": null,
+        "capacity_disruption": null,
+        "logistics_disruption": null,
+        "port_disruption": null,
+        "power_disruption": null,
+        "network_disruption": null,
+        "cloud_service_disruption": null,
+        "labor_disruption": null,
+        "supply_shortage": null,
+        "regulatory_change": null,
+        "export_restriction": null,
+        "import_restriction": null,
+        "price_change_explicit": null,
+        "demand_change_explicit": null,
+        "companies_mentioned": [
+          "Apple"
+        ],
+        "tickers_mentioned": [
+          "AAPL"
+        ],
+        "suppliers_mentioned": [],
+        "customers_mentioned": [],
+        "industries_mentioned": [],
+        "products_mentioned": [],
+        "technologies_mentioned": [],
+        "commodities_mentioned": [],
+        "government_entities": [
+          "European Commission"
+        ],
+        "regulators": [],
+        "people_mentioned": [],
+        "supply_channel": null,
+        "demand_channel": null,
+        "cost_channel": null,
+        "revenue_channel": null,
+        "margin_channel": null,
+        "capex_channel": null,
+        "financing_channel": null,
+        "interest_rate_channel": null,
+        "fx_channel": null,
+        "commodity_channel": null,
+        "logistics_channel": null,
+        "energy_channel": null,
+        "regulatory_channel": null,
+        "legal_channel": true,
+        "technology_channel": null,
+        "competition_channel": null,
+        "source_quality": null,
+        "extraction_confidence": 0.7,
+        "confirmation_level": "single_source",
+        "evidence_fields": {
+          "event_type": {
+            "value": "legal_antitrust",
+            "evidence": "The EU's top court issued a final judgment confirming the European Commission's decision that Ireland had",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_subtype": {
+            "value": "ruling",
+            "evidence": "The EU's top court issued a final judgment confirming the European Commission's decision that Ireland had",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_summary": {
+            "value": "The EU's top court issued a final judgment confirming the European Commission's decision that Ireland had",
+            "evidence": "The EU's top court issued a final judgment confirming the European Commission's decision that Ireland had",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "keywords": {
+            "value": [
+              "ruling"
+            ],
+            "evidence": "The EU's top court issued a final judgment confirming the European Commission's decision that Ireland had",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "The EU's top court issued a final judgment confirming the European Commission's decision that Ireland had",
+                "source_field": "body"
+              }
+            ]
+          },
+          "canonical_headline": {
+            "value": "EU top court confirms Apple must pay Ireland 13 billion euros in back taxes",
+            "evidence": "EU top court confirms Apple must pay Ireland 13 billion euros in back taxes",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "independent_source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "event_status": {
+            "value": "developing",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "confirmation_level": {
+            "value": "single_source",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "extraction_confidence": {
+            "value": 0.7,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "published_at_first": {
+            "value": "2024-09-10",
+            "evidence": "2024-09-10",
+            "source_field": "published_at",
+            "basis": "provider_metadata"
+          },
+          "affected_countries": {
+            "value": [
+              "Ireland"
+            ],
+            "evidence": "The EU's top court issued a final judgment confirming the European Commission's decision that Ireland had",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "The EU's top court issued a final judgment confirming the European Commission's decision that Ireland had",
+                "source_field": "body"
+              }
+            ],
+            "mapping_basis": [
+              {
+                "stated": "Ireland",
+                "country": "Ireland"
+              }
+            ]
+          },
+          "primary_country": {
+            "value": "Ireland",
+            "evidence": "The EU's top court issued a final judgment confirming the European Commission's decision that Ireland had granted Apple unlawful state aid and must recover about 13 billion euros.",
+            "source_field": "body",
+            "basis": "article_location_or_policy_actor"
+          },
+          "location_confidence": {
+            "value": 0.65,
+            "evidence": "The EU's top court issued a final judgment confirming the European Commission's decision that Ireland had",
+            "source_field": "body",
+            "basis": "heuristic_from_article"
+          },
+          "legal_channel": {
+            "value": true,
+            "evidence": "The EU's top court issued a final judgment confirming the European Commission's decision that Ireland had",
+            "source_field": "body",
+            "basis": "article_text",
+            "assertion": "affirmed"
+          },
+          "companies_mentioned": {
+            "value": [
+              "Apple"
+            ],
+            "evidence": "EU top court confirms Apple must pay Ireland 13 billion euros in back taxes",
+            "source_field": "headline",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "EU top court confirms Apple must pay Ireland 13 billion euros in back taxes",
+                "source_field": "headline"
+              }
+            ]
+          },
+          "tickers_mentioned": {
+            "value": [
+              "AAPL"
+            ],
+            "evidence": "EU top court confirms Apple must pay Ireland 13 billion euros in back taxes",
+            "source_field": "headline",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "EU top court confirms Apple must pay Ireland 13 billion euros in back taxes",
+                "source_field": "headline"
+              }
+            ]
+          },
+          "government_entities": {
+            "value": [
+              "European Commission"
+            ],
+            "evidence": "final judgment confirming the European Commission's decision that Ireland had granted Apple unlawful state aid and must",
+            "source_field": "summary",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "final judgment confirming the European Commission's decision that Ireland had granted Apple unlawful state aid and must",
+                "source_field": "summary"
+              }
+            ]
+          }
+        },
+        "canonical_headline": "EU top court confirms Apple must pay Ireland 13 billion euros in back taxes",
+        "event_summary": "The EU's top court issued a final judgment confirming the European Commission's decision that Ireland had",
+        "keywords": [
+          "ruling"
+        ],
+        "created_at": "2026-09-21T00:00:00Z",
+        "updated_at": "2026-09-21T00:00:00Z",
+        "schema_version": "event_v1"
+      },
+      "channels": {
+        "event_id": "evt_19e23b6e43e896e6617a31ea",
+        "candidate_channels": [
+          {
+            "channel_family": "legal_antitrust",
+            "channel_subtype": "unspecified",
+            "confidence": 0.75,
+            "basis": [
+              "legal_channel"
+            ],
+            "status": "candidate"
+          }
+        ]
+      },
+      "matches": [
+        [
+          {
+            "event_id": "evt_19e23b6e43e896e6617a31ea",
+            "ticker": "AAPL",
+            "matched": false,
+            "relevance_score": 0.15,
+            "matched_edges": [],
+            "direct_mention": true,
+            "relevance_components": {
+              "direct_mention": 1.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2024-09-10T23:59:59.999999+00:00"
+          },
+          {
+            "event_id": "evt_19e23b6e43e896e6617a31ea",
+            "ticker": "MSFT",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2024-09-10T23:59:59.999999+00:00"
+          },
+          {
+            "event_id": "evt_19e23b6e43e896e6617a31ea",
+            "ticker": "GOOGL",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2024-09-10T23:59:59.999999+00:00"
+          },
+          {
+            "event_id": "evt_19e23b6e43e896e6617a31ea",
+            "ticker": "AMZN",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2024-09-10T23:59:59.999999+00:00"
+          },
+          {
+            "event_id": "evt_19e23b6e43e896e6617a31ea",
+            "ticker": "NVDA",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2024-09-10T23:59:59.999999+00:00"
+          },
+          {
+            "event_id": "evt_19e23b6e43e896e6617a31ea",
+            "ticker": "META",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2024-09-10T23:59:59.999999+00:00"
+          },
+          {
+            "event_id": "evt_19e23b6e43e896e6617a31ea",
+            "ticker": "TSLA",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2024-09-10T23:59:59.999999+00:00"
+          }
+        ],
+        [
+          {
+            "event_id": "evt_19e23b6e43e896e6617a31ea",
+            "edge_id": "2",
+            "reason": "future_valid_from"
+          },
+          {
+            "event_id": "evt_19e23b6e43e896e6617a31ea",
+            "edge_id": "4",
+            "reason": "non_operating_capacity"
+          },
+          {
+            "event_id": "evt_19e23b6e43e896e6617a31ea",
+            "edge_id": "7",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_19e23b6e43e896e6617a31ea",
+            "edge_id": "8",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_19e23b6e43e896e6617a31ea",
+            "edge_id": "10",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_19e23b6e43e896e6617a31ea",
+            "edge_id": "12",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_19e23b6e43e896e6617a31ea",
+            "edge_id": "13",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_19e23b6e43e896e6617a31ea",
+            "edge_id": "14",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_19e23b6e43e896e6617a31ea",
+            "edge_id": "15",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_19e23b6e43e896e6617a31ea",
+            "edge_id": "16",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_19e23b6e43e896e6617a31ea",
+            "edge_id": "17",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_19e23b6e43e896e6617a31ea",
+            "edge_id": "18",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_19e23b6e43e896e6617a31ea",
+            "edge_id": "19",
+            "reason": "blocked_or_hypothesis_evidence"
+          },
+          {
+            "event_id": "evt_19e23b6e43e896e6617a31ea",
+            "edge_id": "21",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_19e23b6e43e896e6617a31ea",
+            "edge_id": "22",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_19e23b6e43e896e6617a31ea",
+            "edge_id": "24",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_19e23b6e43e896e6617a31ea",
+            "edge_id": "25",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_19e23b6e43e896e6617a31ea",
+            "edge_id": "26",
+            "reason": "future_known_at"
+          }
+        ]
+      ]
+    }
+  },
+  "historical_validation_H91_H120.json:historical_H101": {
+    "before": {
+      "gate": {
+        "article_id": "historical_H101",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": null,
+      "channels": null,
+      "matches": null
+    },
+    "after": {
+      "gate": {
+        "article_id": "historical_H101",
+        "is_event": true,
+        "gate_reason": "Asserted ruling event: EU top court upholds 2.4 billion euro Google Shopping antitrust fine",
+        "gate_confidence": 0.8
+      },
+      "event": {
+        "event_id": "evt_163ffa2948188f048752794f",
+        "canonical_event_id": "evt_163ffa2948188f048752794f",
+        "article_ids": [
+          "historical_H101"
+        ],
+        "source_count": 1,
+        "independent_source_count": 1,
+        "first_seen_at": null,
+        "last_seen_at": null,
+        "published_at_first": "2024-09-10",
+        "event_start_at": null,
+        "event_end_at": null,
+        "time_precision": "unknown",
+        "event_status": "developing",
+        "primary_country": null,
+        "affected_countries": [],
+        "primary_region": null,
+        "affected_regions": [],
+        "city": null,
+        "location_name": null,
+        "latitude": null,
+        "longitude": null,
+        "location_confidence": null,
+        "event_type": "legal_antitrust",
+        "event_subtype": "ruling",
+        "severity_score": null,
+        "severity_confidence": null,
+        "scope": null,
+        "duration_class": "unknown",
+        "event_novelty": null,
+        "physical_damage": null,
+        "production_disruption": null,
+        "capacity_disruption": null,
+        "logistics_disruption": null,
+        "port_disruption": null,
+        "power_disruption": null,
+        "network_disruption": null,
+        "cloud_service_disruption": null,
+        "labor_disruption": null,
+        "supply_shortage": null,
+        "regulatory_change": null,
+        "export_restriction": null,
+        "import_restriction": null,
+        "price_change_explicit": null,
+        "demand_change_explicit": null,
+        "companies_mentioned": [
+          "Google",
+          "Alphabet"
+        ],
+        "tickers_mentioned": [
+          "GOOGL"
+        ],
+        "suppliers_mentioned": [],
+        "customers_mentioned": [],
+        "industries_mentioned": [],
+        "products_mentioned": [],
+        "technologies_mentioned": [],
+        "commodities_mentioned": [],
+        "government_entities": [],
+        "regulators": [],
+        "people_mentioned": [],
+        "supply_channel": null,
+        "demand_channel": null,
+        "cost_channel": null,
+        "revenue_channel": null,
+        "margin_channel": null,
+        "capex_channel": null,
+        "financing_channel": null,
+        "interest_rate_channel": null,
+        "fx_channel": null,
+        "commodity_channel": null,
+        "logistics_channel": null,
+        "energy_channel": null,
+        "regulatory_channel": null,
+        "legal_channel": true,
+        "technology_channel": null,
+        "competition_channel": null,
+        "source_quality": null,
+        "extraction_confidence": 0.7,
+        "confirmation_level": "single_source",
+        "evidence_fields": {
+          "event_type": {
+            "value": "legal_antitrust",
+            "evidence": "EU top court upholds 2.4 billion euro Google Shopping antitrust fine",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "event_subtype": {
+            "value": "ruling",
+            "evidence": "EU top court upholds 2.4 billion euro Google Shopping antitrust fine",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "event_summary": {
+            "value": "EU top court upholds 2.4 billion euro Google Shopping antitrust fine",
+            "evidence": "EU top court upholds 2.4 billion euro Google Shopping antitrust fine",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "keywords": {
+            "value": [
+              "ruling"
+            ],
+            "evidence": "EU top court upholds 2.4 billion euro Google Shopping antitrust fine",
+            "source_field": "headline",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "EU top court upholds 2.4 billion euro Google Shopping antitrust fine",
+                "source_field": "headline"
+              }
+            ]
+          },
+          "canonical_headline": {
+            "value": "EU top court upholds 2.4 billion euro Google Shopping antitrust fine",
+            "evidence": "EU top court upholds 2.4 billion euro Google Shopping antitrust fine",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "independent_source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "event_status": {
+            "value": "developing",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "confirmation_level": {
+            "value": "single_source",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "extraction_confidence": {
+            "value": 0.7,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "published_at_first": {
+            "value": "2024-09-10",
+            "evidence": "2024-09-10",
+            "source_field": "published_at",
+            "basis": "provider_metadata"
+          },
+          "legal_channel": {
+            "value": true,
+            "evidence": "EU top court upholds 2.4 billion euro Google Shopping antitrust fine",
+            "source_field": "headline",
+            "basis": "article_text",
+            "assertion": "affirmed"
+          },
+          "companies_mentioned": {
+            "value": [
+              "Google",
+              "Alphabet"
+            ],
+            "evidence": "an Union dismissed Google and Alphabet's appeal and upheld the 2.4 billion euro fine in the Google Shopping ",
+            "source_field": "summary",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "ourt upholds 2.4 billion euro Google Shopping antitrust fine",
+                "source_field": "headline"
+              },
+              {
+                "evidence": "an Union dismissed Google and Alphabet's appeal and upheld the 2.4 billion euro fine in the Google Shopping ",
+                "source_field": "summary"
+              }
+            ]
+          },
+          "tickers_mentioned": {
+            "value": [
+              "GOOGL"
+            ],
+            "evidence": "ourt upholds 2.4 billion euro Google Shopping antitrust fine",
+            "source_field": "headline",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "ourt upholds 2.4 billion euro Google Shopping antitrust fine",
+                "source_field": "headline"
+              }
+            ]
+          }
+        },
+        "canonical_headline": "EU top court upholds 2.4 billion euro Google Shopping antitrust fine",
+        "event_summary": "EU top court upholds 2.4 billion euro Google Shopping antitrust fine",
+        "keywords": [
+          "ruling"
+        ],
+        "created_at": "2026-09-21T00:00:00Z",
+        "updated_at": "2026-09-21T00:00:00Z",
+        "schema_version": "event_v1"
+      },
+      "channels": {
+        "event_id": "evt_163ffa2948188f048752794f",
+        "candidate_channels": [
+          {
+            "channel_family": "legal_antitrust",
+            "channel_subtype": "unspecified",
+            "confidence": 0.75,
+            "basis": [
+              "legal_channel"
+            ],
+            "status": "candidate"
+          }
+        ]
+      },
+      "matches": [
+        [
+          {
+            "event_id": "evt_163ffa2948188f048752794f",
+            "ticker": "AAPL",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2024-09-10T23:59:59.999999+00:00"
+          },
+          {
+            "event_id": "evt_163ffa2948188f048752794f",
+            "ticker": "MSFT",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2024-09-10T23:59:59.999999+00:00"
+          },
+          {
+            "event_id": "evt_163ffa2948188f048752794f",
+            "ticker": "GOOGL",
+            "matched": false,
+            "relevance_score": 0.15,
+            "matched_edges": [],
+            "direct_mention": true,
+            "relevance_components": {
+              "direct_mention": 1.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2024-09-10T23:59:59.999999+00:00"
+          },
+          {
+            "event_id": "evt_163ffa2948188f048752794f",
+            "ticker": "AMZN",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2024-09-10T23:59:59.999999+00:00"
+          },
+          {
+            "event_id": "evt_163ffa2948188f048752794f",
+            "ticker": "NVDA",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2024-09-10T23:59:59.999999+00:00"
+          },
+          {
+            "event_id": "evt_163ffa2948188f048752794f",
+            "ticker": "META",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2024-09-10T23:59:59.999999+00:00"
+          },
+          {
+            "event_id": "evt_163ffa2948188f048752794f",
+            "ticker": "TSLA",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2024-09-10T23:59:59.999999+00:00"
+          }
+        ],
+        [
+          {
+            "event_id": "evt_163ffa2948188f048752794f",
+            "edge_id": "2",
+            "reason": "future_valid_from"
+          },
+          {
+            "event_id": "evt_163ffa2948188f048752794f",
+            "edge_id": "4",
+            "reason": "non_operating_capacity"
+          },
+          {
+            "event_id": "evt_163ffa2948188f048752794f",
+            "edge_id": "7",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_163ffa2948188f048752794f",
+            "edge_id": "8",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_163ffa2948188f048752794f",
+            "edge_id": "10",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_163ffa2948188f048752794f",
+            "edge_id": "12",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_163ffa2948188f048752794f",
+            "edge_id": "13",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_163ffa2948188f048752794f",
+            "edge_id": "14",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_163ffa2948188f048752794f",
+            "edge_id": "15",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_163ffa2948188f048752794f",
+            "edge_id": "16",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_163ffa2948188f048752794f",
+            "edge_id": "17",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_163ffa2948188f048752794f",
+            "edge_id": "18",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_163ffa2948188f048752794f",
+            "edge_id": "19",
+            "reason": "blocked_or_hypothesis_evidence"
+          },
+          {
+            "event_id": "evt_163ffa2948188f048752794f",
+            "edge_id": "21",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_163ffa2948188f048752794f",
+            "edge_id": "22",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_163ffa2948188f048752794f",
+            "edge_id": "24",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_163ffa2948188f048752794f",
+            "edge_id": "25",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_163ffa2948188f048752794f",
+            "edge_id": "26",
+            "reason": "future_known_at"
+          }
+        ]
+      ]
+    }
+  },
+  "mag7_live_sample21_20260921.json:freenewsapi_a990e6fb-b2e8-447b-a7fd-093f3baf9f48": {
+    "before": {
+      "gate": {
+        "article_id": "freenewsapi_a990e6fb-b2e8-447b-a7fd-093f3baf9f48",
+        "is_event": true,
+        "gate_reason": "Asserted ruling event: folding covers the signage where a court ordered the Trump administration to remove Donald Trump\u2019s name.",
+        "gate_confidence": 0.8
+      },
+      "event": {
+        "event_id": "evt_807ac14d6979c7125f04c5d8",
+        "canonical_event_id": "evt_807ac14d6979c7125f04c5d8",
+        "article_ids": [
+          "freenewsapi_a990e6fb-b2e8-447b-a7fd-093f3baf9f48"
+        ],
+        "source_count": 1,
+        "independent_source_count": 1,
+        "first_seen_at": "2026-09-21T02:54:40.714495+00:00",
+        "last_seen_at": "2026-09-21T02:54:40.714495+00:00",
+        "published_at_first": "2026-09-21T01:49:10.000Z",
+        "event_start_at": null,
+        "event_end_at": null,
+        "time_precision": "unknown",
+        "event_status": "developing",
+        "primary_country": null,
+        "affected_countries": [],
+        "primary_region": null,
+        "affected_regions": [],
+        "city": null,
+        "location_name": null,
+        "latitude": null,
+        "longitude": null,
+        "location_confidence": null,
+        "event_type": "legal_antitrust",
+        "event_subtype": "ruling",
+        "severity_score": null,
+        "severity_confidence": null,
+        "scope": null,
+        "duration_class": "unknown",
+        "event_novelty": null,
+        "physical_damage": null,
+        "production_disruption": null,
+        "capacity_disruption": null,
+        "logistics_disruption": null,
+        "port_disruption": null,
+        "power_disruption": null,
+        "network_disruption": null,
+        "cloud_service_disruption": null,
+        "labor_disruption": null,
+        "supply_shortage": null,
+        "regulatory_change": null,
+        "export_restriction": null,
+        "import_restriction": null,
+        "price_change_explicit": null,
+        "demand_change_explicit": null,
+        "companies_mentioned": [],
+        "tickers_mentioned": [],
+        "suppliers_mentioned": [],
+        "customers_mentioned": [],
+        "industries_mentioned": [],
+        "products_mentioned": [],
+        "technologies_mentioned": [],
+        "commodities_mentioned": [],
+        "government_entities": [],
+        "regulators": [],
+        "people_mentioned": [],
+        "supply_channel": null,
+        "demand_channel": null,
+        "cost_channel": null,
+        "revenue_channel": null,
+        "margin_channel": null,
+        "capex_channel": null,
+        "financing_channel": null,
+        "interest_rate_channel": null,
+        "fx_channel": null,
+        "commodity_channel": null,
+        "logistics_channel": null,
+        "energy_channel": null,
+        "regulatory_channel": null,
+        "legal_channel": true,
+        "technology_channel": null,
+        "competition_channel": null,
+        "source_quality": null,
+        "extraction_confidence": 0.7,
+        "confirmation_level": "single_source",
+        "evidence_fields": {
+          "event_type": {
+            "value": "legal_antitrust",
+            "evidence": "folding covers the signage where a court ordered the Trump administration to remove Donald Trump\u2019s name.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_subtype": {
+            "value": "ruling",
+            "evidence": "folding covers the signage where a court ordered the Trump administration to remove Donald Trump\u2019s name.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_summary": {
+            "value": "folding covers the signage where a court ordered the Trump administration to remove Donald Trump\u2019s name.",
+            "evidence": "folding covers the signage where a court ordered the Trump administration to remove Donald Trump\u2019s name.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "keywords": {
+            "value": [
+              "ruling"
+            ],
+            "evidence": "folding covers the signage where a court ordered the Trump administration to remove Donald Trump\u2019s name.",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "folding covers the signage where a court ordered the Trump administration to remove Donald Trump\u2019s name.",
+                "source_field": "body"
+              }
+            ]
+          },
+          "canonical_headline": {
+            "value": "In Washington, temples to Trump\u2019s ego lie ruined. And another is on the way",
+            "evidence": "In Washington, temples to Trump\u2019s ego lie ruined. And another is on the way",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "independent_source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "event_status": {
+            "value": "developing",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "confirmation_level": {
+            "value": "single_source",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "extraction_confidence": {
+            "value": 0.7,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "published_at_first": {
+            "value": "2026-09-21T01:49:10.000Z",
+            "evidence": "2026-09-21T01:49:10.000Z",
+            "source_field": "published_at",
+            "basis": "provider_metadata"
+          },
+          "first_seen_at": {
+            "value": "2026-09-21T02:54:40.714495+00:00",
+            "evidence": "2026-09-21T02:54:40.714495+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "last_seen_at": {
+            "value": "2026-09-21T02:54:40.714495+00:00",
+            "evidence": "2026-09-21T02:54:40.714495+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "legal_channel": {
+            "value": true,
+            "evidence": "folding covers the signage where a court ordered the Trump administration to remove Donald Trump\u2019s name.",
+            "source_field": "body",
+            "basis": "article_text",
+            "assertion": "affirmed"
+          }
+        },
+        "canonical_headline": "In Washington, temples to Trump\u2019s ego lie ruined. And another is on the way",
+        "event_summary": "folding covers the signage where a court ordered the Trump administration to remove Donald Trump\u2019s name.",
+        "keywords": [
+          "ruling"
+        ],
+        "created_at": "2026-09-21T00:00:00Z",
+        "updated_at": "2026-09-21T00:00:00Z",
+        "schema_version": "event_v1"
+      },
+      "channels": {
+        "event_id": "evt_807ac14d6979c7125f04c5d8",
+        "candidate_channels": [
+          {
+            "channel_family": "legal_antitrust",
+            "channel_subtype": "unspecified",
+            "confidence": 0.75,
+            "basis": [
+              "legal_channel"
+            ],
+            "status": "candidate"
+          }
+        ]
+      },
+      "matches": [
+        [
+          {
+            "event_id": "evt_807ac14d6979c7125f04c5d8",
+            "ticker": "AAPL",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2026-09-21T02:54:40.714495+00:00"
+          },
+          {
+            "event_id": "evt_807ac14d6979c7125f04c5d8",
+            "ticker": "MSFT",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2026-09-21T02:54:40.714495+00:00"
+          },
+          {
+            "event_id": "evt_807ac14d6979c7125f04c5d8",
+            "ticker": "GOOGL",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2026-09-21T02:54:40.714495+00:00"
+          },
+          {
+            "event_id": "evt_807ac14d6979c7125f04c5d8",
+            "ticker": "AMZN",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2026-09-21T02:54:40.714495+00:00"
+          },
+          {
+            "event_id": "evt_807ac14d6979c7125f04c5d8",
+            "ticker": "NVDA",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2026-09-21T02:54:40.714495+00:00"
+          },
+          {
+            "event_id": "evt_807ac14d6979c7125f04c5d8",
+            "ticker": "META",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2026-09-21T02:54:40.714495+00:00"
+          },
+          {
+            "event_id": "evt_807ac14d6979c7125f04c5d8",
+            "ticker": "TSLA",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2026-09-21T02:54:40.714495+00:00"
+          }
+        ],
+        [
+          {
+            "event_id": "evt_807ac14d6979c7125f04c5d8",
+            "edge_id": "4",
+            "reason": "non_operating_capacity"
+          },
+          {
+            "event_id": "evt_807ac14d6979c7125f04c5d8",
+            "edge_id": "19",
+            "reason": "blocked_or_hypothesis_evidence"
+          }
+        ]
+      ]
+    },
+    "after": {
+      "gate": {
+        "article_id": "freenewsapi_a990e6fb-b2e8-447b-a7fd-093f3baf9f48",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": null,
+      "channels": null,
+      "matches": null
+    }
+  }
+}

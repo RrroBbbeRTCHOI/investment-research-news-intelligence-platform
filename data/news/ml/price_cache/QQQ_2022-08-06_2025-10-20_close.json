@@ -1,0 +1,13 @@
+{
+  "provider": "yfinance/Yahoo Finance",
+  "ticker": "QQQ",
+  "start": "2022-08-06",
+  "end_exclusive": "2025-10-20",
+  "auto_adjust": false,
+  "back_adjust": false,
+  "repair": false,
+  "column": "Close",
+  "downloaded_at": "2026-09-19T10:16:42.742367+00:00",
+  "yfinance_version": "1.2.0",
+  "sha256": "92faf765bf46701ce086c3c71a7f274afa1a12619496d7b6eb2e75452eb4073d"
+}

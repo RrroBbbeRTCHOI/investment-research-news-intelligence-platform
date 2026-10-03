@@ -1,0 +1,4 @@
+sample,dataset_path,total,positive,negative,oos_predictions,b1_log_loss,b2b_log_loss,delta_log_loss_b2b_minus_b1,b1_brier,b2b_brier,delta_brier_b2b_minus_b1,b1_auc,b2b_auc,delta_auc_b2b_minus_b1
+H01-H60,data/news/market_reaction/historical_market_reaction_H01_H60_v2.csv,51,17,34,41,0.5329,0.5106,-0.0223,0.1762,0.1712,-0.005,0.7385,0.7672,0.0287
+H01-H90,data/news/market_reaction/historical_market_reaction_H01_H90_v3.csv,63,21,42,53,0.5418,0.5241,-0.0177,0.1795,0.1747,-0.0048,0.6965,0.7246,0.0281
+H01-H120,data/news/market_reaction/historical_market_reaction_H01_H120_v4.csv,70,24,46,60,0.6018,0.6147,0.0129,0.2026,0.2113,0.0087,0.6059,0.5879,-0.018

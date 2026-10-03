@@ -1,0 +1,34 @@
+{
+  "_ingestion": {
+    "provider": "freenewsapi",
+    "endpoint": "details",
+    "article_uuid": "454f4948-4b82-41d8-b018-d237061442f4",
+    "fetched_at": "2026-09-21T02:54:26.831414+00:00"
+  },
+  "raw_response": {
+    "data": {
+      "uuid": "454f4948-4b82-41d8-b018-d237061442f4",
+      "title": "Newshour | The German chancellor describes the results of a state election as a \"disaster\"",
+      "thumbnail": "https://ichef.bbci.co.uk/images/ic/1024x576/p0pbmzxx.jpg",
+      "publisher": "BBC",
+      "authors": [],
+      "topics": [
+        "economy",
+        "world"
+      ],
+      "countries": [
+        "CA",
+        "GB",
+        "IN",
+        "US"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-09-21T01:31:18.000Z",
+      "original_url": "https://www.bbc.com/audio/play/w1730bn6n9bwg4y",
+      "incipit": "Site searchThe German chancellor describes the results of a state election as a \"disaster\"In the north-eastern state of Mecklenburg-Vorpommern, the party was initially projected to only just scrape through,...",
+      "body": "Site search The German chancellor describes the results of a state election as a \"disaster\" In the north-eastern state of Mecklenburg-Vorpommern, the party was initially projected to only just scrape through, with its worst ever election result. A few hours later, however, it had dipped below the 5% threshold needed to stay in parliament. Meanwhile, the far-right AfD was on track to win the most votes in Mecklenburg-Vorpommern, but it is unlikely to govern as other parties refuse to work with it. Also on the programme: Ukraine fires a new weapon for the first time, in a major assault on Moscow; and President Trump's plans for a triumphal arch filled with munitions. (Photo: German Chancellor Friedrich Merz gives a statement at the CDU headquarters in Berlin Credit: Reuters/Christian Mang)"
+    }
+  }
+}

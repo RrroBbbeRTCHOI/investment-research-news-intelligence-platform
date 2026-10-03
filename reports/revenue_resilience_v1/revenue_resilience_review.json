@@ -1,0 +1,415 @@
+{
+  "model_version": "REVENUE-RESILIENCE-V1.4",
+  "generated_at_utc": "2026-10-02T03:09:36.788435+00:00",
+  "network_used": true,
+  "production_modified": false,
+  "model": {
+    "revenue_resilience": {
+      "diversification_weight": 0.6,
+      "persistence_weight": 0.4
+    },
+    "diversification": {
+      "formula": "100 * (1 - HHI)",
+      "small_stream_aggregation_threshold": 0.02,
+      "signed_adjustments_excluded_from_operating_hhi": true
+    },
+    "persistence": {
+      "preferred_years": 5,
+      "minimum_scored_years": 3,
+      "minimum_provisional_years": 2,
+      "presence_weight": 0.2,
+      "share_stability_weight": 0.45,
+      "growth_consistency_weight": 0.35,
+      "interpretation": "Historical persistence, not a forecast guarantee."
+    }
+  },
+  "companies": [
+    {
+      "ticker": "AAPL",
+      "latest_fiscal_year": 2025,
+      "revenue_resilience_score": 77.94363464150553,
+      "status": "SCORED_3Y",
+      "confidence": "MEDIUM",
+      "production_ready": true,
+      "label": "Strong",
+      "diversification": {
+        "score": 65.91213333607016,
+        "hhi": 0.34087866663929844,
+        "effective_streams": 2.9335951406373937,
+        "top1_share_pct": 50.361759030759735,
+        "top3_share_pct": 85.16655813495258,
+        "stream_count": 5,
+        "label": "Diversified",
+        "shares": {
+          "iPhone": 50.361759030759735,
+          "Services": 26.22975242754607,
+          "Wearables, Home and Accessories": 8.575046676646778,
+          "Mac": 8.099749856425758,
+          "iPad": 6.733692008621663
+        },
+        "hhi_shares_after_small_stream_aggregation": {
+          "iPhone": 50.361759030759735,
+          "Services": 26.22975242754607,
+          "Wearables, Home and Accessories": 8.575046676646778,
+          "Mac": 8.099749856425758,
+          "iPad": 6.733692008621663
+        }
+      },
+      "persistence": {
+        "score": 95.99088659965857,
+        "provisional_score": 95.99088659965857,
+        "status": "SCORED_3Y",
+        "confidence": "MEDIUM",
+        "production_ready": true,
+        "history_years_present": 3,
+        "history_years_expected": 5,
+        "history_coverage_pct": 60.0,
+        "major_stream_observation_coverage_pct": 100.0,
+        "effective_component_weight_pct": 100.0,
+        "required_segment_observations": 3,
+        "fiscal_years_present": [
+          2023,
+          2024,
+          2025
+        ],
+        "note": "Persistence is historical, not a forecast. 2Y scores are provisional and normally omit Growth Consistency."
+      },
+      "weights": {
+        "diversification": 0.6,
+        "persistence": 0.4
+      },
+      "reasons": []
+    },
+    {
+      "ticker": "MSFT",
+      "latest_fiscal_year": 2026,
+      "revenue_resilience_score": 75.39859521909781,
+      "status": "PROVISIONAL_2Y",
+      "confidence": "LOW",
+      "production_ready": false,
+      "label": "Strong",
+      "diversification": {
+        "score": 62.30662618409355,
+        "hhi": 0.37693373815906456,
+        "effective_streams": 2.652986185009536,
+        "top1_share_pct": 42.18792848339104,
+        "top3_share_pct": 100.0,
+        "stream_count": 3,
+        "label": "Diversified",
+        "shares": {
+          "Productivity and Business Processes": 42.18792848339104,
+          "Intelligent Cloud": 41.523449624667386,
+          "More Personal Computing": 16.288621891941574
+        },
+        "hhi_shares_after_small_stream_aggregation": {
+          "Productivity and Business Processes": 42.18792848339104,
+          "Intelligent Cloud": 41.523449624667386,
+          "More Personal Computing": 16.288621891941574
+        }
+      },
+      "persistence": {
+        "score": 95.03654877160423,
+        "provisional_score": 95.03654877160423,
+        "status": "PROVISIONAL_2Y",
+        "confidence": "LOW",
+        "production_ready": false,
+        "history_years_present": 2,
+        "history_years_expected": 5,
+        "history_coverage_pct": 40.0,
+        "major_stream_observation_coverage_pct": 100.0,
+        "effective_component_weight_pct": 65.0,
+        "required_segment_observations": 2,
+        "fiscal_years_present": [
+          2025,
+          2026
+        ],
+        "note": "Persistence is historical, not a forecast. 2Y scores are provisional and normally omit Growth Consistency."
+      },
+      "weights": {
+        "diversification": 0.6,
+        "persistence": 0.4
+      },
+      "reasons": [
+        "Only 2 fiscal years are available. Numeric score is shown for research use, but Growth Consistency is normally unavailable and the score is not production-ready."
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "latest_fiscal_year": 2025,
+      "revenue_resilience_score": 76.95830542843694,
+      "status": "PROVISIONAL_2Y",
+      "confidence": "LOW",
+      "production_ready": false,
+      "label": "Strong",
+      "diversification": {
+        "score": 63.85792963170742,
+        "hhi": 0.3614207036829258,
+        "effective_streams": 2.766858649241355,
+        "top1_share_pct": 55.72025223159447,
+        "top3_share_pct": 82.20779575295995,
+        "stream_count": 6,
+        "label": "Diversified",
+        "shares": {
+          "Google Search & other": 55.72025223159447,
+          "Google Cloud": 14.56833505805744,
+          "Google subscriptions, platforms, and devices": 11.919208463308046,
+          "YouTube ads": 10.01754503515211,
+          "Google Network": 7.393234614592408,
+          "Other Bets": 0.38142459729553335
+        },
+        "hhi_shares_after_small_stream_aggregation": {
+          "Google Search & other": 55.72025223159447,
+          "Google Cloud": 14.56833505805744,
+          "Google subscriptions, platforms, and devices": 11.919208463308046,
+          "YouTube ads": 10.01754503515211,
+          "Google Network": 7.393234614592408,
+          "Other small streams": 0.38142459729553335
+        }
+      },
+      "persistence": {
+        "score": 96.60886912353124,
+        "provisional_score": 96.60886912353124,
+        "status": "PROVISIONAL_2Y",
+        "confidence": "LOW",
+        "production_ready": false,
+        "history_years_present": 2,
+        "history_years_expected": 5,
+        "history_coverage_pct": 40.0,
+        "major_stream_observation_coverage_pct": 100.0,
+        "effective_component_weight_pct": 65.0,
+        "required_segment_observations": 2,
+        "fiscal_years_present": [
+          2024,
+          2025
+        ],
+        "note": "Persistence is historical, not a forecast. 2Y scores are provisional and normally omit Growth Consistency."
+      },
+      "weights": {
+        "diversification": 0.6,
+        "persistence": 0.4
+      },
+      "reasons": [
+        "Only 2 fiscal years are available. Numeric score is shown for research use, but Growth Consistency is normally unavailable and the score is not production-ready."
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "latest_fiscal_year": 2026,
+      "revenue_resilience_score": 50.87677428896605,
+      "status": "PROVISIONAL_2Y",
+      "confidence": "LOW",
+      "production_ready": false,
+      "label": "Moderate",
+      "diversification": {
+        "score": 18.63786216255616,
+        "hhi": 0.8136213783744384,
+        "effective_streams": 1.229072915952545,
+        "top1_share_pct": 89.59932943715326,
+        "top3_share_pct": 100.0,
+        "stream_count": 2,
+        "label": "Highly concentrated",
+        "shares": {
+          "Compute & Networking": 89.59932943715326,
+          "Graphics": 10.400670562846743
+        },
+        "hhi_shares_after_small_stream_aggregation": {
+          "Compute & Networking": 89.59932943715326,
+          "Graphics": 10.400670562846743
+        }
+      },
+      "persistence": {
+        "score": 99.23514247858085,
+        "provisional_score": 99.23514247858085,
+        "status": "PROVISIONAL_2Y",
+        "confidence": "LOW",
+        "production_ready": false,
+        "history_years_present": 2,
+        "history_years_expected": 5,
+        "history_coverage_pct": 40.0,
+        "major_stream_observation_coverage_pct": 100.0,
+        "effective_component_weight_pct": 65.0,
+        "required_segment_observations": 2,
+        "fiscal_years_present": [
+          2025,
+          2026
+        ],
+        "note": "Persistence is historical, not a forecast. 2Y scores are provisional and normally omit Growth Consistency."
+      },
+      "weights": {
+        "diversification": 0.6,
+        "persistence": 0.4
+      },
+      "reasons": [
+        "Only 2 fiscal years are available. Numeric score is shown for research use, but Growth Consistency is normally unavailable and the score is not production-ready."
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "latest_fiscal_year": 2025,
+      "revenue_resilience_score": 84.2360402804893,
+      "status": "PROVISIONAL_2Y",
+      "confidence": "LOW",
+      "production_ready": false,
+      "label": "Very Strong",
+      "diversification": {
+        "score": 75.39935518639567,
+        "hhi": 0.2460064481360434,
+        "effective_streams": 4.064934100617528,
+        "top1_share_pct": 37.56144305393598,
+        "top3_share_pct": 79.53060575458485,
+        "stream_count": 7,
+        "label": "Diversified",
+        "shares": {
+          "Online stores": 37.56144305393598,
+          "Third-party seller services": 24.013981956246408,
+          "AWS": 17.955180744402472,
+          "Advertising services": 9.573539175700633,
+          "Subscription services": 6.921096238931882,
+          "Physical stores": 3.1469165490344864,
+          "Other": 0.827842281748135
+        },
+        "hhi_shares_after_small_stream_aggregation": {
+          "Online stores": 37.56144305393598,
+          "Third-party seller services": 24.013981956246408,
+          "AWS": 17.955180744402472,
+          "Advertising services": 9.573539175700633,
+          "Subscription services": 6.921096238931882,
+          "Physical stores": 3.1469165490344864,
+          "Other small streams": 0.827842281748135
+        }
+      },
+      "persistence": {
+        "score": 97.49106792162978,
+        "provisional_score": 97.49106792162978,
+        "status": "PROVISIONAL_2Y",
+        "confidence": "LOW",
+        "production_ready": false,
+        "history_years_present": 2,
+        "history_years_expected": 5,
+        "history_coverage_pct": 40.0,
+        "major_stream_observation_coverage_pct": 100.0,
+        "effective_component_weight_pct": 65.0,
+        "required_segment_observations": 2,
+        "fiscal_years_present": [
+          2024,
+          2025
+        ],
+        "note": "Persistence is historical, not a forecast. 2Y scores are provisional and normally omit Growth Consistency."
+      },
+      "weights": {
+        "diversification": 0.6,
+        "persistence": 0.4
+      },
+      "reasons": [
+        "Only 2 fiscal years are available. Numeric score is shown for research use, but Growth Consistency is normally unavailable and the score is not production-ready."
+      ]
+    },
+    {
+      "ticker": "META",
+      "latest_fiscal_year": 2025,
+      "revenue_resilience_score": 41.17379702351418,
+      "status": "SCORED_3Y",
+      "confidence": "MEDIUM",
+      "production_ready": true,
+      "label": "Weak",
+      "diversification": {
+        "score": 2.1722707528404106,
+        "hhi": 0.9782772924715959,
+        "effective_streams": 1.0222050615869067,
+        "top1_share_pct": 98.90180428530199,
+        "top3_share_pct": 100.0,
+        "stream_count": 2,
+        "label": "Highly concentrated",
+        "shares": {
+          "Family of Apps": 98.90180428530199,
+          "Reality Labs": 1.0981957146980086
+        },
+        "hhi_shares_after_small_stream_aggregation": {
+          "Family of Apps": 98.90180428530199,
+          "Other small streams": 1.0981957146980086
+        }
+      },
+      "persistence": {
+        "score": 99.67608642952484,
+        "provisional_score": 99.67608642952484,
+        "status": "SCORED_3Y",
+        "confidence": "MEDIUM",
+        "production_ready": true,
+        "history_years_present": 3,
+        "history_years_expected": 5,
+        "history_coverage_pct": 60.0,
+        "major_stream_observation_coverage_pct": 100.0,
+        "effective_component_weight_pct": 100.0,
+        "required_segment_observations": 3,
+        "fiscal_years_present": [
+          2023,
+          2024,
+          2025
+        ],
+        "note": "Persistence is historical, not a forecast. 2Y scores are provisional and normally omit Growth Consistency."
+      },
+      "weights": {
+        "diversification": 0.6,
+        "persistence": 0.4
+      },
+      "reasons": []
+    },
+    {
+      "ticker": "TSLA",
+      "latest_fiscal_year": 2025,
+      "revenue_resilience_score": 66.06295544273004,
+      "status": "PROVISIONAL_2Y",
+      "confidence": "LOW",
+      "production_ready": false,
+      "label": "Strong",
+      "diversification": {
+        "score": 48.18367987458423,
+        "hhi": 0.5181632012541577,
+        "effective_streams": 1.9298938974817368,
+        "top1_share_pct": 69.41166545393189,
+        "top3_share_pct": 96.09288493783416,
+        "stream_count": 5,
+        "label": "Moderately concentrated",
+        "shares": {
+          "Automotive sales": 69.41166545393189,
+          "Energy generation and storage": 13.467683254769211,
+          "Services and other": 13.213536229133052,
+          "Automotive regulatory credits": 2.101722083372879,
+          "Automotive leasing": 1.8053929787929597
+        },
+        "hhi_shares_after_small_stream_aggregation": {
+          "Automotive sales": 69.41166545393189,
+          "Energy generation and storage": 13.467683254769211,
+          "Services and other": 13.213536229133052,
+          "Automotive regulatory credits": 2.101722083372879,
+          "Other small streams": 1.8053929787929597
+        }
+      },
+      "persistence": {
+        "score": 92.88186879494879,
+        "provisional_score": 92.88186879494879,
+        "status": "PROVISIONAL_2Y",
+        "confidence": "LOW",
+        "production_ready": false,
+        "history_years_present": 2,
+        "history_years_expected": 5,
+        "history_coverage_pct": 40.0,
+        "major_stream_observation_coverage_pct": 99.99999999999999,
+        "effective_component_weight_pct": 65.0,
+        "required_segment_observations": 2,
+        "fiscal_years_present": [
+          2024,
+          2025
+        ],
+        "note": "Persistence is historical, not a forecast. 2Y scores are provisional and normally omit Growth Consistency."
+      },
+      "weights": {
+        "diversification": 0.6,
+        "persistence": 0.4
+      },
+      "reasons": [
+        "Only 2 fiscal years are available. Numeric score is shown for research use, but Growth Consistency is normally unavailable and the score is not production-ready."
+      ]
+    }
+  ]
+}

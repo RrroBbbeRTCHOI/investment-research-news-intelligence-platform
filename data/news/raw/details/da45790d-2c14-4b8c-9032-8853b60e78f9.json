@@ -1,0 +1,38 @@
+{
+  "_ingestion": {
+    "provider": "freenewsapi",
+    "endpoint": "details",
+    "article_uuid": "da45790d-2c14-4b8c-9032-8853b60e78f9",
+    "fetched_at": "2026-09-21T02:54:25.249826+00:00"
+  },
+  "raw_response": {
+    "data": {
+      "uuid": "da45790d-2c14-4b8c-9032-8853b60e78f9",
+      "title": "Bessent: US proposes AI incident alert system in talks with China",
+      "thumbnail": "https://s.yimg.com/lo/mysterio/api/7ccea060ae911cd36102148f979428067b8925819793a0a532c23b0b8c14ac85/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fap.org%2F49bb547c1d9887e41a216bc574d22414.jpg",
+      "publisher": "Yahoo",
+      "authors": [
+        "Matt Sedensky"
+      ],
+      "topics": [
+        "economy",
+        "politics",
+        "world"
+      ],
+      "countries": [
+        "BW",
+        "LV",
+        "MY",
+        "NA",
+        "US"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-09-21T01:49:00.000Z",
+      "original_url": "https://www.yahoo.com/news/politics/articles/bessent-us-proposes-ai-incident-014924679.html",
+      "incipit": "MATT SEDENSKYUpdated Mon, September 21, 2026 at 1:49 AM UTC1 min readIn this photo taken with a smartphone, U.S. Treasury Secretary Scott Bessent, left, and U.S. Trade Representative Jamieson Greer, address...",
+      "body": "MATT SEDENSKY Updated Mon, September 21, 2026 at 1:49 AM UTC 1 min read In this photo taken with a smartphone, U.S. Treasury Secretary Scott Bessent, left, and U.S. Trade Representative Jamieson Greer, address reporters in New York, Sunday, Sept. 20, 2026. (AP Photo/Matt Sedensky) NEW YORK (AP) — Treasury Secretary Scott Bessent said Sunday the U.S. has proposed a new \"notification mechanism\" for artificial intelligence incidents that could affect national security, part of weekend discussions ahead of talks at the White House this week between President Donald Trump and China's Xi Jinping . \"We want a shared vision of common goals and common threats,\" Bessent told reporters after talks with Chinese Vice Premier He Lifeng in New York. \"We think that just like any cross-border activity, that moving from opaque to more transparency between the No. 1 and the No. 2 AI powers in the world is very important.\" Trump has resisted calls to slow down AI development , saying that would help China catch up to U.S. companies. Standing together in the soaring lobby of the JPMorgan Chase headquarters late Sunday, Bessent and U.S. Trade Representative Jamieson Greer said the groundwork had been laid for talks between Xi and Trump set to take place on Thursday. They said the two sides had agreed to operationalize a new \"Board of Trade\" that the two leaders had discussed when they met in Beijing in May. \"Today those notions have become reality,\" Greer said. Greer said the countries were still discussing what \"nonsensitive\" items could be considered for lower tariffs, but that the list could potentially include consumer and agricultural goods, energy products and medical devices."
+    }
+  }
+}

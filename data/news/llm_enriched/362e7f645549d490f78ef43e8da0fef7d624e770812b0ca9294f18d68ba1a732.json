@@ -1,0 +1,131 @@
+{
+  "status": "available",
+  "schema_version": "news_semantic_v3_1",
+  "prompt_version": "news_semantics_v3_1_sentence_grounding",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "content_hash": "362e7f645549d490f78ef43e8da0fef7d624e770812b0ca9294f18d68ba1a732",
+  "article_content_hash": "7c2c9b889a34f4105545496845305f306ad051874dc78ed3a804be2fcd2633a6",
+  "generated_at": "2026-09-25T14:47:15.615981+00:00",
+  "semantic": {
+    "article_class": "company_event",
+    "is_relevant_candidate": true,
+    "summary_short": "TSMC advanced packaging supplier campus in Kaohsiung’s Baipu Industrial Park will co-locate materials suppliers alongside TSMC engineers in shared cleanrooms, boosting CoWoS packaging validation efficiency by 25-50% and accelerating the AI chip supply chain ramp at Chiayi, Longtan, and Tongluo",
+    "summary_full": "TSMC advanced packaging supplier campus in Kaohsiung’s Baipu Industrial Park will co-locate materials suppliers alongside TSMC engineers in shared cleanrooms, boosting CoWoS packaging validation efficiency by 25-50% and accelerating the AI chip supply chain ramp at Chiayi, Longtan, and Tongluo",
+    "primary_country": "Taiwan",
+    "event_type": "Facility Opening",
+    "event_subtype": "Supplier Campus",
+    "countries": [
+      "Taiwan"
+    ],
+    "entities": [
+      "TSMC",
+      "Kaohsiung's Baipu Industrial Park",
+      "CoWoS",
+      "Chiayi",
+      "Longtan",
+      "Tongluo"
+    ],
+    "companies_mentioned": [
+      "TSMC",
+      "Taiwan Semiconductor Manufacturing Co."
+    ],
+    "direct_ticker_candidates": [
+      "TSM"
+    ],
+    "economic_channels": [
+      "Semiconductor Supply Chain",
+      "Advanced Packaging",
+      "AI Chip Manufacturing"
+    ],
+    "candidate_indirect_tickers": [],
+    "missing_information": [],
+    "research_questions": [
+      "What are the specific materials and equipment suppliers operating in the Kaohsiung supplier campus?"
+    ],
+    "severity_candidate": "Medium",
+    "severity_reason": "The opening of a dedicated supplier campus improves TSMC's packaging validation efficiency and AI chip supply chain capacity, which is operationally significant for semiconductor manufacturing.",
+    "severity_confidence": 0.8,
+    "operational_event": true,
+    "fundamental_change_detected": false,
+    "llm_confidence": 0.95,
+    "citations": [
+      {
+        "field": "summary_short",
+        "quote": "TSMC advanced packaging supplier campus in Kaohsiung’s Baipu Industrial Park will co-locate materials suppliers alongside TSMC engineers in shared cleanrooms, boosting CoWoS packaging validation efficiency by 25-50% and accelerating the AI chip supply chain ramp at Chiayi, Longtan, and Tongluo",
+        "source_field": "summary"
+      },
+      {
+        "field": "summary_full",
+        "quote": "TSMC advanced packaging supplier campus in Kaohsiung’s Baipu Industrial Park will co-locate materials suppliers alongside TSMC engineers in shared cleanrooms, boosting CoWoS packaging validation efficiency by 25-50% and accelerating the AI chip supply chain ramp at Chiayi, Longtan, and Tongluo",
+        "source_field": "summary"
+      },
+      {
+        "field": "primary_country",
+        "quote": "Taiwan",
+        "source_field": "body"
+      },
+      {
+        "field": "event_type",
+        "quote": "opened a dedicated materials and equipment supplier campus",
+        "source_field": "body"
+      },
+      {
+        "field": "event_subtype",
+        "quote": "materials and equipment supplier campus",
+        "source_field": "body"
+      },
+      {
+        "field": "article_class",
+        "quote": "TSMC Opens Kaohsiung Supplier Campus to Close Packaging Validation Gap",
+        "source_field": "headline"
+      },
+      {
+        "field": "economic_channels",
+        "quote": "advanced packaging materials and technology suppliers alongside TSMC's own engineers",
+        "source_field": "body"
+      },
+      {
+        "field": "severity_candidate",
+        "quote": "improve packaging validation efficiency by 25 to 50 percent",
+        "source_field": "body"
+      },
+      {
+        "field": "operational_event",
+        "quote": "Taiwan Semiconductor Manufacturing Co. (TSMC) has opened a dedicated materials and equipment supplier campus in Kaohsiung's Baipu Industrial Park",
+        "source_field": "body"
+      },
+      {
+        "field": "fundamental_change_detected",
+        "quote": "designed to reduce the time it takes to qualify the next generation of materials needed to build AI chips",
+        "source_field": "body"
+      },
+      {
+        "field": "direct_ticker_candidates",
+        "quote": "TSMC",
+        "source_field": "body"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "total_tokens": 1588,
+    "estimated_cost_usd": null,
+    "scope": "successful response only; failed-attempt usage unavailable"
+  },
+  "cache_hit": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "success"
+    }
+  ],
+  "attempt_audit_scope": "original enrichment generation; cache reuse makes no new requests",
+  "attempt_count": 1,
+  "retry_count": 0,
+  "fallback_used": false
+}

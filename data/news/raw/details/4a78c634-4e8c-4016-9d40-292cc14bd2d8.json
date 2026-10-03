@@ -1,0 +1,34 @@
+{
+  "_ingestion": {
+    "provider": "freenewsapi",
+    "endpoint": "details",
+    "article_uuid": "4a78c634-4e8c-4016-9d40-292cc14bd2d8",
+    "fetched_at": "2026-09-21T02:54:42.217174+00:00"
+  },
+  "raw_response": {
+    "data": {
+      "uuid": "4a78c634-4e8c-4016-9d40-292cc14bd2d8",
+      "title": "SNAPSHOT | Anwar denies paving way for Najib's pardon; PM celebrates Malacca CM's birthday",
+      "thumbnail": "https://s.malaysiakini.com/attachments/orphans/anwar122_472907.jpg",
+      "publisher": "Malaysiakini",
+      "authors": [
+        "@malaysiakini"
+      ],
+      "topics": [
+        "politics"
+      ],
+      "countries": [
+        "AU",
+        "MY",
+        "US"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-09-21T01:10:00.000Z",
+      "original_url": "https://www.malaysiakini.com/news/885415-snapshot-anwar-denies-paving-way-for-najibs-pardon-pm-celebrates-malacca-cms-birthday",
+      "incipit": "KINI SNAPSHOT | What’s going on in the news today, with updates at 9am, 2pm, 6pm, and 9pm.9amPolitics- Prime Minister Anwar Ibrahim denied paving the way for a conditional pardon for former premier Najib...",
+      "body": "KINI SNAPSHOT | What’s going on in the news today, with updates at 9am, 2pm, 6pm, and 9pm. 9am Politics - Prime Minister Anwar Ibrahim denied paving the way for a conditional pardon for former premier Najib Abdul Razak. Affirming that the pardon does not affect legal proceedings involving other cases, Anwar stressed that every prisoner, including Najib, has a right to submit an appeal to the Pardons Board. Bernama quoted him as detailing the matter when speaking to reporters on the sidelines of a Perintis Reformis reunion in Shah Alam yesterday. Previously, Anwar helped fast-track Najib’s first pardon hearing under the previous Yang di-Pertuan Agong’s reign, which led to the former premier’s SRC International sentence being significantly reduced. - Anwar took the time to celebrate Malacca Chief Minister Ab Rauf Yusoh’s birthday with him in the state yesterday. The prime minister also shared videos of the event on his social media pages, with clips showing Anwar singing \"happy birthday\" to Rauf in front of a cake. In a separate post, Rauf thanked Anwar for the gesture, noting that while their political thoughts might differ, mutual respect and efforts to prioritise the rakyat remain present. Anwar’s Pakatan Harapan has been trying to work out a deal for electoral cooperation with Malacca BN for the upcoming state polls."
+    }
+  }
+}

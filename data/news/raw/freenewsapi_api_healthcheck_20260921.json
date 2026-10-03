@@ -1,0 +1,97 @@
+{
+  "_ingestion": {
+    "provider": "freenewsapi",
+    "query_name": "api_healthcheck_20260921",
+    "fetched_at": "2026-09-21T02:48:06.393527+00:00",
+    "request_params": {
+      "language": "en",
+      "country": "us"
+    }
+  },
+  "raw_response": {
+    "data": [
+      {
+        "uuid": "d002601e-f154-4d7b-89da-c3eefda3f779",
+        "title": "UMass field hockey downs Albany 3-0 at home - Massachusetts Daily Collegian",
+        "published_at": "2026-09-21T02:46:18.000Z",
+        "publisher": "Massachusetts Daily Collegian"
+      },
+      {
+        "uuid": "80192a00-db20-4239-8521-a8095459a701",
+        "title": "Ten-Man Toreros Hold No. 16 Kansas City to Two Shots on Goal, Fall 1-0 - usdtoreros.com",
+        "published_at": "2026-09-21T02:40:07.000Z",
+        "publisher": "usdtoreros.com"
+      },
+      {
+        "uuid": "7b4a8d58-7ebc-449f-8b79-5adb1b69889c",
+        "title": "NRL open investigation into fans after top referee pelted with rubbish at Eden Park",
+        "published_at": "2026-09-21T02:37:00.000Z",
+        "publisher": "The Guardian"
+      },
+      {
+        "uuid": "50d42745-5d50-405e-945f-d20d210ea9f9",
+        "title": "Lionel Messi joins Denis Bouanga in elite MLS club - MLSsoccer.com",
+        "published_at": "2026-09-21T02:33:31.000Z",
+        "publisher": "MLSsoccer.com"
+      },
+      {
+        "uuid": "cc393bba-dd26-4278-9f0a-4afa876a207b",
+        "title": "The Good, The Bad, and The Ugly: Cardinals Hit a Brick Wall Against Seahawks",
+        "published_at": "2026-09-21T02:30:00.000Z",
+        "publisher": "Sports Illustrated"
+      },
+      {
+        "uuid": "0113565f-5fc3-4439-bce7-929f7e0b6b78",
+        "title": "5 Winners, 6 Losers From Jaguars' Disappointing Loss to Broncos: Parker Washington's Status",
+        "published_at": "2026-09-21T02:29:11.000Z",
+        "publisher": "Sports Illustrated"
+      },
+      {
+        "uuid": "9bfde8c2-9b66-4304-9f94-c06657685dad",
+        "title": "49ers’ answers to summer of distractions? Crush foes, shed a layer, stay fuego",
+        "published_at": "2026-09-21T02:27:50.000Z",
+        "publisher": "San Francisco Chronicle"
+      },
+      {
+        "uuid": "2b4fce49-fb5a-4bb2-a7f4-55f007829103",
+        "title": "Samu Salminen Signs with Florida Panthers - University of Denver Athletics",
+        "published_at": "2026-09-21T02:27:17.000Z",
+        "publisher": "University of Denver Athletics"
+      },
+      {
+        "uuid": "857dd13f-e01e-4bbf-aba3-32dee2ba8607",
+        "title": "ICE detains KSU basketball player, paper reports - WKYT",
+        "published_at": "2026-09-21T02:27:00.000Z",
+        "publisher": "WKYT"
+      },
+      {
+        "uuid": "d1ce402a-1254-4f72-afc7-b4c86a9069d6",
+        "title": "Stellar Blade \"Switch 2 vs. PS5\" graphics and framerate comparison",
+        "published_at": "2026-09-21T02:21:27.000Z",
+        "publisher": "GoNintendo"
+      }
+    ],
+    "meta": {
+      "page_size": 10,
+      "returned": 10,
+      "has_more": true,
+      "order_by": "recent",
+      "filters": {
+        "published_after": null,
+        "published_before": null,
+        "language": "en",
+        "country": "US",
+        "topic": null,
+        "publisher_uuid": null,
+        "author_uuid": null,
+        "q": null,
+        "in_title": null,
+        "in_body": null,
+        "in_subtitle": null
+      },
+      "offset": 0,
+      "next_offset": 10,
+      "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6IjYzMTE0NTM4OWUyZTViN2YxNDJiMDMyZGY2YjQ3ZDBkYTkxZWIyYzhmN2MyZDliOTU2ZDlhOWJlY2RkOTBlZGUiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDktMjFUMDI6MjE6MjcuMDAwWiIsImxhc3RfaWQiOjI5NDI4ODc1fQ"
+    }
+  }
+}

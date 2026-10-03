@@ -1,0 +1,48 @@
+{
+  "_ingestion": {
+    "provider": "freenewsapi",
+    "endpoint": "details",
+    "article_uuid": "c96075d5-089e-4218-9151-f7c4ca8b0bc2",
+    "fetched_at": "2026-09-21T02:54:23.660114+00:00"
+  },
+  "raw_response": {
+    "data": {
+      "uuid": "c96075d5-089e-4218-9151-f7c4ca8b0bc2",
+      "title": "Japanese Yen bulls seem hesitant amid BoJ's dovish rate hike as Fed bets support USD",
+      "thumbnail": "https://editorial.fxsstatic.com/images/i/discover-58.jpg",
+      "publisher": "FXStreet",
+      "authors": [
+        "Haresh B Menghani"
+      ],
+      "topics": [
+        "business",
+        "finance"
+      ],
+      "countries": [
+        "AU",
+        "ET",
+        "GB",
+        "GH",
+        "ID",
+        "IE",
+        "IN",
+        "KE",
+        "LV",
+        "MY",
+        "NA",
+        "NZ",
+        "SG",
+        "TZ",
+        "UG",
+        "US"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-09-21T01:12:12.000Z",
+      "original_url": "https://www.fxstreet.com/news/japanese-yen-bulls-seem-hesitant-amid-bojs-dovish-rate-hike-as-fed-bets-support-usd-202609210112",
+      "incipit": "The USD/JPY pair attracts some sellers following a modest Asian session uptick to the 157.10 area and moves away from a two-week high, touched on Friday in reaction to the Bank of Japan's (BoJ) dovish rate hike.",
+      "body": "The USD/JPY pair attracts some sellers following a modest Asian session uptick to the 157.10 area and moves away from a two-week high, touched on Friday in reaction to the Bank of Japan's (BoJ) dovish rate hike. Spot prices currently trade around the 156.75 region, though the near-term bias seems tilted in favor of bullish traders. As was widely expected, the Japanese central bank raised the short-term interest rate to a 31-year high on Friday and reiterated that it will continue raising rates in response to developments in activity, prices and financial conditions. However, the 7-2 vote split pointed to a divided board, which, along with data showing that inflation in Japan eased slightly in August, tempered bets for a more aggressive tightening cycle. This, in turn, is seen as undermining the Japanese Yen (JPY) and acting as a tailwind for the USD/JPY pair. Meanwhile, a further escalation of tensions in the Middle East and the growing risk of a broader regional conflict help the safe-haven US Dollar (USD) stall its retracement slide from the highest level since late July, set on Friday. In the latest development, Iran-backed Houthis in Yemen said that they attacked sensitive sites in the Saudi capital of Riyadh on Saturday with missiles and drones. Moreover, Iran laid out seven conditions for restarting talks with the US, which keeps the geopolitical risk premium firmly in play. Adding to this, the US Federal Reserve's (Fed) hawkish outlook , signaling at least one more follow-up rate hike this year, acts as a tailwind for the Greenback and the USD/JPY pair. Traders, however, seem reluctant to place aggressive bullish bets and opt to wait for further developments surrounding the Middle East crisis. This week's focus will also be on a crucial meeting between US President Donald Trump and his Chinese counterpart Xi Jinping on Thursday, which will influence risk sentiment and drive the USD. USD/JPY 4-hour chart Technical Analysis The USD/JPY keeps a capped tone below the 200-period Simple Moving Average (SMA) on the 4-hour chart, at 157.61. Moreover, spot prices have slipped back under the 61.8% Fibonacci retracement at 157.49, leaving that level and the nearby 200-period SMA as a dense overhead barrier that suggests rallies are likely to meet selling interest. A decisively move beyond this zone, however, should pave the way for gains to the 78.6% retracement near 158.75 and the recent swing high at 160.36. On the downside, initial support emerges at the 50.0% retracement around 156.60, with additional cushions at the 38.2% level near 155.72 and the 23.6% retracement at 154.62, while a deeper pullback could expose the Fibonacci anchor at 152.85. (The technical analysis of this story was written with the help of an AI tool. Know more. ) The Japanese Yen (JPY) is one of the world’s most traded currencies. Its value is broadly determined by the performance of the Japanese economy, but more specifically by the Bank of Japan’s policy, the differential between Japanese and US bond yields, or risk sentiment among traders, among other factors. One of the Bank of Japan’s mandates is currency control, so its moves are key for the Yen. The BoJ has directly intervened in currency markets sometimes, generally to lower the value of the Yen, although it refrains from doing it often due to political concerns of its main trading partners. The BoJ ultra-loose monetary policy between 2013 and 2024 caused the Yen to depreciate against its main currency peers due to an increasing policy divergence between the Bank of Japan and other main central banks. More recently, the gradually unwinding of this ultra-loose policy has given some support to the Yen. Over the last decade, the BoJ’s stance of sticking to ultra-loose monetary policy has led to a widening policy divergence with other central banks, particularly with the US Federal Reserve. This supported a widening of the differential between the 10-year US and Japanese bonds, which favored the US Dollar against the Japanese Yen. The BoJ decision in 2024 to gradually abandon the ultra-loose policy, coupled with interest-rate cuts in other major central banks, is narrowing this differential. The Japanese Yen is often seen as a safe-haven investment. This means that in times of market stress, investors are more likely to put their money in the Japanese currency due to its supposed reliability and stability. Turbulent times are likely to strengthen the Yen’s value against other currencies seen as more risky to invest in."
+    }
+  }
+}

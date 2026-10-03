@@ -1,0 +1,95 @@
+{
+  "_metadata": {
+    "schema_version": "candidate_channels_v1"
+  },
+  "events": [
+    {
+      "event_id": "evt_ea5ea1c5fdce3f6ddd9fd52e",
+      "candidate_channels": [
+        {
+          "channel_family": "legal_antitrust",
+          "channel_subtype": "unspecified",
+          "confidence": 0.75,
+          "basis": [
+            "legal_channel"
+          ],
+          "status": "candidate"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_d58bc38e43e97491998b975b",
+      "candidate_channels": [
+        {
+          "channel_family": "legal_antitrust",
+          "channel_subtype": "unspecified",
+          "confidence": 0.75,
+          "basis": [
+            "legal_channel"
+          ],
+          "status": "candidate"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_d2391214f5982d9740a8ac9f",
+      "candidate_channels": []
+    },
+    {
+      "event_id": "evt_1cc94288c6d7a93ea303cb1b",
+      "candidate_channels": []
+    },
+    {
+      "event_id": "evt_337f2aea6e55990e897612e5",
+      "candidate_channels": []
+    },
+    {
+      "event_id": "evt_08d0e536072a05d7069cd513",
+      "candidate_channels": [
+        {
+          "channel_family": "technology_demand",
+          "channel_subtype": "unspecified",
+          "confidence": 0.75,
+          "basis": [
+            "technology_channel"
+          ],
+          "status": "candidate"
+        },
+        {
+          "channel_family": "automotive",
+          "channel_subtype": "unspecified",
+          "confidence": 0.35,
+          "basis": [
+            "event_type",
+            "products_mentioned"
+          ],
+          "status": "candidate"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_f27962b82d111656b630a696",
+      "candidate_channels": [
+        {
+          "channel_family": "technology_demand",
+          "channel_subtype": "unspecified",
+          "confidence": 0.75,
+          "basis": [
+            "technology_channel"
+          ],
+          "status": "candidate"
+        },
+        {
+          "channel_family": "automotive",
+          "channel_subtype": "unspecified",
+          "confidence": 0.35,
+          "basis": [
+            "event_type",
+            "products_mentioned"
+          ],
+          "status": "candidate"
+        }
+      ]
+    }
+  ]
+}

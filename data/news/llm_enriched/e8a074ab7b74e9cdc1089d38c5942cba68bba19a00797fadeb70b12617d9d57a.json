@@ -1,0 +1,131 @@
+{
+  "status": "available",
+  "schema_version": "news_semantic_v3_1",
+  "prompt_version": "news_semantics_v3_1_sentence_grounding",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "content_hash": "e8a074ab7b74e9cdc1089d38c5942cba68bba19a00797fadeb70b12617d9d57a",
+  "article_content_hash": "f8b3eab5dab34bca769b866336bbd4c9ef5a62323483d956ba6802eb00d89345",
+  "generated_at": "2026-09-25T14:47:44.363043+00:00",
+  "semantic": {
+    "article_class": "geopolitical_event",
+    "is_relevant_candidate": true,
+    "summary_short": "Another ship has been attacked in the Strait of Hormuz, UK Maritime Trade Operations (UKMTO) reported on Monday, citing military sources.",
+    "summary_full": "Another ship has been attacked in the Strait of Hormuz, UK Maritime Trade Operations (UKMTO) reported on Monday, citing military sources.",
+    "primary_country": "Iran",
+    "event_type": "Geopolitical",
+    "event_subtype": "Military Conflict / Shipping Attack",
+    "countries": [
+      "Iran",
+      "United States",
+      "Oman",
+      "United Kingdom"
+    ],
+    "entities": [
+      "UK Maritime Trade Operations",
+      "UKMTO",
+      "US military"
+    ],
+    "companies_mentioned": [],
+    "direct_ticker_candidates": [],
+    "economic_channels": [
+      "Shipping",
+      "Oil and Gas",
+      "Supply Chain"
+    ],
+    "candidate_indirect_tickers": [],
+    "missing_information": [
+      "Identity of the tanker",
+      "Identity of the attacking party",
+      "Exact financial impact on shipping lines"
+    ],
+    "research_questions": [
+      "Which specific tanker was hit in the Strait of Hormuz?",
+      "What measures are shipping companies taking in response to attacks in the Strait of Hormuz?"
+    ],
+    "severity_candidate": "High",
+    "severity_reason": "An attack on a tanker in a critical global trade chokepoint (Strait of Hormuz) causing injuries and severe disruption to global trade in oil, gas, and fertilizer.",
+    "severity_confidence": 0.9,
+    "operational_event": true,
+    "fundamental_change_detected": false,
+    "llm_confidence": 0.95,
+    "citations": [
+      {
+        "field": "summary_short",
+        "quote": "Another ship has been attacked in the Strait of Hormuz, UK Maritime Trade Operations (UKMTO) reported on Monday, citing military sources.",
+        "source_field": "summary"
+      },
+      {
+        "field": "summary_full",
+        "quote": "Another ship has been attacked in the Strait of Hormuz, UK Maritime Trade Operations (UKMTO) reported on Monday, citing military sources.",
+        "source_field": "summary"
+      },
+      {
+        "field": "primary_country",
+        "quote": "Iran",
+        "source_field": "body"
+      },
+      {
+        "field": "event_type",
+        "quote": "hit by an unknown projectile in the Strait of Hormuz",
+        "source_field": "body"
+      },
+      {
+        "field": "event_subtype",
+        "quote": "The attack occurred during an inbound transit from Iran, which is largely blocking traffic through the strait as part of its ongoing conflict with the US.",
+        "source_field": "body"
+      },
+      {
+        "field": "article_class",
+        "quote": "Another ship has been attacked in the Strait of Hormuz, UK Maritime Trade Operations (UKMTO) reported on Monday, citing military sources.",
+        "source_field": "summary"
+      },
+      {
+        "field": "economic_channels",
+        "quote": "global trade in oil, gas, and fertilizer",
+        "source_field": "body"
+      },
+      {
+        "field": "severity_candidate",
+        "quote": "This disruption to shipping is causing severe disruption to the global trade in oil, gas, and fertilizer.",
+        "source_field": "body"
+      },
+      {
+        "field": "operational_event",
+        "quote": "causing two crew members to be slightly injured and no environmental damage.",
+        "source_field": "body"
+      },
+      {
+        "field": "fundamental_change_detected",
+        "quote": "ongoing conflict with the US",
+        "source_field": "body"
+      },
+      {
+        "field": "direct_ticker_candidates",
+        "quote": "",
+        "source_field": "body"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "total_tokens": 1376,
+    "estimated_cost_usd": null,
+    "scope": "successful response only; failed-attempt usage unavailable"
+  },
+  "cache_hit": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "success"
+    }
+  ],
+  "attempt_audit_scope": "original enrichment generation; cache reuse makes no new requests",
+  "attempt_count": 1,
+  "retry_count": 0,
+  "fallback_used": false
+}

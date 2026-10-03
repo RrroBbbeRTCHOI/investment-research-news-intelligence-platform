@@ -1,0 +1,98 @@
+{
+  "_ingestion": {
+    "provider": "freenewsapi",
+    "query_name": "mag7_live_topic_world_20260921",
+    "fetched_at": "2026-09-21T02:51:46.630802+00:00",
+    "request_params": {
+      "topic": "world",
+      "language": "en",
+      "country": "us"
+    }
+  },
+  "raw_response": {
+    "data": [
+      {
+        "uuid": "622f3b75-8c46-449e-ae1e-0aee34ead34e",
+        "title": "Putin's United Russia wins tightly controlled wartime election",
+        "published_at": "2026-09-21T02:03:00.000Z",
+        "publisher": "yahoo.com"
+      },
+      {
+        "uuid": "454f4948-4b82-41d8-b018-d237061442f4",
+        "title": "Newshour | The German chancellor describes the results of a state election as a \"disaster\"",
+        "published_at": "2026-09-21T01:31:18.000Z",
+        "publisher": "BBC"
+      },
+      {
+        "uuid": "cfaecb74-b4de-461d-932f-d26d1cc316ea",
+        "title": "Princess Diana's brother says his bombshell claims against King Charles following her death will 'not be a surprise' to nephews William and Harry",
+        "published_at": "2026-09-21T01:15:00.000Z",
+        "publisher": "pagesix.com"
+      },
+      {
+        "uuid": "17270f98-6ab2-4d50-9b25-e67a072a4041",
+        "title": "Ukraine war briefing: Russia to ‘intensify’ attacks on Kyiv after Moscow hit with mass drone strikes",
+        "published_at": "2026-09-21T01:14:00.000Z",
+        "publisher": "The Guardian"
+      },
+      {
+        "uuid": "4cf9f29d-e24b-46e7-9c3d-69fb05a0acdf",
+        "title": "Macron and Carney announce closer France-Canada ties amid Trump tensions",
+        "published_at": "2026-09-21T01:09:00.000Z",
+        "publisher": "The Guardian"
+      },
+      {
+        "uuid": "dce30ebe-c4f7-4968-a4c1-88468bb5a313",
+        "title": "Trump announced \"very important developments\" in the war with Iran",
+        "published_at": "2026-09-21T00:53:32.000Z",
+        "publisher": "unn.ua"
+      },
+      {
+        "uuid": "57fd5f27-921d-4fd0-a0d2-7959dc1ca0de",
+        "title": "Russia's elections had few surprises - but how the Kremlin uses the results is far from clear",
+        "published_at": "2026-09-21T00:05:11.000Z",
+        "publisher": "BBC"
+      },
+      {
+        "uuid": "0dde24c4-7709-42dc-9e3c-5c87111d8a6f",
+        "title": "Macron backs Canada as EU associate member as Carney turns toward Europe",
+        "published_at": "2026-09-20T23:54:38.000Z",
+        "publisher": "Anchorage Daily News"
+      },
+      {
+        "uuid": "d0122c31-2794-4a15-b76d-d71ecfa4590f",
+        "title": "Final preparations are underway for U.N. General Assembly in NYC, starting Tuesday",
+        "published_at": "2026-09-20T23:36:45.000Z",
+        "publisher": "CBS News"
+      },
+      {
+        "uuid": "e31d9f1d-9898-4f2a-94ce-2b02208f6fdf",
+        "title": "Polls close in Russian wartime election with ruling party set to dominate",
+        "published_at": "2026-09-20T22:58:41.000Z",
+        "publisher": "Al Jazeera"
+      }
+    ],
+    "meta": {
+      "page_size": 10,
+      "returned": 10,
+      "has_more": true,
+      "order_by": "recent",
+      "filters": {
+        "published_after": null,
+        "published_before": null,
+        "language": "en",
+        "country": "US",
+        "topic": "world",
+        "publisher_uuid": null,
+        "author_uuid": null,
+        "q": null,
+        "in_title": null,
+        "in_body": null,
+        "in_subtitle": null
+      },
+      "offset": 0,
+      "next_offset": 10,
+      "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6IjVhMjkyN2FlNWQ2ZjA0NDdkY2YwNGNlMmZlNDc1MTBmM2Q1YTI5NWM0MWU3ZmQxOGZmMzhmZTIzNDhkNWY2MTQiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDktMjBUMjI6NTg6NDEuMDAwWiIsImxhc3RfaWQiOjI5NDE0NTgzfQ"
+    }
+  }
+}

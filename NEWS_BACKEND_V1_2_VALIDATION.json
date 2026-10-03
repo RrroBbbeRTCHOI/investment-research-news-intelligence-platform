@@ -1,0 +1,525 @@
+{
+  "news_tests_passed": 128,
+  "previous_news_tests": 94,
+  "new_news_tests": 34,
+  "original_files_unchanged": 193,
+  "modified_existing_files": [
+    "NEWS_BACKEND_V1.md",
+    "src/news/event_extractor.py",
+    "src/news/channel_generator.py",
+    "src/news/constants.py",
+    "src/news/event_gate.py",
+    "data/news/matches/event_company_matches_v1.json",
+    "data/news/events/events_v1.json",
+    "data/news/events/candidate_channels_v1.json"
+  ],
+  "preserved_sha256": {
+    "MAG7_News_Intelligence_Exposure_Knowledge_Layer_V1.xlsx": "8a2a8637525cef0f30766349d7a88cdb1cbd605eb526fb69d863c5ed2f1b5d11",
+    "src/news/exposure_matcher.py": "00b7a07ca2b15bd2a66f5a2cf5d822f32ca47515310d92a4ca4b0cdd62ad55dc",
+    "src/news/schemas.py": "29c00df826a097c59098f4799c2b5f7aef278903b2278bb445117417bd078f0e"
+  },
+  "negative_control": {
+    "articles": 10,
+    "accepted": 0,
+    "rejected": 10,
+    "candidate_channels": 0,
+    "company_matches": 0,
+    "pairs": 0,
+    "exposure_knowledge": {
+      "status": "loaded",
+      "workbook": "MAG7_News_Intelligence_Exposure_Knowledge_Layer_V1.xlsx",
+      "edge_count": 26,
+      "message": "Loaded raw exposure rows; each match still requires evidence and temporal checks."
+    },
+    "top_matches": []
+  },
+  "positive_control": {
+    "articles": 5,
+    "accepted": 5,
+    "rejected": 0,
+    "candidate_channels": 11,
+    "company_matches": 3,
+    "pairs": 35,
+    "exposure_knowledge": {
+      "status": "loaded",
+      "workbook": "MAG7_News_Intelligence_Exposure_Knowledge_Layer_V1.xlsx",
+      "edge_count": 26,
+      "message": "Loaded raw exposure rows; each match still requires evidence and temporal checks."
+    },
+    "top_matches": [
+      {
+        "event_id": "evt_19c97f43345f5df66e46b594",
+        "ticker": "NVDA",
+        "matched": true,
+        "relevance_score": 0.95,
+        "matched_edges": [
+          {
+            "edge_id": "5",
+            "ticker": "NVDA",
+            "country": "China",
+            "channel_family": "regulatory_export",
+            "channel_subtype": "unspecified",
+            "role": "seller",
+            "product_or_business": "Data-center GPUs; China-compliant products",
+            "counterparty": "U.S. Department of Commerce, Bureau of Industry and Security",
+            "facility_or_route": null,
+            "commodity_or_input": "Advanced computing integrated circuits",
+            "stage": "operating",
+            "exposure_value": null,
+            "exposure_unit": null,
+            "exposure_band": "high",
+            "evidence_status": "verified",
+            "source_url": "https://www.bis.gov/",
+            "source_locator": "BIS advanced computing export-control rule, Oct. 17, 2023; NVIDIA 10-K risk factors",
+            "valid_from": "2023-10-17",
+            "valid_to": null,
+            "known_at_utc": "2023-10-17",
+            "confidence": null,
+            "notes": "U.S. export controls restrict transactions involving specified advanced computing products and China/Macau destinations.",
+            "match_reasons": [
+              "country_match",
+              "channel_match",
+              "eligible_evidence",
+              "point_in_time_valid",
+              "semantic_compatibility"
+            ]
+          }
+        ],
+        "direct_mention": true,
+        "relevance_components": {
+          "direct_mention": 1.0,
+          "edge_match": 1.0,
+          "country_match": 1.0,
+          "channel_match": 1.0,
+          "evidence_quality": 1.0,
+          "event_severity": null
+        },
+        "model_status": "heuristic_v1",
+        "prediction_time": "2026-09-18T02:05:00+00:00"
+      },
+      {
+        "event_id": "evt_c20ff402c8bcf5e5e354ae8f",
+        "ticker": "AMZN",
+        "matched": true,
+        "relevance_score": 0.95,
+        "matched_edges": [
+          {
+            "edge_id": "17",
+            "ticker": "AMZN",
+            "country": "United States",
+            "channel_family": "datacenter_infrastructure",
+            "channel_subtype": "unspecified",
+            "role": "operator",
+            "product_or_business": "Amazon Web Services",
+            "counterparty": null,
+            "facility_or_route": "U.S. AWS Regions including US East and US West; individual facility locations undisclosed",
+            "commodity_or_input": "Data-center capacity; compute; storage; networking",
+            "stage": "operating",
+            "exposure_value": null,
+            "exposure_unit": null,
+            "exposure_band": "high",
+            "evidence_status": "verified",
+            "source_url": "https://ir.aboutamazon.com/",
+            "source_locator": "Amazon FY2025 Form 10-K; AWS global infrastructure documentation",
+            "valid_from": "2006-01-01",
+            "valid_to": null,
+            "known_at_utc": "2026-02-05",
+            "confidence": null,
+            "notes": "AWS publicly operates multiple U.S. Regions and Amazon reports AWS as a reportable segment.",
+            "match_reasons": [
+              "country_match",
+              "channel_match",
+              "eligible_evidence",
+              "point_in_time_valid",
+              "semantic_compatibility"
+            ]
+          }
+        ],
+        "direct_mention": true,
+        "relevance_components": {
+          "direct_mention": 1.0,
+          "edge_match": 1.0,
+          "country_match": 1.0,
+          "channel_match": 1.0,
+          "evidence_quality": 1.0,
+          "event_severity": null
+        },
+        "model_status": "heuristic_v1",
+        "prediction_time": "2026-09-18T03:05:00+00:00"
+      },
+      {
+        "event_id": "evt_d2edc88fc7a590eb78c2692b",
+        "ticker": "TSLA",
+        "matched": true,
+        "relevance_score": 0.55,
+        "matched_edges": [
+          {
+            "edge_id": "23",
+            "ticker": "TSLA",
+            "country": "China",
+            "channel_family": "automotive",
+            "channel_subtype": "unspecified",
+            "role": "operator",
+            "product_or_business": "Model 3; Model Y",
+            "counterparty": "Tesla Shanghai",
+            "facility_or_route": "Gigafactory Shanghai, Lingang",
+            "commodity_or_input": "Finished electric vehicles",
+            "stage": "operating",
+            "exposure_value": null,
+            "exposure_unit": null,
+            "exposure_band": "high",
+            "evidence_status": "partial",
+            "source_url": "https://www.tesla.com/",
+            "source_locator": "Tesla Gigafactory Shanghai production announcement; Tesla annual-report manufacturing discussion",
+            "valid_from": "2019-10-01",
+            "valid_to": null,
+            "known_at_utc": "2019-12-30",
+            "confidence": null,
+            "notes": "Tesla began customer deliveries of China-made Model 3 vehicles from Gigafactory Shanghai in late 2019.",
+            "match_reasons": [
+              "country_match",
+              "channel_match",
+              "eligible_evidence",
+              "point_in_time_valid",
+              "semantic_compatibility"
+            ]
+          }
+        ],
+        "direct_mention": true,
+        "relevance_components": {
+          "direct_mention": 1.0,
+          "edge_match": 1.0,
+          "country_match": 1.0,
+          "channel_match": 1.0,
+          "evidence_quality": 0.5,
+          "event_severity": null
+        },
+        "model_status": "heuristic_v1",
+        "prediction_time": "2026-09-18T04:05:00+00:00"
+      }
+    ]
+  },
+  "stress": {
+    "articles": 8,
+    "accepted": 7,
+    "rejected": 1,
+    "candidate_channels": 12,
+    "company_matches": 3,
+    "pairs": 49,
+    "exposure_knowledge": {
+      "status": "loaded",
+      "workbook": "MAG7_News_Intelligence_Exposure_Knowledge_Layer_V1.xlsx",
+      "edge_count": 26,
+      "message": "Loaded raw exposure rows; each match still requires evidence and temporal checks."
+    },
+    "top_matches": [
+      {
+        "event_id": "evt_12b1f4757f5b875a28f066a0",
+        "ticker": "MSFT",
+        "matched": true,
+        "relevance_score": 0.95,
+        "matched_edges": [
+          {
+            "edge_id": "11",
+            "ticker": "MSFT",
+            "country": "United States",
+            "channel_family": "datacenter_infrastructure",
+            "channel_subtype": "unspecified",
+            "role": "operator",
+            "product_or_business": "Azure; Microsoft 365; AI services",
+            "counterparty": null,
+            "facility_or_route": "U.S. Azure regions and data-center estate; exact asset-to-site allocation not disclosed",
+            "commodity_or_input": "Data-center capacity; compute; storage; networking",
+            "stage": "operating",
+            "exposure_value": null,
+            "exposure_unit": null,
+            "exposure_band": "high",
+            "evidence_status": "verified",
+            "source_url": "https://microsoft.gcs-web.com/static-files/8a9beeed-0e9e-48e6-b4fb-593d558e2693",
+            "source_locator": "Microsoft FY2026 Form 10-K, Property and Equipment; Azure regional documentation",
+            "valid_from": "2010-01-01",
+            "valid_to": null,
+            "known_at_utc": "2026-07-29",
+            "confidence": null,
+            "notes": "Microsoft reports substantial U.S. long-lived assets and operates Azure regions in the United States.",
+            "match_reasons": [
+              "country_match",
+              "channel_match",
+              "eligible_evidence",
+              "point_in_time_valid",
+              "semantic_compatibility"
+            ]
+          }
+        ],
+        "direct_mention": true,
+        "relevance_components": {
+          "direct_mention": 1.0,
+          "edge_match": 1.0,
+          "country_match": 1.0,
+          "channel_match": 1.0,
+          "evidence_quality": 1.0,
+          "event_severity": null
+        },
+        "model_status": "heuristic_v1",
+        "prediction_time": "2026-09-18T06:05:00+00:00"
+      },
+      {
+        "event_id": "evt_f0a44e70dc24e2735b560c6a",
+        "ticker": "NVDA",
+        "matched": true,
+        "relevance_score": 0.8,
+        "matched_edges": [
+          {
+            "edge_id": "1",
+            "ticker": "NVDA",
+            "country": "Taiwan",
+            "channel_family": "advanced_semiconductors",
+            "channel_subtype": "unspecified",
+            "role": "buyer",
+            "product_or_business": "Blackwell B200/GB200; Hopper H100/H200",
+            "counterparty": "TSMC",
+            "facility_or_route": "TSMC Taiwan fabs; exact fab not publicly confirmed",
+            "commodity_or_input": "TSMC 4NP/4N process wafers",
+            "stage": "operating",
+            "exposure_value": null,
+            "exposure_unit": null,
+            "exposure_band": "high",
+            "evidence_status": "verified",
+            "source_url": "https://www.nvidia.com/en-us/about-nvidia/",
+            "source_locator": "NVIDIA GTC 2024; NVIDIA FY2026 10-K, Item 1, Manufacturing",
+            "valid_from": "2022-04-01",
+            "valid_to": null,
+            "known_at_utc": "2024-03-18",
+            "confidence": null,
+            "notes": "Blackwell disclosed as using a custom TSMC 4NP process; NVIDIA discloses TSMC and Samsung as wafer foundries.",
+            "match_reasons": [
+              "country_match",
+              "channel_match",
+              "eligible_evidence",
+              "point_in_time_valid",
+              "semantic_compatibility"
+            ]
+          },
+          {
+            "edge_id": "2",
+            "ticker": "NVDA",
+            "country": "Taiwan",
+            "channel_family": "advanced_packaging",
+            "channel_subtype": "unspecified",
+            "role": "buyer",
+            "product_or_business": "Blackwell B200/GB200; Hopper H100/H200",
+            "counterparty": "TSMC",
+            "facility_or_route": "Taiwan CoWoS operations; exact facility not publicly confirmed",
+            "commodity_or_input": "CoWoS-L; CoWoS advanced packaging",
+            "stage": "operating",
+            "exposure_value": null,
+            "exposure_unit": null,
+            "exposure_band": "high",
+            "evidence_status": "verified",
+            "source_url": "https://www.nvidia.com/en-us/data-center/blackwell-platform/",
+            "source_locator": "NVIDIA GTC 2024; TechInsights HGX B200 teardown, Apr. 2025",
+            "valid_from": "2024-10-01",
+            "valid_to": null,
+            "known_at_utc": "2024-03-18",
+            "confidence": null,
+            "notes": "Blackwell packaging relationship is supported by Blackwell/CoWoS-L technical reporting.",
+            "match_reasons": [
+              "country_match",
+              "channel_match",
+              "eligible_evidence",
+              "point_in_time_valid",
+              "semantic_compatibility",
+              "named_supplier_production_channel_refinement"
+            ]
+          }
+        ],
+        "direct_mention": false,
+        "relevance_components": {
+          "direct_mention": 0.0,
+          "edge_match": 1.0,
+          "country_match": 1.0,
+          "channel_match": 1.0,
+          "evidence_quality": 1.0,
+          "event_severity": null
+        },
+        "model_status": "heuristic_v1",
+        "prediction_time": "2026-09-18T06:45:00+00:00"
+      },
+      {
+        "event_id": "evt_f0a44e70dc24e2735b560c6a",
+        "ticker": "AAPL",
+        "matched": true,
+        "relevance_score": 0.4,
+        "matched_edges": [
+          {
+            "edge_id": "6",
+            "ticker": "AAPL",
+            "country": "Taiwan",
+            "channel_family": "advanced_semiconductors",
+            "channel_subtype": "unspecified",
+            "role": "buyer",
+            "product_or_business": "A-series and M-series Apple silicon",
+            "counterparty": "TSMC",
+            "facility_or_route": "TSMC Taiwan fabs; exact fab not publicly confirmed",
+            "commodity_or_input": "3nm/5nm-class custom logic wafers",
+            "stage": "operating",
+            "exposure_value": null,
+            "exposure_unit": null,
+            "exposure_band": "high",
+            "evidence_status": "partial",
+            "source_url": "https://www.apple.com/newsroom/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/",
+            "source_locator": "Apple iPhone 15 Pro announcement; TSMC technology disclosures",
+            "valid_from": "2023-07-01",
+            "valid_to": null,
+            "known_at_utc": "2023-09-12",
+            "confidence": null,
+            "notes": "Apple publicly announced A17 Pro as its first 3nm chip; public industry evidence links Apple advanced SoCs to TSMC.",
+            "match_reasons": [
+              "country_match",
+              "channel_match",
+              "eligible_evidence",
+              "point_in_time_valid",
+              "semantic_compatibility"
+            ]
+          }
+        ],
+        "direct_mention": false,
+        "relevance_components": {
+          "direct_mention": 0.0,
+          "edge_match": 1.0,
+          "country_match": 1.0,
+          "channel_match": 1.0,
+          "evidence_quality": 0.5,
+          "event_severity": null
+        },
+        "model_status": "heuristic_v1",
+        "prediction_time": "2026-09-18T06:45:00+00:00"
+      }
+    ]
+  },
+  "events": [
+    {
+      "article_id": "stress_001",
+      "event_type": "product_technology",
+      "event_subtype": "capacity_expansion",
+      "primary_country": "United States",
+      "candidate_channels": [
+        "technology_demand",
+        "cloud_services",
+        "datacenter_infrastructure"
+      ],
+      "relevance": [
+        {
+          "ticker": "MSFT",
+          "matched": true,
+          "score": 0.95,
+          "edge_ids": [
+            "11"
+          ]
+        }
+      ]
+    },
+    {
+      "article_id": "stress_002",
+      "event_type": "natural_disaster",
+      "event_subtype": "earthquake",
+      "primary_country": "Japan",
+      "candidate_channels": [],
+      "relevance": []
+    },
+    {
+      "article_id": "stress_003",
+      "event_type": "supply_chain",
+      "event_subtype": "port_disruption",
+      "primary_country": "Taiwan",
+      "candidate_channels": [
+        "logistics"
+      ],
+      "relevance": []
+    },
+    {
+      "article_id": "stress_004",
+      "event_type": "product_technology",
+      "event_subtype": "product_launch",
+      "primary_country": null,
+      "candidate_channels": [
+        "technology_demand"
+      ],
+      "relevance": [
+        {
+          "ticker": "GOOGL",
+          "matched": false,
+          "score": 0.15,
+          "edge_ids": []
+        }
+      ]
+    },
+    {
+      "article_id": "stress_005",
+      "event_type": "supply_chain",
+      "event_subtype": "production_interruption",
+      "primary_country": "Taiwan",
+      "candidate_channels": [
+        "manufacturing",
+        "supply_chain",
+        "advanced_semiconductors"
+      ],
+      "relevance": [
+        {
+          "ticker": "AAPL",
+          "matched": true,
+          "score": 0.4,
+          "edge_ids": [
+            "6"
+          ]
+        },
+        {
+          "ticker": "NVDA",
+          "matched": true,
+          "score": 0.8,
+          "edge_ids": [
+            "1",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "article_id": "stress_006",
+      "event_type": "supply_chain",
+      "event_subtype": "distribution_center_opening",
+      "primary_country": "United States",
+      "candidate_channels": [
+        "logistics",
+        "ecommerce_demand"
+      ],
+      "relevance": [
+        {
+          "ticker": "AMZN",
+          "matched": false,
+          "score": 0.15,
+          "edge_ids": []
+        }
+      ]
+    },
+    {
+      "article_id": "stress_007",
+      "event_type": "government_policy",
+      "event_subtype": "regulation",
+      "primary_country": "China",
+      "candidate_channels": [
+        "regulatory_general",
+        "digital_advertising"
+      ],
+      "relevance": []
+    }
+  ],
+  "rejected": [
+    {
+      "article_id": "stress_008",
+      "is_event": false,
+      "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+      "gate_confidence": 0.7
+    }
+  ]
+}

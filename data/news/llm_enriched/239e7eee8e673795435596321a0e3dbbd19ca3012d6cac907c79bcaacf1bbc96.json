@@ -1,0 +1,127 @@
+{
+  "status": "available",
+  "schema_version": "news_semantic_v3_1",
+  "prompt_version": "news_semantics_v3_1_sentence_grounding",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "content_hash": "239e7eee8e673795435596321a0e3dbbd19ca3012d6cac907c79bcaacf1bbc96",
+  "article_content_hash": "9dfc8c46c9107c231c1d64f0903a633b95d2989b7c2d784e3cd605aecfb945e3",
+  "generated_at": "2026-09-25T13:34:43.381462+00:00",
+  "semantic": {
+    "article_class": "macro_event",
+    "is_relevant_candidate": true,
+    "summary_short": "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Monday.",
+    "summary_full": "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Monday. The one-year and five-year LPRs were at 3.00% and 3.50%, respectively.",
+    "primary_country": "China",
+    "event_type": "Monetary Policy",
+    "event_subtype": "Interest Rate Decision",
+    "countries": [
+      "China"
+    ],
+    "entities": [
+      "People’s Bank of China",
+      "PBOC"
+    ],
+    "companies_mentioned": [
+      "Tencent",
+      "Ant Group"
+    ],
+    "direct_ticker_candidates": [],
+    "economic_channels": [
+      "Monetary Policy",
+      "Interest Rates"
+    ],
+    "candidate_indirect_tickers": [
+      "FXI",
+      "ASHR"
+    ],
+    "missing_information": [],
+    "research_questions": [
+      "Will future PBOC meetings lead to changes in the Loan Prime Rates?"
+    ],
+    "severity_candidate": "Low",
+    "severity_reason": "The central bank left interest rates unchanged as expected, representing a continuation of existing monetary policy rather than a disruptive shock.",
+    "severity_confidence": 0.9,
+    "operational_event": false,
+    "fundamental_change_detected": false,
+    "llm_confidence": 0.95,
+    "citations": [
+      {
+        "field": "summary_short",
+        "quote": "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Monday.",
+        "source_field": "summary"
+      },
+      {
+        "field": "summary_full",
+        "quote": "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Monday.",
+        "source_field": "summary"
+      },
+      {
+        "field": "summary_full",
+        "quote": "The one-year and five-year LPRs were at 3.00% and 3.50%, respectively.",
+        "source_field": "summary"
+      },
+      {
+        "field": "primary_country",
+        "quote": "China",
+        "source_field": "summary"
+      },
+      {
+        "field": "event_type",
+        "quote": "monetary policy",
+        "source_field": "body"
+      },
+      {
+        "field": "event_subtype",
+        "quote": "interest rate decision",
+        "source_field": "body"
+      },
+      {
+        "field": "article_class",
+        "quote": "Confirmed: PBOC leaves Loan Prime Rates unchanged in September",
+        "source_field": "headline"
+      },
+      {
+        "field": "economic_channels",
+        "quote": "Loan Prime Rate (LPR)",
+        "source_field": "body"
+      },
+      {
+        "field": "severity_candidate",
+        "quote": "unchanged",
+        "source_field": "headline"
+      },
+      {
+        "field": "operational_event",
+        "quote": "announced to leave its Loan Prime Rates (LPRs) unchanged on Monday.",
+        "source_field": "summary"
+      },
+      {
+        "field": "fundamental_change_detected",
+        "quote": "announced to leave its Loan Prime Rates (LPRs) unchanged on Monday.",
+        "source_field": "summary"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "total_tokens": 1678,
+    "estimated_cost_usd": null,
+    "scope": "successful response only; failed-attempt usage unavailable"
+  },
+  "cache_hit": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "success"
+    }
+  ],
+  "attempt_audit_scope": "original enrichment generation; cache reuse makes no new requests",
+  "attempt_count": 1,
+  "retry_count": 0,
+  "fallback_used": false
+}

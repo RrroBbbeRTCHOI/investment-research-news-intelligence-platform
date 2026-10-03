@@ -1,0 +1,61 @@
+============================================================================================
+MATERIAL MARKET REACTION MODEL — B2b RARE-SUBTYPE DIAGNOSTIC
+============================================================================================
+Primary target: |3D stock return minus 3D QQQ return| > 2%
+B2b diagnostic: market context + event_type + fold-local grouped subtype
+ML-eligible rows: 63
+Positive: 37
+Negative: 26
+Validation: chronological expanding window; grouped dates/events;
+training labels must mature strictly before prediction t0.
+
+OUT-OF-SAMPLE METRICS (2%)
+Metric                            B0          B1         B2a         B2b          B2
+n_predictions                     53          53          53          53          53
+accuracy                      0.5660      0.6226      0.5849      0.6038      0.5849
+balanced_accuracy             0.5000      0.6109      0.5674      0.5841      0.5572
+log_loss                      0.7092      0.6854      0.6823      0.6795      0.7027
+brier_score                   0.2567      0.2467      0.2439      0.2421      0.2517
+roc_auc                       0.4819      0.5725      0.6043      0.6101      0.5812
+
+THRESHOLD SENSITIVITY
+2%: total=63, positive=37, negative=26
+  B0: OOS=53, log loss=0.7092, Brier=0.2567, AUC=0.4819
+  B1: OOS=53, log loss=0.6854, Brier=0.2467, AUC=0.5725
+  B2a: OOS=53, log loss=0.6823, Brier=0.2439, AUC=0.6043
+  B2b: OOS=53, log loss=0.6795, Brier=0.2421, AUC=0.6101
+  B2: OOS=53, log loss=0.7027, Brier=0.2517, AUC=0.5812
+B1 vs B0: lower loss on both measures; delta log loss=-0.0239, delta Brier=-0.0100. B2a vs B1: lower loss on both measures; delta log loss=-0.0031, delta Brier=-0.0028. B2b vs B1: lower loss on both measures; delta log loss=-0.0059, delta Brier=-0.0046. B2 vs B2b: higher loss on both measures; delta log loss=+0.0232, delta Brier=+0.0096. B2 vs B1: higher loss on both measures; delta log loss=+0.0174, delta Brier=+0.0050. Small-sample diagnostic only; not proof of predictive signal.
+3%: total=63, positive=21, negative=42
+  B0: OOS=53, log loss=0.6514, Brier=0.2294, AUC=0.4140
+  B1: OOS=53, log loss=0.5418, Brier=0.1795, AUC=0.6965
+  B2a: OOS=53, log loss=0.5502, Brier=0.1825, AUC=0.6860
+  B2b: OOS=53, log loss=0.5241, Brier=0.1747, AUC=0.7246
+  B2: OOS=53, log loss=0.5421, Brier=0.1798, AUC=0.7105
+B1 vs B0: lower loss on both measures; delta log loss=-0.1096, delta Brier=-0.0499. B2a vs B1: higher loss on both measures; delta log loss=+0.0085, delta Brier=+0.0030. B2b vs B1: lower loss on both measures; delta log loss=-0.0176, delta Brier=-0.0048. B2 vs B2b: higher loss on both measures; delta log loss=+0.0179, delta Brier=+0.0051. B2 vs B1: higher loss on both measures; delta log loss=+0.0003, delta Brier=+0.0003. Small-sample diagnostic only; not proof of predictive signal.
+4%: total=63, positive=13, negative=50
+  B0: OOS=53, log loss=0.5073, Brier=0.1615, AUC=0.3233
+  B1: OOS=53, log loss=0.4630, Brier=0.1410, AUC=0.7558
+  B2a: OOS=53, log loss=0.4743, Brier=0.1443, AUC=0.7488
+  B2b: OOS=53, log loss=0.4735, Brier=0.1465, AUC=0.7442
+  B2: OOS=53, log loss=0.4873, Brier=0.1509, AUC=0.7186
+B1 vs B0: lower loss on both measures; delta log loss=-0.0443, delta Brier=-0.0205. B2a vs B1: higher loss on both measures; delta log loss=+0.0113, delta Brier=+0.0034. B2b vs B1: higher loss on both measures; delta log loss=+0.0105, delta Brier=+0.0055. B2 vs B2b: higher loss on both measures; delta log loss=+0.0138, delta Brier=+0.0044. B2 vs B1: higher loss on both measures; delta log loss=+0.0243, delta Brier=+0.0099. Small-sample diagnostic only; not proof of predictive signal.
+
+DIAGNOSTIC INTERPRETATION
+B1 vs B0: lower loss on both measures; delta log loss=-0.0239, delta Brier=-0.0100. B2a vs B1: lower loss on both measures; delta log loss=-0.0031, delta Brier=-0.0028. B2b vs B1: lower loss on both measures; delta log loss=-0.0059, delta Brier=-0.0046. B2 vs B2b: higher loss on both measures; delta log loss=+0.0232, delta Brier=+0.0096. B2 vs B1: higher loss on both measures; delta log loss=+0.0174, delta Brier=+0.0050. Small-sample diagnostic only; not proof of predictive signal.
+
+Model definitions:
+B0  = training-fold base rate only
+B1  = six pre-event numeric market-context features
+B2a = B1 + event_type only
+B2b = B1 + event_type + event_subtype grouped within each training fold
+B2  = B1 + raw event_type + raw event_subtype + relationship_type
+
+B2b grouping rule:
+A subtype is kept only when it appears at least 3 times in that training fold.
+Otherwise it becomes OTHER_RARE. The mapping is learned on train only and
+then applied to that fold's test rows to avoid future-information leakage.
+
+Experimental portfolio prototype; small, selected historical sample.
+Not a production forecast, causal impact, direction, rating or recommendation.
+============================================================================================

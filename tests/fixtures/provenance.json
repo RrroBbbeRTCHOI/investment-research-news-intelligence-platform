@@ -1,0 +1,69 @@
+{
+  "schema": 1,
+  "as_of": "2025-12-31",
+  "yahoo_and_sec": "Deterministic synthetic inputs, NOT real company observations or live captures.",
+  "fmp": "Raw data copied from user ZIP caches; authenticity/freshness not independently verified. Never blended into Yahoo inputs.",
+  "fmp_source_files": [
+    {
+      "file": "data/cache/historical_financials/AAPL_balance_sheet_statement_5y.json",
+      "sha256": "e085d8d8930e33dfa337491a2a4dcef03429cf9e5e260ca400329cc011f53ed7"
+    },
+    {
+      "file": "data/cache/historical_financials/AAPL_cash_flow_statement_5y.json",
+      "sha256": "6d065a1a13659d256b356a30818715d4579b5b62ecb25a1212138b9810068578"
+    },
+    {
+      "file": "data/cache/historical_financials/AAPL_income_statement_5y.json",
+      "sha256": "98bdf62d6c4d8ff78741436fb303489f3d984e1d170d7f5270643a1dfb3d3dc8"
+    },
+    {
+      "file": "data/cache/historical_financials/AMZN_cash_flow_statement_5y.json",
+      "sha256": "6c45737a0de7289dcb3cb38f28b36b81ccb65239e09f697c2868034da1499348"
+    },
+    {
+      "file": "data/cache/historical_financials/AMZN_income_statement_5y.json",
+      "sha256": "40664a60f2d2a37654b6e4c6fe78a071f295c76bb2f7e03e3d2476d3b6ef9088"
+    },
+    {
+      "file": "data/cache/historical_financials/GOOGL_cash_flow_statement_5y.json",
+      "sha256": "fd6d59537070dfb59729b1545741b79ff058357a3f72220ae3e8662aa5bc80f7"
+    },
+    {
+      "file": "data/cache/historical_financials/GOOGL_income_statement_5y.json",
+      "sha256": "c917cba7a319e6594e849aa07dccc19be90a302191d685bb73cc5bfe5109b76b"
+    },
+    {
+      "file": "data/cache/historical_financials/META_cash_flow_statement_5y.json",
+      "sha256": "9871a28cf7ccf96cdb28b745398e3a6a57347e44b7c73f598b150d38511277ba"
+    },
+    {
+      "file": "data/cache/historical_financials/META_income_statement_5y.json",
+      "sha256": "a5027454f18b3ff909f4c104a39c938dea6c5ba98a22c937807e0e96e383f257"
+    },
+    {
+      "file": "data/cache/historical_financials/MSFT_cash_flow_statement_5y.json",
+      "sha256": "61b5917785ffa881a134737f945a1c04e521ed3fad8b5a5cf96a0b5bb325cc59"
+    },
+    {
+      "file": "data/cache/historical_financials/MSFT_income_statement_5y.json",
+      "sha256": "cacd6f6ad448c24bc737253e90c56d21a81c02584bf17c7d62e4a0975d6e3652"
+    },
+    {
+      "file": "data/cache/historical_financials/NVDA_cash_flow_statement_5y.json",
+      "sha256": "2f9a278ff3766d597b6fd6161fd2558d086055d03036b9d78781277e047263a9"
+    },
+    {
+      "file": "data/cache/historical_financials/NVDA_income_statement_5y.json",
+      "sha256": "1f54b3617600e92ccf9f63b53f35308d4fa572cceb5bb87595c23027ec633359"
+    },
+    {
+      "file": "data/cache/historical_financials/TSLA_cash_flow_statement_5y.json",
+      "sha256": "4a3dfd061023d7039d20770a02bb77d153a20b644ab0104456f999d734fb7fcd"
+    },
+    {
+      "file": "data/cache/historical_financials/TSLA_income_statement_5y.json",
+      "sha256": "b62666eec617c376e2ea81ab8e4185f00328e649ac0abd5f9cbe2d29c5f80c11"
+    }
+  ],
+  "scope": "Behavior characterization only; not validation of financial methodology or live integrations."
+}

@@ -1,0 +1,135 @@
+{
+  "status": "available",
+  "schema_version": "news_semantic_v3_1",
+  "prompt_version": "news_semantics_v3_1_sentence_grounding",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "content_hash": "a2d2ebeb059a5b12ae1128a2662befaaccfc4240525fecf03d36087566a6ee5d",
+  "article_content_hash": "653637cd88685d984ee1d2c2419b6a0bf2646e7a9c0740fef2b3a01d862e06d6",
+  "generated_at": "2026-09-25T14:47:21.335298+00:00",
+  "semantic": {
+    "article_class": "supply_chain_event",
+    "is_relevant_candidate": true,
+    "summary_short": "Microsoft Maia 300 targets 300,000 TSMC units for 2027 delivery, but Nvidia’s 60 percent grip on CoWoS advanced packaging - the mandatory final assembly step every AI accelerator requires - means Microsoft must negotiate within a fully booked queue with 52-to-78-week lead times and compete against",
+    "summary_full": "Microsoft Maia 300 targets 300,000 TSMC units for 2027 delivery, but Nvidia’s 60 percent grip on CoWoS advanced packaging - the mandatory final assembly step every AI accelerator requires - means Microsoft must negotiate within a fully booked queue with 52-to-78-week lead times and compete against",
+    "primary_country": "Taiwan",
+    "event_type": "supply_chain_constraint",
+    "event_subtype": "packaging_allocation",
+    "countries": [
+      "Taiwan",
+      "United States"
+    ],
+    "entities": [
+      "Microsoft Maia 300",
+      "CoWoS"
+    ],
+    "companies_mentioned": [
+      "Microsoft",
+      "TSMC",
+      "Nvidia"
+    ],
+    "direct_ticker_candidates": [
+      "MSFT",
+      "TSM",
+      "NVDA"
+    ],
+    "economic_channels": [
+      "semiconductor_supply_chain",
+      "advanced_packaging_capacity",
+      "ai_hardware_production"
+    ],
+    "candidate_indirect_tickers": [],
+    "missing_information": [
+      "financial terms of the production negotiation",
+      "exact competitors in the queue"
+    ],
+    "research_questions": [
+      "Will TSMC expand CoWoS packaging capacity further for 2027 deliveries?",
+      "How will Microsoft secure packaging allocation against Nvidia's dominant share?"
+    ],
+    "severity_candidate": "Medium",
+    "severity_reason": "Microsoft faces capacity constraints and tight lead times for its Maia 300 AI accelerator due to dominant packaging allocation by Nvidia at TSMC.",
+    "severity_confidence": 0.85,
+    "operational_event": true,
+    "fundamental_change_detected": false,
+    "llm_confidence": 0.9,
+    "citations": [
+      {
+        "field": "summary_short",
+        "quote": "Microsoft Maia 300 targets 300,000 TSMC units for 2027 delivery, but Nvidia’s 60 percent grip on CoWoS advanced packaging - the mandatory final assembly step every AI accelerator requires - means Microsoft must negotiate within a fully booked queue with 52-to-78-week lead times and compete against",
+        "source_field": "summary"
+      },
+      {
+        "field": "summary_full",
+        "quote": "Microsoft Maia 300 targets 300,000 TSMC units for 2027 delivery, but Nvidia’s 60 percent grip on CoWoS advanced packaging - the mandatory final assembly step every AI accelerator requires - means Microsoft must negotiate within a fully booked queue with 52-to-78-week lead times and compete against",
+        "source_field": "summary"
+      },
+      {
+        "field": "primary_country",
+        "quote": "Taiwan",
+        "source_field": "body"
+      },
+      {
+        "field": "event_type",
+        "quote": "single global supply constraint",
+        "source_field": "body"
+      },
+      {
+        "field": "event_subtype",
+        "quote": "CoWSO allocation",
+        "source_field": "body"
+      },
+      {
+        "field": "article_class",
+        "quote": "supply constraint on the AI accelerator market",
+        "source_field": "body"
+      },
+      {
+        "field": "economic_channels",
+        "quote": "advanced packaging",
+        "source_field": "summary"
+      },
+      {
+        "field": "severity_candidate",
+        "quote": "fully booked queue with 52-to-78-week lead times",
+        "source_field": "summary"
+      },
+      {
+        "field": "operational_event",
+        "quote": "negotiating with Taiwan Semiconductor Manufacturing Co. (TSMC) to secure production capacity",
+        "source_field": "body"
+      },
+      {
+        "field": "fundamental_change_detected",
+        "quote": "negotiating with Taiwan Semiconductor Manufacturing Co. (TSMC) to secure production capacity for over 300,000 units of its next-generation Maia 300 AI accelerator",
+        "source_field": "body"
+      },
+      {
+        "field": "direct_ticker_candidates",
+        "quote": "Microsoft",
+        "source_field": "body"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "total_tokens": 1691,
+    "estimated_cost_usd": null,
+    "scope": "successful response only; failed-attempt usage unavailable"
+  },
+  "cache_hit": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "success"
+    }
+  ],
+  "attempt_audit_scope": "original enrichment generation; cache reuse makes no new requests",
+  "attempt_count": 1,
+  "retry_count": 0,
+  "fallback_used": false
+}

@@ -1,0 +1,604 @@
+{
+  "articles": [
+    {
+      "article_id": "historical_H13",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H13",
+      "headline": "Apple hit with $2 billion EU antitrust fine in Spotify case, will appeal",
+      "summary": "EU antitrust regulators fined Apple 1.84 billion euros over App Store restrictions affecting music-streaming rivals and ordered Apple to stop the conduct.",
+      "body": "The European Commission fined Apple 1.84 billion euros for restricting music-streaming app developers from informing iPhone and iPad users about alternative and cheaper subscription options outside Apple's App Store. Apple said it would appeal. This snapshot includes only facts available at the time of the decision and excludes later appeal outcomes or later regulatory actions.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/apple-hit-with-over-18-bln-euro-eu-antitrust-fine-spotify-case-2024-03-04/",
+      "thumbnail": null,
+      "authors": [],
+      "topics": [
+        "antitrust",
+        "App Store",
+        "music streaming",
+        "regulation"
+      ],
+      "countries": [
+        "European Union"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2024-03-04T18:30:09Z",
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "time_precision": "exact",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H14",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H14",
+      "headline": "Apple accused of monopolizing smartphone markets in US antitrust lawsuit",
+      "summary": "The U.S. Justice Department and states sued Apple, alleging monopolization of the smartphone market through restrictions affecting apps, messaging, wallets and competing devices.",
+      "body": "The U.S. Department of Justice and multiple states filed an antitrust lawsuit against Apple alleging that practices involving app distribution, messaging, cloud gaming, smartwatches and digital wallets unlawfully maintained smartphone monopoly power. Apple denied the allegations. This snapshot excludes later court rulings and later remedies.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/legal/us-takes-apple-antitrust-lawsuit-2024-03-21/",
+      "thumbnail": null,
+      "authors": [],
+      "topics": [
+        "antitrust",
+        "smartphones",
+        "App Store",
+        "regulation"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2024-03-21T22:07:47Z",
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "time_precision": "exact",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H15",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H15",
+      "headline": "China's widening iPhone curbs roil US technology sector",
+      "summary": "Reports said Chinese government bodies had widened restrictions on iPhone use by some state employees, raising concerns over Apple's access to an important market.",
+      "body": "Reuters reported that China had widened curbs on iPhone use by some state employees, with staff in at least three ministries and government bodies told not to use iPhones at work. Apple and China's State Council Information Office had not responded to requests for comment at the time. This snapshot does not treat later reports as known at this date.",
+      "source": "Reuters",
+      "article_url": "https://www.investing.com/news/stock-market-news/apple-tumbles-drags-wall-street-lower-as-fears-grow-over-china-iphone-curbs-3169831",
+      "thumbnail": null,
+      "authors": [],
+      "topics": [
+        "China",
+        "iPhone",
+        "government restrictions",
+        "market access"
+      ],
+      "countries": [
+        "China"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2023-09-07",
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "time_precision": "date_only",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H16",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H16",
+      "headline": "Microsoft hit with EU antitrust charge over Teams app",
+      "summary": "The European Commission accused Microsoft of breaching antitrust rules by linking Teams with Office and said prior unbundling steps were insufficient.",
+      "body": "The European Commission charged Microsoft with antitrust violations related to bundling Teams with Office, saying the practice gave Teams a distribution advantage and hindered rival collaboration tools. Microsoft said it would work with regulators on solutions. This snapshot excludes later settlement or penalty outcomes.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/eu-charges-microsoft-with-abusive-bundling-teams-with-office-2024-06-25/",
+      "thumbnail": null,
+      "authors": [],
+      "topics": [
+        "antitrust",
+        "Microsoft Teams",
+        "Office",
+        "European Union"
+      ],
+      "countries": [
+        "European Union"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2024-06-25",
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "time_precision": "date_only",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H17",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H17",
+      "headline": "Global IT outage disrupts Microsoft-backed services and major industries",
+      "summary": "A global IT disruption affected Microsoft-related services and Windows systems, while Microsoft separately reported issues affecting some Azure-backed workloads.",
+      "body": "A widespread IT outage disrupted airlines, banks and media companies around the world. Microsoft said some users could not access Office 365 apps and services due to a configuration change in a portion of Azure-backed workloads. CrowdStrike separately said a defect in a Windows content update affected customers. This snapshot keeps the Microsoft and CrowdStrike causes distinct and excludes later recovery analysis.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/business/aerospace-defense/air-travel-hit-by-global-cyber-outage-2024-07-19/",
+      "thumbnail": null,
+      "authors": [],
+      "topics": [
+        "IT outage",
+        "Azure",
+        "Windows",
+        "cloud infrastructure"
+      ],
+      "countries": [],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2024-07-19T11:11:27Z",
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "time_precision": "exact",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H18",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H18",
+      "headline": "US judge rules Google violated antitrust law in online search",
+      "summary": "A U.S. federal judge ruled that Google illegally maintained monopoly power in general search through exclusive default-search agreements.",
+      "body": "A U.S. district judge ruled that Google violated antitrust law by maintaining monopoly power in general search through exclusive agreements with device makers, browser developers and carriers that made Google the default search engine. The remedies phase had not yet been completed. This snapshot excludes later remedy proposals and appeals.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/legal/us-judge-describes-how-google-built-defended-illegal-search-monopoly-2024-08-05/",
+      "thumbnail": null,
+      "authors": [],
+      "topics": [
+        "antitrust",
+        "Google Search",
+        "default search",
+        "regulation"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2024-08-05T22:50:11Z",
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "time_precision": "exact",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H19",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H19",
+      "headline": "US prosecutors say Google must sell Chrome to restore search competition",
+      "summary": "U.S. prosecutors proposed that Google divest Chrome and adopt other measures after a court found an illegal search monopoly.",
+      "body": "U.S. Justice Department prosecutors asked a federal judge to require Google to sell its Chrome browser, share data and search results with rivals, and adopt other measures intended to restore competition in online search. The proposal followed the earlier monopoly ruling and had not yet been ordered by the court. This snapshot excludes later judicial decisions.",
+      "source": "Reuters",
+      "article_url": "https://www.investing.com/news/stock-market-news/google-prosecutors-to-propose-cure-for-search-monopoly-3732153",
+      "thumbnail": null,
+      "authors": [],
+      "topics": [
+        "antitrust",
+        "Chrome",
+        "Google Search",
+        "remedies"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2024-11-20",
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "time_precision": "date_only",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H20",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H20",
+      "headline": "FTC and states sue Amazon alleging illegal maintenance of monopoly power",
+      "summary": "The U.S. Federal Trade Commission and state attorneys general sued Amazon, alleging anticompetitive conduct in online superstores and marketplace services.",
+      "body": "The Federal Trade Commission and 17 state attorneys general filed an antitrust complaint against Amazon alleging that anti-discounting practices, fulfillment conditions and other conduct unlawfully maintained monopoly power in online retail and marketplace services. Amazon disputed the allegations. This snapshot excludes later court rulings.",
+      "source": "Federal Trade Commission",
+      "article_url": "https://www.ftc.gov/news-events/news/press-releases/2023/09/ftc-sues-amazon-illegally-maintaining-monopoly-power",
+      "thumbnail": null,
+      "authors": [],
+      "topics": [
+        "antitrust",
+        "e-commerce",
+        "marketplace",
+        "FTC"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2023-09-26",
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "time_precision": "date_only",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H21",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H21",
+      "headline": "Amazon and iRobot agree to terminate pending acquisition",
+      "summary": "Amazon and iRobot terminated their planned acquisition after concluding there was no path to regulatory approval in the European Union.",
+      "body": "Amazon and iRobot mutually terminated their acquisition agreement, saying the proposed transaction had no path to regulatory approval in the European Union. The companies had originally announced the transaction in 2022. This snapshot includes the termination decision and contemporaneous stated regulatory reason only.",
+      "source": "Amazon",
+      "article_url": "https://press.aboutamazon.com/2024/1/amazon-and-irobot-agree-to-terminate-pending-acquisition",
+      "thumbnail": null,
+      "authors": [],
+      "topics": [
+        "M&A",
+        "iRobot",
+        "antitrust",
+        "European Union"
+      ],
+      "countries": [
+        "European Union",
+        "United States"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2024-01-29",
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "time_precision": "date_only",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H22",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H22",
+      "headline": "Meta hit with record 1.2 billion euro EU privacy fine over data transfers",
+      "summary": "Meta was fined 1.2 billion euros by its lead EU privacy regulator and ordered to address transfers of Facebook user data to the United States.",
+      "body": "Ireland's Data Protection Commission imposed a record 1.2 billion euro fine on Meta concerning Facebook user-data transfers to the United States and gave the company a deadline to suspend future transfers under the challenged mechanism. Meta said it would appeal. This snapshot excludes later legal and regulatory outcomes.",
+      "source": "Reuters",
+      "article_url": "https://www.investing.com/news/stock-market-news/facebook-given-record-13-billion-fine-given-5-months-to-stop-euus-data-flows-3087549",
+      "thumbnail": null,
+      "authors": [],
+      "topics": [
+        "privacy",
+        "data transfers",
+        "European Union",
+        "Facebook"
+      ],
+      "countries": [
+        "European Union",
+        "United States"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2023-05-22",
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "time_precision": "date_only",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H23",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H23",
+      "headline": "Meta submits changes to UK privacy compliance proposals for Facebook Marketplace",
+      "summary": "Meta offered changes limiting use of certain advertiser data in Facebook Marketplace as part of commitments reviewed by the UK competition regulator.",
+      "body": "Meta offered amendments to commitments with the UK's Competition and Markets Authority that would limit use of certain advertising data in Facebook Marketplace and allow some competitors to opt out of having their advertising data used to improve Marketplace. The regulator provisionally accepted the changes and opened consultation. This snapshot excludes the later final outcome.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/meta-submits-changes-uk-privacy-compliance-proposals-cma-says-2024-05-24/",
+      "thumbnail": null,
+      "authors": [],
+      "topics": [
+        "competition",
+        "Facebook Marketplace",
+        "advertising data",
+        "United Kingdom"
+      ],
+      "countries": [
+        "United Kingdom"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2024-05-24T21:37:34Z",
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "time_precision": "exact",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H24",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H24",
+      "headline": "EU fines Meta 797 million euros over practices benefiting Facebook Marketplace",
+      "summary": "The European Commission fined Meta for tying Facebook Marketplace to Facebook and imposing unfair trading conditions on rival classified-ad services.",
+      "body": "The European Commission fined Meta 797.72 million euros for breaching EU antitrust rules through practices involving Facebook Marketplace, including tying Marketplace to Facebook and imposing unfair conditions on rival classified-ad providers. Meta said it would appeal. This snapshot excludes later appeal results.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/eu-fines-meta-797-million-over-abusive-practices-benefiting-facebook-marketplace-2024-11-14/",
+      "thumbnail": null,
+      "authors": [],
+      "topics": [
+        "antitrust",
+        "Facebook Marketplace",
+        "European Union",
+        "fine"
+      ],
+      "countries": [
+        "European Union"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2024-11-14",
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "time_precision": "date_only",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H25",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H25",
+      "headline": "Nvidia preparing version of new flagship AI chip for Chinese market, sources say",
+      "summary": "Nvidia was developing a Blackwell-series AI chip variant for China designed to comply with existing U.S. export controls.",
+      "body": "Sources told Reuters that Nvidia was developing a version of its Blackwell-series AI chips for the Chinese market that would comply with then-current U.S. export controls. The planned product was expected to be distributed with a Chinese partner. Nvidia declined to comment. This snapshot excludes later product launches, sales results and later export-rule changes.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/nvidia-preparing-version-new-flaghip-ai-chip-chinese-market-sources-say-2024-07-22/",
+      "thumbnail": null,
+      "authors": [],
+      "topics": [
+        "Nvidia",
+        "Blackwell",
+        "China",
+        "export controls"
+      ],
+      "countries": [
+        "China",
+        "United States"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2024-07-22T11:04:46Z",
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "time_precision": "exact",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H26",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H26",
+      "headline": "Nvidia supply constraints and Blackwell production issues limit deliveries",
+      "summary": "Nvidia faced Blackwell production constraints involving advanced packaging and a design-related mask change while demand for AI chips remained strong.",
+      "body": "Nvidia's Blackwell production ramp faced supply constraints. Reuters reported that complex advanced packaging remained a bottleneck and that a design flaw had required a mask change that lowered yields before being fixed. Nvidia said it was ramping production and demand remained strong. This snapshot excludes later production volumes and subsequent financial results.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/nvidias-supply-snags-hurting-deliveries-mask-booming-demand-2024-11-21/",
+      "thumbnail": null,
+      "authors": [],
+      "topics": [
+        "Nvidia",
+        "Blackwell",
+        "advanced packaging",
+        "production constraint"
+      ],
+      "countries": [
+        "Taiwan",
+        "United States"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2024-11-21",
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "time_precision": "date_only",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H27",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H27",
+      "headline": "Tesla recalls over 2 million US vehicles over Autopilot safeguards",
+      "summary": "Tesla initiated a recall covering more than two million U.S. vehicles to add Autopilot safeguards after a federal safety review.",
+      "body": "Tesla recalled more than two million vehicles in the United States equipped with Autopilot to install additional safeguards after the U.S. auto safety regulator raised concerns about whether controls were sufficient to prevent misuse. The remedy involved a software update. This snapshot excludes later recall effectiveness findings and later regulatory actions.",
+      "source": "Reuters",
+      "article_url": "https://www.investing.com/news/stock-market-news/tesla-to-update-software-for-autopilot-control-issue-in-2-million-vehicles--nhtsa-3255487",
+      "thumbnail": null,
+      "authors": [],
+      "topics": [
+        "Tesla",
+        "Autopilot",
+        "recall",
+        "vehicle safety"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2023-12-13",
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "time_precision": "date_only",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H28",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H28",
+      "headline": "Tesla Berlin to suspend most production as Red Sea shipping crisis disrupts components",
+      "summary": "Tesla said it would suspend most vehicle production at its Berlin factory for about two weeks because Red Sea shipping disruptions caused component shortages.",
+      "body": "Tesla said it would suspend most production at its Berlin-area factory from late January into February because longer shipping routes caused by attacks on vessels in the Red Sea created component shortages. The announcement represented a direct logistics-related manufacturing interruption. This snapshot excludes later restart information and later financial effects.",
+      "source": "Reuters",
+      "article_url": "https://www.investing.com/news/stock-market-news/exclusivetesla-berlin-to-suspend-most-production-for-two-weeks-over-red-sea-supply-gap-3272812",
+      "thumbnail": null,
+      "authors": [],
+      "topics": [
+        "Tesla",
+        "Berlin",
+        "Red Sea",
+        "production suspension",
+        "logistics"
+      ],
+      "countries": [
+        "Germany"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2024-01-11",
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "time_precision": "date_only",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H29",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H29",
+      "headline": "Tesla global job cuts include major markets US and China",
+      "summary": "Tesla began global layoffs exceeding 10% of its workforce, affecting sales, technical and engineering staff in major markets.",
+      "body": "Tesla implemented global workforce reductions after CEO Elon Musk told staff that the company would cut more than 10% of employees. Reuters reported layoffs affecting U.S. and China operations across sales, technical and engineering roles. This snapshot excludes later rounds of layoffs and later financial results.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/business/autos-transportation/teslas-global-job-cuts-include-leading-markets-us-china-2024-04-16/",
+      "thumbnail": null,
+      "authors": [],
+      "topics": [
+        "Tesla",
+        "layoffs",
+        "workforce",
+        "United States",
+        "China"
+      ],
+      "countries": [
+        "United States",
+        "China"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2024-04-16T14:30:12Z",
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "time_precision": "exact",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "historical_H30",
+      "provider": "historical_manual_snapshot",
+      "provider_article_id": "H30",
+      "headline": "Microsoft's deal with Mistral AI faces EU scrutiny",
+      "summary": "The European Commission said it would analyze Microsoft's investment and commercial relationship with Mistral AI amid broader scrutiny of big-tech AI partnerships.",
+      "body": "The European Commission said it would analyze Microsoft's deal with French AI startup Mistral AI as part of scrutiny of major technology companies' AI partnerships. Microsoft had announced a commercial partnership making Mistral models available through Azure and a 15 million euro investment convertible into equity. This snapshot excludes later regulatory conclusions.",
+      "source": "Reuters",
+      "article_url": "https://www.reuters.com/technology/microsofts-deal-with-mistral-ai-faces-eu-scrutiny-2024-02-27/",
+      "thumbnail": null,
+      "authors": [],
+      "topics": [
+        "Microsoft",
+        "Mistral AI",
+        "Azure",
+        "regulatory scrutiny"
+      ],
+      "countries": [
+        "European Union",
+        "France"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2024-02-27T10:28:57Z",
+      "fetched_at": null,
+      "has_full_text": false,
+      "historical_snapshot": true,
+      "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+      "time_precision": "exact",
+      "later_context_excluded": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    }
+  ]
+}

@@ -1,0 +1,2863 @@
+{
+  "_ingestion": {
+    "provider": "perigon",
+    "query_name": "stress_tsmc_taiwan",
+    "query": "\"TSMC\" AND (\"Taiwan\" OR \"semiconductor\")",
+    "fetched_at": "2026-09-25T14:05:33.336676+00:00"
+  },
+  "raw_response": {
+    "status": 200,
+    "numResults": 10000,
+    "articles": [
+      {
+        "url": "https://www.globenewswire.com/news-release/2026/09/25/3369159/0/en/ai-driven-investment-surge-reshapes-the-electronic-chemicals-and-materials-industry.html",
+        "authorsByline": "BCC Research LLC",
+        "articleId": "7a45e9b0aaa34491a3911fa0a723a645",
+        "clusterId": "7cbf49dec3944b6b9bc46de31390b593",
+        "source": {
+          "domain": "globenewswire.com",
+          "location": {
+            "country": "us",
+            "state": "CA",
+            "county": "Orange County",
+            "city": "Lake Forest",
+            "coordinates": {
+              "lat": 33.6204926,
+              "lon": -117.6940304
+            }
+          }
+        },
+        "imageUrl": "https://ml.globenewswire.com/Resource/Download/d0c282b6-d496-45a8-a941-33fa5c3e824c",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-09-25T13:44:10+00:00",
+        "addDate": "2026-09-25T13:50:43.021064+00:00",
+        "refreshDate": "2026-09-25T13:50:43.021066+00:00",
+        "score": 1.0,
+        "title": "AI-Driven Investment Surge Reshapes the Electronic Chemicals and Materials Industry",
+        "description": "“AI is helping semiconductor makers improve yields, detect defects earlier and accelerate the discovery of next-generation materials.”...",
+        "content": "Boston, Sept. 25, 2026 (GLOBE NEWSWIRE) -- The electronic chemicals and materials industry is undergoing a structural realignment driven by artificial intelligence — from hyperscale data center buildo... [7547 symbols]",
+        "enContentWordCount": 1181,
+        "medium": "Article",
+        "links": [
+          "https://www.globenewswire.com/Tracker?data=FPKInB61_4kGBCAFP6OoA9mtviugzfxBeZCHhYLMx_f2Z1O62nbsM6VSBv6Ju-zB4-8rSOfbDOsn5Z6RZZYSy1IoWd2Ew-OyifsPmeoV7MJGIEecXMXGePLdaaS59FDKMr7j7ZGIRwFSG8ZsTup4MZO_Ykag5QyaBNEmqOTqKdkfqoLironiCH83qxWLWweMkavXmaFoVfEEqK-lK_1sDBIMpxmjE5za6zC3Qn48puNm78U78PGaQLw-qs_w7pUooZs8oYibLVHDFA7-VMc564ygVlYltd4tvGxYoqnTms0ZnZcyF-U2FxG6RfO4lqCFgGXn-8v2Rg76rE404rSeZ4DYLc44o9_CFTZ0qYDNNcPVK906Y9dTGf1kXEbV0I_zkK65XeYE6C0Q_77UlENTOTGWbQAycELEgxG36TD_cSA=",
+          "https://www.globenewswire.com/Tracker?data=if2oAanoH1MJoVB6ZRWd3riRMe3wrPbT1H_CoTi97lTjsz49X2J-Muirx4CGNC1cUiWp86T2ZIjPwXbG_CWPNTIds3mlQCva8pml4w-mdiU=",
+          "https://www.globenewswire.com/Tracker?data=kaVTcKxK9cWa7empfGs3tjYBRV91NnzH99WTVWK2NOuFfrGJ6wIFEfAS5vZ_ekwh_skQmuintpO15f62utJkmFjnEnlz5fsf6beCm2fuoEgVZRafXyBgIgdZ-qjj42BE5JIMECa3vGvs5wtxAXX2Gs6lJ3ihlqdatwuEczj0PoIk4Scc7repRa6HMFOnBcpc",
+          "https://www.globenewswire.com/Tracker?data=LMJ_ILs-4R7fA_jhRC5FgXfry6O7nR756w67uvrs7HOYdweMvoU6m24o-TzafuApBvuEF3ZXau14k6P8nxJyTGauNAmdGzZN-Ukx97AoXNXDIzfrhG8HERdScxR0mb4uxTCe2GuXKeJAj-lmLhK-q3f0jJWg_KJspuzV9IbHqVmEOXfXTY-t3paLsNHMQbtY",
+          "https://www.globenewswire.com/Tracker?data=FPKInB61_4kGBCAFP6OoA9mtviugzfxBeZCHhYLMx_f2Z1O62nbsM6VSBv6Ju-zB4-8rSOfbDOsn5Z6RZZYSyxr3lOTrNktJJaYygw2Zp58DBRT40g7Scz5ZdbCQfMic1g9ZrbT1LHeE8I-YQA94DB-le1ZFffKFWalBKCbMvSSSQ4QRuskpva7XWcC1OaQz01hnO5W9hGZ4_QLWHBp3NuojLioJSmECjgyIDH_1AlxYjMPVWP21Wjng5KyJL3bTenxEvddgrTRzWvZBN3FBVFTR98XUc7Fy_zxlmgutkXAEBrm0HWgxEC_AFrAbpC-MyiYFXMAhBoEutJwobq3RZXmff-k6Azm7nb8YEeoBPL5jJPyJL7yABcLp8EM-pxsc"
+        ],
+        "labels": [
+          {
+            "name": "Press Release"
+          }
+        ],
+        "matchedAuthors": [],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "semiconductor materials discovery",
+            "weight": 0.08575279
+          },
+          {
+            "name": "new AI initiatives",
+            "weight": 0.08148065
+          },
+          {
+            "name": "electronic materials",
+            "weight": 0.08092811
+          },
+          {
+            "name": "AI",
+            "weight": 0.080134876
+          },
+          {
+            "name": "automotive AI",
+            "weight": 0.079780445
+          },
+          {
+            "name": "AI infrastructure investment",
+            "weight": 0.079634145
+          },
+          {
+            "name": "advanced packaging materials",
+            "weight": 0.079153575
+          },
+          {
+            "name": "AI Impact",
+            "weight": 0.078847684
+          },
+          {
+            "name": "AI accelerators",
+            "weight": 0.07810406
+          },
+          {
+            "name": "AI adoption",
+            "weight": 0.07783686
+          }
+        ],
+        "topics": [
+          {
+            "name": "AI"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Tech"
+          },
+          {
+            "name": "Business"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Financial Markets News",
+            "score": 0.9714016318321228
+          },
+          {
+            "name": "/News/Business News/Company News",
+            "score": 0.9600626826286316
+          },
+          {
+            "name": "/News/Business News/Other",
+            "score": 0.8975157737731934
+          },
+          {
+            "name": "/News/Technology News",
+            "score": 0.8709269165992737
+          },
+          {
+            "name": "/Science/Computer Science/Machine Learning & Artificial Intelligence",
+            "score": 0.5404084920883179
+          },
+          {
+            "name": "/Business & Industrial/Advertising & Marketing/Marketing",
+            "score": 0.38664764165878296
+          },
+          {
+            "name": "/Finance/Investing/Stocks & Bonds",
+            "score": 0.35488012433052063
+          },
+          {
+            "name": "/Computers & Electronics/Software/Business & Productivity Software",
+            "score": 0.31048527359962463
+          }
+        ],
+        "entities": [
+          {
+            "data": "Boston",
+            "type": "GPE",
+            "mentions": 2
+          },
+          {
+            "data": "U.S.",
+            "type": "GPE",
+            "mentions": 5
+          },
+          {
+            "data": "South Korea",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Japan",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "China",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "MA",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "GLOBE NEWSWIRE",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "BCC Research's",
+            "type": "ORG",
+            "mentions": 4
+          },
+          {
+            "data": "Alphabet",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Amazon",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Meta Platforms",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Microsoft",
+            "type": "ORG",
+            "mentions": 3
+          },
+          {
+            "data": "OpenAI",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Oracle",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "SoftBank",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "MGX",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Texas Instruments",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "TSMC",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Samsung",
+            "type": "ORG",
+            "mentions": 4
+          },
+          {
+            "data": "SK Group",
+            "type": "ORG",
+            "mentions": 4
+          },
+          {
+            "data": "Resonac",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "2026 Vision",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "SEMI",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "SandboxAQ",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Air Liquide",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "the European Commission",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "SK hynix",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "NVIDIA",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Applied Materials",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Lam Research",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "KLA",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Tokyo Electron",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "JSR Corp.",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Merck KGaA",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Entegris",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Shin-Etsu Chemical",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "BASF",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Linde",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Air Products",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "ASML",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Infineon",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Micron Technology",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Intel",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Qualcomm",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Siemens",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Honeywell",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Cadence Design Systems",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Synopsys",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Dow",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Stargate",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Galaxy AI",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Resonac",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Entegris",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "CHIPS Act",
+            "type": "LAW",
+            "mentions": 1
+          },
+          {
+            "data": "German",
+            "type": "NORP",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "d423e456689a423b90a43d0f9b99177e",
+            "name": "Mitsubishi Chemical Group Corporation",
+            "domains": [
+              "mcgc.com"
+            ],
+            "symbols": [
+              "4188.T",
+              "MTLHY",
+              "MTLHF"
+            ]
+          },
+          {
+            "id": "14644fd7eae44bb896c5203326d84d36",
+            "name": "Applied Materials, Inc.",
+            "domains": [
+              "appliedmaterials.com"
+            ],
+            "symbols": [
+              "0R1A.IL",
+              "AP2.DE",
+              "AMAT",
+              "4336.HK"
+            ]
+          },
+          {
+            "id": "344b746df80a4a99b39d7ddd46b31548",
+            "name": "Tokyo Electron Limited",
+            "domains": [
+              "tel.com"
+            ],
+            "symbols": [
+              "8035.T",
+              "TOELY"
+            ]
+          },
+          {
+            "id": "b8270d0a68134f14abb4f48adaba87a4",
+            "name": "Dow Inc.",
+            "domains": [
+              "dow.com"
+            ],
+            "symbols": [
+              "DOW"
+            ]
+          },
+          {
+            "id": "2a221b70add74bdeb7d16ca3efe408b9",
+            "name": "SandboxAQ",
+            "domains": [
+              "sandboxaq.com"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "435e0daa7ea443ba89f0dd39e95dd71d",
+            "name": "Amazon.com, Inc.",
+            "domains": [
+              "amazon.com"
+            ],
+            "symbols": [
+              "AMZ.DE",
+              "AMZN"
+            ]
+          },
+          {
+            "id": "d01e3dd1551846ee87f434e3c004b359",
+            "name": "Siemens Limited",
+            "domains": [
+              "siemens.com"
+            ],
+            "symbols": [
+              "SIEMENS.NS"
+            ]
+          },
+          {
+            "id": "d02f5aaf27334bee99a673559a824cd4",
+            "name": "L'Air Liquide S.A.",
+            "domains": [
+              "airliquide.com"
+            ],
+            "symbols": [
+              "AI.PA",
+              "AI.VI",
+              "AIL.DE",
+              "AIQUY",
+              "AIQUF"
+            ]
+          },
+          {
+            "id": "31f51cd2d4084d4787ee383fa571bbf0",
+            "name": "JSR Corporation",
+            "domains": [
+              "jsr.co.jp"
+            ],
+            "symbols": [
+              "JSCPF",
+              "JSCPY"
+            ]
+          },
+          {
+            "id": "3a5143bfad5440c184ca45079b7d4cf7",
+            "name": "BCC Co., Ltd.",
+            "domains": [
+              "e-bcc.jp"
+            ],
+            "symbols": [
+              "7376.T"
+            ]
+          },
+          {
+            "id": "806457af1fd9418db78388760f52c06f",
+            "name": "Alphabet Inc.",
+            "domains": [
+              "abc.xyz"
+            ],
+            "symbols": [
+              "ABEA.F",
+              "ABEA.DE",
+              "ABEC.F",
+              "ABEC.DE",
+              "GOOGL.SW",
+              "GOOGL",
+              "GOOG",
+              "GOOG.NE"
+            ]
+          },
+          {
+            "id": "e732257f11e64164a4f892a38afb5c2a",
+            "name": "KLA Corporation",
+            "domains": [
+              "kla.com"
+            ],
+            "symbols": [
+              "0JPO.L",
+              "KLAC"
+            ]
+          },
+          {
+            "id": "5985872d662c4a3f941a9c581a9fce71",
+            "name": "Apple Inc.",
+            "domains": [
+              "apple.com"
+            ],
+            "symbols": [
+              "APC.F",
+              "APC.DE",
+              "AAPL",
+              "AAPL.MX",
+              "AAPL.NE",
+              "AAPL.DE"
+            ]
+          },
+          {
+            "id": "9ebe0895b1c44225affe3de4d518f8d6",
+            "name": "Honeywell International Inc.",
+            "domains": [
+              "honeywell.com"
+            ],
+            "symbols": [
+              "ALD.DE",
+              "HON",
+              "HON.L"
+            ]
+          },
+          {
+            "id": "94bbd0512cd04cc4b7041d78d9d4cf73",
+            "name": "NVIDIA Corporation",
+            "domains": [
+              "nvidia.com"
+            ],
+            "symbols": [
+              "NVD.DE",
+              "NVD.F",
+              "NVDA",
+              "NVDA.NE"
+            ]
+          },
+          {
+            "id": "4de51cf8472b4ce7a5aecdf52a1de4c0",
+            "name": "Microsoft Corporation",
+            "domains": [
+              "microsoft.com"
+            ],
+            "symbols": [
+              "MSF.DE",
+              "MSF.F",
+              "MSFT",
+              "MSFT.NE",
+              "MSF.BR",
+              "4338.HK"
+            ]
+          },
+          {
+            "id": "6d688831f698495281098a1d24465e33",
+            "name": "OpenAI",
+            "domains": [
+              "openai.com"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "085a8881b04a4c83926fc4559e3bbe00",
+            "name": "Texas Instruments Incorporated",
+            "domains": [
+              "ti.com"
+            ],
+            "symbols": [
+              "0R2H.L",
+              "TII.DE",
+              "TXN",
+              "TXN.BA"
+            ]
+          },
+          {
+            "id": "c84b2281b92e410b8f154504342a9574",
+            "name": "Showa Denko",
+            "domains": [
+              "resonac.com"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "9bf8c19d14434f708c697a56c116ff03",
+            "name": "SK Group",
+            "domains": [
+              "sk.com"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "2c85df6dddc2444aa34e2e60791ab2cb",
+            "name": "Linde plc",
+            "domains": [
+              "linde.com"
+            ],
+            "symbols": [
+              "LIN.DE",
+              "LIN",
+              "LIN.SW"
+            ]
+          },
+          {
+            "id": "b4aebd6e8b21474ea6f6f2019789b5aa",
+            "name": "Entegris, Inc.",
+            "domains": [
+              "entegris.com"
+            ],
+            "symbols": [
+              "ENTG"
+            ]
+          },
+          {
+            "id": "4b328f7bf98d4e2cbf83b1c10355ab38",
+            "name": "Taiwan Semiconductor Manufacturing Company Limited",
+            "domains": [
+              "tsmc.com"
+            ],
+            "symbols": [
+              "TSFA.F",
+              "2330.TW",
+              "TSM"
+            ]
+          },
+          {
+            "id": "05c3bd85a7dd4e499ec46c642bf0a6f4",
+            "name": "Micron Technology, Inc.",
+            "domains": [
+              "micron.com"
+            ],
+            "symbols": [
+              "MTE.DE",
+              "MU",
+              "MU.TO"
+            ]
+          },
+          {
+            "id": "1e91ceea04e04d43aacf8d32114b5b5f",
+            "name": "QUALCOMM Incorporated",
+            "domains": [
+              "qualcomm.com"
+            ],
+            "symbols": [
+              "QCI.DE",
+              "QCOM"
+            ]
+          },
+          {
+            "id": "8eb45b45eca9463690e9306ab064eaca",
+            "name": "Shin-Etsu Chemical Co., Ltd.",
+            "domains": [
+              "shinetsu.co.jp"
+            ],
+            "symbols": [
+              "4063.T",
+              "SHECF",
+              "SHECY"
+            ]
+          },
+          {
+            "id": "42c02bb01003487ebfc524e65ef0c02e",
+            "name": "Intel Corporation",
+            "domains": [
+              "intel.com"
+            ],
+            "symbols": [
+              "INL.F",
+              "INL.DE",
+              "INTC",
+              "INTC.NE",
+              "INCO.BR",
+              "4335.HK"
+            ]
+          },
+          {
+            "id": "e2d069e363c146df89dec2a5a93c782c",
+            "name": "Air Products and Chemicals, Inc.",
+            "domains": [
+              "airproducts.com"
+            ],
+            "symbols": [
+              "0HBH.L",
+              "APD"
+            ]
+          },
+          {
+            "id": "12d940d7322f42b0ad5ed8afb1d553e7",
+            "name": "Synopsys, Inc.",
+            "domains": [
+              "synopsys.com"
+            ],
+            "symbols": [
+              "0LBP.L",
+              "SNPS"
+            ]
+          },
+          {
+            "id": "b197732527b64024bd04bece3567566f",
+            "name": "Oracle Corporation",
+            "domains": [
+              "oracle.com"
+            ],
+            "symbols": [
+              "ORC.DE",
+              "ORCL",
+              "ORCL.SW"
+            ]
+          },
+          {
+            "id": "79ac905d71b74100a0bb06ee94a668ee",
+            "name": "Meta Platforms, Inc.",
+            "domains": [
+              "meta.com"
+            ],
+            "symbols": [
+              "META",
+              "FB2A.DE"
+            ]
+          },
+          {
+            "id": "4fad1bd4b34544feba82a99e3d3eea1b",
+            "name": "SK hynix Inc.",
+            "domains": [
+              "skhynix.com"
+            ],
+            "symbols": [
+              "HY9H.F",
+              "000660.KS",
+              "SKHY"
+            ]
+          },
+          {
+            "id": "203ad72c17484c45a35d03578c0ca94c",
+            "name": "Lam Research Corporation",
+            "domains": [
+              "lamresearch.com"
+            ],
+            "symbols": [
+              "0JT5.L",
+              "LAR0.DE",
+              "LRCX",
+              "LRCX.BA",
+              "LAR.DE"
+            ]
+          },
+          {
+            "id": "98e46d757a3149d29ce4d555b17e37f9",
+            "name": "Infineon Technologies AG",
+            "domains": [
+              "infineon.com"
+            ],
+            "symbols": [
+              "IFX.DE",
+              "IFX.SW",
+              "IFNNY",
+              "IFNNF"
+            ]
+          },
+          {
+            "id": "69aef57c3df84a478675cac3481c81b4",
+            "name": "SoftBank Group Corp.",
+            "domains": [
+              "group.softbank"
+            ],
+            "symbols": [
+              "9984.T",
+              "SFTBY"
+            ]
+          },
+          {
+            "id": "b0553666855b4a64b93a19011238c5bd",
+            "name": "ASML Holding N.V.",
+            "domains": [
+              "asml.com"
+            ],
+            "symbols": [
+              "ASML.AS",
+              "ASME.DE",
+              "ASML.WA",
+              "ASML",
+              "ASMLF",
+              "0QNI.L"
+            ]
+          },
+          {
+            "id": "6096f6b735a74d5fbd08c986fb8189cf",
+            "name": "Cadence Design Systems, Inc.",
+            "domains": [
+              "cadence.com"
+            ],
+            "symbols": [
+              "0HS2.L",
+              "CDS.DE",
+              "CDNS"
+            ]
+          }
+        ],
+        "sentiment": {
+          "positive": 0.750578,
+          "negative": 0.030056233,
+          "neutral": 0.21936585
+        },
+        "summary": "The Electronic Chemicals and Materials Industry is undergoing a structural realignment driven by artificial intelligence, driven by the rise of investment in the electronic chemicals and materials industry. BCC Research's latest analysis, \"AI Impact on Electronic Chemical and Materials Market - BCC Pulse Report,\" details how AI adoption is redefining demand dynamics, R&D productivity, and competitive positioning across the global electronic materials value chain. Hyperscale capital expenditure is reaching historic scale, with companies such as Alphabet, Amazon, Meta Platforms, and Microsoft planning to spend approximately $650 billion in 2026 on chip-packed data centers, while the $500 billion Stargate initiative, led by OpenAI, Oracle, SoftBank, and MGX, is funding multiple AI data center campuses across the U.S. This increased spending is driving demand for advanced packaging materials, specialty gases, CMP slurries, photoresists, high-density substrates, and thermal management materials. Texas Instruments and TSMC have committed over $60 billion and TSMA have committed $100 billion to expand U.K. semiconductor manufacturing. GenAI chips are expected to reach over $500bn in revenue by end of 2026, representing approximately 50% of global semiconductor sales. Government funding is also directly targeting next-generation materials development. Emerging technologies are transforming materials production and discovery, with emerging technologies including AI-driven process analytics, predictive maintenance, and digital twins becoming core operational tools for leading suppliers. However, challenges remain significant.",
+        "shortSummary": "AI-driven investment is reshaping the electronic chemicals and materials industry, driving significant changes in materials production, R&D, and competitiveness, driven by aggressive HBM and AI-enabled materials discovery initiatives.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "b7cbb66b7de54654801411398fcda3cc",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://ca.finance.yahoo.com/news/ai-driven-investment-surge-reshapes-134400945.html",
+        "authorsByline": "BCC Research LLC",
+        "articleId": "88dd14d9245443688e7fce28f4861f8d",
+        "clusterId": "412b263abab94f408cb031fd96b1fff7",
+        "source": {
+          "domain": "ca.finance.yahoo.com",
+          "location": {
+            "country": "us",
+            "state": "CA",
+            "county": "Santa Clara County",
+            "city": "Sunnyvale",
+            "coordinates": {
+              "lat": 37.3688301,
+              "lon": -122.036349
+            }
+          }
+        },
+        "imageUrl": "https://s.yimg.com/lo/mysterio/api/b9edd3d7ede2ea0b1d7c2cd2edd31ae0233f0e3b8cf1be565ee4f3ad08ff4eed/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fglobenewswire.com%2F66d771f4f9f9a9f175d731f55ce880b7.png",
+        "country": "ca",
+        "language": "en",
+        "pubDate": "2026-09-25T13:44:00+00:00",
+        "addDate": "2026-09-25T14:04:38.789424+00:00",
+        "refreshDate": "2026-09-25T14:04:38.789426+00:00",
+        "score": 1.0,
+        "title": "AI-Driven Investment Surge Reshapes the Electronic Chemicals and Materials Industry",
+        "description": "“BCC Research examines how AI is improving process optimization, defect detection, predictive quality control and materials discovery, helping semiconductor manufacturers improve yields, consistency and fab efficiency.”Boston, Sept. 25, 2026 (GLOBE NEWSWIRE) -- The electronic chemicals and materials industry is undergoing a structural realignment driven by artificial intelligence — from hyperscale data center buildouts and national semiconductor strategies to AI-accelerated materials discovery.",
+        "content": "\"BCC Research examines how AI is improving process optimization, defect detection, predictive quality control and materials discovery, helping semiconductor manufacturers improve yields, consistency a... [7629 symbols]",
+        "enContentWordCount": 1190,
+        "medium": "Article",
+        "links": [
+          "https://www.globenewswire.com/Tracker?data=LMJ_ILs-4R7fA_jhRC5FgXfry6O7nR756w67uvrs7HOYdweMvoU6m24o-TzafuApBvuEF3ZXau14k6P8nxJyTGauNAmdGzZN-Ukx97AoXNXDIzfrhG8HERdScxR0mb4uxTCe2GuXKeJAj-lmLhK-q3f0jJWg_KJspuzV9IbHqVmEOXfXTY-t3paLsNHMQbtY",
+          "https://www.globenewswire.com/Tracker?data=kaVTcKxK9cWa7empfGs3tjYBRV91NnzH99WTVWK2NOuFfrGJ6wIFEfAS5vZ_ekwh_skQmuintpO15f62utJkmFjnEnlz5fsf6beCm2fuoEgVZRafXyBgIgdZ-qjj42BE5JIMECa3vGvs5wtxAXX2Gs6lJ3ihlqdatwuEczj0PoIk4Scc7repRa6HMFOnBcpc",
+          "https://www.globenewswire.com",
+          "https://www.globenewswire.com/Tracker?data=FPKInB61_4kGBCAFP6OoA9mtviugzfxBeZCHhYLMx_f2Z1O62nbsM6VSBv6Ju-zB4-8rSOfbDOsn5Z6RZZYSyxr3lOTrNktJJaYygw2Zp58DBRT40g7Scz5ZdbCQfMic1g9ZrbT1LHeE8I-YQA94DB-le1ZFffKFWalBKCbMvSSSQ4QRuskpva7XWcC1OaQz01hnO5W9hGZ4_QLWHBp3NuojLioJSmECjgyIDH_1AlxYjMPVWP21Wjng5KyJL3bTenxEvddgrTRzWvZBN3FBVFTR98XUc7Fy_zxlmgutkXAEBrm0HWgxEC_AFrAbpC-MyiYFXMAhBoEutJwobq3RZXmff-k6Azm7nb8YEeoBPL5jJPyJL7yABcLp8EM-pxsc",
+          "https://www.globenewswire.com/Tracker?data=if2oAanoH1MJoVB6ZRWd3riRMe3wrPbT1H_CoTi97lTjsz49X2J-Muirx4CGNC1cUiWp86T2ZIjPwXbG_CWPNTIds3mlQCva8pml4w-mdiU=",
+          "https://s.yimg.com/lo/mysterio/api/0109e88a9d580998b50a299b9ae9935a4520db1dd33d2553795415c5b8450fb9/lightyear_networkapi/resizefit_w960%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fglobenewswire.com%2F558292b151476083dc469dbdb8bd562a.png",
+          "https://www.globenewswire.com/Tracker?data=FPKInB61_4kGBCAFP6OoA9mtviugzfxBeZCHhYLMx_f2Z1O62nbsM6VSBv6Ju-zB4-8rSOfbDOsn5Z6RZZYSy1IoWd2Ew-OyifsPmeoV7MJGIEecXMXGePLdaaS59FDKMr7j7ZGIRwFSG8ZsTup4MZO_Ykag5QyaBNEmqOTqKdkfqoLironiCH83qxWLWweMkavXmaFoVfEEqK-lK_1sDBIMpxmjE5za6zC3Qn48puNm78U78PGaQLw-qs_w7pUooZs8oYibLVHDFA7-VMc564ygVlYltd4tvGxYoqnTms0ZnZcyF-U2FxG6RfO4lqCFgGXn-8v2Rg76rE404rSeZ4DYLc44o9_CFTZ0qYDNNcPVK906Y9dTGf1kXEbV0I_zkK65XeYE6C0Q_77UlENTOTGWbQAycELEgxG36TD_cSA="
+        ],
+        "labels": [],
+        "matchedAuthors": [],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "semiconductor materials discovery",
+            "weight": 0.08915839
+          },
+          {
+            "name": "new AI initiatives",
+            "weight": 0.08153763
+          },
+          {
+            "name": "electronic materials",
+            "weight": 0.08107826
+          },
+          {
+            "name": "advanced packaging materials",
+            "weight": 0.0806545
+          },
+          {
+            "name": "materials discovery",
+            "weight": 0.08031031
+          },
+          {
+            "name": "AI",
+            "weight": 0.08014418
+          },
+          {
+            "name": "automotive AI",
+            "weight": 0.07977791
+          },
+          {
+            "name": "AI infrastructure investment",
+            "weight": 0.0796382
+          },
+          {
+            "name": "materials production",
+            "weight": 0.07939346
+          },
+          {
+            "name": "AI Impact",
+            "weight": 0.07876046
+          }
+        ],
+        "topics": [
+          {
+            "name": "AI"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Tech"
+          },
+          {
+            "name": "Business"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Financial Markets News",
+            "score": 0.9086179733276367
+          },
+          {
+            "name": "/News/Business News/Other",
+            "score": 0.8757869601249695
+          },
+          {
+            "name": "/News/Business News/Company News",
+            "score": 0.8568122982978821
+          },
+          {
+            "name": "/News/Technology News",
+            "score": 0.854884684085846
+          },
+          {
+            "name": "/Science/Computer Science/Machine Learning & Artificial Intelligence",
+            "score": 0.49188297986984253
+          },
+          {
+            "name": "/Business & Industrial/Advertising & Marketing/Marketing",
+            "score": 0.38630029559135437
+          }
+        ],
+        "entities": [
+          {
+            "data": "BCC Research",
+            "type": "ORG",
+            "mentions": 4
+          },
+          {
+            "data": "Alphabet",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Amazon",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Meta Platforms",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Microsoft",
+            "type": "ORG",
+            "mentions": 3
+          },
+          {
+            "data": "OpenAI",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Oracle",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "SoftBank",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "MGX",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Texas Instruments",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "TSMC",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Samsung",
+            "type": "ORG",
+            "mentions": 4
+          },
+          {
+            "data": "SK Group",
+            "type": "ORG",
+            "mentions": 4
+          },
+          {
+            "data": "Resonac",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "2026 Vision",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "SEMI",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "SandboxAQ",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Air Liquide",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "the European Commission",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "SK hynix",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "NVIDIA",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Applied Materials",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Lam Research",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "KLA",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Tokyo Electron",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "JSR Corp.",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Merck KGaA",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Entegris",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Shin-Etsu Chemical",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "BASF",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Linde",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Air Products",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "ASML",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Infineon",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Micron Technology",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Intel",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Qualcomm",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Siemens",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Honeywell",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Cadence Design Systems",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Synopsys",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Dow",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Boston",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "U.S.",
+            "type": "GPE",
+            "mentions": 5
+          },
+          {
+            "data": "South Korea",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Japan",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "China",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Stargate",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Galaxy AI",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "Resonac",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "CHIPS Act",
+            "type": "LAW",
+            "mentions": 1
+          },
+          {
+            "data": "German",
+            "type": "NORP",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "e732257f11e64164a4f892a38afb5c2a",
+            "name": "KLA Corporation",
+            "domains": [
+              "kla.com"
+            ],
+            "symbols": [
+              "0JPO.L",
+              "KLAC"
+            ]
+          },
+          {
+            "id": "6096f6b735a74d5fbd08c986fb8189cf",
+            "name": "Cadence Design Systems, Inc.",
+            "domains": [
+              "cadence.com"
+            ],
+            "symbols": [
+              "0HS2.L",
+              "CDS.DE",
+              "CDNS"
+            ]
+          },
+          {
+            "id": "b197732527b64024bd04bece3567566f",
+            "name": "Oracle Corporation",
+            "domains": [
+              "oracle.com"
+            ],
+            "symbols": [
+              "ORC.DE",
+              "ORCL",
+              "ORCL.SW"
+            ]
+          },
+          {
+            "id": "3a5143bfad5440c184ca45079b7d4cf7",
+            "name": "BCC Co., Ltd.",
+            "domains": [
+              "e-bcc.jp"
+            ],
+            "symbols": [
+              "7376.T"
+            ]
+          },
+          {
+            "id": "9bf8c19d14434f708c697a56c116ff03",
+            "name": "SK Group",
+            "domains": [
+              "sk.com"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "98e46d757a3149d29ce4d555b17e37f9",
+            "name": "Infineon Technologies AG",
+            "domains": [
+              "infineon.com"
+            ],
+            "symbols": [
+              "IFX.DE",
+              "IFX.SW",
+              "IFNNY",
+              "IFNNF"
+            ]
+          },
+          {
+            "id": "4fad1bd4b34544feba82a99e3d3eea1b",
+            "name": "SK hynix Inc.",
+            "domains": [
+              "skhynix.com"
+            ],
+            "symbols": [
+              "HY9H.F",
+              "000660.KS",
+              "SKHY"
+            ]
+          },
+          {
+            "id": "085a8881b04a4c83926fc4559e3bbe00",
+            "name": "Texas Instruments Incorporated",
+            "domains": [
+              "ti.com"
+            ],
+            "symbols": [
+              "0R2H.L",
+              "TII.DE",
+              "TXN",
+              "TXN.BA"
+            ]
+          },
+          {
+            "id": "31f51cd2d4084d4787ee383fa571bbf0",
+            "name": "JSR Corporation",
+            "domains": [
+              "jsr.co.jp"
+            ],
+            "symbols": [
+              "JSCPF",
+              "JSCPY"
+            ]
+          },
+          {
+            "id": "e2d069e363c146df89dec2a5a93c782c",
+            "name": "Air Products and Chemicals, Inc.",
+            "domains": [
+              "airproducts.com"
+            ],
+            "symbols": [
+              "0HBH.L",
+              "APD"
+            ]
+          },
+          {
+            "id": "b8270d0a68134f14abb4f48adaba87a4",
+            "name": "Dow Inc.",
+            "domains": [
+              "dow.com"
+            ],
+            "symbols": [
+              "DOW"
+            ]
+          },
+          {
+            "id": "b0553666855b4a64b93a19011238c5bd",
+            "name": "ASML Holding N.V.",
+            "domains": [
+              "asml.com"
+            ],
+            "symbols": [
+              "ASML.AS",
+              "ASME.DE",
+              "ASML.WA",
+              "ASML",
+              "ASMLF",
+              "0QNI.L"
+            ]
+          },
+          {
+            "id": "1e91ceea04e04d43aacf8d32114b5b5f",
+            "name": "QUALCOMM Incorporated",
+            "domains": [
+              "qualcomm.com"
+            ],
+            "symbols": [
+              "QCI.DE",
+              "QCOM"
+            ]
+          },
+          {
+            "id": "2c85df6dddc2444aa34e2e60791ab2cb",
+            "name": "Linde plc",
+            "domains": [
+              "linde.com"
+            ],
+            "symbols": [
+              "LIN.DE",
+              "LIN",
+              "LIN.SW"
+            ]
+          },
+          {
+            "id": "435e0daa7ea443ba89f0dd39e95dd71d",
+            "name": "Amazon.com, Inc.",
+            "domains": [
+              "amazon.com"
+            ],
+            "symbols": [
+              "AMZ.DE",
+              "AMZN"
+            ]
+          },
+          {
+            "id": "4b328f7bf98d4e2cbf83b1c10355ab38",
+            "name": "Taiwan Semiconductor Manufacturing Company Limited",
+            "domains": [
+              "tsmc.com"
+            ],
+            "symbols": [
+              "TSFA.F",
+              "2330.TW",
+              "TSM"
+            ]
+          },
+          {
+            "id": "94bbd0512cd04cc4b7041d78d9d4cf73",
+            "name": "NVIDIA Corporation",
+            "domains": [
+              "nvidia.com"
+            ],
+            "symbols": [
+              "NVD.DE",
+              "NVD.F",
+              "NVDA",
+              "NVDA.NE"
+            ]
+          },
+          {
+            "id": "8eb45b45eca9463690e9306ab064eaca",
+            "name": "Shin-Etsu Chemical Co., Ltd.",
+            "domains": [
+              "shinetsu.co.jp"
+            ],
+            "symbols": [
+              "4063.T",
+              "SHECF",
+              "SHECY"
+            ]
+          },
+          {
+            "id": "d02f5aaf27334bee99a673559a824cd4",
+            "name": "L'Air Liquide S.A.",
+            "domains": [
+              "airliquide.com"
+            ],
+            "symbols": [
+              "AI.PA",
+              "AI.VI",
+              "AIL.DE",
+              "AIQUY",
+              "AIQUF"
+            ]
+          },
+          {
+            "id": "69aef57c3df84a478675cac3481c81b4",
+            "name": "SoftBank Group Corp.",
+            "domains": [
+              "group.softbank"
+            ],
+            "symbols": [
+              "9984.T",
+              "SFTBY"
+            ]
+          },
+          {
+            "id": "14644fd7eae44bb896c5203326d84d36",
+            "name": "Applied Materials, Inc.",
+            "domains": [
+              "appliedmaterials.com"
+            ],
+            "symbols": [
+              "0R1A.IL",
+              "AP2.DE",
+              "AMAT",
+              "4336.HK"
+            ]
+          },
+          {
+            "id": "79ac905d71b74100a0bb06ee94a668ee",
+            "name": "Meta Platforms, Inc.",
+            "domains": [
+              "meta.com"
+            ],
+            "symbols": [
+              "META",
+              "FB2A.DE"
+            ]
+          },
+          {
+            "id": "b4aebd6e8b21474ea6f6f2019789b5aa",
+            "name": "Entegris, Inc.",
+            "domains": [
+              "entegris.com"
+            ],
+            "symbols": [
+              "ENTG"
+            ]
+          },
+          {
+            "id": "12d940d7322f42b0ad5ed8afb1d553e7",
+            "name": "Synopsys, Inc.",
+            "domains": [
+              "synopsys.com"
+            ],
+            "symbols": [
+              "0LBP.L",
+              "SNPS"
+            ]
+          },
+          {
+            "id": "d423e456689a423b90a43d0f9b99177e",
+            "name": "Mitsubishi Chemical Group Corporation",
+            "domains": [
+              "mcgc.com"
+            ],
+            "symbols": [
+              "4188.T",
+              "MTLHY",
+              "MTLHF"
+            ]
+          },
+          {
+            "id": "05c3bd85a7dd4e499ec46c642bf0a6f4",
+            "name": "Micron Technology, Inc.",
+            "domains": [
+              "micron.com"
+            ],
+            "symbols": [
+              "MTE.DE",
+              "MU",
+              "MU.TO"
+            ]
+          },
+          {
+            "id": "2a221b70add74bdeb7d16ca3efe408b9",
+            "name": "SandboxAQ",
+            "domains": [
+              "sandboxaq.com"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "806457af1fd9418db78388760f52c06f",
+            "name": "Alphabet Inc.",
+            "domains": [
+              "abc.xyz"
+            ],
+            "symbols": [
+              "ABEA.F",
+              "ABEA.DE",
+              "ABEC.F",
+              "ABEC.DE",
+              "GOOGL.SW",
+              "GOOGL",
+              "GOOG",
+              "GOOG.NE"
+            ]
+          },
+          {
+            "id": "4de51cf8472b4ce7a5aecdf52a1de4c0",
+            "name": "Microsoft Corporation",
+            "domains": [
+              "microsoft.com"
+            ],
+            "symbols": [
+              "MSF.DE",
+              "MSF.F",
+              "MSFT",
+              "MSFT.NE",
+              "MSF.BR",
+              "4338.HK"
+            ]
+          },
+          {
+            "id": "6d688831f698495281098a1d24465e33",
+            "name": "OpenAI",
+            "domains": [
+              "openai.com"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "5985872d662c4a3f941a9c581a9fce71",
+            "name": "Apple Inc.",
+            "domains": [
+              "apple.com"
+            ],
+            "symbols": [
+              "APC.F",
+              "APC.DE",
+              "AAPL",
+              "AAPL.MX",
+              "AAPL.NE",
+              "AAPL.DE"
+            ]
+          },
+          {
+            "id": "c84b2281b92e410b8f154504342a9574",
+            "name": "Showa Denko",
+            "domains": [
+              "resonac.com"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "203ad72c17484c45a35d03578c0ca94c",
+            "name": "Lam Research Corporation",
+            "domains": [
+              "lamresearch.com"
+            ],
+            "symbols": [
+              "0JT5.L",
+              "LAR0.DE",
+              "LRCX",
+              "LRCX.BA",
+              "LAR.DE"
+            ]
+          },
+          {
+            "id": "344b746df80a4a99b39d7ddd46b31548",
+            "name": "Tokyo Electron Limited",
+            "domains": [
+              "tel.com"
+            ],
+            "symbols": [
+              "8035.T",
+              "TOELY"
+            ]
+          },
+          {
+            "id": "42c02bb01003487ebfc524e65ef0c02e",
+            "name": "Intel Corporation",
+            "domains": [
+              "intel.com"
+            ],
+            "symbols": [
+              "INL.F",
+              "INL.DE",
+              "INTC",
+              "INTC.NE",
+              "INCO.BR",
+              "4335.HK"
+            ]
+          },
+          {
+            "id": "9ebe0895b1c44225affe3de4d518f8d6",
+            "name": "Honeywell International Inc.",
+            "domains": [
+              "honeywell.com"
+            ],
+            "symbols": [
+              "ALD.DE",
+              "HON",
+              "HON.L"
+            ]
+          },
+          {
+            "id": "d01e3dd1551846ee87f434e3c004b359",
+            "name": "Siemens Limited",
+            "domains": [
+              "siemens.com"
+            ],
+            "symbols": [
+              "SIEMENS.NS"
+            ]
+          }
+        ],
+        "sentiment": {
+          "positive": 0.8008394,
+          "negative": 0.031295456,
+          "neutral": 0.16786507
+        },
+        "summary": "The Electronic Chemicals and Materials industry is undergoing a structural realignment driven by artificial intelligence, driven by investment in the field of hyperscale data center buildouts, national semiconductor strategies, and AI-accelerated materials discovery. BCC Research's latest analysis, \"AI Impact on Electronic Chemical and Materials Market\" examines how AI adoption is redefining demand dynamics, R&D productivity, and competitive positioning across the global electronic materials value chain. Companies such as Alphabet, Amazon, Meta Platforms, and Microsoft plan to spend approximately $650 billion in 2026 largely on chip-packed data centers, while the $500 billion Stargate initiative, led by OpenAI, Oracle, SoftBank, and MGX, is funding multiple AI data center campuses across the U.S. This investment is creating demand for advanced packaging materials, specialty gases, CMP slurries, photoresists, and thermal management materials. Texas Instruments committed over $60 billion and TSMC committed $100 billion to expand U.K. semiconductor manufacturing. South Korea separately announced $950 billion in new AI initiatives strengthening collaboration between Samsung, SK Group, and U.N. technology firms. GenAI chips are expected to reach over $500bn in revenue by 2026, representing approximately 50% of global semiconductor sales.",
+        "shortSummary": "An AI-driven investment surge is transforming the electronic chemicals and materials industry, significantly altering production, R&D, and competitive positioning, driving significant advancements in materials production and discovery.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": true,
+        "reprintGroupId": "b7cbb66b7de54654801411398fcda3cc",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://www.openpr.com/news/4644109/outsourced-semiconductor-assembly-and-test-osat-market-size",
+        "authorsByline": "Inc., Polaris Market Research & Consulting",
+        "articleId": "3035c939d1dc40f39295b0812a5e7799",
+        "clusterId": "5d3aba35358d4e62903ad8f7ed8de4f8",
+        "source": {
+          "domain": "openpr.com",
+          "location": null
+        },
+        "imageUrl": "https://cdn.open-pr.com/L/9/L925369097_g.jpg",
+        "country": "cn",
+        "language": "en",
+        "pubDate": "2026-09-25T15:43:42+02:00",
+        "addDate": "2026-09-25T13:53:56.519457+00:00",
+        "refreshDate": "2026-09-25T13:53:56.519459+00:00",
+        "score": 1.0,
+        "title": "Outsourced Semiconductor Assembly and Test (OSAT) Market Size Worth USD 91.41 Billion by 2034",
+        "description": "Polaris Market Research has released a new industry study estimating the global Outsourced Semiconductor Assembly and Test OSAT market at USD 46 37 billion in 2025 with the market on track to touch USD 91 41 billion by 2034 at ...",
+        "content": "Outsourced Semiconductor Assembly and Test (OSAT) Market Size Worth USD 91.41 Billion by 2034 | CAGR of 7.8%\n\nPolaris Market Research has released a new industry study estimating the global Outsourced... [7154 symbols]",
+        "enContentWordCount": 1133,
+        "medium": "Article",
+        "links": [
+          "https://cdn.open-pr.com/L/9/L925369097_g.jpg"
+        ],
+        "labels": [
+          {
+            "name": "Roundup"
+          }
+        ],
+        "matchedAuthors": [],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "advanced packaging",
+            "weight": 0.08199232
+          },
+          {
+            "name": "advanced packaging investment",
+            "weight": 0.07734503
+          },
+          {
+            "name": "market growth",
+            "weight": 0.07392096
+          },
+          {
+            "name": "packaging type",
+            "weight": 0.072671846
+          },
+          {
+            "name": "advanced packaging inspection applications",
+            "weight": 0.07217083
+          },
+          {
+            "name": "packaging",
+            "weight": 0.07012596
+          },
+          {
+            "name": "market share",
+            "weight": 0.070125245
+          },
+          {
+            "name": "market expansion",
+            "weight": 0.06665152
+          },
+          {
+            "name": "advanced facilities",
+            "weight": 0.06294717
+          },
+          {
+            "name": "accurate market sizing",
+            "weight": 0.061487976
+          }
+        ],
+        "topics": [],
+        "categories": [
+          {
+            "name": "Tech"
+          },
+          {
+            "name": "Business"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Financial Markets News",
+            "score": 0.8957052826881409
+          },
+          {
+            "name": "/News/Business News/Other",
+            "score": 0.8776865601539612
+          },
+          {
+            "name": "/News/Technology News",
+            "score": 0.8728901743888855
+          },
+          {
+            "name": "/News/Business News/Company News",
+            "score": 0.7169128060340881
+          },
+          {
+            "name": "/Business & Industrial/Advertising & Marketing/Marketing",
+            "score": 0.42381569743156433
+          },
+          {
+            "name": "/Computers & Electronics/Electronics & Electrical/Electronic Components",
+            "score": 0.4130035638809204
+          },
+          {
+            "name": "/Computers & Electronics/Computer Hardware/Computer Components",
+            "score": 0.38751646876335144
+          }
+        ],
+        "entities": [
+          {
+            "data": "Polaris Market Research",
+            "type": "ORG",
+            "mentions": 6
+          },
+          {
+            "data": "IDMs",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Regional Insights",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Amkor Technology, Inc.",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "ASE Technology Holding Co., Ltd.",
+            "type": "ORG",
+            "mentions": 3
+          },
+          {
+            "data": "Powertech Technology Inc.",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Tongfu Microelectronics Co., Ltd.",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "TSMC",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "The Government of India",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "CG",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Camtek",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "HCL-Foxconn",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Tata",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "SEALSQ Corp.",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Asia Pacific",
+            "type": "LOC",
+            "mentions": 2
+          },
+          {
+            "data": "North America",
+            "type": "LOC",
+            "mentions": 3
+          },
+          {
+            "data": "Southeast Asia",
+            "type": "LOC",
+            "mentions": 1
+          },
+          {
+            "data": "Europe",
+            "type": "LOC",
+            "mentions": 2
+          },
+          {
+            "data": "AEC-Q100",
+            "type": "LAW",
+            "mentions": 1
+          },
+          {
+            "data": "EU Chips Act",
+            "type": "LAW",
+            "mentions": 2
+          },
+          {
+            "data": "CHIPS Act",
+            "type": "LAW",
+            "mentions": 1
+          },
+          {
+            "data": "India",
+            "type": "GPE",
+            "mentions": 3
+          },
+          {
+            "data": "China",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Taiwan",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "South Korea",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Malaysia",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Arizona",
+            "type": "GPE",
+            "mentions": 2
+          },
+          {
+            "data": "Sanand",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Gujarat",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Uttar Pradesh",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "New York",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "U.S.More",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Dover",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "DE",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "United StatesUSA",
+            "type": "GPE",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "cdf6efacd03a4ea1be43878008e16e10",
+            "name": "Polaris Inc.",
+            "domains": [
+              "polaris.com"
+            ],
+            "symbols": [
+              "PII",
+              "0KJQ.L"
+            ]
+          },
+          {
+            "id": "1041dcafb1b24850953a04dcbd6888df",
+            "name": "ASE Technology Holding Co., Ltd.",
+            "domains": [
+              "aseglobal.com"
+            ],
+            "symbols": [
+              "3711.TW",
+              "ASX"
+            ]
+          },
+          {
+            "id": "6c6672ddaf9f4df79431cb93c2c47dd2",
+            "name": "JCET Group Co., Ltd.",
+            "domains": [
+              "jcetglobal.com"
+            ],
+            "symbols": [
+              "600584.SS"
+            ]
+          },
+          {
+            "id": "ec8fddd0e5fe401cb395d6d63b320e9e",
+            "name": "Amkor Technology, Inc.",
+            "domains": [
+              "amkor.com"
+            ],
+            "symbols": [
+              "AMKR"
+            ]
+          },
+          {
+            "id": "811d1130744f4d90ae43c9d1c8953963",
+            "name": "UTAC Group",
+            "domains": [
+              "utacgroup.com"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "fe7a8d71a8454fb882f88b4a1b4575f1",
+            "name": "Powertech Technology Inc.",
+            "domains": [
+              "pti.com.tw"
+            ],
+            "symbols": [
+              "6239.TW"
+            ]
+          },
+          {
+            "id": "4b328f7bf98d4e2cbf83b1c10355ab38",
+            "name": "Taiwan Semiconductor Manufacturing Company Limited",
+            "domains": [
+              "tsmc.com"
+            ],
+            "symbols": [
+              "TSFA.F",
+              "2330.TW",
+              "TSM"
+            ]
+          },
+          {
+            "id": "3383d772e5c449d385545a8d1b2e75ef",
+            "name": "Camtek Ltd.",
+            "domains": [
+              "camtek.com"
+            ],
+            "symbols": [
+              "CAMT.TA",
+              "CAMT"
+            ]
+          },
+          {
+            "id": "a93dff3deece4bed9b25b872c2cecdae",
+            "name": "Tongfu Microelectronics Co.,Ltd",
+            "domains": [
+              "tfme.com"
+            ],
+            "symbols": [
+              "002156.SZ"
+            ]
+          },
+          {
+            "id": "7a3674a1cf7f4c3e97c0fa132f3070d2",
+            "name": "SEALSQ Corp",
+            "domains": [
+              "sealsq.com"
+            ],
+            "symbols": [
+              "LAES"
+            ]
+          }
+        ],
+        "sentiment": {
+          "positive": 0.7941754,
+          "negative": 0.041034523,
+          "neutral": 0.1647901
+        },
+        "summary": "Polaris Market Research has released a new industry study estimating the global Outsourced Semiconductor Assembly and Test (OSAT) market to be worth USD 91.41 billion by 2034 at a CAGR of 7.8% across the forecast window. The study estimates the market at a base year value of USD 46.37 billion in 2025, with a growth rate of 7.,8%. Asia Pacific is predicted to be the leading region with a 76.4% revenue share in 2025. North America is predicted as the fastest-growing region at an 8.6% CAGr. The market is also seeing increased demand for compact, power-efficient chipsets and advanced 2.5D/3D packaging, driven by rapid EV/ADAS adoption and demand for automotive-grade packaging that meets AEC-Q100 and ISO 26262 standards. However, challenges include vertical integration by large foundries into packaging and test, capital intensity for advanced facilities, and a shortage of specialized packaging and technical expertise slowing capacity expansion in several regions. Companies are focusing on service-packaging capability rather than price and regional expansion, rather than cost, rather rather than market than price.",
+        "shortSummary": "The Outsourced Semiconductor Assembly and Test Market is expected to grow 7.8% to USD 91.41 billion by 2034, driven by rising chip complexity and automotive demand.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "cba8503fb2294ceb9e3ca0cc2346d281",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://indianexpress.com/article/explained/explained-global/expert-explains-xi-trump-meet-taiwan-factor-china-10894032/",
+        "authorsByline": "Rishika Singh",
+        "articleId": "a4eaf718119b41648a12b2de0e287307",
+        "clusterId": "f2d9c341f7a74e5684b7c2c156312b41",
+        "source": {
+          "domain": "indianexpress.com",
+          "location": {
+            "country": "in",
+            "county": "Dadri",
+            "city": "Noida",
+            "coordinates": {
+              "lat": 28.5707841,
+              "lon": 77.3271074
+            }
+          }
+        },
+        "imageUrl": "https://images.indianexpress.com/2026/09/china-us-taiwan.jpg",
+        "country": "in",
+        "language": "en",
+        "pubDate": "2026-09-25T18:49:18+05:30",
+        "addDate": "2026-09-25T13:27:13.310568+00:00",
+        "refreshDate": "2026-09-25T13:27:13.310569+00:00",
+        "score": 1.0,
+        "title": "An expert explains",
+        "description": "The largest-ever US arms sales to Taiwan could become a flashpoint in its relations with China. How does the island figure into an already complex relationship?",
+        "content": "During Chinese President Xi Jinping’s visit to the United States, issues ranging from tariffs to artificial intelligence (AI) regulation were on the agenda, with global ramifications.\n\nBut for China, ... [7159 symbols]",
+        "enContentWordCount": 1379,
+        "medium": "Article",
+        "links": [
+          "https://indianexpress.com/article/explained/explained-ai/expert-explains-us-china-ai-dialogue-frontier-ai-safety-regulation-10888511/",
+          "https://indianexpress.com/article/explained/explained-sci-tech/expert-explains-ai-chip-boom-india-opportunity-10886212/",
+          "https://indianexpress.com/about/vladimir-putin/",
+          "https://indianexpress.com/express-plus/subscription-plan/?pageCode=15&ref=ad_pos_3",
+          "https://indianexpress.com/about/joe-biden/",
+          "https://indianexpress.com/article/explained/explained-global/china-this-week-xi-state-visit-us-agenda-trump-ai-10886474/",
+          "https://indianexpress.com/about/donald-trump/"
+        ],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": null,
+            "name": "Rishika Singh"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Taiwan",
+            "weight": 0.09768715
+          },
+          {
+            "name": "US",
+            "weight": 0.09559762
+          },
+          {
+            "name": "Taiwan independence",
+            "weight": 0.09431312
+          },
+          {
+            "name": "longstanding US policy",
+            "weight": 0.09251005
+          },
+          {
+            "name": "US foreign policy",
+            "weight": 0.091999225
+          },
+          {
+            "name": "Previous US presidents",
+            "weight": 0.08557439
+          },
+          {
+            "name": "China",
+            "weight": 0.08037645
+          },
+          {
+            "name": "China Analysis",
+            "weight": 0.07891298
+          },
+          {
+            "name": "mainland China",
+            "weight": 0.07852412
+          },
+          {
+            "name": "more US-Taiwan discussions",
+            "weight": 0.07131121
+          }
+        ],
+        "topics": [],
+        "categories": [
+          {
+            "name": "Politics"
+          },
+          {
+            "name": "World"
+          },
+          {
+            "name": "Tech"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Politics/Other",
+            "score": 0.9820137619972229
+          },
+          {
+            "name": "/People & Society/Social Sciences/Political Science",
+            "score": 0.957277774810791
+          },
+          {
+            "name": "/Law & Government/Government/Executive Branch",
+            "score": 0.7534666657447815
+          },
+          {
+            "name": "/News/World News",
+            "score": 0.6270381808280945
+          },
+          {
+            "name": "/Law & Government/Government/Other",
+            "score": 0.5016250610351562
+          },
+          {
+            "name": "/Sensitive Subjects/War & Conflict",
+            "score": 0.4059196412563324
+          }
+        ],
+        "entities": [
+          {
+            "data": "Chinese",
+            "type": "NORP",
+            "mentions": 7
+          },
+          {
+            "data": "Taiwanese",
+            "type": "NORP",
+            "mentions": 1
+          },
+          {
+            "data": "Japanese",
+            "type": "NORP",
+            "mentions": 1
+          },
+          {
+            "data": "Xi Jinping",
+            "type": "PERSON",
+            "mentions": 9
+          },
+          {
+            "data": "Lyle Morris",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Donald Trump’s",
+            "type": "PERSON",
+            "mentions": 13
+          },
+          {
+            "data": "Vladimir Putin",
+            "type": "PERSON",
+            "mentions": 2
+          },
+          {
+            "data": "Kim Jong Un",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Joe Biden",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Sanae Takaichi",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "the United States",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "China",
+            "type": "GPE",
+            "mentions": 20
+          },
+          {
+            "data": "US",
+            "type": "GPE",
+            "mentions": 29
+          },
+          {
+            "data": "Taiwan",
+            "type": "GPE",
+            "mentions": 30
+          },
+          {
+            "data": "Washington",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "DC",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Ukraine",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Beijing",
+            "type": "GPE",
+            "mentions": 4
+          },
+          {
+            "data": "Arizona",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Japan",
+            "type": "GPE",
+            "mentions": 2
+          },
+          {
+            "data": "Philippines",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Australia",
+            "type": "GPE",
+            "mentions": 2
+          },
+          {
+            "data": "UK",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Foreign Policy and National Security",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Asia Society Policy Institute’s",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Center for China Analysis",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "the Office of the Secretary of Defense",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "OSD",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "TSMC",
+            "type": "ORG",
+            "mentions": 4
+          },
+          {
+            "data": "AUKUS",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "the Six Assurances",
+            "type": "LAW",
+            "mentions": 1
+          },
+          {
+            "data": "the Taiwan Relations Act",
+            "type": "LAW",
+            "mentions": 1
+          },
+          {
+            "data": "Air Force One",
+            "type": "PRODUCT",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "4b328f7bf98d4e2cbf83b1c10355ab38",
+            "name": "Taiwan Semiconductor Manufacturing Company Limited",
+            "domains": [
+              "tsmc.com"
+            ],
+            "symbols": [
+              "TSFA.F",
+              "2330.TW",
+              "TSM"
+            ]
+          }
+        ],
+        "sentiment": {
+          "positive": 0.20923463,
+          "negative": 0.3668598,
+          "neutral": 0.42390567
+        },
+        "summary": "During Chinese President Xi Jinping's visit to the United States, issues such as tariffs and artificial intelligence (AI) regulation were on the agenda. However, the most significant concern may be the US government's policy on Taiwan. The Chinese government has described the island as a \"red line\" that cannot be challenged. Lyle Morris, Senior Fellow on Foreign Policy and National Security at the Asia Society Policy Institute, discusses the importance of the Taiwan issue for US foreign policy. In his first term, Donald Trump's policies focused on strategic competition and correcting unfair trade with China, this view has evolved due to his belief that his personal charm and business approach can persuade autocratic leaders. However this approach has not worked well with Vladimir Putin and Kim Jong Un. The potential $14-billion US arms package for Taiwan attracted attention.",
+        "shortSummary": "During Chinese President Xi Jinping’s visit to the US, amid tensions over Taiwan's independence and China's claims, the issue raises concerns for both sides.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "ce88d63f98a3466f9e95e8fdb37f3dc7",
+        "places": [],
+        "people": [
+          {
+            "wikidataId": "Q22686",
+            "name": "Donald Trump"
+          },
+          {
+            "wikidataId": "Q1705028",
+            "name": "Sanae Takaichi"
+          },
+          {
+            "wikidataId": "Q56226",
+            "name": "Kim Jong-un"
+          },
+          {
+            "wikidataId": "Q15031",
+            "name": "Xi Jinping"
+          },
+          {
+            "wikidataId": "Q7747",
+            "name": "Vladimir Putin"
+          },
+          {
+            "wikidataId": "Q6279",
+            "name": "Joe Biden"
+          }
+        ]
+      },
+      {
+        "url": "https://www.techspot.com/news/113984-amazon-apple-amd-google-tesla-microsoft-nvidia-qualcomm.html",
+        "authorsByline": "Skye Jacobs",
+        "articleId": "46f81973d1724aee8399306749d8923d",
+        "clusterId": "d1ad966a3db14016b8778ee133a9a840",
+        "source": {
+          "domain": "techspot.com",
+          "location": {
+            "country": "us",
+            "state": "FL",
+            "county": "Miami-Dade County",
+            "city": "Miami",
+            "coordinates": {
+              "lat": 25.7741728,
+              "lon": -80.19362
+            }
+          }
+        },
+        "imageUrl": "https://www.techspot.com/images2/news/bigimage/2026/09/2026-09-24-image-41.jpg",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-09-25T08:17:00-05:00",
+        "addDate": "2026-09-25T13:28:35.494942+00:00",
+        "refreshDate": "2026-09-25T13:28:35.494943+00:00",
+        "score": 1.0,
+        "title": "Amazon, Apple, AMD, Google, Tesla, Microsoft, Nvidia, and Qualcomm are all reportedly evaluating Intel's 14A process",
+        "description": "Intel has spent years trying to turn its manufacturing arm into a serious alternative to TSMC. Its 14A process is now the key test. Piper Sandler said...",
+        "content": "Rumor mill: Intel's 14A chipmaking process is being evaluated by Amazon, Apple, AMD, Google, Tesla, Microsoft, Nvidia and Qualcomm, according to a Piper Sandler research note. If those discussions lea... [4156 symbols]",
+        "enContentWordCount": 738,
+        "medium": "Article",
+        "links": [
+          "https://x.com/intelfabs/status/2100802972846260373?ref_src=twsrc%5Etfw",
+          "https://www.pcgamer.com/hardware/processors/apple-nvidia-google-microsoft-pretty-much-all-the-big-us-players-in-the-chip-business-are-reportedly-evaluating-intels-new-14a-node/",
+          "https://www.techspot.com/images2/news/bigimage/2026/09/2026-09-24-image-43.jpg",
+          "https://www.techspot.com/news/113870-sk-hynix-eyes-intel-ohio-fabs-us-memory.html",
+          "https://www.techspot.com/images2/news/bigimage/2026/09/2026-09-24-image-42.jpg",
+          "https://www.techspot.com/news/113926-amd-eclipses-1-trillion-valuation-beating-intel-milestone.html"
+        ],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": null,
+            "name": "Skye Jacobs"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Intel 14A",
+            "weight": 0.120687865
+          },
+          {
+            "name": "Intel",
+            "weight": 0.10330857
+          },
+          {
+            "name": "anchor customer",
+            "weight": 0.0856038
+          },
+          {
+            "name": "customers",
+            "weight": 0.08281817
+          },
+          {
+            "name": "customer commitments",
+            "weight": 0.08249611
+          },
+          {
+            "name": "key customer milestones",
+            "weight": 0.08137982
+          },
+          {
+            "name": "customer evaluations",
+            "weight": 0.08116016
+          },
+          {
+            "name": "customer demand",
+            "weight": 0.08081873
+          },
+          {
+            "name": "important customer milestones",
+            "weight": 0.08025035
+          },
+          {
+            "name": "major US chip companies",
+            "weight": 0.08006988
+          }
+        ],
+        "topics": [
+          {
+            "name": "AI"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Business"
+          },
+          {
+            "name": "Tech"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Technology News",
+            "score": 0.9863631129264832
+          },
+          {
+            "name": "/News/Business News/Company News",
+            "score": 0.9759464263916016
+          },
+          {
+            "name": "/Computers & Electronics/Computer Hardware/Computer Components",
+            "score": 0.6279512047767639
+          },
+          {
+            "name": "/Computers & Electronics/Electronics & Electrical/Electronic Components",
+            "score": 0.308190256357193
+          }
+        ],
+        "entities": [
+          {
+            "data": "Amazon",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Apple",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "AMD",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Google",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Tesla",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Microsoft",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Nvidia",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Qualcomm",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Intel",
+            "type": "ORG",
+            "mentions": 23
+          },
+          {
+            "data": "Piper Sandler",
+            "type": "ORG",
+            "mentions": 5
+          },
+          {
+            "data": "TSMC",
+            "type": "ORG",
+            "mentions": 8
+          },
+          {
+            "data": "14A",
+            "type": "PRODUCT",
+            "mentions": 11
+          },
+          {
+            "data": "18A",
+            "type": "PRODUCT",
+            "mentions": 2
+          },
+          {
+            "data": "N2",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "A16",
+            "type": "PRODUCT",
+            "mentions": 1
+          },
+          {
+            "data": "US",
+            "type": "GPE",
+            "mentions": 2
+          },
+          {
+            "data": "Taiwan",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "the United States",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Washington",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Lip-Bu Tan",
+            "type": "PERSON",
+            "mentions": 3
+          }
+        ],
+        "companies": [
+          {
+            "id": "435e0daa7ea443ba89f0dd39e95dd71d",
+            "name": "Amazon.com, Inc.",
+            "domains": [
+              "amazon.com"
+            ],
+            "symbols": [
+              "AMZ.DE",
+              "AMZN"
+            ]
+          },
+          {
+            "id": "4de51cf8472b4ce7a5aecdf52a1de4c0",
+            "name": "Microsoft Corporation",
+            "domains": [
+              "microsoft.com"
+            ],
+            "symbols": [
+              "MSF.DE",
+              "MSF.F",
+              "MSFT",
+              "MSFT.NE",
+              "MSF.BR",
+              "4338.HK"
+            ]
+          },
+          {
+            "id": "4b328f7bf98d4e2cbf83b1c10355ab38",
+            "name": "Taiwan Semiconductor Manufacturing Company Limited",
+            "domains": [
+              "tsmc.com"
+            ],
+            "symbols": [
+              "TSFA.F",
+              "2330.TW",
+              "TSM"
+            ]
+          },
+          {
+            "id": "42c02bb01003487ebfc524e65ef0c02e",
+            "name": "Intel Corporation",
+            "domains": [
+              "intel.com"
+            ],
+            "symbols": [
+              "INL.F",
+              "INL.DE",
+              "INTC",
+              "INTC.NE",
+              "INCO.BR",
+              "4335.HK"
+            ]
+          },
+          {
+            "id": "5aa0618f4d7643fba5fb84a93708d4a9",
+            "name": "Advanced Micro Devices, Inc.",
+            "domains": [
+              "amd.com"
+            ],
+            "symbols": [
+              "AMD",
+              "AMD.DE",
+              "AMD.SW"
+            ]
+          },
+          {
+            "id": "1bcd4db27ac3458fa1d7276acdd15c3c",
+            "name": "Piper Sandler Companies",
+            "domains": [
+              "pipersandler.com"
+            ],
+            "symbols": [
+              "PIPR"
+            ]
+          },
+          {
+            "id": "5985872d662c4a3f941a9c581a9fce71",
+            "name": "Apple Inc.",
+            "domains": [
+              "apple.com"
+            ],
+            "symbols": [
+              "APC.F",
+              "APC.DE",
+              "AAPL",
+              "AAPL.MX",
+              "AAPL.NE",
+              "AAPL.DE"
+            ]
+          },
+          {
+            "id": "1e91ceea04e04d43aacf8d32114b5b5f",
+            "name": "QUALCOMM Incorporated",
+            "domains": [
+              "qualcomm.com"
+            ],
+            "symbols": [
+              "QCI.DE",
+              "QCOM"
+            ]
+          },
+          {
+            "id": "94bbd0512cd04cc4b7041d78d9d4cf73",
+            "name": "NVIDIA Corporation",
+            "domains": [
+              "nvidia.com"
+            ],
+            "symbols": [
+              "NVD.DE",
+              "NVD.F",
+              "NVDA",
+              "NVDA.NE"
+            ]
+          },
+          {
+            "id": "eeee660a046242b8bf99f45fdc95cc32",
+            "name": "Tesla, Inc.",
+            "domains": [
+              "tesla.com"
+            ],
+            "symbols": [
+              "TL0.DE",
+              "TSLA",
+              "TSLA.NE"
+            ]
+          },
+          {
+            "id": "f1d262a1353b4567858f806721fe8cb8",
+            "name": "Google",
+            "domains": [
+              "about.google"
+            ],
+            "symbols": []
+          }
+        ],
+        "sentiment": {
+          "positive": 0.4655539,
+          "negative": 0.10387911,
+          "neutral": 0.430567
+        },
+        "summary": "Intel's 14A chipmaking process is reportedly being considered by major tech companies including Amazon, Apple, AMD, Google, Tesla, Microsoft, Nvidia and Qualcomm. Piper Sandler research note stated that major US chip companies are interested in Intel's 14 A process due to Intel's improving technical results and tight capacity compared to TSMC's N2 or A16 technology. If these discussions lead to production contracts, Intel could have the outside customers needed to support its foundry business. However, no customers have announced a commitment yet. The report suggests that Intel is at least in discussions with the companies it needs to reach. The firm's recent $20 billion share offering could help fund equipment for a 14A fab with a capacity of 20,000 wafer starts per month.",
+        "shortSummary": "Intel's 14A chipmaking process is being evaluated by major companies like Amazon, Apple, Google, and Qualcomm, with potential for production contracts if necessary.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "ad3b4bbb73364ccdb94292ef2f37532f",
+        "places": [],
+        "people": [
+          {
+            "wikidataId": "Q19561225",
+            "name": "Lip-Bu Tan"
+          }
+        ]
+      }
+    ]
+  }
+}

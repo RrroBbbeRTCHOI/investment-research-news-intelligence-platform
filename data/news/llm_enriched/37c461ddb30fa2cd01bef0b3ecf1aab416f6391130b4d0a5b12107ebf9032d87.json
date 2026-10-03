@@ -1,0 +1,113 @@
+{
+  "status": "available",
+  "schema_version": "news_semantic_v3_1",
+  "prompt_version": "news_semantics_v3_1_sentence_grounding",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "content_hash": "37c461ddb30fa2cd01bef0b3ecf1aab416f6391130b4d0a5b12107ebf9032d87",
+  "article_content_hash": "1f1a68e63cf9fffd4eba42498f3cd45419bc7e2960f0b1a27607686a1fa2ce0e",
+  "generated_at": "2026-09-27T18:03:15.027832+00:00",
+  "semantic": {
+    "article_class": "commentary",
+    "is_relevant_candidate": false,
+    "summary_short": "Microsoft co-founder Bill Gates says countries may find it more difficult to agree on global artificial intelligence rules than they did on Cold War-era nuclear arms limitations.",
+    "summary_full": "Microsoft co-founder Bill Gates says countries may find it more difficult to agree on global artificial intelligence rules than they did on Cold War-era nuclear arms limitations.",
+    "primary_country": null,
+    "event_type": "commentary",
+    "event_subtype": "opinion",
+    "countries": [],
+    "entities": [
+      "Bill Gates",
+      "Microsoft"
+    ],
+    "companies_mentioned": [
+      "Microsoft"
+    ],
+    "direct_ticker_candidates": [
+      "MSFT"
+    ],
+    "economic_channels": [],
+    "candidate_indirect_tickers": [],
+    "missing_information": [
+      "Specific regulatory proposals",
+      "Timelines for international AI agreements"
+    ],
+    "research_questions": [
+      "Are there any formal international negotiations currently underway regarding global AI frameworks?"
+    ],
+    "severity_candidate": "Low",
+    "severity_reason": "The article discusses general commentary by Bill Gates on the difficulty of reaching international AI agreements, representing no immediate operational or fundamental change.",
+    "severity_confidence": 0.9,
+    "operational_event": false,
+    "fundamental_change_detected": false,
+    "llm_confidence": 0.95,
+    "citations": [
+      {
+        "field": "summary_short",
+        "quote": "Microsoft co-founder Bill Gates says countries may find it more difficult to agree on global artificial intelligence rules than they did on Cold War-era nuclear arms limitations.",
+        "source_field": "summary"
+      },
+      {
+        "field": "summary_full",
+        "quote": "Microsoft co-founder Bill Gates says countries may find it more difficult to agree on global artificial intelligence rules than they did on Cold War-era nuclear arms limitations.",
+        "source_field": "summary"
+      },
+      {
+        "field": "article_class",
+        "quote": "Bill Gates says global AI framework harder than Cold War nuclear talks",
+        "source_field": "headline"
+      },
+      {
+        "field": "event_type",
+        "quote": "Bill Gates says global AI framework harder than Cold War nuclear talks",
+        "source_field": "headline"
+      },
+      {
+        "field": "event_subtype",
+        "quote": "Microsoft co-founder Bill Gates says countries may find it more difficult to agree on global artificial intelligence rules than they did on Cold War-era nuclear arms limitations.",
+        "source_field": "summary"
+      },
+      {
+        "field": "severity_candidate",
+        "quote": "Microsoft co-founder Bill Gates has warned that reaching an international agreement on artificial intelligence could prove more difficult than Cold War negotiations to limit nuclear weapons, according...",
+        "source_field": "body"
+      },
+      {
+        "field": "operational_event",
+        "quote": "Microsoft co-founder Bill Gates has warned that reaching an international agreement on artificial intelligence could prove more difficult than Cold War negotiations to limit nuclear weapons, according...",
+        "source_field": "body"
+      },
+      {
+        "field": "fundamental_change_detected",
+        "quote": "Microsoft co-founder Bill Gates has warned that reaching an international agreement on artificial intelligence could prove more difficult than Cold War negotiations to limit nuclear weapons, according...",
+        "source_field": "body"
+      },
+      {
+        "field": "direct_ticker_candidates",
+        "quote": "Microsoft co-founder Bill Gates has warned that reaching an international agreement on artificial intelligence could prove more difficult than Cold War negotiations to limit nuclear weapons, according...",
+        "source_field": "body"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "total_tokens": 1217,
+    "estimated_cost_usd": null,
+    "scope": "successful response only; failed-attempt usage unavailable"
+  },
+  "cache_hit": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "success"
+    }
+  ],
+  "attempt_audit_scope": "original enrichment generation; cache reuse makes no new requests",
+  "attempt_count": 1,
+  "retry_count": 0,
+  "fallback_used": false
+}

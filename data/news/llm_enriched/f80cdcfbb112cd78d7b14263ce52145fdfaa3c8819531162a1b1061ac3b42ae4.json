@@ -1,0 +1,132 @@
+{
+  "status": "available",
+  "schema_version": "news_semantic_v3_1",
+  "prompt_version": "news_semantics_v3_1_sentence_grounding",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "content_hash": "f80cdcfbb112cd78d7b14263ce52145fdfaa3c8819531162a1b1061ac3b42ae4",
+  "article_content_hash": "eb6d61291b597f08840884344e9b1ae539a488ff03630bd0ca6aca3ea1cfd808",
+  "generated_at": "2026-09-27T16:45:06.766081+00:00",
+  "semantic": {
+    "article_class": "regulatory_event",
+    "is_relevant_candidate": true,
+    "summary_short": "Bill Gates joins calls for AI safeguards, including legislation",
+    "summary_full": "Bill Gates joins calls for AI safeguards, including legislation. “No one thinks self-regulation is enough,” Microsoft co-founder says.",
+    "primary_country": "United States",
+    "event_type": "regulatory_event",
+    "event_subtype": "regulatory_proposal",
+    "countries": [
+      "United States"
+    ],
+    "entities": [
+      "Bill Gates",
+      "Congress",
+      "Microsoft"
+    ],
+    "companies_mentioned": [
+      "Microsoft"
+    ],
+    "direct_ticker_candidates": [
+      "MSFT"
+    ],
+    "economic_channels": [
+      "regulatory"
+    ],
+    "candidate_indirect_tickers": [],
+    "missing_information": [
+      "Specific legislative bills or timelines under discussion"
+    ],
+    "research_questions": [
+      "What specific legislative proposals on AI safeguards are currently being introduced in Congress?"
+    ],
+    "severity_candidate": "Low",
+    "severity_reason": "The article discusses commentary and calls for legislation by a prominent figure rather than an enacted law or direct operational disruption.",
+    "severity_confidence": 0.8,
+    "operational_event": false,
+    "fundamental_change_detected": false,
+    "llm_confidence": 0.9,
+    "citations": [
+      {
+        "field": "summary_short",
+        "quote": "Bill Gates joins calls for AI safeguards, including legislation",
+        "source_field": "headline"
+      },
+      {
+        "field": "summary_full",
+        "quote": "Bill Gates joins calls for AI safeguards, including legislation",
+        "source_field": "headline"
+      },
+      {
+        "field": "summary_full",
+        "quote": "“No one thinks self-regulation is enough,” Microsoft co-founder says.",
+        "source_field": "summary"
+      },
+      {
+        "field": "primary_country",
+        "quote": "Congress",
+        "source_field": "body"
+      },
+      {
+        "field": "event_type",
+        "quote": "legislation",
+        "source_field": "headline"
+      },
+      {
+        "field": "event_subtype",
+        "quote": "legislation",
+        "source_field": "headline"
+      },
+      {
+        "field": "article_class",
+        "quote": "legislation",
+        "source_field": "headline"
+      },
+      {
+        "field": "economic_channels",
+        "quote": "legislation",
+        "source_field": "headline"
+      },
+      {
+        "field": "severity_candidate",
+        "quote": "legislation",
+        "source_field": "headline"
+      },
+      {
+        "field": "operational_event",
+        "quote": "legislation",
+        "source_field": "headline"
+      },
+      {
+        "field": "fundamental_change_detected",
+        "quote": "legislation",
+        "source_field": "headline"
+      },
+      {
+        "field": "direct_ticker_candidates",
+        "quote": "Microsoft",
+        "source_field": "headline"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "total_tokens": 1111,
+    "estimated_cost_usd": null,
+    "scope": "successful response only; failed-attempt usage unavailable"
+  },
+  "cache_hit": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "success"
+    }
+  ],
+  "attempt_audit_scope": "original enrichment generation; cache reuse makes no new requests",
+  "attempt_count": 1,
+  "retry_count": 0,
+  "fallback_used": false
+}

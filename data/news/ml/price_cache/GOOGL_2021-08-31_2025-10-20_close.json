@@ -1,0 +1,13 @@
+{
+  "provider": "yfinance/Yahoo Finance",
+  "ticker": "GOOGL",
+  "start": "2021-08-31",
+  "end_exclusive": "2025-10-20",
+  "auto_adjust": false,
+  "back_adjust": false,
+  "repair": false,
+  "column": "Close",
+  "downloaded_at": "2026-09-20T05:12:58.107535+00:00",
+  "yfinance_version": "1.2.0",
+  "sha256": "743055dd0c97e4a4c8f5280a4210a7c7d29d439615437ad788963a676eba9d6e"
+}

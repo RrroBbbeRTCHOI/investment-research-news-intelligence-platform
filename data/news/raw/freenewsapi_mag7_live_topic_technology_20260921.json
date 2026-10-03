@@ -1,0 +1,98 @@
+{
+  "_ingestion": {
+    "provider": "freenewsapi",
+    "query_name": "mag7_live_topic_technology_20260921",
+    "fetched_at": "2026-09-21T02:51:44.015542+00:00",
+    "request_params": {
+      "topic": "technology",
+      "language": "en",
+      "country": "us"
+    }
+  },
+  "raw_response": {
+    "data": [
+      {
+        "uuid": "d1ce402a-1254-4f72-afc7-b4c86a9069d6",
+        "title": "Stellar Blade \"Switch 2 vs. PS5\" graphics and framerate comparison",
+        "published_at": "2026-09-21T02:21:27.000Z",
+        "publisher": "GoNintendo"
+      },
+      {
+        "uuid": "6e330833-6052-405e-bcba-8f57ff937692",
+        "title": "Lufia is finally coming to PC for the first time ever",
+        "published_at": "2026-09-21T02:06:49.000Z",
+        "publisher": "well-played.com.au"
+      },
+      {
+        "uuid": "1ad64d53-2922-4e3f-8be0-61a78647e112",
+        "title": "Good News: Trumpet player sings National Anthem after horn malfunction",
+        "published_at": "2026-09-20T23:02:44.000Z",
+        "publisher": "Yahoo"
+      },
+      {
+        "uuid": "b91f69d0-2f6f-47e5-b269-0a4847f04634",
+        "title": "Final Fantasy 7 Revelation Director Teases Playthroughs Will Take Completionists 'Over 100 Hours' to Beat",
+        "published_at": "2026-09-20T20:52:44.000Z",
+        "publisher": "IGN"
+      },
+      {
+        "uuid": "1b402b3b-0109-4c50-a926-1c7d690a2bc9",
+        "title": "14 Quirky Mini Gadgets That Make Great Gifts",
+        "published_at": "2026-09-20T20:30:00.000Z",
+        "publisher": "SlashGear"
+      },
+      {
+        "uuid": "46b5db65-b43a-4969-92e8-932e0bbed50b",
+        "title": "Which Nvidia GPU Is Equivalent To The PlayStation 5 Pro?",
+        "published_at": "2026-09-20T19:47:00.000Z",
+        "publisher": "bgr.com"
+      },
+      {
+        "uuid": "1994edcb-7f13-45ef-bc64-6d8e436ce716",
+        "title": "Beloved Super Nintendo JRPG Receives Its First Re-Release But It’s The Sequel You Gotta Get Excited For",
+        "published_at": "2026-09-20T19:34:44.000Z",
+        "publisher": "Kotaku"
+      },
+      {
+        "uuid": "37539590-03fd-466e-b3c1-b87bf651f067",
+        "title": "Arm drop pods - Space Marine reinforcements are coming to 40k in a new round of pre-orders",
+        "published_at": "2026-09-20T19:13:49.000Z",
+        "publisher": "wargamer.com"
+      },
+      {
+        "uuid": "018e8fdb-5e05-43c2-91f6-54a5407c1c11",
+        "title": "My 13-year-old refused to share his location with me. I was annoyed — until I realized he had a point.",
+        "published_at": "2026-09-20T18:55:26.000Z",
+        "publisher": "Business Insider"
+      },
+      {
+        "uuid": "bcbe8321-9e1d-47c1-8278-c11e6d3cda6c",
+        "title": "The US discusses the approach of the AI singularity — The Hill",
+        "published_at": "2026-09-20T18:35:26.000Z",
+        "publisher": "UA.NEWS"
+      }
+    ],
+    "meta": {
+      "page_size": 10,
+      "returned": 10,
+      "has_more": true,
+      "order_by": "recent",
+      "filters": {
+        "published_after": null,
+        "published_before": null,
+        "language": "en",
+        "country": "US",
+        "topic": "technology",
+        "publisher_uuid": null,
+        "author_uuid": null,
+        "q": null,
+        "in_title": null,
+        "in_body": null,
+        "in_subtitle": null
+      },
+      "offset": 0,
+      "next_offset": 10,
+      "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6IjAyNGM2OGViOTM3N2ZmYTU0NmE2MWU2ZTFmOGU1YmFkZGYwY2VhNzNiNGQ5MzA2MzRmYmMzNDQ3MTk1MTUxMWQiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDktMjBUMTg6MzU6MjYuMDAwWiIsImxhc3RfaWQiOjI5Mzk2MDAyfQ"
+    }
+  }
+}

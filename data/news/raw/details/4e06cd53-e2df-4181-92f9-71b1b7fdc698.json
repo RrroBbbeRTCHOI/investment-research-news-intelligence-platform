@@ -1,0 +1,42 @@
+{
+  "_ingestion": {
+    "provider": "freenewsapi",
+    "endpoint": "details",
+    "article_uuid": "4e06cd53-e2df-4181-92f9-71b1b7fdc698",
+    "fetched_at": "2026-09-21T02:54:15.964836+00:00"
+  },
+  "raw_response": {
+    "data": {
+      "uuid": "4e06cd53-e2df-4181-92f9-71b1b7fdc698",
+      "title": "Missing Carnival Panorama passenger jumped overboard off Mexico's coast",
+      "thumbnail": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/03/1024/512/the-carnival-panorama-cruise-ship-itinerary-changes.jpg?ve=1&tl=1",
+      "publisher": "Fox News",
+      "authors": [
+        "Landon Mion"
+      ],
+      "topics": [
+        "business",
+        "travel"
+      ],
+      "countries": [
+        "AU",
+        "CA",
+        "GH",
+        "IE",
+        "KE",
+        "NG",
+        "NZ",
+        "UG",
+        "US",
+        "ZA"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-09-21T01:17:24.000Z",
+      "original_url": "https://www.foxnews.com/travel/missing-carnival-panorama-passenger-jumped-overboard-mexicos-coast",
+      "incipit": "NEWYou can now listen to Fox News articles! A passenger traveling on a Carnival Panorama cruise jumped overboard as the ship was wrapping up the last full day of a week-long sailing.The cruise departed Long...",
+      "body": "NEW You can now listen to Fox News articles! A passenger traveling on a Carnival Panorama cruise jumped overboard as the ship was wrapping up the last full day of a week-long sailing. The cruise departed Long Beach, California, on September 13 and was headed back there from Puerto Vallarta, Mexico , when a male passenger jumped overboard, according to the cruise line. \"Carnival Cruise Line confirmed Saturday that a male guest aboard Carnival Panorama jumped overboard while the ship was sailing from Puerto Vallarta, Mexico to Long Beach, California,\" a Carnival Cruise Line spokesperson told Fox News Digital. CRUISE PASSENGER HAILED AS HERO AFTER JUMPING INTO WATER TO SAVE 84-YEAR-OLD MAN A passenger traveling on a Carnival Panorama cruise jumped overboard as the ship was wrapping up the last full day of a week-long sailing. (Brittany Murray/MediaNews Group/Long Beach Press-Telegram) \"When notified of a missing guest, the ship's team initiated search and investigation procedures, including reviewing CCTV footage and notifying both the U.S. and Mexico Coast Guards,\" the statement continued. The spokesperson said the company is providing support to the family who was traveling with the guest. \"Our thoughts and prayers are with them and their loved ones,\" the statement reads. CARNIVAL CRUISE PASSENGER, 67, FOUND DEAD WHILE SNORKELING OFF THE COAST OF AUSTRALIA DURING EXCURSION Carnival Panorama sails near Los Cabos, Baja California Sur, Mexico, on Aug. 3, 2023. (ALFREDO ESTRELLA/AFP via Getty Images) According to a Reddit user who said they were aboard the sailing, announcements regarding a missing guest were heard at around 11 a.m. on Saturday. Carnival Panorama had departed from its last port of call on the sail, Puerto Vallarta, at 8 p.m. on Thursday. The call for the missing guest was repeated several times over the next several hours. At about 3 p.m., the ship reportedly turned around. Another announcement was made at about 3:30 p.m. that there would be a shipwide search, and all guests were told to return to their staterooms. Security visited each of the staterooms to scan guests' ship identification cards, which is a standard procedure in the event of a search. Carnival Panorama had departed from its last port of call on the sail, Puerto Vallarta, at 8 p.m. on Thursday. (Brittany Murray/MediaNews Group/Long Beach Press-Telegram via Getty Images) An hour later, another announcement suggested the search was continuing, and guests were instructed to remain in their staterooms. At around 5 p.m., the captain and cruise director said the guest had been confirmed overboard after a review of onboard cameras, adding that local authorities would continue the search and rescue operation and guests were no longer required to stay in their staterooms. CLICK HERE TO DOWNLOAD THE FOX NEWS APP The family and traveling companions of the missing guest were notified of his disappearance and were offered support from the care team. Shortly after 7 p.m., guests were told that the ship was expected to reach Long Beach at 9 a.m. Fox News' Jessica Mekles contributed to this report."
+    }
+  }
+}

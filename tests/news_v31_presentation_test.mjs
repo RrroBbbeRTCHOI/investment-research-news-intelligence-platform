@@ -1,0 +1,18 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+const source=await readFile(new URL('../static/js/news_presentation.js',import.meta.url),'utf8');
+const {present}=await import('data:text/javascript;base64,'+Buffer.from(source).toString('base64'));
+const event={title:'Nvidia commentary',feed:{state:'surface'},severity:{level:'Low'}};
+const ticker={ticker:'NVDA',relationship_type:'direct_company_subject',qualification:'qualified_direct_company_subject',relevance:{level:'High',relationship_score:.15},quantitative:{relevance:{value:.45,contributions:{mention:.1,direct_subject:.35}}}};
+const view=present(event,ticker);
+assert.equal(view.metrics[0][1],'High / 0.45 heuristic');
+assert.ok(!JSON.stringify(view.scores).includes('0.15'));
+assert.ok(!JSON.stringify(view.scores).includes('Relationship policy score'));
+assert.deepEqual(view.components.relationship,ticker.quantitative.relevance.contributions);
+const missing=present(event,{...ticker,quantitative:undefined});
+assert.equal(missing.metrics[0][1],'High / Unavailable');
+assert.ok(!JSON.stringify(missing.scores).includes('0.15'));
+const ui=await readFile(new URL('../static/js/news_ui.js',import.meta.url),'utf8');
+assert.ok(ui.includes('Not P(relevant), expected return, or financial impact.'));
+assert.ok(ui.includes('Qualitative source-quality policy tier; not a calibrated probability'));
+console.log('PASS V3.1 primary quantitative relevance, no legacy competitor, null clarity and policy disclosure.');

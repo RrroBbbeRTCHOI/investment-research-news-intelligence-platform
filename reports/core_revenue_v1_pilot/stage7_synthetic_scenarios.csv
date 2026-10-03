@@ -1,0 +1,10 @@
+scenario,synthetic_only,purity,recognition,score,status,reason
+high_purity_high_recognition,True,100,95,97.0,EXPERIMENTAL_CANDIDATE_NOT_PRODUCTION,Uncalibrated proposal; no official EQ integration or investment rating.
+recognition_zero_not_masked,True,100,0,,MANUAL_REVIEW_REQUIRED,Recognition below experimental 50-point review gate; composite withheld.
+recognition_below_review_gate,True,100,49,,MANUAL_REVIEW_REQUIRED,Recognition below experimental 50-point review gate; composite withheld.
+recognition_at_review_gate,True,100,50,70.0,EXPERIMENTAL_CANDIDATE_NOT_PRODUCTION,Uncalibrated proposal; no official EQ integration or investment rating.
+purity_low_recognition_high,True,60,95,81.0,EXPERIMENTAL_CANDIDATE_NOT_PRODUCTION,Uncalibrated proposal; no official EQ integration or investment rating.
+recognition_missing,True,100,,,NOT_SCORED,"Source-located, independently reviewed recognition assessment is mandatory."
+purity_missing,True,,95,,NOT_SCORED,Independently reviewed operating/non-core revenue split is missing.
+AR_investigation_open,True,100,95,,NOT_SCORED,Trade-AR investigation remains unresolved; not an automatic deduction.
+material_recognition_issue,True,100,95,,MANUAL_REVIEW_REQUIRED,Confirmed material recognition issue; no automatic CRQ score.

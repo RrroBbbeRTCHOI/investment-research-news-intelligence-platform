@@ -1,0 +1,128 @@
+{
+  "status": "available",
+  "schema_version": "news_semantic_v3_1",
+  "prompt_version": "news_semantics_v3_1_sentence_grounding",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "content_hash": "9b782560d78cc7b70abbc4f4f109ea7d2c9a95df672a9c2a9a428ef1a3561de7",
+  "article_content_hash": "89c239505149f3886b58c382adc2e34fa2d3a0f90518367ec5aa6a398985521a",
+  "generated_at": "2026-09-25T14:47:49.886277+00:00",
+  "semantic": {
+    "article_class": "commentary",
+    "is_relevant_candidate": false,
+    "summary_short": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+    "summary_full": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+    "primary_country": "United States",
+    "event_type": "corporate_commentary",
+    "event_subtype": "executive_interview",
+    "countries": [
+      "United States",
+      "United Kingdom"
+    ],
+    "entities": [
+      "Jensen Huang",
+      "King Charles",
+      "Trump",
+      "Dario Amodei",
+      "Sam Altman"
+    ],
+    "companies_mentioned": [
+      "Nvidia",
+      "Anthropic",
+      "OpenAI"
+    ],
+    "direct_ticker_candidates": [
+      "NVDA"
+    ],
+    "economic_channels": [
+      "sentiment"
+    ],
+    "candidate_indirect_tickers": [],
+    "missing_information": [],
+    "research_questions": [],
+    "severity_candidate": "Low",
+    "severity_reason": "The article discusses executive commentary and opinions regarding AI safety debates rather than any operational disruption or fundamental change.",
+    "severity_confidence": 0.9,
+    "operational_event": false,
+    "fundamental_change_detected": false,
+    "llm_confidence": 1.0,
+    "citations": [
+      {
+        "field": "summary_short",
+        "quote": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+        "source_field": "body"
+      },
+      {
+        "field": "summary_full",
+        "quote": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+        "source_field": "body"
+      },
+      {
+        "field": "primary_country",
+        "quote": "CBS News, the BBC's US partner",
+        "source_field": "body"
+      },
+      {
+        "field": "event_type",
+        "quote": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+        "source_field": "body"
+      },
+      {
+        "field": "event_subtype",
+        "quote": "Huang said in an interview with CBS News",
+        "source_field": "body"
+      },
+      {
+        "field": "article_class",
+        "quote": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+        "source_field": "body"
+      },
+      {
+        "field": "economic_channels",
+        "quote": "Scaring people is unnecessary. It is irresponsible.",
+        "source_field": "body"
+      },
+      {
+        "field": "severity_candidate",
+        "quote": "Scaring people is unnecessary. It is irresponsible.",
+        "source_field": "body"
+      },
+      {
+        "field": "operational_event",
+        "quote": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+        "source_field": "body"
+      },
+      {
+        "field": "fundamental_change_detected",
+        "quote": "Nvidia CEO Jensen Huang has described warnings that AI could lead to humanity's extinction by the next decade as \"doomsday narratives\".",
+        "source_field": "body"
+      },
+      {
+        "field": "direct_ticker_candidates",
+        "quote": "Nvidia",
+        "source_field": "body"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "total_tokens": 1679,
+    "estimated_cost_usd": null,
+    "scope": "successful response only; failed-attempt usage unavailable"
+  },
+  "cache_hit": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "success"
+    }
+  ],
+  "attempt_audit_scope": "original enrichment generation; cache reuse makes no new requests",
+  "attempt_count": 1,
+  "retry_count": 0,
+  "fallback_used": false
+}

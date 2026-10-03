@@ -1,0 +1,4122 @@
+{
+  "schema_version": "news_research_v3",
+  "generated_at": "2026-09-25T14:41:11.626772+00:00",
+  "knowledge": {
+    "status": "loaded",
+    "workbook": "MAG7_News_Intelligence_Exposure_Knowledge_Layer_V1.xlsx",
+    "edge_count": 27,
+    "message": "Loaded raw exposure rows; each match still requires evidence and temporal checks."
+  },
+  "policies": {
+    "direction": "Analyst judgment required",
+    "severity": "article_severity_policy_v2",
+    "priority": "attention_policy_v2",
+    "historical_ml_role": "optional_retrospective_context_only",
+    "v3": "Candidate extraction never directly qualifies exposure; source-grounding is not fact verification."
+  },
+  "articles": [
+    {
+      "article_id": "stress_v1_ST01_dfbdde28ff504f1ea3e07aa83382d063",
+      "headline": "Divided Fed holds interest rates steady, but three members voted to hike",
+      "source": "cnbc.com",
+      "article_url": "https://www.cnbc.com/2026/07/29/fed-rate-decision-july-2026.html",
+      "gate": {
+        "article_id": "stress_v1_ST01_dfbdde28ff504f1ea3e07aa83382d063",
+        "is_event": true,
+        "gate_reason": "Asserted rate_decision event: Divided Fed holds interest rates steady,",
+        "gate_confidence": 0.8
+      },
+      "event": {
+        "event_id": "evt_b311185c775f15ab0395df59",
+        "canonical_event_id": "evt_b311185c775f15ab0395df59",
+        "article_ids": [
+          "stress_v1_ST01_dfbdde28ff504f1ea3e07aa83382d063"
+        ],
+        "source_count": 1,
+        "independent_source_count": 1,
+        "first_seen_at": "2026-07-29T18:22:11.429671+00:00",
+        "last_seen_at": "2026-07-29T18:22:11.429671+00:00",
+        "published_at_first": "2026-07-29T18:00:17+00:00",
+        "event_start_at": null,
+        "event_end_at": null,
+        "time_precision": "unknown",
+        "event_status": "developing",
+        "primary_country": null,
+        "affected_countries": [],
+        "primary_region": null,
+        "affected_regions": [],
+        "city": null,
+        "location_name": null,
+        "latitude": null,
+        "longitude": null,
+        "location_confidence": null,
+        "event_type": "macro_monetary",
+        "event_subtype": "rate_decision",
+        "severity_score": null,
+        "severity_confidence": null,
+        "scope": null,
+        "duration_class": "unknown",
+        "event_novelty": null,
+        "physical_damage": null,
+        "production_disruption": null,
+        "capacity_disruption": null,
+        "logistics_disruption": null,
+        "port_disruption": null,
+        "power_disruption": null,
+        "network_disruption": null,
+        "cloud_service_disruption": null,
+        "labor_disruption": null,
+        "supply_shortage": null,
+        "regulatory_change": null,
+        "export_restriction": null,
+        "import_restriction": null,
+        "price_change_explicit": null,
+        "demand_change_explicit": null,
+        "companies_mentioned": [],
+        "tickers_mentioned": [],
+        "suppliers_mentioned": [],
+        "customers_mentioned": [],
+        "industries_mentioned": [],
+        "products_mentioned": [],
+        "technologies_mentioned": [],
+        "commodities_mentioned": [],
+        "government_entities": [
+          "Federal Reserve"
+        ],
+        "regulators": [
+          "Federal Reserve"
+        ],
+        "people_mentioned": [],
+        "supply_channel": null,
+        "demand_channel": null,
+        "cost_channel": null,
+        "revenue_channel": null,
+        "margin_channel": null,
+        "capex_channel": null,
+        "financing_channel": null,
+        "interest_rate_channel": true,
+        "fx_channel": null,
+        "commodity_channel": null,
+        "logistics_channel": null,
+        "energy_channel": null,
+        "regulatory_channel": null,
+        "legal_channel": null,
+        "technology_channel": null,
+        "competition_channel": null,
+        "source_quality": null,
+        "extraction_confidence": 0.7,
+        "confirmation_level": "single_source",
+        "evidence_fields": {
+          "event_type": {
+            "value": "macro_monetary",
+            "evidence": "Divided Fed holds interest rates steady,",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "event_subtype": {
+            "value": "rate_decision",
+            "evidence": "Divided Fed holds interest rates steady,",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "event_summary": {
+            "value": "Divided Fed holds interest rates steady,",
+            "evidence": "Divided Fed holds interest rates steady,",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "keywords": {
+            "value": [
+              "rate_decision"
+            ],
+            "evidence": "Divided Fed holds interest rates steady,",
+            "source_field": "headline",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "Divided Fed holds interest rates steady,",
+                "source_field": "headline"
+              }
+            ]
+          },
+          "canonical_headline": {
+            "value": "Divided Fed holds interest rates steady, but three members voted to hike",
+            "evidence": "Divided Fed holds interest rates steady, but three members voted to hike",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "independent_source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "event_status": {
+            "value": "developing",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "confirmation_level": {
+            "value": "single_source",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "extraction_confidence": {
+            "value": 0.7,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "published_at_first": {
+            "value": "2026-07-29T18:00:17+00:00",
+            "evidence": "2026-07-29T18:00:17+00:00",
+            "source_field": "published_at",
+            "basis": "provider_metadata"
+          },
+          "first_seen_at": {
+            "value": "2026-07-29T18:22:11.429671+00:00",
+            "evidence": "2026-07-29T18:22:11.429671+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "last_seen_at": {
+            "value": "2026-07-29T18:22:11.429671+00:00",
+            "evidence": "2026-07-29T18:22:11.429671+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "interest_rate_channel": {
+            "value": true,
+            "evidence": "Divided Fed holds interest rates steady,",
+            "source_field": "headline",
+            "basis": "article_text",
+            "assertion": "affirmed"
+          },
+          "government_entities": {
+            "value": [
+              "Federal Reserve"
+            ],
+            "evidence": "The Federal Reserve on Wednesday released its latest interest rate decision.",
+            "source_field": "summary",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "The Federal Reserve on Wednesday released its latest interest rate decision.",
+                "source_field": "summary"
+              }
+            ]
+          },
+          "regulators": {
+            "value": [
+              "Federal Reserve"
+            ],
+            "evidence": "The Federal Reserve on Wednesday released its latest interest rate decision.",
+            "source_field": "summary",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "The Federal Reserve on Wednesday released its latest interest rate decision.",
+                "source_field": "summary"
+              }
+            ]
+          }
+        },
+        "canonical_headline": "Divided Fed holds interest rates steady, but three members voted to hike",
+        "event_summary": "Divided Fed holds interest rates steady,",
+        "keywords": [
+          "rate_decision"
+        ],
+        "created_at": "2026-09-25T14:41:11.626772+00:00",
+        "updated_at": "2026-09-25T14:41:11.626772+00:00",
+        "schema_version": "event_v1",
+        "country": null,
+        "region": null,
+        "location_basis": "unresolved",
+        "coordinate_precision": null
+      },
+      "candidate_channels": [
+        {
+          "channel_family": "interest_rates",
+          "channel_subtype": "unspecified",
+          "confidence": 0.75,
+          "basis": [
+            "interest_rate_channel"
+          ],
+          "status": "candidate"
+        }
+      ],
+      "ticker_analysis": [],
+      "edge_exclusions": [
+        {
+          "event_id": "evt_b311185c775f15ab0395df59",
+          "edge_id": "4",
+          "reason": "non_operating_capacity"
+        },
+        {
+          "event_id": "evt_b311185c775f15ab0395df59",
+          "edge_id": "13",
+          "reason": "future_known_at"
+        },
+        {
+          "event_id": "evt_b311185c775f15ab0395df59",
+          "edge_id": "19",
+          "reason": "blocked_or_hypothesis_evidence"
+        },
+        {
+          "event_id": "evt_b311185c775f15ab0395df59",
+          "edge_id": "21",
+          "reason": "future_known_at"
+        }
+      ],
+      "status": "macro_event",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "macro_event",
+      "published_at": "2026-07-29T18:00:17+00:00",
+      "geography": {
+        "event_country": null,
+        "event_region": null,
+        "event_city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "location_confidence": null,
+        "coordinate_basis": null,
+        "evidence": [],
+        "coordinate_precision": null
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Unknown; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      },
+      "enrichment": {
+        "status": "unavailable",
+        "reason": "provider_disabled",
+        "provider": "none",
+        "model": "",
+        "requested_model": "",
+        "schema_version": "news_semantic_v3_1",
+        "prompt_version": "news_semantics_v3_1_sentence_grounding",
+        "semantic": null,
+        "cache_hit": false,
+        "attempts": [],
+        "attempt_count": 0,
+        "retry_count": 0,
+        "fallback_used": false,
+        "point_in_time_note": "Generated at the recorded enrichment time; not evidence the AI output was available when the article was published. Exposure eligibility still uses the original article replay time."
+      },
+      "semantic_validation": {
+        "status": "unavailable",
+        "accepted": {},
+        "rejections": [],
+        "candidate_relationships": []
+      },
+      "classification_assessment": {
+        "candidates": {
+          "article_class": null,
+          "event_type": null,
+          "event_subtype": null,
+          "operational_event": null,
+          "fundamental_change_detected": null
+        },
+        "source_grounded_candidates": {},
+        "final": {
+          "article_class": "macro_event",
+          "event_type": "macro_monetary",
+          "event_subtype": "rate_decision"
+        },
+        "authority": "existing deterministic classification; candidate fields never override final fields"
+      },
+      "article_summary": {
+        "summary_short": null,
+        "summary_full": null,
+        "source": "unavailable",
+        "notice": "AI summary of the supplied article; not independent verification."
+      },
+      "severity_assessment": {
+        "severity_candidate": null,
+        "severity_reason": null,
+        "severity_confidence": null,
+        "severity_final": "Unknown",
+        "severity_source": "rule",
+        "validation": "LLM candidate retained for audit; final severity requires the existing non-negated article rules.",
+        "rule_evidence": []
+      },
+      "feed": {
+        "state": "surface",
+        "reason": "Potential macro, technology or economic transmission event."
+      }
+    },
+    {
+      "article_id": "stress_v1_ST02_0b7de0537f3b48d6bcfdc39bd0da406d",
+      "headline": "Consumer prices rose 0.4% in August, as expected; core inflation was higher than estimated",
+      "source": "cnbc.com",
+      "article_url": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
+      "gate": {
+        "article_id": "stress_v1_ST02_0b7de0537f3b48d6bcfdc39bd0da406d",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_b188264c3ef53ce05f89",
+        "event_type": "general_news",
+        "event_subtype": "general_news",
+        "published_at_first": "2026-09-11T12:32:19+00:00",
+        "country": null,
+        "region": null,
+        "city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "coordinate_precision": null,
+        "primary_country": null
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "general_news",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "general_news",
+      "published_at": "2026-09-11T12:32:19+00:00",
+      "geography": {
+        "event_country": null,
+        "event_region": null,
+        "event_city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "location_confidence": null,
+        "coordinate_basis": null,
+        "evidence": [],
+        "coordinate_precision": null
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Unknown; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      },
+      "enrichment": {
+        "status": "unavailable",
+        "reason": "provider_disabled",
+        "provider": "none",
+        "model": "",
+        "requested_model": "",
+        "schema_version": "news_semantic_v3_1",
+        "prompt_version": "news_semantics_v3_1_sentence_grounding",
+        "semantic": null,
+        "cache_hit": false,
+        "attempts": [],
+        "attempt_count": 0,
+        "retry_count": 0,
+        "fallback_used": false,
+        "point_in_time_note": "Generated at the recorded enrichment time; not evidence the AI output was available when the article was published. Exposure eligibility still uses the original article replay time."
+      },
+      "semantic_validation": {
+        "status": "unavailable",
+        "accepted": {},
+        "rejections": [],
+        "candidate_relationships": []
+      },
+      "classification_assessment": {
+        "candidates": {
+          "article_class": null,
+          "event_type": null,
+          "event_subtype": null,
+          "operational_event": null,
+          "fundamental_change_detected": null
+        },
+        "source_grounded_candidates": {},
+        "final": {
+          "article_class": "general_news",
+          "event_type": "general_news",
+          "event_subtype": "general_news"
+        },
+        "authority": "existing deterministic classification; candidate fields never override final fields"
+      },
+      "article_summary": {
+        "summary_short": null,
+        "summary_full": null,
+        "source": "unavailable",
+        "notice": "AI summary of the supplied article; not independent verification."
+      },
+      "severity_assessment": {
+        "severity_candidate": null,
+        "severity_reason": null,
+        "severity_confidence": null,
+        "severity_final": "Unknown",
+        "severity_source": "rule",
+        "validation": "LLM candidate retained for audit; final severity requires the existing non-negated article rules.",
+        "rule_evidence": []
+      },
+      "feed": {
+        "state": "surface",
+        "reason": "Potential macro, technology or economic transmission event."
+      }
+    },
+    {
+      "article_id": "stress_v1_ST03_5964056afdd442d698678f1e5bbbfc3b",
+      "headline": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+      "source": "finance.yahoo.com",
+      "article_url": "https://finance.yahoo.com/technology/ai/articles/nvidia-tightens-asian-customer-approvals-105148051.html?_guc_consent_skip=1784028465",
+      "gate": {
+        "article_id": "stress_v1_ST03_5964056afdd442d698678f1e5bbbfc3b",
+        "is_event": true,
+        "gate_reason": "Asserted export_controls event: Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+        "gate_confidence": 0.8
+      },
+      "event": {
+        "event_id": "evt_c71ac002104d07309f1945d0",
+        "canonical_event_id": "evt_c71ac002104d07309f1945d0",
+        "article_ids": [
+          "stress_v1_ST03_5964056afdd442d698678f1e5bbbfc3b"
+        ],
+        "source_count": 1,
+        "independent_source_count": 1,
+        "first_seen_at": "2026-07-14T12:14:02.516660+00:00",
+        "last_seen_at": "2026-07-14T12:14:02.516660+00:00",
+        "published_at_first": "2026-07-14T10:51:48+00:00",
+        "event_start_at": null,
+        "event_end_at": null,
+        "time_precision": "unknown",
+        "event_status": "developing",
+        "primary_country": null,
+        "affected_countries": [
+          "United States"
+        ],
+        "primary_region": null,
+        "affected_regions": [],
+        "city": null,
+        "location_name": null,
+        "latitude": null,
+        "longitude": null,
+        "location_confidence": 0.65,
+        "event_type": "trade_export_control",
+        "event_subtype": "export_controls",
+        "severity_score": null,
+        "severity_confidence": null,
+        "scope": null,
+        "duration_class": "unknown",
+        "event_novelty": null,
+        "physical_damage": null,
+        "production_disruption": null,
+        "capacity_disruption": null,
+        "logistics_disruption": null,
+        "port_disruption": null,
+        "power_disruption": null,
+        "network_disruption": null,
+        "cloud_service_disruption": null,
+        "labor_disruption": null,
+        "supply_shortage": null,
+        "regulatory_change": null,
+        "export_restriction": null,
+        "import_restriction": null,
+        "price_change_explicit": null,
+        "demand_change_explicit": null,
+        "companies_mentioned": [
+          "NVIDIA"
+        ],
+        "tickers_mentioned": [
+          "NVDA"
+        ],
+        "suppliers_mentioned": [],
+        "customers_mentioned": [],
+        "industries_mentioned": [],
+        "products_mentioned": [],
+        "technologies_mentioned": [],
+        "commodities_mentioned": [],
+        "government_entities": [],
+        "regulators": [],
+        "people_mentioned": [],
+        "supply_channel": null,
+        "demand_channel": null,
+        "cost_channel": null,
+        "revenue_channel": null,
+        "margin_channel": null,
+        "capex_channel": null,
+        "financing_channel": null,
+        "interest_rate_channel": null,
+        "fx_channel": null,
+        "commodity_channel": null,
+        "logistics_channel": null,
+        "energy_channel": null,
+        "regulatory_channel": true,
+        "legal_channel": null,
+        "technology_channel": true,
+        "competition_channel": null,
+        "source_quality": null,
+        "extraction_confidence": 0.7,
+        "confirmation_level": "single_source",
+        "evidence_fields": {
+          "event_type": {
+            "value": "trade_export_control",
+            "evidence": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "event_subtype": {
+            "value": "export_controls",
+            "evidence": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "event_summary": {
+            "value": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+            "evidence": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "keywords": {
+            "value": [
+              "export_controls"
+            ],
+            "evidence": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+            "source_field": "headline",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+                "source_field": "headline"
+              }
+            ]
+          },
+          "canonical_headline": {
+            "value": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+            "evidence": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "independent_source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "event_status": {
+            "value": "developing",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "confirmation_level": {
+            "value": "single_source",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "extraction_confidence": {
+            "value": 0.7,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "published_at_first": {
+            "value": "2026-07-14T10:51:48+00:00",
+            "evidence": "2026-07-14T10:51:48+00:00",
+            "source_field": "published_at",
+            "basis": "provider_metadata"
+          },
+          "first_seen_at": {
+            "value": "2026-07-14T12:14:02.516660+00:00",
+            "evidence": "2026-07-14T12:14:02.516660+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "last_seen_at": {
+            "value": "2026-07-14T12:14:02.516660+00:00",
+            "evidence": "2026-07-14T12:14:02.516660+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "affected_countries": {
+            "value": [
+              "United States"
+            ],
+            "evidence": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+            "source_field": "headline",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+                "source_field": "headline"
+              }
+            ],
+            "mapping_basis": [
+              {
+                "stated": "US",
+                "country": "United States"
+              }
+            ]
+          },
+          "primary_country": {
+            "value": "United States",
+            "evidence": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+            "source_field": "headline",
+            "basis": "article_location_or_policy_actor"
+          },
+          "location_confidence": {
+            "value": 0.65,
+            "evidence": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+            "source_field": "headline",
+            "basis": "heuristic_from_article"
+          },
+          "regulatory_channel": {
+            "value": true,
+            "evidence": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+            "source_field": "headline",
+            "basis": "article_text",
+            "assertion": "affirmed"
+          },
+          "technology_channel": {
+            "value": true,
+            "evidence": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+            "source_field": "headline",
+            "basis": "article_text",
+            "assertion": "affirmed"
+          },
+          "companies_mentioned": {
+            "value": [
+              "NVIDIA"
+            ],
+            "evidence": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensif",
+            "source_field": "headline",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensif",
+                "source_field": "headline"
+              }
+            ]
+          },
+          "tickers_mentioned": {
+            "value": [
+              "NVDA"
+            ],
+            "evidence": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensif",
+            "source_field": "headline",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensif",
+                "source_field": "headline"
+              }
+            ]
+          }
+        },
+        "canonical_headline": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+        "event_summary": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+        "keywords": [
+          "export_controls"
+        ],
+        "created_at": "2026-09-25T14:41:11.626772+00:00",
+        "updated_at": "2026-09-25T14:41:11.626772+00:00",
+        "schema_version": "event_v1",
+        "country": null,
+        "region": null,
+        "location_basis": "unresolved",
+        "coordinate_precision": null
+      },
+      "candidate_channels": [
+        {
+          "channel_family": "regulatory_general",
+          "channel_subtype": "unspecified",
+          "confidence": 0.75,
+          "basis": [
+            "regulatory_channel"
+          ],
+          "status": "candidate"
+        },
+        {
+          "channel_family": "technology_demand",
+          "channel_subtype": "unspecified",
+          "confidence": 0.75,
+          "basis": [
+            "technology_channel"
+          ],
+          "status": "candidate"
+        },
+        {
+          "channel_family": "regulatory_export",
+          "channel_subtype": "unspecified",
+          "confidence": 0.75,
+          "basis": [
+            "event_subtype",
+            "event_type"
+          ],
+          "status": "candidate"
+        }
+      ],
+      "ticker_analysis": [
+        {
+          "ticker": "NVDA",
+          "qualification": "candidate_requires_review",
+          "relationship_type": "direct_mention",
+          "direct_mention": true,
+          "relevance_score": 0.15,
+          "relevance_level": "Mention only",
+          "relevance_components": {
+            "values": {
+              "direct_mention": 1.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0
+            },
+            "contributions": {
+              "direct_mention": 0.15,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0
+            }
+          },
+          "score_method": "relationship_components_v1",
+          "legacy_relevance_score": 0.15,
+          "score_interpretation": "Uncalibrated relationship policy score, not a probability or impact estimate.",
+          "economic_channels": [],
+          "relationship_paths": [],
+          "evidence": [],
+          "evidence_strength": {
+            "relationship_level": "Mention only",
+            "basis": "existing exposure-record curation status",
+            "independently_verified": false,
+            "article_confirmation": "single_source",
+            "article_source_quality": null,
+            "article_source": "finance.yahoo.com",
+            "article_url": "https://finance.yahoo.com/technology/ai/articles/nvidia-tightens-asian-customer-approvals-105148051.html?_guc_consent_skip=1784028465",
+            "note": "Curator-verified relationship is not independent confirmation of this event or its financial impact."
+          },
+          "article_evidence": {
+            "event_type": {
+              "value": "trade_export_control",
+              "evidence": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+              "source_field": "headline",
+              "basis": "article_text"
+            },
+            "event_subtype": {
+              "value": "export_controls",
+              "evidence": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+              "source_field": "headline",
+              "basis": "article_text"
+            },
+            "event_summary": {
+              "value": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+              "evidence": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+              "source_field": "headline",
+              "basis": "article_text"
+            },
+            "keywords": {
+              "value": [
+                "export_controls"
+              ],
+              "evidence": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+              "source_field": "headline",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+                  "source_field": "headline"
+                }
+              ]
+            },
+            "canonical_headline": {
+              "value": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+              "evidence": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+              "source_field": "headline",
+              "basis": "article_text"
+            },
+            "source_count": {
+              "value": 1,
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "independent_source_count": {
+              "value": 1,
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "event_status": {
+              "value": "developing",
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "confirmation_level": {
+              "value": "single_source",
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "extraction_confidence": {
+              "value": 0.7,
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "published_at_first": {
+              "value": "2026-07-14T10:51:48+00:00",
+              "evidence": "2026-07-14T10:51:48+00:00",
+              "source_field": "published_at",
+              "basis": "provider_metadata"
+            },
+            "first_seen_at": {
+              "value": "2026-07-14T12:14:02.516660+00:00",
+              "evidence": "2026-07-14T12:14:02.516660+00:00",
+              "source_field": "fetched_at",
+              "basis": "provider_metadata"
+            },
+            "last_seen_at": {
+              "value": "2026-07-14T12:14:02.516660+00:00",
+              "evidence": "2026-07-14T12:14:02.516660+00:00",
+              "source_field": "fetched_at",
+              "basis": "provider_metadata"
+            },
+            "affected_countries": {
+              "value": [
+                "United States"
+              ],
+              "evidence": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+              "source_field": "headline",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+                  "source_field": "headline"
+                }
+              ],
+              "mapping_basis": [
+                {
+                  "stated": "US",
+                  "country": "United States"
+                }
+              ]
+            },
+            "primary_country": {
+              "value": "United States",
+              "evidence": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+              "source_field": "headline",
+              "basis": "article_location_or_policy_actor"
+            },
+            "location_confidence": {
+              "value": 0.65,
+              "evidence": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+              "source_field": "headline",
+              "basis": "heuristic_from_article"
+            },
+            "regulatory_channel": {
+              "value": true,
+              "evidence": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+              "source_field": "headline",
+              "basis": "article_text",
+              "assertion": "affirmed"
+            },
+            "technology_channel": {
+              "value": true,
+              "evidence": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensify (NVDA)",
+              "source_field": "headline",
+              "basis": "article_text",
+              "assertion": "affirmed"
+            },
+            "companies_mentioned": {
+              "value": [
+                "NVIDIA"
+              ],
+              "evidence": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensif",
+              "source_field": "headline",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensif",
+                  "source_field": "headline"
+                }
+              ]
+            },
+            "tickers_mentioned": {
+              "value": [
+                "NVDA"
+              ],
+              "evidence": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensif",
+              "source_field": "headline",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "Nvidia Tightens Asian Customer Approvals as US Chip Export Controls Intensif",
+                  "source_field": "headline"
+                }
+              ]
+            }
+          },
+          "temporal_status": {
+            "status": "no_qualified_edge",
+            "as_of": "2026-07-14T12:14:02.516660+00:00",
+            "article_availability_known": true,
+            "source_dates_independently_verified": false,
+            "note": "Composite or revised sources require per-fact historical provenance review."
+          },
+          "materiality": {
+            "level": "Unknown",
+            "status": "unquantified",
+            "factors": {
+              "event_severity": null,
+              "exposure": []
+            },
+            "missing_evidence": [
+              "Validated event-specific exposure scale and segment impact"
+            ],
+            "note": "Severity, exposure band and research priority do not establish financial materiality."
+          },
+          "historical_reaction": {
+            "status": "unavailable",
+            "probability": null,
+            "predictions": [],
+            "reason": "No explicit article-to-case mapping supplied.",
+            "disclosure": "Experimental historical association only. Not directional or causal. Retrospective OOS results may use historical backfill; not a live prediction.",
+            "used_for_relevance": false,
+            "used_for_priority": false
+          },
+          "research_priority": {
+            "level": "Review",
+            "score": null,
+            "method": "attention_policy_v2",
+            "reason": "Relationship Mention only; severity Unknown; evidence Mention only.",
+            "interpretation": "Analyst attention only. No direction, expected return or ML input."
+          },
+          "direction": "Analyst judgment required",
+          "explanation": "NVDA is mentioned in the article; no qualified exposure match was found.",
+          "next_questions": [
+            "Verify the original event report and whether later updates changed the facts.",
+            "Determine whether the named company is an affected party or merely an observer.",
+            "Find a sourced, temporally valid economic relationship before treating this as qualified exposure."
+          ],
+          "relevance": {
+            "level": "Mention only",
+            "relationship_score": 0.15,
+            "reason": "NVDA is mentioned in the article; no qualified exposure match was found.",
+            "interpretation": "Uncalibrated relationship policy score; not probability or expected return."
+          },
+          "evidence_assessment": {
+            "level": "Mention only",
+            "reason": "existing exposure-record curation status"
+          },
+          "financial_materiality": {
+            "level": "Insufficient evidence",
+            "reason": "No validated event-specific financial amount/denominator established.",
+            "legacy": {
+              "level": "Unknown",
+              "status": "unquantified",
+              "factors": {
+                "event_severity": null,
+                "exposure": []
+              },
+              "missing_evidence": [
+                "Validated event-specific exposure scale and segment impact"
+              ],
+              "note": "Severity, exposure band and research priority do not establish financial materiality."
+            }
+          },
+          "historical_context": {
+            "available": false,
+            "disclosure": "Retrospective context only; not a live directional prediction.",
+            "details": {
+              "status": "unavailable",
+              "probability": null,
+              "predictions": [],
+              "reason": "No explicit article-to-case mapping supplied.",
+              "disclosure": "Experimental historical association only. Not directional or causal. Retrospective OOS results may use historical backfill; not a live prediction.",
+              "used_for_relevance": false,
+              "used_for_priority": false
+            }
+          },
+          "quantitative": {
+            "relevance": {
+              "value": 0.1,
+              "kind": "normalized_heuristic",
+              "method": "weighted_supported_relationship_terms_v3",
+              "weights": {
+                "mention": 0.1,
+                "direct_subject": 0.35,
+                "eligible_edge": 0.35,
+                "channel": 0.1,
+                "country": 0.05,
+                "counterparty": 0.05
+              },
+              "inputs": {
+                "mention": 1.0,
+                "direct_subject": 0.0,
+                "eligible_edge": 0.0,
+                "channel": 0.0,
+                "country": 0.0,
+                "counterparty": 0.0
+              },
+              "contributions": {
+                "mention": 0.1,
+                "direct_subject": 0.0,
+                "eligible_edge": 0.0,
+                "channel": 0.0,
+                "country": 0.0,
+                "counterparty": 0.0
+              },
+              "interpretation": "Not P(relevant); not calibrated or a financial-impact estimate."
+            },
+            "confidence": {
+              "value": null,
+              "kind": "qualitative_evidence_components",
+              "source_quality_policy_notice": "Qualitative source-quality policy tier; not a calibrated probability, truth probability, statistical accuracy estimate, or model confidence.",
+              "source_quality": "Unknown",
+              "extraction_self_assessment": null,
+              "relationship_evidence_quality": "Mention only",
+              "interpretation": "Qualitative source policy and relationship evidence; extraction confidence is uncalibrated model self-assessment, not factual accuracy. No composite probability or confidence score is computed."
+            },
+            "time_decay": {
+              "value": 4.559864688501824e-08,
+              "age_hours": 1755.823229658889,
+              "half_life_hours": 72.0,
+              "lambda_per_hour": 0.009627044174443685,
+              "as_of": "2026-09-25T14:41:11.626772+00:00",
+              "interpretation": "Recency factor, not causal impact; future/invalid publication time gives null."
+            },
+            "impact": {
+              "value": null,
+              "magnitude": null,
+              "directional_exposure": null,
+              "surprise": null,
+              "reason": "Event-specific magnitude, direction and surprise not established."
+            }
+          }
+        }
+      ],
+      "edge_exclusions": [
+        {
+          "event_id": "evt_c71ac002104d07309f1945d0",
+          "edge_id": "4",
+          "reason": "non_operating_capacity"
+        },
+        {
+          "event_id": "evt_c71ac002104d07309f1945d0",
+          "edge_id": "13",
+          "reason": "future_known_at"
+        },
+        {
+          "event_id": "evt_c71ac002104d07309f1945d0",
+          "edge_id": "19",
+          "reason": "blocked_or_hypothesis_evidence"
+        },
+        {
+          "event_id": "evt_c71ac002104d07309f1945d0",
+          "edge_id": "21",
+          "reason": "future_known_at"
+        }
+      ],
+      "status": "actionable_event",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "actionable_event",
+      "published_at": "2026-07-14T10:51:48+00:00",
+      "geography": {
+        "event_country": null,
+        "event_region": null,
+        "event_city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "location_confidence": null,
+        "coordinate_basis": null,
+        "evidence": [],
+        "coordinate_precision": null
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship Mention only; severity Unknown; evidence Mention only.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      },
+      "enrichment": {
+        "status": "unavailable",
+        "reason": "provider_disabled",
+        "provider": "none",
+        "model": "",
+        "requested_model": "",
+        "schema_version": "news_semantic_v3_1",
+        "prompt_version": "news_semantics_v3_1_sentence_grounding",
+        "semantic": null,
+        "cache_hit": false,
+        "attempts": [],
+        "attempt_count": 0,
+        "retry_count": 0,
+        "fallback_used": false,
+        "point_in_time_note": "Generated at the recorded enrichment time; not evidence the AI output was available when the article was published. Exposure eligibility still uses the original article replay time."
+      },
+      "semantic_validation": {
+        "status": "unavailable",
+        "accepted": {},
+        "rejections": [],
+        "candidate_relationships": []
+      },
+      "classification_assessment": {
+        "candidates": {
+          "article_class": null,
+          "event_type": null,
+          "event_subtype": null,
+          "operational_event": null,
+          "fundamental_change_detected": null
+        },
+        "source_grounded_candidates": {},
+        "final": {
+          "article_class": "actionable_event",
+          "event_type": "trade_export_control",
+          "event_subtype": "export_controls"
+        },
+        "authority": "existing deterministic classification; candidate fields never override final fields"
+      },
+      "article_summary": {
+        "summary_short": null,
+        "summary_full": null,
+        "source": "unavailable",
+        "notice": "AI summary of the supplied article; not independent verification."
+      },
+      "severity_assessment": {
+        "severity_candidate": null,
+        "severity_reason": null,
+        "severity_confidence": null,
+        "severity_final": "Unknown",
+        "severity_source": "rule",
+        "validation": "LLM candidate retained for audit; final severity requires the existing non-negated article rules.",
+        "rule_evidence": []
+      },
+      "feed": {
+        "state": "surface",
+        "reason": "Watchlist company explicitly mentioned; qualification is separate."
+      }
+    },
+    {
+      "article_id": "stress_v1_ST04_c1099c00ab9449058b3e7776c401a008",
+      "headline": "US Probes Apex Logistics Over Alleged Nvidia AI Chip Smuggling",
+      "source": "bloomberg.com",
+      "article_url": "https://www.bloomberg.com/news/articles/2026-08-27/us-probes-apex-logistics-over-alleged-nvidia-ai-chip-smuggling?srnd=phx-ai",
+      "gate": {
+        "article_id": "stress_v1_ST04_c1099c00ab9449058b3e7776c401a008",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_20564b7274c8efa92841",
+        "event_type": "general_news",
+        "event_subtype": "general_news",
+        "published_at_first": "2026-08-27T03:54:17.955000+00:00",
+        "country": "United States",
+        "region": null,
+        "city": null,
+        "latitude": 39.538479,
+        "longitude": -97.482602,
+        "location_basis": "explicit_article_location",
+        "coordinate_precision": "country_approximation",
+        "primary_country": "United States"
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [
+        {
+          "ticker": "NVDA",
+          "qualification": "candidate_requires_review",
+          "relationship_type": "direct_mention",
+          "relevance_score": 0.15,
+          "relevance_level": "Mention only",
+          "evidence": [],
+          "economic_channels": [],
+          "relationship_paths": [],
+          "evidence_strength": {
+            "relationship_level": "Mention only"
+          },
+          "materiality": {
+            "level": "Unknown"
+          },
+          "historical_reaction": {
+            "status": "unavailable",
+            "reason": "No compatible archived event binding.",
+            "predictions": []
+          },
+          "explanation": "Company is mentioned; no qualified relationship established.",
+          "next_questions": [],
+          "relevance": {
+            "level": "Mention only",
+            "relationship_score": 0.15,
+            "reason": "Company is mentioned; no qualified relationship established.",
+            "interpretation": "Uncalibrated relationship policy score; not probability or expected return."
+          },
+          "evidence_assessment": {
+            "level": "Mention only",
+            "reason": "Curated relationship evidence; article confirmation remains separate."
+          },
+          "financial_materiality": {
+            "level": "Insufficient evidence",
+            "reason": "No validated event-specific financial amount/denominator established.",
+            "legacy": {
+              "level": "Unknown"
+            }
+          },
+          "research_priority": {
+            "level": "Review",
+            "score": null,
+            "method": "attention_policy_v2",
+            "reason": "Relationship Mention only; severity Unknown; evidence Mention only.",
+            "interpretation": "Analyst attention only. No direction, expected return or ML input."
+          },
+          "historical_context": {
+            "available": false,
+            "disclosure": "Retrospective context only; not a live directional prediction.",
+            "details": {
+              "status": "unavailable",
+              "reason": "No compatible archived event binding.",
+              "predictions": []
+            }
+          },
+          "direction": "Analyst judgment required",
+          "quantitative": {
+            "relevance": {
+              "value": 0.1,
+              "kind": "normalized_heuristic",
+              "method": "weighted_supported_relationship_terms_v3",
+              "weights": {
+                "mention": 0.1,
+                "direct_subject": 0.35,
+                "eligible_edge": 0.35,
+                "channel": 0.1,
+                "country": 0.05,
+                "counterparty": 0.05
+              },
+              "inputs": {
+                "mention": 1.0,
+                "direct_subject": 0.0,
+                "eligible_edge": 0.0,
+                "channel": 0.0,
+                "country": 0.0,
+                "counterparty": 0.0
+              },
+              "contributions": {
+                "mention": 0.1,
+                "direct_subject": 0.0,
+                "eligible_edge": 0.0,
+                "channel": 0.0,
+                "country": 0.0,
+                "counterparty": 0.0
+              },
+              "interpretation": "Not P(relevant); not calibrated or a financial-impact estimate."
+            },
+            "confidence": {
+              "value": null,
+              "kind": "qualitative_evidence_components",
+              "source_quality_policy_notice": "Qualitative source-quality policy tier; not a calibrated probability, truth probability, statistical accuracy estimate, or model confidence.",
+              "source_quality": "Unknown",
+              "extraction_self_assessment": null,
+              "relationship_evidence_quality": "Mention only",
+              "interpretation": "Qualitative source policy and relationship evidence; extraction confidence is uncalibrated model self-assessment, not factual accuracy. No composite probability or confidence score is computed."
+            },
+            "time_decay": {
+              "value": 0.0011090877494005186,
+              "age_hours": 706.7815754922221,
+              "half_life_hours": 72.0,
+              "lambda_per_hour": 0.009627044174443685,
+              "as_of": "2026-09-25T14:41:11.626772+00:00",
+              "interpretation": "Recency factor, not causal impact; future/invalid publication time gives null."
+            },
+            "impact": {
+              "value": null,
+              "magnitude": null,
+              "directional_exposure": null,
+              "surprise": null,
+              "reason": "Event-specific magnitude, direction and surprise not established."
+            }
+          }
+        }
+      ],
+      "edge_exclusions": [],
+      "status": "general_news",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "general_news",
+      "published_at": "2026-08-27T03:54:17.955000+00:00",
+      "geography": {
+        "event_country": "United States",
+        "event_region": null,
+        "event_city": null,
+        "latitude": 39.538479,
+        "longitude": -97.482602,
+        "location_basis": "explicit_article_location",
+        "location_confidence": "Article-supported country; exact site unresolved",
+        "coordinate_basis": "Natural Earth country label point (existing map)",
+        "evidence": [
+          {
+            "country": "United States",
+            "city": null,
+            "region": null,
+            "source_field": "headline",
+            "evidence": "US Probes Apex Logistics Over Alleged Nvidia AI Chip Smuggling"
+          }
+        ],
+        "coordinate_precision": "country_approximation"
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship Mention only; severity Unknown; evidence Mention only.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      },
+      "enrichment": {
+        "status": "unavailable",
+        "reason": "provider_disabled",
+        "provider": "none",
+        "model": "",
+        "requested_model": "",
+        "schema_version": "news_semantic_v3_1",
+        "prompt_version": "news_semantics_v3_1_sentence_grounding",
+        "semantic": null,
+        "cache_hit": false,
+        "attempts": [],
+        "attempt_count": 0,
+        "retry_count": 0,
+        "fallback_used": false,
+        "point_in_time_note": "Generated at the recorded enrichment time; not evidence the AI output was available when the article was published. Exposure eligibility still uses the original article replay time."
+      },
+      "semantic_validation": {
+        "status": "unavailable",
+        "accepted": {},
+        "rejections": [],
+        "candidate_relationships": []
+      },
+      "classification_assessment": {
+        "candidates": {
+          "article_class": null,
+          "event_type": null,
+          "event_subtype": null,
+          "operational_event": null,
+          "fundamental_change_detected": null
+        },
+        "source_grounded_candidates": {},
+        "final": {
+          "article_class": "general_news",
+          "event_type": "general_news",
+          "event_subtype": "general_news"
+        },
+        "authority": "existing deterministic classification; candidate fields never override final fields"
+      },
+      "article_summary": {
+        "summary_short": null,
+        "summary_full": null,
+        "source": "unavailable",
+        "notice": "AI summary of the supplied article; not independent verification."
+      },
+      "severity_assessment": {
+        "severity_candidate": null,
+        "severity_reason": null,
+        "severity_confidence": null,
+        "severity_final": "Unknown",
+        "severity_source": "rule",
+        "validation": "LLM candidate retained for audit; final severity requires the existing non-negated article rules.",
+        "rule_evidence": []
+      },
+      "feed": {
+        "state": "surface",
+        "reason": "Watchlist company explicitly mentioned; qualification is separate."
+      }
+    },
+    {
+      "article_id": "stress_v1_ST05_904695ffdc3e4a2c872e463cc9003011",
+      "headline": "TSMC Opens Kaohsiung Supplier Campus to Close Packaging Validation Gap",
+      "source": "techtimes.com",
+      "article_url": "https://www.techtimes.com/articles/326313/20260902/tsmc-opens-kaohsiung-supplier-campus-close-packaging-validation-gap.htm",
+      "gate": {
+        "article_id": "stress_v1_ST05_904695ffdc3e4a2c872e463cc9003011",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_8b8de01daf953f197cd0",
+        "event_type": "general_news",
+        "event_subtype": "general_news",
+        "published_at_first": "2026-09-02T10:42:18-04:00",
+        "country": null,
+        "region": null,
+        "city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "coordinate_precision": null,
+        "primary_country": null
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "general_news",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "general_news",
+      "published_at": "2026-09-02T10:42:18-04:00",
+      "geography": {
+        "event_country": null,
+        "event_region": null,
+        "event_city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "location_confidence": null,
+        "coordinate_basis": null,
+        "evidence": [],
+        "coordinate_precision": null
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Unknown; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      },
+      "enrichment": {
+        "status": "unavailable",
+        "reason": "provider_disabled",
+        "provider": "none",
+        "model": "",
+        "requested_model": "",
+        "schema_version": "news_semantic_v3_1",
+        "prompt_version": "news_semantics_v3_1_sentence_grounding",
+        "semantic": null,
+        "cache_hit": false,
+        "attempts": [],
+        "attempt_count": 0,
+        "retry_count": 0,
+        "fallback_used": false,
+        "point_in_time_note": "Generated at the recorded enrichment time; not evidence the AI output was available when the article was published. Exposure eligibility still uses the original article replay time."
+      },
+      "semantic_validation": {
+        "status": "unavailable",
+        "accepted": {},
+        "rejections": [],
+        "candidate_relationships": []
+      },
+      "classification_assessment": {
+        "candidates": {
+          "article_class": null,
+          "event_type": null,
+          "event_subtype": null,
+          "operational_event": null,
+          "fundamental_change_detected": null
+        },
+        "source_grounded_candidates": {},
+        "final": {
+          "article_class": "general_news",
+          "event_type": "general_news",
+          "event_subtype": "general_news"
+        },
+        "authority": "existing deterministic classification; candidate fields never override final fields"
+      },
+      "article_summary": {
+        "summary_short": null,
+        "summary_full": null,
+        "source": "unavailable",
+        "notice": "AI summary of the supplied article; not independent verification."
+      },
+      "severity_assessment": {
+        "severity_candidate": null,
+        "severity_reason": null,
+        "severity_confidence": null,
+        "severity_final": "Unknown",
+        "severity_source": "rule",
+        "validation": "LLM candidate retained for audit; final severity requires the existing non-negated article rules.",
+        "rule_evidence": []
+      },
+      "feed": {
+        "state": "surface",
+        "reason": "Potential macro, technology or economic transmission event."
+      }
+    },
+    {
+      "article_id": "stress_v1_ST06_b4aea7ad2f90413ba77a7be85d1e09a1",
+      "headline": "Microsoft Maia 300 Seeks 300,000 TSMC Units; Nvidia Controls 60% of Packaging Queue",
+      "source": "techtimes.com",
+      "article_url": "https://www.techtimes.com/articles/323878/20260811/microsoft-maia-300-seeks-300000-tsmc-units-nvidia-controls-60-packaging-queue.htm",
+      "gate": {
+        "article_id": "stress_v1_ST06_b4aea7ad2f90413ba77a7be85d1e09a1",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_f05c55bd4a3dc05225c3",
+        "event_type": "general_news",
+        "event_subtype": "general_news",
+        "published_at_first": "2026-08-11T08:17:44-04:00",
+        "country": null,
+        "region": null,
+        "city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "coordinate_precision": null,
+        "primary_country": null
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [
+        {
+          "ticker": "MSFT",
+          "qualification": "candidate_requires_review",
+          "relationship_type": "direct_mention",
+          "relevance_score": 0.15,
+          "relevance_level": "Mention only",
+          "evidence": [],
+          "economic_channels": [],
+          "relationship_paths": [],
+          "evidence_strength": {
+            "relationship_level": "Mention only"
+          },
+          "materiality": {
+            "level": "Unknown"
+          },
+          "historical_reaction": {
+            "status": "unavailable",
+            "reason": "No compatible archived event binding.",
+            "predictions": []
+          },
+          "explanation": "Company is mentioned; no qualified relationship established.",
+          "next_questions": [],
+          "relevance": {
+            "level": "Mention only",
+            "relationship_score": 0.15,
+            "reason": "Company is mentioned; no qualified relationship established.",
+            "interpretation": "Uncalibrated relationship policy score; not probability or expected return."
+          },
+          "evidence_assessment": {
+            "level": "Mention only",
+            "reason": "Curated relationship evidence; article confirmation remains separate."
+          },
+          "financial_materiality": {
+            "level": "Insufficient evidence",
+            "reason": "No validated event-specific financial amount/denominator established.",
+            "legacy": {
+              "level": "Unknown"
+            }
+          },
+          "research_priority": {
+            "level": "Review",
+            "score": null,
+            "method": "attention_policy_v2",
+            "reason": "Relationship Mention only; severity Unknown; evidence Mention only.",
+            "interpretation": "Analyst attention only. No direction, expected return or ML input."
+          },
+          "historical_context": {
+            "available": false,
+            "disclosure": "Retrospective context only; not a live directional prediction.",
+            "details": {
+              "status": "unavailable",
+              "reason": "No compatible archived event binding.",
+              "predictions": []
+            }
+          },
+          "direction": "Analyst judgment required",
+          "quantitative": {
+            "relevance": {
+              "value": 0.1,
+              "kind": "normalized_heuristic",
+              "method": "weighted_supported_relationship_terms_v3",
+              "weights": {
+                "mention": 0.1,
+                "direct_subject": 0.35,
+                "eligible_edge": 0.35,
+                "channel": 0.1,
+                "country": 0.05,
+                "counterparty": 0.05
+              },
+              "inputs": {
+                "mention": 1.0,
+                "direct_subject": 0.0,
+                "eligible_edge": 0.0,
+                "channel": 0.0,
+                "country": 0.0,
+                "counterparty": 0.0
+              },
+              "contributions": {
+                "mention": 0.1,
+                "direct_subject": 0.0,
+                "eligible_edge": 0.0,
+                "channel": 0.0,
+                "country": 0.0,
+                "counterparty": 0.0
+              },
+              "interpretation": "Not P(relevant); not calibrated or a financial-impact estimate."
+            },
+            "confidence": {
+              "value": null,
+              "kind": "qualitative_evidence_components",
+              "source_quality_policy_notice": "Qualitative source-quality policy tier; not a calibrated probability, truth probability, statistical accuracy estimate, or model confidence.",
+              "source_quality": "Unknown",
+              "extraction_self_assessment": null,
+              "relationship_evidence_quality": "Mention only",
+              "interpretation": "Qualitative source policy and relationship evidence; extraction confidence is uncalibrated model self-assessment, not factual accuracy. No composite probability or confidence score is computed."
+            },
+            "time_decay": {
+              "value": 2.9823137408380304e-05,
+              "age_hours": 1082.3910074366668,
+              "half_life_hours": 72.0,
+              "lambda_per_hour": 0.009627044174443685,
+              "as_of": "2026-09-25T14:41:11.626772+00:00",
+              "interpretation": "Recency factor, not causal impact; future/invalid publication time gives null."
+            },
+            "impact": {
+              "value": null,
+              "magnitude": null,
+              "directional_exposure": null,
+              "surprise": null,
+              "reason": "Event-specific magnitude, direction and surprise not established."
+            }
+          }
+        },
+        {
+          "ticker": "NVDA",
+          "qualification": "candidate_requires_review",
+          "relationship_type": "direct_mention",
+          "relevance_score": 0.15,
+          "relevance_level": "Mention only",
+          "evidence": [],
+          "economic_channels": [],
+          "relationship_paths": [],
+          "evidence_strength": {
+            "relationship_level": "Mention only"
+          },
+          "materiality": {
+            "level": "Unknown"
+          },
+          "historical_reaction": {
+            "status": "unavailable",
+            "reason": "No compatible archived event binding.",
+            "predictions": []
+          },
+          "explanation": "Company is mentioned; no qualified relationship established.",
+          "next_questions": [],
+          "relevance": {
+            "level": "Mention only",
+            "relationship_score": 0.15,
+            "reason": "Company is mentioned; no qualified relationship established.",
+            "interpretation": "Uncalibrated relationship policy score; not probability or expected return."
+          },
+          "evidence_assessment": {
+            "level": "Mention only",
+            "reason": "Curated relationship evidence; article confirmation remains separate."
+          },
+          "financial_materiality": {
+            "level": "Insufficient evidence",
+            "reason": "No validated event-specific financial amount/denominator established.",
+            "legacy": {
+              "level": "Unknown"
+            }
+          },
+          "research_priority": {
+            "level": "Review",
+            "score": null,
+            "method": "attention_policy_v2",
+            "reason": "Relationship Mention only; severity Unknown; evidence Mention only.",
+            "interpretation": "Analyst attention only. No direction, expected return or ML input."
+          },
+          "historical_context": {
+            "available": false,
+            "disclosure": "Retrospective context only; not a live directional prediction.",
+            "details": {
+              "status": "unavailable",
+              "reason": "No compatible archived event binding.",
+              "predictions": []
+            }
+          },
+          "direction": "Analyst judgment required",
+          "quantitative": {
+            "relevance": {
+              "value": 0.1,
+              "kind": "normalized_heuristic",
+              "method": "weighted_supported_relationship_terms_v3",
+              "weights": {
+                "mention": 0.1,
+                "direct_subject": 0.35,
+                "eligible_edge": 0.35,
+                "channel": 0.1,
+                "country": 0.05,
+                "counterparty": 0.05
+              },
+              "inputs": {
+                "mention": 1.0,
+                "direct_subject": 0.0,
+                "eligible_edge": 0.0,
+                "channel": 0.0,
+                "country": 0.0,
+                "counterparty": 0.0
+              },
+              "contributions": {
+                "mention": 0.1,
+                "direct_subject": 0.0,
+                "eligible_edge": 0.0,
+                "channel": 0.0,
+                "country": 0.0,
+                "counterparty": 0.0
+              },
+              "interpretation": "Not P(relevant); not calibrated or a financial-impact estimate."
+            },
+            "confidence": {
+              "value": null,
+              "kind": "qualitative_evidence_components",
+              "source_quality_policy_notice": "Qualitative source-quality policy tier; not a calibrated probability, truth probability, statistical accuracy estimate, or model confidence.",
+              "source_quality": "Unknown",
+              "extraction_self_assessment": null,
+              "relationship_evidence_quality": "Mention only",
+              "interpretation": "Qualitative source policy and relationship evidence; extraction confidence is uncalibrated model self-assessment, not factual accuracy. No composite probability or confidence score is computed."
+            },
+            "time_decay": {
+              "value": 2.9823137408380304e-05,
+              "age_hours": 1082.3910074366668,
+              "half_life_hours": 72.0,
+              "lambda_per_hour": 0.009627044174443685,
+              "as_of": "2026-09-25T14:41:11.626772+00:00",
+              "interpretation": "Recency factor, not causal impact; future/invalid publication time gives null."
+            },
+            "impact": {
+              "value": null,
+              "magnitude": null,
+              "directional_exposure": null,
+              "surprise": null,
+              "reason": "Event-specific magnitude, direction and surprise not established."
+            }
+          }
+        }
+      ],
+      "edge_exclusions": [],
+      "status": "general_news",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "general_news",
+      "published_at": "2026-08-11T08:17:44-04:00",
+      "geography": {
+        "event_country": null,
+        "event_region": null,
+        "event_city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "location_confidence": null,
+        "coordinate_basis": null,
+        "evidence": [],
+        "coordinate_precision": null
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship Mention only; severity Unknown; evidence Mention only.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      },
+      "enrichment": {
+        "status": "unavailable",
+        "reason": "provider_disabled",
+        "provider": "none",
+        "model": "",
+        "requested_model": "",
+        "schema_version": "news_semantic_v3_1",
+        "prompt_version": "news_semantics_v3_1_sentence_grounding",
+        "semantic": null,
+        "cache_hit": false,
+        "attempts": [],
+        "attempt_count": 0,
+        "retry_count": 0,
+        "fallback_used": false,
+        "point_in_time_note": "Generated at the recorded enrichment time; not evidence the AI output was available when the article was published. Exposure eligibility still uses the original article replay time."
+      },
+      "semantic_validation": {
+        "status": "unavailable",
+        "accepted": {},
+        "rejections": [],
+        "candidate_relationships": []
+      },
+      "classification_assessment": {
+        "candidates": {
+          "article_class": null,
+          "event_type": null,
+          "event_subtype": null,
+          "operational_event": null,
+          "fundamental_change_detected": null
+        },
+        "source_grounded_candidates": {},
+        "final": {
+          "article_class": "general_news",
+          "event_type": "general_news",
+          "event_subtype": "general_news"
+        },
+        "authority": "existing deterministic classification; candidate fields never override final fields"
+      },
+      "article_summary": {
+        "summary_short": null,
+        "summary_full": null,
+        "source": "unavailable",
+        "notice": "AI summary of the supplied article; not independent verification."
+      },
+      "severity_assessment": {
+        "severity_candidate": null,
+        "severity_reason": null,
+        "severity_confidence": null,
+        "severity_final": "Unknown",
+        "severity_source": "rule",
+        "validation": "LLM candidate retained for audit; final severity requires the existing non-negated article rules.",
+        "rule_evidence": []
+      },
+      "feed": {
+        "state": "surface",
+        "reason": "Watchlist company explicitly mentioned; qualification is separate."
+      }
+    },
+    {
+      "article_id": "stress_v1_ST07_331d0a271d0a4bfe9f3ec9ff1c8152d8",
+      "headline": "Major outage on Amazon Web Services disrupts access to dozens of popular websites, online services",
+      "source": "nypost.com",
+      "article_url": "https://nypost.com/2026/07/24/business/major-outage-on-amazon-web-services-disrupts-access-to-dozens-of-popular-websites-online-services/",
+      "gate": {
+        "article_id": "stress_v1_ST07_331d0a271d0a4bfe9f3ec9ff1c8152d8",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_7f30e80c4becd7ef2107",
+        "event_type": "general_news",
+        "event_subtype": "general_news",
+        "published_at_first": "2026-07-24T15:55:23+00:00",
+        "country": "United States",
+        "region": null,
+        "city": null,
+        "latitude": 39.538479,
+        "longitude": -97.482602,
+        "location_basis": "explicit_article_location",
+        "coordinate_precision": "country_approximation",
+        "primary_country": "United States"
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [
+        {
+          "ticker": "AMZN",
+          "qualification": "candidate_requires_review",
+          "relationship_type": "direct_mention",
+          "relevance_score": 0.15,
+          "relevance_level": "Mention only",
+          "evidence": [],
+          "economic_channels": [],
+          "relationship_paths": [],
+          "evidence_strength": {
+            "relationship_level": "Mention only"
+          },
+          "materiality": {
+            "level": "Unknown"
+          },
+          "historical_reaction": {
+            "status": "unavailable",
+            "reason": "No compatible archived event binding.",
+            "predictions": []
+          },
+          "explanation": "Company is mentioned; no qualified relationship established.",
+          "next_questions": [],
+          "relevance": {
+            "level": "Mention only",
+            "relationship_score": 0.15,
+            "reason": "Company is mentioned; no qualified relationship established.",
+            "interpretation": "Uncalibrated relationship policy score; not probability or expected return."
+          },
+          "evidence_assessment": {
+            "level": "Mention only",
+            "reason": "Curated relationship evidence; article confirmation remains separate."
+          },
+          "financial_materiality": {
+            "level": "Insufficient evidence",
+            "reason": "No validated event-specific financial amount/denominator established.",
+            "legacy": {
+              "level": "Unknown"
+            }
+          },
+          "research_priority": {
+            "level": "Review",
+            "score": null,
+            "method": "attention_policy_v2",
+            "reason": "Relationship Mention only; severity Medium; evidence Mention only.",
+            "interpretation": "Analyst attention only. No direction, expected return or ML input."
+          },
+          "historical_context": {
+            "available": false,
+            "disclosure": "Retrospective context only; not a live directional prediction.",
+            "details": {
+              "status": "unavailable",
+              "reason": "No compatible archived event binding.",
+              "predictions": []
+            }
+          },
+          "direction": "Analyst judgment required",
+          "quantitative": {
+            "relevance": {
+              "value": 0.1,
+              "kind": "normalized_heuristic",
+              "method": "weighted_supported_relationship_terms_v3",
+              "weights": {
+                "mention": 0.1,
+                "direct_subject": 0.35,
+                "eligible_edge": 0.35,
+                "channel": 0.1,
+                "country": 0.05,
+                "counterparty": 0.05
+              },
+              "inputs": {
+                "mention": 1.0,
+                "direct_subject": 0.0,
+                "eligible_edge": 0.0,
+                "channel": 0.0,
+                "country": 0.0,
+                "counterparty": 0.0
+              },
+              "contributions": {
+                "mention": 0.1,
+                "direct_subject": 0.0,
+                "eligible_edge": 0.0,
+                "channel": 0.0,
+                "country": 0.0,
+                "counterparty": 0.0
+              },
+              "interpretation": "Not P(relevant); not calibrated or a financial-impact estimate."
+            },
+            "confidence": {
+              "value": null,
+              "kind": "qualitative_evidence_components",
+              "source_quality_policy_notice": "Qualitative source-quality policy tier; not a calibrated probability, truth probability, statistical accuracy estimate, or model confidence.",
+              "source_quality": "Unknown",
+              "extraction_self_assessment": null,
+              "relationship_evidence_quality": "Mention only",
+              "interpretation": "Qualitative source policy and relationship evidence; extraction confidence is uncalibrated model self-assessment, not factual accuracy. No composite probability or confidence score is computed."
+            },
+            "time_decay": {
+              "value": 4.825472356541316e-07,
+              "age_hours": 1510.7635074366667,
+              "half_life_hours": 72.0,
+              "lambda_per_hour": 0.009627044174443685,
+              "as_of": "2026-09-25T14:41:11.626772+00:00",
+              "interpretation": "Recency factor, not causal impact; future/invalid publication time gives null."
+            },
+            "impact": {
+              "value": null,
+              "magnitude": null,
+              "directional_exposure": null,
+              "surprise": null,
+              "reason": "Event-specific magnitude, direction and surprise not established."
+            }
+          }
+        },
+        {
+          "ticker": "AAPL",
+          "qualification": "candidate_requires_review",
+          "relationship_type": "direct_mention",
+          "relevance_score": 0.15,
+          "relevance_level": "Mention only",
+          "evidence": [],
+          "economic_channels": [],
+          "relationship_paths": [],
+          "evidence_strength": {
+            "relationship_level": "Mention only"
+          },
+          "materiality": {
+            "level": "Unknown"
+          },
+          "historical_reaction": {
+            "status": "unavailable",
+            "reason": "No compatible archived event binding.",
+            "predictions": []
+          },
+          "explanation": "Company is mentioned; no qualified relationship established.",
+          "next_questions": [],
+          "relevance": {
+            "level": "Mention only",
+            "relationship_score": 0.15,
+            "reason": "Company is mentioned; no qualified relationship established.",
+            "interpretation": "Uncalibrated relationship policy score; not probability or expected return."
+          },
+          "evidence_assessment": {
+            "level": "Mention only",
+            "reason": "Curated relationship evidence; article confirmation remains separate."
+          },
+          "financial_materiality": {
+            "level": "Insufficient evidence",
+            "reason": "No validated event-specific financial amount/denominator established.",
+            "legacy": {
+              "level": "Unknown"
+            }
+          },
+          "research_priority": {
+            "level": "Review",
+            "score": null,
+            "method": "attention_policy_v2",
+            "reason": "Relationship Mention only; severity Medium; evidence Mention only.",
+            "interpretation": "Analyst attention only. No direction, expected return or ML input."
+          },
+          "historical_context": {
+            "available": false,
+            "disclosure": "Retrospective context only; not a live directional prediction.",
+            "details": {
+              "status": "unavailable",
+              "reason": "No compatible archived event binding.",
+              "predictions": []
+            }
+          },
+          "direction": "Analyst judgment required",
+          "quantitative": {
+            "relevance": {
+              "value": 0.1,
+              "kind": "normalized_heuristic",
+              "method": "weighted_supported_relationship_terms_v3",
+              "weights": {
+                "mention": 0.1,
+                "direct_subject": 0.35,
+                "eligible_edge": 0.35,
+                "channel": 0.1,
+                "country": 0.05,
+                "counterparty": 0.05
+              },
+              "inputs": {
+                "mention": 1.0,
+                "direct_subject": 0.0,
+                "eligible_edge": 0.0,
+                "channel": 0.0,
+                "country": 0.0,
+                "counterparty": 0.0
+              },
+              "contributions": {
+                "mention": 0.1,
+                "direct_subject": 0.0,
+                "eligible_edge": 0.0,
+                "channel": 0.0,
+                "country": 0.0,
+                "counterparty": 0.0
+              },
+              "interpretation": "Not P(relevant); not calibrated or a financial-impact estimate."
+            },
+            "confidence": {
+              "value": null,
+              "kind": "qualitative_evidence_components",
+              "source_quality_policy_notice": "Qualitative source-quality policy tier; not a calibrated probability, truth probability, statistical accuracy estimate, or model confidence.",
+              "source_quality": "Unknown",
+              "extraction_self_assessment": null,
+              "relationship_evidence_quality": "Mention only",
+              "interpretation": "Qualitative source policy and relationship evidence; extraction confidence is uncalibrated model self-assessment, not factual accuracy. No composite probability or confidence score is computed."
+            },
+            "time_decay": {
+              "value": 4.825472356541316e-07,
+              "age_hours": 1510.7635074366667,
+              "half_life_hours": 72.0,
+              "lambda_per_hour": 0.009627044174443685,
+              "as_of": "2026-09-25T14:41:11.626772+00:00",
+              "interpretation": "Recency factor, not causal impact; future/invalid publication time gives null."
+            },
+            "impact": {
+              "value": null,
+              "magnitude": null,
+              "directional_exposure": null,
+              "surprise": null,
+              "reason": "Event-specific magnitude, direction and surprise not established."
+            }
+          }
+        }
+      ],
+      "edge_exclusions": [],
+      "status": "general_news",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "general_news",
+      "published_at": "2026-07-24T15:55:23+00:00",
+      "geography": {
+        "event_country": "United States",
+        "event_region": null,
+        "event_city": null,
+        "latitude": 39.538479,
+        "longitude": -97.482602,
+        "location_basis": "explicit_article_location",
+        "location_confidence": "Article-supported country; exact site unresolved",
+        "coordinate_basis": "Natural Earth country label point (existing map)",
+        "evidence": [
+          {
+            "country": "United States",
+            "city": null,
+            "region": null,
+            "source_field": "body",
+            "evidence": "The disruption was caused by connectivity issues in the US-West-2 region in Oregon."
+          }
+        ],
+        "coordinate_precision": "country_approximation"
+      },
+      "severity": {
+        "level": "Medium",
+        "score": 0.5,
+        "components": [
+          {
+            "level": "Medium",
+            "component": "operational_disruption",
+            "evidence": "Amazon Web Services suffered a major outage Friday morning that disrupted access to dozens of popular websites and online services.",
+            "source_field": "summary"
+          },
+          {
+            "level": "Medium",
+            "component": "operational_disruption",
+            "evidence": "Amazon Web Services experienced a major outage early Friday morning, disrupting access to several popular websites and online services.",
+            "source_field": "body"
+          }
+        ],
+        "reason": "Explicit article evidence supports operational_disruption. Scale beyond this evidence is not inferred.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship Mention only; severity Medium; evidence Mention only.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      },
+      "enrichment": {
+        "status": "unavailable",
+        "reason": "provider_disabled",
+        "provider": "none",
+        "model": "",
+        "requested_model": "",
+        "schema_version": "news_semantic_v3_1",
+        "prompt_version": "news_semantics_v3_1_sentence_grounding",
+        "semantic": null,
+        "cache_hit": false,
+        "attempts": [],
+        "attempt_count": 0,
+        "retry_count": 0,
+        "fallback_used": false,
+        "point_in_time_note": "Generated at the recorded enrichment time; not evidence the AI output was available when the article was published. Exposure eligibility still uses the original article replay time."
+      },
+      "semantic_validation": {
+        "status": "unavailable",
+        "accepted": {},
+        "rejections": [],
+        "candidate_relationships": []
+      },
+      "classification_assessment": {
+        "candidates": {
+          "article_class": null,
+          "event_type": null,
+          "event_subtype": null,
+          "operational_event": null,
+          "fundamental_change_detected": null
+        },
+        "source_grounded_candidates": {},
+        "final": {
+          "article_class": "general_news",
+          "event_type": "general_news",
+          "event_subtype": "general_news"
+        },
+        "authority": "existing deterministic classification; candidate fields never override final fields"
+      },
+      "article_summary": {
+        "summary_short": null,
+        "summary_full": null,
+        "source": "unavailable",
+        "notice": "AI summary of the supplied article; not independent verification."
+      },
+      "severity_assessment": {
+        "severity_candidate": null,
+        "severity_reason": null,
+        "severity_confidence": null,
+        "severity_final": "Medium",
+        "severity_source": "rule",
+        "validation": "LLM candidate retained for audit; final severity requires the existing non-negated article rules.",
+        "rule_evidence": [
+          {
+            "level": "Medium",
+            "component": "operational_disruption",
+            "evidence": "Amazon Web Services suffered a major outage Friday morning that disrupted access to dozens of popular websites and online services.",
+            "source_field": "summary"
+          },
+          {
+            "level": "Medium",
+            "component": "operational_disruption",
+            "evidence": "Amazon Web Services experienced a major outage early Friday morning, disrupting access to several popular websites and online services.",
+            "source_field": "body"
+          }
+        ]
+      },
+      "feed": {
+        "state": "surface",
+        "reason": "Watchlist company explicitly mentioned; qualification is separate."
+      }
+    },
+    {
+      "article_id": "stress_v1_ST08_9b901bc54a3a41458f5a01e53c0643a4",
+      "headline": "Microsoft 365 Outage: Azure Maintenance Bug Wiped IP Routes, Taking Down Teams for Hours",
+      "source": "techtimes.com",
+      "article_url": "https://www.techtimes.com/articles/321568/20260725/microsoft-365-outage-azure-maintenance-bug-wiped-ip-routes-taking-down-teams-hours.htm",
+      "gate": {
+        "article_id": "stress_v1_ST08_9b901bc54a3a41458f5a01e53c0643a4",
+        "is_event": true,
+        "gate_reason": "Asserted outage event: The bug affected a West US Azure datacenter from Microsoft's global wide-area network and disrupted Teams, SharePoint, OneDrive, Copilot Chat, and more than a dozen other cloud se",
+        "gate_confidence": 0.8
+      },
+      "event": {
+        "event_id": "evt_1e5df1f3047538c65258470e",
+        "canonical_event_id": "evt_1e5df1f3047538c65258470e",
+        "article_ids": [
+          "stress_v1_ST08_9b901bc54a3a41458f5a01e53c0643a4"
+        ],
+        "source_count": 1,
+        "independent_source_count": 1,
+        "first_seen_at": "2026-07-25T14:36:46.007115+00:00",
+        "last_seen_at": "2026-07-25T14:36:46.007115+00:00",
+        "published_at_first": "2026-07-25T10:27:08-04:00",
+        "event_start_at": null,
+        "event_end_at": null,
+        "time_precision": "unknown",
+        "event_status": "developing",
+        "primary_country": null,
+        "affected_countries": [
+          "United States"
+        ],
+        "primary_region": null,
+        "affected_regions": [],
+        "city": null,
+        "location_name": null,
+        "latitude": null,
+        "longitude": null,
+        "location_confidence": 0.65,
+        "event_type": "infrastructure_outage",
+        "event_subtype": "outage",
+        "severity_score": null,
+        "severity_confidence": null,
+        "scope": null,
+        "duration_class": "unknown",
+        "event_novelty": null,
+        "physical_damage": null,
+        "production_disruption": null,
+        "capacity_disruption": null,
+        "logistics_disruption": null,
+        "port_disruption": null,
+        "power_disruption": null,
+        "network_disruption": null,
+        "cloud_service_disruption": null,
+        "labor_disruption": null,
+        "supply_shortage": null,
+        "regulatory_change": null,
+        "export_restriction": null,
+        "import_restriction": null,
+        "price_change_explicit": null,
+        "demand_change_explicit": null,
+        "companies_mentioned": [
+          "Microsoft"
+        ],
+        "tickers_mentioned": [
+          "MSFT"
+        ],
+        "suppliers_mentioned": [],
+        "customers_mentioned": [],
+        "industries_mentioned": [],
+        "products_mentioned": [
+          "Azure"
+        ],
+        "technologies_mentioned": [],
+        "commodities_mentioned": [],
+        "government_entities": [],
+        "regulators": [],
+        "people_mentioned": [],
+        "supply_channel": null,
+        "demand_channel": null,
+        "cost_channel": null,
+        "revenue_channel": null,
+        "margin_channel": null,
+        "capex_channel": null,
+        "financing_channel": null,
+        "interest_rate_channel": null,
+        "fx_channel": null,
+        "commodity_channel": null,
+        "logistics_channel": null,
+        "energy_channel": null,
+        "regulatory_channel": null,
+        "legal_channel": null,
+        "technology_channel": true,
+        "competition_channel": null,
+        "source_quality": null,
+        "extraction_confidence": 0.7,
+        "confirmation_level": "single_source",
+        "evidence_fields": {
+          "event_type": {
+            "value": "infrastructure_outage",
+            "evidence": "The bug affected a West US Azure datacenter from Microsoft's global wide-area network and disrupted Teams, SharePoint, OneDrive, Copilot Chat, and more than a dozen other cloud se",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_subtype": {
+            "value": "outage",
+            "evidence": "The bug affected a West US Azure datacenter from Microsoft's global wide-area network and disrupted Teams, SharePoint, OneDrive, Copilot Chat, and more than a dozen other cloud se",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_summary": {
+            "value": "The bug affected a West US Azure datacenter from Microsoft's global wide-area network and disrupted Teams, SharePoint, OneDrive, Copilot Chat, and more than a dozen other cloud se",
+            "evidence": "The bug affected a West US Azure datacenter from Microsoft's global wide-area network and disrupted Teams, SharePoint, OneDrive, Copilot Chat, and more than a dozen other cloud se",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "keywords": {
+            "value": [
+              "outage"
+            ],
+            "evidence": "The bug affected a West US Azure datacenter from Microsoft's global wide-area network and disrupted Teams, SharePoint, OneDrive, Copilot Chat, and more than a dozen other cloud se",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "The bug affected a West US Azure datacenter from Microsoft's global wide-area network and disrupted Teams, SharePoint, OneDrive, Copilot Chat, and more than a dozen other cloud se",
+                "source_field": "body"
+              }
+            ]
+          },
+          "canonical_headline": {
+            "value": "Microsoft 365 Outage: Azure Maintenance Bug Wiped IP Routes, Taking Down Teams for Hours",
+            "evidence": "Microsoft 365 Outage: Azure Maintenance Bug Wiped IP Routes, Taking Down Teams for Hours",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "independent_source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "event_status": {
+            "value": "developing",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "confirmation_level": {
+            "value": "single_source",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "extraction_confidence": {
+            "value": 0.7,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "published_at_first": {
+            "value": "2026-07-25T10:27:08-04:00",
+            "evidence": "2026-07-25T10:27:08-04:00",
+            "source_field": "published_at",
+            "basis": "provider_metadata"
+          },
+          "first_seen_at": {
+            "value": "2026-07-25T14:36:46.007115+00:00",
+            "evidence": "2026-07-25T14:36:46.007115+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "last_seen_at": {
+            "value": "2026-07-25T14:36:46.007115+00:00",
+            "evidence": "2026-07-25T14:36:46.007115+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "affected_countries": {
+            "value": [
+              "United States"
+            ],
+            "evidence": "The bug affected a West US Azure datacenter from Microsoft's global wide-area network and disrupted Teams, SharePoint, OneDrive, Copilot Chat, and more than a dozen other cloud se",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "The bug affected a West US Azure datacenter from Microsoft's global wide-area network and disrupted Teams, SharePoint, OneDrive, Copilot Chat, and more than a dozen other cloud se",
+                "source_field": "body"
+              }
+            ],
+            "mapping_basis": [
+              {
+                "stated": "US",
+                "country": "United States"
+              }
+            ]
+          },
+          "primary_country": {
+            "value": "United States",
+            "evidence": "The bug affected a West US Azure datacenter from Microsoft's global wide-area network and disrupted Teams, SharePoint, OneDrive, Copilot Chat, and more than a dozen other cloud services across North America.",
+            "source_field": "body",
+            "basis": "article_location_or_policy_actor"
+          },
+          "location_confidence": {
+            "value": 0.65,
+            "evidence": "The bug affected a West US Azure datacenter from Microsoft's global wide-area network and disrupted Teams, SharePoint, OneDrive, Copilot Chat, and more than a dozen other cloud se",
+            "source_field": "body",
+            "basis": "heuristic_from_article"
+          },
+          "technology_channel": {
+            "value": true,
+            "evidence": "The bug affected a West US Azure datacenter from Microsoft's global wide-area network and disrupted Teams, SharePoint, OneDrive, Copilot Chat, and more than a dozen other cloud se",
+            "source_field": "body",
+            "basis": "article_text",
+            "assertion": "affirmed"
+          },
+          "companies_mentioned": {
+            "value": [
+              "Microsoft"
+            ],
+            "evidence": "Microsoft 365 Outage: Azure Maintenance Bug Wiped IP Routes, Taking Down Teams ",
+            "source_field": "headline",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "Microsoft 365 Outage: Azure Maintenance Bug Wiped IP Routes, Taking Down Teams ",
+                "source_field": "headline"
+              }
+            ]
+          },
+          "tickers_mentioned": {
+            "value": [
+              "MSFT"
+            ],
+            "evidence": "Microsoft 365 Outage: Azure Maintenance Bug Wiped IP Routes, Taking Down Teams ",
+            "source_field": "headline",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "Microsoft 365 Outage: Azure Maintenance Bug Wiped IP Routes, Taking Down Teams ",
+                "source_field": "headline"
+              }
+            ]
+          },
+          "products_mentioned": {
+            "value": [
+              "Azure"
+            ],
+            "evidence": "Microsoft 365 Outage: Azure Maintenance Bug Wiped IP Routes, Taking Down Teams for Hours",
+            "source_field": "headline",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "Microsoft 365 Outage: Azure Maintenance Bug Wiped IP Routes, Taking Down Teams for Hours",
+                "source_field": "headline"
+              }
+            ]
+          }
+        },
+        "canonical_headline": "Microsoft 365 Outage: Azure Maintenance Bug Wiped IP Routes, Taking Down Teams for Hours",
+        "event_summary": "The bug affected a West US Azure datacenter from Microsoft's global wide-area network and disrupted Teams, SharePoint, OneDrive, Copilot Chat, and more than a dozen other cloud se",
+        "keywords": [
+          "outage"
+        ],
+        "created_at": "2026-09-25T14:41:11.626772+00:00",
+        "updated_at": "2026-09-25T14:41:11.626772+00:00",
+        "schema_version": "event_v1",
+        "country": null,
+        "region": null,
+        "location_basis": "unresolved",
+        "coordinate_precision": null
+      },
+      "candidate_channels": [
+        {
+          "channel_family": "technology_demand",
+          "channel_subtype": "unspecified",
+          "confidence": 0.75,
+          "basis": [
+            "technology_channel"
+          ],
+          "status": "candidate"
+        },
+        {
+          "channel_family": "cloud_services",
+          "channel_subtype": "unspecified",
+          "confidence": 0.35,
+          "basis": [
+            "event_type",
+            "products_mentioned"
+          ],
+          "status": "candidate"
+        },
+        {
+          "channel_family": "datacenter_infrastructure",
+          "channel_subtype": "unspecified",
+          "confidence": 0.35,
+          "basis": [
+            "event_summary"
+          ],
+          "status": "candidate"
+        }
+      ],
+      "ticker_analysis": [
+        {
+          "ticker": "MSFT",
+          "qualification": "qualified_exposure",
+          "relationship_type": "direct_exposure_match",
+          "direct_mention": true,
+          "relevance_score": 0.75,
+          "relevance_level": "Qualified exposure",
+          "relevance_components": {
+            "values": {
+              "direct_mention": 1.0,
+              "edge_match": 1.0,
+              "country_match": 1.0,
+              "channel_match": 1.0
+            },
+            "contributions": {
+              "direct_mention": 0.15,
+              "edge_match": 0.3,
+              "country_match": 0.15,
+              "channel_match": 0.15
+            }
+          },
+          "score_method": "relationship_components_v1",
+          "legacy_relevance_score": 0.95,
+          "score_interpretation": "Uncalibrated relationship policy score, not a probability or impact estimate.",
+          "economic_channels": [
+            "datacenter_infrastructure"
+          ],
+          "relationship_paths": [
+            {
+              "edge_id": "11",
+              "ticker": "MSFT",
+              "role": "operator",
+              "counterparty": null,
+              "business": "Azure; Microsoft 365; AI services",
+              "channel": "datacenter_infrastructure",
+              "country": "United States",
+              "match_reasons": [
+                "country_match",
+                "channel_match",
+                "eligible_evidence",
+                "point_in_time_valid",
+                "semantic_compatibility"
+              ]
+            }
+          ],
+          "evidence": [
+            {
+              "edge_id": "11",
+              "ticker": "MSFT",
+              "country": "United States",
+              "channel_family": "datacenter_infrastructure",
+              "channel_subtype": "unspecified",
+              "role": "operator",
+              "product_or_business": "Azure; Microsoft 365; AI services",
+              "counterparty": null,
+              "facility_or_route": "U.S. Azure regions and data-center estate; exact asset-to-site allocation not disclosed",
+              "commodity_or_input": "Data-center capacity; compute; storage; networking",
+              "stage": "operating",
+              "exposure_value": null,
+              "exposure_unit": null,
+              "exposure_band": "high",
+              "evidence_status": "verified",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000156459022026876/msft-10k_20220630.htm",
+              "source_locator": "Microsoft FY2022 Form 10-K, cloud services / data-center infrastructure disclosures",
+              "valid_from": "2010-01-01",
+              "valid_to": null,
+              "known_at_utc": "2022-07-28",
+              "confidence": null,
+              "notes": "Microsoft reports substantial U.S. long-lived assets and operates Azure regions in the United States.",
+              "match_reasons": [
+                "country_match",
+                "channel_match",
+                "eligible_evidence",
+                "point_in_time_valid",
+                "semantic_compatibility"
+              ]
+            }
+          ],
+          "evidence_strength": {
+            "relationship_level": "Strong (curated)",
+            "basis": "existing exposure-record curation status",
+            "independently_verified": false,
+            "article_confirmation": "single_source",
+            "article_source_quality": null,
+            "article_source": "techtimes.com",
+            "article_url": "https://www.techtimes.com/articles/321568/20260725/microsoft-365-outage-azure-maintenance-bug-wiped-ip-routes-taking-down-teams-hours.htm",
+            "note": "Curator-verified relationship is not independent confirmation of this event or its financial impact."
+          },
+          "article_evidence": {
+            "event_type": {
+              "value": "infrastructure_outage",
+              "evidence": "The bug affected a West US Azure datacenter from Microsoft's global wide-area network and disrupted Teams, SharePoint, OneDrive, Copilot Chat, and more than a dozen other cloud se",
+              "source_field": "body",
+              "basis": "article_text"
+            },
+            "event_subtype": {
+              "value": "outage",
+              "evidence": "The bug affected a West US Azure datacenter from Microsoft's global wide-area network and disrupted Teams, SharePoint, OneDrive, Copilot Chat, and more than a dozen other cloud se",
+              "source_field": "body",
+              "basis": "article_text"
+            },
+            "event_summary": {
+              "value": "The bug affected a West US Azure datacenter from Microsoft's global wide-area network and disrupted Teams, SharePoint, OneDrive, Copilot Chat, and more than a dozen other cloud se",
+              "evidence": "The bug affected a West US Azure datacenter from Microsoft's global wide-area network and disrupted Teams, SharePoint, OneDrive, Copilot Chat, and more than a dozen other cloud se",
+              "source_field": "body",
+              "basis": "article_text"
+            },
+            "keywords": {
+              "value": [
+                "outage"
+              ],
+              "evidence": "The bug affected a West US Azure datacenter from Microsoft's global wide-area network and disrupted Teams, SharePoint, OneDrive, Copilot Chat, and more than a dozen other cloud se",
+              "source_field": "body",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "The bug affected a West US Azure datacenter from Microsoft's global wide-area network and disrupted Teams, SharePoint, OneDrive, Copilot Chat, and more than a dozen other cloud se",
+                  "source_field": "body"
+                }
+              ]
+            },
+            "canonical_headline": {
+              "value": "Microsoft 365 Outage: Azure Maintenance Bug Wiped IP Routes, Taking Down Teams for Hours",
+              "evidence": "Microsoft 365 Outage: Azure Maintenance Bug Wiped IP Routes, Taking Down Teams for Hours",
+              "source_field": "headline",
+              "basis": "article_text"
+            },
+            "source_count": {
+              "value": 1,
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "independent_source_count": {
+              "value": 1,
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "event_status": {
+              "value": "developing",
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "confirmation_level": {
+              "value": "single_source",
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "extraction_confidence": {
+              "value": 0.7,
+              "evidence": "V1 single-article extraction default; not independent verification.",
+              "source_field": "pipeline",
+              "basis": "administrative_default"
+            },
+            "published_at_first": {
+              "value": "2026-07-25T10:27:08-04:00",
+              "evidence": "2026-07-25T10:27:08-04:00",
+              "source_field": "published_at",
+              "basis": "provider_metadata"
+            },
+            "first_seen_at": {
+              "value": "2026-07-25T14:36:46.007115+00:00",
+              "evidence": "2026-07-25T14:36:46.007115+00:00",
+              "source_field": "fetched_at",
+              "basis": "provider_metadata"
+            },
+            "last_seen_at": {
+              "value": "2026-07-25T14:36:46.007115+00:00",
+              "evidence": "2026-07-25T14:36:46.007115+00:00",
+              "source_field": "fetched_at",
+              "basis": "provider_metadata"
+            },
+            "affected_countries": {
+              "value": [
+                "United States"
+              ],
+              "evidence": "The bug affected a West US Azure datacenter from Microsoft's global wide-area network and disrupted Teams, SharePoint, OneDrive, Copilot Chat, and more than a dozen other cloud se",
+              "source_field": "body",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "The bug affected a West US Azure datacenter from Microsoft's global wide-area network and disrupted Teams, SharePoint, OneDrive, Copilot Chat, and more than a dozen other cloud se",
+                  "source_field": "body"
+                }
+              ],
+              "mapping_basis": [
+                {
+                  "stated": "US",
+                  "country": "United States"
+                }
+              ]
+            },
+            "primary_country": {
+              "value": "United States",
+              "evidence": "The bug affected a West US Azure datacenter from Microsoft's global wide-area network and disrupted Teams, SharePoint, OneDrive, Copilot Chat, and more than a dozen other cloud services across North America.",
+              "source_field": "body",
+              "basis": "article_location_or_policy_actor"
+            },
+            "location_confidence": {
+              "value": 0.65,
+              "evidence": "The bug affected a West US Azure datacenter from Microsoft's global wide-area network and disrupted Teams, SharePoint, OneDrive, Copilot Chat, and more than a dozen other cloud se",
+              "source_field": "body",
+              "basis": "heuristic_from_article"
+            },
+            "technology_channel": {
+              "value": true,
+              "evidence": "The bug affected a West US Azure datacenter from Microsoft's global wide-area network and disrupted Teams, SharePoint, OneDrive, Copilot Chat, and more than a dozen other cloud se",
+              "source_field": "body",
+              "basis": "article_text",
+              "assertion": "affirmed"
+            },
+            "companies_mentioned": {
+              "value": [
+                "Microsoft"
+              ],
+              "evidence": "Microsoft 365 Outage: Azure Maintenance Bug Wiped IP Routes, Taking Down Teams ",
+              "source_field": "headline",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "Microsoft 365 Outage: Azure Maintenance Bug Wiped IP Routes, Taking Down Teams ",
+                  "source_field": "headline"
+                }
+              ]
+            },
+            "tickers_mentioned": {
+              "value": [
+                "MSFT"
+              ],
+              "evidence": "Microsoft 365 Outage: Azure Maintenance Bug Wiped IP Routes, Taking Down Teams ",
+              "source_field": "headline",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "Microsoft 365 Outage: Azure Maintenance Bug Wiped IP Routes, Taking Down Teams ",
+                  "source_field": "headline"
+                }
+              ]
+            },
+            "products_mentioned": {
+              "value": [
+                "Azure"
+              ],
+              "evidence": "Microsoft 365 Outage: Azure Maintenance Bug Wiped IP Routes, Taking Down Teams for Hours",
+              "source_field": "headline",
+              "basis": "article_text",
+              "supporting_snippets": [
+                {
+                  "evidence": "Microsoft 365 Outage: Azure Maintenance Bug Wiped IP Routes, Taking Down Teams for Hours",
+                  "source_field": "headline"
+                }
+              ]
+            }
+          },
+          "temporal_status": {
+            "status": "eligible_by_record_metadata",
+            "as_of": "2026-07-25T14:36:46.007115+00:00",
+            "article_availability_known": true,
+            "source_dates_independently_verified": false,
+            "note": "Composite or revised sources require per-fact historical provenance review."
+          },
+          "materiality": {
+            "level": "Unknown",
+            "status": "unquantified",
+            "factors": {
+              "event_severity": null,
+              "exposure": [
+                {
+                  "edge_id": "11",
+                  "exposure_value": null,
+                  "exposure_unit": null,
+                  "exposure_band": "high"
+                }
+              ]
+            },
+            "missing_evidence": [
+              "Validated event-specific exposure scale and segment impact"
+            ],
+            "note": "Severity, exposure band and research priority do not establish financial materiality."
+          },
+          "historical_reaction": {
+            "status": "unavailable",
+            "probability": null,
+            "predictions": [],
+            "reason": "No explicit article-to-case mapping supplied.",
+            "disclosure": "Experimental historical association only. Not directional or causal. Retrospective OOS results may use historical backfill; not a live prediction.",
+            "used_for_relevance": false,
+            "used_for_priority": false
+          },
+          "research_priority": {
+            "level": "Review",
+            "score": null,
+            "method": "attention_policy_v2",
+            "reason": "Relationship High; severity Unknown; evidence Strong.",
+            "interpretation": "Analyst attention only. No direction, expected return or ML input."
+          },
+          "direction": "Analyst judgment required",
+          "explanation": "MSFT has 1 qualified exposure record(s) through datacenter_infrastructure; inspect the attached relationship paths and sources.",
+          "next_questions": [
+            "Verify the original event report and whether later updates changed the facts.",
+            "Verify the cited relationship and that each supporting fact was known at the analysis time.",
+            "Determine the affected business segment, exposure amount, duration and mitigating capacity."
+          ],
+          "relevance": {
+            "level": "High",
+            "relationship_score": 0.75,
+            "reason": "MSFT has 1 qualified exposure record(s) through datacenter_infrastructure; inspect the attached relationship paths and sources.",
+            "interpretation": "Uncalibrated relationship policy score; not probability or expected return."
+          },
+          "evidence_assessment": {
+            "level": "Strong",
+            "reason": "existing exposure-record curation status"
+          },
+          "financial_materiality": {
+            "level": "Not yet quantified",
+            "reason": "No validated event-specific financial amount/denominator established.",
+            "legacy": {
+              "level": "Unknown",
+              "status": "unquantified",
+              "factors": {
+                "event_severity": null,
+                "exposure": [
+                  {
+                    "edge_id": "11",
+                    "exposure_value": null,
+                    "exposure_unit": null,
+                    "exposure_band": "high"
+                  }
+                ]
+              },
+              "missing_evidence": [
+                "Validated event-specific exposure scale and segment impact"
+              ],
+              "note": "Severity, exposure band and research priority do not establish financial materiality."
+            }
+          },
+          "historical_context": {
+            "available": false,
+            "disclosure": "Retrospective context only; not a live directional prediction.",
+            "details": {
+              "status": "unavailable",
+              "probability": null,
+              "predictions": [],
+              "reason": "No explicit article-to-case mapping supplied.",
+              "disclosure": "Experimental historical association only. Not directional or causal. Retrospective OOS results may use historical backfill; not a live prediction.",
+              "used_for_relevance": false,
+              "used_for_priority": false
+            }
+          },
+          "quantitative": {
+            "relevance": {
+              "value": 0.6,
+              "kind": "normalized_heuristic",
+              "method": "weighted_supported_relationship_terms_v3",
+              "weights": {
+                "mention": 0.1,
+                "direct_subject": 0.35,
+                "eligible_edge": 0.35,
+                "channel": 0.1,
+                "country": 0.05,
+                "counterparty": 0.05
+              },
+              "inputs": {
+                "mention": 1.0,
+                "direct_subject": 0.0,
+                "eligible_edge": 1.0,
+                "channel": 1.0,
+                "country": 1.0,
+                "counterparty": 0.0
+              },
+              "contributions": {
+                "mention": 0.1,
+                "direct_subject": 0.0,
+                "eligible_edge": 0.35,
+                "channel": 0.1,
+                "country": 0.05,
+                "counterparty": 0.0
+              },
+              "interpretation": "Not P(relevant); not calibrated or a financial-impact estimate."
+            },
+            "confidence": {
+              "value": null,
+              "kind": "qualitative_evidence_components",
+              "source_quality_policy_notice": "Qualitative source-quality policy tier; not a calibrated probability, truth probability, statistical accuracy estimate, or model confidence.",
+              "source_quality": "Unknown",
+              "extraction_self_assessment": null,
+              "relationship_evidence_quality": "Strong",
+              "interpretation": "Qualitative source policy and relationship evidence; extraction confidence is uncalibrated model self-assessment, not factual accuracy. No composite probability or confidence score is computed."
+            },
+            "time_decay": {
+              "value": 5.994233420177447e-07,
+              "age_hours": 1488.23434077,
+              "half_life_hours": 72.0,
+              "lambda_per_hour": 0.009627044174443685,
+              "as_of": "2026-09-25T14:41:11.626772+00:00",
+              "interpretation": "Recency factor, not causal impact; future/invalid publication time gives null."
+            },
+            "impact": {
+              "value": null,
+              "magnitude": null,
+              "directional_exposure": null,
+              "surprise": null,
+              "reason": "Event-specific magnitude, direction and surprise not established."
+            }
+          },
+          "analyst_interpretation": "MSFT has an evidence-backed exposure path through datacenter infrastructure. Verify whether the reported event affects the cited business or facility; the event-specific financial extent is not yet quantified."
+        }
+      ],
+      "edge_exclusions": [
+        {
+          "event_id": "evt_1e5df1f3047538c65258470e",
+          "edge_id": "4",
+          "reason": "non_operating_capacity"
+        },
+        {
+          "event_id": "evt_1e5df1f3047538c65258470e",
+          "edge_id": "13",
+          "reason": "future_known_at"
+        },
+        {
+          "event_id": "evt_1e5df1f3047538c65258470e",
+          "edge_id": "19",
+          "reason": "blocked_or_hypothesis_evidence"
+        },
+        {
+          "event_id": "evt_1e5df1f3047538c65258470e",
+          "edge_id": "21",
+          "reason": "future_known_at"
+        },
+        {
+          "event_id": "evt_1e5df1f3047538c65258470e",
+          "edge_id": "14",
+          "reason": "entity_specific_without_upstream_dependency_role"
+        },
+        {
+          "event_id": "evt_1e5df1f3047538c65258470e",
+          "edge_id": "17",
+          "reason": "entity_specific_without_upstream_dependency_role"
+        },
+        {
+          "event_id": "evt_1e5df1f3047538c65258470e",
+          "edge_id": "20",
+          "reason": "entity_specific_without_upstream_dependency_role"
+        }
+      ],
+      "status": "actionable_event",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "actionable_event",
+      "published_at": "2026-07-25T10:27:08-04:00",
+      "geography": {
+        "event_country": null,
+        "event_region": null,
+        "event_city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "location_confidence": null,
+        "coordinate_basis": null,
+        "evidence": [],
+        "coordinate_precision": null
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship High; severity Unknown; evidence Strong.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      },
+      "enrichment": {
+        "status": "unavailable",
+        "reason": "provider_disabled",
+        "provider": "none",
+        "model": "",
+        "requested_model": "",
+        "schema_version": "news_semantic_v3_1",
+        "prompt_version": "news_semantics_v3_1_sentence_grounding",
+        "semantic": null,
+        "cache_hit": false,
+        "attempts": [],
+        "attempt_count": 0,
+        "retry_count": 0,
+        "fallback_used": false,
+        "point_in_time_note": "Generated at the recorded enrichment time; not evidence the AI output was available when the article was published. Exposure eligibility still uses the original article replay time."
+      },
+      "semantic_validation": {
+        "status": "unavailable",
+        "accepted": {},
+        "rejections": [],
+        "candidate_relationships": []
+      },
+      "classification_assessment": {
+        "candidates": {
+          "article_class": null,
+          "event_type": null,
+          "event_subtype": null,
+          "operational_event": null,
+          "fundamental_change_detected": null
+        },
+        "source_grounded_candidates": {},
+        "final": {
+          "article_class": "actionable_event",
+          "event_type": "infrastructure_outage",
+          "event_subtype": "outage"
+        },
+        "authority": "existing deterministic classification; candidate fields never override final fields"
+      },
+      "article_summary": {
+        "summary_short": null,
+        "summary_full": null,
+        "source": "unavailable",
+        "notice": "AI summary of the supplied article; not independent verification."
+      },
+      "severity_assessment": {
+        "severity_candidate": null,
+        "severity_reason": null,
+        "severity_confidence": null,
+        "severity_final": "Unknown",
+        "severity_source": "rule",
+        "validation": "LLM candidate retained for audit; final severity requires the existing non-negated article rules.",
+        "rule_evidence": []
+      },
+      "feed": {
+        "state": "surface",
+        "reason": "Deterministically qualified watchlist relationship."
+      }
+    },
+    {
+      "article_id": "stress_v1_ST09_1f00f61492f14bfeb4580c1a678ca601",
+      "headline": "Strait of Hormuz: US fires at tanker as new Iran blockade begins",
+      "source": "bbc.com",
+      "article_url": "https://www.bbc.com/news/articles/clyqwkegqk0o",
+      "gate": {
+        "article_id": "stress_v1_ST09_1f00f61492f14bfeb4580c1a678ca601",
+        "is_event": true,
+        "gate_reason": "Asserted tariffs event: The sanctions were lifted after a ceasefire deal was reached in June, and experts estimate that Iran expo",
+        "gate_confidence": 0.8
+      },
+      "event": {
+        "event_id": "evt_f4ae1dfe3eeeb0f8cff60fd9",
+        "canonical_event_id": "evt_f4ae1dfe3eeeb0f8cff60fd9",
+        "article_ids": [
+          "stress_v1_ST09_1f00f61492f14bfeb4580c1a678ca601"
+        ],
+        "source_count": 1,
+        "independent_source_count": 1,
+        "first_seen_at": "2026-07-16T12:38:20.450256+00:00",
+        "last_seen_at": "2026-07-16T12:38:20.450256+00:00",
+        "published_at_first": "2026-07-16T12:09:26.960000+00:00",
+        "event_start_at": null,
+        "event_end_at": null,
+        "time_precision": "unknown",
+        "event_status": "developing",
+        "primary_country": null,
+        "affected_countries": [
+          "Iran"
+        ],
+        "primary_region": null,
+        "affected_regions": [],
+        "city": null,
+        "location_name": null,
+        "latitude": null,
+        "longitude": null,
+        "location_confidence": 0.65,
+        "event_type": "trade_export_control",
+        "event_subtype": "tariffs",
+        "severity_score": null,
+        "severity_confidence": null,
+        "scope": null,
+        "duration_class": "unknown",
+        "event_novelty": null,
+        "physical_damage": null,
+        "production_disruption": null,
+        "capacity_disruption": null,
+        "logistics_disruption": null,
+        "port_disruption": null,
+        "power_disruption": null,
+        "network_disruption": null,
+        "cloud_service_disruption": null,
+        "labor_disruption": null,
+        "supply_shortage": null,
+        "regulatory_change": null,
+        "export_restriction": null,
+        "import_restriction": null,
+        "price_change_explicit": null,
+        "demand_change_explicit": null,
+        "companies_mentioned": [],
+        "tickers_mentioned": [],
+        "suppliers_mentioned": [],
+        "customers_mentioned": [],
+        "industries_mentioned": [],
+        "products_mentioned": [],
+        "technologies_mentioned": [],
+        "commodities_mentioned": [
+          "oil"
+        ],
+        "government_entities": [],
+        "regulators": [],
+        "people_mentioned": [],
+        "supply_channel": null,
+        "demand_channel": null,
+        "cost_channel": null,
+        "revenue_channel": null,
+        "margin_channel": null,
+        "capex_channel": null,
+        "financing_channel": null,
+        "interest_rate_channel": null,
+        "fx_channel": null,
+        "commodity_channel": true,
+        "logistics_channel": null,
+        "energy_channel": null,
+        "regulatory_channel": true,
+        "legal_channel": null,
+        "technology_channel": null,
+        "competition_channel": null,
+        "source_quality": null,
+        "extraction_confidence": 0.7,
+        "confirmation_level": "single_source",
+        "evidence_fields": {
+          "event_type": {
+            "value": "trade_export_control",
+            "evidence": "The sanctions were lifted after a ceasefire deal was reached in June, and experts estimate that Iran expo",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_subtype": {
+            "value": "tariffs",
+            "evidence": "The sanctions were lifted after a ceasefire deal was reached in June, and experts estimate that Iran expo",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_summary": {
+            "value": "The sanctions were lifted after a ceasefire deal was reached in June, and experts estimate that Iran expo",
+            "evidence": "The sanctions were lifted after a ceasefire deal was reached in June, and experts estimate that Iran expo",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "keywords": {
+            "value": [
+              "tariffs"
+            ],
+            "evidence": "The sanctions were lifted after a ceasefire deal was reached in June, and experts estimate that Iran expo",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "The sanctions were lifted after a ceasefire deal was reached in June, and experts estimate that Iran expo",
+                "source_field": "body"
+              }
+            ]
+          },
+          "canonical_headline": {
+            "value": "Strait of Hormuz: US fires at tanker as new Iran blockade begins",
+            "evidence": "Strait of Hormuz: US fires at tanker as new Iran blockade begins",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "independent_source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "event_status": {
+            "value": "developing",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "confirmation_level": {
+            "value": "single_source",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "extraction_confidence": {
+            "value": 0.7,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "published_at_first": {
+            "value": "2026-07-16T12:09:26.960000+00:00",
+            "evidence": "2026-07-16T12:09:26.960000+00:00",
+            "source_field": "published_at",
+            "basis": "provider_metadata"
+          },
+          "first_seen_at": {
+            "value": "2026-07-16T12:38:20.450256+00:00",
+            "evidence": "2026-07-16T12:38:20.450256+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "last_seen_at": {
+            "value": "2026-07-16T12:38:20.450256+00:00",
+            "evidence": "2026-07-16T12:38:20.450256+00:00",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "affected_countries": {
+            "value": [
+              "Iran"
+            ],
+            "evidence": "The sanctions were lifted after a ceasefire deal was reached in June, and experts estimate that Iran expo",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "The sanctions were lifted after a ceasefire deal was reached in June, and experts estimate that Iran expo",
+                "source_field": "body"
+              }
+            ],
+            "mapping_basis": [
+              {
+                "stated": "Iran",
+                "country": "Iran"
+              }
+            ]
+          },
+          "primary_country": {
+            "value": "Iran",
+            "evidence": "The sanctions were lifted after a ceasefire deal was reached in June, and experts estimate that Iran exported at least 74 million barrels of oil worth up to $6bn before they were reimposed.",
+            "source_field": "body",
+            "basis": "article_location_or_policy_actor"
+          },
+          "location_confidence": {
+            "value": 0.65,
+            "evidence": "The sanctions were lifted after a ceasefire deal was reached in June, and experts estimate that Iran expo",
+            "source_field": "body",
+            "basis": "heuristic_from_article"
+          },
+          "commodity_channel": {
+            "value": true,
+            "evidence": "The sanctions were lifted after a ceasefire deal was reached in June, and experts estimate that Iran expo",
+            "source_field": "body",
+            "basis": "article_text",
+            "assertion": "affirmed"
+          },
+          "regulatory_channel": {
+            "value": true,
+            "evidence": "The sanctions were lifted after a ceasefire deal was reached in June, and experts estimate that Iran expo",
+            "source_field": "body",
+            "basis": "article_text",
+            "assertion": "affirmed"
+          },
+          "commodities_mentioned": {
+            "value": [
+              "oil"
+            ],
+            "evidence": " military targeted an unladen oil tanker which it said was heading for the key Iranian oil terminal on ",
+            "source_field": "summary",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": " military targeted an unladen oil tanker which it said was heading for the key Iranian oil terminal on ",
+                "source_field": "summary"
+              }
+            ]
+          }
+        },
+        "canonical_headline": "Strait of Hormuz: US fires at tanker as new Iran blockade begins",
+        "event_summary": "The sanctions were lifted after a ceasefire deal was reached in June, and experts estimate that Iran expo",
+        "keywords": [
+          "tariffs"
+        ],
+        "created_at": "2026-09-25T14:41:11.626772+00:00",
+        "updated_at": "2026-09-25T14:41:11.626772+00:00",
+        "schema_version": "event_v1",
+        "country": null,
+        "region": null,
+        "location_basis": "unresolved",
+        "coordinate_precision": null
+      },
+      "candidate_channels": [
+        {
+          "channel_family": "commodity_inputs",
+          "channel_subtype": "unspecified",
+          "confidence": 0.75,
+          "basis": [
+            "commodity_channel"
+          ],
+          "status": "candidate"
+        },
+        {
+          "channel_family": "regulatory_general",
+          "channel_subtype": "unspecified",
+          "confidence": 0.75,
+          "basis": [
+            "regulatory_channel"
+          ],
+          "status": "candidate"
+        },
+        {
+          "channel_family": "regulatory_export",
+          "channel_subtype": "unspecified",
+          "confidence": 0.75,
+          "basis": [
+            "event_subtype",
+            "event_type"
+          ],
+          "status": "candidate"
+        }
+      ],
+      "ticker_analysis": [],
+      "edge_exclusions": [
+        {
+          "event_id": "evt_f4ae1dfe3eeeb0f8cff60fd9",
+          "edge_id": "4",
+          "reason": "non_operating_capacity"
+        },
+        {
+          "event_id": "evt_f4ae1dfe3eeeb0f8cff60fd9",
+          "edge_id": "13",
+          "reason": "future_known_at"
+        },
+        {
+          "event_id": "evt_f4ae1dfe3eeeb0f8cff60fd9",
+          "edge_id": "19",
+          "reason": "blocked_or_hypothesis_evidence"
+        },
+        {
+          "event_id": "evt_f4ae1dfe3eeeb0f8cff60fd9",
+          "edge_id": "21",
+          "reason": "future_known_at"
+        }
+      ],
+      "status": "actionable_event",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "actionable_event",
+      "published_at": "2026-07-16T12:09:26.960000+00:00",
+      "geography": {
+        "event_country": null,
+        "event_region": null,
+        "event_city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "location_confidence": null,
+        "coordinate_basis": null,
+        "evidence": [],
+        "coordinate_precision": null
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Unknown; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      },
+      "enrichment": {
+        "status": "unavailable",
+        "reason": "provider_disabled",
+        "provider": "none",
+        "model": "",
+        "requested_model": "",
+        "schema_version": "news_semantic_v3_1",
+        "prompt_version": "news_semantics_v3_1_sentence_grounding",
+        "semantic": null,
+        "cache_hit": false,
+        "attempts": [],
+        "attempt_count": 0,
+        "retry_count": 0,
+        "fallback_used": false,
+        "point_in_time_note": "Generated at the recorded enrichment time; not evidence the AI output was available when the article was published. Exposure eligibility still uses the original article replay time."
+      },
+      "semantic_validation": {
+        "status": "unavailable",
+        "accepted": {},
+        "rejections": [],
+        "candidate_relationships": []
+      },
+      "classification_assessment": {
+        "candidates": {
+          "article_class": null,
+          "event_type": null,
+          "event_subtype": null,
+          "operational_event": null,
+          "fundamental_change_detected": null
+        },
+        "source_grounded_candidates": {},
+        "final": {
+          "article_class": "actionable_event",
+          "event_type": "trade_export_control",
+          "event_subtype": "tariffs"
+        },
+        "authority": "existing deterministic classification; candidate fields never override final fields"
+      },
+      "article_summary": {
+        "summary_short": null,
+        "summary_full": null,
+        "source": "unavailable",
+        "notice": "AI summary of the supplied article; not independent verification."
+      },
+      "severity_assessment": {
+        "severity_candidate": null,
+        "severity_reason": null,
+        "severity_confidence": null,
+        "severity_final": "Unknown",
+        "severity_source": "rule",
+        "validation": "LLM candidate retained for audit; final severity requires the existing non-negated article rules.",
+        "rule_evidence": []
+      },
+      "feed": {
+        "state": "surface",
+        "reason": "Potential macro, technology or economic transmission event."
+      }
+    },
+    {
+      "article_id": "stress_v1_ST10_0e9eac2b14924963ad21b50afe8628dc",
+      "headline": "Authorities: Another tanker hit in the Strait of Hormuz",
+      "source": "yahoo.com",
+      "article_url": "https://www.yahoo.com/news/world/articles/authorities-another-tanker-hit-strait-104851349.html",
+      "gate": {
+        "article_id": "stress_v1_ST10_0e9eac2b14924963ad21b50afe8628dc",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_8436fa037e4325cd670c",
+        "event_type": "general_news",
+        "event_subtype": "general_news",
+        "published_at_first": "2026-09-21T10:48:51+00:00",
+        "country": null,
+        "region": null,
+        "city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "coordinate_precision": null,
+        "primary_country": null
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "general_news",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "general_news",
+      "published_at": "2026-09-21T10:48:51+00:00",
+      "geography": {
+        "event_country": null,
+        "event_region": null,
+        "event_city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "location_confidence": null,
+        "coordinate_basis": null,
+        "evidence": [],
+        "coordinate_precision": null
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Unknown; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      },
+      "enrichment": {
+        "status": "unavailable",
+        "reason": "provider_disabled",
+        "provider": "none",
+        "model": "",
+        "requested_model": "",
+        "schema_version": "news_semantic_v3_1",
+        "prompt_version": "news_semantics_v3_1_sentence_grounding",
+        "semantic": null,
+        "cache_hit": false,
+        "attempts": [],
+        "attempt_count": 0,
+        "retry_count": 0,
+        "fallback_used": false,
+        "point_in_time_note": "Generated at the recorded enrichment time; not evidence the AI output was available when the article was published. Exposure eligibility still uses the original article replay time."
+      },
+      "semantic_validation": {
+        "status": "unavailable",
+        "accepted": {},
+        "rejections": [],
+        "candidate_relationships": []
+      },
+      "classification_assessment": {
+        "candidates": {
+          "article_class": null,
+          "event_type": null,
+          "event_subtype": null,
+          "operational_event": null,
+          "fundamental_change_detected": null
+        },
+        "source_grounded_candidates": {},
+        "final": {
+          "article_class": "general_news",
+          "event_type": "general_news",
+          "event_subtype": "general_news"
+        },
+        "authority": "existing deterministic classification; candidate fields never override final fields"
+      },
+      "article_summary": {
+        "summary_short": null,
+        "summary_full": null,
+        "source": "unavailable",
+        "notice": "AI summary of the supplied article; not independent verification."
+      },
+      "severity_assessment": {
+        "severity_candidate": null,
+        "severity_reason": null,
+        "severity_confidence": null,
+        "severity_final": "Unknown",
+        "severity_source": "rule",
+        "validation": "LLM candidate retained for audit; final severity requires the existing non-negated article rules.",
+        "rule_evidence": []
+      },
+      "feed": {
+        "state": "background",
+        "reason": "No identified watchlist or economic trigger; retained for review."
+      }
+    },
+    {
+      "article_id": "stress_v1_ST11_freenewsapi_f15bf067-b612-4338-8041-9e41218ba6f4",
+      "headline": "Nvidia boss rejects AI extinction fears as 'doomsday narratives'",
+      "source": "BBC",
+      "article_url": "https://www.bbc.com/news/articles/cr5ye7p13jg7o",
+      "gate": {
+        "article_id": "stress_v1_ST11_freenewsapi_f15bf067-b612-4338-8041-9e41218ba6f4",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_a6616d37f2245285cfd7",
+        "event_type": "commentary",
+        "event_subtype": "commentary",
+        "published_at_first": "2026-09-21T00:34:53.000Z",
+        "country": null,
+        "region": null,
+        "city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "coordinate_precision": null,
+        "primary_country": null
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [
+        {
+          "ticker": "NVDA",
+          "qualification": "qualified_direct_company_subject",
+          "relationship_type": "direct_company_subject",
+          "relevance_score": 0.15,
+          "relevance_level": "Mention only",
+          "evidence": [],
+          "economic_channels": [],
+          "relationship_paths": [],
+          "evidence_strength": {
+            "relationship_level": "Direct article evidence",
+            "basis": "Explicit company subject; no independent confirmation inferred."
+          },
+          "materiality": {
+            "level": "Unknown"
+          },
+          "historical_reaction": {
+            "status": "unavailable",
+            "reason": "No compatible archived event binding.",
+            "predictions": []
+          },
+          "explanation": "NVDA is the explicit company/action subject of the cited article clause.",
+          "next_questions": [
+            "Verify the original report and any company confirmation.",
+            "Determine event-specific scale and financial exposure."
+          ],
+          "direct_event_evidence": {
+            "relationship_type": "direct_company_subject",
+            "evidence": "Nvidia boss rejects AI extinction fears as 'doomsday narratives'",
+            "source_field": "headline",
+            "channel": null
+          },
+          "relevance": {
+            "level": "High",
+            "relationship_score": 0.15,
+            "reason": "NVDA is the explicit company/action subject of the cited article clause.",
+            "interpretation": "Uncalibrated relationship policy score; not probability or expected return."
+          },
+          "evidence_assessment": {
+            "level": "Moderate",
+            "reason": "Explicit company subject; no independent confirmation inferred."
+          },
+          "financial_materiality": {
+            "level": "Not yet quantified",
+            "reason": "No validated event-specific financial amount/denominator established.",
+            "legacy": {
+              "level": "Unknown"
+            }
+          },
+          "research_priority": {
+            "level": "Low",
+            "score": 0.2,
+            "method": "attention_policy_v2",
+            "reason": "Relationship High; severity Low; evidence Moderate.",
+            "interpretation": "Analyst attention only. No direction, expected return or ML input."
+          },
+          "historical_context": {
+            "available": false,
+            "disclosure": "Retrospective context only; not a live directional prediction.",
+            "details": {
+              "status": "unavailable",
+              "reason": "No compatible archived event binding.",
+              "predictions": []
+            }
+          },
+          "direction": "Analyst judgment required",
+          "quantitative": {
+            "relevance": {
+              "value": 0.45,
+              "kind": "normalized_heuristic",
+              "method": "weighted_supported_relationship_terms_v3",
+              "weights": {
+                "mention": 0.1,
+                "direct_subject": 0.35,
+                "eligible_edge": 0.35,
+                "channel": 0.1,
+                "country": 0.05,
+                "counterparty": 0.05
+              },
+              "inputs": {
+                "mention": 1.0,
+                "direct_subject": 1.0,
+                "eligible_edge": 0.0,
+                "channel": 0.0,
+                "country": 0.0,
+                "counterparty": 0.0
+              },
+              "contributions": {
+                "mention": 0.1,
+                "direct_subject": 0.35,
+                "eligible_edge": 0.0,
+                "channel": 0.0,
+                "country": 0.0,
+                "counterparty": 0.0
+              },
+              "interpretation": "Not P(relevant); not calibrated or a financial-impact estimate."
+            },
+            "confidence": {
+              "value": null,
+              "kind": "qualitative_evidence_components",
+              "source_quality_policy_notice": "Qualitative source-quality policy tier; not a calibrated probability, truth probability, statistical accuracy estimate, or model confidence.",
+              "source_quality": "High",
+              "extraction_self_assessment": null,
+              "relationship_evidence_quality": "Moderate",
+              "interpretation": "Qualitative source policy and relationship evidence; extraction confidence is uncalibrated model self-assessment, not factual accuracy. No composite probability or confidence score is computed."
+            },
+            "time_decay": {
+              "value": 0.34646018438735665,
+              "age_hours": 110.10517410333333,
+              "half_life_hours": 72.0,
+              "lambda_per_hour": 0.009627044174443685,
+              "as_of": "2026-09-25T14:41:11.626772+00:00",
+              "interpretation": "Recency factor, not causal impact; future/invalid publication time gives null."
+            },
+            "impact": {
+              "value": null,
+              "magnitude": null,
+              "directional_exposure": null,
+              "surprise": null,
+              "reason": "Event-specific magnitude, direction and surprise not established."
+            }
+          },
+          "analyst_interpretation": "NVDA is the article's direct company subject. The current classification is management commentary; no confirmed operational, regulatory or financial change is established by the available validation. No measurable fundamental impact has been established."
+        }
+      ],
+      "edge_exclusions": [],
+      "status": "commentary",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "commentary",
+      "published_at": "2026-09-21T00:34:53.000Z",
+      "geography": {
+        "event_country": null,
+        "event_region": null,
+        "event_city": null,
+        "latitude": null,
+        "longitude": null,
+        "location_basis": "unresolved",
+        "location_confidence": null,
+        "coordinate_basis": null,
+        "evidence": [],
+        "coordinate_precision": null
+      },
+      "severity": {
+        "level": "Low",
+        "score": 0.2,
+        "components": [],
+        "reason": "Company discussion/opinion with no supported operational or binding-action escalation.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Low",
+        "score": 0.2,
+        "method": "attention_policy_v2",
+        "reason": "Relationship High; severity Low; evidence Moderate.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      },
+      "enrichment": {
+        "status": "unavailable",
+        "reason": "provider_disabled",
+        "provider": "none",
+        "model": "",
+        "requested_model": "",
+        "schema_version": "news_semantic_v3_1",
+        "prompt_version": "news_semantics_v3_1_sentence_grounding",
+        "semantic": null,
+        "cache_hit": false,
+        "attempts": [],
+        "attempt_count": 0,
+        "retry_count": 0,
+        "fallback_used": false,
+        "point_in_time_note": "Generated at the recorded enrichment time; not evidence the AI output was available when the article was published. Exposure eligibility still uses the original article replay time."
+      },
+      "semantic_validation": {
+        "status": "unavailable",
+        "accepted": {},
+        "rejections": [],
+        "candidate_relationships": []
+      },
+      "classification_assessment": {
+        "candidates": {
+          "article_class": null,
+          "event_type": null,
+          "event_subtype": null,
+          "operational_event": null,
+          "fundamental_change_detected": null
+        },
+        "source_grounded_candidates": {},
+        "final": {
+          "article_class": "commentary",
+          "event_type": "commentary",
+          "event_subtype": "commentary"
+        },
+        "authority": "existing deterministic classification; candidate fields never override final fields"
+      },
+      "article_summary": {
+        "summary_short": null,
+        "summary_full": null,
+        "source": "unavailable",
+        "notice": "AI summary of the supplied article; not independent verification."
+      },
+      "severity_assessment": {
+        "severity_candidate": null,
+        "severity_reason": null,
+        "severity_confidence": null,
+        "severity_final": "Low",
+        "severity_source": "rule",
+        "validation": "LLM candidate retained for audit; final severity requires the existing non-negated article rules.",
+        "rule_evidence": []
+      },
+      "feed": {
+        "state": "surface",
+        "reason": "Deterministically qualified watchlist relationship."
+      }
+    },
+    {
+      "article_id": "stress_v1_ST12_freenewsapi_4e06cd53-e2df-4181-92f9-71b1b7fdc698",
+      "headline": "Missing Carnival Panorama passenger jumped overboard off Mexico's coast",
+      "source": "Fox News",
+      "article_url": "https://www.foxnews.com/travel/missing-carnival-panorama-passenger-jumped-overboard-mexicos-coast",
+      "gate": {
+        "article_id": "stress_v1_ST12_freenewsapi_4e06cd53-e2df-4181-92f9-71b1b7fdc698",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_c45c59d5b64fe3e413aa",
+        "event_type": "general_news",
+        "event_subtype": "general_news",
+        "published_at_first": "2026-09-21T01:17:24.000Z",
+        "country": "Mexico",
+        "region": null,
+        "city": null,
+        "latitude": 23.919988,
+        "longitude": -102.289448,
+        "location_basis": "explicit_article_location",
+        "coordinate_precision": "country_approximation",
+        "primary_country": "Mexico"
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "general_news",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "general_news",
+      "published_at": "2026-09-21T01:17:24.000Z",
+      "geography": {
+        "event_country": "Mexico",
+        "event_region": null,
+        "event_city": null,
+        "latitude": 23.919988,
+        "longitude": -102.289448,
+        "location_basis": "explicit_article_location",
+        "location_confidence": "Article-supported country; exact site unresolved",
+        "coordinate_basis": "Natural Earth country label point (existing map)",
+        "evidence": [
+          {
+            "country": "Mexico",
+            "city": null,
+            "region": null,
+            "source_field": "headline",
+            "evidence": "Missing Carnival Panorama passenger jumped overboard off Mexico's coast"
+          }
+        ],
+        "coordinate_precision": "country_approximation"
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Unknown; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      },
+      "enrichment": {
+        "status": "skipped",
+        "reason": "cheap_noise_filter",
+        "semantic": null,
+        "point_in_time_note": "Generated at the recorded enrichment time; not evidence the AI output was available when the article was published. Exposure eligibility still uses the original article replay time."
+      },
+      "semantic_validation": {
+        "status": "unavailable",
+        "accepted": {},
+        "rejections": [],
+        "candidate_relationships": []
+      },
+      "classification_assessment": {
+        "candidates": {
+          "article_class": null,
+          "event_type": null,
+          "event_subtype": null,
+          "operational_event": null,
+          "fundamental_change_detected": null
+        },
+        "source_grounded_candidates": {},
+        "final": {
+          "article_class": "general_news",
+          "event_type": "general_news",
+          "event_subtype": "general_news"
+        },
+        "authority": "existing deterministic classification; candidate fields never override final fields"
+      },
+      "article_summary": {
+        "summary_short": null,
+        "summary_full": null,
+        "source": "unavailable",
+        "notice": "AI summary of the supplied article; not independent verification."
+      },
+      "severity_assessment": {
+        "severity_candidate": null,
+        "severity_reason": null,
+        "severity_confidence": null,
+        "severity_final": "Unknown",
+        "severity_source": "rule",
+        "validation": "LLM candidate retained for audit; final severity requires the existing non-negated article rules.",
+        "rule_evidence": []
+      },
+      "feed": {
+        "state": "reject",
+        "reason": "Narrow non-economic headline pattern without a watchlist subject."
+      }
+    }
+  ],
+  "research_queue": [
+    {
+      "article_id": "stress_v1_ST03_5964056afdd442d698678f1e5bbbfc3b",
+      "event_id": "evt_c71ac002104d07309f1945d0",
+      "ticker": "NVDA",
+      "qualification": "candidate_requires_review",
+      "priority": "Review",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "stress_v1_ST04_c1099c00ab9449058b3e7776c401a008",
+      "event_id": "article_20564b7274c8efa92841",
+      "ticker": "NVDA",
+      "qualification": "candidate_requires_review",
+      "priority": "Review",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "stress_v1_ST06_b4aea7ad2f90413ba77a7be85d1e09a1",
+      "event_id": "article_f05c55bd4a3dc05225c3",
+      "ticker": "MSFT",
+      "qualification": "candidate_requires_review",
+      "priority": "Review",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "stress_v1_ST06_b4aea7ad2f90413ba77a7be85d1e09a1",
+      "event_id": "article_f05c55bd4a3dc05225c3",
+      "ticker": "NVDA",
+      "qualification": "candidate_requires_review",
+      "priority": "Review",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "stress_v1_ST07_331d0a271d0a4bfe9f3ec9ff1c8152d8",
+      "event_id": "article_7f30e80c4becd7ef2107",
+      "ticker": "AAPL",
+      "qualification": "candidate_requires_review",
+      "priority": "Review",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "stress_v1_ST07_331d0a271d0a4bfe9f3ec9ff1c8152d8",
+      "event_id": "article_7f30e80c4becd7ef2107",
+      "ticker": "AMZN",
+      "qualification": "candidate_requires_review",
+      "priority": "Review",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "stress_v1_ST08_9b901bc54a3a41458f5a01e53c0643a4",
+      "event_id": "evt_1e5df1f3047538c65258470e",
+      "ticker": "MSFT",
+      "qualification": "qualified_exposure",
+      "priority": "Review",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "stress_v1_ST11_freenewsapi_f15bf067-b612-4338-8041-9e41218ba6f4",
+      "event_id": "article_a6616d37f2245285cfd7",
+      "ticker": "NVDA",
+      "qualification": "qualified_direct_company_subject",
+      "priority": "Low",
+      "direction": "Analyst judgment required"
+    }
+  ],
+  "summary": {
+    "articles": 12,
+    "usable": 12,
+    "discrete_events": 4,
+    "rejected": 0,
+    "qualified_pairs": 2,
+    "review_candidates": 6,
+    "surface": 10,
+    "background": 1,
+    "noise_rejected": 1,
+    "llm_calls": 0,
+    "cache_hits": 0,
+    "enrichment_success": 0,
+    "enrichment_failure": 11,
+    "enrichment_status_counts": {
+      "provider_disabled": 11,
+      "cheap_noise_filter": 1
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "AAPL": {
+    "valuation_context": "b73a3d0f2e8da174dd08c6e695af07dac708273976c7e6b9d5b228b5c8309b53",
+    "reports": "500544893ae6fcb764c018123b25b601552f72252cee312269e3a206bd4d01b1",
+    "moat1": "5c167cc5e539c176beacd70881680544910aa9bfbd31790de144475ec545fdd0",
+    "moat2": "f637e75a255ccfa774e7d43da0b4e631aa78bb815c167d98b14d2fb9d80ab46b"
+  },
+  "MSFT": {
+    "valuation_context": "1180c81dd8ee222a276c3f110e972d3b7d92c61a77cc7a13dfcacd65767de1ee",
+    "reports": "476184d171d2598f635cc3ba115d8ed10fa77df8ab751ce9ea23a8a5cd41df61",
+    "moat1": "61a225782857f7b0991fe98eb445d56d28ae8e502d59715e98b2d7df44a57ae5",
+    "moat2": "8f6f9c082ee9e86033b79442a97628782c0eb755af972d5503c843b27a585675"
+  },
+  "GOOGL": {
+    "valuation_context": "d98efe493705d4e73573bce809dfce219ec24b8de943d4bd2c5d0b976075d607",
+    "reports": "b613c9fa016c57b405a7785f23f04a22889f57f599d9d91fb56f815bb33280af",
+    "moat1": "81ce20d8730184736930cf06abc0906456600344d78b3ffd1899b6c6daaaab6d",
+    "moat2": "01c96c154a7d30c97673e1c17daa6dd21aa7a9ce13fcc4a012f605d07aaa41c4"
+  },
+  "NVDA": {
+    "valuation_context": "ccddbb57fbd087aa32a8525f3f7d3dff000bd7064171c3a7949bb9675eaadce4",
+    "reports": "ec7ea84f033d0cb8c0c0f0b653f8fde635c3bc20961dd9d2d3497bd1be2ebd06",
+    "moat1": "9989f9e2fd5cea6704f20bbeca0068d1a25441c6c7caf93d2ea90e9db1331e43",
+    "moat2": "a77ae71c22e4c4ae5e56065f3c3c24e41f87ddb31ba80472a339364109251bf9"
+  },
+  "AMZN": {
+    "valuation_context": "129279e3097b27cc0b97c79fa6865d2ac43420cc53f58e925cfaad4159d403ec",
+    "reports": "9fbb45ae7460f4380afc02707aecc15b0bd7a44ad71b14acf75ab5d746c4ee52",
+    "moat1": "fc0d6f5ca31588ce7eab5e12d99462ce83b2cd18f5caef62acc532bd81410c6c",
+    "moat2": "6f2139669a60366d5c4f21e1c38720bda895567321d80ca869e4cced6394c60d"
+  },
+  "META": {
+    "valuation_context": "5c3b57ab20ffd993da55fc5b74a2ec4cef793344aa0b0a815f9c5b62bbc0d055",
+    "reports": "5543a5ee835182f5361bd62bb7a0283b816db0d86e3426bfc6bf19bb70e5cb02",
+    "moat1": "42b248eb2fb209e92d6f0bf110acd12172cca46f0e596266378fea5a88f08004",
+    "moat2": "56861ed51ea74d35a035da2ab39f8c96a620314907756e9dfa50a9564e39264a"
+  },
+  "TSLA": {
+    "valuation_context": "e2bc2147f166b7312385bbe870617f306445108c2041616c57939f766961c66c",
+    "reports": "31f2392f5566d58ff84eea7e8744fc7794c0d8895d156f9b02d4c5ac7c16a957",
+    "moat1": "cd1e972a2f14d5edc3f44fd8f842abef88dfd2da629a977aea02ea1898bdd795",
+    "moat2": "a7e9589ed5a542686da2f884fb0c047c7307599aa3ce87a244e025bf49e295c1"
+  }
+}

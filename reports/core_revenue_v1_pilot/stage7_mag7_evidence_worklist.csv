@@ -1,0 +1,8 @@
+ticker,fiscal_year,SEC_categories_reconciled,operating_noncore_classification_approved,recognition_rubric_independently_reviewed,receivables_definition_reviewed,organic_growth_attribution,candidate_CRQ,next_evidence
+AAPL,2025,True,False,False,True,CONTEXT_ONLY_NOT_SCORE,,AAPL: independently approve operating/non-core revenue split; investigate Trade AR; document RRI rubric
+MSFT,2026,False,False,False,False,CONTEXT_ONLY_NOT_SCORE,,"Collect SEC revenue categories, non-core classification, trade-AR definition and a documented recognition review"
+GOOGL,2025,False,False,False,False,CONTEXT_ONLY_NOT_SCORE,,"Collect SEC revenue categories, non-core classification, trade-AR definition and a documented recognition review"
+NVDA,2026,False,False,False,False,CONTEXT_ONLY_NOT_SCORE,,"Collect SEC revenue categories, non-core classification, trade-AR definition and a documented recognition review"
+AMZN,2025,False,False,False,False,CONTEXT_ONLY_NOT_SCORE,,"Collect SEC revenue categories, non-core classification, trade-AR definition and a documented recognition review"
+META,2025,False,False,False,False,CONTEXT_ONLY_NOT_SCORE,,"Collect SEC revenue categories, non-core classification, trade-AR definition and a documented recognition review"
+TSLA,2025,False,False,False,False,CONTEXT_ONLY_NOT_SCORE,,"Collect SEC revenue categories, non-core classification, trade-AR definition and a documented recognition review"

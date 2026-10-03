@@ -1,0 +1,1033 @@
+{
+  "schema_version": "news_research_v2",
+  "generated_at": "2026-09-23T06:43:51.744944+00:00",
+  "knowledge": {},
+  "policies": {
+    "direction": "Analyst judgment required",
+    "severity": "article_severity_policy_v2",
+    "priority": "attention_policy_v2",
+    "historical_ml_role": "optional_retrospective_context_only"
+  },
+  "articles": [
+    {
+      "article_id": "visual_qa_unknown",
+      "headline": "Community exhibition opens in Mexico",
+      "source": "Synthetic Visual QA",
+      "article_url": null,
+      "gate": {
+        "article_id": "visual_qa_unknown",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_c3958b8fb5addff1ea86",
+        "event_type": "general_news",
+        "event_subtype": "general_news",
+        "published_at_first": "2026-09-17T08:00:00Z",
+        "country": "Mexico",
+        "region": null,
+        "city": null,
+        "latitude": 23.919988,
+        "longitude": -102.289448,
+        "location_basis": "explicit_article_location",
+        "coordinate_precision": "country_approximation"
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "general_news",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "general_news",
+      "published_at": "2026-09-17T08:00:00Z",
+      "geography": {
+        "event_country": "Mexico",
+        "event_region": null,
+        "event_city": null,
+        "latitude": 23.919988,
+        "longitude": -102.289448,
+        "location_basis": "explicit_article_location",
+        "location_confidence": "Article-supported country; exact site unresolved",
+        "coordinate_basis": "Natural Earth country label point (existing map)",
+        "evidence": [
+          {
+            "country": "Mexico",
+            "city": null,
+            "region": null,
+            "source_field": "headline",
+            "evidence": "Community exhibition opens in Mexico"
+          }
+        ],
+        "coordinate_precision": "country_approximation"
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Unknown; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      }
+    },
+    {
+      "article_id": "visual_qa_medium",
+      "headline": "Saudi oil export disruption interrupts shipments",
+      "source": "Synthetic Visual QA",
+      "article_url": null,
+      "gate": {
+        "article_id": "visual_qa_medium",
+        "is_event": true,
+        "gate_reason": "Asserted production_interruption event: Oil shipments were interrupted in Saudi Arabia.",
+        "gate_confidence": 0.8
+      },
+      "event": {
+        "event_id": "evt_1b14f1bed6e58e2089efd5c8",
+        "canonical_event_id": "evt_1b14f1bed6e58e2089efd5c8",
+        "article_ids": [
+          "visual_qa_medium"
+        ],
+        "source_count": 1,
+        "independent_source_count": 1,
+        "first_seen_at": "2026-09-17T09:00:00Z",
+        "last_seen_at": "2026-09-17T09:00:00Z",
+        "published_at_first": "2026-09-17T08:00:00Z",
+        "event_start_at": null,
+        "event_end_at": null,
+        "time_precision": "unknown",
+        "event_status": "developing",
+        "primary_country": "Saudi Arabia",
+        "affected_countries": [
+          "Saudi Arabia"
+        ],
+        "primary_region": null,
+        "affected_regions": [],
+        "city": null,
+        "location_name": null,
+        "latitude": 23.806908,
+        "longitude": 44.6996,
+        "location_confidence": 0.65,
+        "event_type": "supply_chain",
+        "event_subtype": "production_interruption",
+        "severity_score": null,
+        "severity_confidence": null,
+        "scope": null,
+        "duration_class": "unknown",
+        "event_novelty": null,
+        "physical_damage": null,
+        "production_disruption": null,
+        "capacity_disruption": null,
+        "logistics_disruption": null,
+        "port_disruption": null,
+        "power_disruption": null,
+        "network_disruption": null,
+        "cloud_service_disruption": null,
+        "labor_disruption": null,
+        "supply_shortage": null,
+        "regulatory_change": null,
+        "export_restriction": null,
+        "import_restriction": null,
+        "price_change_explicit": null,
+        "demand_change_explicit": null,
+        "companies_mentioned": [],
+        "tickers_mentioned": [],
+        "suppliers_mentioned": [],
+        "customers_mentioned": [],
+        "industries_mentioned": [],
+        "products_mentioned": [],
+        "technologies_mentioned": [],
+        "commodities_mentioned": [
+          "oil"
+        ],
+        "government_entities": [],
+        "regulators": [],
+        "people_mentioned": [],
+        "supply_channel": null,
+        "demand_channel": null,
+        "cost_channel": null,
+        "revenue_channel": null,
+        "margin_channel": null,
+        "capex_channel": null,
+        "financing_channel": null,
+        "interest_rate_channel": null,
+        "fx_channel": null,
+        "commodity_channel": true,
+        "logistics_channel": null,
+        "energy_channel": null,
+        "regulatory_channel": null,
+        "legal_channel": null,
+        "technology_channel": null,
+        "competition_channel": null,
+        "source_quality": null,
+        "extraction_confidence": 0.7,
+        "confirmation_level": "single_source",
+        "evidence_fields": {
+          "event_type": {
+            "value": "supply_chain",
+            "evidence": "Oil shipments were interrupted in Saudi Arabia.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_subtype": {
+            "value": "production_interruption",
+            "evidence": "Oil shipments were interrupted in Saudi Arabia.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "event_summary": {
+            "value": "Oil shipments were interrupted in Saudi Arabia.",
+            "evidence": "Oil shipments were interrupted in Saudi Arabia.",
+            "source_field": "body",
+            "basis": "article_text"
+          },
+          "keywords": {
+            "value": [
+              "production_interruption"
+            ],
+            "evidence": "Oil shipments were interrupted in Saudi Arabia.",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "Oil shipments were interrupted in Saudi Arabia.",
+                "source_field": "body"
+              }
+            ]
+          },
+          "canonical_headline": {
+            "value": "Saudi oil export disruption interrupts shipments",
+            "evidence": "Saudi oil export disruption interrupts shipments",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "independent_source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "event_status": {
+            "value": "developing",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "confirmation_level": {
+            "value": "single_source",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "extraction_confidence": {
+            "value": 0.7,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "published_at_first": {
+            "value": "2026-09-17T08:00:00Z",
+            "evidence": "2026-09-17T08:00:00Z",
+            "source_field": "published_at",
+            "basis": "provider_metadata"
+          },
+          "first_seen_at": {
+            "value": "2026-09-17T09:00:00Z",
+            "evidence": "2026-09-17T09:00:00Z",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "last_seen_at": {
+            "value": "2026-09-17T09:00:00Z",
+            "evidence": "2026-09-17T09:00:00Z",
+            "source_field": "fetched_at",
+            "basis": "provider_metadata"
+          },
+          "affected_countries": {
+            "value": [
+              "Saudi Arabia"
+            ],
+            "evidence": "Oil shipments were interrupted in Saudi Arabia.",
+            "source_field": "body",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "Oil shipments were interrupted in Saudi Arabia.",
+                "source_field": "body"
+              }
+            ],
+            "mapping_basis": [
+              {
+                "stated": "Saudi Arabia",
+                "country": "Saudi Arabia"
+              }
+            ]
+          },
+          "primary_country": {
+            "value": "Saudi Arabia",
+            "evidence": "Oil shipments were interrupted in Saudi Arabia.",
+            "source_field": "body",
+            "basis": "article_location_or_policy_actor"
+          },
+          "location_confidence": {
+            "value": 0.65,
+            "evidence": "Oil shipments were interrupted in Saudi Arabia.",
+            "source_field": "body",
+            "basis": "heuristic_from_article"
+          },
+          "commodity_channel": {
+            "value": true,
+            "evidence": "Oil shipments were interrupted in Saudi Arabia.",
+            "source_field": "body",
+            "basis": "article_text",
+            "assertion": "affirmed"
+          },
+          "commodities_mentioned": {
+            "value": [
+              "oil"
+            ],
+            "evidence": "Saudi oil export disruption interrupts shipments",
+            "source_field": "headline",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "Saudi oil export disruption interrupts shipments",
+                "source_field": "headline"
+              }
+            ]
+          }
+        },
+        "canonical_headline": "Saudi oil export disruption interrupts shipments",
+        "event_summary": "Oil shipments were interrupted in Saudi Arabia.",
+        "keywords": [
+          "production_interruption"
+        ],
+        "created_at": "2026-09-23T06:43:51.744944+00:00",
+        "updated_at": "2026-09-23T06:43:51.744944+00:00",
+        "schema_version": "event_v1",
+        "country": "Saudi Arabia",
+        "region": null,
+        "location_basis": "explicit_article_location",
+        "coordinate_precision": "country_approximation"
+      },
+      "candidate_channels": [
+        {
+          "channel_family": "commodity_inputs",
+          "channel_subtype": "unspecified",
+          "confidence": 0.75,
+          "basis": [
+            "commodity_channel"
+          ],
+          "status": "candidate"
+        }
+      ],
+      "ticker_analysis": [],
+      "edge_exclusions": [],
+      "status": "actionable_event",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "actionable_event",
+      "published_at": "2026-09-17T08:00:00Z",
+      "geography": {
+        "event_country": "Saudi Arabia",
+        "event_region": null,
+        "event_city": null,
+        "latitude": 23.806908,
+        "longitude": 44.6996,
+        "location_basis": "explicit_article_location",
+        "location_confidence": "Article-supported country; exact site unresolved",
+        "coordinate_basis": "Natural Earth country label point (existing map)",
+        "evidence": [
+          {
+            "country": "Saudi Arabia",
+            "city": null,
+            "region": null,
+            "source_field": "headline",
+            "evidence": "Saudi oil export disruption interrupts shipments"
+          }
+        ],
+        "coordinate_precision": "country_approximation"
+      },
+      "severity": {
+        "level": "Medium",
+        "score": 0.5,
+        "components": [
+          {
+            "level": "Medium",
+            "component": "operational_disruption",
+            "evidence": "Saudi oil export disruption interrupts shipments",
+            "source_field": "headline"
+          }
+        ],
+        "reason": "Explicit article evidence supports operational_disruption. Scale beyond this evidence is not inferred.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship None; severity Medium; evidence Unavailable.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      }
+    },
+    {
+      "article_id": "visual_qa_nvda",
+      "headline": "Nvidia CEO discusses AI safety at a conference in Taiwan",
+      "source": "Synthetic Visual QA",
+      "article_url": null,
+      "gate": {
+        "article_id": "visual_qa_nvda",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_fb978d99861897d46d6a",
+        "event_type": "commentary",
+        "event_subtype": "commentary",
+        "published_at_first": "2026-09-17T08:00:00Z",
+        "country": "Taiwan",
+        "region": null,
+        "city": null,
+        "latitude": 23.652408,
+        "longitude": 120.868204,
+        "location_basis": "explicit_article_location",
+        "coordinate_precision": "country_approximation"
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [
+        {
+          "ticker": "NVDA",
+          "qualification": "qualified_direct_company_subject",
+          "relationship_type": "direct_company_subject",
+          "relevance_score": 0.15,
+          "relevance_level": "Mention only",
+          "evidence": [],
+          "economic_channels": [],
+          "relationship_paths": [],
+          "evidence_strength": {
+            "relationship_level": "Direct article evidence",
+            "basis": "Explicit company subject; no independent confirmation inferred."
+          },
+          "materiality": {
+            "level": "Unknown"
+          },
+          "historical_reaction": {
+            "status": "unavailable",
+            "reason": "No compatible archived event binding.",
+            "predictions": []
+          },
+          "explanation": "NVDA is the explicit company/action subject of the cited article clause.",
+          "next_questions": [
+            "Verify the original report and any company confirmation.",
+            "Determine event-specific scale and financial exposure."
+          ],
+          "direct_event_evidence": {
+            "relationship_type": "direct_company_subject",
+            "evidence": "Nvidia CEO discusses AI safety at a conference in Taiwan",
+            "source_field": "headline",
+            "channel": null
+          },
+          "relevance": {
+            "level": "High",
+            "relationship_score": 0.15,
+            "reason": "NVDA is the explicit company/action subject of the cited article clause.",
+            "interpretation": "Uncalibrated relationship policy score; not probability or expected return."
+          },
+          "evidence_assessment": {
+            "level": "Moderate",
+            "reason": "Explicit company subject; no independent confirmation inferred."
+          },
+          "financial_materiality": {
+            "level": "Not yet quantified",
+            "reason": "No validated event-specific financial amount/denominator established.",
+            "legacy": {
+              "level": "Unknown"
+            }
+          },
+          "research_priority": {
+            "level": "Low",
+            "score": 0.2,
+            "method": "attention_policy_v2",
+            "reason": "Relationship High; severity Low; evidence Moderate.",
+            "interpretation": "Analyst attention only. No direction, expected return or ML input."
+          },
+          "historical_context": {
+            "available": false,
+            "disclosure": "Retrospective context only; not a live directional prediction.",
+            "details": {
+              "status": "unavailable",
+              "reason": "No compatible archived event binding.",
+              "predictions": []
+            }
+          },
+          "direction": "Analyst judgment required"
+        }
+      ],
+      "edge_exclusions": [],
+      "status": "commentary",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "commentary",
+      "published_at": "2026-09-17T08:00:00Z",
+      "geography": {
+        "event_country": "Taiwan",
+        "event_region": null,
+        "event_city": null,
+        "latitude": 23.652408,
+        "longitude": 120.868204,
+        "location_basis": "explicit_article_location",
+        "location_confidence": "Article-supported country; exact site unresolved",
+        "coordinate_basis": "Natural Earth country label point (existing map)",
+        "evidence": [
+          {
+            "country": "Taiwan",
+            "city": null,
+            "region": null,
+            "source_field": "headline",
+            "evidence": "Nvidia CEO discusses AI safety at a conference in Taiwan"
+          }
+        ],
+        "coordinate_precision": "country_approximation"
+      },
+      "severity": {
+        "level": "Low",
+        "score": 0.2,
+        "components": [],
+        "reason": "Company discussion/opinion with no supported operational or binding-action escalation.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Low",
+        "score": 0.2,
+        "method": "attention_policy_v2",
+        "reason": "Relationship High; severity Low; evidence Moderate.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      }
+    },
+    {
+      "article_id": "visual_qa_aapl",
+      "headline": "Apple cuts jobs at its operations in Japan",
+      "source": "Synthetic Visual QA",
+      "article_url": null,
+      "gate": {
+        "article_id": "visual_qa_aapl",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_5b73622980745f5b50ec",
+        "event_type": "low_severity_event",
+        "event_subtype": "low_severity_event",
+        "published_at_first": "2026-09-17T08:00:00Z",
+        "country": "Japan",
+        "region": null,
+        "city": null,
+        "latitude": 36.142538,
+        "longitude": 138.44217,
+        "location_basis": "explicit_article_location",
+        "coordinate_precision": "country_approximation"
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [
+        {
+          "ticker": "AAPL",
+          "qualification": "qualified_direct_event_subject",
+          "relationship_type": "direct_event_subject",
+          "relevance_score": 0.15,
+          "relevance_level": "Mention only",
+          "evidence": [],
+          "economic_channels": [
+            "workforce_reduction"
+          ],
+          "relationship_paths": [],
+          "evidence_strength": {
+            "relationship_level": "Direct article evidence",
+            "basis": "Explicit company subject; no independent confirmation inferred."
+          },
+          "materiality": {
+            "level": "Unknown"
+          },
+          "historical_reaction": {
+            "status": "unavailable",
+            "reason": "No compatible archived event binding.",
+            "predictions": []
+          },
+          "explanation": "AAPL is the explicit company/action subject of the cited article clause.",
+          "next_questions": [
+            "Verify the original report and any company confirmation.",
+            "Determine event-specific scale and financial exposure."
+          ],
+          "direct_event_evidence": {
+            "relationship_type": "direct_event_subject",
+            "evidence": "Apple cuts jobs at its operations in Japan",
+            "source_field": "headline",
+            "channel": "workforce_reduction"
+          },
+          "relevance": {
+            "level": "High",
+            "relationship_score": 0.15,
+            "reason": "AAPL is the explicit company/action subject of the cited article clause.",
+            "interpretation": "Uncalibrated relationship policy score; not probability or expected return."
+          },
+          "evidence_assessment": {
+            "level": "Moderate",
+            "reason": "Explicit company subject; no independent confirmation inferred."
+          },
+          "financial_materiality": {
+            "level": "Not yet quantified",
+            "reason": "No validated event-specific financial amount/denominator established.",
+            "legacy": {
+              "level": "Unknown"
+            }
+          },
+          "research_priority": {
+            "level": "Medium",
+            "score": 0.5,
+            "method": "attention_policy_v2",
+            "reason": "Relationship High; severity Medium; evidence Moderate.",
+            "interpretation": "Analyst attention only. No direction, expected return or ML input."
+          },
+          "historical_context": {
+            "available": false,
+            "disclosure": "Retrospective context only; not a live directional prediction.",
+            "details": {
+              "status": "unavailable",
+              "reason": "No compatible archived event binding.",
+              "predictions": []
+            }
+          },
+          "direction": "Analyst judgment required"
+        }
+      ],
+      "edge_exclusions": [],
+      "status": "low_severity_event",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "low_severity_event",
+      "published_at": "2026-09-17T08:00:00Z",
+      "geography": {
+        "event_country": "Japan",
+        "event_region": null,
+        "event_city": null,
+        "latitude": 36.142538,
+        "longitude": 138.44217,
+        "location_basis": "explicit_article_location",
+        "location_confidence": "Article-supported country; exact site unresolved",
+        "coordinate_basis": "Natural Earth country label point (existing map)",
+        "evidence": [
+          {
+            "country": "Japan",
+            "city": null,
+            "region": null,
+            "source_field": "headline",
+            "evidence": "Apple cuts jobs at its operations in Japan"
+          }
+        ],
+        "coordinate_precision": "country_approximation"
+      },
+      "severity": {
+        "level": "Medium",
+        "score": 0.5,
+        "components": [
+          {
+            "level": "Medium",
+            "component": "workforce_scope",
+            "evidence": "Apple cuts jobs at its operations in Japan",
+            "source_field": "headline"
+          },
+          {
+            "level": "Medium",
+            "component": "workforce_scope",
+            "evidence": "Apple confirmed workforce reduction at its operations in Japan.",
+            "source_field": "body"
+          }
+        ],
+        "reason": "Explicit article evidence supports workforce_scope. Scale beyond this evidence is not inferred.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Medium",
+        "score": 0.5,
+        "method": "attention_policy_v2",
+        "reason": "Relationship High; severity Medium; evidence Moderate.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      }
+    },
+    {
+      "article_id": "visual_qa_mention",
+      "headline": "Market roundup: Apple mentioned at investor forum in India",
+      "source": "Synthetic Visual QA",
+      "article_url": null,
+      "gate": {
+        "article_id": "visual_qa_mention",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_9671702cd58aa7118b7d",
+        "event_type": "general_news",
+        "event_subtype": "general_news",
+        "published_at_first": "2026-09-17T08:00:00Z",
+        "country": "India",
+        "region": null,
+        "city": null,
+        "latitude": 22.686852,
+        "longitude": 79.358105,
+        "location_basis": "explicit_article_location",
+        "coordinate_precision": "country_approximation"
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [
+        {
+          "ticker": "AAPL",
+          "qualification": "candidate_requires_review",
+          "relationship_type": "direct_mention",
+          "relevance_score": 0.15,
+          "relevance_level": "Mention only",
+          "evidence": [],
+          "economic_channels": [],
+          "relationship_paths": [],
+          "evidence_strength": {
+            "relationship_level": "Mention only"
+          },
+          "materiality": {
+            "level": "Unknown"
+          },
+          "historical_reaction": {
+            "status": "unavailable",
+            "reason": "No compatible archived event binding.",
+            "predictions": []
+          },
+          "explanation": "Company is mentioned; no qualified relationship established.",
+          "next_questions": [],
+          "relevance": {
+            "level": "Mention only",
+            "relationship_score": 0.15,
+            "reason": "Company is mentioned; no qualified relationship established.",
+            "interpretation": "Uncalibrated relationship policy score; not probability or expected return."
+          },
+          "evidence_assessment": {
+            "level": "Mention only",
+            "reason": "Curated relationship evidence; article confirmation remains separate."
+          },
+          "financial_materiality": {
+            "level": "Insufficient evidence",
+            "reason": "No validated event-specific financial amount/denominator established.",
+            "legacy": {
+              "level": "Unknown"
+            }
+          },
+          "research_priority": {
+            "level": "Review",
+            "score": null,
+            "method": "attention_policy_v2",
+            "reason": "Relationship Mention only; severity Unknown; evidence Mention only.",
+            "interpretation": "Analyst attention only. No direction, expected return or ML input."
+          },
+          "historical_context": {
+            "available": false,
+            "disclosure": "Retrospective context only; not a live directional prediction.",
+            "details": {
+              "status": "unavailable",
+              "reason": "No compatible archived event binding.",
+              "predictions": []
+            }
+          },
+          "direction": "Analyst judgment required"
+        }
+      ],
+      "edge_exclusions": [],
+      "status": "general_news",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "general_news",
+      "published_at": "2026-09-17T08:00:00Z",
+      "geography": {
+        "event_country": "India",
+        "event_region": null,
+        "event_city": null,
+        "latitude": 22.686852,
+        "longitude": 79.358105,
+        "location_basis": "explicit_article_location",
+        "location_confidence": "Article-supported country; exact site unresolved",
+        "coordinate_basis": "Natural Earth country label point (existing map)",
+        "evidence": [
+          {
+            "country": "India",
+            "city": null,
+            "region": null,
+            "source_field": "headline",
+            "evidence": "Market roundup: Apple mentioned at investor forum in India"
+          }
+        ],
+        "coordinate_precision": "country_approximation"
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship Mention only; severity Unknown; evidence Mention only.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      }
+    },
+    {
+      "article_id": "visual_qa_multi",
+      "headline": "Apple and Nvidia discuss AI strategy in Australia",
+      "source": "Synthetic Visual QA",
+      "article_url": null,
+      "gate": {
+        "article_id": "visual_qa_multi",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_7562514c59c4d07e801d",
+        "event_type": "general_news",
+        "event_subtype": "general_news",
+        "published_at_first": "2026-09-17T08:00:00Z",
+        "country": "Australia",
+        "region": null,
+        "city": null,
+        "latitude": -24.129522,
+        "longitude": 134.04972,
+        "location_basis": "explicit_article_location",
+        "coordinate_precision": "country_approximation"
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [
+        {
+          "ticker": "AAPL",
+          "qualification": "candidate_requires_review",
+          "relationship_type": "direct_mention",
+          "relevance_score": 0.15,
+          "relevance_level": "Mention only",
+          "evidence": [],
+          "economic_channels": [],
+          "relationship_paths": [],
+          "evidence_strength": {
+            "relationship_level": "Mention only"
+          },
+          "materiality": {
+            "level": "Unknown"
+          },
+          "historical_reaction": {
+            "status": "unavailable",
+            "reason": "No compatible archived event binding.",
+            "predictions": []
+          },
+          "explanation": "Company is mentioned; no qualified relationship established.",
+          "next_questions": [],
+          "relevance": {
+            "level": "Mention only",
+            "relationship_score": 0.15,
+            "reason": "Company is mentioned; no qualified relationship established.",
+            "interpretation": "Uncalibrated relationship policy score; not probability or expected return."
+          },
+          "evidence_assessment": {
+            "level": "Mention only",
+            "reason": "Curated relationship evidence; article confirmation remains separate."
+          },
+          "financial_materiality": {
+            "level": "Insufficient evidence",
+            "reason": "No validated event-specific financial amount/denominator established.",
+            "legacy": {
+              "level": "Unknown"
+            }
+          },
+          "research_priority": {
+            "level": "Review",
+            "score": null,
+            "method": "attention_policy_v2",
+            "reason": "Relationship Mention only; severity Unknown; evidence Mention only.",
+            "interpretation": "Analyst attention only. No direction, expected return or ML input."
+          },
+          "historical_context": {
+            "available": false,
+            "disclosure": "Retrospective context only; not a live directional prediction.",
+            "details": {
+              "status": "unavailable",
+              "reason": "No compatible archived event binding.",
+              "predictions": []
+            }
+          },
+          "direction": "Analyst judgment required"
+        },
+        {
+          "ticker": "NVDA",
+          "qualification": "candidate_requires_review",
+          "relationship_type": "direct_mention",
+          "relevance_score": 0.15,
+          "relevance_level": "Mention only",
+          "evidence": [],
+          "economic_channels": [],
+          "relationship_paths": [],
+          "evidence_strength": {
+            "relationship_level": "Mention only"
+          },
+          "materiality": {
+            "level": "Unknown"
+          },
+          "historical_reaction": {
+            "status": "unavailable",
+            "reason": "No compatible archived event binding.",
+            "predictions": []
+          },
+          "explanation": "Company is mentioned; no qualified relationship established.",
+          "next_questions": [],
+          "relevance": {
+            "level": "Mention only",
+            "relationship_score": 0.15,
+            "reason": "Company is mentioned; no qualified relationship established.",
+            "interpretation": "Uncalibrated relationship policy score; not probability or expected return."
+          },
+          "evidence_assessment": {
+            "level": "Mention only",
+            "reason": "Curated relationship evidence; article confirmation remains separate."
+          },
+          "financial_materiality": {
+            "level": "Insufficient evidence",
+            "reason": "No validated event-specific financial amount/denominator established.",
+            "legacy": {
+              "level": "Unknown"
+            }
+          },
+          "research_priority": {
+            "level": "Review",
+            "score": null,
+            "method": "attention_policy_v2",
+            "reason": "Relationship Mention only; severity Unknown; evidence Mention only.",
+            "interpretation": "Analyst attention only. No direction, expected return or ML input."
+          },
+          "historical_context": {
+            "available": false,
+            "disclosure": "Retrospective context only; not a live directional prediction.",
+            "details": {
+              "status": "unavailable",
+              "reason": "No compatible archived event binding.",
+              "predictions": []
+            }
+          },
+          "direction": "Analyst judgment required"
+        }
+      ],
+      "edge_exclusions": [],
+      "status": "general_news",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "general_news",
+      "published_at": "2026-09-17T08:00:00Z",
+      "geography": {
+        "event_country": "Australia",
+        "event_region": null,
+        "event_city": null,
+        "latitude": -24.129522,
+        "longitude": 134.04972,
+        "location_basis": "explicit_article_location",
+        "location_confidence": "Article-supported country; exact site unresolved",
+        "coordinate_basis": "Natural Earth country label point (existing map)",
+        "evidence": [
+          {
+            "country": "Australia",
+            "city": null,
+            "region": null,
+            "source_field": "headline",
+            "evidence": "Apple and Nvidia discuss AI strategy in Australia"
+          }
+        ],
+        "coordinate_precision": "country_approximation"
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship Mention only; severity Unknown; evidence Mention only.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      }
+    }
+  ],
+  "research_queue": [
+    {
+      "article_id": "visual_qa_aapl",
+      "event_id": "article_5b73622980745f5b50ec",
+      "ticker": "AAPL",
+      "qualification": "qualified_direct_event_subject",
+      "priority": "Medium",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "visual_qa_mention",
+      "event_id": "article_9671702cd58aa7118b7d",
+      "ticker": "AAPL",
+      "qualification": "candidate_requires_review",
+      "priority": "Review",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "visual_qa_multi",
+      "event_id": "article_7562514c59c4d07e801d",
+      "ticker": "AAPL",
+      "qualification": "candidate_requires_review",
+      "priority": "Review",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "visual_qa_multi",
+      "event_id": "article_7562514c59c4d07e801d",
+      "ticker": "NVDA",
+      "qualification": "candidate_requires_review",
+      "priority": "Review",
+      "direction": "Analyst judgment required"
+    },
+    {
+      "article_id": "visual_qa_nvda",
+      "event_id": "article_fb978d99861897d46d6a",
+      "ticker": "NVDA",
+      "qualification": "qualified_direct_company_subject",
+      "priority": "Low",
+      "direction": "Analyst judgment required"
+    }
+  ],
+  "summary": {
+    "articles": 6,
+    "usable": 6,
+    "discrete_events": 1,
+    "rejected": 0,
+    "qualified_pairs": 2,
+    "review_candidates": 3
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "all_original_files_unchanged": true,
+  "original_file_count": 219,
+  "protected_sha256": {
+    "src/news/event_gate.py": "3e270fe9a07003867b27da490d751d29b1960b52be5e64eb10391589b9a3093a",
+    "src/news/event_extractor.py": "51dc33c9597b48b83a9cf60fbdd5ee586405105ebe470e11b042d22eebcb06e8",
+    "src/news/channel_generator.py": "9f052a90baa8d0a71511725cee6b0f56d2c506a63178975ee0d4c348f5d217af",
+    "src/news/exposure_matcher.py": "11cb1503a934f6259f45d079b43ac3101af494b7ff99bceaffda75f89879ac4b",
+    "src/news/pipeline.py": "28e439a49c586bb283db2fe68dc94770572e45684c14dd478fa5c26c182cb3ac",
+    "src/news/schemas.py": "0ce7d3e541a4dd21752cc6447c850df5a981623ea357d71e318b255603d08dfe",
+    "MAG7_News_Intelligence_Exposure_Knowledge_Layer_V1.xlsx": "80a603c6a7580a21c29a13e8997057405ac5e513af08d7967da16ec4ac1e3eb5",
+    "data/news/market_reaction/historical_market_reaction_H01_H30_v1.csv": "0bf0c628bd1de764861ffbca3feac28bb1132a28b1346fdadfadf2bae559fc5e"
+  }
+}

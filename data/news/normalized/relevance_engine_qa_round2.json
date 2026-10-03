@@ -1,0 +1,124 @@
+{
+  "articles": [
+    {
+      "article_id": "relevance_qa_001",
+      "provider": "synthetic_qa",
+      "provider_article_id": "relevance_qa_001",
+      "headline": "Regulator fines Meta over data-protection violations",
+      "summary": "A regulator imposed a financial penalty on Meta over alleged violations involving user data protection practices.",
+      "body": "The regulator imposed a fine on Meta Platforms over data-protection violations involving Facebook and Instagram user information. The action directly names Meta and concerns its own platform operations.",
+      "source": "Synthetic Relevance QA",
+      "article_url": null,
+      "published_at": "2026-09-20T01:00:00+00:00",
+      "fetched_at": "2026-09-20T01:05:00+00:00",
+      "time_precision": "exact",
+      "topics": [
+        "Meta",
+        "privacy",
+        "regulation",
+        "fine"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "has_full_text": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "relevance_qa_002",
+      "provider": "synthetic_qa",
+      "provider_article_id": "relevance_qa_002",
+      "headline": "TSMC advanced packaging interruption affects CoWoS capacity in Taiwan",
+      "summary": "A temporary interruption affected TSMC CoWoS advanced packaging capacity used for high-performance AI chips.",
+      "body": "TSMC reported a temporary disruption in CoWoS advanced packaging operations in Taiwan. The affected packaging capacity is used for high-performance AI accelerators. Wafer fabrication operations were reported as continuing normally.",
+      "source": "Synthetic Relevance QA",
+      "article_url": null,
+      "published_at": "2026-09-20T02:00:00+00:00",
+      "fetched_at": "2026-09-20T02:05:00+00:00",
+      "time_precision": "exact",
+      "topics": [
+        "TSMC",
+        "CoWoS",
+        "advanced packaging",
+        "AI chips"
+      ],
+      "countries": [
+        "Taiwan"
+      ],
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "has_full_text": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "relevance_qa_003",
+      "provider": "synthetic_qa",
+      "provider_article_id": "relevance_qa_003",
+      "headline": "Regional power outage temporarily disrupts a small electronics supplier in Malaysia",
+      "summary": "A small electronics supplier in Malaysia temporarily halted production after a regional power outage.",
+      "body": "A regional power outage temporarily stopped production at a small electronics-components supplier in Malaysia. The report does not identify any relationship with Apple, Nvidia, Microsoft, Alphabet, Amazon, Meta or Tesla, and no customer or supplier link is established.",
+      "source": "Synthetic Relevance QA",
+      "article_url": null,
+      "published_at": "2026-09-20T03:00:00+00:00",
+      "fetched_at": "2026-09-20T03:05:00+00:00",
+      "time_precision": "exact",
+      "topics": [
+        "Malaysia",
+        "power outage",
+        "electronics supplier"
+      ],
+      "countries": [
+        "Malaysia"
+      ],
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "has_full_text": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    },
+    {
+      "article_id": "relevance_qa_004",
+      "provider": "synthetic_qa",
+      "provider_article_id": "relevance_qa_004",
+      "headline": "US expands export-license restrictions on advanced AI chips sold to China",
+      "summary": "New export-license restrictions cover advanced AI accelerators sold to China and directly affect Nvidia while potentially affecting other companies exposed to AI infrastructure demand.",
+      "body": "The U.S. government announced expanded export-license restrictions on advanced AI accelerators sold to China. Nvidia is directly named because the restrictions cover products in its advanced data-center accelerator portfolio. Other technology companies may have indirect exposure through cloud infrastructure, supply chains or AI investment, but no specific financial impact is established in this report.",
+      "source": "Synthetic Relevance QA",
+      "article_url": null,
+      "published_at": "2026-09-20T04:00:00+00:00",
+      "fetched_at": "2026-09-20T04:05:00+00:00",
+      "time_precision": "exact",
+      "topics": [
+        "Nvidia",
+        "China",
+        "export controls",
+        "AI chips"
+      ],
+      "countries": [
+        "United States",
+        "China"
+      ],
+      "thumbnail": null,
+      "authors": [],
+      "languages": [
+        "en"
+      ],
+      "has_full_text": true,
+      "raw_listing": {},
+      "raw_detail": {}
+    }
+  ]
+}

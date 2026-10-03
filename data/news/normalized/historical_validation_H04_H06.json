@@ -1,0 +1,104 @@
+{
+    "articles": [
+      {
+        "article_id": "historical_H04",
+        "provider": "historical_manual_snapshot",
+        "provider_article_id": "H04",
+        "headline": "Tesla allegedly cuts production in Giga Shanghai",
+        "summary": "Tesla reduced production at its Shanghai factory as electric-vehicle sales growth slowed and competition in China intensified.",
+        "body": "Tesla reduced production at its Gigafactory Shanghai in March 2024. Factory employees were told to work five days per week instead of the previous six-and-a-half-day schedule. The production reduction came as electric-vehicle sales growth slowed and competition increased in China. This historical validation snapshot includes only event-time operational facts and excludes later delivery results, later financial results, and later interpretations.",
+        "source": "Electrive citing Bloomberg",
+        "article_url": "https://www.electrive.com/2024/03/25/tesla-allegedly-cuts-production-in-giga-shanghai/",
+        "thumbnail": null,
+        "authors": [],
+        "topics": [
+          "automotive",
+          "manufacturing",
+          "electric vehicles",
+          "production"
+        ],
+        "countries": [
+          "China"
+        ],
+        "languages": [
+          "en"
+        ],
+        "published_at": "2024-03-25",
+        "fetched_at": null,
+        "has_full_text": false,
+        "historical_snapshot": true,
+        "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+        "time_precision": "date_only",
+        "later_context_excluded": true,
+        "raw_listing": {},
+        "raw_detail": {}
+      },
+      {
+        "article_id": "historical_H05",
+        "provider": "historical_manual_snapshot",
+        "provider_article_id": "H05",
+        "headline": "U.S. updates export curbs on AI chips and tools to China",
+        "summary": "The United States updated export-control rules intended to restrict China's access to advanced artificial-intelligence chips and semiconductor-manufacturing technology.",
+        "body": "The U.S. government updated export-control rules covering advanced artificial-intelligence chips and semiconductor manufacturing equipment destined for China. The revised rules clarified and expanded restrictions introduced previously and included additional products and systems containing restricted chips. Nvidia was among the companies exposed to restrictions on advanced AI semiconductor sales to China. This historical validation snapshot excludes later regulatory changes and later financial effects.",
+        "source": "Reuters",
+        "article_url": "https://www.reuters.com/technology/us-commerce-updates-export-curbs-ai-chips-china-2024-03-29/",
+        "thumbnail": null,
+        "authors": [],
+        "topics": [
+          "technology",
+          "semiconductors",
+          "artificial intelligence",
+          "export controls"
+        ],
+        "countries": [
+          "United States",
+          "China"
+        ],
+        "languages": [
+          "en"
+        ],
+        "published_at": "2024-03-29",
+        "fetched_at": null,
+        "has_full_text": false,
+        "historical_snapshot": true,
+        "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+        "time_precision": "date_only",
+        "later_context_excluded": true,
+        "raw_listing": {},
+        "raw_detail": {}
+      },
+      {
+        "article_id": "historical_H06",
+        "provider": "historical_manual_snapshot",
+        "provider_article_id": "H06",
+        "headline": "US curbs AI chip exports from Nvidia and AMD to some Middle East countries",
+        "summary": "Nvidia disclosed that U.S. licensing requirements for some advanced AI chips had been expanded to certain countries in the Middle East.",
+        "body": "Nvidia disclosed that the U.S. government had imposed additional licensing requirements affecting exports of some advanced artificial-intelligence chips, including A100 and H100 products, to certain countries in the Middle East. The restrictions extended regulatory exposure beyond the China market. This historical validation snapshot includes only information available from the contemporary disclosure and excludes later regulatory developments and later financial effects.",
+        "source": "Reuters",
+        "article_url": "https://www.reuters.com/technology/us-restricts-exports-some-nvidia-chips-middle-east-countries-filing-2023-08-30/",
+        "thumbnail": null,
+        "authors": [],
+        "topics": [
+          "technology",
+          "semiconductors",
+          "artificial intelligence",
+          "export controls"
+        ],
+        "countries": [
+          "United States"
+        ],
+        "languages": [
+          "en"
+        ],
+        "published_at": "2023-08-30",
+        "fetched_at": null,
+        "has_full_text": false,
+        "historical_snapshot": true,
+        "snapshot_method": "manual_factual_snapshot_from_event_time_source",
+        "time_precision": "date_only",
+        "later_context_excluded": true,
+        "raw_listing": {},
+        "raw_detail": {}
+      }
+    ]
+  }

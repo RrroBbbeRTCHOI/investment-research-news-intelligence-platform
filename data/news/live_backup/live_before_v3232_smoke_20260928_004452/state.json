@@ -1,0 +1,688 @@
+{
+  "seen": {
+    "id:perigon:d651eca6873549d8b5d477612ce029f1": "live_661b8749becc1e061f012323",
+    "url:https://khelja.in/cipher-digital-ceo-defends-barber-lake-lease-extension-after-investor-questions-timing/": "live_661b8749becc1e061f012323",
+    "content:dbd754289ae0533e76918cd77388b7e883bb106df2d1a395dc6f0e5cf0b3f0a2": "live_661b8749becc1e061f012323",
+    "id:perigon:56ef1bd82ca14a2a97dbf83776decbde": "live_038088923d023249ea63b520",
+    "url:https://www.thehindubusinessline.com/info-tech/india-ranks-in-low-category-in-ai-adoption-curve-despite-high-search-interest/article71516354.ece": "live_038088923d023249ea63b520",
+    "content:c030e599b0493b67654cc66ce043595f16812dd9cb1285ef824a3e1a080ee44c": "live_038088923d023249ea63b520",
+    "id:perigon:323c2d631c394cd29c965a2743eb9304": "live_bc0f8c8e7cb33b902c1490b7",
+    "url:https://seekingalpha.com/article/4950055-tsmc-an-ai-technology-leader-trading-at-just-0-7x-peg": "live_bc0f8c8e7cb33b902c1490b7",
+    "content:e199cd3b9f760225e5574a0d551855f3592ee8c6c122ecd468cc732f6cf0ce3a": "live_bc0f8c8e7cb33b902c1490b7",
+    "id:perigon:e275d17e3ce44452824edaf760dab0a1": "live_ac7a81621c2e926f2c10e6e3",
+    "url:https://www.indexbox.io/blog/glass-market-forecast-to-2035-construction-and-packaging-demand-to-drive-growth/": "live_ac7a81621c2e926f2c10e6e3",
+    "content:7d2380bdd98a7b194f07846779229cfe154a51bc8a16bbb5c1d068ca92ffbdb1": "live_ac7a81621c2e926f2c10e6e3",
+    "id:perigon:704d5ea2691149ad8e363b627029f3d1": "live_7dc3aebdcd094e12a6622e3d",
+    "url:https://time.news/saudi-arabia-ramps-up-oil-shipments-through-strait-of-hormuz/": "live_7dc3aebdcd094e12a6622e3d",
+    "content:36c0e3742dc5d9bb450f097a5df9993985a8960e6bcff2e9eb71b3bb04d474e0": "live_7dc3aebdcd094e12a6622e3d"
+  },
+  "pending": {
+    "live_bc0f8c8e7cb33b902c1490b7": {
+      "article": {
+        "provider": "perigon",
+        "provider_article_id": "323c2d631c394cd29c965a2743eb9304",
+        "headline": "TSMC Stock: An AI Technology Leader Trading At Just 0.7x PEG (NYSE:TSM)",
+        "summary": "TSMC rated a buy with 20.2% upside to $543 fair value. Learn how AI-driven HPC demand укрепens its moat, plus key risks.",
+        "body": "More than 7 years of experience in equity analysis in LatAm. We provide our clients with in-depth research and insights to help them make informed investment decisions.\n\nAnalyst’s Disclosure: I/we hav... [1141 symbols]",
+        "source": "seekingalpha.com",
+        "article_url": "https://seekingalpha.com/article/4950055-tsmc-an-ai-technology-leader-trading-at-just-0-7x-peg",
+        "published_at": "2026-09-27T13:57:23+00:00",
+        "fetched_at": "2026-09-27T14:02:00.970066+00:00",
+        "article_id": "live_bc0f8c8e7cb33b902c1490b7"
+      },
+      "status": "quota_deferred",
+      "intake": {
+        "content_type": "event",
+        "reason": "Existing V3.2.2 research-intelligence eligibility preserved; final event gate remains authoritative.",
+        "signals": [],
+        "method": "live_content_v3_2_3"
+      }
+    },
+    "live_7dc3aebdcd094e12a6622e3d": {
+      "article": {
+        "provider": "perigon",
+        "provider_article_id": "704d5ea2691149ad8e363b627029f3d1",
+        "headline": "Saudi Arabia Ramps Up Oil Shipments Through Strait Of Hormuz",
+        "summary": "Saudi Arabia is ramping up crude oil shipments through the Strait of Hormuz following attacks on its strategic East-West pipeline.",
+        "body": "Disruptions across Saudi Arabia’s energy transport network have triggered a scramble for alternative export routes. The kingdom’s vital East-West pipeline was forced out of service after strikes impac... [3273 symbols]",
+        "source": "time.news",
+        "article_url": "https://time.news/saudi-arabia-ramps-up-oil-shipments-through-strait-of-hormuz/",
+        "published_at": "2026-09-27T16:55:31+03:00",
+        "fetched_at": "2026-09-27T14:02:00.970066+00:00",
+        "article_id": "live_7dc3aebdcd094e12a6622e3d"
+      },
+      "status": "quota_deferred",
+      "intake": {
+        "content_type": "event",
+        "reason": "Existing V3.2.2 research-intelligence eligibility preserved; final event gate remains authoritative.",
+        "signals": [],
+        "method": "live_content_v3_2_3"
+      }
+    }
+  },
+  "records": {
+    "live_038088923d023249ea63b520": {
+      "article_id": "live_038088923d023249ea63b520",
+      "headline": "India ranks in ‘low’ category in AI adoption curve despite high search interest",
+      "source": "thehindubusinessline.com",
+      "article_url": "https://www.thehindubusinessline.com/info-tech/india-ranks-in-low-category-in-ai-adoption-curve-despite-high-search-interest/article71516354.ece",
+      "gate": {
+        "article_id": "live_038088923d023249ea63b520",
+        "is_event": false,
+        "gate_reason": "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+        "gate_confidence": 0.7
+      },
+      "event": {
+        "event_id": "article_4b58ad16ae7af5cb7ad2",
+        "event_type": "general_news",
+        "event_subtype": "general_news",
+        "published_at_first": "2026-09-27T19:27:54+05:30",
+        "country": "India",
+        "region": null,
+        "city": null,
+        "latitude": 22.686852,
+        "longitude": 79.358105,
+        "location_basis": "explicit_article_location",
+        "coordinate_precision": "country_approximation",
+        "primary_country": "India"
+      },
+      "candidate_channels": [],
+      "ticker_analysis": [
+        {
+          "ticker": "GOOGL",
+          "qualification": "candidate_requires_review",
+          "relationship_type": "direct_mention",
+          "relevance_score": 0.15,
+          "relevance_level": "Mention only",
+          "evidence": [],
+          "economic_channels": [],
+          "relationship_paths": [],
+          "evidence_strength": {
+            "relationship_level": "Mention only"
+          },
+          "materiality": {
+            "level": "Unknown"
+          },
+          "historical_reaction": {
+            "status": "unavailable",
+            "reason": "No compatible archived event binding.",
+            "predictions": []
+          },
+          "explanation": "Company is mentioned; no qualified relationship established.",
+          "next_questions": [],
+          "relevance": {
+            "level": "Mention only",
+            "relationship_score": 0.15,
+            "reason": "Company is mentioned; no qualified relationship established.",
+            "interpretation": "Uncalibrated relationship policy score; not probability or expected return."
+          },
+          "evidence_assessment": {
+            "level": "Mention only",
+            "reason": "Curated relationship evidence; article confirmation remains separate."
+          },
+          "financial_materiality": {
+            "level": "Insufficient evidence",
+            "reason": "No validated event-specific financial amount/denominator established.",
+            "legacy": {
+              "level": "Unknown"
+            }
+          },
+          "research_priority": {
+            "level": "Review",
+            "score": null,
+            "method": "attention_policy_v2",
+            "reason": "Relationship Mention only; severity Unknown; evidence Mention only.",
+            "interpretation": "Analyst attention only. No direction, expected return or ML input."
+          },
+          "historical_context": {
+            "available": false,
+            "disclosure": "Retrospective context only; not a live directional prediction.",
+            "details": {
+              "status": "unavailable",
+              "reason": "No compatible archived event binding.",
+              "predictions": []
+            }
+          },
+          "direction": "Analyst judgment required",
+          "quantitative": {
+            "relevance": {
+              "value": 0.1,
+              "kind": "normalized_heuristic",
+              "method": "weighted_supported_relationship_terms_v3",
+              "weights": {
+                "mention": 0.1,
+                "direct_subject": 0.35,
+                "eligible_edge": 0.35,
+                "channel": 0.1,
+                "country": 0.05,
+                "counterparty": 0.05
+              },
+              "inputs": {
+                "mention": 1.0,
+                "direct_subject": 0.0,
+                "eligible_edge": 0.0,
+                "channel": 0.0,
+                "country": 0.0,
+                "counterparty": 0.0
+              },
+              "contributions": {
+                "mention": 0.1,
+                "direct_subject": 0.0,
+                "eligible_edge": 0.0,
+                "channel": 0.0,
+                "country": 0.0,
+                "counterparty": 0.0
+              },
+              "interpretation": "Not P(relevant); not calibrated or a financial-impact estimate."
+            },
+            "confidence": {
+              "value": null,
+              "kind": "qualitative_evidence_components",
+              "source_quality_policy_notice": "Qualitative source-quality policy tier; not a calibrated probability, truth probability, statistical accuracy estimate, or model confidence.",
+              "source_quality": "Unknown",
+              "extraction_self_assessment": 0.95,
+              "relationship_evidence_quality": "Mention only",
+              "interpretation": "Qualitative source policy and relationship evidence; extraction confidence is uncalibrated model self-assessment, not factual accuracy. No composite probability or confidence score is computed."
+            },
+            "time_decay": {
+              "value": 0.9993397758952594,
+              "age_hours": 0.06860279611111111,
+              "half_life_hours": 72.0,
+              "lambda_per_hour": 0.009627044174443685,
+              "as_of": "2026-09-27T14:02:00.970066+00:00",
+              "interpretation": "Recency factor, not causal impact; future/invalid publication time gives null."
+            },
+            "impact": {
+              "value": null,
+              "magnitude": null,
+              "directional_exposure": null,
+              "surprise": null,
+              "reason": "Event-specific magnitude, direction and surprise not established."
+            }
+          }
+        }
+      ],
+      "edge_exclusions": [],
+      "status": "general_news",
+      "direction": "Analyst judgment required",
+      "usable": true,
+      "classification": "general_news",
+      "published_at": "2026-09-27T19:27:54+05:30",
+      "geography": {
+        "event_country": "India",
+        "event_region": null,
+        "event_city": null,
+        "latitude": 22.686852,
+        "longitude": 79.358105,
+        "location_basis": "explicit_article_location",
+        "location_confidence": "Article-supported country; exact site unresolved",
+        "coordinate_basis": "Natural Earth country label point (existing map)",
+        "evidence": [
+          {
+            "country": "India",
+            "city": null,
+            "region": null,
+            "source_field": "headline",
+            "evidence": "India ranks in ‘low’ category in AI adoption curve despite high search interest"
+          }
+        ],
+        "coordinate_precision": "country_approximation"
+      },
+      "severity": {
+        "level": "Unknown",
+        "score": null,
+        "components": [],
+        "reason": "No supported severity rule establishes event scale.",
+        "method": "article_severity_policy_v2",
+        "interpretation": "Internal ordinal policy score; not probability or financial impact."
+      },
+      "research_priority": {
+        "level": "Review",
+        "score": null,
+        "method": "attention_policy_v2",
+        "reason": "Relationship Mention only; severity Unknown; evidence Mention only.",
+        "interpretation": "Analyst attention only. No direction, expected return or ML input."
+      },
+      "enrichment": {
+        "status": "available",
+        "schema_version": "news_semantic_v3_1",
+        "prompt_version": "news_semantics_v3_1_sentence_grounding",
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "requested_model": "gemini-3.5-flash-lite",
+        "content_hash": "d867281dacab385d91cf51e275e0f42f881b9a66a0989f7cb05d89ba021fc4b3",
+        "article_content_hash": "c030e599b0493b67654cc66ce043595f16812dd9cb1285ef824a3e1a080ee44c",
+        "generated_at": "2026-09-27T14:02:13.118167+00:00",
+        "semantic": {
+          "article_class": "technology_event",
+          "is_relevant_candidate": true,
+          "summary_short": "India ranks in the “low” category of temporal AI adoption curves despite high search interest.",
+          "summary_full": "India ranks in the “low” category of the AI adoption curve despite indicating a high search interest in the technology, according to a recent study based on Google AI usage data.",
+          "primary_country": "India",
+          "event_type": "technology_adoption",
+          "event_subtype": "adoption_survey",
+          "countries": [
+            "India"
+          ],
+          "entities": [
+            "Google"
+          ],
+          "companies_mentioned": [
+            "Google"
+          ],
+          "direct_ticker_candidates": [
+            "GOOGL",
+            "GOOG"
+          ],
+          "economic_channels": [
+            "technology_infrastructure"
+          ],
+          "candidate_indirect_tickers": [],
+          "missing_information": [
+            "Exact methodology of the study",
+            "Quantitative metrics of infrastructure barriers"
+          ],
+          "research_questions": [
+            "What specific infrastructure barriers are limiting AI adoption in India according to the study?"
+          ],
+          "severity_candidate": "Low",
+          "severity_reason": "The article reports general statistical rankings on AI adoption in emerging markets without indicating direct, severe corporate operational impacts or financial damage for specific entities.",
+          "severity_confidence": 0.8,
+          "operational_event": false,
+          "fundamental_change_detected": false,
+          "llm_confidence": 0.95,
+          "citations": [
+            {
+              "field": "summary_short",
+              "quote": "India ranks in the “low” category of the AI adoption curve despite indicating a high search interest in the technology, according to a recent study based on Google AI usage data.",
+              "source_field": "body"
+            },
+            {
+              "field": "summary_full",
+              "quote": "India ranks in the “low” category of the AI adoption curve despite indicating a high search interest in the technology, according to a recent study based on Google AI usage data.",
+              "source_field": "body"
+            },
+            {
+              "field": "primary_country",
+              "quote": "India",
+              "source_field": "headline"
+            },
+            {
+              "field": "event_type",
+              "quote": "AI adoption",
+              "source_field": "headline"
+            },
+            {
+              "field": "event_subtype",
+              "quote": "study",
+              "source_field": "body"
+            },
+            {
+              "field": "article_class",
+              "quote": "AI adoption",
+              "source_field": "headline"
+            },
+            {
+              "field": "economic_channels",
+              "quote": "infrastructure barriers",
+              "source_field": "summary"
+            },
+            {
+              "field": "severity_candidate",
+              "quote": "low",
+              "source_field": "headline"
+            },
+            {
+              "field": "operational_event",
+              "quote": "AI adoption",
+              "source_field": "headline"
+            },
+            {
+              "field": "fundamental_change_detected",
+              "quote": "AI adoption",
+              "source_field": "headline"
+            },
+            {
+              "field": "direct_ticker_candidates",
+              "quote": "Google",
+              "source_field": "body"
+            }
+          ]
+        },
+        "usage": {
+          "input_tokens": null,
+          "output_tokens": null,
+          "total_tokens": 1156,
+          "estimated_cost_usd": null,
+          "scope": "successful response only; failed-attempt usage unavailable"
+        },
+        "cache_hit": false,
+        "attempts": [
+          {
+            "attempt": 1,
+            "provider": "gemini",
+            "model": "gemini-3.5-flash-lite",
+            "status": "success"
+          }
+        ],
+        "attempt_audit_scope": "original enrichment generation; cache reuse makes no new requests",
+        "attempt_count": 1,
+        "retry_count": 0,
+        "fallback_used": false,
+        "point_in_time_note": "Generated at the recorded enrichment time; not evidence the AI output was available when the article was published. Exposure eligibility still uses the original article replay time."
+      },
+      "semantic_validation": {
+        "status": "validated_constraints",
+        "accepted": {
+          "article_class": {
+            "value": "technology_event",
+            "citations": [
+              {
+                "field": "article_class",
+                "quote": "AI adoption",
+                "source_field": "headline"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "event_type": {
+            "value": "technology_adoption",
+            "citations": [
+              {
+                "field": "event_type",
+                "quote": "AI adoption",
+                "source_field": "headline"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "economic_channels": {
+            "value": [
+              "technology_infrastructure"
+            ],
+            "citations": [
+              {
+                "field": "economic_channels",
+                "quote": "infrastructure barriers",
+                "source_field": "summary"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "operational_event": {
+            "value": false,
+            "citations": [
+              {
+                "field": "operational_event",
+                "quote": "AI adoption",
+                "source_field": "headline"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "fundamental_change_detected": {
+            "value": false,
+            "citations": [
+              {
+                "field": "fundamental_change_detected",
+                "quote": "AI adoption",
+                "source_field": "headline"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "summary_full": {
+            "value": "India ranks in the “low” category of the AI adoption curve despite indicating a high search interest in the technology, according to a recent study based on Google AI usage data.",
+            "status": "source_grounded_candidate",
+            "sentence_validation": [
+              {
+                "sentence": "India ranks in the “low” category of the AI adoption curve despite indicating a high search interest in the technology, according to a recent study based on Google AI usage data.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "India ranks in the “low” category of the AI adoption curve despite indicating a high search interest in the technology, according to a recent study based on Google AI usage data."
+                ],
+                "source_fields": [
+                  "body"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "India ranks in the “low” category of the AI adoption curve despite indicating a high search interest in the technology, according to a recent study based on Google AI usage data.",
+                "source_field": "body"
+              }
+            ],
+            "reason": null
+          }
+        },
+        "summary_validation": {
+          "summary_short": {
+            "value": null,
+            "status": "rejected",
+            "sentence_validation": [
+              {
+                "sentence": "India ranks in the “low” category of temporal AI adoption curves despite high search interest.",
+                "accepted": false,
+                "supporting_quotes": [],
+                "source_fields": [],
+                "reason": "No sufficient exact source support: unsupported claim, attribution, modality or negation."
+              }
+            ],
+            "reason": "No summary sentences have sufficient source support."
+          },
+          "summary_full": {
+            "value": "India ranks in the “low” category of the AI adoption curve despite indicating a high search interest in the technology, according to a recent study based on Google AI usage data.",
+            "status": "source_grounded_candidate",
+            "sentence_validation": [
+              {
+                "sentence": "India ranks in the “low” category of the AI adoption curve despite indicating a high search interest in the technology, according to a recent study based on Google AI usage data.",
+                "accepted": true,
+                "supporting_quotes": [
+                  "India ranks in the “low” category of the AI adoption curve despite indicating a high search interest in the technology, according to a recent study based on Google AI usage data."
+                ],
+                "source_fields": [
+                  "body"
+                ],
+                "reason": "Exact source support with bounded meaning-preserving rewording.",
+                "source_quote": "India ranks in the “low” category of the AI adoption curve despite indicating a high search interest in the technology, according to a recent study based on Google AI usage data.",
+                "source_field": "body"
+              }
+            ],
+            "reason": null
+          }
+        },
+        "rejections": [
+          {
+            "field": "primary_country",
+            "reason": "Citation is not a substantive exact source span."
+          },
+          {
+            "field": "event_subtype",
+            "reason": "Citation is not a substantive exact source span."
+          },
+          {
+            "field": "severity_candidate",
+            "reason": "Citation is not a substantive exact source span."
+          },
+          {
+            "field": "direct_ticker_candidates",
+            "reason": "Citation is not a substantive exact source span."
+          },
+          {
+            "field": "summary_short",
+            "reason": "No summary sentences have sufficient source support."
+          }
+        ],
+        "candidate_relationships": [
+          {
+            "ticker": "GOOGL",
+            "kind": "direct_ticker_candidates",
+            "state": "unverified",
+            "reason": "No eligible matching exposure/action evidence; candidate cannot qualify itself.",
+            "edge_ids": []
+          },
+          {
+            "ticker": "GOOG",
+            "kind": "direct_ticker_candidates",
+            "state": "rejected",
+            "reason": "No eligible matching exposure/action evidence; candidate cannot qualify itself.",
+            "edge_ids": []
+          }
+        ],
+        "classification_arbitration": {
+          "status": "grounded_semantic_candidate",
+          "deterministic": {
+            "article_class": "general_news",
+            "event_type": "general_news",
+            "event_subtype": "general_news"
+          },
+          "semantic_candidate": {
+            "article_class": "technology_event",
+            "event_type": "technology_adoption"
+          },
+          "decision": "semantic_upgrade_candidate",
+          "reason": "Deterministic event classification is generic; grounded semantic classification may be considered by final deterministic arbitration.",
+          "final": {
+            "article_class": "general_news",
+            "event_type": "general_news",
+            "event_subtype": "general_news"
+          },
+          "authority": "This validator exposes grounded candidates only; research_v3 remains final classification authority."
+        },
+        "notice": "Source-grounded AI extraction is not independent fact verification. Candidate fields do not qualify ticker exposure."
+      },
+      "classification_assessment": {
+        "candidates": {
+          "article_class": "technology_event",
+          "event_type": "technology_adoption",
+          "event_subtype": "adoption_survey",
+          "operational_event": false,
+          "fundamental_change_detected": false
+        },
+        "source_grounded_candidates": {
+          "article_class": {
+            "value": "technology_event",
+            "citations": [
+              {
+                "field": "article_class",
+                "quote": "AI adoption",
+                "source_field": "headline"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "event_type": {
+            "value": "technology_adoption",
+            "citations": [
+              {
+                "field": "event_type",
+                "quote": "AI adoption",
+                "source_field": "headline"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "operational_event": {
+            "value": false,
+            "citations": [
+              {
+                "field": "operational_event",
+                "quote": "AI adoption",
+                "source_field": "headline"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          },
+          "fundamental_change_detected": {
+            "value": false,
+            "citations": [
+              {
+                "field": "fundamental_change_detected",
+                "quote": "AI adoption",
+                "source_field": "headline"
+              }
+            ],
+            "status": "source_grounded_candidate"
+          }
+        },
+        "validator_candidate": {
+          "status": "grounded_semantic_candidate",
+          "deterministic": {
+            "article_class": "general_news",
+            "event_type": "general_news",
+            "event_subtype": "general_news"
+          },
+          "semantic_candidate": {
+            "article_class": "technology_event",
+            "event_type": "technology_adoption"
+          },
+          "decision": "semantic_upgrade_candidate",
+          "reason": "Deterministic event classification is generic; grounded semantic classification may be considered by final deterministic arbitration.",
+          "final": {
+            "article_class": "general_news",
+            "event_type": "general_news",
+            "event_subtype": "general_news"
+          },
+          "authority": "This validator exposes grounded candidates only; research_v3 remains final classification authority."
+        },
+        "arbitration": {
+          "decision": "deterministic_only",
+          "reason": "No grounded semantic event candidate maps safely into the existing event taxonomy.",
+          "deterministic": {
+            "article_class": "general_news",
+            "event_type": "general_news",
+            "event_subtype": "general_news"
+          },
+          "canonical_semantic_candidate": null,
+          "final": {
+            "article_class": "general_news",
+            "event_type": "general_news",
+            "event_subtype": "general_news"
+          },
+          "applied": false
+        },
+        "final": {
+          "article_class": "general_news",
+          "event_type": "general_news",
+          "event_subtype": "general_news"
+        },
+        "authority": "Grounded semantic candidates may refine classification only through bounded deterministic arbitration; exposure, severity and financial impact remain independently controlled.",
+        "direct_event_subjects_pre_arbitration": [],
+        "direct_event_subjects_post_arbitration": [],
+        "downstream_relationships_recomputed": false
+      },
+      "article_summary": {
+        "summary_short": null,
+        "summary_full": "India ranks in the “low” category of the AI adoption curve despite indicating a high search interest in the technology, according to a recent study based on Google AI usage data.",
+        "source": "ai_source_grounded",
+        "notice": "AI summary of the supplied article; not independent verification."
+      },
+      "severity_assessment": {
+        "severity_candidate": "Low",
+        "severity_reason": "The article reports general statistical rankings on AI adoption in emerging markets without indicating direct, severe corporate operational impacts or financial damage for specific entities.",
+        "severity_confidence": 0.8,
+        "severity_final": "Unknown",
+        "severity_source": "rule",
+        "validation": "LLM candidate retained for audit; final severity requires the existing non-negated article rules.",
+        "rule_evidence": []
+      },
+      "feed": {
+        "state": "surface",
+        "reason": "Potential macro, technology or economic transmission event."
+      },
+      "content_type": "event",
+      "display_type": "research",
+      "intake": {
+        "content_type": "event",
+        "reason": "Existing V3.2.2 research-intelligence eligibility preserved; final event gate remains authoritative.",
+        "signals": [],
+        "method": "live_content_v3_2_3"
+      }
+    }
+  },
+  "usage": {
+    "2026-09-27": 1
+  },
+  "window": {
+    "start": "2026-09-27T13:02:00.970066+00:00",
+    "end": "2026-09-27T14:02:00.970066+00:00",
+    "page": 1
+  }
+}

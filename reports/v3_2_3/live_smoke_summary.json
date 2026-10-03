@@ -1,0 +1,18 @@
+{
+  "event_count": 1,
+  "outlook_count": 0,
+  "skip_count": 4,
+  "generated_at_utc": "2026-09-27T12:58:34.349389+00:00",
+  "last_successful_fetch_utc": null,
+  "provider_fetch_at_utc": "2026-09-27T12:58:34.349389+00:00",
+  "pipeline_status": "degraded",
+  "new_article_count": 5,
+  "duplicate_count": 0,
+  "cheap_reject_count": 4,
+  "gemini_cache_hits": 0,
+  "gemini_calls_this_cycle": 1,
+  "quota_deferred_count": 0,
+  "pending_count": 0,
+  "reason": "Processing backlog; showing completed research",
+  "article_count": 1
+}

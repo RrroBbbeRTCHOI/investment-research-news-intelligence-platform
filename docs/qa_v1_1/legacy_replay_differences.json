@@ -1,0 +1,529 @@
+{
+  "historical_validation_H61_H90.json:historical_H82": [
+    [
+      "/event/evidence_fields/export_restriction/evidence",
+      "Nvidia disclosed that the U.S. government imposed a new license requirement on exports of its A100 and H100 chips to China and Russia.",
+      "US imposes license requirement on Nvidia A100 and H100 chip exports to China"
+    ],
+    [
+      "/event/evidence_fields/export_restriction/source_field",
+      "body",
+      "headline"
+    ]
+  ],
+  "historical_validation_H91_H120.json:historical_H108": [
+    [
+      "/matches",
+      null,
+      [
+        [
+          {
+            "event_id": "evt_2a39e555b2d810970c13a8d4",
+            "ticker": "AAPL",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2023-01-04T23:59:59.999999+00:00"
+          },
+          {
+            "event_id": "evt_2a39e555b2d810970c13a8d4",
+            "ticker": "MSFT",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2023-01-04T23:59:59.999999+00:00"
+          },
+          {
+            "event_id": "evt_2a39e555b2d810970c13a8d4",
+            "ticker": "GOOGL",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2023-01-04T23:59:59.999999+00:00"
+          },
+          {
+            "event_id": "evt_2a39e555b2d810970c13a8d4",
+            "ticker": "AMZN",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2023-01-04T23:59:59.999999+00:00"
+          },
+          {
+            "event_id": "evt_2a39e555b2d810970c13a8d4",
+            "ticker": "NVDA",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2023-01-04T23:59:59.999999+00:00"
+          },
+          {
+            "event_id": "evt_2a39e555b2d810970c13a8d4",
+            "ticker": "META",
+            "matched": false,
+            "relevance_score": 0.15,
+            "matched_edges": [],
+            "direct_mention": true,
+            "relevance_components": {
+              "direct_mention": 1.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2023-01-04T23:59:59.999999+00:00"
+          },
+          {
+            "event_id": "evt_2a39e555b2d810970c13a8d4",
+            "ticker": "TSLA",
+            "matched": false,
+            "relevance_score": 0.0,
+            "matched_edges": [],
+            "direct_mention": false,
+            "relevance_components": {
+              "direct_mention": 0.0,
+              "edge_match": 0.0,
+              "country_match": 0.0,
+              "channel_match": 0.0,
+              "evidence_quality": 0.0,
+              "event_severity": null
+            },
+            "model_status": "heuristic_v1",
+            "prediction_time": "2023-01-04T23:59:59.999999+00:00"
+          }
+        ],
+        [
+          {
+            "event_id": "evt_2a39e555b2d810970c13a8d4",
+            "edge_id": "1",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a39e555b2d810970c13a8d4",
+            "edge_id": "2",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a39e555b2d810970c13a8d4",
+            "edge_id": "3",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a39e555b2d810970c13a8d4",
+            "edge_id": "4",
+            "reason": "non_operating_capacity"
+          },
+          {
+            "event_id": "evt_2a39e555b2d810970c13a8d4",
+            "edge_id": "5",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a39e555b2d810970c13a8d4",
+            "edge_id": "6",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a39e555b2d810970c13a8d4",
+            "edge_id": "7",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a39e555b2d810970c13a8d4",
+            "edge_id": "8",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a39e555b2d810970c13a8d4",
+            "edge_id": "9",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a39e555b2d810970c13a8d4",
+            "edge_id": "10",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a39e555b2d810970c13a8d4",
+            "edge_id": "12",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a39e555b2d810970c13a8d4",
+            "edge_id": "13",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a39e555b2d810970c13a8d4",
+            "edge_id": "14",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a39e555b2d810970c13a8d4",
+            "edge_id": "15",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a39e555b2d810970c13a8d4",
+            "edge_id": "16",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a39e555b2d810970c13a8d4",
+            "edge_id": "17",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a39e555b2d810970c13a8d4",
+            "edge_id": "18",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a39e555b2d810970c13a8d4",
+            "edge_id": "19",
+            "reason": "blocked_or_hypothesis_evidence"
+          },
+          {
+            "event_id": "evt_2a39e555b2d810970c13a8d4",
+            "edge_id": "20",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a39e555b2d810970c13a8d4",
+            "edge_id": "21",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a39e555b2d810970c13a8d4",
+            "edge_id": "22",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a39e555b2d810970c13a8d4",
+            "edge_id": "24",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a39e555b2d810970c13a8d4",
+            "edge_id": "25",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a39e555b2d810970c13a8d4",
+            "edge_id": "26",
+            "reason": "future_known_at"
+          },
+          {
+            "event_id": "evt_2a39e555b2d810970c13a8d4",
+            "edge_id": "27",
+            "reason": "future_known_at"
+          }
+        ]
+      ]
+    ],
+    [
+      "/event",
+      null,
+      {
+        "event_id": "evt_2a39e555b2d810970c13a8d4",
+        "canonical_event_id": "evt_2a39e555b2d810970c13a8d4",
+        "article_ids": [
+          "historical_H108"
+        ],
+        "source_count": 1,
+        "independent_source_count": 1,
+        "first_seen_at": null,
+        "last_seen_at": null,
+        "published_at_first": "2023-01-04",
+        "event_start_at": null,
+        "event_end_at": null,
+        "time_precision": "unknown",
+        "event_status": "developing",
+        "primary_country": null,
+        "affected_countries": [],
+        "primary_region": null,
+        "affected_regions": [],
+        "city": null,
+        "location_name": null,
+        "latitude": null,
+        "longitude": null,
+        "location_confidence": null,
+        "event_type": "legal_antitrust",
+        "event_subtype": "fine",
+        "severity_score": null,
+        "severity_confidence": null,
+        "scope": null,
+        "duration_class": "unknown",
+        "event_novelty": null,
+        "physical_damage": null,
+        "production_disruption": null,
+        "capacity_disruption": null,
+        "logistics_disruption": null,
+        "port_disruption": null,
+        "power_disruption": null,
+        "network_disruption": null,
+        "cloud_service_disruption": null,
+        "labor_disruption": null,
+        "supply_shortage": null,
+        "regulatory_change": null,
+        "export_restriction": null,
+        "import_restriction": null,
+        "price_change_explicit": null,
+        "demand_change_explicit": null,
+        "companies_mentioned": [
+          "Meta",
+          "Facebook"
+        ],
+        "tickers_mentioned": [
+          "META"
+        ],
+        "suppliers_mentioned": [],
+        "customers_mentioned": [],
+        "industries_mentioned": [],
+        "products_mentioned": [],
+        "technologies_mentioned": [],
+        "commodities_mentioned": [],
+        "government_entities": [],
+        "regulators": [],
+        "people_mentioned": [],
+        "supply_channel": null,
+        "demand_channel": null,
+        "cost_channel": null,
+        "revenue_channel": null,
+        "margin_channel": null,
+        "capex_channel": null,
+        "financing_channel": null,
+        "interest_rate_channel": null,
+        "fx_channel": null,
+        "commodity_channel": null,
+        "logistics_channel": null,
+        "energy_channel": null,
+        "regulatory_channel": null,
+        "legal_channel": true,
+        "technology_channel": null,
+        "competition_channel": null,
+        "source_quality": null,
+        "extraction_confidence": 0.7,
+        "confirmation_level": "single_source",
+        "evidence_fields": {
+          "event_type": {
+            "value": "legal_antitrust",
+            "evidence": "Irish regulator fines Meta over Facebook and Instagram advertising practices",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "event_subtype": {
+            "value": "fine",
+            "evidence": "Irish regulator fines Meta over Facebook and Instagram advertising practices",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "event_summary": {
+            "value": "Irish regulator fines Meta over Facebook and Instagram advertising practices",
+            "evidence": "Irish regulator fines Meta over Facebook and Instagram advertising practices",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "keywords": {
+            "value": [
+              "fine"
+            ],
+            "evidence": "Irish regulator fines Meta over Facebook and Instagram advertising practices",
+            "source_field": "headline",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "Irish regulator fines Meta over Facebook and Instagram advertising practices",
+                "source_field": "headline"
+              }
+            ]
+          },
+          "canonical_headline": {
+            "value": "Irish regulator fines Meta over Facebook and Instagram advertising practices",
+            "evidence": "Irish regulator fines Meta over Facebook and Instagram advertising practices",
+            "source_field": "headline",
+            "basis": "article_text"
+          },
+          "source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "independent_source_count": {
+            "value": 1,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "event_status": {
+            "value": "developing",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "confirmation_level": {
+            "value": "single_source",
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "extraction_confidence": {
+            "value": 0.7,
+            "evidence": "V1 single-article extraction default; not independent verification.",
+            "source_field": "pipeline",
+            "basis": "administrative_default"
+          },
+          "published_at_first": {
+            "value": "2023-01-04",
+            "evidence": "2023-01-04",
+            "source_field": "published_at",
+            "basis": "provider_metadata"
+          },
+          "legal_channel": {
+            "value": true,
+            "evidence": "Irish regulator fines Meta over Facebook and Instagram advertising practices",
+            "source_field": "headline",
+            "basis": "article_text",
+            "assertion": "affirmed"
+          },
+          "companies_mentioned": {
+            "value": [
+              "Meta",
+              "Facebook"
+            ],
+            "evidence": "ish regulator fines Meta over Facebook and Instagram advertising practices",
+            "source_field": "headline",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "Irish regulator fines Meta over Facebook and Instagram advertising practices",
+                "source_field": "headline"
+              },
+              {
+                "evidence": "ish regulator fines Meta over Facebook and Instagram advertising practices",
+                "source_field": "headline"
+              }
+            ]
+          },
+          "tickers_mentioned": {
+            "value": [
+              "META"
+            ],
+            "evidence": "Irish regulator fines Meta over Facebook and Instagram advertising practices",
+            "source_field": "headline",
+            "basis": "article_text",
+            "supporting_snippets": [
+              {
+                "evidence": "Irish regulator fines Meta over Facebook and Instagram advertising practices",
+                "source_field": "headline"
+              }
+            ]
+          }
+        },
+        "canonical_headline": "Irish regulator fines Meta over Facebook and Instagram advertising practices",
+        "event_summary": "Irish regulator fines Meta over Facebook and Instagram advertising practices",
+        "keywords": [
+          "fine"
+        ],
+        "created_at": "2026-09-21T00:00:00Z",
+        "updated_at": "2026-09-21T00:00:00Z",
+        "schema_version": "event_v1"
+      }
+    ],
+    [
+      "/channels",
+      null,
+      {
+        "event_id": "evt_2a39e555b2d810970c13a8d4",
+        "candidate_channels": [
+          {
+            "channel_family": "legal_antitrust",
+            "channel_subtype": "unspecified",
+            "confidence": 0.75,
+            "basis": [
+              "legal_channel"
+            ],
+            "status": "candidate"
+          },
+          {
+            "channel_family": "digital_advertising",
+            "channel_subtype": "unspecified",
+            "confidence": 0.35,
+            "basis": [
+              "event_summary"
+            ],
+            "status": "candidate"
+          }
+        ]
+      }
+    ],
+    [
+      "/gate/is_event",
+      false,
+      true
+    ],
+    [
+      "/gate/gate_confidence",
+      0.7,
+      0.8
+    ],
+    [
+      "/gate/gate_reason",
+      "Opinion/commentary or other content without a supported discrete current market-relevant event.",
+      "Asserted fine event: Irish regulator fines Meta over Facebook and Instagram advertising practices"
+    ]
+  ]
+}

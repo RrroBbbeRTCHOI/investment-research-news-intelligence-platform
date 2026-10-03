@@ -1,0 +1,53 @@
+{
+  "_ingestion": {
+    "provider": "freenewsapi",
+    "endpoint": "details",
+    "article_uuid": "d42abbb8-ee3a-46db-ab9d-af134626ba21",
+    "fetched_at": "2026-09-21T02:54:22.149837+00:00"
+  },
+  "raw_response": {
+    "data": {
+      "uuid": "d42abbb8-ee3a-46db-ab9d-af134626ba21",
+      "title": "New Zealand Dollar languishes near two-month low vs USD as bears await break below 0.5700",
+      "thumbnail": "https://editorial.fxstreet.com/images/i/bearish-computer.png",
+      "publisher": "FXStreet",
+      "authors": [
+        "Haresh B Menghani"
+      ],
+      "topics": [
+        "finance"
+      ],
+      "countries": [
+        "AU",
+        "BW",
+        "CA",
+        "ET",
+        "GB",
+        "GH",
+        "ID",
+        "IE",
+        "IL",
+        "IN",
+        "KE",
+        "LV",
+        "MY",
+        "NA",
+        "PH",
+        "PK",
+        "SG",
+        "TZ",
+        "UG",
+        "US",
+        "ZA",
+        "ZW"
+      ],
+      "languages": [
+        "en"
+      ],
+      "published_at": "2026-09-21T01:42:14.000Z",
+      "original_url": "https://www.fxstreet.com/news/new-zealand-dollar-languishes-near-two-month-low-vs-usd-as-bears-await-break-below-05700-202609210142",
+      "incipit": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week.",
+      "body": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the Asian session on Monday, well within striking distance of an over two-month low set last week. The New Zealand Dollar (NZD) continues with its relative underperformance on the back of the Reserve Bank of New Zealand's (RBNZ) dovish rate hike amid weak domestic growth. In contrast, the US Federal Reserve (Fed) maintained a relatively hawkish stance and signaled at least one more follow-up move this year after raising rates for the first time in three years last week. This, along with geopolitical uncertainties, acts as a tailwind for the safe-haven US Dollar (USD) and weighs on the NZD/USD pair. Nordea sees stronger case for tighter Fed policy as US resilience persists Economists at Nordea highlight that the US economy “remains resilient,” with “inflationary pressures” showing “few signs of easing” and the labour market “also holding up well.” In their view, this combination strengthens “the case for a more restrictive monetary policy stance.” Nordea reiterates that it “maintain[s] our forecast for two more hikes,” but cautions that “we see the risks as tilted to the upside,” underscoring the possibility that the Fed may ultimately need to do more than currently anticipated. In the latest developments surrounding the Middle East crisis, Iran-backed Houthis in Yemen said that they attacked sensitive sites in the Saudi capital of Riyadh on Saturday with missiles and drones. Moreover, Iran laid out seven conditions – including an end to the war on all fronts, the release of frozen Iranian assets and the lifting of the US naval blockade on Iranian ports – for restarting negotiations with the US. This keeps geopolitical risk premium in play and continues to support the Greenback. Meanwhile, a recovery in shipments from Saudi Arabia dragged oil prices to an over one-week low, helping alleviate immediate fears of runaway inflation. This keeps US bond yields below a multi-year high touched last week and holds back USD bulls from placing aggressive bets. Traders also seem hesitant ahead of a meeting between US President Donald Trump and his Chinese counterpart Xi Jinping on Thursday, which will provide a fresh impetus to antipodean currencies, including the Kiwi. NZD/USD daily chart Technical Analysis The NZD/USD pair keeps a bearish near-term tone, awaiting a break below the 78.6% Fibonacci retracement support near the 0.5700 mark. This would expose the deeper Fibonacci floor near 0.5624. On the topside, initial resistance emerges at the 61.8% Fibo. retracement near 0.5763, followed by the 50.0% level at 0.5806. Above that, a dense barrier is formed by the 38.2% retracement at 0.5849 and the 200-day SMA at 0.5853, ahead of the 23.6% level at 0.5902 and the recent swing high around 0.5988. (The technical analysis of this story was written with the help of an AI tool. Know more. ) The New Zealand Dollar (NZD), also known as the Kiwi, is a well-known traded currency among investors. Its value is broadly determined by the health of the New Zealand economy and the country’s central bank policy. Still, there are some unique particularities that also can make NZD move. The performance of the Chinese economy tends to move the Kiwi because China is New Zealand’s biggest trading partner. Bad news for the Chinese economy likely means less New Zealand exports to the country, hitting the economy and thus its currency. Another factor moving NZD is dairy prices as the dairy industry is New Zealand’s main export. High dairy prices boost export income, contributing positively to the economy and thus to the NZD. The Reserve Bank of New Zealand (RBNZ) aims to achieve and maintain an inflation rate between 1% and 3% over the medium term, with a focus to keep it near the 2% mid-point. To this end, the bank sets an appropriate level of interest rates. When inflation is too high, the RBNZ will increase interest rates to cool the economy, but the move will also make bond yields higher, increasing investors’ appeal to invest in the country and thus boosting NZD. On the contrary, lower interest rates tend to weaken NZD. The so-called rate differential, or how rates in New Zealand are or are expected to be compared to the ones set by the US Federal Reserve, can also play a key role in moving the NZD/USD pair. Macroeconomic data releases in New Zealand are key to assess the state of the economy and can impact the New Zealand Dollar’s (NZD) valuation. A strong economy, based on high economic growth, low unemployment and high confidence is good for NZD. High economic growth attracts foreign investment and may encourage the Reserve Bank of New Zealand to increase interest rates, if this economic strength comes together with elevated inflation. Conversely, if economic data is weak, NZD is likely to depreciate. The New Zealand Dollar (NZD) tends to strengthen during risk-on periods, or when investors perceive that broader market risks are low and are optimistic about growth. This tends to lead to a more favorable outlook for commodities and so-called ‘commodity currencies’ such as the Kiwi. Conversely, NZD tends to weaken at times of market turbulence or economic uncertainty as investors tend to sell higher-risk assets and flee to the more-stable safe havens."
+    }
+  }
+}

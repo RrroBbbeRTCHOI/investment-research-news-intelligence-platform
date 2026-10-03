@@ -1,0 +1,16 @@
+{
+  "changed": [
+    "templates/news.html",
+    "src/news/ui_api.py",
+    "src/news/live_runner.py",
+    "src/news/product_scores.py",
+    "static/css/news.css",
+    "static/js/news_presentation.js",
+    "static/js/news_model.js",
+    "static/js/news_ui.js"
+  ],
+  "missing": [],
+  "identical_files": 718,
+  "gate_identical": true,
+  "event_score_functions_identical": true
+}

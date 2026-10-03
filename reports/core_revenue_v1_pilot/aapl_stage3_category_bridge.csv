@@ -1,0 +1,6 @@
+name,FY2024_usd,FY2025_usd,revenue_delta_usd,FY2025_revenue_share_pct,category_yoy_growth_pct,contribution_to_consolidated_growth_pp,share_of_net_revenue_increment_pct,source_url,source_locator
+iPhone,201183000000,209586000000,8403000000,50.362,4.177,2.149,33.443,https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm,"Apple FY2025 10-K, Item 7, Products and Services Performance, p.23 (PDF p.27)"
+Mac,29984000000,33708000000,3724000000,8.1,12.42,0.952,14.821,https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm,"Apple FY2025 10-K, Item 7, Products and Services Performance, p.23 (PDF p.27)"
+iPad,26694000000,28023000000,1329000000,6.734,4.979,0.34,5.289,https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm,"Apple FY2025 10-K, Item 7, Products and Services Performance, p.23 (PDF p.27)"
+"Wearables, Home and Accessories",37005000000,35686000000,-1319000000,8.575,-3.564,-0.337,-5.25,https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm,"Apple FY2025 10-K, Item 7, Products and Services Performance, p.23 (PDF p.27)"
+Services,96169000000,109158000000,12989000000,26.23,13.506,3.322,51.695,https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm,"Apple FY2025 10-K, Item 7, Products and Services Performance, p.23 (PDF p.27)"

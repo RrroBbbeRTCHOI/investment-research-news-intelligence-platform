@@ -1,0 +1,98 @@
+{
+  "_ingestion": {
+    "provider": "freenewsapi",
+    "query_name": "mag7_live_topic_politics_20260921",
+    "fetched_at": "2026-09-21T02:51:45.787033+00:00",
+    "request_params": {
+      "topic": "politics",
+      "language": "en",
+      "country": "us"
+    }
+  },
+  "raw_response": {
+    "data": [
+      {
+        "uuid": "bc9d07b3-a97d-4901-8e3a-f426a15d355a",
+        "title": "COMMENT | Govt must reveal reasons for Najib's pardon",
+        "published_at": "2026-09-21T02:10:00.000Z",
+        "publisher": "malaysiakini.com"
+      },
+      {
+        "uuid": "a990e6fb-b2e8-447b-a7fd-093f3baf9f48",
+        "title": "In Washington, temples to Trump’s ego lie ruined. And another is on the way",
+        "published_at": "2026-09-21T01:49:10.000Z",
+        "publisher": "SMH.com.au"
+      },
+      {
+        "uuid": "4a78c634-4e8c-4016-9d40-292cc14bd2d8",
+        "title": "SNAPSHOT | Anwar denies paving way for Najib's pardon; PM celebrates Malacca CM's birthday",
+        "published_at": "2026-09-21T01:10:00.000Z",
+        "publisher": "Malaysiakini"
+      },
+      {
+        "uuid": "a2e864fc-e5c0-4ecc-b1ac-29235cbc442b",
+        "title": "Ethiopian armed groups forge alliance against government",
+        "published_at": "2026-09-21T00:44:42.000Z",
+        "publisher": "Al Jazeera"
+      },
+      {
+        "uuid": "51430fae-fce4-4421-b968-58c9711ce5c6",
+        "title": "Carney, other Western leaders pleased with deal between U.S., Denmark and Greenland",
+        "published_at": "2026-09-20T23:49:03.000Z",
+        "publisher": "The Globe and Mail"
+      },
+      {
+        "uuid": "20b8ab9e-325b-4941-90e8-5937da56a950",
+        "title": "Malaysian King has full discretion to decide on pardons, says PM Anwar",
+        "published_at": "2026-09-20T23:43:00.000Z",
+        "publisher": "The Straits Times"
+      },
+      {
+        "uuid": "00c11c05-022e-4175-a499-cfbc8adbe813",
+        "title": "News outlets banned from White House, and Ed Sheeran addresses controversy: Weekend Rundown",
+        "published_at": "2026-09-20T22:02:52.000Z",
+        "publisher": "NBC News"
+      },
+      {
+        "uuid": "345cebfe-4392-4647-86eb-d0882c568064",
+        "title": "UNGA 81: Nigeria Retains Front-Row Seat Despite Tinubu’s Absence — Jimoh Ibrahim",
+        "published_at": "2026-09-20T21:24:00.000Z",
+        "publisher": "Head Topics"
+      },
+      {
+        "uuid": "1b6c28dc-32e6-455e-98da-8221a8d886c8",
+        "title": "Mamdani and Zelenskyy make Trump’s dance card on U.N. sidelines",
+        "published_at": "2026-09-20T21:09:30.000Z",
+        "publisher": "MS NOW"
+      },
+      {
+        "uuid": "dcaec345-1308-4175-a3d8-875baa2ff3a3",
+        "title": "Natasha mourns ex-Kogi Governor Idris",
+        "published_at": "2026-09-20T21:05:46.000Z",
+        "publisher": "The Nation Newspaper"
+      }
+    ],
+    "meta": {
+      "page_size": 10,
+      "returned": 10,
+      "has_more": true,
+      "order_by": "recent",
+      "filters": {
+        "published_after": null,
+        "published_before": null,
+        "language": "en",
+        "country": "US",
+        "topic": "politics",
+        "publisher_uuid": null,
+        "author_uuid": null,
+        "q": null,
+        "in_title": null,
+        "in_body": null,
+        "in_subtitle": null
+      },
+      "offset": 0,
+      "next_offset": 10,
+      "next_cursor": "eyJ2IjoxLCJvcmRlcl9ieSI6InJlY2VudCIsInNpZyI6ImJmNWQ2ZGVjMWE1NjdkMzViODY4MjY1MjdiMTE2ZDIyN2ZlNDU2YTE3NTliYjZmNGE2NDRiMTMyM2M1YmQxMTYiLCJsYXN0X3B1Ymxpc2hlZF9hdCI6IjIwMjYtMDktMjBUMjE6MDU6NDYuMDAwWiIsImxhc3RfaWQiOjI5NDAzMTczfQ"
+    }
+  }
+}

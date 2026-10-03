@@ -1,0 +1,66 @@
+{
+  "analyst_verified": false,
+  "fiscal_year": 2025,
+  "purity": {
+    "analyst_verified": false,
+    "source_url": null,
+    "source_locator": null,
+    "classification_policy": null,
+    "reviewer_rationale": null,
+    "reported_total_revenue_usd": 416161000000,
+    "confirmed_core_revenue_usd": null,
+    "confirmed_noncore_revenue_usd": null,
+    "unclassified_revenue_usd": null
+  },
+  "organic": {
+    "analyst_verified": false,
+    "source_url": null,
+    "source_locator": null,
+    "attribution_method": null,
+    "reviewer_rationale": null,
+    "prior_core_revenue_usd": null,
+    "current_core_revenue_usd": null,
+    "verified_organic_increment_usd": null,
+    "verified_acquisition_increment_usd": null,
+    "verified_other_increment_usd": null
+  },
+  "recognition": {
+    "analyst_verified": false,
+    "source_url": null,
+    "source_locator": null,
+    "published_rubric_id": null,
+    "reviewer_rationale": null,
+    "documented_reviewer_score": null,
+    "ar_investigation_resolved": false,
+    "confirmed_material_recognition_issue": false
+  },
+  "ticker": "AAPL",
+  "candidate_operating_categories_UNVERIFIED": [
+    {
+      "name": "iPhone",
+      "reported_revenue_usd": 209586000000,
+      "proposed_classification": "OPERATING_CATEGORY_FOR_REVIEW"
+    },
+    {
+      "name": "Mac",
+      "reported_revenue_usd": 33708000000,
+      "proposed_classification": "OPERATING_CATEGORY_FOR_REVIEW"
+    },
+    {
+      "name": "iPad",
+      "reported_revenue_usd": 28023000000,
+      "proposed_classification": "OPERATING_CATEGORY_FOR_REVIEW"
+    },
+    {
+      "name": "Wearables, Home and Accessories",
+      "reported_revenue_usd": 35686000000,
+      "proposed_classification": "OPERATING_CATEGORY_FOR_REVIEW"
+    },
+    {
+      "name": "Services",
+      "reported_revenue_usd": 109158000000,
+      "proposed_classification": "OPERATING_CATEGORY_FOR_REVIEW"
+    }
+  ],
+  "instructions": "Reviewer must verify policy, source location and specific numbers independently. Do not set analyst_verified merely to force a numeric score. 100% classification coverage alone does not prove transaction integrity. Recognition score requires a separately approved documented rubric; AR gap alone is NOT a penalty."
+}

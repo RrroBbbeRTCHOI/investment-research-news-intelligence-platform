@@ -1,0 +1,282 @@
+{
+  "news_tests": 94,
+  "news_test_result": "passed",
+  "full_suite_tests": 313,
+  "full_suite_result": "3 pre-existing cache hash subtest failures; no errors",
+  "preexisting_failures": [
+    "data/cache/historical_financials/AAPL_balance_sheet_statement_5y.json",
+    "data/cache/historical_financials/AAPL_cash_flow_statement_5y.json",
+    "data/cache/historical_financials/AAPL_income_statement_5y.json"
+  ],
+  "modified_existing_files": [
+    "NEWS_BACKEND_V1.md",
+    "src/news/event_extractor.py",
+    "src/news/exposure_matcher.py",
+    "src/news/channel_generator.py",
+    "src/news/constants.py",
+    "src/news/event_gate.py",
+    "data/news/matches/event_company_matches_v1.json",
+    "data/news/events/events_v1.json",
+    "data/news/events/candidate_channels_v1.json"
+  ],
+  "protected_files_unchanged": 93,
+  "workbook_sha256": "8a2a8637525cef0f30766349d7a88cdb1cbd605eb526fb69d863c5ed2f1b5d11",
+  "negative_control": {
+    "articles": 10,
+    "accepted": 0,
+    "rejected": 10,
+    "candidate_channels": 0,
+    "company_matches": 0,
+    "pairs": 0,
+    "exposure_knowledge": {
+      "status": "loaded",
+      "workbook": "MAG7_News_Intelligence_Exposure_Knowledge_Layer_V1.xlsx",
+      "edge_count": 26,
+      "message": "Loaded raw exposure rows; each match still requires evidence and temporal checks."
+    },
+    "top_matches": []
+  },
+  "positive_control": {
+    "articles": 5,
+    "accepted": 5,
+    "rejected": 0,
+    "candidate_channels": 10,
+    "company_matches": 3,
+    "pairs": 35,
+    "exposure_knowledge": {
+      "status": "loaded",
+      "workbook": "MAG7_News_Intelligence_Exposure_Knowledge_Layer_V1.xlsx",
+      "edge_count": 26,
+      "message": "Loaded raw exposure rows; each match still requires evidence and temporal checks."
+    },
+    "top_matches": [
+      {
+        "event_id": "evt_19c97f43345f5df66e46b594",
+        "ticker": "NVDA",
+        "matched": true,
+        "relevance_score": 0.95,
+        "matched_edges": [
+          {
+            "edge_id": "5",
+            "ticker": "NVDA",
+            "country": "China",
+            "channel_family": "regulatory_export",
+            "channel_subtype": "unspecified",
+            "role": "seller",
+            "product_or_business": "Data-center GPUs; China-compliant products",
+            "counterparty": "U.S. Department of Commerce, Bureau of Industry and Security",
+            "facility_or_route": null,
+            "commodity_or_input": "Advanced computing integrated circuits",
+            "stage": "operating",
+            "exposure_value": null,
+            "exposure_unit": null,
+            "exposure_band": "high",
+            "evidence_status": "verified",
+            "source_url": "https://www.bis.gov/",
+            "source_locator": "BIS advanced computing export-control rule, Oct. 17, 2023; NVIDIA 10-K risk factors",
+            "valid_from": "2023-10-17",
+            "valid_to": null,
+            "known_at_utc": "2023-10-17",
+            "confidence": null,
+            "notes": "U.S. export controls restrict transactions involving specified advanced computing products and China/Macau destinations.",
+            "match_reasons": [
+              "country_match",
+              "channel_match",
+              "eligible_evidence",
+              "point_in_time_valid",
+              "semantic_compatibility"
+            ]
+          }
+        ],
+        "direct_mention": true,
+        "relevance_components": {
+          "direct_mention": 1.0,
+          "edge_match": 1.0,
+          "country_match": 1.0,
+          "channel_match": 1.0,
+          "evidence_quality": 1.0,
+          "event_severity": null
+        },
+        "model_status": "heuristic_v1",
+        "prediction_time": "2026-09-18T02:05:00+00:00"
+      },
+      {
+        "event_id": "evt_c20ff402c8bcf5e5e354ae8f",
+        "ticker": "AMZN",
+        "matched": true,
+        "relevance_score": 0.95,
+        "matched_edges": [
+          {
+            "edge_id": "17",
+            "ticker": "AMZN",
+            "country": "United States",
+            "channel_family": "datacenter_infrastructure",
+            "channel_subtype": "unspecified",
+            "role": "operator",
+            "product_or_business": "Amazon Web Services",
+            "counterparty": null,
+            "facility_or_route": "U.S. AWS Regions including US East and US West; individual facility locations undisclosed",
+            "commodity_or_input": "Data-center capacity; compute; storage; networking",
+            "stage": "operating",
+            "exposure_value": null,
+            "exposure_unit": null,
+            "exposure_band": "high",
+            "evidence_status": "verified",
+            "source_url": "https://ir.aboutamazon.com/",
+            "source_locator": "Amazon FY2025 Form 10-K; AWS global infrastructure documentation",
+            "valid_from": "2006-01-01",
+            "valid_to": null,
+            "known_at_utc": "2026-02-05",
+            "confidence": null,
+            "notes": "AWS publicly operates multiple U.S. Regions and Amazon reports AWS as a reportable segment.",
+            "match_reasons": [
+              "country_match",
+              "channel_match",
+              "eligible_evidence",
+              "point_in_time_valid",
+              "semantic_compatibility"
+            ]
+          }
+        ],
+        "direct_mention": true,
+        "relevance_components": {
+          "direct_mention": 1.0,
+          "edge_match": 1.0,
+          "country_match": 1.0,
+          "channel_match": 1.0,
+          "evidence_quality": 1.0,
+          "event_severity": null
+        },
+        "model_status": "heuristic_v1",
+        "prediction_time": "2026-09-18T03:05:00+00:00"
+      },
+      {
+        "event_id": "evt_d2edc88fc7a590eb78c2692b",
+        "ticker": "TSLA",
+        "matched": true,
+        "relevance_score": 0.55,
+        "matched_edges": [
+          {
+            "edge_id": "23",
+            "ticker": "TSLA",
+            "country": "China",
+            "channel_family": "automotive",
+            "channel_subtype": "unspecified",
+            "role": "operator",
+            "product_or_business": "Model 3; Model Y",
+            "counterparty": "Tesla Shanghai",
+            "facility_or_route": "Gigafactory Shanghai, Lingang",
+            "commodity_or_input": "Finished electric vehicles",
+            "stage": "operating",
+            "exposure_value": null,
+            "exposure_unit": null,
+            "exposure_band": "high",
+            "evidence_status": "partial",
+            "source_url": "https://www.tesla.com/",
+            "source_locator": "Tesla Gigafactory Shanghai production announcement; Tesla annual-report manufacturing discussion",
+            "valid_from": "2019-10-01",
+            "valid_to": null,
+            "known_at_utc": "2019-12-30",
+            "confidence": null,
+            "notes": "Tesla began customer deliveries of China-made Model 3 vehicles from Gigafactory Shanghai in late 2019.",
+            "match_reasons": [
+              "country_match",
+              "channel_match",
+              "eligible_evidence",
+              "point_in_time_valid",
+              "semantic_compatibility"
+            ]
+          }
+        ],
+        "direct_mention": true,
+        "relevance_components": {
+          "direct_mention": 1.0,
+          "edge_match": 1.0,
+          "country_match": 1.0,
+          "channel_match": 1.0,
+          "evidence_quality": 0.5,
+          "event_severity": null
+        },
+        "model_status": "heuristic_v1",
+        "prediction_time": "2026-09-18T04:05:00+00:00"
+      }
+    ]
+  },
+  "events": [
+    {
+      "article_id": "test_taiwan_earthquake_001",
+      "event_type": "natural_disaster",
+      "event_subtype": "earthquake",
+      "primary_country": "Taiwan",
+      "affected_countries": [
+        "Taiwan"
+      ],
+      "positive_matches": []
+    },
+    {
+      "article_id": "test_us_chip_export_002",
+      "event_type": "trade_export_control",
+      "event_subtype": "export_controls",
+      "primary_country": "United States",
+      "affected_countries": [
+        "United States",
+        "China"
+      ],
+      "positive_matches": [
+        {
+          "ticker": "NVDA",
+          "score": 0.95,
+          "edge_ids": [
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "article_id": "test_aws_outage_003",
+      "event_type": "infrastructure_outage",
+      "event_subtype": "outage",
+      "primary_country": "United States",
+      "affected_countries": [
+        "United States"
+      ],
+      "positive_matches": [
+        {
+          "ticker": "AMZN",
+          "score": 0.95,
+          "edge_ids": [
+            "17"
+          ]
+        }
+      ]
+    },
+    {
+      "article_id": "test_tesla_shanghai_004",
+      "event_type": "supply_chain",
+      "event_subtype": "factory_shutdown",
+      "primary_country": "China",
+      "affected_countries": [
+        "China"
+      ],
+      "positive_matches": [
+        {
+          "ticker": "TSLA",
+          "score": 0.55,
+          "edge_ids": [
+            "23"
+          ]
+        }
+      ]
+    },
+    {
+      "article_id": "test_fed_rate_cut_005",
+      "event_type": "macro_monetary",
+      "event_subtype": "rate_cut",
+      "primary_country": "United States",
+      "affected_countries": [
+        "United States"
+      ],
+      "positive_matches": []
+    }
+  ]
+}

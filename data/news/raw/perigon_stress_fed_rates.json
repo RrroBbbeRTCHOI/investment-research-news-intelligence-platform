@@ -1,0 +1,1196 @@
+{
+  "_ingestion": {
+    "provider": "perigon",
+    "query_name": "stress_fed_rates",
+    "query": "\"Federal Reserve\" AND (\"interest rates\" OR \"rate decision\")",
+    "fetched_at": "2026-09-25T14:05:29.150928+00:00"
+  },
+  "raw_response": {
+    "status": 200,
+    "numResults": 10000,
+    "articles": [
+      {
+        "url": "https://cryptoslate.com/bitcoin-faces-a-new-inflation-test-after-diesel-hits-a-nominal-6-53-record/",
+        "authorsByline": "Liam 'Akiba' Wright",
+        "articleId": "62ad5890916a48fa8baad34c8f35c0de",
+        "clusterId": "8de6e321807b4ce5bed6aca4b14bdab1",
+        "source": {
+          "domain": "cryptoslate.com",
+          "location": {
+            "country": "us",
+            "state": "WA",
+            "county": "King County",
+            "city": "Seattle",
+            "coordinates": {
+              "lat": 47.6038321,
+              "lon": -122.3300624
+            }
+          }
+        },
+        "imageUrl": "https://cryptoslate.com/wp-content/uploads/2026/09/diesel-freight-bitcoin-risk.webp",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-09-25T14:00:08+00:00",
+        "addDate": "2026-09-25T14:03:27.439189+00:00",
+        "refreshDate": "2026-09-25T14:03:27.439191+00:00",
+        "score": 1.0,
+        "title": "Bitcoin faces a new inflation test after diesel hits a nominal $6.53 record",
+        "description": "Bitcoin faces an inflation test after diesel hits $6.53. September reports will test whether fuel costs spread into freight and prices.",
+        "content": "September price reports will test whether those costs spread beyond the pump.\n\nUS on-highway diesel climbed to $6.529 a gallon on Sept. 21, up 24.4 cents in a week, according to the Energy Information... [2793 symbols]",
+        "enContentWordCount": 499,
+        "medium": "Article",
+        "links": [
+          "https://www.bls.gov/news.release/archives/cpi_09112026.htm",
+          "https://www.bls.gov/schedule/2026/",
+          "https://www.bls.gov/news.release/archives/ppi_09102026.htm",
+          "https://www.eia.gov/petroleum/gasdiesel/",
+          "https://cryptoslate.com/bitcoin-holds-76000-after-fed-rate-hike-but-4-demand-signals-flash-warning/",
+          "https://www.bea.gov/news/schedule",
+          "https://www.eia.gov/dnav/pet/PET_STOC_WSTK_A_EPD0_SAE_MBBL_W.htm",
+          "https://cryptoslate.com/wp-content/uploads/2026/09/exec-40e89db1-6ca1-4813-a626-9b60f18100c3.png",
+          "https://www.eia.gov/TODAYINENERGY/detail.php?id=68164",
+          "https://cryptoslate.com/bitcoin-tests-critical-76000-support-cluster-during-macro-energy-shock/",
+          "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+          "https://cryptoslate.com/why-surging-us-real-yields-are-quietly-forcing-bitcoin-under-84000/",
+          "https://cryptoslate.substack.com/"
+        ],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": "b32d0c0e17fa4ebe86e237cb85464f96",
+            "name": "Liam Wright"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "diesel fuel producer prices",
+            "weight": 0.12166315
+          },
+          {
+            "name": "high prices",
+            "weight": 0.107441634
+          },
+          {
+            "name": "consumer prices",
+            "weight": 0.10405873
+          },
+          {
+            "name": "producer prices",
+            "weight": 0.10301768
+          },
+          {
+            "name": "elevated crude prices",
+            "weight": 0.10180379
+          },
+          {
+            "name": "September price reports",
+            "weight": 0.10120747
+          },
+          {
+            "name": "PCE price data",
+            "weight": 0.10050559
+          },
+          {
+            "name": "upstream price pressure",
+            "weight": 0.09232117
+          },
+          {
+            "name": "elevated inflation",
+            "weight": 0.090697706
+          },
+          {
+            "name": "Diesel",
+            "weight": 0.09012631
+          }
+        ],
+        "topics": [
+          {
+            "name": "Cryptocurrency"
+          },
+          {
+            "name": "Blockchain"
+          },
+          {
+            "name": "Inflation"
+          },
+          {
+            "name": "Bitcoin"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Finance"
+          },
+          {
+            "name": "Business"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Financial Markets News",
+            "score": 0.9664104580879211
+          },
+          {
+            "name": "/Finance/Investing/Currencies & Foreign Exchange",
+            "score": 0.9621075391769409
+          }
+        ],
+        "entities": [
+          {
+            "data": "US",
+            "type": "GPE",
+            "mentions": 2
+          },
+          {
+            "data": "the Energy Information Administration",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "EIA",
+            "type": "ORG",
+            "mentions": 4
+          },
+          {
+            "data": "BLS",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "Fed",
+            "type": "ORG",
+            "mentions": 3
+          },
+          {
+            "data": "BEA",
+            "type": "ORG",
+            "mentions": 1
+          }
+        ],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.25049293,
+          "negative": 0.40342605,
+          "neutral": 0.34608102
+        },
+        "summary": "US diesel prices reached a record high of $6.53 per gallon on Sept. 21, according to the Energy Information Administration (EIA). This increase raises a freight-cost inflation risk for Bitcoin investors watching how long interest rates stay elevated. The EIA attributes the surge to tight global distillate supply and elevated crude prices. Diesel prices can contribute to higher road and rail shipping costs, depending on contracts, competition, and the duration of the fuel squeeze. A sustained rise across freight billing cycles would pose a larger inflation risk than one expensive week at the pump. If sustained fuel and freight costs keep inflation firm, the Federal Reserve could raise rates for longer, leading to a decrease in Bitcoin's value.",
+        "shortSummary": "Diesel prices hit a nominal $6.53/gallop high, raising inflation concerns and potential impacts on Bitcoin, especially if sustained fuel and freight costs continue to rise.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "54866df474f448f4b0f034ea1bc72297",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://tradersunion.com/news/market-voices/show/3501144-fed-rates-investment-bubbles/",
+        "authorsByline": "",
+        "articleId": "39969109db0f49ec9b76a0e4f0a15767",
+        "clusterId": "7ffb1f702f144b8f8b877d23938e21d2",
+        "source": {
+          "domain": "tradersunion.com",
+          "location": null
+        },
+        "imageUrl": "https://files.tradersunion.com/images/twitter-news/greg_ip/greg_ip_01.webp",
+        "country": "",
+        "language": "en",
+        "pubDate": "2026-09-25T13:50:16+00:00",
+        "addDate": "2026-09-25T13:57:08.029544+00:00",
+        "refreshDate": "2026-09-25T13:57:08.029546+00:00",
+        "score": 1.0,
+        "title": "Raising rates can deflate any investment boom, Greg Ip notes",
+        "description": "Greg Ip recalls that as in 1999, Federal Reserve rate hikes can deflate investment booms regardless of borrowing levels.",
+        "content": "Greg Ip recalls that, in 1999, similar arguments were made to Bill Ackman when the Federal Reserve raised interest rates. At that time, Silicon Valley claimed that the increase would have little effec... [754 symbols]",
+        "enContentWordCount": 132,
+        "medium": "Article",
+        "links": [
+          "https://tradersunion.com/news/market-voices/show/3192942-bond-market-media-concern/",
+          "https://tradersunion.com/news/market-voices/show/3144810-warsh-speech-inflation-fomc/",
+          "https://twitter.com/greg_ip/status/2103479020637606092"
+        ],
+        "labels": [],
+        "matchedAuthors": [],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Greg Ip",
+            "weight": 0.11902419
+          },
+          {
+            "name": "ongoing market attention",
+            "weight": 0.1143046
+          },
+          {
+            "name": "emerging sector challenges",
+            "weight": 0.10087921
+          },
+          {
+            "name": "little effect",
+            "weight": 0.08802845
+          },
+          {
+            "name": "greater media focus",
+            "weight": 0.0872187
+          },
+          {
+            "name": "interest rates",
+            "weight": 0.08558828
+          },
+          {
+            "name": "sector stability",
+            "weight": 0.085354686
+          },
+          {
+            "name": "policy signals",
+            "weight": 0.07954804
+          },
+          {
+            "name": "Silicon Valley",
+            "weight": 0.07898106
+          },
+          {
+            "name": "Bill Ackman",
+            "weight": 0.07726844
+          }
+        ],
+        "topics": [],
+        "categories": [
+          {
+            "name": "Finance"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Financial Markets News",
+            "score": 0.9827572107315063
+          },
+          {
+            "name": "/Finance/Investing/Other",
+            "score": 0.9170058369636536
+          },
+          {
+            "name": "/News/Business News/Economy News",
+            "score": 0.8875949382781982
+          },
+          {
+            "name": "/Finance/Investing/Stocks & Bonds",
+            "score": 0.6004812717437744
+          },
+          {
+            "name": "/News/Business News/Other",
+            "score": 0.5747528672218323
+          }
+        ],
+        "entities": [
+          {
+            "data": "Greg Ip",
+            "type": "PERSON",
+            "mentions": 4
+          },
+          {
+            "data": "Bill Ackman",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Warsh",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "the Federal Reserve",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "FOMC",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Silicon Valley",
+            "type": "LOC",
+            "mentions": 1
+          }
+        ],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.25396323,
+          "negative": 0.23028547,
+          "neutral": 0.5157513
+        },
+        "summary": "Greg Ip has warned that raising interest rates can disrupt any investment boom, as seen in 1999 when Silicon Valley claimed the increase would not impact due to low borrowing levels. He also noted that Warsh's speech had a hawkish tone and the market response to the July FOMC meeting. Ip also noted increased media focus on the bond market may indicate emerging sector challenges. These references reflect ongoing market attention to policy signals and sector stability.",
+        "shortSummary": "Greg Ip highlights the risk of raising interest rates to inflate investment bubbles, highlighting past warnings and current market reactions to policy signals.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": false,
+        "reprintGroupId": "8c96461b60464465a4c3463f2bcca65b",
+        "places": [],
+        "people": [
+          {
+            "wikidataId": "Q1586871",
+            "name": "Bill Ackman"
+          },
+          {
+            "wikidataId": "Q5605757",
+            "name": "Greg Ip"
+          }
+        ]
+      },
+      {
+        "url": "https://thepakistanconnect.com/gold-price-rises-again-sep-25/",
+        "authorsByline": "Sadaan Moeez Khan",
+        "articleId": "49775c301cea46ca837d4f6c07c6d000",
+        "clusterId": "3d88d5b2278046f1910568c99582f0b4",
+        "source": {
+          "domain": "thepakistanconnect.com",
+          "location": null
+        },
+        "imageUrl": "https://thepakistanconnect.com/wp-content/uploads/2026/09/Gold-price-in-Pakistan-in-2026-smk-mojo-222-PC.jpg",
+        "country": "us",
+        "language": "en",
+        "pubDate": "2026-09-25T13:44:05+00:00",
+        "addDate": "2026-09-25T13:50:04.050030+00:00",
+        "refreshDate": "2026-09-25T13:50:04.050032+00:00",
+        "score": 1.0,
+        "title": "Gold price rises again in Pakistan, per tola rate up nearly Rs5,000",
+        "description": "Gold prices in Pakistan rose Rs4,700 per tola on Friday, following a sharp rebound in international bullion rates.",
+        "content": "Gold prices in Pakistan climbed on Friday, with the local market following a rise in international bullion prices.\n\nThe price of gold increased by Rs4,700 per tola to reach Rs453,036, according to rat... [2077 symbols]",
+        "enContentWordCount": 385,
+        "medium": "Article",
+        "links": [
+          "https://thepakistanconnect.com/gold-price-in-pakistan-4-aug/"
+        ],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": null,
+            "name": "Sadaan Moeez Khan"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Gold price",
+            "weight": 0.15188408
+          },
+          {
+            "name": "Gold prices",
+            "weight": 0.15188408
+          },
+          {
+            "name": "US gold futures",
+            "weight": 0.13077748
+          },
+          {
+            "name": "Gold",
+            "weight": 0.12327892
+          },
+          {
+            "name": "gold",
+            "weight": 0.12327892
+          },
+          {
+            "name": "spot gold",
+            "weight": 0.12128417
+          },
+          {
+            "name": "weaker oil prices",
+            "weight": 0.10884017
+          },
+          {
+            "name": "Silver prices",
+            "weight": 0.105726205
+          },
+          {
+            "name": "international bullion prices",
+            "weight": 0.10559168
+          },
+          {
+            "name": "lower prices",
+            "weight": 0.10518625
+          }
+        ],
+        "topics": [],
+        "categories": [
+          {
+            "name": "Finance"
+          },
+          {
+            "name": "World"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Financial Markets News",
+            "score": 0.8019358515739441
+          },
+          {
+            "name": "/Finance/Investing/Commodities & Futures Trading",
+            "score": 0.7994423508644104
+          },
+          {
+            "name": "/Business & Industrial/Metals & Mining/Precious Metals",
+            "score": 0.7476159334182739
+          }
+        ],
+        "entities": [
+          {
+            "data": "Pakistan",
+            "type": "GPE",
+            "mentions": 4
+          },
+          {
+            "data": "US",
+            "type": "GPE",
+            "mentions": 4
+          },
+          {
+            "data": "New York",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Iran",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "India",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "the All-Pakistan Gems and Jewellers Sarafa Association",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "APGJSA",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "US Treasury",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "1210 GMT",
+            "type": "TIME",
+            "mentions": 1
+          },
+          {
+            "data": "Iranian",
+            "type": "NORP",
+            "mentions": 1
+          },
+          {
+            "data": "the Strait of Hormuz",
+            "type": "LOC",
+            "mentions": 1
+          }
+        ],
+        "companies": [],
+        "sentiment": {
+          "positive": 0.59943926,
+          "negative": 0.2460094,
+          "neutral": 0.15455128
+        },
+        "summary": "Gold prices in Pakistan rose by nearly Rs5,000 per tola to reach Rs453,036, according to rates released by the All-Pakistan Gems and Jewellers Sarafa Association (APGJSA). The price of 10-gram gold also rose by Rs4,029 to Rs388,404. This increase comes a day after a sharp decline in gold. Despite this recovery, gold remains on track for a weekly decline of about 1.7 percent. Higher US Treasury yields and expectations of further interest rate increases have put pressure on gold. Other precious metals also moved higher on Friday, with silver rising by Rs126 to Rs6,963 per toLA in Pakistan.",
+        "shortSummary": "Gold prices in Pakistan rose by nearly Rs5,000 per tola due to a rise in international bullion prices and a weaker US dollar.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [
+          {
+            "country": "pk"
+          }
+        ],
+        "reprint": false,
+        "reprintGroupId": "5e199293b2334992a8b36c442e448c57",
+        "places": [],
+        "people": []
+      },
+      {
+        "url": "https://www.europesays.com/europe/146430/",
+        "authorsByline": "EUROPE SAYS",
+        "articleId": "4d5cea5c01124d0ebc19ab2db9382aea",
+        "clusterId": "77e9703bbfc040a2a13449ee2cc1d550",
+        "source": {
+          "domain": "europesays.com",
+          "location": null
+        },
+        "imageUrl": "https://www.europesays.com/europe/wp-content/uploads/2026/09/1790343797.webp",
+        "country": "",
+        "language": "en",
+        "pubDate": "2026-09-25T13:43:17+00:00",
+        "addDate": "2026-09-25T13:46:49.356187+00:00",
+        "refreshDate": "2026-09-25T13:46:49.356188+00:00",
+        "score": 1.0,
+        "title": "Isabel Schnabel to leave ECB early for IMF role - Europe",
+        "description": "Executive Board member Isabel Schnabel will leave the European Central Bank (ECB) early to take a senior job at the International Monetary Fund (IMF).",
+        "content": "Executive Board member Isabel Schnabel will leave the European Central Bank (ECB) early to take a senior job at the International Monetary Fund (IMF).\n\nThe German official has been selected as directo... [4851 symbols]",
+        "enContentWordCount": 877,
+        "medium": "Article",
+        "links": [
+          "https://www.straitstimes.com/world/united-states/imf-appoints-silvana-tenreyro-as-chief-economist-head-of-research?ref=inline-article",
+          "https://www.straitstimes.com/world/europe/france-would-back-dutch-veteran-knot-to-lead-ecb-wants-chief-economist-job-in-return-sources-say?ref=inline-article",
+          "https://www.straitstimes.com/world/ecb-president-lagarde-expected-to-leave-bank-before-term-expires-next-year-ft?ref=inline-article"
+        ],
+        "labels": [],
+        "matchedAuthors": [],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "Executive Board member Isabel Schnabel",
+            "weight": 0.0808787
+          },
+          {
+            "name": "ECB",
+            "weight": 0.07258343
+          },
+          {
+            "name": "Isabel Schnabel",
+            "weight": 0.07226443
+          },
+          {
+            "name": "IMF role",
+            "weight": 0.07192657
+          },
+          {
+            "name": "Schnabel",
+            "weight": 0.06722835
+          },
+          {
+            "name": "President Christine Lagarde",
+            "weight": 0.06147525
+          },
+          {
+            "name": "IMF",
+            "weight": 0.0612458
+          },
+          {
+            "name": "European Commission chief",
+            "weight": 0.061069902
+          },
+          {
+            "name": "Executive Board",
+            "weight": 0.060634013
+          },
+          {
+            "name": "IMF Managing Director Kristalina Georgieva",
+            "weight": 0.05915954
+          }
+        ],
+        "topics": [],
+        "categories": [
+          {
+            "name": "World"
+          },
+          {
+            "name": "Finance"
+          },
+          {
+            "name": "Politics"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Economy News",
+            "score": 0.9736446738243103
+          },
+          {
+            "name": "/Law & Government/Government/Other",
+            "score": 0.9678993225097656
+          },
+          {
+            "name": "/News/Business News/Fiscal Policy News",
+            "score": 0.8068526387214661
+          },
+          {
+            "name": "/People & Society/Social Sciences/Economics",
+            "score": 0.5142173767089844
+          },
+          {
+            "name": "/News/Business News/Financial Markets News",
+            "score": 0.48133188486099243
+          },
+          {
+            "name": "/News/Politics/Other",
+            "score": 0.4788943827152252
+          },
+          {
+            "name": "/Finance/Banking/Other",
+            "score": 0.44625335931777954
+          }
+        ],
+        "entities": [
+          {
+            "data": "Isabel Schnabel",
+            "type": "PERSON",
+            "mentions": 13
+          },
+          {
+            "data": "Christine Lagarde",
+            "type": "PERSON",
+            "mentions": 6
+          },
+          {
+            "data": "Philip Lane",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Luis de Guindos",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Klaas Knot",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Pablo Hernandez de Cos",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Tobias Adrian",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Joachim Nagel",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Ursula von der Leyen’s",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Kristalina Georgieva",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Silvana Tenreyro",
+            "type": "PERSON",
+            "mentions": 2
+          },
+          {
+            "data": "Mateusz Szczurek",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Ricardo Reis",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "Donald Trump’s",
+            "type": "PERSON",
+            "mentions": 2
+          },
+          {
+            "data": "Jerome Powell",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "BLOOMBERG",
+            "type": "PERSON",
+            "mentions": 1
+          },
+          {
+            "data": "ECB",
+            "type": "ORG",
+            "mentions": 11
+          },
+          {
+            "data": "IMF",
+            "type": "ORG",
+            "mentions": 9
+          },
+          {
+            "data": "Executive Board",
+            "type": "ORG",
+            "mentions": 5
+          },
+          {
+            "data": "the European Central Bank",
+            "type": "ORG",
+            "mentions": 3
+          },
+          {
+            "data": "the International Monetary Fund",
+            "type": "ORG",
+            "mentions": 4
+          },
+          {
+            "data": "Bloomberg News",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "the World Economic Forum",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Bloomberg Television",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Handelsblatt",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Bundesbank",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "European Commission",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "EU",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "the Governing Council",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "the University of Mannheim",
+            "type": "ORG",
+            "mentions": 2
+          },
+          {
+            "data": "the Bank of England’s",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Finance",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Europe",
+            "type": "LOC",
+            "mentions": 1
+          },
+          {
+            "data": "German",
+            "type": "NORP",
+            "mentions": 2
+          },
+          {
+            "data": "Dutch",
+            "type": "NORP",
+            "mentions": 1
+          },
+          {
+            "data": "Spanish",
+            "type": "NORP",
+            "mentions": 1
+          },
+          {
+            "data": "ex-Polish",
+            "type": "NORP",
+            "mentions": 1
+          },
+          {
+            "data": "European",
+            "type": "NORP",
+            "mentions": 1
+          },
+          {
+            "data": "Frankfurt",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "France",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Germany",
+            "type": "GPE",
+            "mentions": 3
+          },
+          {
+            "data": "Spain",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Davos",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Iran",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Berlin",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "the Treaty on the Functioning of the European Union",
+            "type": "LAW",
+            "mentions": 1
+          },
+          {
+            "data": "PhD",
+            "type": "WORK_OF_ART",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "9ac0ab6adcf74c9c84ab3fd82038a5d3",
+            "name": "European Central Bank",
+            "domains": [
+              "ecb.europa.eu"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "4afb790f172c46bd832bd785e17ca2ec",
+            "name": "European Union",
+            "domains": [
+              "european-union.europa.eu"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "664bd8cd48a344f5b9d12d98492d425b",
+            "name": "World Economic Forum",
+            "domains": [
+              "weforum.org"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "3a0d38d5ed8647fea77f4508e2c0ffd5",
+            "name": "German Federal Bank",
+            "domains": [
+              "bundesbank.de"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "e25b0c3071fe4156b32de034fe0546ac",
+            "name": "Universität Bonn",
+            "domains": [
+              "uni-bonn.de"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "5f5e6141564246a384958e63945097b8",
+            "name": "Bank of England",
+            "domains": [
+              "bankofengland.co.uk"
+            ],
+            "symbols": []
+          },
+          {
+            "id": "fb157ccb30aa43d980dd7363546eeba1",
+            "name": "Handelsblatt",
+            "domains": [
+              "handelsblatt.com"
+            ],
+            "symbols": []
+          }
+        ],
+        "sentiment": {
+          "positive": 0.081029184,
+          "negative": 0.43975404,
+          "neutral": 0.4792168
+        },
+        "summary": "Isabel Schnabel, Executive Board member of the European Central Bank (ECB), will leave the ECB early to take a senior role at the International Monetary Fund (IMF). She has been selected as director of the monetary and capital markets department, where she will start on Jan 4. Her early departure adds urgency to the 2027 leadership shakeup at the ECB, with President Christine Lagarde and Chief Economist Philip Lane also set to leave. European Union leaders are expected to agree on all three appointments at once, potentially at a summit in December. The IMF's Managing Director, Kristalina Georgieva, commended Schnabel's ability to promote global monetary and financial stability and foster international collaboration. Her departure raises pressure on Germany to decide what it wants at the EU.",
+        "shortSummary": "Isabel Schnabel will leave the ECB early to become IMF director of monetary and capital markets, adding pressure on Germany and France to maintain their presence in the ECB.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [],
+        "reprint": true,
+        "reprintGroupId": "432f7a66c93849b0bc9b58056c4d1d56",
+        "places": [],
+        "people": [
+          {
+            "wikidataId": "Q265277",
+            "name": "Kristalina Georgieva"
+          },
+          {
+            "wikidataId": "Q484605",
+            "name": "Christine Lagarde"
+          },
+          {
+            "wikidataId": "Q15214281",
+            "name": "Mateusz Szczurek"
+          },
+          {
+            "wikidataId": "Q60772",
+            "name": "Ursula von der Leyen"
+          },
+          {
+            "wikidataId": "Q22686",
+            "name": "Donald Trump"
+          },
+          {
+            "wikidataId": "Q1690335",
+            "name": "Joachim Nagel"
+          },
+          {
+            "wikidataId": "Q6182718",
+            "name": "Jerome Powell"
+          },
+          {
+            "wikidataId": "Q631864",
+            "name": "Klaas Knot"
+          },
+          {
+            "wikidataId": "Q7184252",
+            "name": "Philip R. Lane"
+          }
+        ]
+      },
+      {
+        "url": "https://www.trend.az/azerbaijan/4228018.html",
+        "authorsByline": "Humay Aghajanova",
+        "articleId": "4035260fdc494dbb9da04a5986b299c9",
+        "clusterId": "8c34d8751028438aba5a59b1723e5b4e",
+        "source": {
+          "domain": "trend.az",
+          "location": {
+            "country": "az",
+            "city": "Baku",
+            "coordinates": {
+              "lat": 40.3754434,
+              "lon": 49.8326748
+            }
+          }
+        },
+        "imageUrl": "https://www.trend.az/media/2026/09/25/trend_elmirmusayev.jfif",
+        "country": "az",
+        "language": "en",
+        "pubDate": "2026-09-25T17:42:05+04:00",
+        "addDate": "2026-09-25T13:48:55.553776+00:00",
+        "refreshDate": "2026-09-25T13:48:55.553779+00:00",
+        "score": 1.0,
+        "title": "Azerbaijan attracts strong interest from foreign companies in renewable energy projects - SOCAR Green",
+        "description": "BAKU, Azerbaijan, September 25. Azerbaijan has attracted strong interest from foreign companies in renewable energy projects, SOCAR Green CEO Elmir Musayev said on Friday at the 2nd Azerbaijan…",
+        "content": "BAKU, Azerbaijan, September 25. Azerbaijan has attracted strong interest from foreign companies in renewable energy projects, SOCAR Green CEO Elmir Musayev said on Friday at the 2nd Azerbaijan Interna... [2754 symbols]",
+        "enContentWordCount": 479,
+        "medium": "Article",
+        "links": [
+          "http://trend.az/"
+        ],
+        "labels": [],
+        "matchedAuthors": [
+          {
+            "id": null,
+            "name": "Humay Aghajanova"
+          }
+        ],
+        "claim": "",
+        "verdict": "",
+        "keywords": [
+          {
+            "name": "renewable energy projects",
+            "weight": 0.12000092
+          },
+          {
+            "name": "renewable energy development",
+            "weight": 0.10675261
+          },
+          {
+            "name": "Battery energy storage solutions",
+            "weight": 0.09661554
+          },
+          {
+            "name": "solar energy potential",
+            "weight": 0.09650455
+          },
+          {
+            "name": "such financing",
+            "weight": 0.08782179
+          },
+          {
+            "name": "such projects",
+            "weight": 0.08696271
+          },
+          {
+            "name": "Azerbaijan International Investment Forum",
+            "weight": 0.086766906
+          },
+          {
+            "name": "Azerbaijan",
+            "weight": 0.08289795
+          },
+          {
+            "name": "foreign companies",
+            "weight": 0.07980862
+          },
+          {
+            "name": "attractive financing",
+            "weight": 0.07888315
+          }
+        ],
+        "topics": [
+          {
+            "name": "ESG"
+          },
+          {
+            "name": "Green Energy"
+          },
+          {
+            "name": "Oil Sector"
+          },
+          {
+            "name": "Energy Sector"
+          },
+          {
+            "name": "Renewables"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Business"
+          },
+          {
+            "name": "Environment"
+          }
+        ],
+        "taxonomies": [
+          {
+            "name": "/News/Business News/Other",
+            "score": 0.9234544038772583
+          },
+          {
+            "name": "/News/Business News/Company News",
+            "score": 0.7752646803855896
+          },
+          {
+            "name": "/Business & Industrial/Energy & Utilities/Renewable & Alternative Energy",
+            "score": 0.7224291563034058
+          }
+        ],
+        "entities": [
+          {
+            "data": "Azerbaijan",
+            "type": "GPE",
+            "mentions": 8
+          },
+          {
+            "data": "BAKU",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "Baku",
+            "type": "GPE",
+            "mentions": 1
+          },
+          {
+            "data": "SOCAR Green",
+            "type": "ORG",
+            "mentions": 3
+          },
+          {
+            "data": "Trend",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "the Ministry of Energy",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Azerenerji",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "the US Federal Reserve",
+            "type": "ORG",
+            "mentions": 1
+          },
+          {
+            "data": "Elmir Musayev",
+            "type": "PERSON",
+            "mentions": 2
+          },
+          {
+            "data": "Azerbaijan International Investment Forum",
+            "type": "EVENT",
+            "mentions": 1
+          }
+        ],
+        "companies": [
+          {
+            "id": "4b54690a418b4c6389e8ecaec60b0ebb",
+            "name": "Azerenerji",
+            "domains": [
+              "azerenerji.gov.az"
+            ],
+            "symbols": []
+          }
+        ],
+        "sentiment": {
+          "positive": 0.4470629,
+          "negative": 0.074711695,
+          "neutral": 0.47822535
+        },
+        "summary": "Azerbaijan has attracted strong interest from foreign companies in renewable energy projects, according to SOCAR Green CEO Elmir Musayev at the 2nd Azerbaijan International Investment Forum in Baku. He noted that experts have assessed over 200 gigawatts of solar energy potential and 157 gigawatts worth of offshore wind technical potential, with around 35 gigawatts considered economically viable. Musayov also highlighted the first phase of renewable energy development, supported by a 250-megawatt/2-hour battery energy storage system. He said that the cost of capital had increased after the US Federal Reserve raised interest rates, making it more difficult for companies like SOCAR to finance projects. Currently, financing in Azerbaijan mainly comes from international financial institutions (IFIs) as projects require long-term financing, typically 15–20 years.",
+        "shortSummary": "Azerbaijan attracts strong interest from foreign companies in renewable energy projects, with significant potential for both solar and offshore wind energy, despite increased costs and financing challenges.",
+        "translation": "",
+        "translatedTitle": "",
+        "translatedDescription": "",
+        "translatedSummary": "",
+        "locations": [
+          {
+            "country": "az",
+            "city": "Baku"
+          }
+        ],
+        "reprint": false,
+        "reprintGroupId": "9d30b6c2cc074e2e86e61bafb1a9d1ed",
+        "places": [],
+        "people": []
+      }
+    ]
+  }
+}

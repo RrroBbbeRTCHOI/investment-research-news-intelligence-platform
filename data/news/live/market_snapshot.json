@@ -1,0 +1,149 @@
+{
+  "generated_at": "2026-09-28T08:37:44.249415+00:00",
+  "status": "delayed",
+  "quotes": {
+    "^HSI": {
+      "symbol": "^HSI",
+      "value": 24642.509765625,
+      "change": 132.419921875,
+      "change_percent": 0.5402669786980266,
+      "timestamp": "2026-09-28T08:08:00+00:00",
+      "currency": "HKD",
+      "source": "Yahoo Finance via existing yahoo_provider",
+      "status": "delayed",
+      "definition": "Latest available unadjusted one-minute close; change versus prior observed session close. Not exchange real-time."
+    },
+    "000002.SS": {
+      "symbol": "000002.SS",
+      "value": 4007.405029296875,
+      "change": -71.039794921875,
+      "change_percent": -1.7418353804868034,
+      "timestamp": "2026-09-28T06:57:00+00:00",
+      "currency": "CNY",
+      "source": "Yahoo Finance via existing yahoo_provider",
+      "status": "delayed",
+      "definition": "Latest available unadjusted one-minute close; change versus prior observed session close. Not exchange real-time."
+    },
+    "CL=F": {
+      "symbol": "CL=F",
+      "value": 94.80999755859375,
+      "change": 0.8199996948242188,
+      "change_percent": 0.8724329327177326,
+      "timestamp": "2026-09-28T08:28:00+00:00",
+      "currency": "USD",
+      "source": "Yahoo Finance via existing yahoo_provider",
+      "status": "delayed",
+      "definition": "Latest available unadjusted one-minute close; change versus prior observed session close. Not exchange real-time."
+    },
+    "^DJI": {
+      "symbol": "^DJI",
+      "value": 51821.37109375,
+      "change": 472.19140625,
+      "change_percent": 0.9195695220910145,
+      "timestamp": "2026-09-25T19:59:00+00:00",
+      "currency": "USD",
+      "source": "Yahoo Finance via existing yahoo_provider",
+      "status": "delayed",
+      "definition": "Latest available unadjusted one-minute close; change versus prior observed session close. Not exchange real-time."
+    },
+    "^GSPC": {
+      "symbol": "^GSPC",
+      "value": 7742.31982421875,
+      "change": 38.48974609375,
+      "change_percent": 0.49961831586916106,
+      "timestamp": "2026-09-25T19:59:00+00:00",
+      "currency": "USD",
+      "source": "Yahoo Finance via existing yahoo_provider",
+      "status": "delayed",
+      "definition": "Latest available unadjusted one-minute close; change versus prior observed session close. Not exchange real-time."
+    },
+    "^IXIC": {
+      "symbol": "^IXIC",
+      "value": 27064.884765625,
+      "change": 127.3515625,
+      "change_percent": 0.47276623861470013,
+      "timestamp": "2026-09-25T19:59:00+00:00",
+      "currency": "USD",
+      "source": "Yahoo Finance via existing yahoo_provider",
+      "status": "delayed",
+      "definition": "Latest available unadjusted one-minute close; change versus prior observed session close. Not exchange real-time."
+    },
+    "AAPL": {
+      "symbol": "AAPL",
+      "value": 341.0400085449219,
+      "change": 5.170013427734375,
+      "change_percent": 1.539290053560908,
+      "timestamp": "2026-09-25T19:59:00+00:00",
+      "currency": "USD",
+      "source": "Yahoo Finance via existing yahoo_provider",
+      "status": "delayed",
+      "definition": "Latest available unadjusted one-minute close; change versus prior observed session close. Not exchange real-time."
+    },
+    "MSFT": {
+      "symbol": "MSFT",
+      "value": 516.0999755859375,
+      "change": 18.514984130859375,
+      "change_percent": 3.7209691708579005,
+      "timestamp": "2026-09-25T19:59:00+00:00",
+      "currency": "USD",
+      "source": "Yahoo Finance via existing yahoo_provider",
+      "status": "delayed",
+      "definition": "Latest available unadjusted one-minute close; change versus prior observed session close. Not exchange real-time."
+    },
+    "GOOGL": {
+      "symbol": "GOOGL",
+      "value": 343.8399963378906,
+      "change": 1.41998291015625,
+      "change_percent": 0.4146903961429605,
+      "timestamp": "2026-09-25T19:59:00+00:00",
+      "currency": "USD",
+      "source": "Yahoo Finance via existing yahoo_provider",
+      "status": "delayed",
+      "definition": "Latest available unadjusted one-minute close; change versus prior observed session close. Not exchange real-time."
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "value": 225.0800018310547,
+      "change": 0.540008544921875,
+      "change_percent": 0.24049548457665557,
+      "timestamp": "2026-09-25T19:59:00+00:00",
+      "currency": "USD",
+      "source": "Yahoo Finance via existing yahoo_provider",
+      "status": "delayed",
+      "definition": "Latest available unadjusted one-minute close; change versus prior observed session close. Not exchange real-time."
+    },
+    "AMZN": {
+      "symbol": "AMZN",
+      "value": 249.74000549316406,
+      "change": 0.3899993896484375,
+      "change_percent": 0.15640640870348824,
+      "timestamp": "2026-09-25T19:59:00+00:00",
+      "currency": "USD",
+      "source": "Yahoo Finance via existing yahoo_provider",
+      "status": "delayed",
+      "definition": "Latest available unadjusted one-minute close; change versus prior observed session close. Not exchange real-time."
+    },
+    "META": {
+      "symbol": "META",
+      "value": 751.9000244140625,
+      "change": -25.53997802734375,
+      "change_percent": -3.2851381389097787,
+      "timestamp": "2026-09-25T19:59:00+00:00",
+      "currency": "USD",
+      "source": "Yahoo Finance via existing yahoo_provider",
+      "status": "delayed",
+      "definition": "Latest available unadjusted one-minute close; change versus prior observed session close. Not exchange real-time."
+    },
+    "TSLA": {
+      "symbol": "TSLA",
+      "value": 372.0799865722656,
+      "change": -5.83001708984375,
+      "change_percent": -1.542699857994865,
+      "timestamp": "2026-09-25T19:59:00+00:00",
+      "currency": "USD",
+      "source": "Yahoo Finance via existing yahoo_provider",
+      "status": "delayed",
+      "definition": "Latest available unadjusted one-minute close; change versus prior observed session close. Not exchange real-time."
+    }
+  }
+}
